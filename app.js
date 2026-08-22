@@ -69,12 +69,12 @@
     markers[v.id] = m;
   });
 
-  function fitAll() {
+  function fitAll(animate) {
     var pts = VENUES.filter(function (v) { return visible(v) && markers[v.id]; }).map(function (v) { return [v.lat, v.lng]; });
     if (!pts.length) return;
     pts.push(SF);
     var pad = detailPanel.classList.contains('is-open') && !isMobile() ? [40, parseInt(getComputedStyle(document.documentElement).getPropertyValue('--detail-w')) + 40] : [40, 40];
-    map.fitBounds(L.latLngBounds(pts), { paddingTopLeft: [40, 40], paddingBottomRight: pad, maxZoom: 11 });
+    map.fitBounds(L.latLngBounds(pts), { paddingTopLeft: [40, 40], paddingBottomRight: pad, maxZoom: 11, animate: animate !== false });
   }
 
   /* ---------- list ---------- */
@@ -350,7 +350,7 @@
     if (!el.clientWidth || !el.clientHeight) return;
     map.invalidateSize({ pan: false });
     fitted = true;
-    fitAll();
+    fitAll(false);
     var initial = location.hash.replace(/^#/, '');
     if (initial && byId(initial)) select(initial);
   }
