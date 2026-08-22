@@ -339,8 +339,6 @@
   $('mobileClose').addEventListener('click', function () { $('listPanel').classList.remove('is-open'); });
   map.on('click', function () { if (isMobile()) { /* tap on map: no-op */ } });
 
-  window.__venueMap = map;
-
   /* ---------- init ---------- */
   renderList();
   var fitted = false;
