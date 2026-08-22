@@ -1,0 +1,36 @@
+{
+  "id": "land-of-medicine-buddha",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "published",
+    "low": 22000,
+    "high": 30000,
+    "summary": "$22k–30k (2023 rate sheet)",
+    "basis": "LMB 'Rates for Group Rentals' sheet (Google Doc, labelled 2023 prices, still live but no longer linked from the current group-rentals page): all-inclusive per-person per-night rates cover lodging, 3 vegetarian meals/day, meeting room and grounds. Single $275, double $245, shared 3–4/room $225; yurt single $210, yurt double $185, tent platform $145; commuters $115/person/day incl. meals; $3,900/night minimum invoice; 2-night minimum. Site holds max 56 overnight (19 rooms + 6 yurts + tent platforms), so 60 people means ~4+ commuters. Low: 56 in shared rooms ($225) + 4 commuters ($115) = $13,060/night x 2 = $26,120 at 2023 rates; a mix of singles/yurts with more commuters comes to ~$22,300. High: doubles + double yurts + commuters = ~$25,500 at 2023 rates, ~$30k allowing for 2026 increases. Taxes/service not stated on the sheet; $25/person late-checkout fee; extra side dishes $5–10/person.",
+    "per_person": "~$370–500 per person for 2 nights incl. 6 meals (2023 rates)",
+    "source_url": "https://docs.google.com/document/d/1p3VZgJNHKlO2qBzXjqvU6qvFlPlymR9r7EP971xxk6U/",
+    "source_label": "LMB Rates for Group Rentals (Google Doc, 2023 prices)",
+    "confidence": "medium"
+  },
+  "availability_notes": "Exclusive group rentals: 19 rooms with private baths (up to 56 overnight incl. seasonal Yurt Village, open May 1–Oct 31), minimum 18 / maximum 56 guests, 2-night minimum, $3,900/night minimum invoice; Pine Room seats 60 (35 for yoga). 'We host groups nearly every week.' Rental inquiry form on the group-rentals page (facilityrentals@medicinebuddha.org). LMB runs its own residential retreats and weekend teachings, listed on the public LMB Events Calendar (Google Calendar) and All Programs page; Sep 2026 is heavily programmed (Khen Rinpoche three-week series Sep 5–27). The individual-room ResNexus booking engine is behind bot protection and could not be read.",
+  "availability": [
+    {"weekend": "2026-08-21", "status": "booked", "evidence": "Residential retreat 'Wise Paths to the Heart with Hans Burghardt' runs Aug 21–23 plus a Lama Chopa puja Fri Aug 21, so LMB's own program occupies the center that weekend.", "source_url": "https://landofmedicinebuddha.org/programs/calendar-of-events/"},
+    {"weekend": "2026-08-28", "status": "partial", "evidence": "Center is running day programs: a teaching Sat Aug 29 10 am–noon and the Ksitigarbha Festival with 100 Torma Offering Sun Aug 30 10 am–2 pm at the Ksitigarbha Pure Land; overnight group availability is not published.", "source_url": "https://landofmedicinebuddha.org/programs/all-programs/"},
+    {"weekend": "2026-09-04", "status": "booked", "evidence": "'The Foundation of All Good Qualities Weekend Retreat' Sat Sep 5–Sun Sep 6 (10:30 am–4 pm both days in the Gompa) opens the Khen Rinpoche series, followed by a Jangwa and Ruchog puja Mon Sep 7.", "source_url": "https://landofmedicinebuddha.org/programs/all-programs/"},
+    {"weekend": "2026-09-11", "status": "booked", "evidence": "'The Sixteen Human Dharmas' weekend retreat with Khen Rinpoche Wangdu runs Sat Sep 12–Sun Sep 13 (10:30 am–4 pm) in the Gompa.", "source_url": "https://landofmedicinebuddha.org/programs/all-programs/"},
+    {"weekend": "2026-09-18", "status": "booked", "evidence": "Eight-day residential 'White Tara Retreat, with White Tara Long Life Empowerment' runs Sep 16–23/24, covering the whole weekend.", "source_url": "https://landofmedicinebuddha.org/programs/calendar-of-events/"},
+    {"weekend": "2026-09-25", "status": "booked", "evidence": "'Lama Tsongkhapa Mind Training' weekend retreat with Khen Rinpoche Wangdu runs Sat Sep 26–Sun Sep 27 (10:30 am–4 pm).", "source_url": "https://landofmedicinebuddha.org/programs/all-programs/"},
+    {"weekend": "2026-10-02", "status": "unknown", "evidence": "Calendar shows nothing Oct 2–4 beyond the weekly Sunday drop-in meditation (last listed event is a Sound Journey Wed Sep 30; next is a Nov 6 retreat), but private group rentals are not published so openness cannot be confirmed.", "source_url": "https://landofmedicinebuddha.org/programs/calendar-of-events/"},
+    {"weekend": "2026-10-09", "status": "unknown", "evidence": "No LMB program listed Oct 9–11 on the events calendar; private group rentals are not published.", "source_url": "https://landofmedicinebuddha.org/programs/calendar-of-events/"},
+    {"weekend": "2026-10-16", "status": "unknown", "evidence": "No LMB program listed Oct 16–18 on the events calendar (calendar is populated through Nov 2026); private group rentals are not published.", "source_url": "https://landofmedicinebuddha.org/programs/calendar-of-events/"}
+  ],
+  "sources": [
+    "https://landofmedicinebuddha.org/stay/group-rentals/",
+    "https://landofmedicinebuddha.org/stay/",
+    "https://landofmedicinebuddha.org/programs/calendar-of-events/",
+    "https://landofmedicinebuddha.org/programs/all-programs/",
+    "https://calendar.google.com/calendar/ical/c_bdcb92c9bec7bf04975ab6d91d0c9079e713ba69bfd02b9cc9a8e14c57666dd5%40group.calendar.google.com/public/basic.ics",
+    "https://docs.google.com/document/d/1p3VZgJNHKlO2qBzXjqvU6qvFlPlymR9r7EP971xxk6U/",
+    "http://web.archive.org/web/20240222130215/https://stay.landofmedicinebuddha.org/bring-your-group/residential-retreats/"
+  ]
+}

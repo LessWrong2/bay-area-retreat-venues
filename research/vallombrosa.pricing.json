@@ -1,0 +1,87 @@
+{
+  "id": "vallombrosa",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "quote",
+    "low": 20000,
+    "high": 27000,
+    "summary": "Quote only (~$20k–27k proxy)",
+    "basis": "Rates page says only 'Please call Jaynie Fedele at 650-325-5614 or jaynie@vallombrosa.org to request current rates'; no rate sheet, brochure PDF or meal prices are published. Proxy: the Life-Giving Wounds retreat held at Vallombrosa Nov 13–15 2026 (Fri 6pm–Sun 3:30pm, lodging + meals + program) charges $400 shared double room / $450 private room per person vs $350 retreat-only, so 60 x $400–450 = $24,000–27,000 is an all-in ceiling that includes the organizer's program costs; low end assumes the venue's lodging+meals share is somewhat less. Meeting rooms: groups over 75 get a conference room plus breakouts free; smaller groups pay extra for additional rooms.",
+    "per_person": "roughly $330–450 per person for Fri dinner–Sun lunch incl. meals (proxy)",
+    "source_url": "https://www.vallombrosa.org/rts/",
+    "source_label": "Vallombrosa Center Rates page (call/email for rates)",
+    "confidence": "low",
+    "hint": "Life-Giving Wounds retreat at Vallombrosa, Nov 13–15 2026: $400 shared double room, $450 private/single room, $350 no-room option (all include the program and meals).",
+    "hint_url": "https://sfarch.org/event/life-giving-wounds-retreat/"
+  },
+  "availability_notes": "Archdiocese of San Francisco retreat center; hosts groups 'of a religious, educational or charitable nature' (its own letter also mentions secular organizations), up to 100 overnight in 60 private-bath rooms (20 singles, 40 twins). Weekend events run Friday 6pm dinner to Sunday lunch; rooms ready after 4pm Friday; deposits non-refundable but transferable. No public booking calendar — the site's 2026 events calendar is empty ('Watch this page'), and the Archdiocese venue listing shows only a Nov 13–15 retreat.",
+  "availability": [
+    {
+      "weekend": "2026-08-21",
+      "status": "unknown",
+      "evidence": "No public group calendar; the center's 2026 Calendar of Events page lists nothing, and diocesan venue listings show no event this weekend (only Nov 13–15 2026).",
+      "source_url": "https://www.vallombrosa.org/calendar/"
+    },
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "No public group calendar; the center's 2026 Calendar of Events page lists nothing, and diocesan venue listings show no event this weekend (only Nov 13–15 2026).",
+      "source_url": "https://www.vallombrosa.org/calendar/"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "unknown",
+      "evidence": "No public group calendar; the center's 2026 Calendar of Events page lists nothing, and diocesan venue listings show no event this weekend (only Nov 13–15 2026).",
+      "source_url": "https://www.vallombrosa.org/calendar/"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "unknown",
+      "evidence": "No public group calendar; the center's 2026 Calendar of Events page lists nothing, and diocesan venue listings show no event this weekend (only Nov 13–15 2026).",
+      "source_url": "https://www.vallombrosa.org/calendar/"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "No public group calendar; the center's 2026 Calendar of Events page lists nothing, and diocesan venue listings show no event this weekend (only Nov 13–15 2026).",
+      "source_url": "https://www.vallombrosa.org/calendar/"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "unknown",
+      "evidence": "No public group calendar; the center's 2026 Calendar of Events page lists nothing, and diocesan venue listings show no event this weekend (only Nov 13–15 2026).",
+      "source_url": "https://www.vallombrosa.org/calendar/"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "No public group calendar; the center's 2026 Calendar of Events page lists nothing, and diocesan venue listings show no event this weekend (only Nov 13–15 2026).",
+      "source_url": "https://www.vallombrosa.org/calendar/"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "No public group calendar; the center's 2026 Calendar of Events page lists nothing, and diocesan venue listings show no event this weekend (only Nov 13–15 2026).",
+      "source_url": "https://www.vallombrosa.org/calendar/"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "unknown",
+      "evidence": "No public group calendar; the center's 2026 Calendar of Events page lists nothing, and diocesan venue listings show no event this weekend (only Nov 13–15 2026).",
+      "source_url": "https://www.vallombrosa.org/calendar/"
+    }
+  ],
+  "sources": [
+    "https://www.vallombrosa.org/",
+    "https://www.vallombrosa.org/rts/",
+    "https://www.vallombrosa.org/calendar/",
+    "https://www.vallombrosa.org/retreats-conferences-programs/",
+    "https://www.vallombrosa.org/accommodations/",
+    "https://www.vallombrosa.org/meet-rooms/",
+    "https://www.vallombrosa.org/bookevent/",
+    "https://www.vallombrosa.org/letters/",
+    "https://sfarch.org/venue/vallombrosa-retreat-center/",
+    "https://sfarch.org/event/life-giving-wounds-retreat/",
+    "https://www.dsj.org/venue/vallombrosa-retreat-center/"
+  ]
+}

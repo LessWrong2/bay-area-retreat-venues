@@ -1,0 +1,85 @@
+{
+  "id": "the-land",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "published",
+    "low": 42000,
+    "high": 66000,
+    "summary": "$42k-66k+",
+    "basis": "Corporate-retreats page: private-event pricing 'typically ranges from $350 pp per night to $550 and up', inclusive of lodging (eco-cabin/house/glamping) and three farm-to-table meals a day. 60 people x 2 nights x $350 = $42,000 (low); 60 x 2 x $550 = $66,000 (high, and the page says 'and up'). Taxes/service not stated. Capacity check: 27 single-occupancy units (15 cabins + 12 glamping tents), up to ~120 in shared accommodation; weddings page counts 60 beds across 18 cabin units and 6 homes plus 12 glamping tents, so 60 people means mostly shared rooms.",
+    "per_person": "$700-1,100+ per person for Fri-Sun incl. all meals",
+    "source_url": "https://the-land.us/corporate-retreats",
+    "source_label": "The Land - Corporate Retreats (Planning Your Stay pricing)",
+    "confidence": "medium"
+  },
+  "availability_notes": "Private events are custom-designed 2-4 day immersions quoted via the web inquiry form / info@the-land.us / (707) 485-3117. Guests must be 18+; property is alcohol- and cannabis-free. The corporate page currently says 'We do not host weddings at this time' (the weddings page still describes four weddings a year). The venue runs its own programs (Women's Retreat Sept 24-27, 2026; Winter Retreat 2026-27 dates TBD) and sells personal stays year-round directly or via Airbnb; Eros Monastery programming is paused. No public group-availability calendar.",
+  "availability": [
+    {
+      "weekend": "2026-08-21",
+      "status": "unknown",
+      "evidence": "No program on The Land's own calendar (True North Aug 6-9, Women's Retreat Sept 24-27, Winter Retreat TBD) falls on this weekend, but the venue publishes no group-availability calendar, so buyout availability is unknown.",
+      "source_url": "https://the-land.us/"
+    },
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "No program on The Land's own calendar (True North Aug 6-9, Women's Retreat Sept 24-27, Winter Retreat TBD) falls on this weekend, but the venue publishes no group-availability calendar, so buyout availability is unknown.",
+      "source_url": "https://the-land.us/"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "unknown",
+      "evidence": "No program on The Land's own calendar (True North Aug 6-9, Women's Retreat Sept 24-27, Winter Retreat TBD) falls on this weekend, but the venue publishes no group-availability calendar, so buyout availability is unknown.",
+      "source_url": "https://the-land.us/"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "unknown",
+      "evidence": "No program on The Land's own calendar (True North Aug 6-9, Women's Retreat Sept 24-27, Winter Retreat TBD) falls on this weekend, but the venue publishes no group-availability calendar, so buyout availability is unknown.",
+      "source_url": "https://the-land.us/"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "No program on The Land's own calendar (True North Aug 6-9, Women's Retreat Sept 24-27, Winter Retreat TBD) falls on this weekend, but the venue publishes no group-availability calendar, so buyout availability is unknown.",
+      "source_url": "https://the-land.us/"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "booked",
+      "evidence": "The Land is running its own all-inclusive Women's Retreat Sept 24-27, 2026 (Thu-Sun, $1,299 incl. lodging and meals, 'small circle'), so staff, kitchen and lodging are committed that weekend; a 60-person private event is not realistic without confirming with the venue.",
+      "source_url": "https://the-land.us/womens-retreat"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "No program on The Land's own calendar (True North Aug 6-9, Women's Retreat Sept 24-27, Winter Retreat TBD) falls on this weekend, but the venue publishes no group-availability calendar, so buyout availability is unknown.",
+      "source_url": "https://the-land.us/"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "No program on The Land's own calendar (True North Aug 6-9, Women's Retreat Sept 24-27, Winter Retreat TBD) falls on this weekend, but the venue publishes no group-availability calendar, so buyout availability is unknown.",
+      "source_url": "https://the-land.us/"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "unknown",
+      "evidence": "No program on The Land's own calendar (True North Aug 6-9, Women's Retreat Sept 24-27, Winter Retreat TBD) falls on this weekend, but the venue publishes no group-availability calendar, so buyout availability is unknown.",
+      "source_url": "https://the-land.us/"
+    }
+  ],
+  "sources": [
+    "https://the-land.us/",
+    "https://the-land.us/corporate-retreats",
+    "https://the-land.us/womens-retreat",
+    "https://the-land.us/true-north",
+    "https://the-land.us/winter-retreat",
+    "https://the-land.us/weddings",
+    "https://the-land.us/explore-the-land",
+    "https://the-land.us/monastery-welcome",
+    "https://the-land.us/cabins",
+    "https://the-land.us/glamping-tents",
+    "https://the-land.us/sitemap.xml"
+  ]
+}

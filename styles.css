@@ -15,7 +15,7 @@
   --tier-C: #5a6b8a;
   --tier-REF: #a39c91;
   --shadow: 0 1px 2px rgba(30, 25, 15, .08), 0 8px 24px -8px rgba(30, 25, 15, .25);
-  --list-w: 360px;
+  --list-w: 384px;
   --detail-w: 440px;
   --serif: "Newsreader", Georgia, "Times New Roman", serif;
   --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
@@ -307,3 +307,69 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; margin: 0; letter-spac
   .list-footer { padding-bottom: 14px; }
   .mobile-close { display: inline-block; margin-left: auto; font-size: 13px; font-weight: 500; color: var(--ink-2); padding: 3px 10px; border: 1px solid var(--line-2); border-radius: 999px; }
 }
+
+/* ---------- weekend widget ---------- */
+.weekends { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
+.weekends-head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 8px; }
+.weekends-title { font-size: 10.5px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.weekends-clear { font-size: 11.5px; color: var(--ink-2); border-bottom: 1px solid var(--line-2); }
+.weekends-clear:hover { color: var(--ink); border-bottom-color: var(--ink); }
+.weekend-grid { display: grid; grid-template-columns: repeat(9, 1fr); gap: 3px; }
+.wk {
+  display: flex; flex-direction: column; align-items: center; gap: 3px;
+  padding: 6px 0 5px; border-radius: 7px; border: 1px solid transparent;
+  transition: background .12s, border-color .12s;
+}
+.wk:hover { background: var(--hover); }
+.wk.is-active { background: var(--ink); border-color: var(--ink); color: #fff; }
+.wk.is-target { border-color: var(--line-2); }
+.wk.is-active.is-target { border-color: var(--ink); }
+.wk-mon { font-size: 9px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); line-height: 1; }
+.wk.is-active .wk-mon { color: rgba(255,255,255,.7); }
+.wk-day { font-family: var(--serif); font-size: 15px; line-height: 1; font-weight: 500; }
+.wk-count { font-size: 10px; line-height: 1; color: var(--muted); display: flex; align-items: center; gap: 3px; min-height: 10px; }
+.wk.is-active .wk-count { color: rgba(255,255,255,.85); }
+.wk-count .dot { width: 6px; height: 6px; }
+.wk-target-label { font-size: 8.5px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--tier-A); line-height: 1; }
+.wk.is-active .wk-target-label { color: #fff; }
+.weekends-hint { margin: 8px 0 0; font-size: 11px; line-height: 1.45; color: var(--muted); }
+
+.dot.avail-available { background: #2e9a5a; }
+.dot.avail-partial { background: #d9a531; }
+.dot.avail-booked { background: #c8463d; }
+.dot.avail-unknown { background: #d2ccc0; }
+
+/* ---------- tier descriptions + cost in rows ---------- */
+.group-desc { padding: 0 20px 8px; font-size: 12px; line-height: 1.45; color: var(--muted); }
+.row { grid-template-columns: 44px 1fr auto; }
+.row-side { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; text-align: right; padding-top: 2px; }
+.row-cost { font-family: var(--serif); font-size: 14px; color: var(--ink-2); white-space: nowrap; }
+.row-cost.quote { color: var(--muted); font-style: italic; font-size: 13px; }
+.row-avail { display: inline-flex; align-items: center; gap: 4px; font-size: 10.5px; color: var(--muted); white-space: nowrap; }
+
+/* ---------- cost + availability in detail ---------- */
+.fact dd a.cost-link { text-decoration: none; border-bottom: 1px solid var(--line-2); font-family: var(--serif); font-size: 17px; }
+.fact dd a.cost-link:hover { border-bottom-color: var(--ink); }
+.fact dd .cost-basis { display: block; font-size: 12px; color: var(--muted); margin-top: 3px; line-height: 1.4; }
+.basis-more { font-size: 11.5px; color: var(--ink-2); border-bottom: 1px solid var(--line-2); }
+.basis-more:hover { color: var(--ink); border-bottom-color: var(--ink); }
+.fact dd .cost-conf { display: inline-block; font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-left: 6px; vertical-align: middle; }
+.avail { margin: 0 0 22px; }
+.avail h3 { font-family: var(--sans); font-size: 10.5px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+.avail-grid { display: grid; grid-template-columns: repeat(9, 1fr); gap: 3px; margin-bottom: 8px; }
+.avail-cell {
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  padding: 6px 0 5px; border-radius: 7px; border: 1px solid var(--line); background: var(--panel);
+  transition: background .12s;
+}
+.avail-cell:hover, .avail-cell.is-active { background: var(--hover); }
+.avail-cell.is-target { border-color: var(--line-2); }
+.avail-cell .wk-day { font-size: 14px; }
+.avail-cell .dot { width: 8px; height: 8px; }
+.avail-detail { font-size: 12.5px; line-height: 1.5; color: var(--ink-2); background: var(--hover); border-radius: 8px; padding: 10px 12px; min-height: 40px; }
+.avail-detail strong { color: var(--ink); }
+.avail-detail a { color: var(--muted); font-size: 11.5px; }
+.avail-notes { font-size: 12.5px; color: var(--ink-2); margin: 8px 0 0; line-height: 1.5; }
+.avail-legend { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; font-size: 11px; color: var(--muted); }
+.avail-legend span { display: inline-flex; align-items: center; gap: 4px; }
+.avail-legend .dot { width: 7px; height: 7px; }

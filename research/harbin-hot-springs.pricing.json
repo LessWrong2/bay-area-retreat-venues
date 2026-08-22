@@ -1,0 +1,81 @@
+{
+  "id": "harbin-hot-springs",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "published",
+    "low": 9900,
+    "high": 17700,
+    "summary": "$9.9k–17.7k (no group bookings; everyone books individually; meals extra)",
+    "basis": "Harbin does not take group bookings (policy since July 2023: every adult buys a membership and makes their own reservation), so this is the sum of 60 individual bookings at published Fri–Sun/holiday rates. Membership $15 (1-month trial) per adult. Low = camping: 24-hour visit/camping pass $75 per adult per 24 h x 2 = $150 + $15 membership = $165 x 60 = $9,900. High = indoor lodging at double occupancy: Creekside Caravans $215/night (2 people, ~$108 pp), Grove Cottages $275 + $65 second adult (~$170 pp), Dome rooms $125–345/night (mostly $225 double, ~$113 pp); blended ~$140 pp/night x 2 nights + $15 = $295 x 60 = $17,700. Indoor inventory (15 caravans, a handful of cottages, ~16 dome rooms) cannot sleep 60, so in practice a 60-person group would be split between rooms and tent camping. 2-night minimum for rooms on weekends. Meals are not included (restaurant/cafe on site). $250 refundable incidental deposit per lodging reservation at check-in.",
+    "per_person": "$165 (camping) to ~$295 (room, double occupancy) per person for Fri–Sun, meals extra",
+    "source_url": "https://harbin.org/reservations/accommodations-rates/",
+    "source_label": "Harbin Hot Springs Accommodations & Rates page",
+    "confidence": "medium"
+  },
+  "availability_notes": "Group bookings are explicitly not allowed ('Effective July 2023 ... each guest will need to purchase their own membership and book their own reservation'); no buyouts, no group rates. Membership-only (guests 18+), clothing-optional pools, alcohol- and drug-free, electronics banned in pool areas. 2-night minimum for rooms on weekends/holidays; 48-hour cancellation policy; max 4 room cancellations per year. Lodging currently: Creekside Caravans (15 trailers), Grove Cottages, Dome rooms (~16), plus tent/vehicle camping on 24-hour passes; a new hotel near the pools is under construction (weekday construction noise). Harbin's events calendar lists daily classes/workshops that are included with admission and do not close the site. Availability below comes from the public reservation system (secure.rzda.net) reached from Book Your Visit, after selecting a membership type (no purchase made).",
+  "availability": [
+    {
+      "weekend": "2026-08-21",
+      "status": "partial",
+      "evidence": "Booking engine grid for Fri 8/21–Sat 8/22: both Creekside Caravan categories bookable both nights; Grove Cottages and every Dome room show Unavailable Fri and Sat (ADA cottage Sat only). Individual rooms only; group bookings are not accepted.",
+      "source_url": "https://secure.rzda.net/azbook/manager.cfm?Key=218|1|732&clear"
+    },
+    {
+      "weekend": "2026-08-28",
+      "status": "partial",
+      "evidence": "Grid for Fri 8/28–Sat 8/29: caravans and Grove Cottages bookable both nights; Dome 5 #52 bookable both nights, a few other dome rooms Fri only; most dome rooms Unavailable. Individual rooms only.",
+      "source_url": "https://secure.rzda.net/azbook/manager.cfm?Key=218|1|732&clear"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "partial",
+      "evidence": "Grid for Labor Day Fri 9/4–Sat 9/5: Sat 9/5 shows Unavailable for every lodging category (caravans, cottages, all domes); Fri has lower caravans, cottage, ADA units and Dome 5 #51. Effectively no 2-night indoor lodging; camping/24-hour passes are separate.",
+      "source_url": "https://secure.rzda.net/azbook/manager.cfm?Key=218|1|732&clear"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "partial",
+      "evidence": "Grid for Fri 9/11–Sat 9/12: caravans, Grove Cottages, ADA dome, Dome 3 #30, Dome 4 #40/#43, Dome 5 #53 bookable both nights; Dome 1, Dome 2 and several dome rooms Unavailable. Individual rooms only.",
+      "source_url": "https://secure.rzda.net/azbook/manager.cfm?Key=218|1|732&clear"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "partial",
+      "evidence": "Grid for Fri 9/18–Sat 9/19: caravans, Grove Cottages, ADA cottage, ADA dome, Dome 1, Dome 2, Dome 4 #40, Dome 5 #51/#53 bookable both nights; Dome 2 #5, Dome 3 #30, Dome 4 #41-43 Unavailable. Individual rooms only.",
+      "source_url": "https://secure.rzda.net/azbook/manager.cfm?Key=218|1|732&clear"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "partial",
+      "evidence": "Grid for Fri 9/25–Sat 9/26: caravans, Grove Cottages, ADA units, Dome 1, Dome 2, Dome 4 #40/#41 bookable both nights; Dome 2 #5 and all Dome 5 rooms Unavailable, several rooms Sat only. Individual rooms only.",
+      "source_url": "https://secure.rzda.net/azbook/manager.cfm?Key=218|1|732&clear"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "partial",
+      "evidence": "Grid for Fri 10/2–Sat 10/3: only Upper/Lower Creekside Caravans and Grove Cottages bookable; ADA units and every Dome room Unavailable both nights. Individual rooms only.",
+      "source_url": "https://secure.rzda.net/azbook/manager.cfm?Key=218|1|732&clear"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "partial",
+      "evidence": "Grid for Fri 10/9–Sat 10/10: caravans, Grove Cottages, ADA cottage, Dome 1, Dome 2, Dome 4 #42 bookable both nights; Dome 2 #5, Dome 5 rooms and ADA dome Unavailable. Individual rooms only.",
+      "source_url": "https://secure.rzda.net/azbook/manager.cfm?Key=218|1|732&clear"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "partial",
+      "evidence": "Grid for Fri 10/16–Sat 10/17 (target weekend): caravans, Grove Cottages, ADA dome, Dome 1, Dome 2, Dome 3 #30, Dome 5 #53 bookable both nights; Dome 2 #5, Dome 4 #40-43, Dome 5 #51/#52 Unavailable. Individual rooms only; Harbin's own calendar shows only its regular classes (qigong, sound bath, kirtan, church service) that weekend, nothing that closes the site.",
+      "source_url": "https://secure.rzda.net/azbook/manager.cfm?Key=218|1|732&clear"
+    }
+  ],
+  "sources": [
+    "https://harbin.org/reservations/accommodations-rates/",
+    "https://harbin.org/reservations/book-your-visit/",
+    "https://secure.rzda.net/azbook/manager.cfm?Key=218|1|732&clear",
+    "https://harbin.org/reservations/helpful-information/",
+    "https://harbin.org/experience/events/",
+    "https://events.timely.fun/yo9qexxm/",
+    "https://harbin.org/news-blog/lodging-overview-options-at-harbin/"
+  ]
+}

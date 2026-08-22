@@ -1,0 +1,39 @@
+{
+  "id": "presidio-lodging",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "published",
+    "low": 41000,
+    "high": 82000,
+    "summary": "$41k–82k rooms only (+16% park fee)",
+    "basis": "Booking-engine rates seen for fall 2026 weekends (double occupancy, breakfast + evening wine & cheese included): Lodge at the Presidio Standard King $585, Junior King Suite $620, View King $705; Inn at the Presidio Classic/Funston King Suites $705–735 per night, each plus a 16% National Park Fee and $0 tax. Low: 30 rooms double occupancy x $585 x 2 nights = $35,100 + 16% = $40,716. High: 60 single-occupancy rooms (the two hotels have 68 total) x $585 x 2 x 1.16 = $81,432; using $705 rooms would push past $98k. Extras: $13/night parking, $25 third person, lunches/dinners not served (in-house catering limited to beverages; full catering via preferred vendors); the Inn's two 425 sq ft meeting rooms hold 20 each, so a 60-person session needs a Presidio venue. Full two-property buyout is offered but priced on request.",
+    "per_person": "~$680–1,360 per person for 2 nights incl. breakfast, double vs single occupancy",
+    "source_url": "https://lodgeres.presidiolodging.com/?launchwebres=true&checkin=8-28-2026&nights=2&guests=2",
+    "source_label": "Lodge at the Presidio booking engine (live rates) + hotel policies (16% park fee)",
+    "confidence": "medium"
+  },
+  "availability_notes": "Two hotels, 68 rooms total (Lodge 42 rooms, Inn 22 + Funston House); full two-property buyout for up to 200 attendees is an advertised product (press Sept 2025) but quoted on request via the meetings/room-block email. Public engines (innres / lodgeres.presidiolodging.com) show a 2-night minimum on most fall weekends and 3 nights around Thanksgiving. Group blocks held back from public sale would not show online, so 'sold out' below means no public rooms, not necessarily no group contract. 16% park fee on all rooms, $13 overnight parking, 72-hour individual cancellation.",
+  "availability": [
+    {"weekend": "2026-08-21", "status": "booked", "evidence": "Both booking engines return 'Sold Out on 2026-08-21' for a Fri–Sun, 2-adult search; Lodge calendar flags Aug 21 and 22 SoldOut.", "source_url": "https://lodgeres.presidiolodging.com/?launchwebres=true&checkin=8-21-2026&nights=2&guests=2"},
+    {"weekend": "2026-08-28", "status": "partial", "evidence": "Individual rooms only: Lodge returns one room type (Standard King $585+fees) and the Inn two suite types ($705–735) for Fri–Sun; nowhere near 30+ rooms for a 60-person group.", "source_url": "https://lodgeres.presidiolodging.com/?launchwebres=true&checkin=8-28-2026&nights=2&guests=2"},
+    {"weekend": "2026-09-04", "status": "partial", "evidence": "Labor Day weekend: Inn is 'Sold Out on 2026-09-05'; Lodge returns a single room type (View King $705+fees) for Fri–Sun.", "source_url": "https://lodgeres.presidiolodging.com/?launchwebres=true&checkin=9-4-2026&nights=2&guests=2"},
+    {"weekend": "2026-09-11", "status": "partial", "evidence": "Lodge says 'Rate or Room Type not available' for Fri–Sun; Inn returns only a Classic King Suite 1st floor ($705+fees), i.e. a handful of individual rooms at most.", "source_url": "https://innres.presidiolodging.com/?launchwebres=true&checkin=9-11-2026&nights=2&guests=2"},
+    {"weekend": "2026-09-18", "status": "partial", "evidence": "Lodge returns one room type (Standard King $585+fees) and the Inn one suite type (Classic King Suite $705+fees) for Fri–Sun; individual rooms only.", "source_url": "https://lodgeres.presidiolodging.com/?launchwebres=true&checkin=9-18-2026&nights=2&guests=2"},
+    {"weekend": "2026-09-25", "status": "booked", "evidence": "Both engines return 'Sold Out on 2026-09-26' for Fri–Sun; calendars flag Sat Sep 26 SoldOut at both hotels.", "source_url": "https://lodgeres.presidiolodging.com/?launchwebres=true&checkin=9-25-2026&nights=2&guests=2"},
+    {"weekend": "2026-10-02", "status": "booked", "evidence": "Both engines return 'Sold Out on 2026-10-02' for a Fri–Sun search.", "source_url": "https://lodgeres.presidiolodging.com/?launchwebres=true&checkin=10-2-2026&nights=2&guests=2"},
+    {"weekend": "2026-10-09", "status": "booked", "evidence": "Both engines return 'Sold Out on 2026-10-09' for a Fri–Sun search.", "source_url": "https://lodgeres.presidiolodging.com/?launchwebres=true&checkin=10-9-2026&nights=2&guests=2"},
+    {"weekend": "2026-10-16", "status": "booked", "evidence": "Inn returns 'Sold Out on 2026-10-16' (calendar flags Oct 16 SoldOut) and the Lodge returns 'Rate or Room Type not available' for Fri Oct 16–Sun Oct 18, so no public rooms at either hotel.", "source_url": "https://innres.presidiolodging.com/?launchwebres=true&checkin=10-16-2026&nights=2&guests=2"}
+  ],
+  "sources": [
+    "https://presidiolodging.com/",
+    "https://presidiolodging.com/hotel-policies/",
+    "https://presidiolodging.com/inn-at-the-presidio/meetings-events/",
+    "https://presidiolodging.com/inn-at-the-presidio/",
+    "https://presidiolodging.com/lodge-at-the-presidio/",
+    "https://innres.presidiolodging.com/?launchwebres=true&checkin=10-16-2026&nights=2&guests=2",
+    "https://lodgeres.presidiolodging.com/?launchwebres=true&checkin=10-16-2026&nights=2&guests=2",
+    "https://lodgeres.presidiolodging.com/?launchwebres=true&checkin=8-28-2026&nights=2&guests=2",
+    "https://thehotelguide.com/presidio-lodging-offering-full-property-buyouts/",
+    "https://www.meetingstoday.com/articles/145670/full-buyout-option-comes-boutique-hotels-san-frans-national-park"
+  ]
+}

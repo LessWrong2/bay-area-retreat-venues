@@ -1,0 +1,39 @@
+{
+  "id": "mendocino-woodlands",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "quote",
+    "low": 2500,
+    "high": 8000,
+    "summary": "$2.5k–8k (est., self-catered)",
+    "basis": "Current Camp Rental Details page says facility rental fees for new groups 'include all utilities' but 'please email director@mendocinowoodlands.org or call 707-937-5755 for current rates'. Only hint: the 2019 version of the same page (Wayback) listed legacy-group rates of $22.50 (Camp One), $20.00 (Camp Two), $17.50 (Camp Three) per person per night plus metered utilities of ~$2–3/person/night, against a minimum-attendee fee. 60 people x 2 nights x $20–25.50 = $2,400–3,060 at those 2019 legacy rates; new-group facility fees, firewood, a 25% nonrefundable rental deposit, a security deposit and a cleaning deposit are extra, and the group cooks for itself in the camp kitchen (no meals served). High end allows for 2026 new-group pricing being well above the 2019 legacy rate. State Parks page: fall minimum occupancy is 60 for Camp One, 40 for Camp Two, 30 for Camp Three.",
+    "per_person": "~$40–130 per person for 2 nights, no meals (est.)",
+    "source_url": "https://www.mendocinowoodlands.org/camp-rental-details",
+    "source_label": "Mendocino Woodlands Camp Rental Details (rates on request)",
+    "confidence": "low",
+    "hint": "2019 archived rental page: legacy-group per-person/per-night fees Camp One $22.50, Camp Two $20.00, Camp Three $17.50, plus ~$2–3/person/night metered utilities; firewood extra; day use at half the nightly rate.",
+    "hint_url": "http://web.archive.org/web/20190918080727/https://www.mendocinowoodlands.org/camp-rental-details"
+  },
+  "availability_notes": "Group camping only, exclusive use of one whole camp (Camp One cap 200, 46 four-bed cabins; Camp Two cap 120; Camp Three cap 80 tent cabins). Fall minimum occupancy: Camp One 60, Camp Two 40, Camp Three 30 (parks.ca.gov). Arrival 2 pm, departure 11 am; group self-caters and cleans. Seasonal: in 2025 Camp Three closed for the season Oct 14, Camp Two Nov 2, Camp One Nov 17; camps reopen late March–May. Availability is shown on the public Camp Calendar (three Google calendars, red/blue/green bars = reserved); book via the online Reservation Inquiry Form, 25% nonrefundable deposit + security deposit with signed contract.",
+  "availability": [
+    {"weekend": "2026-08-21", "status": "available", "evidence": "Camp Calendar shows Camp One (cap 200) with no reservation Aug 9–27; Camp Two is taken by 'Mosaic' Aug 17–23 and Camp Three by 'Bay Area Queer Line Dancing' Aug 21–23 (this is essentially a same-day booking).", "source_url": "https://www.mendocinowoodlands.org/camp-calendar"},
+    {"weekend": "2026-08-28", "status": "booked", "evidence": "All three camps reserved: Camp One 'Josh and April Wedding' Aug 27–30, Camp Two 'Duffy's Reunion' Aug 28–30, Camp Three 'Camp 40' Aug 27–31.", "source_url": "https://www.mendocinowoodlands.org/camp-calendar"},
+    {"weekend": "2026-09-04", "status": "booked", "evidence": "All three camps reserved Sep 4–7 (Camp One 'Woodside Beasts', Camp Two 'UU Labor Day Camp', Camp Three 'Andre Libarle').", "source_url": "https://www.mendocinowoodlands.org/camp-calendar"},
+    {"weekend": "2026-09-11", "status": "booked", "evidence": "Camp One 'Sisters in Serenity' Sep 11–13, Camp Three 'Mendocino Running Festival' Sep 11–13, and Camp Two 'Mendocino Community High School' through Fri Sep 11, so no camp is free for Fri–Sun.", "source_url": "https://www.mendocinowoodlands.org/camp-calendar"},
+    {"weekend": "2026-09-18", "status": "available", "evidence": "Camp Three (20 four-bed tent cabins, cap 80, fall minimum 30) shows no reservation Sep 14–24; Camp One ('Camp Awesome') and Camp Two ('Bay Campers') are both taken Sep 17–20.", "source_url": "https://www.mendocinowoodlands.org/camp-calendar"},
+    {"weekend": "2026-09-25", "status": "available", "evidence": "Camp One (cap 200, fall minimum 60) shows no reservation Sep 21–Oct 1; Camp Two ('On Set Cinema' Sep 25–27) and Camp Three ('St. Dominic's Young Adult Group' Sep 25–28) are taken.", "source_url": "https://www.mendocinowoodlands.org/camp-calendar"},
+    {"weekend": "2026-10-02", "status": "available", "evidence": "Camp Two (cap 120, fall minimum 40) shows no reservation after Sep 28; Camp One ('Krisanne and Marie' Oct 2–5) and Camp Three ('NorCal' Oct 1–4) are taken.", "source_url": "https://www.mendocinowoodlands.org/camp-calendar"},
+    {"weekend": "2026-10-09", "status": "available", "evidence": "Camp One and Camp Two both show no reservation Oct 9–11; Camp Three is taken by 'Mysteries of Samhain' Oct 9–12.", "source_url": "https://www.mendocinowoodlands.org/camp-calendar"},
+    {"weekend": "2026-10-16", "status": "available", "evidence": "No reservation on any camp calendar Oct 16–18 (Camp One's next booking is 'Leesville' Nov 6–8, Camp Two has none after Sep 28); note Camp Three closed for the season on Oct 14 in 2025 so it may already be closed, leaving Camp One and Camp Two.", "source_url": "https://www.mendocinowoodlands.org/camp-calendar"}
+  ],
+  "sources": [
+    "https://www.mendocinowoodlands.org/bookings-events",
+    "https://www.mendocinowoodlands.org/camp-rental-details",
+    "https://www.mendocinowoodlands.org/camp-calendar",
+    "https://calendar.google.com/calendar/ical/c_5f2822059a7aac14074a0774a5ab4f01879a9af7ea4c07ad62ae15d18b6ee50d@group.calendar.google.com/public/basic.ics",
+    "https://calendar.google.com/calendar/ical/u1jlf1ckt2cl6p75rlejfpdigg@group.calendar.google.com/public/basic.ics",
+    "https://calendar.google.com/calendar/ical/qjhom66ed6lflb21l7nptf688k@group.calendar.google.com/public/basic.ics",
+    "https://www.parks.ca.gov/?page_id=24630",
+    "http://web.archive.org/web/20190918080727/https://www.mendocinowoodlands.org/camp-rental-details"
+  ]
+}

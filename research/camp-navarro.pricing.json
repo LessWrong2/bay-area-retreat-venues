@@ -1,0 +1,92 @@
+{
+  "id": "camp-navarro",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "quote",
+    "low": 37000,
+    "high": 62000,
+    "summary": "Quote only; wedding-style exclusive use implies ~$37k-62k",
+    "basis": "Retreat pricing is quoted ('depends on length, meals, beverage program, weekday/weekend, time of year, group size; larger groups get reduced pricing'). The only published number is the wedding package: Site Rental Fee $25,000 (Apr-Oct) for a 3-day/2-night exclusive use of the 200-acre property and Bosch Lodge, with catering and lodging extra. Illustrative 60-person arithmetic: $25,000 site fee + 5 buffet meals at the published wedding menu prices ($45 welcome dinner, $49 reception dinner, $30 brunch; ~$190/person) = $11,400 + 7.875% sales tax = ~$12,300, giving ~$37,000 if everyone BYO-tent camps; adding cabin/glamping lodging at roughly $100-200 per person per night (lodging rates are not published; festival teepees are $400-500 for 3 nights + 11% lodging tax) pushes the total to ~$50,000-62,000.",
+    "per_person": "roughly $620-1,030 per person for Fri-Sun if wedding-package pricing applied",
+    "source_url": "https://www.campnavarropresents.com/wedding-inquiry",
+    "source_label": "Camp Navarro wedding inquiry page (Site Rental Fee $25,000 Apr-Oct)",
+    "confidence": "low",
+    "hint": "Third-party wedding site Destination I Do lists Camp Navarro high-season (May-Nov) site rental at $15,000-75,000 with a $12,000-14,000 catering minimum; The Reunion adult camp (Oct 8-11, 2026) resells a 3-night all-inclusive stay for $499/person.",
+    "hint_url": "https://destinationido.com/locations/redwood-forest-wedding-venue/"
+  },
+  "availability_notes": "Turn-key, quote-only venue that hosts one group at a time; 240-260 beds (32 cabins, 54 glamping units, tents/RV) and permitted to 1,500, so a 60-person group pays for exclusive use of a much larger site. No phone inquiries (web form or inquiry@campnavarroca.com only); not open to individual reservations; typical event is 3 days/2 nights with 5 buffet meals; 2-night lodging minimum; 7.875% sales tax on catering, 11% lodging tax. Home page banner (May 27, 2026 update) says CN has 'select availability throughout the rest of the year' and 'August 25-September 25 is wide open'. Festivals it produces: Camp Redwoods 5 (Aug 21-23, sold out) and Camp Deep End 10 (Sept 25-27).",
+  "availability": [
+    {
+      "weekend": "2026-08-21",
+      "status": "booked",
+      "evidence": "Camp Redwoods 5 music campout occupies the site Aug 21-23, 2026 and the page says 'CAMP REDWOODS IS SOLD OUT!'.",
+      "source_url": "https://www.campnavarro.com/campout"
+    },
+    {
+      "weekend": "2026-08-28",
+      "status": "available",
+      "evidence": "Venue's own 'May 27th Availability Update' banner on the home page (still live on Aug 21, 2026; absent from the May 27, 2026 Wayback snapshot, so it is a 2026 notice) states 'August 25-September 25 is wide open for late summer gatherings' - that is whole-site availability as of late May, not re-confirmed since.",
+      "source_url": "https://www.campnavarro.com/"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "available",
+      "evidence": "Venue's own 'May 27th Availability Update' banner on the home page (still live on Aug 21, 2026; absent from the May 27, 2026 Wayback snapshot, so it is a 2026 notice) states 'August 25-September 25 is wide open for late summer gatherings' - that is whole-site availability as of late May, not re-confirmed since. (Labor Day weekend falls inside that window.)",
+      "source_url": "https://www.campnavarro.com/"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "available",
+      "evidence": "Venue's own 'May 27th Availability Update' banner on the home page (still live on Aug 21, 2026; absent from the May 27, 2026 Wayback snapshot, so it is a 2026 notice) states 'August 25-September 25 is wide open for late summer gatherings' - that is whole-site availability as of late May, not re-confirmed since.",
+      "source_url": "https://www.campnavarro.com/"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "available",
+      "evidence": "Venue's own 'May 27th Availability Update' banner on the home page (still live on Aug 21, 2026; absent from the May 27, 2026 Wayback snapshot, so it is a 2026 notice) states 'August 25-September 25 is wide open for late summer gatherings' - that is whole-site availability as of late May, not re-confirmed since.",
+      "source_url": "https://www.campnavarro.com/"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "booked",
+      "evidence": "Camp Deep End 10, the venue's flagship festival, runs September 25-27, 2026 ('tickets are on sale and moving quickly').",
+      "source_url": "https://www.campnavarro.com/deep-end-home"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "No public event found for Oct 2-4; home page only says the venue has 'select availability throughout the rest of the year'.",
+      "source_url": "https://www.campnavarro.com/"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "booked",
+      "evidence": "The Reunion adult summer camp (third-party event, $499/person, 3 nights) is held at Camp Navarro October 8-11, 2026.",
+      "source_url": "https://thereunion.camp/"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "unknown",
+      "evidence": "No public event found for Oct 16-18; home page only says the venue has 'select availability throughout the rest of the year'.",
+      "source_url": "https://www.campnavarro.com/"
+    }
+  ],
+  "sources": [
+    "https://www.campnavarro.com/",
+    "https://www.campnavarro.com/campout",
+    "https://www.campnavarro.com/deep-end-home",
+    "https://www.campnavarro.com/deepend-event-details",
+    "https://www.campnavarro.com/cn-festivals",
+    "https://www.campnavarro.com/events-1",
+    "https://www.campnavarro.com/inquiryrequest",
+    "https://www.campnavarro.com/request-a-quote-alternate",
+    "https://www.campnavarropresents.com/info-packet",
+    "https://www.campnavarropresents.com/wedding-inquiry",
+    "https://www.campnavarropresents.com/wedding-packet",
+    "https://www.campnavarropresents.com/lodging-copy",
+    "https://thereunion.camp/",
+    "https://destinationido.com/locations/redwood-forest-wedding-venue/",
+    "https://eventup.com/venue/camp-navarro-2/",
+    "http://web.archive.org/web/20260527234617/https://www.campnavarro.com/"
+  ]
+}

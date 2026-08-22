@@ -1,0 +1,82 @@
+{
+  "id": "wilbur-hot-springs",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "published",
+    "low": 17200,
+    "high": 21700,
+    "summary": "$17k–22k at published room rates (but only ~45-50 beds; exclusive use is quoted)",
+    "basis": "Published weekend rates (include 11% land-management fee; the FareHarbor booking engine shows ~6.5% more 'including fees and taxes', e.g. cabin $360.42 vs $338.55): Cabins $338.55/night double (~$169 pp); Cabin Suite $442.89 double + $138.75 extra person; Solar Lodge private room $286.38 double (~$143 pp) + $138.75 extra; Historic Hotel room $303.03 double (~$152 pp); co-ed Bunk Room $146.52 per bunk; camping $87.69 pp (Apr–Oct). Low = 60 x $143.19 pp/night (Solar Lodge double, website rate) x 2 nights = ~$17,200; High = 60 x $169.28 pp/night (cabins) x 2 nights x 1.065 engine fees/taxes = ~$21,700. Hypothetical only: inventory is about 10 cabins, 1 suite, 8 Solar Lodge rooms, 2 hotel rooms, a bunk room and 6 tent platforms (~45-50 people), so 60 cannot be housed at once. No meals: guests cook in the community kitchen (nearest grocery 20+ miles). Exclusive-use/group contracts are quoted by the front desk (530-777-2306, info@wilburhotsprings.com).",
+    "per_person": "$285–360 per person for Fri–Sun lodging (no meals), if beds were available",
+    "source_url": "https://www.wilburhotsprings.com/reservations/rooms-rates/",
+    "source_label": "Wilbur Hot Springs Reservations & Rates page",
+    "confidence": "low",
+    "hint": "FAQ: 'There is limited availability for groups to contract Wilbur for small groups and exclusive use events each year' — price not published; Guest Chef Weekends carry a $225/person food & beverage minimum on top of lodging.",
+    "hint_url": "https://www.wilburhotsprings.com/reservations/plan-your-visit/"
+  },
+  "availability_notes": "Off-grid, clothing-optional health sanctuary with roughly 45-50 beds (10 cabins incl. 2 ADA, 1 cabin suite, 8 Solar Lodge rooms, 2 historic hotel rooms, a co-ed bunk room, 6 seasonal tent platforms Apr–Oct). Groups: the former group space (Red House) is gone; groups of more than 5 must contact the front desk before booking; exclusive-use events exist but are limited and quoted case by case. Ages 13+. Select weekends require 2-night (Fri+Sat) stays; 5-day cancellation policy for overnights; 11% land-management fee included in rates. Two Sarana Yoga Retreat / Guest Chef Weekends (Sept 18-20, Oct 2-4) take the whole property. Availability below read from the public FareHarbor calendar per accommodation type (no reservation made).",
+  "availability": [
+    {
+      "weekend": "2026-08-21",
+      "status": "partial",
+      "evidence": "FareHarbor calendars: Fri 8/21 (same-day) shows no bookable lodging in any category; Sat 8/22 has only ADA cabin and Hotel Queen bookable, with Cabin Suite and campsites sold out. Individual rooms only; property sleeps roughly 45-50.",
+      "source_url": "https://fareharbor.com/embeds/book/wilburhotsprings/?full-items=yes"
+    },
+    {
+      "weekend": "2026-08-28",
+      "status": "partial",
+      "evidence": "FareHarbor calendars for Fri 8/28 and Sat 8/29: Cabin Queen, Cabin Suite, Solar Lodge, Bunk Room and campsites bookable both nights; Historic Hotel rooms sold out. Individual rooms only; even a full house is ~45-50 people, and groups over 5 must call first.",
+      "source_url": "https://fareharbor.com/embeds/book/wilburhotsprings/?full-items=yes"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "partial",
+      "evidence": "FareHarbor calendars for Labor Day Fri 9/4–Sat 9/5: Cabin Queen, Solar Lodge and Bunk Room bookable both nights; Cabin Suite and Hotel rooms sold out, ADA cabin and campsites sold out Saturday. Individual rooms only; holiday rates apply.",
+      "source_url": "https://fareharbor.com/embeds/book/wilburhotsprings/?full-items=yes"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "partial",
+      "evidence": "FareHarbor calendars for Fri 9/11 and Sat 9/12: Cabin Queen, ADA cabin, Solar Lodge, Hotel Queen, Bunk Room and campsites all bookable both nights; only the Cabin Suite is sold out. Individual rooms only; whole property is ~45-50 beds.",
+      "source_url": "https://fareharbor.com/embeds/book/wilburhotsprings/?full-items=yes"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "booked",
+      "evidence": "Wilbur's Programs & Events page lists the Sarana Yoga Retreat / Guest Chef Weekend Sept 18-20, and the FareHarbor calendars show every lodging category (cabins, suite, Solar Lodge, hotel, bunks, campsites) as sold out / not bookable for both Fri 9/18 and Sat 9/19.",
+      "source_url": "https://www.wilburhotsprings.com/activities-events/special-events/"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "partial",
+      "evidence": "FareHarbor calendars for Fri 9/25 and Sat 9/26: Cabin Queen, ADA cabin, Solar Lodge, Bunk Room and campsites bookable both nights; Cabin Suite sold out, Hotel Queen sold out Saturday. Individual rooms only; ~45-50 beds total.",
+      "source_url": "https://fareharbor.com/embeds/book/wilburhotsprings/?full-items=yes"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "booked",
+      "evidence": "Wilbur's Programs & Events page lists the Sarana Yoga Retreat / Guest Chef Weekend Oct 2-4, and the FareHarbor calendars show every lodging category sold out / not bookable for both Fri 10/2 and Sat 10/3.",
+      "source_url": "https://www.wilburhotsprings.com/activities-events/special-events/"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "partial",
+      "evidence": "FareHarbor calendars for Fri 10/9 and Sat 10/10: Cabin Queen, ADA cabin, Solar Lodge, Hotel Queen and campsites bookable both nights; Cabin Suite and Bunk Room sold out Saturday. Individual rooms only; ~45-50 beds total.",
+      "source_url": "https://fareharbor.com/embeds/book/wilburhotsprings/?full-items=yes"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "partial",
+      "evidence": "FareHarbor calendars for Fri 10/16 and Sat 10/17 (target weekend): Cabin Queen, ADA cabin, Solar Lodge, Hotel Queen, Bunk Room and campsites bookable both nights; Cabin Suite sold out Friday. Individual rooms only; the property tops out around 45-50 beds and no exclusive-use block is shown publicly.",
+      "source_url": "https://fareharbor.com/embeds/book/wilburhotsprings/?full-items=yes"
+    }
+  ],
+  "sources": [
+    "https://www.wilburhotsprings.com/reservations/rooms-rates/",
+    "https://fareharbor.com/embeds/book/wilburhotsprings/?full-items=yes",
+    "https://www.wilburhotsprings.com/activities-events/special-events/",
+    "https://www.wilburhotsprings.com/reservations/plan-your-visit/",
+    "https://www.wilburhotsprings.com/reservations/policies-and-terms/",
+    "https://www.wilburhotsprings.com/about/history/"
+  ]
+}

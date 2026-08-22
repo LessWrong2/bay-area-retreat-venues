@@ -1,0 +1,36 @@
+{
+  "id": "westerbeke-ranch",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "published",
+    "low": 27700,
+    "high": 33000,
+    "summary": "$28k–33k",
+    "basis": "Rate schedule effective July 1, 2026 (rates page): overnight conference rate for 33–48+ people is $255/person/night on weekends ($245 midweek), inclusive of shared cabin lodging, three meals, coffee/tea, one meeting room, grounds, pool and hot tub; two-night minimum on weekends; prices subject to 14% occupancy tax and/or 9.25% sales tax. Overnight lodging is capped at 48 guests (cabins page), and exclusive use is secured by paying room and board for 40. For a 60-person group: 48 overnight x $255 x 2 nights = $24,480, plus 12 commuters at the $135/person day-conference rate (lunch included) x 2 days = $3,240, subtotal $27,720 pre-tax (low). Adding 14% occupancy tax on the overnight portion and 9.25% on day use gives ~$31,450; a second meeting room (Casa Vista $540/day or Casa Nueva $750/day) for two days brings the high to ~$33,000. 50% deposit to hold space; balance due on departure.",
+    "per_person": "$510 per overnight guest for the weekend incl. 6 meals before tax (~$580 with 14% occupancy tax); $270 per day-use guest",
+    "source_url": "https://www.thewesterbekeranch.com/yourstay/rates-resources/",
+    "source_label": "Westerbeke Ranch Rates & Resources (effective July 1, 2026)",
+    "confidence": "high"
+  },
+  "availability_notes": "No public booking calendar; the rates page says space is often booked far in advance and to contact the office (707-996-7546, Info@WestRanch.com). The site's 'Calendar' page is a stale 2020 list of groups. Two-night minimum for weekend reservations; arrival 4pm, departure 3pm, cabin checkout 10am. Overnight capacity 48 (five cabins), so a 60-person group needs ~12 commuters or day-use guests. Exclusive use = pay room and board for 40 guests; otherwise other groups may share the property. Third-party retreats publicly scheduled at the Ranch in the window: Elise Miller/Marla Apt yoga retreat Fri–Sun Oct 2–4, 2026; a Women's Retreat Oct 19–23 falls just outside the window.",
+  "availability": [
+    {"weekend": "2026-08-21", "status": "unknown", "evidence": "No public calendar; no third-party event found naming the Ranch for this weekend (the Estee Fletter/Cindy Meiri retreat was Aug 14–16).", "source_url": "https://www.harmony-bodyworkenergy.com/workshops-events"},
+    {"weekend": "2026-08-28", "status": "unknown", "evidence": "No public calendar and no event found naming the Ranch for this weekend.", "source_url": "https://www.thewesterbekeranch.com/yourstay/rates-resources/"},
+    {"weekend": "2026-09-04", "status": "unknown", "evidence": "No public calendar and no event found naming the Ranch for Labor Day weekend.", "source_url": "https://www.thewesterbekeranch.com/yourstay/rates-resources/"},
+    {"weekend": "2026-09-11", "status": "unknown", "evidence": "No public calendar and no event found naming the Ranch for this weekend.", "source_url": "https://www.thewesterbekeranch.com/yourstay/rates-resources/"},
+    {"weekend": "2026-09-18", "status": "unknown", "evidence": "No public calendar and no event found naming the Ranch for this weekend.", "source_url": "https://www.thewesterbekeranch.com/yourstay/rates-resources/"},
+    {"weekend": "2026-09-25", "status": "unknown", "evidence": "No public calendar and no event found naming the Ranch for this weekend.", "source_url": "https://www.thewesterbekeranch.com/yourstay/rates-resources/"},
+    {"weekend": "2026-10-02", "status": "partial", "evidence": "A public Iyengar yoga retreat (Elise Browning Miller and Marla Apt) is booked at Westerbeke Ranch Fri Oct 2 4pm through Sun Oct 4 after lunch, $980/person; with only 48 beds on site, whatever remains cannot hold a 60-person group.", "source_url": "https://ebmyoga.com/workshops_retreats/yoga-retreat-at-westerbeke-with-elise-miller-and-marla-apt/"},
+    {"weekend": "2026-10-09", "status": "unknown", "evidence": "No public calendar and no event found naming the Ranch for this weekend.", "source_url": "https://www.thewesterbekeranch.com/yourstay/rates-resources/"},
+    {"weekend": "2026-10-16", "status": "unknown", "evidence": "No public calendar and no event found naming the Ranch for this weekend; the next known group is a Women's Retreat starting Mon Oct 19.", "source_url": "https://productivelearning.com/workshop/womens-retreat-2026/"}
+  ],
+  "sources": [
+    "https://www.thewesterbekeranch.com/yourstay/rates-resources/",
+    "https://www.thewesterbekeranch.com/yourstay/cabins/",
+    "https://www.thewesterbekeranch.com/about/calendar/",
+    "https://ebmyoga.com/workshops_retreats/yoga-retreat-at-westerbeke-with-elise-miller-and-marla-apt/",
+    "https://ebmyoga.com/wp-content/uploads/2025/12/Registration-Westerbeke_2026_Elise_Marla.pdf",
+    "https://productivelearning.com/workshop/womens-retreat-2026/",
+    "https://www.harmony-bodyworkenergy.com/workshops-events"
+  ]
+}

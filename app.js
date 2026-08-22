@@ -5,8 +5,27 @@
   var TIER_ORDER = { A: 0, B: 1, C: 2, REF: 3 };
   var TIER_NAMES = { A: 'Tier A — strongest matches', B: 'Tier B — solid, with tradeoffs', C: 'Tier C — worth a call', REF: 'Reference' };
   var SF = [37.7749, -122.4194];
+  var TIER_DESC = {
+    A: 'Strongest matches to the Lighthaven / SSS Ranch / The Shadows profile: real character, whole-site exclusive use, on-site lodging that lands near 60, within about 2.5 hours of SF.',
+    B: 'Solid and bookable, but each trades something: aesthetics, distance, guest-type restrictions, or dorm-style lodging.',
+    C: 'Worth a call for a specific reason (architecture, hot springs, all-inclusive ease, in-city convenience), with a clear tradeoff.',
+    REF: 'Your own example venue, a venue that no longer rents, and three that are simply too small.'
+  };
+  var WEEKENDS = [
+    { id: '2026-08-21', mon: 'Aug', day: '21', label: 'Fri Aug 21 – Sun Aug 23' },
+    { id: '2026-08-28', mon: 'Aug', day: '28', label: 'Fri Aug 28 – Sun Aug 30' },
+    { id: '2026-09-04', mon: 'Sep', day: '4', label: 'Fri Sep 4 – Sun Sep 6 (Labor Day weekend)' },
+    { id: '2026-09-11', mon: 'Sep', day: '11', label: 'Fri Sep 11 – Sun Sep 13' },
+    { id: '2026-09-18', mon: 'Sep', day: '18', label: 'Fri Sep 18 – Sun Sep 20' },
+    { id: '2026-09-25', mon: 'Sep', day: '25', label: 'Fri Sep 25 – Sun Sep 27' },
+    { id: '2026-10-02', mon: 'Oct', day: '2', label: 'Fri Oct 2 – Sun Oct 4' },
+    { id: '2026-10-09', mon: 'Oct', day: '9', label: 'Fri Oct 9 – Sun Oct 11' },
+    { id: '2026-10-16', mon: 'Oct', day: '16', label: 'Fri Oct 16 – Sun Oct 18', target: true }
+  ];
+  var TARGET_WEEKEND = '2026-10-16';
+  var STATUS_LABEL = { available: 'Open', partial: 'Partly open', booked: 'Booked / closed', unknown: 'No public info' };
 
-  var state = { filter: 'ALL', selected: null, hover: null, lightbox: { images: [], index: 0 } };
+  var state = { filter: 'ALL', weekend: null, selected: null, hover: null, lightbox: { images: [], index: 0 } };
   var markers = {};
   var rows = {};
 
@@ -21,7 +40,15 @@
     });
   }
   function byId(id) { for (var i = 0; i < VENUES.length; i++) if (VENUES[i].id === id) return VENUES[i]; return null; }
-  function visible(v) { return state.filter === 'ALL' || v.tier === state.filter; }
+  function availStatus(v, weekendId) {
+    var a = (v.availability || []).filter(function (x) { return x.weekend === weekendId; })[0];
+    return a || { weekend: weekendId, status: 'unknown', evidence: '', source_url: '' };
+  }
+  function visible(v) {
+    if (state.filter !== 'ALL' && v.tier !== state.filter) return false;
+    if (state.weekend && availStatus(v, state.weekend).status !== 'available') return false;
+    return true;
+  }
   function isMobile() { return window.matchMedia('(max-width: 820px)').matches; }
 
   /* ---------- map ---------- */
@@ -73,7 +100,7 @@
     var pts = VENUES.filter(function (v) { return visible(v) && markers[v.id]; }).map(function (v) { return [v.lat, v.lng]; });
     if (!pts.length) return;
     pts.push(SF);
-    var pad = detailPanel.classList.contains('is-open') && !isMobile() ? [40, parseInt(getComputedStyle(document.documentElement).getPropertyValue('--detail-w')) + 40] : [40, 40];
+    var pad = detailPanel.classList.contains('is-open') && !isMobile() ? [80, parseInt(getComputedStyle(document.documentElement).getPropertyValue('--detail-w')) + 40] : [80, 40];
     map.fitBounds(L.latLngBounds(pts), { paddingTopLeft: [40, 40], paddingBottomRight: pad, maxZoom: 11, animate: animate !== false });
   }
 
@@ -84,6 +111,7 @@
     var html = '';
     Object.keys(groups).sort(function (a, b) { return TIER_ORDER[a] - TIER_ORDER[b]; }).forEach(function (t) {
       html += '<div class="group-header"><span class="dot tier-' + t + '"></span>' + esc(TIER_NAMES[t] || t) + ' <span class="count">' + groups[t].length + '</span></div>';
+      if (TIER_DESC[t]) html += '<div class="group-desc">' + esc(TIER_DESC[t]) + '</div>';
       groups[t].forEach(function (v) {
         var thumb = v.thumb
           ? '<img class="row-thumb" src="' + esc(v.thumb) + '" alt="" loading="lazy">'
@@ -94,7 +122,7 @@
             '<div class="row-name">' + esc(v.name) + '</div>' +
             '<div class="row-meta"><span>' + esc(v.area) + '</span><span class="sep">·</span><span>' + esc(v.drive) + '</span></div>' +
             '<div class="row-sleeps">' + esc(shortSleeps(v)) + '</div>' +
-          '</div></button>';
+          '</div>' + rowSide(v) + '</button>';
       });
     });
     listEl.innerHTML = html;
@@ -107,6 +135,17 @@
     });
     var n = VENUES.filter(visible).length;
     $('countLabel').textContent = n + ' venue' + (n === 1 ? '' : 's');
+  }
+
+  function rowSide(v) {
+    var c = v.cost || {};
+    var label = c.short || c.summary || 'Quote';
+    var cost = '<span class="row-cost' + (c.mode === 'published' ? '' : ' quote') + '" title="' + esc(c.summary || '') + '">' + esc(label) + '</span>';
+    var wk = state.weekend || TARGET_WEEKEND;
+    var a = availStatus(v, wk);
+    var w = WEEKENDS.filter(function (x) { return x.id === wk; })[0];
+    var avail = '<span class="row-avail" title="' + esc(w.label + ': ' + STATUS_LABEL[a.status]) + '"><span class="dot avail-' + esc(a.status) + '"></span>' + esc(w.mon + ' ' + w.day) + '</span>';
+    return '<div class="row-side">' + cost + avail + '</div>';
   }
 
   function shortSleeps(v) {
@@ -213,10 +252,13 @@
     html += '<p class="detail-area">' + esc(v.area) + (v.address ? ' · ' + esc(v.address) : '') + '</p>';
 
     html += '<dl class="facts">';
+    html += costFact(v);
     html += fact('Sleeps on-site', v.sleeps);
     html += fact('Exclusive buyout?', v.buyout);
     html += fact('Meeting capacity', v.meeting, true);
     html += '</dl>';
+
+    html += availabilitySection(v);
 
     html += '<div class="prose">';
     if (v.why) html += '<h3>Why it’s on the list</h3><p class="why">' + esc(v.why) + '</p>';
@@ -255,9 +297,69 @@
     detailScroll.innerHTML = html;
 
     $('detailClose').addEventListener('click', closeDetail);
+    Array.prototype.forEach.call(detailScroll.querySelectorAll('.basis-more'), function (b) {
+      b.addEventListener('click', function () {
+        var wrap = b.closest('.cost-basis');
+        var short = wrap.querySelector('.basis-short'), full = wrap.querySelector('.basis-full');
+        short.hidden = !short.hidden; full.hidden = !full.hidden;
+      });
+    });
+    if ($('availSection')) {
+      renderAvailDetail(v, state.weekend || TARGET_WEEKEND);
+      $('availSection').addEventListener('click', function (e) {
+        var c = e.target.closest('.avail-cell'); if (c) renderAvailDetail(v, c.dataset.wk);
+      });
+    }
     Array.prototype.forEach.call(detailScroll.querySelectorAll('[data-idx]'), function (el) {
       el.addEventListener('click', function () { openLightbox(imgs, parseInt(el.dataset.idx, 10)); });
     });
+  }
+
+  function costFact(v) {
+    var c = v.cost || {};
+    if (!c.source_url && !c.summary) return '';
+    var label = c.summary || (c.mode === 'quote' ? 'Quote on request' : '');
+    var inner = c.source_url
+      ? '<a class="cost-link" href="' + esc(c.source_url) + '" target="_blank" rel="noopener" title="' + esc(c.source_label || 'Source') + '">' + esc(label) + '</a>'
+      : esc(label);
+    if (c.confidence && c.mode === 'published') inner += '<span class="cost-conf">' + esc(c.confidence) + ' confidence</span>';
+    var basis = c.basis || '';
+    if (c.mode === 'quote' && c.hint) basis += (basis ? ' ' : '') + c.hint;
+    if (basis) {
+      var tail = c.hint_url ? ' <a href="' + esc(c.hint_url) + '" target="_blank" rel="noopener">source</a>' : '';
+      if (basis.length > 230) {
+        var cut = basis.slice(0, 200).replace(/\s+\S*$/, '');
+        inner += '<span class="cost-basis"><span class="basis-short">' + esc(cut) + '… <button class="basis-more" type="button">more</button></span><span class="basis-full" hidden>' + esc(basis) + tail + ' <button class="basis-more" type="button">less</button></span></span>';
+      } else {
+        inner += '<span class="cost-basis">' + esc(basis) + tail + '</span>';
+      }
+    }
+    return '<div class="fact wide"><dt>Approx. weekend cost · 60 people, 2 nights</dt><dd>' + inner + '</dd></div>';
+  }
+
+  function availabilitySection(v) {
+    if (!v.availability || !v.availability.length) return '';
+    var cur = state.weekend || TARGET_WEEKEND;
+    var html = '<div class="avail" id="availSection"><h3>Weekend availability (public evidence)</h3><div class="avail-grid">';
+    WEEKENDS.forEach(function (w) {
+      var a = availStatus(v, w.id);
+      html += '<button class="avail-cell' + (w.id === cur ? ' is-active' : '') + (w.target ? ' is-target' : '') + '" data-wk="' + w.id + '" title="' + esc(w.label + ': ' + STATUS_LABEL[a.status]) + '">' +
+        '<span class="wk-mon">' + esc(w.mon) + '</span><span class="wk-day">' + esc(w.day) + '</span><span class="dot avail-' + esc(a.status) + '"></span></button>';
+    });
+    html += '</div><div class="avail-detail" id="availDetail"></div>';
+    if (v.availabilityNotes) html += '<p class="avail-notes">' + esc(v.availabilityNotes) + '</p>';
+    html += '<div class="avail-legend"><span><span class="dot avail-available"></span>Open</span><span><span class="dot avail-partial"></span>Partly open</span><span><span class="dot avail-booked"></span>Booked / closed</span><span><span class="dot avail-unknown"></span>No public info</span>' + (v.checkedOn ? '<span>Checked ' + esc(v.checkedOn) + '</span>' : '') + '</div></div>';
+    return html;
+  }
+
+  function renderAvailDetail(v, wkId) {
+    var el = $('availDetail'); if (!el) return;
+    var w = WEEKENDS.filter(function (x) { return x.id === wkId; })[0];
+    var a = availStatus(v, wkId);
+    el.innerHTML = '<strong>' + esc(w.label) + '</strong> — <span class="dot avail-' + esc(a.status) + '"></span> ' + esc(STATUS_LABEL[a.status]) +
+      (a.evidence ? '<br>' + esc(a.evidence) : '') +
+      (a.source_url ? ' <a href="' + esc(a.source_url) + '" target="_blank" rel="noopener">source</a>' : '');
+    Array.prototype.forEach.call(detailScroll.querySelectorAll('.avail-cell'), function (c) { c.classList.toggle('is-active', c.dataset.wk === wkId); });
   }
 
   function fact(label, value, wide) {
@@ -300,19 +402,52 @@
   function closeAbout() { aboutModal.classList.remove('is-open'); aboutModal.setAttribute('aria-hidden', 'true'); }
 
   /* ---------- filters ---------- */
-  $('filters').addEventListener('click', function (e) {
-    var btn = e.target.closest('.chip'); if (!btn) return;
-    state.filter = btn.dataset.tier;
-    Array.prototype.forEach.call($('filters').children, function (c) { c.classList.toggle('is-active', c === btn); });
+  function applyFilters() {
     VENUES.forEach(function (v) {
       var m = markers[v.id]; if (!m) return;
       if (visible(v)) { if (!map.hasLayer(m)) m.addTo(map); } else if (map.hasLayer(m)) map.removeLayer(m);
     });
     if (state.selected && !visible(byId(state.selected))) closeDetail();
     renderList();
+    renderWeekends();
     if (state.selected && markers[state.selected] && markers[state.selected]._icon) markers[state.selected]._icon.classList.add('is-selected');
     fitAll();
+  }
+  $('filters').addEventListener('click', function (e) {
+    var btn = e.target.closest('.chip'); if (!btn) return;
+    state.filter = btn.dataset.tier;
+    Array.prototype.forEach.call($('filters').children, function (c) { c.classList.toggle('is-active', c === btn); });
+    applyFilters();
   });
+
+  function renderWeekends() {
+    var html = '';
+    WEEKENDS.forEach(function (w) {
+      var n = VENUES.filter(function (v) { return availStatus(v, w.id).status === 'available'; }).length;
+      var p = VENUES.filter(function (v) { return availStatus(v, w.id).status === 'partial'; }).length;
+      html += '<button class="wk' + (state.weekend === w.id ? ' is-active' : '') + (w.target ? ' is-target' : '') + '" data-wk="' + w.id + '" title="' + esc(w.label) + ' — ' + n + ' confirmed open' + (p ? ', ' + p + ' partly' : '') + '" role="tab" aria-selected="' + (state.weekend === w.id) + '">' +
+        '<span class="wk-mon">' + esc(w.mon) + '</span><span class="wk-day">' + esc(w.day) + '</span>' +
+        '<span class="wk-count">' + (n ? '<span class="dot avail-available"></span>' + n : '<span class="dot avail-unknown"></span>0') + '</span>' +
+        (w.target ? '<span class="wk-target-label">target</span>' : '') +
+        '</button>';
+    });
+    $('weekendGrid').innerHTML = html;
+    $('weekendsClear').hidden = !state.weekend;
+    var hint = $('weekendsHint');
+    if (state.weekend) {
+      var w = WEEKENDS.filter(function (x) { return x.id === state.weekend; })[0];
+      var n = VENUES.filter(function (v) { return availStatus(v, state.weekend).status === 'available'; }).length;
+      hint.textContent = w.label + ': ' + n + ' venue' + (n === 1 ? '' : 's') + ' with public evidence of being open. Others may still be free — call to confirm.';
+    } else {
+      hint.textContent = 'Pick a weekend to show only venues with public evidence they\u2019re open then. Most venues don\u2019t publish group availability — call to confirm.';
+    }
+  }
+  $('weekendGrid').addEventListener('click', function (e) {
+    var btn = e.target.closest('.wk'); if (!btn) return;
+    state.weekend = state.weekend === btn.dataset.wk ? null : btn.dataset.wk;
+    applyFilters();
+  });
+  $('weekendsClear').addEventListener('click', function () { state.weekend = null; applyFilters(); });
 
   /* ---------- keyboard ---------- */
   document.addEventListener('keydown', function (e) {
@@ -341,6 +476,7 @@
 
   /* ---------- init ---------- */
   renderList();
+  renderWeekends();
   var fitted = false;
   function initialFit() {
     if (fitted) return;

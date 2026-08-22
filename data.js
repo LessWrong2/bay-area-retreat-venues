@@ -2,8 +2,8 @@
 window.VENUES = [
  {
   "id": "st-dorothys-rest",
-  "tier": "A",
   "name": "St. Dorothy's Rest",
+  "tier": "A",
   "area": "Camp Meeker (nr. Occidental), Sonoma",
   "drive": "~1 hr 45 min",
   "sleeps": "112 beds total; 8-65 per building",
@@ -21,6 +21,76 @@ window.VENUES = [
   "lat": 38.4289925,
   "lng": -122.9640174,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 17200,
+   "high": 24100,
+   "summary": "$17k–24k",
+   "basis": "2026 rates on the retreats page: lodging $77/person/night (dorm, no bedding), $97 (dorm with bedding), $105 (double room), $135 (single room); meals $22/person/meal (12-person minimum). 60 people x 2 nights: all-dorm-no-bedding 60 x $77 x 2 = $9,240 (low) up to all-single 60 x $135 x 2 = $16,200 (high; only ~5 single rooms exist, so realistic mix is ~$12,600 at the $105 double rate). Meals Fri dinner through Sun lunch = 6 meals x $22 x 60 = $7,920. Totals: $17,160 low, $24,120 high, ~$20,500 for a double-room mix. No tax or service charge is listed; kitchen-use fee applies only if self-catering in Farmer/Lydia. Whole-facility (112 beds) booking requires 65+ people, so 60 would book a combination of buildings (e.g. Main 32 + Farmer 15 + Lydia 13).",
+   "per_person": "$286–402 per person for the weekend incl. 6 meals (~$340 at the double-room rate)",
+   "source_url": "https://www.saintdorothysrest.org/retreats",
+   "source_label": "St. Dorothy's Rest retreats page (2026 Rates)",
+   "confidence": "high",
+   "short": "$17–24k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "unknown",
+    "evidence": "No public calendar or event listing for this weekend; the only posted 2026 programs are May–June camp sessions and the Sep 4–7 Artists & Writers retreat.",
+    "source_url": "https://www.saintdorothysrest.org/events"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "unknown",
+    "evidence": "No public calendar or event listing for this weekend.",
+    "source_url": "https://www.saintdorothysrest.org/events"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "partial",
+    "evidence": "The venue's own 2026 Artists & Writers Fall Retreat runs Fri Sep 4 (arrival after 1pm) to Mon Sep 7, using historic buildings and the chapel ($400–500/person incl. 9 meals); size not stated, so some buildings may remain but not enough for a 60-person group to be assumed.",
+    "source_url": "https://www.saintdorothysrest.org/artistsandwriters"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "unknown",
+    "evidence": "No public calendar or event listing for this weekend.",
+    "source_url": "https://www.saintdorothysrest.org/events"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "unknown",
+    "evidence": "No public calendar or event listing for this weekend.",
+    "source_url": "https://www.saintdorothysrest.org/events"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "unknown",
+    "evidence": "No public calendar or event listing for this weekend.",
+    "source_url": "https://www.saintdorothysrest.org/events"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "unknown",
+    "evidence": "No public calendar or event listing for this weekend.",
+    "source_url": "https://www.saintdorothysrest.org/events"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "unknown",
+    "evidence": "No public calendar or event listing for this weekend.",
+    "source_url": "https://www.saintdorothysrest.org/events"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "unknown",
+    "evidence": "No public calendar or event listing for this weekend; the retreats page's building calendar does not render, so availability must be confirmed by email.",
+    "source_url": "https://www.saintdorothysrest.org/retreats"
+   }
+  ],
+  "availabilityNotes": "No public availability calendar: the retreats page says to 'check the calendar below' for building reservations, but no calendar renders on the page (checked in a real browser). Inquire by email to retreats@stdorothysrest.org with group name/size/desired buildings; office hours Tue–Fri 10–5. Building minimums: Lydia 8, Farmer 8, Main 7, Miriam none; entire facility 65+ (another paragraph says 68+). Meals require 12+ people; dorm bedding costs extra. Labor Day weekend 2026 (Sep 4–7) is taken by the venue's own Artists & Writers Fall Retreat.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/st-dorothys-rest/thumb.jpg",
   "images": [
    {
@@ -75,9 +145,8 @@ window.VENUES = [
  },
  {
   "id": "green-mountain-retreat",
-  "tier": "A",
   "name": "Green Mountain Retreat",
-  "subtitle": "former Presentation Center",
+  "tier": "A",
   "area": "Los Gatos, Santa Cruz Mtns",
   "drive": "~1 hr 15 min (25 min from SJC)",
   "sleeps": "102 beds (cottages + dorm building)",
@@ -89,11 +158,81 @@ window.VENUES = [
   "email": "info@greenmountainretreat.com",
   "website": "https://www.greenmountainretreat.com/",
   "booking": "https://www.greenmountainretreat.com/contact",
+  "subtitle": "former Presentation Center",
   "tierLabel": "Tier A",
   "address": "19480 Bear Creek Rd, Los Gatos, CA 95033",
   "lat": 37.1731628,
   "lng": -122.008872,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "quote",
+   "summary": "Quote only",
+   "basis": "The site publishes no rates: the contact page has a 'Request a Quote' form (event dates, guest count, lodging type, meeting rooms needed; allow up to 3 business days) and the retreats, lodging, food and weddings pages describe facilities only (102-bed dormitory plus cottages of 2–12, dining hall for 120, Performance Hall, Cavanaugh Room, Guadalupe Hall). Third-party directories (The Vendry, The Knot) also show 'request pricing'. The only number found is a wedding-reception site fee on WeddingWire, which says nothing about lodging or meals, so no 60-person total can be estimated responsibly.",
+   "source_url": "https://www.greenmountainretreat.com/contact-us",
+   "source_label": "Green Mountain Retreat quote request form",
+   "confidence": "low",
+   "hint": "WeddingWire FAQ: starting site fee for wedding receptions $3,000 peak season / $2,400 off-peak (venue fee only; lodging and meals not listed). A 2025 UC Berkeley Center for Computational Biology retreat (Fri–Sun, Oct 24–26, 2025) was hosted here, showing the venue takes ~100-person academic groups on fall weekends.",
+   "hint_url": "https://www.weddingwire.com/biz/green-mountain-retreat/76446b48ac1a222d.html",
+   "short": "Quote"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "unknown",
+    "evidence": "No public calendar and no event found naming the venue for this weekend.",
+    "source_url": "https://www.greenmountainretreat.com/contact-us"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "unknown",
+    "evidence": "No public calendar and no event found naming the venue for this weekend.",
+    "source_url": "https://www.greenmountainretreat.com/contact-us"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "unknown",
+    "evidence": "No public calendar and no event found naming the venue for Labor Day weekend.",
+    "source_url": "https://www.greenmountainretreat.com/contact-us"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "unknown",
+    "evidence": "No public calendar and no event found naming the venue for this weekend.",
+    "source_url": "https://www.greenmountainretreat.com/contact-us"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "unknown",
+    "evidence": "No public calendar and no event found naming the venue for this weekend.",
+    "source_url": "https://www.greenmountainretreat.com/contact-us"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "unknown",
+    "evidence": "No public calendar and no event found naming the venue for this weekend.",
+    "source_url": "https://www.greenmountainretreat.com/contact-us"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "unknown",
+    "evidence": "No public calendar and no event found naming the venue for this weekend.",
+    "source_url": "https://www.greenmountainretreat.com/contact-us"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "unknown",
+    "evidence": "No public calendar and no event found naming the venue for this weekend.",
+    "source_url": "https://www.greenmountainretreat.com/contact-us"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "unknown",
+    "evidence": "No public calendar and no event found naming the venue for this weekend; the UC Berkeley CCB retreat that used the venue in 2025 was the following weekend (Oct 24–26).",
+    "source_url": "https://ccb.berkeley.edu/outreach/annual-retreat"
+   }
+  ],
+  "availabilityNotes": "No public availability calendar or booking engine; availability is only confirmed through the quote form or by phone (669-269-8811, Mon–Fri 9–5). WeddingWire listing notes 2026 dates open for booking since Jan 2025. No public events naming the venue were found for Aug–Oct 2026 (the only dated 2026 retreat found in search, an ACC 'Labor Day Retreat' Sep 4–7, is held in Lake Arrowhead, not here).",
+  "checkedOn": "2026-08-21",
   "thumb": "images/green-mountain-retreat/thumb.jpg",
   "images": [
    {
@@ -148,8 +287,8 @@ window.VENUES = [
  },
  {
   "id": "westerbeke-ranch",
-  "tier": "A",
   "name": "Westerbeke Ranch",
+  "tier": "A",
   "area": "Sonoma",
   "drive": "~1 hr 10 min",
   "sleeps": "40-52 (exclusive use billed at 40 minimum)",
@@ -167,6 +306,76 @@ window.VENUES = [
   "lat": 38.2931091,
   "lng": -122.5196168,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 27700,
+   "high": 33000,
+   "summary": "$28k–33k",
+   "basis": "Rate schedule effective July 1, 2026 (rates page): overnight conference rate for 33–48+ people is $255/person/night on weekends ($245 midweek), inclusive of shared cabin lodging, three meals, coffee/tea, one meeting room, grounds, pool and hot tub; two-night minimum on weekends; prices subject to 14% occupancy tax and/or 9.25% sales tax. Overnight lodging is capped at 48 guests (cabins page), and exclusive use is secured by paying room and board for 40. For a 60-person group: 48 overnight x $255 x 2 nights = $24,480, plus 12 commuters at the $135/person day-conference rate (lunch included) x 2 days = $3,240, subtotal $27,720 pre-tax (low). Adding 14% occupancy tax on the overnight portion and 9.25% on day use gives ~$31,450; a second meeting room (Casa Vista $540/day or Casa Nueva $750/day) for two days brings the high to ~$33,000. 50% deposit to hold space; balance due on departure.",
+   "per_person": "$510 per overnight guest for the weekend incl. 6 meals before tax (~$580 with 14% occupancy tax); $270 per day-use guest",
+   "source_url": "https://www.thewesterbekeranch.com/yourstay/rates-resources/",
+   "source_label": "Westerbeke Ranch Rates & Resources (effective July 1, 2026)",
+   "confidence": "high",
+   "short": "$28–33k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "unknown",
+    "evidence": "No public calendar; no third-party event found naming the Ranch for this weekend (the Estee Fletter/Cindy Meiri retreat was Aug 14–16).",
+    "source_url": "https://www.harmony-bodyworkenergy.com/workshops-events"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "unknown",
+    "evidence": "No public calendar and no event found naming the Ranch for this weekend.",
+    "source_url": "https://www.thewesterbekeranch.com/yourstay/rates-resources/"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "unknown",
+    "evidence": "No public calendar and no event found naming the Ranch for Labor Day weekend.",
+    "source_url": "https://www.thewesterbekeranch.com/yourstay/rates-resources/"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "unknown",
+    "evidence": "No public calendar and no event found naming the Ranch for this weekend.",
+    "source_url": "https://www.thewesterbekeranch.com/yourstay/rates-resources/"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "unknown",
+    "evidence": "No public calendar and no event found naming the Ranch for this weekend.",
+    "source_url": "https://www.thewesterbekeranch.com/yourstay/rates-resources/"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "unknown",
+    "evidence": "No public calendar and no event found naming the Ranch for this weekend.",
+    "source_url": "https://www.thewesterbekeranch.com/yourstay/rates-resources/"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "partial",
+    "evidence": "A public Iyengar yoga retreat (Elise Browning Miller and Marla Apt) is booked at Westerbeke Ranch Fri Oct 2 4pm through Sun Oct 4 after lunch, $980/person; with only 48 beds on site, whatever remains cannot hold a 60-person group.",
+    "source_url": "https://ebmyoga.com/workshops_retreats/yoga-retreat-at-westerbeke-with-elise-miller-and-marla-apt/"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "unknown",
+    "evidence": "No public calendar and no event found naming the Ranch for this weekend.",
+    "source_url": "https://www.thewesterbekeranch.com/yourstay/rates-resources/"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "unknown",
+    "evidence": "No public calendar and no event found naming the Ranch for this weekend; the next known group is a Women's Retreat starting Mon Oct 19.",
+    "source_url": "https://productivelearning.com/workshop/womens-retreat-2026/"
+   }
+  ],
+  "availabilityNotes": "No public booking calendar; the rates page says space is often booked far in advance and to contact the office (707-996-7546, Info@WestRanch.com). The site's 'Calendar' page is a stale 2020 list of groups. Two-night minimum for weekend reservations; arrival 4pm, departure 3pm, cabin checkout 10am. Overnight capacity 48 (five cabins), so a 60-person group needs ~12 commuters or day-use guests. Exclusive use = pay room and board for 40 guests; otherwise other groups may share the property. Third-party retreats publicly scheduled at the Ranch in the window: Elise Miller/Marla Apt yoga retreat Fri–Sun Oct 2–4, 2026; a Women's Retreat Oct 19–23 falls just outside the window.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/westerbeke-ranch/thumb.jpg",
   "images": [
    {
@@ -221,8 +430,8 @@ window.VENUES = [
  },
  {
   "id": "waterfall-lodge",
-  "tier": "A",
   "name": "Waterfall Lodge & Retreat",
+  "tier": "A",
   "area": "Ben Lomond, Santa Cruz Mtns",
   "drive": "~1 hr 30 min (30 min from San Jose)",
   "sleeps": "86 in 32 cabins and cottages",
@@ -239,6 +448,78 @@ window.VENUES = [
   "lat": 37.0928319,
   "lng": -122.1160957,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "quote",
+   "low": 28000,
+   "high": 62000,
+   "summary": "Quote (est. $28k–62k)",
+   "basis": "The venue publishes no numbers: the corporate page offers a full-property buyout (80 acres, 33 cabins, lodge, meadow) or a day-use-only Redwood Meadow, and the start-here page says pricing is sent by email on inquiry. Estimate built from third-party hints: venue fee for a Fri-noon-to-Sun-morning 2-day weekend was $22,900 (Sept and first two Oct weekends) / $19,800 (Oct 3rd–5th weekends) on the venue's own 2021/22 wedding rate sheet, while current directory listings show a 1-day site fee of $13,700 peak (Jun–Oct 15) / $12,700 mid-peak (Oct 16–Nov 23) and a 'starting site fee' of $12,000 peak / $9,000 off-peak, so assume $13k–23k for a two-day corporate buyout. Cabins are rented separately at $275/night (Waterfall and Stones & Flowers cabins) or $325/night (Birds cabins) plus tax, minimum 16 cabins, each sleeping up to 4: 60 people in 16–20 cabins x 2 nights = $8,800–13,000 plus ~12% occupancy tax = ~$9,900–14,600. Food is bring-your-own-vendor (lodge has an equipped kitchen; referred caterers run $40–100+/person): ~$5,000 self-catered to ~$24,000 catered at $400/person for six meals. Totals: ~$28,000 low, ~$62,000 high.",
+   "per_person": "Roughly $470–1,030 per person for the weekend depending on venue tier and catering",
+   "source_url": "https://www.waterfallsantacruz.com/corporate",
+   "source_label": "Waterfall Lodge corporate page (inquire for pricing)",
+   "confidence": "low",
+   "hint": "Venue-authored 2021/22 rate sheet: 2-day weekend wedding package $22,900 (Jun–early Oct) / $19,800 (late Oct), cabins $275–325/night + tax with 15-cabin minimum, caterers $40–100+/person; Wedy listing shows current 1-day packages at $13,700 peak (June–Oct 15) and $12,700 mid-peak (Oct 16–Nov 23) with a 16-cabin minimum; WeddingWire FAQ lists a starting site fee of $12,000 peak / $9,000 off-peak; Wedding Spot says 'starting at $10,050 for 50 guests'.",
+   "hint_url": "https://pricing-sheets.s3.amazonaws.com/48ed69ee-9b09-450b-84fb-38986ce3d479/1c9cb5ea2b51dc1d4f545680cd7e9d9b5e2b28d6/2ea70c9c-25f4-48f2-bb3c-bf0e16b8340e",
+   "short": "est. $28–62k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "unknown",
+    "evidence": "No public calendar; no wedding or event found naming the venue for this weekend.",
+    "source_url": "https://www.waterfallsantacruz.com/corporate"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "unknown",
+    "evidence": "No public calendar; no wedding or event found naming the venue for this weekend.",
+    "source_url": "https://www.waterfallsantacruz.com/corporate"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "unknown",
+    "evidence": "No public calendar; no wedding or event found naming the venue for Labor Day weekend.",
+    "source_url": "https://www.waterfallsantacruz.com/corporate"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "unknown",
+    "evidence": "No public calendar; no wedding or event found naming the venue for this weekend.",
+    "source_url": "https://www.waterfallsantacruz.com/corporate"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "unknown",
+    "evidence": "No public calendar; no wedding or event found naming the venue for this weekend.",
+    "source_url": "https://www.waterfallsantacruz.com/corporate"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "unknown",
+    "evidence": "No public calendar; no wedding or event found naming the venue for this weekend.",
+    "source_url": "https://www.waterfallsantacruz.com/corporate"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "unknown",
+    "evidence": "No public calendar; no wedding or event found naming the venue for this weekend.",
+    "source_url": "https://www.waterfallsantacruz.com/corporate"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "partial",
+    "evidence": "A public Zola wedding website schedules a wedding at Waterfall Lodge & Retreat on Sunday Oct 11, 2026, 3:30–10pm with guests staying on site that night (a Sunday-only package), so the property is taken from Sunday midday; Fri/Sat nights are not publicly confirmed either way.",
+    "source_url": "https://www.zola.com/wedding/jonah-rhiannon/event"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "unknown",
+    "evidence": "No public calendar; no wedding or event found naming the venue for this weekend (it falls in the venue's 'mid-peak' Oct 16–Nov 23 pricing tier).",
+    "source_url": "https://www.wedyapp.com/packages/Waterfall%20Lodge%20and%20Retreat?vendorId=6610e10081a162d5c26119fc"
+   }
+  ],
+  "availabilityNotes": "No public availability calendar; tours and pricing are by inquiry (hello@waterfallsantacruz.com, replies Mon–Fri), and the old 17hats tour scheduler has been removed. Cabins are rented only to guests of events on the property (no individual cabin rentals). Bookings are full-property or partial buyouts with a 16-cabin minimum; Fri–Sun two-day packages are standard and single-day events are not offered on Fridays or Saturdays (per the venue rate sheet). Overnight capacity is 86–89 across 33 cabins plus two lodge bedrooms; 150 day guests. Rainy-season events (Nov–Mar) are limited to 60 guests. Primarily a wedding venue, so fall Saturdays are likely to be taken first.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/waterfall-lodge/thumb.jpg",
   "images": [
    {
@@ -293,8 +574,8 @@ window.VENUES = [
  },
  {
   "id": "lodge-at-marconi",
-  "tier": "A",
   "name": "Lodge at Marconi",
+  "tier": "A",
   "area": "Marshall, Tomales Bay",
   "drive": "~1 hr 30 min",
   "sleeps": "45 rooms, sleeps up to 100",
@@ -306,11 +587,82 @@ window.VENUES = [
   "email": "",
   "website": "https://lodgeatmarconi.com/",
   "booking": "https://lodgeatmarconi.com/gather/",
+  "note": "Research note: as of Aug 21 the hotel booking engine returns no rooms for any night Oct 1-29 (while late October onward is wide open), which looks like a closure or full buyout; the reason is not published, so ask.",
   "tierLabel": "Tier A",
   "address": "18500 State Hwy 1, Marshall, CA 94940",
   "lat": 38.144256,
   "lng": -122.8780054,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 35000,
+   "high": 48000,
+   "summary": "$35k–48k + meals",
+   "basis": "Only individual hotel rates are public; group/event pricing is by RFP. The hotel's iHotelier booking engine (dates-of-stay calendar, 'lowest available rate' per night) shows Fri–Sun rack rates this fall of $376–475 for Friday nights and $458–475 for Saturday nights, and room searches for Aug 28–30 and Sep 11–13 returned $417–579/night average plus $98–128/night in taxes and fees (the hotel-policy page adds a $38/night experience fee to every stay). 45 rooms sleep up to 100, so 60 people is roughly 30 rooms: 30 rooms x 2 nights x ($417 + $98) = $30,900 low; 30 x 2 x ($579 + $128) = $42,400 high. Event space is extra (WeddingWire FAQ lists a starting reception site fee of $4,000 off-peak / $5,000 peak; the lobby is only included with a full buyout), giving ~$35,000–48,000 before food. Meals are not included: Mable's restaurant and catering are quoted on request. A negotiated buyout could differ substantially.",
+   "per_person": "~$580–800 per person for two nights lodging incl. taxes/fees, before meals and event space",
+   "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+   "source_label": "Lodge at Marconi booking engine (nightly rates calendar)",
+   "confidence": "low",
+   "short": "$35–48k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "booked",
+    "evidence": "Booking engine shows rooms Fri Aug 21 (from $376) but Sat Aug 22 is 'check-out only' with no rooms, and the property's events calendar marks Sat Aug 22 'CLOSED AFTER 1PM – PRIVATE EVENT'.",
+    "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "partial",
+    "evidence": "A Fri Aug 28–Sun Aug 30 search returns only three room types (ADA Queen, Vaulted King, Deluxe King + Twin Loft), each flagged 'Only 1 Room Left', at $417–529/night plus ~$100 taxes/fees; individual rooms only, far short of 60 people.",
+    "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "booked",
+    "evidence": "Calendar shows Fri Sep 4 from $376 but Sat Sep 5 'check-out only' (no rooms) and Sun Sep 6 closed, so no Fri+Sat stay is possible.",
+    "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "partial",
+    "evidence": "A Fri Sep 11–Sun Sep 13 search returns a single room type (Deluxe King + Twin Loft) at $475–579/night plus taxes/fees; individual rooms only.",
+    "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "booked",
+    "evidence": "Calendar shows Fri Sep 18 'check-out only' and Sat Sep 19 closed/unavailable; no rooms either night.",
+    "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "booked",
+    "evidence": "Calendar shows Fri Sep 25 'check-out only' and Sat Sep 26 closed/unavailable; no rooms either night.",
+    "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "booked",
+    "evidence": "Fri Oct 2–Sun Oct 4 search returns 'that option is no longer available'; the engine shows no rates or rooms for any night Oct 1–29 (midweek Oct 6–8 also empty) while Oct 30–Nov 1 returns six room types, so the whole month appears blocked.",
+    "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "booked",
+    "evidence": "Fri Oct 9–Sun Oct 11 search returns 'that option is no longer available'; no rooms for any night Oct 1–29.",
+    "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "booked",
+    "evidence": "Fri Oct 16–Sun Oct 18 search returns 'that option is no longer available'; no rooms for any night Oct 1–29 (Oct 23–25 also empty), with inventory reopening Oct 30.",
+    "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay"
+   }
+  ],
+  "availabilityNotes": "Public hotel booking engine (iHotelier) shows nightly availability and lowest rates; group room blocks, buyouts and event space go through a Tripleseat 'Plan Event' inquiry. 45 rooms sleeping up to 100; minimum age 21 to reserve; $38/night experience fee; 48-hour cancellation for standard rates. As of Aug 21, the engine sells rooms through Sep 30 and again from Oct 30 onward, but returns no rooms for any night Oct 1–29 (including midweek), with no reason published (possible closure or full-property buyout). The property's events calendar lists no public events in Sep–Oct; Mable's is closed for a private event Sat Aug 22. Individual-room availability is not the same as a 60-person buyout.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/lodge-at-marconi/thumb.jpg",
   "images": [
    {
@@ -365,8 +717,8 @@ window.VENUES = [
  },
  {
   "id": "the-land",
-  "tier": "A",
   "name": "The Land",
+  "tier": "A",
   "area": "Philo, Anderson Valley",
   "drive": "~2 hr 45 min",
   "sleeps": "90 beds: 18 cabins, 12 glamping tents, 8 houses",
@@ -384,6 +736,76 @@ window.VENUES = [
   "lat": 39.05195,
   "lng": -123.44851,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 42000,
+   "high": 66000,
+   "summary": "$42k-66k+",
+   "basis": "Corporate-retreats page: private-event pricing 'typically ranges from $350 pp per night to $550 and up', inclusive of lodging (eco-cabin/house/glamping) and three farm-to-table meals a day. 60 people x 2 nights x $350 = $42,000 (low); 60 x 2 x $550 = $66,000 (high, and the page says 'and up'). Taxes/service not stated. Capacity check: 27 single-occupancy units (15 cabins + 12 glamping tents), up to ~120 in shared accommodation; weddings page counts 60 beds across 18 cabin units and 6 homes plus 12 glamping tents, so 60 people means mostly shared rooms.",
+   "per_person": "$700-1,100+ per person for Fri-Sun incl. all meals",
+   "source_url": "https://the-land.us/corporate-retreats",
+   "source_label": "The Land - Corporate Retreats (Planning Your Stay pricing)",
+   "confidence": "medium",
+   "short": "$42–66k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "unknown",
+    "evidence": "No program on The Land's own calendar (True North Aug 6-9, Women's Retreat Sept 24-27, Winter Retreat TBD) falls on this weekend, but the venue publishes no group-availability calendar, so buyout availability is unknown.",
+    "source_url": "https://the-land.us/"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "unknown",
+    "evidence": "No program on The Land's own calendar (True North Aug 6-9, Women's Retreat Sept 24-27, Winter Retreat TBD) falls on this weekend, but the venue publishes no group-availability calendar, so buyout availability is unknown.",
+    "source_url": "https://the-land.us/"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "unknown",
+    "evidence": "No program on The Land's own calendar (True North Aug 6-9, Women's Retreat Sept 24-27, Winter Retreat TBD) falls on this weekend, but the venue publishes no group-availability calendar, so buyout availability is unknown.",
+    "source_url": "https://the-land.us/"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "unknown",
+    "evidence": "No program on The Land's own calendar (True North Aug 6-9, Women's Retreat Sept 24-27, Winter Retreat TBD) falls on this weekend, but the venue publishes no group-availability calendar, so buyout availability is unknown.",
+    "source_url": "https://the-land.us/"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "unknown",
+    "evidence": "No program on The Land's own calendar (True North Aug 6-9, Women's Retreat Sept 24-27, Winter Retreat TBD) falls on this weekend, but the venue publishes no group-availability calendar, so buyout availability is unknown.",
+    "source_url": "https://the-land.us/"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "booked",
+    "evidence": "The Land is running its own all-inclusive Women's Retreat Sept 24-27, 2026 (Thu-Sun, $1,299 incl. lodging and meals, 'small circle'), so staff, kitchen and lodging are committed that weekend; a 60-person private event is not realistic without confirming with the venue.",
+    "source_url": "https://the-land.us/womens-retreat"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "unknown",
+    "evidence": "No program on The Land's own calendar (True North Aug 6-9, Women's Retreat Sept 24-27, Winter Retreat TBD) falls on this weekend, but the venue publishes no group-availability calendar, so buyout availability is unknown.",
+    "source_url": "https://the-land.us/"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "unknown",
+    "evidence": "No program on The Land's own calendar (True North Aug 6-9, Women's Retreat Sept 24-27, Winter Retreat TBD) falls on this weekend, but the venue publishes no group-availability calendar, so buyout availability is unknown.",
+    "source_url": "https://the-land.us/"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "unknown",
+    "evidence": "No program on The Land's own calendar (True North Aug 6-9, Women's Retreat Sept 24-27, Winter Retreat TBD) falls on this weekend, but the venue publishes no group-availability calendar, so buyout availability is unknown.",
+    "source_url": "https://the-land.us/"
+   }
+  ],
+  "availabilityNotes": "Private events are custom-designed 2-4 day immersions quoted via the web inquiry form / info@the-land.us / (707) 485-3117. Guests must be 18+; property is alcohol- and cannabis-free. The corporate page currently says 'We do not host weddings at this time' (the weddings page still describes four weddings a year). The venue runs its own programs (Women's Retreat Sept 24-27, 2026; Winter Retreat 2026-27 dates TBD) and sells personal stays year-round directly or via Airbnb; Eros Monastery programming is paused. No public group-availability calendar.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/the-land/thumb.jpg",
   "images": [
    {
@@ -438,8 +860,8 @@ window.VENUES = [
  },
  {
   "id": "camp-navarro",
-  "tier": "A",
   "name": "Camp Navarro",
+  "tier": "A",
   "area": "Navarro, Mendocino County",
   "drive": "~2 hr 30 min",
   "sleeps": "240-260 beds (32 cabins, 54 glamping, camping)",
@@ -457,6 +879,78 @@ window.VENUES = [
   "lat": 39.16911,
   "lng": -123.56673,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "quote",
+   "low": 37000,
+   "high": 62000,
+   "summary": "Quote only; wedding-style exclusive use implies ~$37k-62k",
+   "basis": "Retreat pricing is quoted ('depends on length, meals, beverage program, weekday/weekend, time of year, group size; larger groups get reduced pricing'). The only published number is the wedding package: Site Rental Fee $25,000 (Apr-Oct) for a 3-day/2-night exclusive use of the 200-acre property and Bosch Lodge, with catering and lodging extra. Illustrative 60-person arithmetic: $25,000 site fee + 5 buffet meals at the published wedding menu prices ($45 welcome dinner, $49 reception dinner, $30 brunch; ~$190/person) = $11,400 + 7.875% sales tax = ~$12,300, giving ~$37,000 if everyone BYO-tent camps; adding cabin/glamping lodging at roughly $100-200 per person per night (lodging rates are not published; festival teepees are $400-500 for 3 nights + 11% lodging tax) pushes the total to ~$50,000-62,000.",
+   "per_person": "roughly $620-1,030 per person for Fri-Sun if wedding-package pricing applied",
+   "source_url": "https://www.campnavarropresents.com/wedding-inquiry",
+   "source_label": "Camp Navarro wedding inquiry page (Site Rental Fee $25,000 Apr-Oct)",
+   "confidence": "low",
+   "hint": "Third-party wedding site Destination I Do lists Camp Navarro high-season (May-Nov) site rental at $15,000-75,000 with a $12,000-14,000 catering minimum; The Reunion adult camp (Oct 8-11, 2026) resells a 3-night all-inclusive stay for $499/person.",
+   "hint_url": "https://destinationido.com/locations/redwood-forest-wedding-venue/",
+   "short": "est. $37–62k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "booked",
+    "evidence": "Camp Redwoods 5 music campout occupies the site Aug 21-23, 2026 and the page says 'CAMP REDWOODS IS SOLD OUT!'.",
+    "source_url": "https://www.campnavarro.com/campout"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "available",
+    "evidence": "Venue's own 'May 27th Availability Update' banner on the home page (still live on Aug 21, 2026; absent from the May 27, 2026 Wayback snapshot, so it is a 2026 notice) states 'August 25-September 25 is wide open for late summer gatherings' - that is whole-site availability as of late May, not re-confirmed since.",
+    "source_url": "https://www.campnavarro.com/"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "available",
+    "evidence": "Venue's own 'May 27th Availability Update' banner on the home page (still live on Aug 21, 2026; absent from the May 27, 2026 Wayback snapshot, so it is a 2026 notice) states 'August 25-September 25 is wide open for late summer gatherings' - that is whole-site availability as of late May, not re-confirmed since. (Labor Day weekend falls inside that window.)",
+    "source_url": "https://www.campnavarro.com/"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "available",
+    "evidence": "Venue's own 'May 27th Availability Update' banner on the home page (still live on Aug 21, 2026; absent from the May 27, 2026 Wayback snapshot, so it is a 2026 notice) states 'August 25-September 25 is wide open for late summer gatherings' - that is whole-site availability as of late May, not re-confirmed since.",
+    "source_url": "https://www.campnavarro.com/"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "available",
+    "evidence": "Venue's own 'May 27th Availability Update' banner on the home page (still live on Aug 21, 2026; absent from the May 27, 2026 Wayback snapshot, so it is a 2026 notice) states 'August 25-September 25 is wide open for late summer gatherings' - that is whole-site availability as of late May, not re-confirmed since.",
+    "source_url": "https://www.campnavarro.com/"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "booked",
+    "evidence": "Camp Deep End 10, the venue's flagship festival, runs September 25-27, 2026 ('tickets are on sale and moving quickly').",
+    "source_url": "https://www.campnavarro.com/deep-end-home"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "unknown",
+    "evidence": "No public event found for Oct 2-4; home page only says the venue has 'select availability throughout the rest of the year'.",
+    "source_url": "https://www.campnavarro.com/"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "booked",
+    "evidence": "The Reunion adult summer camp (third-party event, $499/person, 3 nights) is held at Camp Navarro October 8-11, 2026.",
+    "source_url": "https://thereunion.camp/"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "unknown",
+    "evidence": "No public event found for Oct 16-18; home page only says the venue has 'select availability throughout the rest of the year'.",
+    "source_url": "https://www.campnavarro.com/"
+   }
+  ],
+  "availabilityNotes": "Turn-key, quote-only venue that hosts one group at a time; 240-260 beds (32 cabins, 54 glamping units, tents/RV) and permitted to 1,500, so a 60-person group pays for exclusive use of a much larger site. No phone inquiries (web form or inquiry@campnavarroca.com only); not open to individual reservations; typical event is 3 days/2 nights with 5 buffet meals; 2-night lodging minimum; 7.875% sales tax on catering, 11% lodging tax. Home page banner (May 27, 2026 update) says CN has 'select availability throughout the rest of the year' and 'August 25-September 25 is wide open'. Festivals it produces: Camp Redwoods 5 (Aug 21-23, sold out) and Camp Deep End 10 (Sept 25-27).",
+  "checkedOn": "2026-08-21",
   "thumb": "images/camp-navarro/thumb.jpg",
   "images": [
    {
@@ -511,8 +1005,8 @@ window.VENUES = [
  },
  {
   "id": "enchanted-hills",
-  "tier": "B",
   "name": "Enchanted Hills",
+  "tier": "B",
   "area": "Napa (Mount Veeder)",
   "drive": "~1 hr 30 min",
   "sleeps": "Groups of 30-150",
@@ -530,6 +1024,75 @@ window.VENUES = [
   "lat": 38.38088,
   "lng": -122.43151,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "quote",
+   "summary": "Quote only (no published rates)",
+   "basis": "Neither enchantedhillsnapa.org nor lighthouse-sf.org publishes rental, lodging, meal or day-use rates; all stays, meetings, weddings and packages go through an inquiry form ('prices listed are subject to change and do not include taxes'). No third-party listing (Retreat Finder, Hipcamp, napavalley.com) shows a price either.",
+   "source_url": "https://enchantedhillsnapa.org/booking/events/",
+   "source_label": "Enchanted Hills Napa - Events inquiry form",
+   "confidence": "low",
+   "hint": "Terms page only reveals the payment structure: 25% deposit with signed contract, +25% at 90 days, +25% at 30 days, final count and balance 14 days before the retreat; taxes and extras additional.",
+   "hint_url": "https://enchantedhillsnapa.org/terms-and-conditions/",
+   "short": "Quote"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "unknown",
+    "evidence": "No LightHouse/EHC program is listed at Enchanted Hills this weekend on the LightHouse events calendar, and the venue publishes no rental-availability calendar, so off-season rental status is unknown.",
+    "source_url": "https://lighthouse-sf.org/events/events-calendar/"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "unknown",
+    "evidence": "No LightHouse/EHC program is listed at Enchanted Hills this weekend on the LightHouse events calendar, and the venue publishes no rental-availability calendar, so off-season rental status is unknown.",
+    "source_url": "https://lighthouse-sf.org/events/events-calendar/"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "booked",
+    "evidence": "LightHouse is running its own in-person program 'Advocacy Through Storytelling: Amplify Your Voice' at Enchanted Hills Camp, Napa on September 4, 5 and 6, 2026 (with transportation from SF/Berkeley/Santa Rosa), so the camp is in use by its owner over Labor Day weekend.",
+    "source_url": "https://lighthouse-sf.org/events/events-calendar/?cid=mc-948a6a8e8cd15db324902317a630b853&dy&month=9&time=month&yr=2026"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "unknown",
+    "evidence": "No LightHouse/EHC program is listed at Enchanted Hills this weekend on the LightHouse events calendar, and the venue publishes no rental-availability calendar, so off-season rental status is unknown.",
+    "source_url": "https://lighthouse-sf.org/events/events-calendar/?cid=mc-948a6a8e8cd15db324902317a630b853&dy&month=9&time=month&yr=2026"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "unknown",
+    "evidence": "No LightHouse/EHC program is listed at Enchanted Hills this weekend on the LightHouse events calendar, and the venue publishes no rental-availability calendar, so off-season rental status is unknown.",
+    "source_url": "https://lighthouse-sf.org/events/events-calendar/?cid=mc-948a6a8e8cd15db324902317a630b853&dy&month=9&time=month&yr=2026"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "unknown",
+    "evidence": "No LightHouse/EHC program is listed at Enchanted Hills this weekend on the LightHouse events calendar, and the venue publishes no rental-availability calendar, so off-season rental status is unknown.",
+    "source_url": "https://lighthouse-sf.org/events/events-calendar/?cid=mc-948a6a8e8cd15db324902317a630b853&dy&month=9&time=month&yr=2026"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "unknown",
+    "evidence": "No LightHouse/EHC program is listed at Enchanted Hills this weekend on the LightHouse events calendar, and the venue publishes no rental-availability calendar, so off-season rental status is unknown.",
+    "source_url": "https://lighthouse-sf.org/events/events-calendar/?cid=mc-948a6a8e8cd15db324902317a630b853&dy&month=10&time=month&yr=2026"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "unknown",
+    "evidence": "No LightHouse/EHC program is listed at Enchanted Hills this weekend on the LightHouse events calendar, and the venue publishes no rental-availability calendar, so off-season rental status is unknown.",
+    "source_url": "https://lighthouse-sf.org/events/events-calendar/?cid=mc-948a6a8e8cd15db324902317a630b853&dy&month=10&time=month&yr=2026"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "unknown",
+    "evidence": "No LightHouse/EHC program is listed at Enchanted Hills this weekend on the LightHouse events calendar, and the venue publishes no rental-availability calendar, so off-season rental status is unknown. (LightHouse's next camp program, Fall Family Camp, is Oct 30-Nov 1.)",
+    "source_url": "https://lighthouse-sf.org/events/events-calendar/?cid=mc-948a6a8e8cd15db324902317a630b853&dy&month=10&time=month&yr=2026"
+   }
+  ],
+  "availabilityNotes": "Off-season rental venue (groups of ~30-150; Forest Commons hall up to 200) owned by LightHouse for the Blind; summer camp for blind/low-vision campers runs mid-June to early August (2026 sessions end Aug 8) with a Fall Family Camp Oct 30-Nov 1, so the nine target weekends all fall in the rental season. Lodging is camp-style (Hillside casitas, Lakeside cabins, lodge dorm rooms, safari tents, yurts) with many shared rooms and bathrooms. Booking is 'subject to availability and confirmation'; inquire via web form or events@lighthouse-sf.org / (707) 261-1101. No public availability calendar.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/enchanted-hills/thumb.jpg",
   "images": [
    {
@@ -592,8 +1155,8 @@ window.VENUES = [
  },
  {
   "id": "mount-madonna",
-  "tier": "B",
   "name": "Mount Madonna Center",
+  "tier": "B",
   "area": "Watsonville (ridge above Monterey Bay)",
   "drive": "~1 hr 30 min",
   "sleeps": "Conference Center 33 rooms / 74 beds; plus yurts, cabins, glamping",
@@ -610,6 +1173,76 @@ window.VENUES = [
   "lat": 37.02558,
   "lng": -121.74461,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 21000,
+   "high": 35000,
+   "summary": "$21k-35k (published per-person rates; group quote)",
+   "basis": "Mount Madonna's published personal-retreat rates are per person per day and include lodging, three vegetarian meals (brunch+dinner on Saturdays) and facilities use: shared Conference Center room w/ shared bath $183, shared ensuite $223, private w/ shared bath $243, private ensuite $293, private queen ensuite $343, Oaks cabin shared $173 / private $213, yurt private $303, glamping tent $163, tent site $73. 60 people x 2 nights x $173-183 (shared cabins/rooms) = ~$21,000 (low); 60 x 2 x $293 (private ensuite) = ~$35,000 (high). The site says 'other retreat and program accommodations pricing may differ' and hosted-group contracts (meeting hall, AV, Conference Center exclusive use) are quoted by hostyourgroup@mountmadonna.org, so treat this as a floor; an optional 3.65% card-processing fee applies to online bookings.",
+   "per_person": "$350-590 per person for Fri-Sun incl. meals, before any group/meeting-space fees",
+   "source_url": "https://mmc.secure.retreat.guru/program/personal-retreats/",
+   "source_label": "Mount Madonna personal-retreat rate list (retreat.guru booking site)",
+   "confidence": "medium",
+   "short": "$21–35k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "booked",
+    "evidence": "Calendar shows three overlapping residential programs: Vitality Wellness Summer Weekend Retreat (Aug 21-23), Restlessness to Resting in Awareness Retreat (Aug 21-23) and The Embodied Breath 100hr YTT (Aug 16-23).",
+    "source_url": "https://mountmadonna.org/calendar/restlessness-to-resting-retreat-2026/"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "unknown",
+    "evidence": "MMC's public calendar lists no hosted program for this weekend, but the center hosts several groups at once and publishes no group-availability calendar, so Conference Center availability is unknown.",
+    "source_url": "https://mountmadonna.org/calendar/"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "unknown",
+    "evidence": "MMC's public calendar lists no hosted program for this weekend, but the center hosts several groups at once and publishes no group-availability calendar, so Conference Center availability is unknown. (Labor Day weekend.)",
+    "source_url": "https://mountmadonna.org/calendar/"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "booked",
+    "evidence": "MMC's own 'A Weekend in Community' runs Sept 11-13, alongside the hosted 'Exhale: A Body Awareness Retreat' (Sept 11-13); Grof Breathwork Facilitator Training Unit II begins Sept 13.",
+    "source_url": "https://mountmadonna.org/calendar/weekend-in-community-sep-2026/"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "booked",
+    "evidence": "Recovery 2.0 Level 1 Coach Training is a 10-day residential program Sept 18-27, and Awake Heart 300-hour YTT Session III runs Sept 20-27.",
+    "source_url": "https://mountmadonna.org/calendar/recovery-2-0-coach-traning-2026/"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "booked",
+    "evidence": "Recovery 2.0 Coach Training (Sept 18-27) and Awake Heart YTT (Sept 20-27) are still in residence, the 8th Annual Aradhana ceremony for Baba Hari Dass is Sat Sept 26, and the Jennifer Welwood Mystery School Retreat checks in Sept 27.",
+    "source_url": "https://mountmadonna.org/calendar/aradhana-ceremony-2026/"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "booked",
+    "evidence": "Jennifer Welwood Mystery School Retreat, a privately hosted week-long residential program, runs Sept 27-Oct 4.",
+    "source_url": "https://mountmadonna.org/calendar/mystery-school-retreat-welwood-2026/"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "booked",
+    "evidence": "'Realizing The Way' with Henry Shukman is a hosted residential retreat Oct 8-11, and MMC's own Navaratri & Vijay Dasami festival begins Oct 11.",
+    "source_url": "https://mountmadonna.org/calendar/realizing-the-way-henry-shukman-2026/"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "booked",
+    "evidence": "MMC's own Navaratri & Vijay Dasami festival runs Oct 11-20; the hosted 5th Annual Women's Evolution Weekend Retreat is Oct 16-18 and 'Reset in the Redwoods' (Ally Hamilton) is Oct 16-20.",
+    "source_url": "https://mountmadonna.org/calendar/navaratri-and-vijay-dasami-2026/"
+   }
+  ],
+  "availabilityNotes": "Group bookings are quoted through hostyourgroup@mountmadonna.org; the Conference Center (33 rooms / 72-74 beds, hall seats 240-250) is the only building that sleeps 60, with overflow in yurts, cabins and glamping tents. MMC runs and hosts multiple programs concurrently and does not publish a group-availability calendar; its public calendar lists hosted programs but not which building they use, so a weekend with a multi-day residential program is treated as booked for a 60-person group. Personal retreats are bookable 48 hours to 60 days ahead. Strictly vegetarian kitchen; Saturday meals are brunch and dinner only.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/mount-madonna/thumb.jpg",
   "images": [
    {
@@ -664,8 +1297,8 @@ window.VENUES = [
  },
  {
   "id": "bishops-ranch",
-  "tier": "B",
   "name": "The Bishop's Ranch",
+  "tier": "B",
   "area": "Healdsburg",
   "drive": "~1 hr 30 min",
   "sleeps": "Up to 80 adults",
@@ -682,6 +1315,76 @@ window.VENUES = [
   "lat": 38.54404,
   "lng": -122.87396,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 23400,
+   "high": 31000,
+   "summary": "$23k-31k (sample packages)",
+   "basis": "Published Sample Packages: 'Exclusive Use - Two (2) Nights' = exclusive use of the entire property, 2 nights / 5 meals, up to 70 people, $31,000 (+$150 per person beyond 70) -> $31,000 for 60 (~$517/person). Cheaper non-exclusive option: 'Upper Campus Retreat' (Ranch House + Webb Lodge + Swing Pavilion, 2 nights / 5 meals, up to 48 people) $21,600 + 12 extra people x $150 = $23,400, if the Ranch will assign 60 to those buildings (Ranch House sleeps 28+, Webb Lodge 20+). Packages are 'provided solely as examples, costs may vary and will be outlined in your group's contract'; taxes not stated. Non-exclusive pricing is 'by building' with a set fee covering lodging, meals and use fees up to a Ranch-determined headcount.",
+   "per_person": "$390-520 per person for Fri-Sun incl. 5 meals",
+   "source_url": "https://www.bishopsranch.org/group-reservations/sample-packages",
+   "source_label": "The Bishop's Ranch - Sample Packages",
+   "confidence": "medium",
+   "short": "$23–31k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "unknown",
+    "evidence": "No Ranch-run program or individual-retreat weekend is listed for these dates on the Programs or Individual Retreats pages, and the Ranch publishes no group-availability calendar, so status is unknown.",
+    "source_url": "https://www.bishopsranch.org/programs"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "unknown",
+    "evidence": "No Ranch-run program or individual-retreat weekend is listed for these dates on the Programs or Individual Retreats pages, and the Ranch publishes no group-availability calendar, so status is unknown. (The Loose Threads Quilt Retreat is Mon Aug 31-Fri Sep 4, weekdays only.)",
+    "source_url": "https://www.bishopsranch.org/programs"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "partial",
+    "evidence": "The Ranch is selling an individual 'September Weekend Retreat' Sept 4-6, 2026 (private rooms in Webb Lodge, $550 single, registration closes Aug 31) - it only schedules these 'when space is available', so the property is not held for an exclusive group, but rooms are being sold piecemeal to the public rather than as a 60-person block.",
+    "source_url": "https://www.bishopsranch.org/experiences/individual-retreats"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "unknown",
+    "evidence": "No Ranch-run program or individual-retreat weekend is listed for these dates on the Programs or Individual Retreats pages, and the Ranch publishes no group-availability calendar, so status is unknown. (The 'Open and Spacious Like the Sky' retreat is Mon Sep 7-Fri Sep 11, ending Friday breakfast.)",
+    "source_url": "https://www.bishopsranch.org/programs"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "unknown",
+    "evidence": "No Ranch-run program or individual-retreat weekend is listed for these dates on the Programs or Individual Retreats pages, and the Ranch publishes no group-availability calendar, so status is unknown.",
+    "source_url": "https://www.bishopsranch.org/programs"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "unknown",
+    "evidence": "No Ranch-run program or individual-retreat weekend is listed for these dates on the Programs or Individual Retreats pages, and the Ranch publishes no group-availability calendar, so status is unknown.",
+    "source_url": "https://www.bishopsranch.org/programs"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "unknown",
+    "evidence": "No Ranch-run program or individual-retreat weekend is listed for these dates on the Programs or Individual Retreats pages, and the Ranch publishes no group-availability calendar, so status is unknown.",
+    "source_url": "https://www.bishopsranch.org/programs"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "unknown",
+    "evidence": "No Ranch-run program or individual-retreat weekend is listed for these dates on the Programs or Individual Retreats pages, and the Ranch publishes no group-availability calendar, so status is unknown.",
+    "source_url": "https://www.bishopsranch.org/programs"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "partial",
+    "evidence": "The Ranch runs its own public 'Fall Hike with Julie Miller' day program on Sat Oct 17, 2026 (9:30am-3:30pm, $35, Ranch lunch included), so it is not holding the property for an exclusive-use group that Saturday; overnight lodging status for Oct 16-18 is not published.",
+    "source_url": "https://www.bishopsranch.org/programs"
+   }
+  ],
+  "availabilityNotes": "Exclusively hosts nonprofit groups that exist for religious, charitable or community benefit (contact them to see if your organizing entity qualifies); priority booking goes to Exclusive Use groups and recurring groups including Episcopal Diocese of California parishes. Non-exclusive groups are paired with other groups and priced by building. Individual/household weekend retreats are sold only when group space is unused (next one: Sept 4-6, 2026). Lodging for ~80 (Ranch House 15 rooms/28+, Webb Lodge 10 rooms/20+, Harrison House 5/10+, St. Stephen's Cottages 10/20+); Swing Pavilion seats 125. No public availability calendar; inquire via web form, info@bishopsranch.org or 707-433-2440.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/bishops-ranch/thumb.jpg",
   "images": [
    {
@@ -736,8 +1439,8 @@ window.VENUES = [
  },
  {
   "id": "costanoa",
-  "tier": "B",
   "name": "Costanoa",
+  "tier": "B",
   "area": "Pescadero (San Mateo coast)",
   "drive": "~1 hr",
   "sleeps": "39 lodge rooms, 14 cabins, 85 tent bungalows",
@@ -754,6 +1457,78 @@ window.VENUES = [
   "lat": 37.1555806,
   "lng": -122.3472231,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "quote",
+   "low": 17000,
+   "high": 40000,
+   "summary": "~$17k–40k (retail rates + catering guess)",
+   "basis": "Group/wedding bookings are quoted through the sales team (Tripleseat RFP) and no group or catering prices are published. Estimate uses the retail nightly rates the online booking engine showed for Fri Oct 16–Sun Oct 18 2026: 60 people = 30 double-occupancy units x 2 nights. Low: 30 x $155 (Outer Pine tent bungalow) x 2 = $9,300 + 10% San Mateo County occupancy tax = $10,230, plus an assumed catering allowance of $120/person for the weekend (Cascade Restaurant menus are image PDFs with no extractable prices; catering is quoted) = $7,200 -> ~$17,400. High: 30 x $429 (Lodge View Premium) x 2 = $25,740 + 10% tax = $28,314, plus $200/person catering = $12,000 -> ~$40,300. Lodge King was $369, Douglas Fir cabin $365 the same weekend. Meeting-space, tenting and service charges not included (not published).",
+   "per_person": "~$290–670 for the weekend incl. an assumed catering allowance",
+   "source_url": "https://reservations.costanoa.com/costanoa/",
+   "source_label": "Costanoa online booking engine (availability calendar queried Fri Oct 16 – Sun Oct 18 2026, 2 adults)",
+   "confidence": "low",
+   "hint": "FAQ: 'For group or wedding reservations, please contact our sales department' and 'our online booking system may not reflect all of our availability'; deposit = first night's room + tax; Sept 4–7 and Oct 9–12 2026 are holiday blackout dates for promo rates.",
+   "hint_url": "https://www.costanoa.com/faq/",
+   "short": "est. $17–40k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "available",
+    "evidence": "Booking engine shows individual rooms bookable BOTH Fri and Sat nights in several types: Lodge Premium ($425/$515), Lodge View King ($385/$475), Outer Pine bungalow ($189/$195), Cypress bungalow ($219/$225), Pine Village bungalow ($234/$240); all cabins sold out. Individual-room availability only, not evidence a 60-person block is open.",
+    "source_url": "https://reservations.costanoa.com/costanoa/"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "partial",
+    "evidence": "Only Outer Pine ($195) and Cypress ($225) tent bungalows show both Fri and Sat nights open; every lodge-room and cabin type shows at least one night sold out.",
+    "source_url": "https://reservations.costanoa.com/costanoa/"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "available",
+    "evidence": "Labor Day weekend: both nights bookable in Lodge King ($349/$395), Lodge King ADA and Cypress bungalow ($195/$239); several other types Friday-only. Individual rooms only; promo blackout weekend.",
+    "source_url": "https://reservations.costanoa.com/costanoa/"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "partial",
+    "evidence": "No accommodation type shows both nights open: Friday-only availability in Lodge King ($369), Outer Pine and Cypress bungalows; Saturday sold out across all lodge, cabin and bungalow types.",
+    "source_url": "https://reservations.costanoa.com/costanoa/"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "partial",
+    "evidence": "Both nights open only in Douglas Fir cabins ($365 king / $395 double) and Cypress bungalows ($185); all lodge rooms and other bungalows sold out.",
+    "source_url": "https://reservations.costanoa.com/costanoa/"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "partial",
+    "evidence": "Every lodge, cabin and tent-bungalow type shows sold out for both Fri and Sat; the all-types calendar still shows $119 nights, i.e. only RV/tent-camping sites remain.",
+    "source_url": "https://reservations.costanoa.com/costanoa/"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "partial",
+    "evidence": "Both nights open only in Pine Village ($200), Family ($310) and Lighthouse ($349) bungalows; all lodge rooms and cabins sold out.",
+    "source_url": "https://reservations.costanoa.com/costanoa/"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "partial",
+    "evidence": "Columbus Day weekend: no type shows both nights; Friday-only in Douglas Fir double cabin ($395) and Outer Pine bungalow ($155), Saturday-only in Lodge Double ($399) and Douglas Fir king cabin ($365).",
+    "source_url": "https://reservations.costanoa.com/costanoa/"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "available",
+    "evidence": "Booking engine shows both Fri and Sat bookable in Lodge Premium ($419), Lodge View Premium ($429), Lodge King ($369), Lodge King ADA ($369), Douglas Fir king cabin ($365) and Outer Pine bungalow ($155); coastal cabins and most bungalows sold out. Individual rooms only, not a 60-person buyout.",
+    "source_url": "https://reservations.costanoa.com/costanoa/"
+   }
+  ],
+  "availabilityNotes": "Resort (39–40 lodge rooms, 14–24 cabins, 85–93 tent bungalows, plus RV/tent sites) that sells rooms individually year-round; group blocks and buyouts go through sales via the Tripleseat request-proposal form. Online engine may not show all inventory. Check-in 4pm, check-out 11am. Labor Day (Sept 4–7) and Columbus Day (Oct 9–12) are promo-blackout holiday weekends. Statuses below reflect individual-room availability on the public booking calendar, not whether a 60-person block is possible.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/costanoa/thumb.jpg",
   "images": [
    {
@@ -808,8 +1583,8 @@ window.VENUES = [
  },
  {
   "id": "saratoga-springs",
-  "tier": "B",
   "name": "Saratoga Springs Retreat Center",
+  "tier": "B",
   "area": "Upper Lake, Lake County",
   "drive": "~2 hr 30 min",
   "sleeps": "Lodging plus camping; full site ~300",
@@ -827,6 +1602,77 @@ window.VENUES = [
   "lat": 39.1748543,
   "lng": -122.9808979,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "quote",
+   "low": 10000,
+   "high": 20000,
+   "summary": "Quote only (rough $10k–20k)",
+   "basis": "Rates page says only 'competitive group and individual packages depending on the size of your group and time of year... please call or email' (stay@saratogasprings.com, 707-275-9503); the contact page promises rate information and a brochure on request. No numbers anywhere on the (2020-frozen) official site. Rough range is derived from the Hexenfest 2025 ticket tiers (see hint): the venue's per-person charge to that 300-person festival appears to be on the order of $35–55/person/night for camping or dorm beds (camping pass $340 vs $240 offsite pass over 3 nights; dorm bed $393), so 60 x 2 nights x $35–55 = $4,200–6,600 lodging, plus chef-prepared meals (meal plan price not published; assumed $50–70/person/day x 2) = $6,000–8,400, and allowance for the higher per-person pricing a 60-person exclusive-use group would likely pay. Treat as order-of-magnitude only.",
+   "source_url": "https://saratogasprings.com/vintage/rates/rates.html",
+   "source_label": "Saratoga Springs 'Rates and Guidelines' page (call/email for rates)",
+   "confidence": "low",
+   "hint": "Hexenfest 2025 (Oct 9–12 at Saratoga Springs, ~300 people) sold 3-night passes at $240 offsite / $340 camping / $393 dorm bed / $452 summer tent cabin / $516 wood tent cabin / $933 cabin bedroom for two, noting 'Saratoga charges us less for folks staying offsite'; meal plan sold separately by the venue.",
+   "hint_url": "https://www.hexenfest.net/tickets",
+   "short": "est. $10–20k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "unknown",
+    "evidence": "No public calendar; the site's Retreats & Events page lists only an April 3–5 2026 event.",
+    "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "unknown",
+    "evidence": "No public calendar; no 2026 event listed for this weekend.",
+    "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "unknown",
+    "evidence": "No public calendar; no Labor Day 2026 event found on the site or in festival listings.",
+    "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "unknown",
+    "evidence": "No public calendar; no 2026 event listed for this weekend.",
+    "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "unknown",
+    "evidence": "No public calendar; no 2026 event listed for this weekend.",
+    "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "unknown",
+    "evidence": "No public calendar; no 2026 event listed for this weekend.",
+    "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "unknown",
+    "evidence": "No public calendar; no 2026 event listed for this weekend.",
+    "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "unknown",
+    "evidence": "Hexenfest used this weekend in 2025 (Oct 9–12) but hexenfest.net still shows only 2025 dates and no 2026 announcement, so a repeat is unconfirmed.",
+    "source_url": "https://www.hexenfest.net/"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "unknown",
+    "evidence": "No public calendar; no 2026 event listed for this weekend.",
+    "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html"
+   }
+  ],
+  "availabilityNotes": "Exclusive use of the whole 260-acre site for groups of 20–25+, first-come first-served; group stays of 2–10 nights; weekend weddings run Friday noon to Sunday 2pm. Lodging: main lodge ~28 beds + cabins sleeping 50–80 + camping for 100+ (2 small cabins closed in winter). No public availability calendar; the only 2026 event listed on the site is April 3–5. Hexenfest (the recurring October festival here) still shows 2025 dates with no 2026 announcement.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/saratoga-springs/thumb.jpg",
   "images": [
    {
@@ -865,8 +1711,8 @@ window.VENUES = [
  },
  {
   "id": "westminster-woods",
-  "tier": "B",
   "name": "Westminster Woods",
+  "tier": "B",
   "area": "Occidental, Sonoma",
   "drive": "~1 hr 30 min",
   "sleeps": "Groups of 20-200; dorm cabins, 3 guest lodges, private rooms",
@@ -883,6 +1729,78 @@ window.VENUES = [
   "lat": 38.4389615,
   "lng": -122.9750034,
   "geo_confidence": "medium",
+  "cost": {
+   "mode": "quote",
+   "low": 20000,
+   "high": 26000,
+   "summary": "Quote only (~$20k–26k est.)",
+   "basis": "Guest Groups page promises 'package rates that include lodging, delicious meals, meeting rooms' for groups of 20–200 but publishes no figures; the /camp-rates page returns 401 ('being updated'). Estimate uses the venue's own retail weekend programs as a proxy: Women's Weekend (Fri–Sun, 2 nights, all meals, program) is $340 standard cabin / $400 cabin with bathroom / $430 guest-house room per person, and Family Camp says $550 for 3 nights 'reflects the actual cost of camp' (~$183/person/night). 60 x $340–430 = $20,400–25,800 for Fri–Sun with meals. Cabins are bunk dorms; guests bring bedding and towels.",
+   "per_person": "~$340–430 per person for the weekend incl. meals (proxy from their own retail weekends)",
+   "source_url": "https://www.westminsterwoods.org/guest-groups",
+   "source_label": "Westminster Woods Guest Group Rentals page (rates on inquiry)",
+   "confidence": "low",
+   "hint": "Women's Weekend 2027 (Fri–Sun on site, meals included): $340 standard cabin, $400 cabin with bathroom, $430 guest house per person.",
+   "hint_url": "https://www.westminsterwoods.org/womens-weekend",
+   "short": "est. $20–26k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "booked",
+    "evidence": "Westminster Woods' own Family Camp (The Grove) Session 7 runs Fri 8/21–Mon 8/24 2026, and the summer-camp page states that during each program session 'we suspend all other rentals and uses of the facility'.",
+    "source_url": "https://www.westminsterwoods.org/summer-camp"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "unknown",
+    "evidence": "No public guest-group availability calendar (the site's events calendar page is empty); no program of their own listed this weekend.",
+    "source_url": "https://www.westminsterwoods.org/guest-groups"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "unknown",
+    "evidence": "No public guest-group availability calendar (the site's events calendar page is empty); no program of their own listed this weekend.",
+    "source_url": "https://www.westminsterwoods.org/guest-groups"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "unknown",
+    "evidence": "No public guest-group availability calendar (the site's events calendar page is empty); no program of their own listed this weekend.",
+    "source_url": "https://www.westminsterwoods.org/guest-groups"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "unknown",
+    "evidence": "No public guest-group availability calendar (the site's events calendar page is empty); no program of their own listed this weekend.",
+    "source_url": "https://www.westminsterwoods.org/guest-groups"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "unknown",
+    "evidence": "No public guest-group availability calendar (the site's events calendar page is empty); no program of their own listed this weekend.",
+    "source_url": "https://www.westminsterwoods.org/guest-groups"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "unknown",
+    "evidence": "No public guest-group availability calendar (the site's events calendar page is empty); no program of their own listed this weekend.",
+    "source_url": "https://www.westminsterwoods.org/guest-groups"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "unknown",
+    "evidence": "No public guest-group availability calendar (the site's events calendar page is empty); no program of their own listed this weekend.",
+    "source_url": "https://www.westminsterwoods.org/guest-groups"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "partial",
+    "evidence": "Their own Camp Heartwood Weekend Retreat (ages 7–16, $299) is scheduled 10/16–10/18 2026 on site; the page does not say whether guest groups can be hosted alongside it, but a youth camp occupying cabins, dining hall and challenge course that weekend makes a 60-person adult rental unlikely.",
+    "source_url": "https://www.westminsterwoods.org/retreat-weekends-overview"
+   }
+  ],
+  "availabilityNotes": "Hosts guest groups of 20–200. No group rentals in June–July; during the school year guest-group rentals are limited to weekends (Friday–Sunday) because of weekday school programs, so all nine Fri–Sun weekends are in principle eligible. No weddings except Nov–Mar; rarely family reunions. Lodging is mostly dorm cabins (8–10 bunks each) plus three 10–12-person guest houses and a few private-bath rooms; bring sleeping bags, pillows, towels. Inquiry via the group-inquiries form; no public availability calendar.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/westminster-woods/thumb.jpg",
   "images": [
    {
@@ -937,8 +1855,8 @@ window.VENUES = [
  },
  {
   "id": "monte-toyon",
-  "tier": "B",
   "name": "Monte Toyon",
+  "tier": "B",
   "area": "Aptos, Santa Cruz County",
   "drive": "~1 hr 30 min",
   "sleeps": "146 overnight",
@@ -955,6 +1873,76 @@ window.VENUES = [
   "lat": 36.996114,
   "lng": -121.896946,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 16200,
+   "high": 17100,
+   "summary": "$16k–17k",
+   "basis": "UCCR 2026 Monte Toyon adult package = 1 night + 3 meals within 24 h: $130.10 Miller/Morris dorms, $132.95 exclusive use, $137.45 Cary Lodge (lodging-only $78.65–86.00; meals-only $14.35 breakfast, $17.25 lunch, $19.85 dinner = $51.45/day + 9.5% Santa Cruz County sales tax on food ≈ $4.89). A Fri-dinner-to-Sun-lunch weekend = 2 packages/person = 2 nights + 6 meals. Low: 60 x 2 x $130.10 = $15,612 + food tax 60 x 2 x $4.89 = $587 -> $16,199. High: 60 x 2 x $137.45 = $16,494 + $587 -> $17,081. All meeting areas free for overnight groups; linens not provided; day-use $34.75. 2027 rates are ~3% higher ($134–142 pkg). Deposit = 50% of the guaranteed minimum fee (per-person package x guaranteed headcount), balance 30 days before; 20% non-refundable; $1M liability certificate required. UCCR offers a 33% food-and-lodging discount (up to $15,000) on application.",
+   "per_person": "~$270–285 per person for 2 nights + 6 meals",
+   "source_url": "https://www.uccr.org/monte-toyon-forms-information/pricing",
+   "source_label": "UCCR Monte Toyon 2026 pricing page (also PDF: uccr.org/s/MTN-Pricing-2026.pdf)",
+   "confidence": "high",
+   "short": "$16–17k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "unknown",
+    "evidence": "UCCR publishes no availability calendar for Monte Toyon ('Our camp is popular. For availability, inquire about reservations as soon as possible'); no public event found for this weekend.",
+    "source_url": "https://www.uccr.org/monte-toyon"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "unknown",
+    "evidence": "UCCR publishes no availability calendar for Monte Toyon ('Our camp is popular. For availability, inquire about reservations as soon as possible'); no public event found for this weekend.",
+    "source_url": "https://www.uccr.org/monte-toyon"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "unknown",
+    "evidence": "UCCR publishes no availability calendar for Monte Toyon ('Our camp is popular. For availability, inquire about reservations as soon as possible'); no public event found for this weekend.",
+    "source_url": "https://www.uccr.org/monte-toyon"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "partial",
+    "evidence": "First Church Berkeley UCC's All-Church Retreat is booked at Monte Toyon Fri Sept 11–Sun Sept 13 2026 (registration closed ~Aug 24); size not stated, and UCCR can house more than one group on the 146-bed site, so it may be a full buyout or leave only a building free.",
+    "source_url": "https://www.firstchurchberkeley.org/fall-all-church-retreat-2026/"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "unknown",
+    "evidence": "UCCR publishes no availability calendar for Monte Toyon ('Our camp is popular. For availability, inquire about reservations as soon as possible'); no public event found for this weekend.",
+    "source_url": "https://www.uccr.org/monte-toyon"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "unknown",
+    "evidence": "UCCR publishes no availability calendar for Monte Toyon ('Our camp is popular. For availability, inquire about reservations as soon as possible'); no public event found for this weekend.",
+    "source_url": "https://www.uccr.org/monte-toyon"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "unknown",
+    "evidence": "UCCR publishes no availability calendar for Monte Toyon ('Our camp is popular. For availability, inquire about reservations as soon as possible'); no public event found for this weekend.",
+    "source_url": "https://www.uccr.org/monte-toyon"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "unknown",
+    "evidence": "UCCR publishes no availability calendar for Monte Toyon ('Our camp is popular. For availability, inquire about reservations as soon as possible'); no public event found for this weekend.",
+    "source_url": "https://www.uccr.org/monte-toyon"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "unknown",
+    "evidence": "UCCR publishes no availability calendar for Monte Toyon ('Our camp is popular. For availability, inquire about reservations as soon as possible'); no public event found for this weekend.",
+    "source_url": "https://www.uccr.org/monte-toyon"
+   }
+  ],
+  "availabilityNotes": "Takes groups of 30–146 overnight (Cary Lodge 70 in 19 rooms; Miller 36 + Morris 40 dorm beds), 150 day-use; open to secular and religious groups. No public calendar — UCCR says to inquire early because the camp is popular. WOLF School outdoor-education programs use the site on school weekdays, so weekends are the guest-group window. Exclusive-use rate ($132.95) applies when a group takes the whole site.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/monte-toyon/thumb.jpg",
   "images": [
    {
@@ -1009,8 +1997,8 @@ window.VENUES = [
  },
  {
   "id": "vallombrosa",
-  "tier": "B",
   "name": "Vallombrosa Center",
+  "tier": "B",
   "area": "Menlo Park",
   "drive": "~40 min",
   "sleeps": "60 guest rooms, up to 100 overnight",
@@ -1027,6 +2015,78 @@ window.VENUES = [
   "lat": 37.4602497,
   "lng": -122.1813261,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "quote",
+   "low": 20000,
+   "high": 27000,
+   "summary": "Quote only (~$20k–27k proxy)",
+   "basis": "Rates page says only 'Please call Jaynie Fedele at 650-325-5614 or jaynie@vallombrosa.org to request current rates'; no rate sheet, brochure PDF or meal prices are published. Proxy: the Life-Giving Wounds retreat held at Vallombrosa Nov 13–15 2026 (Fri 6pm–Sun 3:30pm, lodging + meals + program) charges $400 shared double room / $450 private room per person vs $350 retreat-only, so 60 x $400–450 = $24,000–27,000 is an all-in ceiling that includes the organizer's program costs; low end assumes the venue's lodging+meals share is somewhat less. Meeting rooms: groups over 75 get a conference room plus breakouts free; smaller groups pay extra for additional rooms.",
+   "per_person": "roughly $330–450 per person for Fri dinner–Sun lunch incl. meals (proxy)",
+   "source_url": "https://www.vallombrosa.org/rts/",
+   "source_label": "Vallombrosa Center Rates page (call/email for rates)",
+   "confidence": "low",
+   "hint": "Life-Giving Wounds retreat at Vallombrosa, Nov 13–15 2026: $400 shared double room, $450 private/single room, $350 no-room option (all include the program and meals).",
+   "hint_url": "https://sfarch.org/event/life-giving-wounds-retreat/",
+   "short": "est. $20–27k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "unknown",
+    "evidence": "No public group calendar; the center's 2026 Calendar of Events page lists nothing, and diocesan venue listings show no event this weekend (only Nov 13–15 2026).",
+    "source_url": "https://www.vallombrosa.org/calendar/"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "unknown",
+    "evidence": "No public group calendar; the center's 2026 Calendar of Events page lists nothing, and diocesan venue listings show no event this weekend (only Nov 13–15 2026).",
+    "source_url": "https://www.vallombrosa.org/calendar/"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "unknown",
+    "evidence": "No public group calendar; the center's 2026 Calendar of Events page lists nothing, and diocesan venue listings show no event this weekend (only Nov 13–15 2026).",
+    "source_url": "https://www.vallombrosa.org/calendar/"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "unknown",
+    "evidence": "No public group calendar; the center's 2026 Calendar of Events page lists nothing, and diocesan venue listings show no event this weekend (only Nov 13–15 2026).",
+    "source_url": "https://www.vallombrosa.org/calendar/"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "unknown",
+    "evidence": "No public group calendar; the center's 2026 Calendar of Events page lists nothing, and diocesan venue listings show no event this weekend (only Nov 13–15 2026).",
+    "source_url": "https://www.vallombrosa.org/calendar/"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "unknown",
+    "evidence": "No public group calendar; the center's 2026 Calendar of Events page lists nothing, and diocesan venue listings show no event this weekend (only Nov 13–15 2026).",
+    "source_url": "https://www.vallombrosa.org/calendar/"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "unknown",
+    "evidence": "No public group calendar; the center's 2026 Calendar of Events page lists nothing, and diocesan venue listings show no event this weekend (only Nov 13–15 2026).",
+    "source_url": "https://www.vallombrosa.org/calendar/"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "unknown",
+    "evidence": "No public group calendar; the center's 2026 Calendar of Events page lists nothing, and diocesan venue listings show no event this weekend (only Nov 13–15 2026).",
+    "source_url": "https://www.vallombrosa.org/calendar/"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "unknown",
+    "evidence": "No public group calendar; the center's 2026 Calendar of Events page lists nothing, and diocesan venue listings show no event this weekend (only Nov 13–15 2026).",
+    "source_url": "https://www.vallombrosa.org/calendar/"
+   }
+  ],
+  "availabilityNotes": "Archdiocese of San Francisco retreat center; hosts groups 'of a religious, educational or charitable nature' (its own letter also mentions secular organizations), up to 100 overnight in 60 private-bath rooms (20 singles, 40 twins). Weekend events run Friday 6pm dinner to Sunday lunch; rooms ready after 4pm Friday; deposits non-refundable but transferable. No public booking calendar — the site's 2026 events calendar is empty ('Watch this page'), and the Archdiocese venue listing shows only a Nov 13–15 retreat.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/vallombrosa/thumb.jpg",
   "images": [
    {
@@ -1081,8 +2141,8 @@ window.VENUES = [
  },
  {
   "id": "ymca-point-bonita",
-  "tier": "B",
   "name": "NatureBridge Golden Gate",
+  "tier": "B",
   "area": "Marin Headlands, Sausalito",
   "drive": "~25 min",
   "sleeps": "Dorm lodging on two campuses (Bluff at Point Bonita, Beach at Fort Cronkhite); up to 200 guests total",
@@ -1101,6 +2161,76 @@ window.VENUES = [
   "lat": 37.823231,
   "lng": -122.529494,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 15540,
+   "high": 18420,
+   "summary": "$15.5k–18.4k",
+   "basis": "Published all-inclusive per-person weekend package (lodging in shared dorms + 3 meals per stay night + meeting rooms + Wi-Fi): 2 nights weekend = $307 standard or $259 nonprofit per person. 60 x $259 = $15,540 (nonprofit); 60 x $307 = $18,420 (standard). Semi-private 4-6 person rooms cost extra per room per night (amount not published); bedding/toiletries not included. 25% deposit with signed contract; balance and proof of insurance due one month out. No tax line is shown on the rate table.",
+   "per_person": "$259–307 per person for Fri–Sun incl. 6 meals and meeting space",
+   "source_url": "https://naturebridge.org/retreat-space/golden-gate",
+   "source_label": "NatureBridge Golden Gate Conference & Retreat Center page (Pricing section, 2026 rates)",
+   "confidence": "high",
+   "short": "$16–18k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "unknown",
+    "evidence": "Fri–Sun overnight bookings are allowed by NatureBridge's published policy for this date, but the site has no availability calendar or booking engine, so whether the campus is open this weekend is not public.",
+    "source_url": "https://naturebridge.org/retreat-space/golden-gate"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "unknown",
+    "evidence": "Fri–Sun overnight bookings are allowed by NatureBridge's published policy for this date, but the site has no availability calendar or booking engine, so whether the campus is open this weekend is not public.",
+    "source_url": "https://naturebridge.org/retreat-space/golden-gate"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "unknown",
+    "evidence": "Fri–Sun overnight bookings are allowed by NatureBridge's published policy for this date, but the site has no availability calendar or booking engine, so whether the campus is open this weekend is not public. (Labor Day weekend; policy also allows weekdays through Labor Day.)",
+    "source_url": "https://naturebridge.org/retreat-space/golden-gate"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "unknown",
+    "evidence": "Fri–Sun overnight bookings are allowed by NatureBridge's published policy for this date, but the site has no availability calendar or booking engine, so whether the campus is open this weekend is not public.",
+    "source_url": "https://naturebridge.org/retreat-space/golden-gate"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "unknown",
+    "evidence": "Fri–Sun overnight bookings are allowed by NatureBridge's published policy for this date, but the site has no availability calendar or booking engine, so whether the campus is open this weekend is not public.",
+    "source_url": "https://naturebridge.org/retreat-space/golden-gate"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "unknown",
+    "evidence": "Fri–Sun overnight bookings are allowed by NatureBridge's published policy for this date, but the site has no availability calendar or booking engine, so whether the campus is open this weekend is not public.",
+    "source_url": "https://naturebridge.org/retreat-space/golden-gate"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "unknown",
+    "evidence": "Fri–Sun overnight bookings are allowed by NatureBridge's published policy for this date, but the site has no availability calendar or booking engine, so whether the campus is open this weekend is not public.",
+    "source_url": "https://naturebridge.org/retreat-space/golden-gate"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "unknown",
+    "evidence": "Fri–Sun overnight bookings are allowed by NatureBridge's published policy for this date, but the site has no availability calendar or booking engine, so whether the campus is open this weekend is not public.",
+    "source_url": "https://naturebridge.org/retreat-space/golden-gate"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "unknown",
+    "evidence": "Fri–Sun overnight bookings are allowed by NatureBridge's published policy for this date, but the site has no availability calendar or booking engine, so whether the campus is open this weekend is not public.",
+    "source_url": "https://naturebridge.org/retreat-space/golden-gate"
+   }
+  ],
+  "availabilityNotes": "Overnight packages are offered Friday–Sunday during the school year, plus weekdays from mid-June through Labor Day, for groups of 20+ (day-use Mon–Fri). All nine target weekends are Fri–Sun so all fall inside the policy window, but NatureBridge publishes no availability calendar; dates are confirmed by emailing goldengatereservations@naturebridge.org (415-332-5771). Two campuses (Beach/Fort Cronkhite and Bluff/Point Bonita) sleep up to 200 in shared, gender-separated bunk dorms (main dorms ~60-70 beds each); the Raven building (max 45) is the only self-contained co-ed option. Dorms and dining hall may be shared with other groups. Beer/wine only, in meeting rooms.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/ymca-point-bonita/thumb.jpg",
   "images": [
    {
@@ -1155,8 +2285,8 @@ window.VENUES = [
  },
  {
   "id": "walker-creek-ranch",
-  "tier": "B",
   "name": "Walker Creek Ranch",
+  "tier": "B",
   "area": "Petaluma / Marshall, West Marin",
   "drive": "~1 hr 15 min",
   "sleeps": "Conference center lodging (confirm counts)",
@@ -1174,6 +2304,76 @@ window.VENUES = [
   "lat": 38.17374,
   "lng": -122.81402,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 19100,
+   "high": 27500,
+   "summary": "$19k–28k",
+   "basis": "2025-2026 Conference Pricing sheet (per person per night, ages 11+): economy bunk cabins $75; lodge shared room $125.50; lodge private room $184.50; camping $44.25. Meals: breakfast $22, lunch $24.25, dinner $31 + tax. Meeting rooms included with overnight stay. Low = 60 x $75 x 2 nights = $9,000 lodging + 6 meals ($154.50 + ~9% tax = ~$168) x 60 = $10,100 -> ~$19,100. High = 20 private lodge rooms ($184.50) + 40 shared lodge beds ($125.50) x 2 nights = $17,420 + $10,100 meals -> ~$27,500. Extras: linen sets $38.50 (included in lodges), projector $75, sound system $68, campfire $38, pond $110/hr. 5% lodging discount only for 100+ people, 5+ days, or Nov–Feb.",
+   "per_person": "$320–460 per person for the weekend incl. 6 meals",
+   "source_url": "https://www.walkercreekranch.org/_files/ugd/f401d1_12e70d7c58ab40c5a1b65493612c6956.pdf",
+   "source_label": "Walker Creek Ranch 2025-2026 Conference Pricing (PDF linked from Plan Your Event page)",
+   "confidence": "high",
+   "short": "$19–28k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "unknown",
+    "evidence": "Walker Creek Ranch publishes no availability calendar or event list; bookings are arranged by email and no public source shows this weekend as open or taken.",
+    "source_url": "https://www.walkercreekranch.org/forms-faq"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "unknown",
+    "evidence": "Walker Creek Ranch publishes no availability calendar or event list; bookings are arranged by email and no public source shows this weekend as open or taken.",
+    "source_url": "https://www.walkercreekranch.org/forms-faq"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "unknown",
+    "evidence": "Walker Creek Ranch publishes no availability calendar or event list; bookings are arranged by email and no public source shows this weekend as open or taken. (Labor Day weekend.)",
+    "source_url": "https://www.walkercreekranch.org/forms-faq"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "unknown",
+    "evidence": "Walker Creek Ranch publishes no availability calendar or event list; bookings are arranged by email and no public source shows this weekend as open or taken.",
+    "source_url": "https://www.walkercreekranch.org/forms-faq"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "unknown",
+    "evidence": "Walker Creek Ranch publishes no availability calendar or event list; bookings are arranged by email and no public source shows this weekend as open or taken.",
+    "source_url": "https://www.walkercreekranch.org/forms-faq"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "unknown",
+    "evidence": "Walker Creek Ranch publishes no availability calendar or event list; bookings are arranged by email and no public source shows this weekend as open or taken.",
+    "source_url": "https://www.walkercreekranch.org/forms-faq"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "unknown",
+    "evidence": "Walker Creek Ranch publishes no availability calendar or event list; bookings are arranged by email and no public source shows this weekend as open or taken.",
+    "source_url": "https://www.walkercreekranch.org/forms-faq"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "unknown",
+    "evidence": "Walker Creek Ranch publishes no availability calendar or event list; bookings are arranged by email and no public source shows this weekend as open or taken.",
+    "source_url": "https://www.walkercreekranch.org/forms-faq"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "unknown",
+    "evidence": "Walker Creek Ranch publishes no availability calendar or event list; bookings are arranged by email and no public source shows this weekend as open or taken.",
+    "source_url": "https://www.walkercreekranch.org/forms-faq"
+   }
+  ],
+  "availabilityNotes": "Run by the Marin County Office of Education. No public availability calendar: FAQ says to email conference admin Jean Parker (jparker@marinschools.org, 415-491-6603) with group size and preferred dates; a contract and deposit secure the reservation. The site serves ~5,000 outdoor-school students a year in week-long (4-5 day) residential programs during the school year, with conference/retreat groups (weddings, reunions, retreats) on other dates; weekends are the normal retreat window but nothing public confirms any specific weekend. Lodging: 4 lodges (82 beds, 2-5 per room, linens included), 13 bunk cabins + 2 bunkhouses (287 beds, bring bedding), camping for 10-200.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/walker-creek-ranch/thumb.jpg",
   "images": [
    {
@@ -1220,8 +2420,8 @@ window.VENUES = [
  },
  {
   "id": "harbin-hot-springs",
-  "tier": "C",
   "name": "Harbin Hot Springs",
+  "tier": "C",
   "area": "Middletown, Lake County",
   "drive": "~2 hr 15 min",
   "sleeps": "Cabins, camping, lodging across 280 acres",
@@ -1233,12 +2433,82 @@ window.VENUES = [
   "email": "info@harbin.org",
   "website": "https://harbin.org/",
   "booking": "https://harbin.org/experience/",
-  "note": "Research note: the post-2015-fire rebuild is still in progress. A new restaurant opened in August 2026 and a new multi-story hotel is being finished; current lodging is domes, hotel rooms, caravans and tent camping.",
+  "note": "Research note: the post-2015-fire rebuild is still in progress. A new restaurant opened in August 2026 and a new multi-story hotel is being finished; current lodging is domes, hotel rooms, caravans and tent camping. Harbin has not allowed group bookings since July 2023: every guest buys a membership and books individually, so a 60-person retreat here means 60 separate reservations.",
   "tierLabel": "Tier C",
   "address": "18424 Harbin Springs Rd, Middletown, CA 95461",
   "lat": 38.78608,
   "lng": -122.65183,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 9900,
+   "high": 17700,
+   "summary": "$9.9k–17.7k (no group bookings; everyone books individually; meals extra)",
+   "basis": "Harbin does not take group bookings (policy since July 2023: every adult buys a membership and makes their own reservation), so this is the sum of 60 individual bookings at published Fri–Sun/holiday rates. Membership $15 (1-month trial) per adult. Low = camping: 24-hour visit/camping pass $75 per adult per 24 h x 2 = $150 + $15 membership = $165 x 60 = $9,900. High = indoor lodging at double occupancy: Creekside Caravans $215/night (2 people, ~$108 pp), Grove Cottages $275 + $65 second adult (~$170 pp), Dome rooms $125–345/night (mostly $225 double, ~$113 pp); blended ~$140 pp/night x 2 nights + $15 = $295 x 60 = $17,700. Indoor inventory (15 caravans, a handful of cottages, ~16 dome rooms) cannot sleep 60, so in practice a 60-person group would be split between rooms and tent camping. 2-night minimum for rooms on weekends. Meals are not included (restaurant/cafe on site). $250 refundable incidental deposit per lodging reservation at check-in.",
+   "per_person": "$165 (camping) to ~$295 (room, double occupancy) per person for Fri–Sun, meals extra",
+   "source_url": "https://harbin.org/reservations/accommodations-rates/",
+   "source_label": "Harbin Hot Springs Accommodations & Rates page",
+   "confidence": "medium",
+   "short": "$9.9–18k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "partial",
+    "evidence": "Booking engine grid for Fri 8/21–Sat 8/22: both Creekside Caravan categories bookable both nights; Grove Cottages and every Dome room show Unavailable Fri and Sat (ADA cottage Sat only). Individual rooms only; group bookings are not accepted.",
+    "source_url": "https://secure.rzda.net/azbook/manager.cfm?Key=218|1|732&clear"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "partial",
+    "evidence": "Grid for Fri 8/28–Sat 8/29: caravans and Grove Cottages bookable both nights; Dome 5 #52 bookable both nights, a few other dome rooms Fri only; most dome rooms Unavailable. Individual rooms only.",
+    "source_url": "https://secure.rzda.net/azbook/manager.cfm?Key=218|1|732&clear"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "partial",
+    "evidence": "Grid for Labor Day Fri 9/4–Sat 9/5: Sat 9/5 shows Unavailable for every lodging category (caravans, cottages, all domes); Fri has lower caravans, cottage, ADA units and Dome 5 #51. Effectively no 2-night indoor lodging; camping/24-hour passes are separate.",
+    "source_url": "https://secure.rzda.net/azbook/manager.cfm?Key=218|1|732&clear"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "partial",
+    "evidence": "Grid for Fri 9/11–Sat 9/12: caravans, Grove Cottages, ADA dome, Dome 3 #30, Dome 4 #40/#43, Dome 5 #53 bookable both nights; Dome 1, Dome 2 and several dome rooms Unavailable. Individual rooms only.",
+    "source_url": "https://secure.rzda.net/azbook/manager.cfm?Key=218|1|732&clear"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "partial",
+    "evidence": "Grid for Fri 9/18–Sat 9/19: caravans, Grove Cottages, ADA cottage, ADA dome, Dome 1, Dome 2, Dome 4 #40, Dome 5 #51/#53 bookable both nights; Dome 2 #5, Dome 3 #30, Dome 4 #41-43 Unavailable. Individual rooms only.",
+    "source_url": "https://secure.rzda.net/azbook/manager.cfm?Key=218|1|732&clear"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "partial",
+    "evidence": "Grid for Fri 9/25–Sat 9/26: caravans, Grove Cottages, ADA units, Dome 1, Dome 2, Dome 4 #40/#41 bookable both nights; Dome 2 #5 and all Dome 5 rooms Unavailable, several rooms Sat only. Individual rooms only.",
+    "source_url": "https://secure.rzda.net/azbook/manager.cfm?Key=218|1|732&clear"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "partial",
+    "evidence": "Grid for Fri 10/2–Sat 10/3: only Upper/Lower Creekside Caravans and Grove Cottages bookable; ADA units and every Dome room Unavailable both nights. Individual rooms only.",
+    "source_url": "https://secure.rzda.net/azbook/manager.cfm?Key=218|1|732&clear"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "partial",
+    "evidence": "Grid for Fri 10/9–Sat 10/10: caravans, Grove Cottages, ADA cottage, Dome 1, Dome 2, Dome 4 #42 bookable both nights; Dome 2 #5, Dome 5 rooms and ADA dome Unavailable. Individual rooms only.",
+    "source_url": "https://secure.rzda.net/azbook/manager.cfm?Key=218|1|732&clear"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "partial",
+    "evidence": "Grid for Fri 10/16–Sat 10/17 (target weekend): caravans, Grove Cottages, ADA dome, Dome 1, Dome 2, Dome 3 #30, Dome 5 #53 bookable both nights; Dome 2 #5, Dome 4 #40-43, Dome 5 #51/#52 Unavailable. Individual rooms only; Harbin's own calendar shows only its regular classes (qigong, sound bath, kirtan, church service) that weekend, nothing that closes the site.",
+    "source_url": "https://secure.rzda.net/azbook/manager.cfm?Key=218|1|732&clear"
+   }
+  ],
+  "availabilityNotes": "Group bookings are explicitly not allowed ('Effective July 2023 ... each guest will need to purchase their own membership and book their own reservation'); no buyouts, no group rates. Membership-only (guests 18+), clothing-optional pools, alcohol- and drug-free, electronics banned in pool areas. 2-night minimum for rooms on weekends/holidays; 48-hour cancellation policy; max 4 room cancellations per year. Lodging currently: Creekside Caravans (15 trailers), Grove Cottages, Dome rooms (~16), plus tent/vehicle camping on 24-hour passes; a new hotel near the pools is under construction (weekday construction noise). Harbin's events calendar lists daily classes/workshops that are included with admission and do not close the site. Availability below comes from the public reservation system (secure.rzda.net) reached from Book Your Visit, after selecting a membership type (no purchase made).",
+  "checkedOn": "2026-08-21",
   "thumb": "images/harbin-hot-springs/thumb.jpg",
   "images": [
    {
@@ -1293,8 +2563,8 @@ window.VENUES = [
  },
  {
   "id": "wilbur-hot-springs",
-  "tier": "C",
   "name": "Wilbur Hot Springs",
+  "tier": "C",
   "area": "Williams, Colusa County",
   "drive": "~2 hr 30 min",
   "sleeps": "~40-50 across historic hotel, cabins, bunk rooms",
@@ -1311,6 +2581,78 @@ window.VENUES = [
   "lat": 39.03879,
   "lng": -122.42115,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 17200,
+   "high": 21700,
+   "summary": "$17k–22k at published room rates (but only ~45-50 beds; exclusive use is quoted)",
+   "basis": "Published weekend rates (include 11% land-management fee; the FareHarbor booking engine shows ~6.5% more 'including fees and taxes', e.g. cabin $360.42 vs $338.55): Cabins $338.55/night double (~$169 pp); Cabin Suite $442.89 double + $138.75 extra person; Solar Lodge private room $286.38 double (~$143 pp) + $138.75 extra; Historic Hotel room $303.03 double (~$152 pp); co-ed Bunk Room $146.52 per bunk; camping $87.69 pp (Apr–Oct). Low = 60 x $143.19 pp/night (Solar Lodge double, website rate) x 2 nights = ~$17,200; High = 60 x $169.28 pp/night (cabins) x 2 nights x 1.065 engine fees/taxes = ~$21,700. Hypothetical only: inventory is about 10 cabins, 1 suite, 8 Solar Lodge rooms, 2 hotel rooms, a bunk room and 6 tent platforms (~45-50 people), so 60 cannot be housed at once. No meals: guests cook in the community kitchen (nearest grocery 20+ miles). Exclusive-use/group contracts are quoted by the front desk (530-777-2306, info@wilburhotsprings.com).",
+   "per_person": "$285–360 per person for Fri–Sun lodging (no meals), if beds were available",
+   "source_url": "https://www.wilburhotsprings.com/reservations/rooms-rates/",
+   "source_label": "Wilbur Hot Springs Reservations & Rates page",
+   "confidence": "low",
+   "hint": "FAQ: 'There is limited availability for groups to contract Wilbur for small groups and exclusive use events each year' — price not published; Guest Chef Weekends carry a $225/person food & beverage minimum on top of lodging.",
+   "hint_url": "https://www.wilburhotsprings.com/reservations/plan-your-visit/",
+   "short": "$17–22k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "partial",
+    "evidence": "FareHarbor calendars: Fri 8/21 (same-day) shows no bookable lodging in any category; Sat 8/22 has only ADA cabin and Hotel Queen bookable, with Cabin Suite and campsites sold out. Individual rooms only; property sleeps roughly 45-50.",
+    "source_url": "https://fareharbor.com/embeds/book/wilburhotsprings/?full-items=yes"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "partial",
+    "evidence": "FareHarbor calendars for Fri 8/28 and Sat 8/29: Cabin Queen, Cabin Suite, Solar Lodge, Bunk Room and campsites bookable both nights; Historic Hotel rooms sold out. Individual rooms only; even a full house is ~45-50 people, and groups over 5 must call first.",
+    "source_url": "https://fareharbor.com/embeds/book/wilburhotsprings/?full-items=yes"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "partial",
+    "evidence": "FareHarbor calendars for Labor Day Fri 9/4–Sat 9/5: Cabin Queen, Solar Lodge and Bunk Room bookable both nights; Cabin Suite and Hotel rooms sold out, ADA cabin and campsites sold out Saturday. Individual rooms only; holiday rates apply.",
+    "source_url": "https://fareharbor.com/embeds/book/wilburhotsprings/?full-items=yes"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "partial",
+    "evidence": "FareHarbor calendars for Fri 9/11 and Sat 9/12: Cabin Queen, ADA cabin, Solar Lodge, Hotel Queen, Bunk Room and campsites all bookable both nights; only the Cabin Suite is sold out. Individual rooms only; whole property is ~45-50 beds.",
+    "source_url": "https://fareharbor.com/embeds/book/wilburhotsprings/?full-items=yes"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "booked",
+    "evidence": "Wilbur's Programs & Events page lists the Sarana Yoga Retreat / Guest Chef Weekend Sept 18-20, and the FareHarbor calendars show every lodging category (cabins, suite, Solar Lodge, hotel, bunks, campsites) as sold out / not bookable for both Fri 9/18 and Sat 9/19.",
+    "source_url": "https://www.wilburhotsprings.com/activities-events/special-events/"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "partial",
+    "evidence": "FareHarbor calendars for Fri 9/25 and Sat 9/26: Cabin Queen, ADA cabin, Solar Lodge, Bunk Room and campsites bookable both nights; Cabin Suite sold out, Hotel Queen sold out Saturday. Individual rooms only; ~45-50 beds total.",
+    "source_url": "https://fareharbor.com/embeds/book/wilburhotsprings/?full-items=yes"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "booked",
+    "evidence": "Wilbur's Programs & Events page lists the Sarana Yoga Retreat / Guest Chef Weekend Oct 2-4, and the FareHarbor calendars show every lodging category sold out / not bookable for both Fri 10/2 and Sat 10/3.",
+    "source_url": "https://www.wilburhotsprings.com/activities-events/special-events/"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "partial",
+    "evidence": "FareHarbor calendars for Fri 10/9 and Sat 10/10: Cabin Queen, ADA cabin, Solar Lodge, Hotel Queen and campsites bookable both nights; Cabin Suite and Bunk Room sold out Saturday. Individual rooms only; ~45-50 beds total.",
+    "source_url": "https://fareharbor.com/embeds/book/wilburhotsprings/?full-items=yes"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "partial",
+    "evidence": "FareHarbor calendars for Fri 10/16 and Sat 10/17 (target weekend): Cabin Queen, ADA cabin, Solar Lodge, Hotel Queen, Bunk Room and campsites bookable both nights; Cabin Suite sold out Friday. Individual rooms only; the property tops out around 45-50 beds and no exclusive-use block is shown publicly.",
+    "source_url": "https://fareharbor.com/embeds/book/wilburhotsprings/?full-items=yes"
+   }
+  ],
+  "availabilityNotes": "Off-grid, clothing-optional health sanctuary with roughly 45-50 beds (10 cabins incl. 2 ADA, 1 cabin suite, 8 Solar Lodge rooms, 2 historic hotel rooms, a co-ed bunk room, 6 seasonal tent platforms Apr–Oct). Groups: the former group space (Red House) is gone; groups of more than 5 must contact the front desk before booking; exclusive-use events exist but are limited and quoted case by case. Ages 13+. Select weekends require 2-night (Fri+Sat) stays; 5-day cancellation policy for overnights; 11% land-management fee included in rates. Two Sarana Yoga Retreat / Guest Chef Weekends (Sept 18-20, Oct 2-4) take the whole property. Availability below read from the public FareHarbor calendar per accommodation type (no reservation made).",
+  "checkedOn": "2026-08-21",
   "thumb": "images/wilbur-hot-springs/thumb.jpg",
   "images": [
    {
@@ -1365,8 +2707,8 @@ window.VENUES = [
  },
  {
   "id": "asilomar",
-  "tier": "C",
   "name": "Asilomar Conference Grounds",
+  "tier": "C",
   "area": "Pacific Grove, Monterey Peninsula",
   "drive": "~2 hr",
   "sleeps": "312 rooms in 30 buildings",
@@ -1383,6 +2725,76 @@ window.VENUES = [
   "lat": 36.618554,
   "lng": -121.938448,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 39000,
+   "high": 47500,
+   "summary": "$39k–48k",
+   "basis": "Lodging: hotel booking engine for Fri Oct 16–Sun Oct 18, 2026 (2 adults) lists 40 room types at Best Flexible Rate $299.50–$338.50 average/night (historic and standard rooms $299.50; fireplace rooms $306.50–329.50; 1 queen + 3 twin $338.50). Rates include the $12 facility fee and $2.50 tourism fee; Pacific Grove occupancy tax is extra (~10% assumed). 30 rooms x $299.50–338.50 x 2 nights x 1.10 = $19,800–22,300. Meals (not included in room rates): 2024 event catering menu, prices valid through 1/1/2025 so expect increases: continental breakfasts $24–29, boxed lunch $33 / lunch buffets $48–67, dinner buffets/entrees $65–86 per guest, all plus 20% F&B administrative fee and sales tax. 6 meals x 60 people = $244–320 pp x 1.31 = $19,200–25,200. Total $39,000–47,500. Asilomar's per-person 'Complete Meeting Package' (room + 3 meals/day + meeting space, facility fees and taxes) is priced only through the RFP and would likely undercut the a-la-carte total. Meeting space is complimentary only above a peak-night guestroom minimum; all rates double occupancy, extra-person fees for 3+.",
+   "per_person": "$650–790 per person for Fri–Sun incl. 6 catered meals (double occupancy)",
+   "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+   "source_label": "Asilomar booking engine results, Oct 16-18 2026, 2 adults (reservations.ahlsmsworld.com)",
+   "confidence": "medium",
+   "short": "$39–48k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "partial",
+    "evidence": "Booking engine's public inventory count (GetInventoryCountData, of 312 rooms) shows 62 rooms open Fri 08/21 and 4 open the following Sat — plenty Friday but only a handful Saturday, far short of the ~30 rooms 60 people need. (Individual hotel rooms, not a buyout.)",
+    "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Search/Accomodations"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "available",
+    "evidence": "Booking engine's public inventory count (GetInventoryCountData, of 312 rooms) shows 104 rooms open Fri 08/28 and 64 open the following Sat — more than the ~30 rooms (double occupancy) a 60-person group needs on both nights; this is individual hotel-room availability, not a buyout (Asilomar never closes to one group), and group blocks/meeting space go through the RFP.",
+    "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Search/Accomodations"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "partial",
+    "evidence": "Booking engine's public inventory count (GetInventoryCountData, of 312 rooms) shows 62 rooms open Fri 09/04 and 4 open the following Sat — plenty Friday but only a handful Saturday, far short of the ~30 rooms 60 people need. (Individual hotel rooms, not a buyout.) Labor Day weekend.",
+    "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Search/Accomodations"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "available",
+    "evidence": "Booking engine's public inventory count (GetInventoryCountData, of 312 rooms) shows 134 rooms open Fri 09/11 and 121 open the following Sat — more than the ~30 rooms (double occupancy) a 60-person group needs on both nights; this is individual hotel-room availability, not a buyout (Asilomar never closes to one group), and group blocks/meeting space go through the RFP.",
+    "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Search/Accomodations"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "available",
+    "evidence": "Booking engine's public inventory count (GetInventoryCountData, of 312 rooms) shows 63 rooms open Fri 09/18 and 91 open the following Sat — more than the ~30 rooms (double occupancy) a 60-person group needs on both nights; this is individual hotel-room availability, not a buyout (Asilomar never closes to one group), and group blocks/meeting space go through the RFP.",
+    "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Search/Accomodations"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "available",
+    "evidence": "Booking engine's public inventory count (GetInventoryCountData, of 312 rooms) shows 36 rooms open Fri 09/25 and 64 open the following Sat — more than the ~30 rooms (double occupancy) a 60-person group needs on both nights; this is individual hotel-room availability, not a buyout (Asilomar never closes to one group), and group blocks/meeting space go through the RFP.",
+    "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Search/Accomodations"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "available",
+    "evidence": "Booking engine's public inventory count (GetInventoryCountData, of 312 rooms) shows 33 rooms open Fri 10/02 and 68 open the following Sat — more than the ~30 rooms (double occupancy) a 60-person group needs on both nights; this is individual hotel-room availability, not a buyout (Asilomar never closes to one group), and group blocks/meeting space go through the RFP.",
+    "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Search/Accomodations"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "booked",
+    "evidence": "Booking engine's public inventory count (GetInventoryCountData, of 312 rooms) shows 70 rooms open Fri 10/09 and -8 open the following Sat — Saturday is oversold, so no 2-night transient stay is possible; a group room block would have to come from Conference Services. (Individual hotel rooms, not a buyout.)",
+    "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Search/Accomodations"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "available",
+    "evidence": "Booking engine's public inventory count (GetInventoryCountData, of 312 rooms) shows 77 rooms open Fri 10/16 and 104 open the following Sat — more than the ~30 rooms (double occupancy) a 60-person group needs on both nights; this is individual hotel-room availability, not a buyout (Asilomar never closes to one group), and group blocks/meeting space go through the RFP. Rate search for Oct 16-18, 2 adults returned 40 room types from $299.50/night.",
+    "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Search/Accomodations"
+   }
+  ],
+  "availabilityNotes": "312-room state-park conference hotel run by Aramark; never sold as a buyout, but group room blocks plus meeting rooms (Merrill Hall 569 theatre, Chapel 256, Fred Farr Forum 176, Kiln 126, Nautilus 100, etc.) are contracted via the meetings RFP, with Complete Meeting Packages quoted per person per night. Transient rooms: deposit of one night + tax at booking, rate-specific cancellation, rates double occupancy with fees for extra adults, cottages (4) by phone only. The booking engine's date picker exposes a nightly count of unsold rooms; weekend statuses below use that count for Fri and Sat nights (Aug 21/22: 62/4; Aug 28/29: 104/64; Sep 4/5: 62/4; Sep 11/12: 134/121; Sep 18/19: 63/91; Sep 25/26: 36/64; Oct 2/3: 33/68; Oct 9/10: 70/-8; Oct 16/17: 77/104). No on-site festival was found for these weekends; Oktoberfest Weekend and Sunset Music Series are guest events that do not close the grounds.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/asilomar/thumb.jpg",
   "images": [
    {
@@ -1437,8 +2849,8 @@ window.VENUES = [
  },
  {
   "id": "1440-multiversity",
-  "tier": "C",
   "name": "1440 Multiversity",
+  "tier": "C",
   "area": "Scotts Valley, Santa Cruz Mtns",
   "drive": "~1 hr 15 min",
   "sleeps": "147 private guest rooms",
@@ -1450,11 +2862,84 @@ window.VENUES = [
   "email": "",
   "website": "https://www.1440.org/",
   "booking": "https://www.1440.org/groups",
+  "note": "Research note: 1440 never sells a buyout; groups book room blocks under all-inclusive packages, and its Group FAQ says it has a waiting list for private mission-aligned group events.",
   "tierLabel": "Tier C",
   "address": "800 Bethany Drive, Scotts Valley, CA 95066",
   "lat": 37.0751,
   "lng": -121.9947,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "quote",
+   "low": 50000,
+   "high": 93000,
+   "summary": "$50k–93k (est.)",
+   "basis": "Group packages are quoted by RFP only ('Accommodations (prices vary)'). Estimate derived from published per-person program packages: the Sep 18-19 2026 overnight program is $425/person single or $790/room double (~$395/person) for one night incl. dinner, breakfast, a 90-min workshop and signature classes; the 2025 Soul Strides program lists lodging+meals at '$1,390 + tax for two nights' (~$695/person/night) before tuition. 60 people x 2 nights x $395–695 = $47,400–83,400, plus 11% accommodation tax (shown in the booking engine) = ~$52,600–92,600; service charges and any private-class fees ($250+/class, $50–250/person) extra. 50% deposit at booking.",
+   "per_person": "~$880–1,550 per person for 2 nights incl. 3 meals/day, before service charges",
+   "source_url": "https://www.1440.org/groups",
+   "source_label": "1440 Groups page (all-inclusive package, pricing on RFP)",
+   "confidence": "low",
+   "hint": "Published program pages show all-inclusive per-person pricing: one-night overnight program $425 single / $790 double + tax (Sep 18 2026); three-day/two-night program lodging+meals 'starts at $1,390 + tax for two nights' plus tuition (Mar 2025). FAQ: ~50% of the per-person rate is accommodations, the rest meals/tuition/classes.",
+   "hint_url": "https://www.1440.org/events/scotts-valley/overnight-program-stay-shift-your-heart-health-091826",
+   "short": "est. $50–93k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "unknown",
+    "evidence": "No public 1440 event listed Aug 21–23; private group bookings are not published and the program-gated booking engine returns 'not available on August 21, 2026' without a program code, which is not evidence either way.",
+    "source_url": "https://www.1440.org/events"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "partial",
+    "evidence": "Campus hosts two public evening dining/arts events, 'The Ancestral Watch' on Fri Aug 28 and Sat Aug 29, so some campus venues are committed; room-block availability for a 60-person group is not published.",
+    "source_url": "https://www.1440.org/events"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "unknown",
+    "evidence": "No public 1440 event listed for Labor Day weekend Sep 4–6; private group bookings are not published.",
+    "source_url": "https://www.1440.org/events"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "unknown",
+    "evidence": "No public 1440 event listed Sep 11–13; private group bookings are not published.",
+    "source_url": "https://www.1440.org/events"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "partial",
+    "evidence": "A public one-night 'Overnight Program Stay: Shift Your Heart Health' (Fri Sep 18–Sat Sep 19, guest rooms + Kitchen Table dinner) and a 'Discovery Dinner' on Sep 18 occupy part of the campus that Friday; remaining room inventory for a 60-person group is not published.",
+    "source_url": "https://www.1440.org/events/scotts-valley/overnight-program-stay-shift-your-heart-health-091826"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "unknown",
+    "evidence": "No public 1440 event listed Sep 25–27; private group bookings are not published.",
+    "source_url": "https://www.1440.org/events"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "unknown",
+    "evidence": "No public 1440 event listed Oct 2–4; private group bookings are not published.",
+    "source_url": "https://www.1440.org/events"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "unknown",
+    "evidence": "No public 1440 event listed Oct 9–11; private group bookings are not published.",
+    "source_url": "https://www.1440.org/events"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "unknown",
+    "evidence": "No public 1440 event listed Oct 16–18 (next listed program is Jun 2027); the program-gated booking engine says 'not available on October 17, 2026' for an open-dated search, which is its response for every date without a program code, so group availability is unknown.",
+    "source_url": "https://www.1440.org/events"
+   }
+  ],
+  "availabilityNotes": "147 private guest rooms; groups never get a buyout but book room blocks under an all-inclusive package. 1440 only hosts 'mission-aligned' groups that include a learning element, and its Group FAQ says it 'has established a waiting list for private mission-aligned group events' (inquire at inquiries@1440.org / 888-727-1440). Private group bookings are not published anywhere; the public Community Education Calendar lists only 1440's own open-enrollment events. The SynXis booking engine is program-gated ('Select a Learning Experience') and returns 'Our hotel is not available' for every open-dated search, so it cannot be used to test room availability. 50% deposit at booking, balance 14–45 days before arrival; 11% accommodation tax.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/1440-multiversity/thumb.jpg",
   "images": [
    {
@@ -1509,8 +2994,8 @@ window.VENUES = [
  },
  {
   "id": "mendocino-woodlands",
-  "tier": "C",
   "name": "Mendocino Woodlands",
+  "tier": "C",
   "area": "Mendocino",
   "drive": "~3 hr 30 min",
   "sleeps": "Three separate camps, 30-200 each",
@@ -1527,6 +3012,78 @@ window.VENUES = [
   "lat": 39.3182,
   "lng": -123.703,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "quote",
+   "low": 2500,
+   "high": 8000,
+   "summary": "$2.5k–8k (est., self-catered)",
+   "basis": "Current Camp Rental Details page says facility rental fees for new groups 'include all utilities' but 'please email director@mendocinowoodlands.org or call 707-937-5755 for current rates'. Only hint: the 2019 version of the same page (Wayback) listed legacy-group rates of $22.50 (Camp One), $20.00 (Camp Two), $17.50 (Camp Three) per person per night plus metered utilities of ~$2–3/person/night, against a minimum-attendee fee. 60 people x 2 nights x $20–25.50 = $2,400–3,060 at those 2019 legacy rates; new-group facility fees, firewood, a 25% nonrefundable rental deposit, a security deposit and a cleaning deposit are extra, and the group cooks for itself in the camp kitchen (no meals served). High end allows for 2026 new-group pricing being well above the 2019 legacy rate. State Parks page: fall minimum occupancy is 60 for Camp One, 40 for Camp Two, 30 for Camp Three.",
+   "per_person": "~$40–130 per person for 2 nights, no meals (est.)",
+   "source_url": "https://www.mendocinowoodlands.org/camp-rental-details",
+   "source_label": "Mendocino Woodlands Camp Rental Details (rates on request)",
+   "confidence": "low",
+   "hint": "2019 archived rental page: legacy-group per-person/per-night fees Camp One $22.50, Camp Two $20.00, Camp Three $17.50, plus ~$2–3/person/night metered utilities; firewood extra; day use at half the nightly rate.",
+   "hint_url": "http://web.archive.org/web/20190918080727/https://www.mendocinowoodlands.org/camp-rental-details",
+   "short": "est. $2.5–8k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "available",
+    "evidence": "Camp Calendar shows Camp One (cap 200) with no reservation Aug 9–27; Camp Two is taken by 'Mosaic' Aug 17–23 and Camp Three by 'Bay Area Queer Line Dancing' Aug 21–23 (this is essentially a same-day booking).",
+    "source_url": "https://www.mendocinowoodlands.org/camp-calendar"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "booked",
+    "evidence": "All three camps reserved: Camp One 'Josh and April Wedding' Aug 27–30, Camp Two 'Duffy's Reunion' Aug 28–30, Camp Three 'Camp 40' Aug 27–31.",
+    "source_url": "https://www.mendocinowoodlands.org/camp-calendar"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "booked",
+    "evidence": "All three camps reserved Sep 4–7 (Camp One 'Woodside Beasts', Camp Two 'UU Labor Day Camp', Camp Three 'Andre Libarle').",
+    "source_url": "https://www.mendocinowoodlands.org/camp-calendar"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "booked",
+    "evidence": "Camp One 'Sisters in Serenity' Sep 11–13, Camp Three 'Mendocino Running Festival' Sep 11–13, and Camp Two 'Mendocino Community High School' through Fri Sep 11, so no camp is free for Fri–Sun.",
+    "source_url": "https://www.mendocinowoodlands.org/camp-calendar"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "available",
+    "evidence": "Camp Three (20 four-bed tent cabins, cap 80, fall minimum 30) shows no reservation Sep 14–24; Camp One ('Camp Awesome') and Camp Two ('Bay Campers') are both taken Sep 17–20.",
+    "source_url": "https://www.mendocinowoodlands.org/camp-calendar"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "available",
+    "evidence": "Camp One (cap 200, fall minimum 60) shows no reservation Sep 21–Oct 1; Camp Two ('On Set Cinema' Sep 25–27) and Camp Three ('St. Dominic's Young Adult Group' Sep 25–28) are taken.",
+    "source_url": "https://www.mendocinowoodlands.org/camp-calendar"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "available",
+    "evidence": "Camp Two (cap 120, fall minimum 40) shows no reservation after Sep 28; Camp One ('Krisanne and Marie' Oct 2–5) and Camp Three ('NorCal' Oct 1–4) are taken.",
+    "source_url": "https://www.mendocinowoodlands.org/camp-calendar"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "available",
+    "evidence": "Camp One and Camp Two both show no reservation Oct 9–11; Camp Three is taken by 'Mysteries of Samhain' Oct 9–12.",
+    "source_url": "https://www.mendocinowoodlands.org/camp-calendar"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "available",
+    "evidence": "No reservation on any camp calendar Oct 16–18 (Camp One's next booking is 'Leesville' Nov 6–8, Camp Two has none after Sep 28); note Camp Three closed for the season on Oct 14 in 2025 so it may already be closed, leaving Camp One and Camp Two.",
+    "source_url": "https://www.mendocinowoodlands.org/camp-calendar"
+   }
+  ],
+  "availabilityNotes": "Group camping only, exclusive use of one whole camp (Camp One cap 200, 46 four-bed cabins; Camp Two cap 120; Camp Three cap 80 tent cabins). Fall minimum occupancy: Camp One 60, Camp Two 40, Camp Three 30 (parks.ca.gov). Arrival 2 pm, departure 11 am; group self-caters and cleans. Seasonal: in 2025 Camp Three closed for the season Oct 14, Camp Two Nov 2, Camp One Nov 17; camps reopen late March–May. Availability is shown on the public Camp Calendar (three Google calendars, red/blue/green bars = reserved); book via the online Reservation Inquiry Form, 25% nonrefundable deposit + security deposit with signed contract.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/mendocino-woodlands/thumb.jpg",
   "images": [
    {
@@ -1581,8 +3138,8 @@ window.VENUES = [
  },
  {
   "id": "land-of-medicine-buddha",
-  "tier": "C",
   "name": "Land of Medicine Buddha",
+  "tier": "C",
   "area": "Soquel, Santa Cruz County",
   "drive": "~1 hr 20 min",
   "sleeps": "Max 56 (19 guest rooms plus yurts and camping)",
@@ -1600,6 +3157,76 @@ window.VENUES = [
   "lat": 37.0109,
   "lng": -121.9344,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 22000,
+   "high": 30000,
+   "summary": "$22k–30k (2023 rate sheet)",
+   "basis": "LMB 'Rates for Group Rentals' sheet (Google Doc, labelled 2023 prices, still live but no longer linked from the current group-rentals page): all-inclusive per-person per-night rates cover lodging, 3 vegetarian meals/day, meeting room and grounds. Single $275, double $245, shared 3–4/room $225; yurt single $210, yurt double $185, tent platform $145; commuters $115/person/day incl. meals; $3,900/night minimum invoice; 2-night minimum. Site holds max 56 overnight (19 rooms + 6 yurts + tent platforms), so 60 people means ~4+ commuters. Low: 56 in shared rooms ($225) + 4 commuters ($115) = $13,060/night x 2 = $26,120 at 2023 rates; a mix of singles/yurts with more commuters comes to ~$22,300. High: doubles + double yurts + commuters = ~$25,500 at 2023 rates, ~$30k allowing for 2026 increases. Taxes/service not stated on the sheet; $25/person late-checkout fee; extra side dishes $5–10/person.",
+   "per_person": "~$370–500 per person for 2 nights incl. 6 meals (2023 rates)",
+   "source_url": "https://docs.google.com/document/d/1p3VZgJNHKlO2qBzXjqvU6qvFlPlymR9r7EP971xxk6U/",
+   "source_label": "LMB Rates for Group Rentals (Google Doc, 2023 prices)",
+   "confidence": "medium",
+   "short": "$22–30k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "booked",
+    "evidence": "Residential retreat 'Wise Paths to the Heart with Hans Burghardt' runs Aug 21–23 plus a Lama Chopa puja Fri Aug 21, so LMB's own program occupies the center that weekend.",
+    "source_url": "https://landofmedicinebuddha.org/programs/calendar-of-events/"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "partial",
+    "evidence": "Center is running day programs: a teaching Sat Aug 29 10 am–noon and the Ksitigarbha Festival with 100 Torma Offering Sun Aug 30 10 am–2 pm at the Ksitigarbha Pure Land; overnight group availability is not published.",
+    "source_url": "https://landofmedicinebuddha.org/programs/all-programs/"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "booked",
+    "evidence": "'The Foundation of All Good Qualities Weekend Retreat' Sat Sep 5–Sun Sep 6 (10:30 am–4 pm both days in the Gompa) opens the Khen Rinpoche series, followed by a Jangwa and Ruchog puja Mon Sep 7.",
+    "source_url": "https://landofmedicinebuddha.org/programs/all-programs/"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "booked",
+    "evidence": "'The Sixteen Human Dharmas' weekend retreat with Khen Rinpoche Wangdu runs Sat Sep 12–Sun Sep 13 (10:30 am–4 pm) in the Gompa.",
+    "source_url": "https://landofmedicinebuddha.org/programs/all-programs/"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "booked",
+    "evidence": "Eight-day residential 'White Tara Retreat, with White Tara Long Life Empowerment' runs Sep 16–23/24, covering the whole weekend.",
+    "source_url": "https://landofmedicinebuddha.org/programs/calendar-of-events/"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "booked",
+    "evidence": "'Lama Tsongkhapa Mind Training' weekend retreat with Khen Rinpoche Wangdu runs Sat Sep 26–Sun Sep 27 (10:30 am–4 pm).",
+    "source_url": "https://landofmedicinebuddha.org/programs/all-programs/"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "unknown",
+    "evidence": "Calendar shows nothing Oct 2–4 beyond the weekly Sunday drop-in meditation (last listed event is a Sound Journey Wed Sep 30; next is a Nov 6 retreat), but private group rentals are not published so openness cannot be confirmed.",
+    "source_url": "https://landofmedicinebuddha.org/programs/calendar-of-events/"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "unknown",
+    "evidence": "No LMB program listed Oct 9–11 on the events calendar; private group rentals are not published.",
+    "source_url": "https://landofmedicinebuddha.org/programs/calendar-of-events/"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "unknown",
+    "evidence": "No LMB program listed Oct 16–18 on the events calendar (calendar is populated through Nov 2026); private group rentals are not published.",
+    "source_url": "https://landofmedicinebuddha.org/programs/calendar-of-events/"
+   }
+  ],
+  "availabilityNotes": "Exclusive group rentals: 19 rooms with private baths (up to 56 overnight incl. seasonal Yurt Village, open May 1–Oct 31), minimum 18 / maximum 56 guests, 2-night minimum, $3,900/night minimum invoice; Pine Room seats 60 (35 for yoga). 'We host groups nearly every week.' Rental inquiry form on the group-rentals page (facilityrentals@medicinebuddha.org). LMB runs its own residential retreats and weekend teachings, listed on the public LMB Events Calendar (Google Calendar) and All Programs page; Sep 2026 is heavily programmed (Khen Rinpoche three-week series Sep 5–27). The individual-room ResNexus booking engine is behind bot protection and could not be read.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/land-of-medicine-buddha/thumb.jpg",
   "images": [
    {
@@ -1654,9 +3281,8 @@ window.VENUES = [
  },
  {
   "id": "presidio-lodging",
-  "tier": "C",
   "name": "Presidio Lodging",
-  "subtitle": "Inn + Lodge at the Presidio",
+  "tier": "C",
   "area": "San Francisco",
   "drive": "In the city",
   "sleeps": "68 rooms across two boutique hotels",
@@ -1668,11 +3294,82 @@ window.VENUES = [
   "email": "",
   "website": "https://presidiolodging.com/",
   "booking": "https://presidiolodging.com/contact/",
+  "subtitle": "Inn + Lodge at the Presidio",
   "tierLabel": "Tier C",
   "address": "Inn at the Presidio, 42 Moraga Avenue, San Francisco, CA 94129 (Lodge at the Presidio: 105 Montgomery Street, SF 94129)",
   "lat": 37.7971,
   "lng": -122.4578,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 41000,
+   "high": 82000,
+   "summary": "$41k–82k rooms only (+16% park fee)",
+   "basis": "Booking-engine rates seen for fall 2026 weekends (double occupancy, breakfast + evening wine & cheese included): Lodge at the Presidio Standard King $585, Junior King Suite $620, View King $705; Inn at the Presidio Classic/Funston King Suites $705–735 per night, each plus a 16% National Park Fee and $0 tax. Low: 30 rooms double occupancy x $585 x 2 nights = $35,100 + 16% = $40,716. High: 60 single-occupancy rooms (the two hotels have 68 total) x $585 x 2 x 1.16 = $81,432; using $705 rooms would push past $98k. Extras: $13/night parking, $25 third person, lunches/dinners not served (in-house catering limited to beverages; full catering via preferred vendors); the Inn's two 425 sq ft meeting rooms hold 20 each, so a 60-person session needs a Presidio venue. Full two-property buyout is offered but priced on request.",
+   "per_person": "~$680–1,360 per person for 2 nights incl. breakfast, double vs single occupancy",
+   "source_url": "https://lodgeres.presidiolodging.com/?launchwebres=true&checkin=8-28-2026&nights=2&guests=2",
+   "source_label": "Lodge at the Presidio booking engine (live rates) + hotel policies (16% park fee)",
+   "confidence": "medium",
+   "short": "$41–82k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "booked",
+    "evidence": "Both booking engines return 'Sold Out on 2026-08-21' for a Fri–Sun, 2-adult search; Lodge calendar flags Aug 21 and 22 SoldOut.",
+    "source_url": "https://lodgeres.presidiolodging.com/?launchwebres=true&checkin=8-21-2026&nights=2&guests=2"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "partial",
+    "evidence": "Individual rooms only: Lodge returns one room type (Standard King $585+fees) and the Inn two suite types ($705–735) for Fri–Sun; nowhere near 30+ rooms for a 60-person group.",
+    "source_url": "https://lodgeres.presidiolodging.com/?launchwebres=true&checkin=8-28-2026&nights=2&guests=2"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "partial",
+    "evidence": "Labor Day weekend: Inn is 'Sold Out on 2026-09-05'; Lodge returns a single room type (View King $705+fees) for Fri–Sun.",
+    "source_url": "https://lodgeres.presidiolodging.com/?launchwebres=true&checkin=9-4-2026&nights=2&guests=2"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "partial",
+    "evidence": "Lodge says 'Rate or Room Type not available' for Fri–Sun; Inn returns only a Classic King Suite 1st floor ($705+fees), i.e. a handful of individual rooms at most.",
+    "source_url": "https://innres.presidiolodging.com/?launchwebres=true&checkin=9-11-2026&nights=2&guests=2"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "partial",
+    "evidence": "Lodge returns one room type (Standard King $585+fees) and the Inn one suite type (Classic King Suite $705+fees) for Fri–Sun; individual rooms only.",
+    "source_url": "https://lodgeres.presidiolodging.com/?launchwebres=true&checkin=9-18-2026&nights=2&guests=2"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "booked",
+    "evidence": "Both engines return 'Sold Out on 2026-09-26' for Fri–Sun; calendars flag Sat Sep 26 SoldOut at both hotels.",
+    "source_url": "https://lodgeres.presidiolodging.com/?launchwebres=true&checkin=9-25-2026&nights=2&guests=2"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "booked",
+    "evidence": "Both engines return 'Sold Out on 2026-10-02' for a Fri–Sun search.",
+    "source_url": "https://lodgeres.presidiolodging.com/?launchwebres=true&checkin=10-2-2026&nights=2&guests=2"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "booked",
+    "evidence": "Both engines return 'Sold Out on 2026-10-09' for a Fri–Sun search.",
+    "source_url": "https://lodgeres.presidiolodging.com/?launchwebres=true&checkin=10-9-2026&nights=2&guests=2"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "booked",
+    "evidence": "Inn returns 'Sold Out on 2026-10-16' (calendar flags Oct 16 SoldOut) and the Lodge returns 'Rate or Room Type not available' for Fri Oct 16–Sun Oct 18, so no public rooms at either hotel.",
+    "source_url": "https://innres.presidiolodging.com/?launchwebres=true&checkin=10-16-2026&nights=2&guests=2"
+   }
+  ],
+  "availabilityNotes": "Two hotels, 68 rooms total (Lodge 42 rooms, Inn 22 + Funston House); full two-property buyout for up to 200 attendees is an advertised product (press Sept 2025) but quoted on request via the meetings/room-block email. Public engines (innres / lodgeres.presidiolodging.com) show a 2-night minimum on most fall weekends and 3 nights around Thanksgiving. Group blocks held back from public sale would not show online, so 'sold out' below means no public rooms, not necessarily no group contract. 16% park fee on all rooms, $13 overnight parking, 72-hour individual cancellation.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/presidio-lodging/thumb.jpg",
   "images": [
    {
@@ -1727,8 +3424,8 @@ window.VENUES = [
  },
  {
   "id": "hidden-villa",
-  "tier": "C",
   "name": "Hidden Villa",
+  "tier": "C",
   "area": "Los Altos Hills",
   "drive": "~45 min",
   "sleeps": "Hostel sleeps 39 only",
@@ -1746,6 +3443,76 @@ window.VENUES = [
   "lat": 37.354,
   "lng": -122.1563,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 2350,
+   "high": 5000,
+   "summary": "$2.4k–5k facilities only (39 beds, no meals)",
+   "basis": "Hidden Villa's Arlo rental catalog (Meeting & Retreats / Facility Rentals pages) lists: Hostel whole-facility buyout $850 incl. tax (per night; sleeps 37–39 in 9 cabins, Sept–May only, 2-night minimum on weekends, 3 nights on holiday weekends), Dana Center day rental $650 incl. tax (8:30 am–5 pm, seats 48–60, Tue–Sun Sept–May), Duveneck House day rental $700 incl. tax, Morgan Family Pavilion or Garden Picnic Site $300/day (9 am–4:30 pm, seats 60 / 40). Low: Hostel 2 nights ($1,700) + Dana Center 1 day ($650) = $2,350. High: Hostel 2 nights + Dana Center 2 days ($1,300) + Duveneck House 2 days ($1,400) + Morgan Pavilion 2 days ($600) = $5,000. Plus a $500 refundable cleaning/damage deposit per rental, liability insurance naming Hidden Villa, and extra day-parking passes beyond 8 cars per picnic rental. No food service (group cooks in the commercial kitchen or hires a caterer), and only 39 beds, so ~21 people need off-site lodging and meals for 60 are on top. Detail pages say 'Contact us for pricing', so the catalog figures may be starting prices.",
+   "per_person": "~$40–85 per person for 2 nights facilities only, before food and off-site lodging for 21",
+   "source_url": "https://www.hiddenvilla.org/meeting-retreats/",
+   "source_label": "Hidden Villa Meeting & Retreats rental catalog",
+   "confidence": "medium",
+   "short": "$2.4–5k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "booked",
+    "evidence": "Hostel, Dana Center and Duveneck House are only available for rent September–May, so the August weekend is out of rental season; no picnic-site dates are listed before Aug 29 either.",
+    "source_url": "https://www.hiddenvilla.org/programs/catalog/70-hostel/region-HV/"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "partial",
+    "evidence": "Overnight/indoor rentals are closed until September, but the Morgan Family Pavilion and Garden Picnic Site are listed as bookable day rentals on Sat Aug 29 and Sun Aug 30 ($300/day).",
+    "source_url": "https://www.hiddenvilla.org/programs/catalog/5-morgan-family-pavilion/region-HV/"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "partial",
+    "evidence": "Morgan Family Pavilion (seats 60) and Garden Picnic Site are bookable Sat Sep 5 and Sun Sep 6; Hostel and Dana Center availability is not published and holiday weekends carry a 3-night hostel minimum.",
+    "source_url": "https://www.hiddenvilla.org/programs/catalog/5-morgan-family-pavilion/region-HV/"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "partial",
+    "evidence": "Picnic sites are bookable Sun Sep 13 but Sat Sep 12 is not offered; Hostel and Dana Center availability is not published.",
+    "source_url": "https://www.hiddenvilla.org/programs/catalog/5-morgan-family-pavilion/region-HV/"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "partial",
+    "evidence": "Morgan Family Pavilion and Garden Picnic Site are bookable Sat Sep 19 and Sun Sep 20; Hostel and Dana Center availability is not published.",
+    "source_url": "https://www.hiddenvilla.org/programs/catalog/5-morgan-family-pavilion/region-HV/"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "partial",
+    "evidence": "Morgan Family Pavilion shows Sat Sep 26 'Sold out' while the Garden Picnic Site is still bookable Sep 26; Sun Sep 27 is not offered; Hostel and Dana Center availability is not published.",
+    "source_url": "https://www.hiddenvilla.org/programs/catalog/5-morgan-family-pavilion/region-HV/"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "unknown",
+    "evidence": "No picnic-site dates are listed for October (listing jumps from Sep 26 to Nov 7) and Hostel/Dana Center availability is not published.",
+    "source_url": "https://www.hiddenvilla.org/programs/catalog/5-morgan-family-pavilion/region-HV/"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "unknown",
+    "evidence": "No picnic-site dates are listed for October and Hostel/Dana Center availability is not published.",
+    "source_url": "https://www.hiddenvilla.org/programs/catalog/5-morgan-family-pavilion/region-HV/"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "unknown",
+    "evidence": "No picnic-site dates are listed for October and Hostel/Dana Center availability is not published; the public events calendar shows only small programs (farm tours, workshops) that do not occupy the rental facilities.",
+    "source_url": "https://www.hiddenvilla.org/calendar/individuals-families/"
+   }
+  ],
+  "availabilityNotes": "Hostel (39 beds), Dana Center and Duveneck House rent September through May only; Dana/Duveneck Tue–Sun; Hostel requires a 2-night minimum on weekends and 3 nights on holiday weekends; the hostel no longer rents individual beds. Rentals prioritize youth-serving and nonprofit groups but are open to all; book via the facility-rental inquiry form (rentals@hiddenvilla.org). No public availability calendar for the Hostel/Dana Center; only the picnic sites show bookable dates (Morgan Family Pavilion and Garden Picnic Site, $300/day, Aug 29–Sep 26 listed, then Nov 7). The farm stays open to day visitors, so this is never an exclusive-site buyout.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/hidden-villa/thumb.jpg",
   "images": [
    {
@@ -1800,9 +3567,8 @@ window.VENUES = [
  },
  {
   "id": "triple-s-ranch",
-  "tier": "REF",
   "name": "Triple S Ranch",
-  "subtitle": "your SSS example",
+  "tier": "REF",
   "area": "Calistoga, Napa",
   "drive": "~1 hr 30 min",
   "sleeps": "34 single / 60 double occupancy",
@@ -1814,11 +3580,84 @@ window.VENUES = [
   "email": "",
   "website": "https://www.triplesranchnapa.com/",
   "booking": "https://www.triplesranchnapa.com/overview-retreat",
+  "subtitle": "your SSS example",
   "tierLabel": "Reference",
   "address": "4600 Mountain Home Ranch Road, Calistoga, CA 94515",
   "lat": 38.57155,
   "lng": -122.63936,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 45000,
+   "high": 75000,
+   "summary": "$45k site fee (+ ~$30k if catered)",
+   "basis": "Exclusive-use weekend site fee. Venue-supplied FAQ on PartySlate (updated 2024): 'In season we rent the ranch of $45,000 per weekend', 'includes all fees and taxes', exclusive use Fri–Sun (rehearsal dinner, ceremony, reception, Sunday brunch) and 'lodging for 60 guests on site'. Older listings quote $39,000/weekend (Wedding Spot; womangettingmarried.com 2022) dropping to $32,000 Nov–Mar or weekdays. The ranch serves no meals: you hire any caterer or self-cater in the commercial kitchen, no catering or corkage fee. Low = $45,000 site fee only (self-catered). High = $45,000 + rough catering allowance of 60 people x 5 meals (Fri dinner → Sun brunch) x ~$100/meal = $30,000 → ~$75,000. Oct 16–18 is in-season. The official site's 'Weddings Pricing' page only offers a brochure behind a lead form, and the downloadable Private Event Brochure PDF contains no prices.",
+   "per_person": "$750/person venue-only; ~$1,250/person with catered meals (60 people, 2 nights)",
+   "source_url": "https://www.partyslate.com/venues/triple-s-ranch-napa",
+   "source_label": "PartySlate listing – venue-supplied 'Pricing Packages' and FAQ (updated 2024)",
+   "confidence": "medium",
+   "hint": "Wedding Spot: 'The rental fee is $39,000 for exclusive use of the entire property for 3 days / 2 nights … includes the lodging for 41 guests'; womangettingmarried.com (2022): '$39,000 for the weekend … drops to $32,000 per weekend from November through March and/or on weekdays'; Eventective: '$45,000 to $100,000 / Wedding'.",
+   "hint_url": "https://www.wedding-spot.com/venue/2544/triple-s-ranch-napa/",
+   "short": "$45–75k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "unknown",
+    "evidence": "No public availability calendar, event list or social feed could be fetched; the official site (Squarespace) shows no calendar and only 4 blog posts (May–Jun 2026, all SEO articles), and no 2026 wedding/retreat listing naming this weekend was found.",
+    "source_url": "https://www.triplesranchnapa.com/blog"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "unknown",
+    "evidence": "No public availability calendar, event list or social feed could be fetched; the official site (Squarespace) shows no calendar and only 4 blog posts (May–Jun 2026, all SEO articles), and no 2026 wedding/retreat listing naming this weekend was found.",
+    "source_url": "https://www.triplesranchnapa.com/blog"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "unknown",
+    "evidence": "No public availability calendar, event list or social feed could be fetched; the official site (Squarespace) shows no calendar and only 4 blog posts (May–Jun 2026, all SEO articles), and no 2026 wedding/retreat listing naming this weekend was found.",
+    "source_url": "https://www.triplesranchnapa.com/blog"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "unknown",
+    "evidence": "No public availability calendar, event list or social feed could be fetched; the official site (Squarespace) shows no calendar and only 4 blog posts (May–Jun 2026, all SEO articles), and no 2026 wedding/retreat listing naming this weekend was found.",
+    "source_url": "https://www.triplesranchnapa.com/blog"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "unknown",
+    "evidence": "No public availability calendar, event list or social feed could be fetched; the official site (Squarespace) shows no calendar and only 4 blog posts (May–Jun 2026, all SEO articles), and no 2026 wedding/retreat listing naming this weekend was found.",
+    "source_url": "https://www.triplesranchnapa.com/blog"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "unknown",
+    "evidence": "No public availability calendar, event list or social feed could be fetched; the official site (Squarespace) shows no calendar and only 4 blog posts (May–Jun 2026, all SEO articles), and no 2026 wedding/retreat listing naming this weekend was found.",
+    "source_url": "https://www.triplesranchnapa.com/blog"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "unknown",
+    "evidence": "No public availability calendar, event list or social feed could be fetched; the official site (Squarespace) shows no calendar and only 4 blog posts (May–Jun 2026, all SEO articles), and no 2026 wedding/retreat listing naming this weekend was found.",
+    "source_url": "https://www.triplesranchnapa.com/blog"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "unknown",
+    "evidence": "No public availability calendar, event list or social feed could be fetched; the official site (Squarespace) shows no calendar and only 4 blog posts (May–Jun 2026, all SEO articles), and no 2026 wedding/retreat listing naming this weekend was found.",
+    "source_url": "https://www.triplesranchnapa.com/blog"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "unknown",
+    "evidence": "No public availability calendar, event list or social feed could be fetched; the official site (Squarespace) shows no calendar and only 4 blog posts (May–Jun 2026, all SEO articles), and no 2026 wedding/retreat listing naming this weekend was found.",
+    "source_url": "https://www.triplesranchnapa.com/blog"
+   }
+  ],
+  "availabilityNotes": "Exclusive-use weekend rentals only (3 days / 2 nights, Fri–Sun); the venue says it hosts a limited number of events per year built around full weekends. Lodging for up to 60 double / 34 single occupancy, glamping allowed for overflow. No on-site catering (BYO caterer and alcohol, licensed bartender required). In-season (roughly Apr–Oct) vs off-season (Nov–Mar) pricing. No public availability calendar; inquire via the site form or (415) 760-3432.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/triple-s-ranch/thumb.jpg",
   "images": [
    {
@@ -1873,8 +3712,8 @@ window.VENUES = [
  },
  {
   "id": "mayacamas-ranch",
-  "tier": "REF",
   "name": "Mayacamas Ranch",
+  "tier": "REF",
   "area": "Calistoga, Napa",
   "drive": "~1 hr 45 min",
   "sleeps": "n/a",
@@ -1891,6 +3730,75 @@ window.VENUES = [
   "lat": 38.56958,
   "lng": -122.65057,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "quote",
+   "summary": "Not bookable",
+   "basis": "No pricing exists. Mayacamas Ranch stopped operating as a retreat center after the October 2017 Tubbs Fire destroyed its buildings; the current site solicits 'impact investors and philanthropic families' as steward partners and says the land 'currently hosts intimate gatherings and creative work' only 'through select partners in residence'. No group-booking, rates or request form for retreats is published (the pre-fire 'bring-a-group' and retreat-request pages survive only in the Wayback Machine).",
+   "source_url": "https://mayacamasranch.com/the-invitation/",
+   "source_label": "Mayacamas Ranch – The Invitation (steward-partner page; no booking)",
+   "confidence": "high",
+   "hint": "Site text: 'the ranch currently hosts intimate gatherings and creative work' via partners in residence (Inner View Experiences); 'Request Partner Access' is the only call to action.",
+   "hint_url": "https://mayacamasranch.com/the-land/",
+   "short": "Not bookable"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "booked",
+    "evidence": "Not bookable: the site describes the ranch post-2017 Tubbs Fire as a 300-acre 'bioregional hub' with all lodge/cabin buildings lost, 'currently activated through a small number of aligned programs' and partner-in-residence gatherings only; there is no rates, booking or group page, only a steward-partner inquiry form.",
+    "source_url": "https://mayacamasranch.com/the-land/"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "booked",
+    "evidence": "Not bookable: the site describes the ranch post-2017 Tubbs Fire as a 300-acre 'bioregional hub' with all lodge/cabin buildings lost, 'currently activated through a small number of aligned programs' and partner-in-residence gatherings only; there is no rates, booking or group page, only a steward-partner inquiry form.",
+    "source_url": "https://mayacamasranch.com/the-land/"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "booked",
+    "evidence": "Not bookable: the site describes the ranch post-2017 Tubbs Fire as a 300-acre 'bioregional hub' with all lodge/cabin buildings lost, 'currently activated through a small number of aligned programs' and partner-in-residence gatherings only; there is no rates, booking or group page, only a steward-partner inquiry form.",
+    "source_url": "https://mayacamasranch.com/the-land/"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "booked",
+    "evidence": "Not bookable: the site describes the ranch post-2017 Tubbs Fire as a 300-acre 'bioregional hub' with all lodge/cabin buildings lost, 'currently activated through a small number of aligned programs' and partner-in-residence gatherings only; there is no rates, booking or group page, only a steward-partner inquiry form.",
+    "source_url": "https://mayacamasranch.com/the-land/"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "booked",
+    "evidence": "Not bookable: the site describes the ranch post-2017 Tubbs Fire as a 300-acre 'bioregional hub' with all lodge/cabin buildings lost, 'currently activated through a small number of aligned programs' and partner-in-residence gatherings only; there is no rates, booking or group page, only a steward-partner inquiry form.",
+    "source_url": "https://mayacamasranch.com/the-land/"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "booked",
+    "evidence": "Not bookable: the site describes the ranch post-2017 Tubbs Fire as a 300-acre 'bioregional hub' with all lodge/cabin buildings lost, 'currently activated through a small number of aligned programs' and partner-in-residence gatherings only; there is no rates, booking or group page, only a steward-partner inquiry form.",
+    "source_url": "https://mayacamasranch.com/the-land/"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "booked",
+    "evidence": "Not bookable: the site describes the ranch post-2017 Tubbs Fire as a 300-acre 'bioregional hub' with all lodge/cabin buildings lost, 'currently activated through a small number of aligned programs' and partner-in-residence gatherings only; there is no rates, booking or group page, only a steward-partner inquiry form.",
+    "source_url": "https://mayacamasranch.com/the-land/"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "booked",
+    "evidence": "Not bookable: the site describes the ranch post-2017 Tubbs Fire as a 300-acre 'bioregional hub' with all lodge/cabin buildings lost, 'currently activated through a small number of aligned programs' and partner-in-residence gatherings only; there is no rates, booking or group page, only a steward-partner inquiry form.",
+    "source_url": "https://mayacamasranch.com/the-land/"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "booked",
+    "evidence": "Not bookable: the site describes the ranch post-2017 Tubbs Fire as a 300-acre 'bioregional hub' with all lodge/cabin buildings lost, 'currently activated through a small number of aligned programs' and partner-in-residence gatherings only; there is no rates, booking or group page, only a steward-partner inquiry form.",
+    "source_url": "https://mayacamasranch.com/the-land/"
+   }
+  ],
+  "availabilityNotes": "Not taking group bookings. Post-fire the property has no guest buildings; it is being placed into a long-term stewardship framework (Rock Creek Institute) with governance 'developed over the next four years'. Only partner-in-residence gatherings (Inner View / Nic Askew) occur. Treat as unavailable for any 2026 weekend.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/mayacamas-ranch/thumb.jpg",
   "images": [
    {
@@ -1945,8 +3853,8 @@ window.VENUES = [
  },
  {
   "id": "ratna-ling",
-  "tier": "REF",
   "name": "Ratna Ling",
+  "tier": "REF",
   "area": "Cazadero, Sonoma coast",
   "drive": "~2 hr 30 min",
   "sleeps": "28",
@@ -1963,6 +3871,78 @@ window.VENUES = [
   "lat": 38.5984,
   "lng": -123.301,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "quote",
+   "low": 42000,
+   "high": 48000,
+   "summary": "~$700–800/person/weekend (max 28 guests)",
+   "basis": "Group rentals are quote-only: the separate group-booking site (ratnalingretreatcenterbooking.org) lists no rates and asks non-profit/educational/spiritual groups to call (510) 809-4995 or email programs@ratnaling.org. Hint from Ratna Ling's own published weekend programs, which include lodging + three vegetarian meals/day: 'Living in Harmony' Oct 16–18, 2026 = $800 for 1 guest in a private room, shared cottage; 'Space and Ease' Sep 11–13 = $700/person double occupancy in a shared cottage or $1,050 single in a private 2-room cottage; Labor Day 3-night = $1,300/person. Hypothetical 60 x $700–800 = $42,000–48,000 for Fri–Sun incl. meals, BUT the center has only 14 two-bedroom cottages for 'up to 28 guests', so 60 cannot be housed on site.",
+   "per_person": "$700–800 per person for Fri–Sun incl. lodging and meals (published program rates)",
+   "source_url": "https://ratnalingretreatcenterbooking.org/",
+   "source_label": "Ratna Ling group-retreat booking site (no rates; contact for quote)",
+   "confidence": "low",
+   "hint": "Published program rates: $800/person (Oct 16–18 weekend, private room in shared cottage, meals included); $700/person double occupancy or $1,050 single cottage (Sep 11–13 weekend).",
+   "hint_url": "https://ratnaling.org/retreats/5802/live-in-harmony-tibetan-buddhist-meditation",
+   "short": "est. $42–48k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "booked",
+    "evidence": "Ratna Ling's own programs 'Living with More Ease' and 'Understory: Exploring Body, Word, and Landscape' both run Aug 21–23, 2026 on site (retreat center running its own program).",
+    "source_url": "https://ratnaling.org/retreats/"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "booked",
+    "evidence": "Ratna Ling's own 'End of Summer Reset' retreat runs Aug 28–30, 2026 on site (retreat center running its own program).",
+    "source_url": "https://ratnaling.org/retreats/"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "booked",
+    "evidence": "'A Weekend of Self-Care | Labor Day' (Sep 4–7, 2026, $1,300/person, 3 nights) runs on site, with the 200-hour yoga teacher training (Aug 31–Sep 17) also in residence (retreat center running its own program).",
+    "source_url": "https://ratnaling.org/retreats/"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "booked",
+    "evidence": "'Space and Ease: A Personal Retreat' and 'Transitions & Transformation: A Yoga Retreat' both run Sep 11–13, 2026, plus the yoga teacher training in residence (retreat center running its own program).",
+    "source_url": "https://ratnaling.org/retreats/"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "booked",
+    "evidence": "'Calming the Mind: A Meditation Retreat' (Sep 17–20) and 'Rooted in Nature' (Sep 18–20, 2026) both run on site (retreat center running its own program).",
+    "source_url": "https://ratnaling.org/retreats/"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "booked",
+    "evidence": "'Re-Vision: Sonoma County Writers Camp' occupies the center Sep 23–27, 2026 (retreat center running its own program).",
+    "source_url": "https://ratnaling.org/retreats/"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "booked",
+    "evidence": "'Space and Ease: A Personal Retreat' and 'Cultivating Compassion – Movement & Meditation' run Oct 2–4, 2026, plus the Fall Harvest farm-to-table fundraiser on Sun Oct 4 (retreat center running its own program).",
+    "source_url": "https://ratnaling.org/retreats/"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "booked",
+    "evidence": "'Women's Self-Care Retreat' runs Oct 9–12, 2026 on site (retreat center running its own program).",
+    "source_url": "https://ratnaling.org/retreats/"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "booked",
+    "evidence": "'Living in Harmony: Tibetan Buddhist Meditation' (Oct 16–18, 2026, $800/person) runs on site, with the Qigong retreat (Oct 14–19) also in residence (retreat center running its own program).",
+    "source_url": "https://ratnaling.org/retreats/"
+   }
+  ],
+  "availabilityNotes": "Ratna Ling runs its own retreat calendar nearly every weekend and prioritises non-profit, educational and spiritual groups for rentals. Capacity is 14 cottages / 28 overnight guests (practice spaces 10–70). Program payments are non-refundable but transferable. Group availability is by phone/email only; there is no public group calendar, but the program calendar shows the center occupied on all nine target weekends.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/ratna-ling/thumb.jpg",
   "images": [
    {
@@ -2017,8 +3997,8 @@ window.VENUES = [
  },
  {
   "id": "green-gulch-farm",
-  "tier": "REF",
   "name": "Green Gulch Farm",
+  "tier": "REF",
   "area": "Muir Beach, Marin",
   "drive": "~45 min",
   "sleeps": "22",
@@ -2035,6 +4015,76 @@ window.VENUES = [
   "lat": 37.8656,
   "lng": -122.5639,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 8400,
+   "high": 18320,
+   "summary": "$3,000/night (12 ppl) + $120/pp/night; max 22 beds",
+   "basis": "2026 overnight package: exclusive use of the Lindisfarne Guest House for up to 12 people, 3 meals included, $3,000 per night; 'Groups over 12, additional overnight guests (per person, per night) $120' (housed in the Wheelwright Center). Package includes 1-day use of a conference room (Yurt / Wheelwright / Still Water Hall) and coffee-tea service. Day-long room rental otherwise $750 weekday / $800 weekend day; lunch $21/person. Low = realistic maximum group of 22 (all beds): 2 nights x $3,000 + 10 extra x $120 x 2 = $8,400. High = published rates applied naively to 60 people: 2 x $3,000 + 48 x $120 x 2 = $17,520, plus one extra weekend conference-room day $800 = $18,320 — but the site has only 22 beds and meeting rooms for 40, so 60 cannot actually be accommodated. Deposit 10–50% depending on lead time; $50 cancellation fee if >60 days out; deposit forfeited within 60 days.",
+   "per_person": "~$190–290 per person for 2 nights incl. meals and meeting room (at 22 or 12 people)",
+   "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies",
+   "source_label": "SFZC – Conference Center at Green Gulch: Facilities, Rates & Policies (2026 rates)",
+   "confidence": "high",
+   "short": "$8.4–18k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "booked",
+    "evidence": "The SFZC conference-center page states 'We are no longer accepting requests for 2026 dates', so no new group booking is possible for this weekend; the center also has only 17 rooms / 22 beds.",
+    "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "booked",
+    "evidence": "The SFZC conference-center page states 'We are no longer accepting requests for 2026 dates', so no new group booking is possible for this weekend; the center also has only 17 rooms / 22 beds.",
+    "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "booked",
+    "evidence": "The SFZC conference-center page states 'We are no longer accepting requests for 2026 dates', so no new group booking is possible for this weekend; the center also has only 17 rooms / 22 beds.",
+    "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "booked",
+    "evidence": "The SFZC conference-center page states 'We are no longer accepting requests for 2026 dates', so no new group booking is possible for this weekend; the center also has only 17 rooms / 22 beds.",
+    "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "booked",
+    "evidence": "The SFZC conference-center page states 'We are no longer accepting requests for 2026 dates', so no new group booking is possible for this weekend; the center also has only 17 rooms / 22 beds.",
+    "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "booked",
+    "evidence": "The SFZC conference-center page states 'We are no longer accepting requests for 2026 dates', so no new group booking is possible for this weekend; the center also has only 17 rooms / 22 beds.",
+    "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "booked",
+    "evidence": "The SFZC conference-center page states 'We are no longer accepting requests for 2026 dates', so no new group booking is possible for this weekend; the center also has only 17 rooms / 22 beds.",
+    "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "booked",
+    "evidence": "The SFZC conference-center page states 'We are no longer accepting requests for 2026 dates', so no new group booking is possible for this weekend; the center also has only 17 rooms / 22 beds.",
+    "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "booked",
+    "evidence": "The SFZC conference-center page states 'We are no longer accepting requests for 2026 dates', so no new group booking is possible for this weekend; the center also has only 17 rooms / 22 beds.",
+    "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies"
+   }
+  ],
+  "availabilityNotes": "'We are no longer accepting requests for 2026 dates' (sfzc.org, checked 2026-08-21). When open, bookings are by the day (no hourly), day-long or overnight packages, email ggfconference@sfzc.org. Capacity: 17 rooms / 22 beds, conference rooms up to 40. Check-in 3 pm, checkout 9:30 am, conference space until 1 pm on departure day.",
+  "checkedOn": "2026-08-21",
   "thumb": "images/green-gulch-farm/thumb.jpg",
   "images": [
    {
@@ -2089,8 +4139,8 @@ window.VENUES = [
  },
  {
   "id": "sea-ranch-lodge",
-  "tier": "REF",
   "name": "Sea Ranch Lodge",
+  "tier": "REF",
   "area": "The Sea Ranch, Sonoma coast",
   "drive": "~2 hr 30 min",
   "sleeps": "17",
@@ -2107,6 +4157,78 @@ window.VENUES = [
   "lat": 38.68094,
   "lng": -123.4296,
   "geo_confidence": "high",
+  "cost": {
+   "mode": "quote",
+   "low": 22900,
+   "high": 31400,
+   "summary": "Quote; ~$23–31k for all 17 rooms (≤34 ppl), meals extra",
+   "basis": "Meetings, retreats and weddings are quoted on request via the Private Events form (no buyout price published). Hint from the SynXis booking engine (checked 2026-08-21): 'The Lodge Rooms' from $674/night midweek (Nov 17–19); lowest best-available rates on the target Fri/Sat nights in Sep–Oct 2026 were $688–$923/night (Oct 16 $688, Oct 17 $735; Oct 9–10 $923), though on those weekends only Sea Ranch Living vacation homes/cabins were actually offered. Hypothetical buyout of all 17 Lodge rooms x 2 nights x $674–$923 = ~$22,900–$31,400 before occupancy tax, housing at most ~34 people; the other ~26 would need Sea Ranch Living homes (from ~$904/night) or off-site lodging. Meals are à la carte in the Dining Room/Café (no meal plan); private group dinners are quoted. Site also advertises a midweek group deal: 'Reserve 8 or more rooms midweek and enjoy rates from $495, 10% off, two complimentary upgrades'.",
+   "per_person": "~$675–925 per person for 2 nights at double occupancy, rooms only, before tax and meals",
+   "source_url": "https://www.thesearanchlodge.com/private-events",
+   "source_label": "The Sea Ranch Lodge – Private Events (request a meetings/wedding quote)",
+   "confidence": "low",
+   "hint": "Booking engine: 'The Lodge Rooms From $674 Per Night' (Nov midweek); Sea Ranch Living Homes from $904/night on Oct 16–18; home page: 8+ rooms midweek 'rates from $495'.",
+   "hint_url": "https://be.synxis.com/?hotel=40594",
+   "short": "est. $23–31k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-21",
+    "status": "booked",
+    "evidence": "Closure list: 'The Lodge will be closed all day on Saturday 08.22 for a private event'; the SynXis booking engine shows Aug 21 as 'No Check-in' with no rooms or homes priced for Fri 8/21 or Sat 8/22.",
+    "source_url": "https://www.thesearanchlodge.com/closure"
+   },
+   {
+    "weekend": "2026-08-28",
+    "status": "booked",
+    "evidence": "Closure list: Lodge 'closed at 12pm on Saturday, 08.29 for a private event'; booking engine for Aug 28–30 returns only 'Sea Ranch Living Homes' (private vacation houses from $963/night), no Lodge rooms.",
+    "source_url": "https://www.thesearanchlodge.com/closure"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "partial",
+    "evidence": "No private-event closure is listed for Labor Day weekend, but the booking engine will not accept a Fri→Sun stay (holiday minimum) and Fri→Mon returns only 'Sea Ranch Living Cabins' from $1,316/night — no Lodge rooms, and nothing resembling a 17-room buyout.",
+    "source_url": "https://be.synxis.com/?hotel=40594"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "booked",
+    "evidence": "Closure list: 'The Lodge is closed all day on Saturday, 09.12 for a private event'; booking engine shows no Lodge rooms Sep 11–13 (only Sea Ranch Living cabins/homes with a 3-night stay).",
+    "source_url": "https://www.thesearanchlodge.com/closure"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "booked",
+    "evidence": "Closure list: 'The Lodge is closed all day on Saturday 09.19 for a private event'; booking engine for Sep 18–20 returns only Sea Ranch Living Cabins, no Lodge rooms.",
+    "source_url": "https://www.thesearanchlodge.com/closure"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "booked",
+    "evidence": "Closure list: 'The Lodge will be closed from 3pm on Friday, 09.25 to 12pm on Sunday, 09.27 for a private event' — i.e. a full-weekend private buyout; engine shows only Sea Ranch Living Homes from $904/night.",
+    "source_url": "https://www.thesearanchlodge.com/closure"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "booked",
+    "evidence": "No closure notice, but the booking engine returns nothing at all for Sat Oct 3 ('not available on October 3, 2026' — no Lodge rooms, cabins or homes), so a Fri–Sun stay cannot be booked.",
+    "source_url": "https://be.synxis.com/?hotel=40594"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "booked",
+    "evidence": "Closure list: 'The Lodge will be closed at 12pm on Saturday, 10.10 for a private event'; engine for Oct 9–11 returns only Sea Ranch Living Homes from $1,139/night, no Lodge rooms.",
+    "source_url": "https://www.thesearanchlodge.com/closure"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "booked",
+    "evidence": "Closure list: 'The Lodge will be closed at 2pm on Wednesday, 10.14 through Saturday, 10.17 for a private event … will reopen Sunday, 10.18'; engine for Oct 16–18 returns only Sea Ranch Living Homes from $904/night, no Lodge rooms.",
+    "source_url": "https://www.thesearanchlodge.com/closure"
+   }
+  ],
+  "availabilityNotes": "17 Lodge rooms only (plus managed 'Sea Ranch Living' vacation homes and cabins). The Lodge publishes a 2026 closure list: it is closed to the public for private events on almost every Saturday from late August through mid-November, including a full Fri 3pm–Sun noon buyout Sep 25–27 and a Wed Oct 14–Sat Oct 17 closure covering the target weekend. Booking engine enforces a 2-night minimum (3 nights over Labor Day) and showed no Lodge rooms on any of the nine target weekends. Guest rooms require full deposit; cancellations within 14 days non-refundable; 21+ to check in; dogs only in first-level rooms with notice. Event spaces: Dining Room 80 dinner, Ocean Meadow 150 dinner, Barn Meadow/The Meadow 200 (tented).",
+  "checkedOn": "2026-08-21",
   "thumb": "images/sea-ranch-lodge/thumb.jpg",
   "images": [
    {

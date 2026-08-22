@@ -1,8 +1,8 @@
 [
  {
   "id": "st-dorothys-rest",
-  "tier": "A",
   "name": "St. Dorothy's Rest",
+  "tier": "A",
   "area": "Camp Meeker (nr. Occidental), Sonoma",
   "drive": "~1 hr 45 min",
   "sleeps": "112 beds total; 8-65 per building",
@@ -18,9 +18,8 @@
  },
  {
   "id": "green-mountain-retreat",
-  "tier": "A",
   "name": "Green Mountain Retreat",
-  "subtitle": "former Presentation Center",
+  "tier": "A",
   "area": "Los Gatos, Santa Cruz Mtns",
   "drive": "~1 hr 15 min (25 min from SJC)",
   "sleeps": "102 beds (cottages + dorm building)",
@@ -31,12 +30,13 @@
   "phone": "(669) 269-8811",
   "email": "info@greenmountainretreat.com",
   "website": "https://www.greenmountainretreat.com/",
-  "booking": "https://www.greenmountainretreat.com/contact"
+  "booking": "https://www.greenmountainretreat.com/contact",
+  "subtitle": "former Presentation Center"
  },
  {
   "id": "westerbeke-ranch",
-  "tier": "A",
   "name": "Westerbeke Ranch",
+  "tier": "A",
   "area": "Sonoma",
   "drive": "~1 hr 10 min",
   "sleeps": "40-52 (exclusive use billed at 40 minimum)",
@@ -52,8 +52,8 @@
  },
  {
   "id": "waterfall-lodge",
-  "tier": "A",
   "name": "Waterfall Lodge & Retreat",
+  "tier": "A",
   "area": "Ben Lomond, Santa Cruz Mtns",
   "drive": "~1 hr 30 min (30 min from San Jose)",
   "sleeps": "86 in 32 cabins and cottages",
@@ -68,8 +68,8 @@
  },
  {
   "id": "lodge-at-marconi",
-  "tier": "A",
   "name": "Lodge at Marconi",
+  "tier": "A",
   "area": "Marshall, Tomales Bay",
   "drive": "~1 hr 30 min",
   "sleeps": "45 rooms, sleeps up to 100",
@@ -80,12 +80,13 @@
   "phone": "(415) 663-9020",
   "email": "",
   "website": "https://lodgeatmarconi.com/",
-  "booking": "https://lodgeatmarconi.com/gather/"
+  "booking": "https://lodgeatmarconi.com/gather/",
+  "note": "Research note: as of Aug 21 the hotel booking engine returns no rooms for any night Oct 1-29 (while late October onward is wide open), which looks like a closure or full buyout; the reason is not published, so ask."
  },
  {
   "id": "the-land",
-  "tier": "A",
   "name": "The Land",
+  "tier": "A",
   "area": "Philo, Anderson Valley",
   "drive": "~2 hr 45 min",
   "sleeps": "90 beds: 18 cabins, 12 glamping tents, 8 houses",
@@ -101,8 +102,8 @@
  },
  {
   "id": "camp-navarro",
-  "tier": "A",
   "name": "Camp Navarro",
+  "tier": "A",
   "area": "Navarro, Mendocino County",
   "drive": "~2 hr 30 min",
   "sleeps": "240-260 beds (32 cabins, 54 glamping, camping)",
@@ -118,8 +119,8 @@
  },
  {
   "id": "enchanted-hills",
-  "tier": "B",
   "name": "Enchanted Hills",
+  "tier": "B",
   "area": "Napa (Mount Veeder)",
   "drive": "~1 hr 30 min",
   "sleeps": "Groups of 30-150",
@@ -135,8 +136,8 @@
  },
  {
   "id": "mount-madonna",
-  "tier": "B",
   "name": "Mount Madonna Center",
+  "tier": "B",
   "area": "Watsonville (ridge above Monterey Bay)",
   "drive": "~1 hr 30 min",
   "sleeps": "Conference Center 33 rooms / 74 beds; plus yurts, cabins, glamping",
@@ -151,8 +152,8 @@
  },
  {
   "id": "bishops-ranch",
-  "tier": "B",
   "name": "The Bishop's Ranch",
+  "tier": "B",
   "area": "Healdsburg",
   "drive": "~1 hr 30 min",
   "sleeps": "Up to 80 adults",
@@ -167,8 +168,8 @@
  },
  {
   "id": "costanoa",
-  "tier": "B",
   "name": "Costanoa",
+  "tier": "B",
   "area": "Pescadero (San Mateo coast)",
   "drive": "~1 hr",
   "sleeps": "39 lodge rooms, 14 cabins, 85 tent bungalows",
@@ -183,8 +184,8 @@
  },
  {
   "id": "saratoga-springs",
-  "tier": "B",
   "name": "Saratoga Springs Retreat Center",
+  "tier": "B",
   "area": "Upper Lake, Lake County",
   "drive": "~2 hr 30 min",
   "sleeps": "Lodging plus camping; full site ~300",
@@ -200,8 +201,8 @@
  },
  {
   "id": "westminster-woods",
-  "tier": "B",
   "name": "Westminster Woods",
+  "tier": "B",
   "area": "Occidental, Sonoma",
   "drive": "~1 hr 30 min",
   "sleeps": "Groups of 20-200; dorm cabins, 3 guest lodges, private rooms",
@@ -216,8 +217,8 @@
  },
  {
   "id": "monte-toyon",
-  "tier": "B",
   "name": "Monte Toyon",
+  "tier": "B",
   "area": "Aptos, Santa Cruz County",
   "drive": "~1 hr 30 min",
   "sleeps": "146 overnight",
@@ -232,8 +233,8 @@
  },
  {
   "id": "vallombrosa",
-  "tier": "B",
   "name": "Vallombrosa Center",
+  "tier": "B",
   "area": "Menlo Park",
   "drive": "~40 min",
   "sleeps": "60 guest rooms, up to 100 overnight",
@@ -248,8 +249,8 @@
  },
  {
   "id": "ymca-point-bonita",
-  "tier": "B",
   "name": "NatureBridge Golden Gate",
+  "tier": "B",
   "area": "Marin Headlands, Sausalito",
   "drive": "~25 min",
   "sleeps": "Dorm lodging on two campuses (Bluff at Point Bonita, Beach at Fort Cronkhite); up to 200 guests total",
@@ -266,8 +267,8 @@
  },
  {
   "id": "walker-creek-ranch",
-  "tier": "B",
   "name": "Walker Creek Ranch",
+  "tier": "B",
   "area": "Petaluma / Marshall, West Marin",
   "drive": "~1 hr 15 min",
   "sleeps": "Conference center lodging (confirm counts)",
@@ -283,8 +284,8 @@
  },
  {
   "id": "harbin-hot-springs",
-  "tier": "C",
   "name": "Harbin Hot Springs",
+  "tier": "C",
   "area": "Middletown, Lake County",
   "drive": "~2 hr 15 min",
   "sleeps": "Cabins, camping, lodging across 280 acres",
@@ -296,12 +297,12 @@
   "email": "info@harbin.org",
   "website": "https://harbin.org/",
   "booking": "https://harbin.org/experience/",
-  "note": "Research note: the post-2015-fire rebuild is still in progress. A new restaurant opened in August 2026 and a new multi-story hotel is being finished; current lodging is domes, hotel rooms, caravans and tent camping."
+  "note": "Research note: the post-2015-fire rebuild is still in progress. A new restaurant opened in August 2026 and a new multi-story hotel is being finished; current lodging is domes, hotel rooms, caravans and tent camping. Harbin has not allowed group bookings since July 2023: every guest buys a membership and books individually, so a 60-person retreat here means 60 separate reservations."
  },
  {
   "id": "wilbur-hot-springs",
-  "tier": "C",
   "name": "Wilbur Hot Springs",
+  "tier": "C",
   "area": "Williams, Colusa County",
   "drive": "~2 hr 30 min",
   "sleeps": "~40-50 across historic hotel, cabins, bunk rooms",
@@ -316,8 +317,8 @@
  },
  {
   "id": "asilomar",
-  "tier": "C",
   "name": "Asilomar Conference Grounds",
+  "tier": "C",
   "area": "Pacific Grove, Monterey Peninsula",
   "drive": "~2 hr",
   "sleeps": "312 rooms in 30 buildings",
@@ -332,8 +333,8 @@
  },
  {
   "id": "1440-multiversity",
-  "tier": "C",
   "name": "1440 Multiversity",
+  "tier": "C",
   "area": "Scotts Valley, Santa Cruz Mtns",
   "drive": "~1 hr 15 min",
   "sleeps": "147 private guest rooms",
@@ -344,12 +345,13 @@
   "phone": "(888) 727-1440 (res) / (844) 544-1440",
   "email": "",
   "website": "https://www.1440.org/",
-  "booking": "https://www.1440.org/groups"
+  "booking": "https://www.1440.org/groups",
+  "note": "Research note: 1440 never sells a buyout; groups book room blocks under all-inclusive packages, and its Group FAQ says it has a waiting list for private mission-aligned group events."
  },
  {
   "id": "mendocino-woodlands",
-  "tier": "C",
   "name": "Mendocino Woodlands",
+  "tier": "C",
   "area": "Mendocino",
   "drive": "~3 hr 30 min",
   "sleeps": "Three separate camps, 30-200 each",
@@ -364,8 +366,8 @@
  },
  {
   "id": "land-of-medicine-buddha",
-  "tier": "C",
   "name": "Land of Medicine Buddha",
+  "tier": "C",
   "area": "Soquel, Santa Cruz County",
   "drive": "~1 hr 20 min",
   "sleeps": "Max 56 (19 guest rooms plus yurts and camping)",
@@ -381,9 +383,8 @@
  },
  {
   "id": "presidio-lodging",
-  "tier": "C",
   "name": "Presidio Lodging",
-  "subtitle": "Inn + Lodge at the Presidio",
+  "tier": "C",
   "area": "San Francisco",
   "drive": "In the city",
   "sleeps": "68 rooms across two boutique hotels",
@@ -394,12 +395,13 @@
   "phone": "1-800-906-2871",
   "email": "",
   "website": "https://presidiolodging.com/",
-  "booking": "https://presidiolodging.com/contact/"
+  "booking": "https://presidiolodging.com/contact/",
+  "subtitle": "Inn + Lodge at the Presidio"
  },
  {
   "id": "hidden-villa",
-  "tier": "C",
   "name": "Hidden Villa",
+  "tier": "C",
   "area": "Los Altos Hills",
   "drive": "~45 min",
   "sleeps": "Hostel sleeps 39 only",
@@ -415,9 +417,8 @@
  },
  {
   "id": "triple-s-ranch",
-  "tier": "REF",
   "name": "Triple S Ranch",
-  "subtitle": "your SSS example",
+  "tier": "REF",
   "area": "Calistoga, Napa",
   "drive": "~1 hr 30 min",
   "sleeps": "34 single / 60 double occupancy",
@@ -428,12 +429,13 @@
   "phone": "(415) 760-3432",
   "email": "",
   "website": "https://www.triplesranchnapa.com/",
-  "booking": "https://www.triplesranchnapa.com/overview-retreat"
+  "booking": "https://www.triplesranchnapa.com/overview-retreat",
+  "subtitle": "your SSS example"
  },
  {
   "id": "mayacamas-ranch",
-  "tier": "REF",
   "name": "Mayacamas Ranch",
+  "tier": "REF",
   "area": "Calistoga, Napa",
   "drive": "~1 hr 45 min",
   "sleeps": "n/a",
@@ -448,8 +450,8 @@
  },
  {
   "id": "ratna-ling",
-  "tier": "REF",
   "name": "Ratna Ling",
+  "tier": "REF",
   "area": "Cazadero, Sonoma coast",
   "drive": "~2 hr 30 min",
   "sleeps": "28",
@@ -464,8 +466,8 @@
  },
  {
   "id": "green-gulch-farm",
-  "tier": "REF",
   "name": "Green Gulch Farm",
+  "tier": "REF",
   "area": "Muir Beach, Marin",
   "drive": "~45 min",
   "sleeps": "22",
@@ -480,8 +482,8 @@
  },
  {
   "id": "sea-ranch-lodge",
-  "tier": "REF",
   "name": "Sea Ranch Lodge",
+  "tier": "REF",
   "area": "The Sea Ranch, Sonoma coast",
   "drive": "~2 hr 30 min",
   "sleeps": "17",

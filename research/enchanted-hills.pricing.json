@@ -1,0 +1,88 @@
+{
+  "id": "enchanted-hills",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "quote",
+    "summary": "Quote only (no published rates)",
+    "basis": "Neither enchantedhillsnapa.org nor lighthouse-sf.org publishes rental, lodging, meal or day-use rates; all stays, meetings, weddings and packages go through an inquiry form ('prices listed are subject to change and do not include taxes'). No third-party listing (Retreat Finder, Hipcamp, napavalley.com) shows a price either.",
+    "source_url": "https://enchantedhillsnapa.org/booking/events/",
+    "source_label": "Enchanted Hills Napa - Events inquiry form",
+    "confidence": "low",
+    "hint": "Terms page only reveals the payment structure: 25% deposit with signed contract, +25% at 90 days, +25% at 30 days, final count and balance 14 days before the retreat; taxes and extras additional.",
+    "hint_url": "https://enchantedhillsnapa.org/terms-and-conditions/"
+  },
+  "availability_notes": "Off-season rental venue (groups of ~30-150; Forest Commons hall up to 200) owned by LightHouse for the Blind; summer camp for blind/low-vision campers runs mid-June to early August (2026 sessions end Aug 8) with a Fall Family Camp Oct 30-Nov 1, so the nine target weekends all fall in the rental season. Lodging is camp-style (Hillside casitas, Lakeside cabins, lodge dorm rooms, safari tents, yurts) with many shared rooms and bathrooms. Booking is 'subject to availability and confirmation'; inquire via web form or events@lighthouse-sf.org / (707) 261-1101. No public availability calendar.",
+  "availability": [
+    {
+      "weekend": "2026-08-21",
+      "status": "unknown",
+      "evidence": "No LightHouse/EHC program is listed at Enchanted Hills this weekend on the LightHouse events calendar, and the venue publishes no rental-availability calendar, so off-season rental status is unknown.",
+      "source_url": "https://lighthouse-sf.org/events/events-calendar/"
+    },
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "No LightHouse/EHC program is listed at Enchanted Hills this weekend on the LightHouse events calendar, and the venue publishes no rental-availability calendar, so off-season rental status is unknown.",
+      "source_url": "https://lighthouse-sf.org/events/events-calendar/"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "booked",
+      "evidence": "LightHouse is running its own in-person program 'Advocacy Through Storytelling: Amplify Your Voice' at Enchanted Hills Camp, Napa on September 4, 5 and 6, 2026 (with transportation from SF/Berkeley/Santa Rosa), so the camp is in use by its owner over Labor Day weekend.",
+      "source_url": "https://lighthouse-sf.org/events/events-calendar/?cid=mc-948a6a8e8cd15db324902317a630b853&dy&month=9&time=month&yr=2026"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "unknown",
+      "evidence": "No LightHouse/EHC program is listed at Enchanted Hills this weekend on the LightHouse events calendar, and the venue publishes no rental-availability calendar, so off-season rental status is unknown.",
+      "source_url": "https://lighthouse-sf.org/events/events-calendar/?cid=mc-948a6a8e8cd15db324902317a630b853&dy&month=9&time=month&yr=2026"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "No LightHouse/EHC program is listed at Enchanted Hills this weekend on the LightHouse events calendar, and the venue publishes no rental-availability calendar, so off-season rental status is unknown.",
+      "source_url": "https://lighthouse-sf.org/events/events-calendar/?cid=mc-948a6a8e8cd15db324902317a630b853&dy&month=9&time=month&yr=2026"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "unknown",
+      "evidence": "No LightHouse/EHC program is listed at Enchanted Hills this weekend on the LightHouse events calendar, and the venue publishes no rental-availability calendar, so off-season rental status is unknown.",
+      "source_url": "https://lighthouse-sf.org/events/events-calendar/?cid=mc-948a6a8e8cd15db324902317a630b853&dy&month=9&time=month&yr=2026"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "No LightHouse/EHC program is listed at Enchanted Hills this weekend on the LightHouse events calendar, and the venue publishes no rental-availability calendar, so off-season rental status is unknown.",
+      "source_url": "https://lighthouse-sf.org/events/events-calendar/?cid=mc-948a6a8e8cd15db324902317a630b853&dy&month=10&time=month&yr=2026"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "No LightHouse/EHC program is listed at Enchanted Hills this weekend on the LightHouse events calendar, and the venue publishes no rental-availability calendar, so off-season rental status is unknown.",
+      "source_url": "https://lighthouse-sf.org/events/events-calendar/?cid=mc-948a6a8e8cd15db324902317a630b853&dy&month=10&time=month&yr=2026"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "unknown",
+      "evidence": "No LightHouse/EHC program is listed at Enchanted Hills this weekend on the LightHouse events calendar, and the venue publishes no rental-availability calendar, so off-season rental status is unknown. (LightHouse's next camp program, Fall Family Camp, is Oct 30-Nov 1.)",
+      "source_url": "https://lighthouse-sf.org/events/events-calendar/?cid=mc-948a6a8e8cd15db324902317a630b853&dy&month=10&time=month&yr=2026"
+    }
+  ],
+  "sources": [
+    "https://enchantedhillsnapa.org/",
+    "https://enchantedhillsnapa.org/booking/events/",
+    "https://enchantedhillsnapa.org/booking/stays/",
+    "https://enchantedhillsnapa.org/experiences/meetings/",
+    "https://enchantedhillsnapa.org/experiences/weddings/",
+    "https://enchantedhillsnapa.org/experiences/",
+    "https://enchantedhillsnapa.org/enchanted-hills-napa/accommodations/",
+    "https://enchantedhillsnapa.org/terms-and-conditions/",
+    "https://lighthouse-sf.org/program/enchanted-hills-camp/",
+    "https://lighthouse-sf.org/program/enchanted-hills-camp/enchanted-hills-camp-2026-sessions/",
+    "https://lighthouse-sf.org/events/events-calendar/",
+    "https://lighthouse-sf.org/events/events-calendar/?cid=mc-948a6a8e8cd15db324902317a630b853&dy&month=9&time=month&yr=2026",
+    "https://lighthouse-sf.org/events/events-calendar/?cid=mc-948a6a8e8cd15db324902317a630b853&dy&month=10&time=month&yr=2026",
+    "https://www.retreatfinder.com/centers/enchanted-hills-retreat.html",
+    "https://www.hipcamp.com/en-US/land/california-enchanted-hills-camp-and-retreat-2ejh8yek"
+  ]
+}

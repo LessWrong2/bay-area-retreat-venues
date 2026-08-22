@@ -1,0 +1,84 @@
+{
+  "id": "ratna-ling",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "quote",
+    "low": 42000,
+    "high": 48000,
+    "summary": "~$700–800/person/weekend (max 28 guests)",
+    "basis": "Group rentals are quote-only: the separate group-booking site (ratnalingretreatcenterbooking.org) lists no rates and asks non-profit/educational/spiritual groups to call (510) 809-4995 or email programs@ratnaling.org. Hint from Ratna Ling's own published weekend programs, which include lodging + three vegetarian meals/day: 'Living in Harmony' Oct 16–18, 2026 = $800 for 1 guest in a private room, shared cottage; 'Space and Ease' Sep 11–13 = $700/person double occupancy in a shared cottage or $1,050 single in a private 2-room cottage; Labor Day 3-night = $1,300/person. Hypothetical 60 x $700–800 = $42,000–48,000 for Fri–Sun incl. meals, BUT the center has only 14 two-bedroom cottages for 'up to 28 guests', so 60 cannot be housed on site.",
+    "per_person": "$700–800 per person for Fri–Sun incl. lodging and meals (published program rates)",
+    "source_url": "https://ratnalingretreatcenterbooking.org/",
+    "source_label": "Ratna Ling group-retreat booking site (no rates; contact for quote)",
+    "confidence": "low",
+    "hint": "Published program rates: $800/person (Oct 16–18 weekend, private room in shared cottage, meals included); $700/person double occupancy or $1,050 single cottage (Sep 11–13 weekend).",
+    "hint_url": "https://ratnaling.org/retreats/5802/live-in-harmony-tibetan-buddhist-meditation"
+  },
+  "availability_notes": "Ratna Ling runs its own retreat calendar nearly every weekend and prioritises non-profit, educational and spiritual groups for rentals. Capacity is 14 cottages / 28 overnight guests (practice spaces 10–70). Program payments are non-refundable but transferable. Group availability is by phone/email only; there is no public group calendar, but the program calendar shows the center occupied on all nine target weekends.",
+  "availability": [
+    {
+      "weekend": "2026-08-21",
+      "status": "booked",
+      "evidence": "Ratna Ling's own programs 'Living with More Ease' and 'Understory: Exploring Body, Word, and Landscape' both run Aug 21–23, 2026 on site (retreat center running its own program).",
+      "source_url": "https://ratnaling.org/retreats/"
+    },
+    {
+      "weekend": "2026-08-28",
+      "status": "booked",
+      "evidence": "Ratna Ling's own 'End of Summer Reset' retreat runs Aug 28–30, 2026 on site (retreat center running its own program).",
+      "source_url": "https://ratnaling.org/retreats/"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "booked",
+      "evidence": "'A Weekend of Self-Care | Labor Day' (Sep 4–7, 2026, $1,300/person, 3 nights) runs on site, with the 200-hour yoga teacher training (Aug 31–Sep 17) also in residence (retreat center running its own program).",
+      "source_url": "https://ratnaling.org/retreats/"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "booked",
+      "evidence": "'Space and Ease: A Personal Retreat' and 'Transitions & Transformation: A Yoga Retreat' both run Sep 11–13, 2026, plus the yoga teacher training in residence (retreat center running its own program).",
+      "source_url": "https://ratnaling.org/retreats/"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "booked",
+      "evidence": "'Calming the Mind: A Meditation Retreat' (Sep 17–20) and 'Rooted in Nature' (Sep 18–20, 2026) both run on site (retreat center running its own program).",
+      "source_url": "https://ratnaling.org/retreats/"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "booked",
+      "evidence": "'Re-Vision: Sonoma County Writers Camp' occupies the center Sep 23–27, 2026 (retreat center running its own program).",
+      "source_url": "https://ratnaling.org/retreats/"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "booked",
+      "evidence": "'Space and Ease: A Personal Retreat' and 'Cultivating Compassion – Movement & Meditation' run Oct 2–4, 2026, plus the Fall Harvest farm-to-table fundraiser on Sun Oct 4 (retreat center running its own program).",
+      "source_url": "https://ratnaling.org/retreats/"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "booked",
+      "evidence": "'Women's Self-Care Retreat' runs Oct 9–12, 2026 on site (retreat center running its own program).",
+      "source_url": "https://ratnaling.org/retreats/"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "booked",
+      "evidence": "'Living in Harmony: Tibetan Buddhist Meditation' (Oct 16–18, 2026, $800/person) runs on site, with the Qigong retreat (Oct 14–19) also in residence (retreat center running its own program).",
+      "source_url": "https://ratnaling.org/retreats/"
+    }
+  ],
+  "sources": [
+    "https://ratnaling.org/",
+    "https://ratnaling.org/accommodations/",
+    "https://ratnaling.org/retreats/",
+    "https://ratnaling.org/personal-retreats/",
+    "https://ratnalingretreatcenterbooking.org/",
+    "https://ratnaling.org/retreats/5802/live-in-harmony-tibetan-buddhist-meditation",
+    "https://ratnaling.org/retreats/5149/a-weekend-of-self-care-labor-day-3",
+    "https://ratnaling.org/retreats/5686/space-and-ease-a-personal-retreat-55"
+  ]
+}

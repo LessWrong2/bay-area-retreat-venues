@@ -1,0 +1,94 @@
+{
+  "id": "mount-madonna",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "published",
+    "low": 21000,
+    "high": 35000,
+    "summary": "$21k-35k (published per-person rates; group quote)",
+    "basis": "Mount Madonna's published personal-retreat rates are per person per day and include lodging, three vegetarian meals (brunch+dinner on Saturdays) and facilities use: shared Conference Center room w/ shared bath $183, shared ensuite $223, private w/ shared bath $243, private ensuite $293, private queen ensuite $343, Oaks cabin shared $173 / private $213, yurt private $303, glamping tent $163, tent site $73. 60 people x 2 nights x $173-183 (shared cabins/rooms) = ~$21,000 (low); 60 x 2 x $293 (private ensuite) = ~$35,000 (high). The site says 'other retreat and program accommodations pricing may differ' and hosted-group contracts (meeting hall, AV, Conference Center exclusive use) are quoted by hostyourgroup@mountmadonna.org, so treat this as a floor; an optional 3.65% card-processing fee applies to online bookings.",
+    "per_person": "$350-590 per person for Fri-Sun incl. meals, before any group/meeting-space fees",
+    "source_url": "https://mmc.secure.retreat.guru/program/personal-retreats/",
+    "source_label": "Mount Madonna personal-retreat rate list (retreat.guru booking site)",
+    "confidence": "medium"
+  },
+  "availability_notes": "Group bookings are quoted through hostyourgroup@mountmadonna.org; the Conference Center (33 rooms / 72-74 beds, hall seats 240-250) is the only building that sleeps 60, with overflow in yurts, cabins and glamping tents. MMC runs and hosts multiple programs concurrently and does not publish a group-availability calendar; its public calendar lists hosted programs but not which building they use, so a weekend with a multi-day residential program is treated as booked for a 60-person group. Personal retreats are bookable 48 hours to 60 days ahead. Strictly vegetarian kitchen; Saturday meals are brunch and dinner only.",
+  "availability": [
+    {
+      "weekend": "2026-08-21",
+      "status": "booked",
+      "evidence": "Calendar shows three overlapping residential programs: Vitality Wellness Summer Weekend Retreat (Aug 21-23), Restlessness to Resting in Awareness Retreat (Aug 21-23) and The Embodied Breath 100hr YTT (Aug 16-23).",
+      "source_url": "https://mountmadonna.org/calendar/restlessness-to-resting-retreat-2026/"
+    },
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "MMC's public calendar lists no hosted program for this weekend, but the center hosts several groups at once and publishes no group-availability calendar, so Conference Center availability is unknown.",
+      "source_url": "https://mountmadonna.org/calendar/"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "unknown",
+      "evidence": "MMC's public calendar lists no hosted program for this weekend, but the center hosts several groups at once and publishes no group-availability calendar, so Conference Center availability is unknown. (Labor Day weekend.)",
+      "source_url": "https://mountmadonna.org/calendar/"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "booked",
+      "evidence": "MMC's own 'A Weekend in Community' runs Sept 11-13, alongside the hosted 'Exhale: A Body Awareness Retreat' (Sept 11-13); Grof Breathwork Facilitator Training Unit II begins Sept 13.",
+      "source_url": "https://mountmadonna.org/calendar/weekend-in-community-sep-2026/"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "booked",
+      "evidence": "Recovery 2.0 Level 1 Coach Training is a 10-day residential program Sept 18-27, and Awake Heart 300-hour YTT Session III runs Sept 20-27.",
+      "source_url": "https://mountmadonna.org/calendar/recovery-2-0-coach-traning-2026/"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "booked",
+      "evidence": "Recovery 2.0 Coach Training (Sept 18-27) and Awake Heart YTT (Sept 20-27) are still in residence, the 8th Annual Aradhana ceremony for Baba Hari Dass is Sat Sept 26, and the Jennifer Welwood Mystery School Retreat checks in Sept 27.",
+      "source_url": "https://mountmadonna.org/calendar/aradhana-ceremony-2026/"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "booked",
+      "evidence": "Jennifer Welwood Mystery School Retreat, a privately hosted week-long residential program, runs Sept 27-Oct 4.",
+      "source_url": "https://mountmadonna.org/calendar/mystery-school-retreat-welwood-2026/"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "booked",
+      "evidence": "'Realizing The Way' with Henry Shukman is a hosted residential retreat Oct 8-11, and MMC's own Navaratri & Vijay Dasami festival begins Oct 11.",
+      "source_url": "https://mountmadonna.org/calendar/realizing-the-way-henry-shukman-2026/"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "booked",
+      "evidence": "MMC's own Navaratri & Vijay Dasami festival runs Oct 11-20; the hosted 5th Annual Women's Evolution Weekend Retreat is Oct 16-18 and 'Reset in the Redwoods' (Ally Hamilton) is Oct 16-20.",
+      "source_url": "https://mountmadonna.org/calendar/navaratri-and-vijay-dasami-2026/"
+    }
+  ],
+  "sources": [
+    "https://mountmadonna.org/host-your-group/",
+    "https://mountmadonna.org/visit/personal-retreats/",
+    "https://mmc.secure.retreat.guru/program/personal-retreats/",
+    "https://mmc.secure.retreat.guru/program/personal-retreats/?form=1&lang=en",
+    "https://mountmadonna.org/calendar/",
+    "https://mountmadonna.org/mec-events-sitemap.xml",
+    "https://mountmadonna.org/calendar/restlessness-to-resting-retreat-2026/",
+    "https://mountmadonna.org/calendar/the-whole-health-framework-retreat/",
+    "https://mountmadonna.org/calendar/the-embodied-breath-100hr-fire-ytt/",
+    "https://mountmadonna.org/calendar/weekend-in-community-sep-2026/",
+    "https://mountmadonna.org/calendar/grof-facilitator-training-ii-sep-2026/",
+    "https://mountmadonna.org/calendar/recovery-2-0-coach-traning-2026/",
+    "https://mountmadonna.org/calendar/awake-heart-yoga-mindfulness-ytt300-2/",
+    "https://mountmadonna.org/calendar/aradhana-ceremony-2026/",
+    "https://mountmadonna.org/calendar/mystery-school-retreat-welwood-2026/",
+    "https://mountmadonna.org/calendar/realizing-the-way-henry-shukman-2026/",
+    "https://mountmadonna.org/calendar/navaratri-and-vijay-dasami-2026/",
+    "https://mountmadonna.org/calendar/5th-annual-womens-evolution-retreat/",
+    "https://mountmadonna.org/calendar/reset-in-the-redwoods-ally-hamilton/",
+    "https://mountmadonna.org/calendar/the-rooted-return-retreat-oct-2026/"
+  ]
+}

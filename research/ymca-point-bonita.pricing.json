@@ -1,0 +1,77 @@
+{
+  "id": "ymca-point-bonita",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "published",
+    "low": 15540,
+    "high": 18420,
+    "summary": "$15.5k–18.4k",
+    "basis": "Published all-inclusive per-person weekend package (lodging in shared dorms + 3 meals per stay night + meeting rooms + Wi-Fi): 2 nights weekend = $307 standard or $259 nonprofit per person. 60 x $259 = $15,540 (nonprofit); 60 x $307 = $18,420 (standard). Semi-private 4-6 person rooms cost extra per room per night (amount not published); bedding/toiletries not included. 25% deposit with signed contract; balance and proof of insurance due one month out. No tax line is shown on the rate table.",
+    "per_person": "$259–307 per person for Fri–Sun incl. 6 meals and meeting space",
+    "source_url": "https://naturebridge.org/retreat-space/golden-gate",
+    "source_label": "NatureBridge Golden Gate Conference & Retreat Center page (Pricing section, 2026 rates)",
+    "confidence": "high"
+  },
+  "availability_notes": "Overnight packages are offered Friday–Sunday during the school year, plus weekdays from mid-June through Labor Day, for groups of 20+ (day-use Mon–Fri). All nine target weekends are Fri–Sun so all fall inside the policy window, but NatureBridge publishes no availability calendar; dates are confirmed by emailing goldengatereservations@naturebridge.org (415-332-5771). Two campuses (Beach/Fort Cronkhite and Bluff/Point Bonita) sleep up to 200 in shared, gender-separated bunk dorms (main dorms ~60-70 beds each); the Raven building (max 45) is the only self-contained co-ed option. Dorms and dining hall may be shared with other groups. Beer/wine only, in meeting rooms.",
+  "availability": [
+    {
+      "weekend": "2026-08-21",
+      "status": "unknown",
+      "evidence": "Fri–Sun overnight bookings are allowed by NatureBridge's published policy for this date, but the site has no availability calendar or booking engine, so whether the campus is open this weekend is not public.",
+      "source_url": "https://naturebridge.org/retreat-space/golden-gate"
+    },
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "Fri–Sun overnight bookings are allowed by NatureBridge's published policy for this date, but the site has no availability calendar or booking engine, so whether the campus is open this weekend is not public.",
+      "source_url": "https://naturebridge.org/retreat-space/golden-gate"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "unknown",
+      "evidence": "Fri–Sun overnight bookings are allowed by NatureBridge's published policy for this date, but the site has no availability calendar or booking engine, so whether the campus is open this weekend is not public. (Labor Day weekend; policy also allows weekdays through Labor Day.)",
+      "source_url": "https://naturebridge.org/retreat-space/golden-gate"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "unknown",
+      "evidence": "Fri–Sun overnight bookings are allowed by NatureBridge's published policy for this date, but the site has no availability calendar or booking engine, so whether the campus is open this weekend is not public.",
+      "source_url": "https://naturebridge.org/retreat-space/golden-gate"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "Fri–Sun overnight bookings are allowed by NatureBridge's published policy for this date, but the site has no availability calendar or booking engine, so whether the campus is open this weekend is not public.",
+      "source_url": "https://naturebridge.org/retreat-space/golden-gate"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "unknown",
+      "evidence": "Fri–Sun overnight bookings are allowed by NatureBridge's published policy for this date, but the site has no availability calendar or booking engine, so whether the campus is open this weekend is not public.",
+      "source_url": "https://naturebridge.org/retreat-space/golden-gate"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "Fri–Sun overnight bookings are allowed by NatureBridge's published policy for this date, but the site has no availability calendar or booking engine, so whether the campus is open this weekend is not public.",
+      "source_url": "https://naturebridge.org/retreat-space/golden-gate"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "Fri–Sun overnight bookings are allowed by NatureBridge's published policy for this date, but the site has no availability calendar or booking engine, so whether the campus is open this weekend is not public.",
+      "source_url": "https://naturebridge.org/retreat-space/golden-gate"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "unknown",
+      "evidence": "Fri–Sun overnight bookings are allowed by NatureBridge's published policy for this date, but the site has no availability calendar or booking engine, so whether the campus is open this weekend is not public.",
+      "source_url": "https://naturebridge.org/retreat-space/golden-gate"
+    }
+  ],
+  "sources": [
+    "https://naturebridge.org/retreat-space/golden-gate",
+    "https://naturebridge.org/events",
+    "https://naturebridge.org/locations/golden-gate"
+  ]
+}

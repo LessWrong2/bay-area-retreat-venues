@@ -1,0 +1,82 @@
+{
+  "id": "walker-creek-ranch",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "published",
+    "low": 19100,
+    "high": 27500,
+    "summary": "$19k–28k",
+    "basis": "2025-2026 Conference Pricing sheet (per person per night, ages 11+): economy bunk cabins $75; lodge shared room $125.50; lodge private room $184.50; camping $44.25. Meals: breakfast $22, lunch $24.25, dinner $31 + tax. Meeting rooms included with overnight stay. Low = 60 x $75 x 2 nights = $9,000 lodging + 6 meals ($154.50 + ~9% tax = ~$168) x 60 = $10,100 -> ~$19,100. High = 20 private lodge rooms ($184.50) + 40 shared lodge beds ($125.50) x 2 nights = $17,420 + $10,100 meals -> ~$27,500. Extras: linen sets $38.50 (included in lodges), projector $75, sound system $68, campfire $38, pond $110/hr. 5% lodging discount only for 100+ people, 5+ days, or Nov–Feb.",
+    "per_person": "$320–460 per person for the weekend incl. 6 meals",
+    "source_url": "https://www.walkercreekranch.org/_files/ugd/f401d1_12e70d7c58ab40c5a1b65493612c6956.pdf",
+    "source_label": "Walker Creek Ranch 2025-2026 Conference Pricing (PDF linked from Plan Your Event page)",
+    "confidence": "high"
+  },
+  "availability_notes": "Run by the Marin County Office of Education. No public availability calendar: FAQ says to email conference admin Jean Parker (jparker@marinschools.org, 415-491-6603) with group size and preferred dates; a contract and deposit secure the reservation. The site serves ~5,000 outdoor-school students a year in week-long (4-5 day) residential programs during the school year, with conference/retreat groups (weddings, reunions, retreats) on other dates; weekends are the normal retreat window but nothing public confirms any specific weekend. Lodging: 4 lodges (82 beds, 2-5 per room, linens included), 13 bunk cabins + 2 bunkhouses (287 beds, bring bedding), camping for 10-200.",
+  "availability": [
+    {
+      "weekend": "2026-08-21",
+      "status": "unknown",
+      "evidence": "Walker Creek Ranch publishes no availability calendar or event list; bookings are arranged by email and no public source shows this weekend as open or taken.",
+      "source_url": "https://www.walkercreekranch.org/forms-faq"
+    },
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "Walker Creek Ranch publishes no availability calendar or event list; bookings are arranged by email and no public source shows this weekend as open or taken.",
+      "source_url": "https://www.walkercreekranch.org/forms-faq"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "unknown",
+      "evidence": "Walker Creek Ranch publishes no availability calendar or event list; bookings are arranged by email and no public source shows this weekend as open or taken. (Labor Day weekend.)",
+      "source_url": "https://www.walkercreekranch.org/forms-faq"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "unknown",
+      "evidence": "Walker Creek Ranch publishes no availability calendar or event list; bookings are arranged by email and no public source shows this weekend as open or taken.",
+      "source_url": "https://www.walkercreekranch.org/forms-faq"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "Walker Creek Ranch publishes no availability calendar or event list; bookings are arranged by email and no public source shows this weekend as open or taken.",
+      "source_url": "https://www.walkercreekranch.org/forms-faq"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "unknown",
+      "evidence": "Walker Creek Ranch publishes no availability calendar or event list; bookings are arranged by email and no public source shows this weekend as open or taken.",
+      "source_url": "https://www.walkercreekranch.org/forms-faq"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "Walker Creek Ranch publishes no availability calendar or event list; bookings are arranged by email and no public source shows this weekend as open or taken.",
+      "source_url": "https://www.walkercreekranch.org/forms-faq"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "Walker Creek Ranch publishes no availability calendar or event list; bookings are arranged by email and no public source shows this weekend as open or taken.",
+      "source_url": "https://www.walkercreekranch.org/forms-faq"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "unknown",
+      "evidence": "Walker Creek Ranch publishes no availability calendar or event list; bookings are arranged by email and no public source shows this weekend as open or taken.",
+      "source_url": "https://www.walkercreekranch.org/forms-faq"
+    }
+  ],
+  "sources": [
+    "https://www.walkercreekranch.org/_files/ugd/f401d1_12e70d7c58ab40c5a1b65493612c6956.pdf",
+    "https://www.walkercreekranch.org/plan-your-event-1",
+    "https://www.walkercreekranch.org/_files/ugd/f401d1_0c041005cc0540e8af7ce9344f0c669f.pdf",
+    "https://www.walkercreekranch.org/_files/ugd/f401d1_f03996a2af194de294306a8445dc7e19.pdf",
+    "https://www.walkercreekranch.org/forms-faq",
+    "https://www.walkercreekranch.org/lodging",
+    "https://www.walkercreekranch.org/a-typical-day",
+    "https://www.marinschools.org/programs-services/programs/walker-creek-ranch"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "mayacamas-ranch",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "quote",
+    "summary": "Not bookable",
+    "basis": "No pricing exists. Mayacamas Ranch stopped operating as a retreat center after the October 2017 Tubbs Fire destroyed its buildings; the current site solicits 'impact investors and philanthropic families' as steward partners and says the land 'currently hosts intimate gatherings and creative work' only 'through select partners in residence'. No group-booking, rates or request form for retreats is published (the pre-fire 'bring-a-group' and retreat-request pages survive only in the Wayback Machine).",
+    "source_url": "https://mayacamasranch.com/the-invitation/",
+    "source_label": "Mayacamas Ranch – The Invitation (steward-partner page; no booking)",
+    "confidence": "high",
+    "hint": "Site text: 'the ranch currently hosts intimate gatherings and creative work' via partners in residence (Inner View Experiences); 'Request Partner Access' is the only call to action.",
+    "hint_url": "https://mayacamasranch.com/the-land/"
+  },
+  "availability_notes": "Not taking group bookings. Post-fire the property has no guest buildings; it is being placed into a long-term stewardship framework (Rock Creek Institute) with governance 'developed over the next four years'. Only partner-in-residence gatherings (Inner View / Nic Askew) occur. Treat as unavailable for any 2026 weekend.",
+  "availability": [
+    {
+      "weekend": "2026-08-21",
+      "status": "booked",
+      "evidence": "Not bookable: the site describes the ranch post-2017 Tubbs Fire as a 300-acre 'bioregional hub' with all lodge/cabin buildings lost, 'currently activated through a small number of aligned programs' and partner-in-residence gatherings only; there is no rates, booking or group page, only a steward-partner inquiry form.",
+      "source_url": "https://mayacamasranch.com/the-land/"
+    },
+    {
+      "weekend": "2026-08-28",
+      "status": "booked",
+      "evidence": "Not bookable: the site describes the ranch post-2017 Tubbs Fire as a 300-acre 'bioregional hub' with all lodge/cabin buildings lost, 'currently activated through a small number of aligned programs' and partner-in-residence gatherings only; there is no rates, booking or group page, only a steward-partner inquiry form.",
+      "source_url": "https://mayacamasranch.com/the-land/"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "booked",
+      "evidence": "Not bookable: the site describes the ranch post-2017 Tubbs Fire as a 300-acre 'bioregional hub' with all lodge/cabin buildings lost, 'currently activated through a small number of aligned programs' and partner-in-residence gatherings only; there is no rates, booking or group page, only a steward-partner inquiry form.",
+      "source_url": "https://mayacamasranch.com/the-land/"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "booked",
+      "evidence": "Not bookable: the site describes the ranch post-2017 Tubbs Fire as a 300-acre 'bioregional hub' with all lodge/cabin buildings lost, 'currently activated through a small number of aligned programs' and partner-in-residence gatherings only; there is no rates, booking or group page, only a steward-partner inquiry form.",
+      "source_url": "https://mayacamasranch.com/the-land/"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "booked",
+      "evidence": "Not bookable: the site describes the ranch post-2017 Tubbs Fire as a 300-acre 'bioregional hub' with all lodge/cabin buildings lost, 'currently activated through a small number of aligned programs' and partner-in-residence gatherings only; there is no rates, booking or group page, only a steward-partner inquiry form.",
+      "source_url": "https://mayacamasranch.com/the-land/"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "booked",
+      "evidence": "Not bookable: the site describes the ranch post-2017 Tubbs Fire as a 300-acre 'bioregional hub' with all lodge/cabin buildings lost, 'currently activated through a small number of aligned programs' and partner-in-residence gatherings only; there is no rates, booking or group page, only a steward-partner inquiry form.",
+      "source_url": "https://mayacamasranch.com/the-land/"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "booked",
+      "evidence": "Not bookable: the site describes the ranch post-2017 Tubbs Fire as a 300-acre 'bioregional hub' with all lodge/cabin buildings lost, 'currently activated through a small number of aligned programs' and partner-in-residence gatherings only; there is no rates, booking or group page, only a steward-partner inquiry form.",
+      "source_url": "https://mayacamasranch.com/the-land/"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "booked",
+      "evidence": "Not bookable: the site describes the ranch post-2017 Tubbs Fire as a 300-acre 'bioregional hub' with all lodge/cabin buildings lost, 'currently activated through a small number of aligned programs' and partner-in-residence gatherings only; there is no rates, booking or group page, only a steward-partner inquiry form.",
+      "source_url": "https://mayacamasranch.com/the-land/"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "booked",
+      "evidence": "Not bookable: the site describes the ranch post-2017 Tubbs Fire as a 300-acre 'bioregional hub' with all lodge/cabin buildings lost, 'currently activated through a small number of aligned programs' and partner-in-residence gatherings only; there is no rates, booking or group page, only a steward-partner inquiry form.",
+      "source_url": "https://mayacamasranch.com/the-land/"
+    }
+  ],
+  "sources": [
+    "https://mayacamasranch.com/",
+    "https://mayacamasranch.com/the-invitation/",
+    "https://mayacamasranch.com/the-land/",
+    "https://mayacamasranch.com/the-vision/"
+  ]
+}

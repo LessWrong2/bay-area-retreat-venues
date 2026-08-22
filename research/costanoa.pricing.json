@@ -1,0 +1,89 @@
+{
+  "id": "costanoa",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "quote",
+    "low": 17000,
+    "high": 40000,
+    "summary": "~$17k–40k (retail rates + catering guess)",
+    "basis": "Group/wedding bookings are quoted through the sales team (Tripleseat RFP) and no group or catering prices are published. Estimate uses the retail nightly rates the online booking engine showed for Fri Oct 16–Sun Oct 18 2026: 60 people = 30 double-occupancy units x 2 nights. Low: 30 x $155 (Outer Pine tent bungalow) x 2 = $9,300 + 10% San Mateo County occupancy tax = $10,230, plus an assumed catering allowance of $120/person for the weekend (Cascade Restaurant menus are image PDFs with no extractable prices; catering is quoted) = $7,200 -> ~$17,400. High: 30 x $429 (Lodge View Premium) x 2 = $25,740 + 10% tax = $28,314, plus $200/person catering = $12,000 -> ~$40,300. Lodge King was $369, Douglas Fir cabin $365 the same weekend. Meeting-space, tenting and service charges not included (not published).",
+    "per_person": "~$290–670 for the weekend incl. an assumed catering allowance",
+    "source_url": "https://reservations.costanoa.com/costanoa/",
+    "source_label": "Costanoa online booking engine (availability calendar queried Fri Oct 16 – Sun Oct 18 2026, 2 adults)",
+    "confidence": "low",
+    "hint": "FAQ: 'For group or wedding reservations, please contact our sales department' and 'our online booking system may not reflect all of our availability'; deposit = first night's room + tax; Sept 4–7 and Oct 9–12 2026 are holiday blackout dates for promo rates.",
+    "hint_url": "https://www.costanoa.com/faq/"
+  },
+  "availability_notes": "Resort (39–40 lodge rooms, 14–24 cabins, 85–93 tent bungalows, plus RV/tent sites) that sells rooms individually year-round; group blocks and buyouts go through sales via the Tripleseat request-proposal form. Online engine may not show all inventory. Check-in 4pm, check-out 11am. Labor Day (Sept 4–7) and Columbus Day (Oct 9–12) are promo-blackout holiday weekends. Statuses below reflect individual-room availability on the public booking calendar, not whether a 60-person block is possible.",
+  "availability": [
+    {
+      "weekend": "2026-08-21",
+      "status": "available",
+      "evidence": "Booking engine shows individual rooms bookable BOTH Fri and Sat nights in several types: Lodge Premium ($425/$515), Lodge View King ($385/$475), Outer Pine bungalow ($189/$195), Cypress bungalow ($219/$225), Pine Village bungalow ($234/$240); all cabins sold out. Individual-room availability only, not evidence a 60-person block is open.",
+      "source_url": "https://reservations.costanoa.com/costanoa/"
+    },
+    {
+      "weekend": "2026-08-28",
+      "status": "partial",
+      "evidence": "Only Outer Pine ($195) and Cypress ($225) tent bungalows show both Fri and Sat nights open; every lodge-room and cabin type shows at least one night sold out.",
+      "source_url": "https://reservations.costanoa.com/costanoa/"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "available",
+      "evidence": "Labor Day weekend: both nights bookable in Lodge King ($349/$395), Lodge King ADA and Cypress bungalow ($195/$239); several other types Friday-only. Individual rooms only; promo blackout weekend.",
+      "source_url": "https://reservations.costanoa.com/costanoa/"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "partial",
+      "evidence": "No accommodation type shows both nights open: Friday-only availability in Lodge King ($369), Outer Pine and Cypress bungalows; Saturday sold out across all lodge, cabin and bungalow types.",
+      "source_url": "https://reservations.costanoa.com/costanoa/"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "partial",
+      "evidence": "Both nights open only in Douglas Fir cabins ($365 king / $395 double) and Cypress bungalows ($185); all lodge rooms and other bungalows sold out.",
+      "source_url": "https://reservations.costanoa.com/costanoa/"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "partial",
+      "evidence": "Every lodge, cabin and tent-bungalow type shows sold out for both Fri and Sat; the all-types calendar still shows $119 nights, i.e. only RV/tent-camping sites remain.",
+      "source_url": "https://reservations.costanoa.com/costanoa/"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "partial",
+      "evidence": "Both nights open only in Pine Village ($200), Family ($310) and Lighthouse ($349) bungalows; all lodge rooms and cabins sold out.",
+      "source_url": "https://reservations.costanoa.com/costanoa/"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "partial",
+      "evidence": "Columbus Day weekend: no type shows both nights; Friday-only in Douglas Fir double cabin ($395) and Outer Pine bungalow ($155), Saturday-only in Lodge Double ($399) and Douglas Fir king cabin ($365).",
+      "source_url": "https://reservations.costanoa.com/costanoa/"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "available",
+      "evidence": "Booking engine shows both Fri and Sat bookable in Lodge Premium ($419), Lodge View Premium ($429), Lodge King ($369), Lodge King ADA ($369), Douglas Fir king cabin ($365) and Outer Pine bungalow ($155); coastal cabins and most bungalows sold out. Individual rooms only, not a 60-person buyout.",
+      "source_url": "https://reservations.costanoa.com/costanoa/"
+    }
+  ],
+  "sources": [
+    "https://reservations.costanoa.com/costanoa/",
+    "https://reservations.costanoa.com/costanoa/callUpdateJQHhw.asp?hotelCode=COSTANOA&months2Show=3&csd=8/1/2026&startDate=10/16/2026&endDate=10/18/2026&adults=2&roomCode=LK",
+    "https://www.costanoa.com/faq/",
+    "https://www.costanoa.com/meetings/",
+    "https://www.costanoa.com/company-retreats/",
+    "https://www.costanoa.com/event-spaces/",
+    "https://www.costanoa.com/request-proposal/",
+    "https://www.costanoa.com/offers/",
+    "https://www.costanoa.com/stay/lodge/",
+    "https://www.costanoa.com/stay/cabins/",
+    "https://www.costanoa.com/stay/glamping-tents/",
+    "https://www.costanoa.com/stay/cascade-restaurant/",
+    "https://www.smcgov.org/media/104456/download"
+  ]
+}

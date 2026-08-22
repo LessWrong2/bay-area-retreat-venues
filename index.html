@@ -26,11 +26,19 @@
       </div>
       <p class="subtitle">~60 people · Fri Oct 16 – Sun Oct 18, 2026</p>
       <div class="filters" id="filters" role="tablist">
-        <button class="chip is-active" data-tier="ALL">All</button>
-        <button class="chip" data-tier="A"><span class="dot tier-A"></span>A</button>
-        <button class="chip" data-tier="B"><span class="dot tier-B"></span>B</button>
-        <button class="chip" data-tier="C"><span class="dot tier-C"></span>C</button>
-        <button class="chip" data-tier="REF"><span class="dot tier-REF"></span>Reference</button>
+        <button class="chip is-active" data-tier="ALL" title="All venues">All</button>
+        <button class="chip" data-tier="A" title="Tier A — strongest matches: real character, whole-site exclusive use, on-site lodging near 60, within ~2.5 h of SF"><span class="dot tier-A"></span>A</button>
+        <button class="chip" data-tier="B" title="Tier B — solid and bookable, but each trades something: aesthetics, distance, guest-type restrictions, or dorm lodging"><span class="dot tier-B"></span>B</button>
+        <button class="chip" data-tier="C" title="Tier C — worth a call for one specific reason (architecture, hot springs, all-inclusive ease, in-city), with a clear tradeoff"><span class="dot tier-C"></span>C</button>
+        <button class="chip" data-tier="REF" title="Reference — your benchmark venue, one that no longer rents, and three that are too small"><span class="dot tier-REF"></span>Reference</button>
+      </div>
+      <div class="weekends" id="weekends">
+        <div class="weekends-head">
+          <span class="weekends-title">Weekend availability</span>
+          <button class="weekends-clear" id="weekendsClear" hidden>Show all</button>
+        </div>
+        <div class="weekend-grid" id="weekendGrid" role="tablist" aria-label="Filter by weekend"></div>
+        <p class="weekends-hint" id="weekendsHint">Pick a weekend to show only venues with public evidence they're open then. Most venues don't publish group availability — call to confirm.</p>
       </div>
     </header>
     <div class="list" id="list" role="listbox" aria-label="Venues"></div>
@@ -80,6 +88,8 @@
     <p>Westerbeke: $255–270 per person per night on weekends, plus 14% occupancy and 9.25% sales tax; $135 per person for a day conference. St. Dorothy's Rest 2026: $135 single / $105 double / $77–97 dorm per person per night, plus $22 per meal. Hidden Villa day spaces: $300–$850. Everyone else quotes on request.</p>
     <h3>Restrictions</h3>
     <p>Bishop's Ranch hosts nonprofit groups only. Vallombrosa takes religious, educational or charitable groups only. Camp Navarro will not answer booking phone calls — use their form. Westminster Woods only takes Friday–Sunday bookings during the school year, which happens to be this exact window.</p>
+    <h3>Cost &amp; availability</h3>
+    <p>Weekend costs are rough estimates for 60 people over two nights (Fri + Sat), with meals where the venue serves them, computed from each venue's published rates; each figure links to the page it came from. Availability is what the public web shows for each Fri–Sun weekend between now and Oct 16: <span class="dot avail-available"></span> open by a public calendar or booking engine, <span class="dot avail-partial"></span> partly open, <span class="dot avail-booked"></span> occupied or closed, <span class="dot avail-unknown"></span> nothing published. Individual-room availability is not the same as a 60-person buyout — always confirm by phone.</p>
     <p class="muted small">Photos are from each venue's own website or Wikimedia Commons and are credited in each venue's panel. Map © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, tiles © <a href="https://carto.com/attributions">CARTO</a>.</p>
   </div>
 </div>

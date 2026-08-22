@@ -1,0 +1,85 @@
+{
+  "id": "saratoga-springs",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "quote",
+    "low": 10000,
+    "high": 20000,
+    "summary": "Quote only (rough $10k–20k)",
+    "basis": "Rates page says only 'competitive group and individual packages depending on the size of your group and time of year... please call or email' (stay@saratogasprings.com, 707-275-9503); the contact page promises rate information and a brochure on request. No numbers anywhere on the (2020-frozen) official site. Rough range is derived from the Hexenfest 2025 ticket tiers (see hint): the venue's per-person charge to that 300-person festival appears to be on the order of $35–55/person/night for camping or dorm beds (camping pass $340 vs $240 offsite pass over 3 nights; dorm bed $393), so 60 x 2 nights x $35–55 = $4,200–6,600 lodging, plus chef-prepared meals (meal plan price not published; assumed $50–70/person/day x 2) = $6,000–8,400, and allowance for the higher per-person pricing a 60-person exclusive-use group would likely pay. Treat as order-of-magnitude only.",
+    "source_url": "https://saratogasprings.com/vintage/rates/rates.html",
+    "source_label": "Saratoga Springs 'Rates and Guidelines' page (call/email for rates)",
+    "confidence": "low",
+    "hint": "Hexenfest 2025 (Oct 9–12 at Saratoga Springs, ~300 people) sold 3-night passes at $240 offsite / $340 camping / $393 dorm bed / $452 summer tent cabin / $516 wood tent cabin / $933 cabin bedroom for two, noting 'Saratoga charges us less for folks staying offsite'; meal plan sold separately by the venue.",
+    "hint_url": "https://www.hexenfest.net/tickets"
+  },
+  "availability_notes": "Exclusive use of the whole 260-acre site for groups of 20–25+, first-come first-served; group stays of 2–10 nights; weekend weddings run Friday noon to Sunday 2pm. Lodging: main lodge ~28 beds + cabins sleeping 50–80 + camping for 100+ (2 small cabins closed in winter). No public availability calendar; the only 2026 event listed on the site is April 3–5. Hexenfest (the recurring October festival here) still shows 2025 dates with no 2026 announcement.",
+  "availability": [
+    {
+      "weekend": "2026-08-21",
+      "status": "unknown",
+      "evidence": "No public calendar; the site's Retreats & Events page lists only an April 3–5 2026 event.",
+      "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html"
+    },
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "No public calendar; no 2026 event listed for this weekend.",
+      "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "unknown",
+      "evidence": "No public calendar; no Labor Day 2026 event found on the site or in festival listings.",
+      "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "unknown",
+      "evidence": "No public calendar; no 2026 event listed for this weekend.",
+      "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "No public calendar; no 2026 event listed for this weekend.",
+      "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "unknown",
+      "evidence": "No public calendar; no 2026 event listed for this weekend.",
+      "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "No public calendar; no 2026 event listed for this weekend.",
+      "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "Hexenfest used this weekend in 2025 (Oct 9–12) but hexenfest.net still shows only 2025 dates and no 2026 announcement, so a repeat is unconfirmed.",
+      "source_url": "https://www.hexenfest.net/"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "unknown",
+      "evidence": "No public calendar; no 2026 event listed for this weekend.",
+      "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html"
+    }
+  ],
+  "sources": [
+    "https://saratogasprings.com/vintage/",
+    "https://saratogasprings.com/vintage/rates/rates.html",
+    "https://saratogasprings.com/vintage/retreat_facility.html",
+    "https://saratogasprings.com/vintage/retreats/retreats-events.html",
+    "https://saratogasprings.com/vintage/wedding-venue.html",
+    "https://saratogasprings.com/vintage/contact.html",
+    "https://saratogasprings.com/vintage/retreat_dining.html",
+    "https://www.hexenfest.net/",
+    "https://www.hexenfest.net/about",
+    "https://www.hexenfest.net/tickets"
+  ]
+}

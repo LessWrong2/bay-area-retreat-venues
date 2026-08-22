@@ -1,0 +1,41 @@
+{
+  "id": "1440-multiversity",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "quote",
+    "low": 50000,
+    "high": 93000,
+    "summary": "$50k–93k (est.)",
+    "basis": "Group packages are quoted by RFP only ('Accommodations (prices vary)'). Estimate derived from published per-person program packages: the Sep 18-19 2026 overnight program is $425/person single or $790/room double (~$395/person) for one night incl. dinner, breakfast, a 90-min workshop and signature classes; the 2025 Soul Strides program lists lodging+meals at '$1,390 + tax for two nights' (~$695/person/night) before tuition. 60 people x 2 nights x $395–695 = $47,400–83,400, plus 11% accommodation tax (shown in the booking engine) = ~$52,600–92,600; service charges and any private-class fees ($250+/class, $50–250/person) extra. 50% deposit at booking.",
+    "per_person": "~$880–1,550 per person for 2 nights incl. 3 meals/day, before service charges",
+    "source_url": "https://www.1440.org/groups",
+    "source_label": "1440 Groups page (all-inclusive package, pricing on RFP)",
+    "confidence": "low",
+    "hint": "Published program pages show all-inclusive per-person pricing: one-night overnight program $425 single / $790 double + tax (Sep 18 2026); three-day/two-night program lodging+meals 'starts at $1,390 + tax for two nights' plus tuition (Mar 2025). FAQ: ~50% of the per-person rate is accommodations, the rest meals/tuition/classes.",
+    "hint_url": "https://www.1440.org/events/scotts-valley/overnight-program-stay-shift-your-heart-health-091826"
+  },
+  "availability_notes": "147 private guest rooms; groups never get a buyout but book room blocks under an all-inclusive package. 1440 only hosts 'mission-aligned' groups that include a learning element, and its Group FAQ says it 'has established a waiting list for private mission-aligned group events' (inquire at inquiries@1440.org / 888-727-1440). Private group bookings are not published anywhere; the public Community Education Calendar lists only 1440's own open-enrollment events. The SynXis booking engine is program-gated ('Select a Learning Experience') and returns 'Our hotel is not available' for every open-dated search, so it cannot be used to test room availability. 50% deposit at booking, balance 14–45 days before arrival; 11% accommodation tax.",
+  "availability": [
+    {"weekend": "2026-08-21", "status": "unknown", "evidence": "No public 1440 event listed Aug 21–23; private group bookings are not published and the program-gated booking engine returns 'not available on August 21, 2026' without a program code, which is not evidence either way.", "source_url": "https://www.1440.org/events"},
+    {"weekend": "2026-08-28", "status": "partial", "evidence": "Campus hosts two public evening dining/arts events, 'The Ancestral Watch' on Fri Aug 28 and Sat Aug 29, so some campus venues are committed; room-block availability for a 60-person group is not published.", "source_url": "https://www.1440.org/events"},
+    {"weekend": "2026-09-04", "status": "unknown", "evidence": "No public 1440 event listed for Labor Day weekend Sep 4–6; private group bookings are not published.", "source_url": "https://www.1440.org/events"},
+    {"weekend": "2026-09-11", "status": "unknown", "evidence": "No public 1440 event listed Sep 11–13; private group bookings are not published.", "source_url": "https://www.1440.org/events"},
+    {"weekend": "2026-09-18", "status": "partial", "evidence": "A public one-night 'Overnight Program Stay: Shift Your Heart Health' (Fri Sep 18–Sat Sep 19, guest rooms + Kitchen Table dinner) and a 'Discovery Dinner' on Sep 18 occupy part of the campus that Friday; remaining room inventory for a 60-person group is not published.", "source_url": "https://www.1440.org/events/scotts-valley/overnight-program-stay-shift-your-heart-health-091826"},
+    {"weekend": "2026-09-25", "status": "unknown", "evidence": "No public 1440 event listed Sep 25–27; private group bookings are not published.", "source_url": "https://www.1440.org/events"},
+    {"weekend": "2026-10-02", "status": "unknown", "evidence": "No public 1440 event listed Oct 2–4; private group bookings are not published.", "source_url": "https://www.1440.org/events"},
+    {"weekend": "2026-10-09", "status": "unknown", "evidence": "No public 1440 event listed Oct 9–11; private group bookings are not published.", "source_url": "https://www.1440.org/events"},
+    {"weekend": "2026-10-16", "status": "unknown", "evidence": "No public 1440 event listed Oct 16–18 (next listed program is Jun 2027); the program-gated booking engine says 'not available on October 17, 2026' for an open-dated search, which is its response for every date without a program code, so group availability is unknown.", "source_url": "https://www.1440.org/events"}
+  ],
+  "sources": [
+    "https://www.1440.org/groups",
+    "https://www.1440.org/faqs/group",
+    "https://www.1440.org/faqs",
+    "https://www.1440.org/payment-and-cancellation",
+    "https://www.1440.org/stay",
+    "https://www.1440.org/events",
+    "https://www.1440.org/events/scotts-valley/overnight-program-stay-shift-your-heart-health-091826",
+    "https://www.1440.org/events/scotts-valley/soul-strides-retreat",
+    "https://assets.milestoneinternet.com/1440-multiversity/website-assest/pdf/1440-group-brochure.pdf",
+    "https://be.synxis.com/?adult=1&arrive=2026-10-16&chain=24333&child=0&currency=USD&depart=2026-10-18&hotel=6057&level=hotel&locale=en-US&rooms=1"
+  ]
+}

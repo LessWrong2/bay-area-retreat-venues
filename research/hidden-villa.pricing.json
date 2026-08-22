@@ -1,0 +1,38 @@
+{
+  "id": "hidden-villa",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "published",
+    "low": 2350,
+    "high": 5000,
+    "summary": "$2.4k–5k facilities only (39 beds, no meals)",
+    "basis": "Hidden Villa's Arlo rental catalog (Meeting & Retreats / Facility Rentals pages) lists: Hostel whole-facility buyout $850 incl. tax (per night; sleeps 37–39 in 9 cabins, Sept–May only, 2-night minimum on weekends, 3 nights on holiday weekends), Dana Center day rental $650 incl. tax (8:30 am–5 pm, seats 48–60, Tue–Sun Sept–May), Duveneck House day rental $700 incl. tax, Morgan Family Pavilion or Garden Picnic Site $300/day (9 am–4:30 pm, seats 60 / 40). Low: Hostel 2 nights ($1,700) + Dana Center 1 day ($650) = $2,350. High: Hostel 2 nights + Dana Center 2 days ($1,300) + Duveneck House 2 days ($1,400) + Morgan Pavilion 2 days ($600) = $5,000. Plus a $500 refundable cleaning/damage deposit per rental, liability insurance naming Hidden Villa, and extra day-parking passes beyond 8 cars per picnic rental. No food service (group cooks in the commercial kitchen or hires a caterer), and only 39 beds, so ~21 people need off-site lodging and meals for 60 are on top. Detail pages say 'Contact us for pricing', so the catalog figures may be starting prices.",
+    "per_person": "~$40–85 per person for 2 nights facilities only, before food and off-site lodging for 21",
+    "source_url": "https://www.hiddenvilla.org/meeting-retreats/",
+    "source_label": "Hidden Villa Meeting & Retreats rental catalog",
+    "confidence": "medium"
+  },
+  "availability_notes": "Hostel (39 beds), Dana Center and Duveneck House rent September through May only; Dana/Duveneck Tue–Sun; Hostel requires a 2-night minimum on weekends and 3 nights on holiday weekends; the hostel no longer rents individual beds. Rentals prioritize youth-serving and nonprofit groups but are open to all; book via the facility-rental inquiry form (rentals@hiddenvilla.org). No public availability calendar for the Hostel/Dana Center; only the picnic sites show bookable dates (Morgan Family Pavilion and Garden Picnic Site, $300/day, Aug 29–Sep 26 listed, then Nov 7). The farm stays open to day visitors, so this is never an exclusive-site buyout.",
+  "availability": [
+    {"weekend": "2026-08-21", "status": "booked", "evidence": "Hostel, Dana Center and Duveneck House are only available for rent September–May, so the August weekend is out of rental season; no picnic-site dates are listed before Aug 29 either.", "source_url": "https://www.hiddenvilla.org/programs/catalog/70-hostel/region-HV/"},
+    {"weekend": "2026-08-28", "status": "partial", "evidence": "Overnight/indoor rentals are closed until September, but the Morgan Family Pavilion and Garden Picnic Site are listed as bookable day rentals on Sat Aug 29 and Sun Aug 30 ($300/day).", "source_url": "https://www.hiddenvilla.org/programs/catalog/5-morgan-family-pavilion/region-HV/"},
+    {"weekend": "2026-09-04", "status": "partial", "evidence": "Morgan Family Pavilion (seats 60) and Garden Picnic Site are bookable Sat Sep 5 and Sun Sep 6; Hostel and Dana Center availability is not published and holiday weekends carry a 3-night hostel minimum.", "source_url": "https://www.hiddenvilla.org/programs/catalog/5-morgan-family-pavilion/region-HV/"},
+    {"weekend": "2026-09-11", "status": "partial", "evidence": "Picnic sites are bookable Sun Sep 13 but Sat Sep 12 is not offered; Hostel and Dana Center availability is not published.", "source_url": "https://www.hiddenvilla.org/programs/catalog/5-morgan-family-pavilion/region-HV/"},
+    {"weekend": "2026-09-18", "status": "partial", "evidence": "Morgan Family Pavilion and Garden Picnic Site are bookable Sat Sep 19 and Sun Sep 20; Hostel and Dana Center availability is not published.", "source_url": "https://www.hiddenvilla.org/programs/catalog/5-morgan-family-pavilion/region-HV/"},
+    {"weekend": "2026-09-25", "status": "partial", "evidence": "Morgan Family Pavilion shows Sat Sep 26 'Sold out' while the Garden Picnic Site is still bookable Sep 26; Sun Sep 27 is not offered; Hostel and Dana Center availability is not published.", "source_url": "https://www.hiddenvilla.org/programs/catalog/5-morgan-family-pavilion/region-HV/"},
+    {"weekend": "2026-10-02", "status": "unknown", "evidence": "No picnic-site dates are listed for October (listing jumps from Sep 26 to Nov 7) and Hostel/Dana Center availability is not published.", "source_url": "https://www.hiddenvilla.org/programs/catalog/5-morgan-family-pavilion/region-HV/"},
+    {"weekend": "2026-10-09", "status": "unknown", "evidence": "No picnic-site dates are listed for October and Hostel/Dana Center availability is not published.", "source_url": "https://www.hiddenvilla.org/programs/catalog/5-morgan-family-pavilion/region-HV/"},
+    {"weekend": "2026-10-16", "status": "unknown", "evidence": "No picnic-site dates are listed for October and Hostel/Dana Center availability is not published; the public events calendar shows only small programs (farm tours, workshops) that do not occupy the rental facilities.", "source_url": "https://www.hiddenvilla.org/calendar/individuals-families/"}
+  ],
+  "sources": [
+    "https://www.hiddenvilla.org/meeting-retreats/",
+    "https://www.hiddenvilla.org/rentals/facility-rentals/",
+    "https://www.hiddenvilla.org/programs/catalog/70-hostel/region-HV/",
+    "https://www.hiddenvilla.org/programs/catalog/60-dana-center/region-HV/",
+    "https://www.hiddenvilla.org/programs/catalog/69-duveneck-house/region-HV/",
+    "https://www.hiddenvilla.org/programs/catalog/5-morgan-family-pavilion/region-HV/",
+    "https://www.hiddenvilla.org/programs/catalog/446-garden-picnic-site/region-HV/",
+    "https://www.hiddenvilla.org/calendar/individuals-families/",
+    "https://wiki.fasterthan20.com/view/Hidden_Villa"
+  ]
+}

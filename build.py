@@ -38,6 +38,25 @@ def save_jpeg(im, path, quality):
     im.save(path, "JPEG", quality=quality, optimize=True, progressive=True)
 
 
+def fmt_k(n):
+    if n >= 10000:
+        return f"{round(n / 1000)}"
+    return f"{n / 1000:.1f}".rstrip("0").rstrip(".")
+
+
+def cost_with_short(c):
+    c = dict(c)
+    low, high = c.get("low"), c.get("high")
+    if isinstance(low, (int, float)) and isinstance(high, (int, float)):
+        rng = f"${fmt_k(low)}k" if abs(high - low) < 500 else f"${fmt_k(low)}–{fmt_k(high)}k"
+        c["short"] = rng if c.get("mode") == "published" else f"est. {rng}"
+    elif c.get("mode") == "quote":
+        c["short"] = "Not bookable" if "not bookable" in (c.get("summary", "") + c.get("basis", "")).lower() else "Quote"
+    else:
+        c["short"] = c.get("summary", "")
+    return c
+
+
 def process_venue(v, r):
     vid = v["id"]
     out_dir = os.path.join(OUT_IMG, vid)
@@ -90,7 +109,14 @@ def main():
         for k in ("address", "lat", "lng", "geo_confidence"):
             if k in r and r[k] not in (None, ""):
                 v[k] = r[k]
-        print(f"{v['id']}: research={'yes' if r else 'NO'} images={len(r.get('images', []))} geo={r.get('geo_confidence','-')}")
+        pp = os.path.join(RESEARCH, f"{v['id']}.pricing.json")
+        if os.path.exists(pp):
+            pr = json.load(open(pp))
+            v["cost"] = cost_with_short(pr.get("cost") or {})
+            v["availability"] = pr.get("availability") or []
+            v["availabilityNotes"] = pr.get("availability_notes", "")
+            v["checkedOn"] = pr.get("checked_on", "")
+        print(f"{v['id']}: research={'yes' if r else 'NO'} images={len(r.get('images', []))} geo={r.get('geo_confidence','-')} pricing={'yes' if os.path.exists(pp) else 'NO'}")
         process_venue(v, r)
         out.append(v)
     with open(os.path.join(ROOT, "data.js"), "w") as f:

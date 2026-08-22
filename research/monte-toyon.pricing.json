@@ -1,0 +1,87 @@
+{
+  "id": "monte-toyon",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "published",
+    "low": 16200,
+    "high": 17100,
+    "summary": "$16k–17k",
+    "basis": "UCCR 2026 Monte Toyon adult package = 1 night + 3 meals within 24 h: $130.10 Miller/Morris dorms, $132.95 exclusive use, $137.45 Cary Lodge (lodging-only $78.65–86.00; meals-only $14.35 breakfast, $17.25 lunch, $19.85 dinner = $51.45/day + 9.5% Santa Cruz County sales tax on food ≈ $4.89). A Fri-dinner-to-Sun-lunch weekend = 2 packages/person = 2 nights + 6 meals. Low: 60 x 2 x $130.10 = $15,612 + food tax 60 x 2 x $4.89 = $587 -> $16,199. High: 60 x 2 x $137.45 = $16,494 + $587 -> $17,081. All meeting areas free for overnight groups; linens not provided; day-use $34.75. 2027 rates are ~3% higher ($134–142 pkg). Deposit = 50% of the guaranteed minimum fee (per-person package x guaranteed headcount), balance 30 days before; 20% non-refundable; $1M liability certificate required. UCCR offers a 33% food-and-lodging discount (up to $15,000) on application.",
+    "per_person": "~$270–285 per person for 2 nights + 6 meals",
+    "source_url": "https://www.uccr.org/monte-toyon-forms-information/pricing",
+    "source_label": "UCCR Monte Toyon 2026 pricing page (also PDF: uccr.org/s/MTN-Pricing-2026.pdf)",
+    "confidence": "high"
+  },
+  "availability_notes": "Takes groups of 30–146 overnight (Cary Lodge 70 in 19 rooms; Miller 36 + Morris 40 dorm beds), 150 day-use; open to secular and religious groups. No public calendar — UCCR says to inquire early because the camp is popular. WOLF School outdoor-education programs use the site on school weekdays, so weekends are the guest-group window. Exclusive-use rate ($132.95) applies when a group takes the whole site.",
+  "availability": [
+    {
+      "weekend": "2026-08-21",
+      "status": "unknown",
+      "evidence": "UCCR publishes no availability calendar for Monte Toyon ('Our camp is popular. For availability, inquire about reservations as soon as possible'); no public event found for this weekend.",
+      "source_url": "https://www.uccr.org/monte-toyon"
+    },
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "UCCR publishes no availability calendar for Monte Toyon ('Our camp is popular. For availability, inquire about reservations as soon as possible'); no public event found for this weekend.",
+      "source_url": "https://www.uccr.org/monte-toyon"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "unknown",
+      "evidence": "UCCR publishes no availability calendar for Monte Toyon ('Our camp is popular. For availability, inquire about reservations as soon as possible'); no public event found for this weekend.",
+      "source_url": "https://www.uccr.org/monte-toyon"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "partial",
+      "evidence": "First Church Berkeley UCC's All-Church Retreat is booked at Monte Toyon Fri Sept 11–Sun Sept 13 2026 (registration closed ~Aug 24); size not stated, and UCCR can house more than one group on the 146-bed site, so it may be a full buyout or leave only a building free.",
+      "source_url": "https://www.firstchurchberkeley.org/fall-all-church-retreat-2026/"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "UCCR publishes no availability calendar for Monte Toyon ('Our camp is popular. For availability, inquire about reservations as soon as possible'); no public event found for this weekend.",
+      "source_url": "https://www.uccr.org/monte-toyon"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "unknown",
+      "evidence": "UCCR publishes no availability calendar for Monte Toyon ('Our camp is popular. For availability, inquire about reservations as soon as possible'); no public event found for this weekend.",
+      "source_url": "https://www.uccr.org/monte-toyon"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "UCCR publishes no availability calendar for Monte Toyon ('Our camp is popular. For availability, inquire about reservations as soon as possible'); no public event found for this weekend.",
+      "source_url": "https://www.uccr.org/monte-toyon"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "UCCR publishes no availability calendar for Monte Toyon ('Our camp is popular. For availability, inquire about reservations as soon as possible'); no public event found for this weekend.",
+      "source_url": "https://www.uccr.org/monte-toyon"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "unknown",
+      "evidence": "UCCR publishes no availability calendar for Monte Toyon ('Our camp is popular. For availability, inquire about reservations as soon as possible'); no public event found for this weekend.",
+      "source_url": "https://www.uccr.org/monte-toyon"
+    }
+  ],
+  "sources": [
+    "https://www.uccr.org/monte-toyon-forms-information/pricing",
+    "https://www.uccr.org/s/MTN-Pricing-2026.pdf",
+    "https://www.uccr.org/monte-toyon",
+    "https://www.uccr.org/pricing",
+    "https://www.uccr.org/discount",
+    "https://www.uccr.org/monte-toyon-forms-information/materials",
+    "https://www.uccr.org/s/Deposit-Cancellation-Policy-ry2k.pdf",
+    "https://www.uccr.org/s/DEFINITION-OF-CONTRACTUAL-TERMS-UA-d5k7.pdf",
+    "https://www.uccr.org/monte-toyon-forms-information/cary-lodge",
+    "https://www.uccr.org/monte-toyon-forms-information/miller-morris-dorms",
+    "https://www.firstchurchberkeley.org/fall-all-church-retreat-2026/",
+    "https://www.firstchurchberkeley.org/did-you-know-78/",
+    "https://www.wolfschool.org/camp-monte-toyon"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "st-dorothys-rest",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "published",
+    "low": 17200,
+    "high": 24100,
+    "summary": "$17k–24k",
+    "basis": "2026 rates on the retreats page: lodging $77/person/night (dorm, no bedding), $97 (dorm with bedding), $105 (double room), $135 (single room); meals $22/person/meal (12-person minimum). 60 people x 2 nights: all-dorm-no-bedding 60 x $77 x 2 = $9,240 (low) up to all-single 60 x $135 x 2 = $16,200 (high; only ~5 single rooms exist, so realistic mix is ~$12,600 at the $105 double rate). Meals Fri dinner through Sun lunch = 6 meals x $22 x 60 = $7,920. Totals: $17,160 low, $24,120 high, ~$20,500 for a double-room mix. No tax or service charge is listed; kitchen-use fee applies only if self-catering in Farmer/Lydia. Whole-facility (112 beds) booking requires 65+ people, so 60 would book a combination of buildings (e.g. Main 32 + Farmer 15 + Lydia 13).",
+    "per_person": "$286–402 per person for the weekend incl. 6 meals (~$340 at the double-room rate)",
+    "source_url": "https://www.saintdorothysrest.org/retreats",
+    "source_label": "St. Dorothy's Rest retreats page (2026 Rates)",
+    "confidence": "high"
+  },
+  "availability_notes": "No public availability calendar: the retreats page says to 'check the calendar below' for building reservations, but no calendar renders on the page (checked in a real browser). Inquire by email to retreats@stdorothysrest.org with group name/size/desired buildings; office hours Tue–Fri 10–5. Building minimums: Lydia 8, Farmer 8, Main 7, Miriam none; entire facility 65+ (another paragraph says 68+). Meals require 12+ people; dorm bedding costs extra. Labor Day weekend 2026 (Sep 4–7) is taken by the venue's own Artists & Writers Fall Retreat.",
+  "availability": [
+    {"weekend": "2026-08-21", "status": "unknown", "evidence": "No public calendar or event listing for this weekend; the only posted 2026 programs are May–June camp sessions and the Sep 4–7 Artists & Writers retreat.", "source_url": "https://www.saintdorothysrest.org/events"},
+    {"weekend": "2026-08-28", "status": "unknown", "evidence": "No public calendar or event listing for this weekend.", "source_url": "https://www.saintdorothysrest.org/events"},
+    {"weekend": "2026-09-04", "status": "partial", "evidence": "The venue's own 2026 Artists & Writers Fall Retreat runs Fri Sep 4 (arrival after 1pm) to Mon Sep 7, using historic buildings and the chapel ($400–500/person incl. 9 meals); size not stated, so some buildings may remain but not enough for a 60-person group to be assumed.", "source_url": "https://www.saintdorothysrest.org/artistsandwriters"},
+    {"weekend": "2026-09-11", "status": "unknown", "evidence": "No public calendar or event listing for this weekend.", "source_url": "https://www.saintdorothysrest.org/events"},
+    {"weekend": "2026-09-18", "status": "unknown", "evidence": "No public calendar or event listing for this weekend.", "source_url": "https://www.saintdorothysrest.org/events"},
+    {"weekend": "2026-09-25", "status": "unknown", "evidence": "No public calendar or event listing for this weekend.", "source_url": "https://www.saintdorothysrest.org/events"},
+    {"weekend": "2026-10-02", "status": "unknown", "evidence": "No public calendar or event listing for this weekend.", "source_url": "https://www.saintdorothysrest.org/events"},
+    {"weekend": "2026-10-09", "status": "unknown", "evidence": "No public calendar or event listing for this weekend.", "source_url": "https://www.saintdorothysrest.org/events"},
+    {"weekend": "2026-10-16", "status": "unknown", "evidence": "No public calendar or event listing for this weekend; the retreats page's building calendar does not render, so availability must be confirmed by email.", "source_url": "https://www.saintdorothysrest.org/retreats"}
+  ],
+  "sources": [
+    "https://www.saintdorothysrest.org/retreats",
+    "https://www.saintdorothysrest.org/events",
+    "https://www.saintdorothysrest.org/artistsandwriters",
+    "https://www.saintdorothysrest.org/retreat-faq-s",
+    "https://www.saintdorothysrest.org/camp-sessions",
+    "https://www.saintdorothysrest.org/saintsday"
+  ]
+}

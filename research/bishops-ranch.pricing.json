@@ -1,0 +1,83 @@
+{
+  "id": "bishops-ranch",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "published",
+    "low": 23400,
+    "high": 31000,
+    "summary": "$23k-31k (sample packages)",
+    "basis": "Published Sample Packages: 'Exclusive Use - Two (2) Nights' = exclusive use of the entire property, 2 nights / 5 meals, up to 70 people, $31,000 (+$150 per person beyond 70) -> $31,000 for 60 (~$517/person). Cheaper non-exclusive option: 'Upper Campus Retreat' (Ranch House + Webb Lodge + Swing Pavilion, 2 nights / 5 meals, up to 48 people) $21,600 + 12 extra people x $150 = $23,400, if the Ranch will assign 60 to those buildings (Ranch House sleeps 28+, Webb Lodge 20+). Packages are 'provided solely as examples, costs may vary and will be outlined in your group's contract'; taxes not stated. Non-exclusive pricing is 'by building' with a set fee covering lodging, meals and use fees up to a Ranch-determined headcount.",
+    "per_person": "$390-520 per person for Fri-Sun incl. 5 meals",
+    "source_url": "https://www.bishopsranch.org/group-reservations/sample-packages",
+    "source_label": "The Bishop's Ranch - Sample Packages",
+    "confidence": "medium"
+  },
+  "availability_notes": "Exclusively hosts nonprofit groups that exist for religious, charitable or community benefit (contact them to see if your organizing entity qualifies); priority booking goes to Exclusive Use groups and recurring groups including Episcopal Diocese of California parishes. Non-exclusive groups are paired with other groups and priced by building. Individual/household weekend retreats are sold only when group space is unused (next one: Sept 4-6, 2026). Lodging for ~80 (Ranch House 15 rooms/28+, Webb Lodge 10 rooms/20+, Harrison House 5/10+, St. Stephen's Cottages 10/20+); Swing Pavilion seats 125. No public availability calendar; inquire via web form, info@bishopsranch.org or 707-433-2440.",
+  "availability": [
+    {
+      "weekend": "2026-08-21",
+      "status": "unknown",
+      "evidence": "No Ranch-run program or individual-retreat weekend is listed for these dates on the Programs or Individual Retreats pages, and the Ranch publishes no group-availability calendar, so status is unknown.",
+      "source_url": "https://www.bishopsranch.org/programs"
+    },
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "No Ranch-run program or individual-retreat weekend is listed for these dates on the Programs or Individual Retreats pages, and the Ranch publishes no group-availability calendar, so status is unknown. (The Loose Threads Quilt Retreat is Mon Aug 31-Fri Sep 4, weekdays only.)",
+      "source_url": "https://www.bishopsranch.org/programs"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "partial",
+      "evidence": "The Ranch is selling an individual 'September Weekend Retreat' Sept 4-6, 2026 (private rooms in Webb Lodge, $550 single, registration closes Aug 31) - it only schedules these 'when space is available', so the property is not held for an exclusive group, but rooms are being sold piecemeal to the public rather than as a 60-person block.",
+      "source_url": "https://www.bishopsranch.org/experiences/individual-retreats"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "unknown",
+      "evidence": "No Ranch-run program or individual-retreat weekend is listed for these dates on the Programs or Individual Retreats pages, and the Ranch publishes no group-availability calendar, so status is unknown. (The 'Open and Spacious Like the Sky' retreat is Mon Sep 7-Fri Sep 11, ending Friday breakfast.)",
+      "source_url": "https://www.bishopsranch.org/programs"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "No Ranch-run program or individual-retreat weekend is listed for these dates on the Programs or Individual Retreats pages, and the Ranch publishes no group-availability calendar, so status is unknown.",
+      "source_url": "https://www.bishopsranch.org/programs"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "unknown",
+      "evidence": "No Ranch-run program or individual-retreat weekend is listed for these dates on the Programs or Individual Retreats pages, and the Ranch publishes no group-availability calendar, so status is unknown.",
+      "source_url": "https://www.bishopsranch.org/programs"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "No Ranch-run program or individual-retreat weekend is listed for these dates on the Programs or Individual Retreats pages, and the Ranch publishes no group-availability calendar, so status is unknown.",
+      "source_url": "https://www.bishopsranch.org/programs"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "No Ranch-run program or individual-retreat weekend is listed for these dates on the Programs or Individual Retreats pages, and the Ranch publishes no group-availability calendar, so status is unknown.",
+      "source_url": "https://www.bishopsranch.org/programs"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "partial",
+      "evidence": "The Ranch runs its own public 'Fall Hike with Julie Miller' day program on Sat Oct 17, 2026 (9:30am-3:30pm, $35, Ranch lunch included), so it is not holding the property for an exclusive-use group that Saturday; overnight lodging status for Oct 16-18 is not published.",
+      "source_url": "https://www.bishopsranch.org/programs"
+    }
+  ],
+  "sources": [
+    "https://www.bishopsranch.org/group-reservations",
+    "https://www.bishopsranch.org/group-reservations/sample-packages",
+    "https://www.bishopsranch.org/group-reservations/facilities",
+    "https://www.bishopsranch.org/group-reservations/dining",
+    "https://www.bishopsranch.org/group-reservations/inquire-now",
+    "https://www.bishopsranch.org/experiences/individual-retreats",
+    "https://www.bishopsranch.org/programs",
+    "https://www.bishopsranch.org/experiences",
+    "https://www.bishopsranch.org/pages-sitemap.xml"
+  ]
+}

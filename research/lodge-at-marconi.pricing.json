@@ -1,0 +1,38 @@
+{
+  "id": "lodge-at-marconi",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "published",
+    "low": 35000,
+    "high": 48000,
+    "summary": "$35k–48k + meals",
+    "basis": "Only individual hotel rates are public; group/event pricing is by RFP. The hotel's iHotelier booking engine (dates-of-stay calendar, 'lowest available rate' per night) shows Fri–Sun rack rates this fall of $376–475 for Friday nights and $458–475 for Saturday nights, and room searches for Aug 28–30 and Sep 11–13 returned $417–579/night average plus $98–128/night in taxes and fees (the hotel-policy page adds a $38/night experience fee to every stay). 45 rooms sleep up to 100, so 60 people is roughly 30 rooms: 30 rooms x 2 nights x ($417 + $98) = $30,900 low; 30 x 2 x ($579 + $128) = $42,400 high. Event space is extra (WeddingWire FAQ lists a starting reception site fee of $4,000 off-peak / $5,000 peak; the lobby is only included with a full buyout), giving ~$35,000–48,000 before food. Meals are not included: Mable's restaurant and catering are quoted on request. A negotiated buyout could differ substantially.",
+    "per_person": "~$580–800 per person for two nights lodging incl. taxes/fees, before meals and event space",
+    "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+    "source_label": "Lodge at Marconi booking engine (nightly rates calendar)",
+    "confidence": "low"
+  },
+  "availability_notes": "Public hotel booking engine (iHotelier) shows nightly availability and lowest rates; group room blocks, buyouts and event space go through a Tripleseat 'Plan Event' inquiry. 45 rooms sleeping up to 100; minimum age 21 to reserve; $38/night experience fee; 48-hour cancellation for standard rates. As of Aug 21, the engine sells rooms through Sep 30 and again from Oct 30 onward, but returns no rooms for any night Oct 1–29 (including midweek), with no reason published (possible closure or full-property buyout). The property's events calendar lists no public events in Sep–Oct; Mable's is closed for a private event Sat Aug 22. Individual-room availability is not the same as a 60-person buyout.",
+  "availability": [
+    {"weekend": "2026-08-21", "status": "booked", "evidence": "Booking engine shows rooms Fri Aug 21 (from $376) but Sat Aug 22 is 'check-out only' with no rooms, and the property's events calendar marks Sat Aug 22 'CLOSED AFTER 1PM – PRIVATE EVENT'.", "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay"},
+    {"weekend": "2026-08-28", "status": "partial", "evidence": "A Fri Aug 28–Sun Aug 30 search returns only three room types (ADA Queen, Vaulted King, Deluxe King + Twin Loft), each flagged 'Only 1 Room Left', at $417–529/night plus ~$100 taxes/fees; individual rooms only, far short of 60 people.", "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay"},
+    {"weekend": "2026-09-04", "status": "booked", "evidence": "Calendar shows Fri Sep 4 from $376 but Sat Sep 5 'check-out only' (no rooms) and Sun Sep 6 closed, so no Fri+Sat stay is possible.", "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay"},
+    {"weekend": "2026-09-11", "status": "partial", "evidence": "A Fri Sep 11–Sun Sep 13 search returns a single room type (Deluxe King + Twin Loft) at $475–579/night plus taxes/fees; individual rooms only.", "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay"},
+    {"weekend": "2026-09-18", "status": "booked", "evidence": "Calendar shows Fri Sep 18 'check-out only' and Sat Sep 19 closed/unavailable; no rooms either night.", "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay"},
+    {"weekend": "2026-09-25", "status": "booked", "evidence": "Calendar shows Fri Sep 25 'check-out only' and Sat Sep 26 closed/unavailable; no rooms either night.", "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay"},
+    {"weekend": "2026-10-02", "status": "booked", "evidence": "Fri Oct 2–Sun Oct 4 search returns 'that option is no longer available'; the engine shows no rates or rooms for any night Oct 1–29 (midweek Oct 6–8 also empty) while Oct 30–Nov 1 returns six room types, so the whole month appears blocked.", "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay"},
+    {"weekend": "2026-10-09", "status": "booked", "evidence": "Fri Oct 9–Sun Oct 11 search returns 'that option is no longer available'; no rooms for any night Oct 1–29.", "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay"},
+    {"weekend": "2026-10-16", "status": "booked", "evidence": "Fri Oct 16–Sun Oct 18 search returns 'that option is no longer available'; no rooms for any night Oct 1–29 (Oct 23–25 also empty), with inventory reopening Oct 30.", "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay"}
+  ],
+  "sources": [
+    "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+    "https://lodgeatmarconi.ihotelier.com/book/accommodations",
+    "https://lodgeatmarconi.com/gather/",
+    "https://lodgeatmarconi.com/gather/weddings/",
+    "https://lodgeatmarconi.com/gather/offsites/",
+    "https://lodgeatmarconi.com/hotel-policy/",
+    "https://lodgeatmarconi.com/experience/calendar-of-events/",
+    "https://lodgeatmarconi.com/events/",
+    "https://www.weddingwire.com/biz/lodge-at-marconi/19f871f2cf39da63.html"
+  ]
+}

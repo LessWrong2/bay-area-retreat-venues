@@ -1,0 +1,85 @@
+{
+  "id": "triple-s-ranch",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "published",
+    "low": 45000,
+    "high": 75000,
+    "summary": "$45k site fee (+ ~$30k if catered)",
+    "basis": "Exclusive-use weekend site fee. Venue-supplied FAQ on PartySlate (updated 2024): 'In season we rent the ranch of $45,000 per weekend', 'includes all fees and taxes', exclusive use Fri–Sun (rehearsal dinner, ceremony, reception, Sunday brunch) and 'lodging for 60 guests on site'. Older listings quote $39,000/weekend (Wedding Spot; womangettingmarried.com 2022) dropping to $32,000 Nov–Mar or weekdays. The ranch serves no meals: you hire any caterer or self-cater in the commercial kitchen, no catering or corkage fee. Low = $45,000 site fee only (self-catered). High = $45,000 + rough catering allowance of 60 people x 5 meals (Fri dinner → Sun brunch) x ~$100/meal = $30,000 → ~$75,000. Oct 16–18 is in-season. The official site's 'Weddings Pricing' page only offers a brochure behind a lead form, and the downloadable Private Event Brochure PDF contains no prices.",
+    "per_person": "$750/person venue-only; ~$1,250/person with catered meals (60 people, 2 nights)",
+    "source_url": "https://www.partyslate.com/venues/triple-s-ranch-napa",
+    "source_label": "PartySlate listing – venue-supplied 'Pricing Packages' and FAQ (updated 2024)",
+    "confidence": "medium",
+    "hint": "Wedding Spot: 'The rental fee is $39,000 for exclusive use of the entire property for 3 days / 2 nights … includes the lodging for 41 guests'; womangettingmarried.com (2022): '$39,000 for the weekend … drops to $32,000 per weekend from November through March and/or on weekdays'; Eventective: '$45,000 to $100,000 / Wedding'.",
+    "hint_url": "https://www.wedding-spot.com/venue/2544/triple-s-ranch-napa/"
+  },
+  "availability_notes": "Exclusive-use weekend rentals only (3 days / 2 nights, Fri–Sun); the venue says it hosts a limited number of events per year built around full weekends. Lodging for up to 60 double / 34 single occupancy, glamping allowed for overflow. No on-site catering (BYO caterer and alcohol, licensed bartender required). In-season (roughly Apr–Oct) vs off-season (Nov–Mar) pricing. No public availability calendar; inquire via the site form or (415) 760-3432.",
+  "availability": [
+    {
+      "weekend": "2026-08-21",
+      "status": "unknown",
+      "evidence": "No public availability calendar, event list or social feed could be fetched; the official site (Squarespace) shows no calendar and only 4 blog posts (May–Jun 2026, all SEO articles), and no 2026 wedding/retreat listing naming this weekend was found.",
+      "source_url": "https://www.triplesranchnapa.com/blog"
+    },
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "No public availability calendar, event list or social feed could be fetched; the official site (Squarespace) shows no calendar and only 4 blog posts (May–Jun 2026, all SEO articles), and no 2026 wedding/retreat listing naming this weekend was found.",
+      "source_url": "https://www.triplesranchnapa.com/blog"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "unknown",
+      "evidence": "No public availability calendar, event list or social feed could be fetched; the official site (Squarespace) shows no calendar and only 4 blog posts (May–Jun 2026, all SEO articles), and no 2026 wedding/retreat listing naming this weekend was found.",
+      "source_url": "https://www.triplesranchnapa.com/blog"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "unknown",
+      "evidence": "No public availability calendar, event list or social feed could be fetched; the official site (Squarespace) shows no calendar and only 4 blog posts (May–Jun 2026, all SEO articles), and no 2026 wedding/retreat listing naming this weekend was found.",
+      "source_url": "https://www.triplesranchnapa.com/blog"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "No public availability calendar, event list or social feed could be fetched; the official site (Squarespace) shows no calendar and only 4 blog posts (May–Jun 2026, all SEO articles), and no 2026 wedding/retreat listing naming this weekend was found.",
+      "source_url": "https://www.triplesranchnapa.com/blog"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "unknown",
+      "evidence": "No public availability calendar, event list or social feed could be fetched; the official site (Squarespace) shows no calendar and only 4 blog posts (May–Jun 2026, all SEO articles), and no 2026 wedding/retreat listing naming this weekend was found.",
+      "source_url": "https://www.triplesranchnapa.com/blog"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "No public availability calendar, event list or social feed could be fetched; the official site (Squarespace) shows no calendar and only 4 blog posts (May–Jun 2026, all SEO articles), and no 2026 wedding/retreat listing naming this weekend was found.",
+      "source_url": "https://www.triplesranchnapa.com/blog"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "No public availability calendar, event list or social feed could be fetched; the official site (Squarespace) shows no calendar and only 4 blog posts (May–Jun 2026, all SEO articles), and no 2026 wedding/retreat listing naming this weekend was found.",
+      "source_url": "https://www.triplesranchnapa.com/blog"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "unknown",
+      "evidence": "No public availability calendar, event list or social feed could be fetched; the official site (Squarespace) shows no calendar and only 4 blog posts (May–Jun 2026, all SEO articles), and no 2026 wedding/retreat listing naming this weekend was found.",
+      "source_url": "https://www.triplesranchnapa.com/blog"
+    }
+  ],
+  "sources": [
+    "https://www.triplesranchnapa.com/overview-retreat",
+    "https://www.triplesranchnapa.com/pricing",
+    "https://www.triplesranchnapa.com/s/TripleSRanchPrivateEventBrochure.pdf",
+    "https://www.triplesranchnapa.com/overview",
+    "https://www.triplesranchnapa.com/blog",
+    "https://www.partyslate.com/venues/triple-s-ranch-napa",
+    "https://www.wedding-spot.com/venue/2544/triple-s-ranch-napa/",
+    "https://www.eventective.com/calistoga-ca/triple-s-ranch-napa-681835.html",
+    "https://www.womangettingmarried.com/triple-s-ranch-napa-wedding-venue/"
+  ]
+}

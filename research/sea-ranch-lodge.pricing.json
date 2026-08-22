@@ -1,0 +1,84 @@
+{
+  "id": "sea-ranch-lodge",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "quote",
+    "low": 22900,
+    "high": 31400,
+    "summary": "Quote; ~$23–31k for all 17 rooms (≤34 ppl), meals extra",
+    "basis": "Meetings, retreats and weddings are quoted on request via the Private Events form (no buyout price published). Hint from the SynXis booking engine (checked 2026-08-21): 'The Lodge Rooms' from $674/night midweek (Nov 17–19); lowest best-available rates on the target Fri/Sat nights in Sep–Oct 2026 were $688–$923/night (Oct 16 $688, Oct 17 $735; Oct 9–10 $923), though on those weekends only Sea Ranch Living vacation homes/cabins were actually offered. Hypothetical buyout of all 17 Lodge rooms x 2 nights x $674–$923 = ~$22,900–$31,400 before occupancy tax, housing at most ~34 people; the other ~26 would need Sea Ranch Living homes (from ~$904/night) or off-site lodging. Meals are à la carte in the Dining Room/Café (no meal plan); private group dinners are quoted. Site also advertises a midweek group deal: 'Reserve 8 or more rooms midweek and enjoy rates from $495, 10% off, two complimentary upgrades'.",
+    "per_person": "~$675–925 per person for 2 nights at double occupancy, rooms only, before tax and meals",
+    "source_url": "https://www.thesearanchlodge.com/private-events",
+    "source_label": "The Sea Ranch Lodge – Private Events (request a meetings/wedding quote)",
+    "confidence": "low",
+    "hint": "Booking engine: 'The Lodge Rooms From $674 Per Night' (Nov midweek); Sea Ranch Living Homes from $904/night on Oct 16–18; home page: 8+ rooms midweek 'rates from $495'.",
+    "hint_url": "https://be.synxis.com/?hotel=40594"
+  },
+  "availability_notes": "17 Lodge rooms only (plus managed 'Sea Ranch Living' vacation homes and cabins). The Lodge publishes a 2026 closure list: it is closed to the public for private events on almost every Saturday from late August through mid-November, including a full Fri 3pm–Sun noon buyout Sep 25–27 and a Wed Oct 14–Sat Oct 17 closure covering the target weekend. Booking engine enforces a 2-night minimum (3 nights over Labor Day) and showed no Lodge rooms on any of the nine target weekends. Guest rooms require full deposit; cancellations within 14 days non-refundable; 21+ to check in; dogs only in first-level rooms with notice. Event spaces: Dining Room 80 dinner, Ocean Meadow 150 dinner, Barn Meadow/The Meadow 200 (tented).",
+  "availability": [
+    {
+      "weekend": "2026-08-21",
+      "status": "booked",
+      "evidence": "Closure list: 'The Lodge will be closed all day on Saturday 08.22 for a private event'; the SynXis booking engine shows Aug 21 as 'No Check-in' with no rooms or homes priced for Fri 8/21 or Sat 8/22.",
+      "source_url": "https://www.thesearanchlodge.com/closure"
+    },
+    {
+      "weekend": "2026-08-28",
+      "status": "booked",
+      "evidence": "Closure list: Lodge 'closed at 12pm on Saturday, 08.29 for a private event'; booking engine for Aug 28–30 returns only 'Sea Ranch Living Homes' (private vacation houses from $963/night), no Lodge rooms.",
+      "source_url": "https://www.thesearanchlodge.com/closure"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "partial",
+      "evidence": "No private-event closure is listed for Labor Day weekend, but the booking engine will not accept a Fri→Sun stay (holiday minimum) and Fri→Mon returns only 'Sea Ranch Living Cabins' from $1,316/night — no Lodge rooms, and nothing resembling a 17-room buyout.",
+      "source_url": "https://be.synxis.com/?hotel=40594"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "booked",
+      "evidence": "Closure list: 'The Lodge is closed all day on Saturday, 09.12 for a private event'; booking engine shows no Lodge rooms Sep 11–13 (only Sea Ranch Living cabins/homes with a 3-night stay).",
+      "source_url": "https://www.thesearanchlodge.com/closure"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "booked",
+      "evidence": "Closure list: 'The Lodge is closed all day on Saturday 09.19 for a private event'; booking engine for Sep 18–20 returns only Sea Ranch Living Cabins, no Lodge rooms.",
+      "source_url": "https://www.thesearanchlodge.com/closure"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "booked",
+      "evidence": "Closure list: 'The Lodge will be closed from 3pm on Friday, 09.25 to 12pm on Sunday, 09.27 for a private event' — i.e. a full-weekend private buyout; engine shows only Sea Ranch Living Homes from $904/night.",
+      "source_url": "https://www.thesearanchlodge.com/closure"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "booked",
+      "evidence": "No closure notice, but the booking engine returns nothing at all for Sat Oct 3 ('not available on October 3, 2026' — no Lodge rooms, cabins or homes), so a Fri–Sun stay cannot be booked.",
+      "source_url": "https://be.synxis.com/?hotel=40594"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "booked",
+      "evidence": "Closure list: 'The Lodge will be closed at 12pm on Saturday, 10.10 for a private event'; engine for Oct 9–11 returns only Sea Ranch Living Homes from $1,139/night, no Lodge rooms.",
+      "source_url": "https://www.thesearanchlodge.com/closure"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "booked",
+      "evidence": "Closure list: 'The Lodge will be closed at 2pm on Wednesday, 10.14 through Saturday, 10.17 for a private event … will reopen Sunday, 10.18'; engine for Oct 16–18 returns only Sea Ranch Living Homes from $904/night, no Lodge rooms.",
+      "source_url": "https://www.thesearanchlodge.com/closure"
+    }
+  ],
+  "sources": [
+    "https://www.thesearanchlodge.com/",
+    "https://www.thesearanchlodge.com/closure",
+    "https://www.thesearanchlodge.com/private-events",
+    "https://www.thesearanchlodge.com/lodging/lodge-rooms",
+    "https://www.thesearanchlodge.com/faq",
+    "https://www.thesearanchlodge.com/specials",
+    "https://www.thesearanchlodge.com/community/events",
+    "https://be.synxis.com/?hotel=40594"
+  ]
+}

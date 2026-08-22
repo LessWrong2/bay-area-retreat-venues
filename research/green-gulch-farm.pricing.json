@@ -1,0 +1,76 @@
+{
+  "id": "green-gulch-farm",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "published",
+    "low": 8400,
+    "high": 18320,
+    "summary": "$3,000/night (12 ppl) + $120/pp/night; max 22 beds",
+    "basis": "2026 overnight package: exclusive use of the Lindisfarne Guest House for up to 12 people, 3 meals included, $3,000 per night; 'Groups over 12, additional overnight guests (per person, per night) $120' (housed in the Wheelwright Center). Package includes 1-day use of a conference room (Yurt / Wheelwright / Still Water Hall) and coffee-tea service. Day-long room rental otherwise $750 weekday / $800 weekend day; lunch $21/person. Low = realistic maximum group of 22 (all beds): 2 nights x $3,000 + 10 extra x $120 x 2 = $8,400. High = published rates applied naively to 60 people: 2 x $3,000 + 48 x $120 x 2 = $17,520, plus one extra weekend conference-room day $800 = $18,320 — but the site has only 22 beds and meeting rooms for 40, so 60 cannot actually be accommodated. Deposit 10–50% depending on lead time; $50 cancellation fee if >60 days out; deposit forfeited within 60 days.",
+    "per_person": "~$190–290 per person for 2 nights incl. meals and meeting room (at 22 or 12 people)",
+    "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies",
+    "source_label": "SFZC – Conference Center at Green Gulch: Facilities, Rates & Policies (2026 rates)",
+    "confidence": "high"
+  },
+  "availability_notes": "'We are no longer accepting requests for 2026 dates' (sfzc.org, checked 2026-08-21). When open, bookings are by the day (no hourly), day-long or overnight packages, email ggfconference@sfzc.org. Capacity: 17 rooms / 22 beds, conference rooms up to 40. Check-in 3 pm, checkout 9:30 am, conference space until 1 pm on departure day.",
+  "availability": [
+    {
+      "weekend": "2026-08-21",
+      "status": "booked",
+      "evidence": "The SFZC conference-center page states 'We are no longer accepting requests for 2026 dates', so no new group booking is possible for this weekend; the center also has only 17 rooms / 22 beds.",
+      "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies"
+    },
+    {
+      "weekend": "2026-08-28",
+      "status": "booked",
+      "evidence": "The SFZC conference-center page states 'We are no longer accepting requests for 2026 dates', so no new group booking is possible for this weekend; the center also has only 17 rooms / 22 beds.",
+      "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "booked",
+      "evidence": "The SFZC conference-center page states 'We are no longer accepting requests for 2026 dates', so no new group booking is possible for this weekend; the center also has only 17 rooms / 22 beds.",
+      "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "booked",
+      "evidence": "The SFZC conference-center page states 'We are no longer accepting requests for 2026 dates', so no new group booking is possible for this weekend; the center also has only 17 rooms / 22 beds.",
+      "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "booked",
+      "evidence": "The SFZC conference-center page states 'We are no longer accepting requests for 2026 dates', so no new group booking is possible for this weekend; the center also has only 17 rooms / 22 beds.",
+      "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "booked",
+      "evidence": "The SFZC conference-center page states 'We are no longer accepting requests for 2026 dates', so no new group booking is possible for this weekend; the center also has only 17 rooms / 22 beds.",
+      "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "booked",
+      "evidence": "The SFZC conference-center page states 'We are no longer accepting requests for 2026 dates', so no new group booking is possible for this weekend; the center also has only 17 rooms / 22 beds.",
+      "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "booked",
+      "evidence": "The SFZC conference-center page states 'We are no longer accepting requests for 2026 dates', so no new group booking is possible for this weekend; the center also has only 17 rooms / 22 beds.",
+      "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "booked",
+      "evidence": "The SFZC conference-center page states 'We are no longer accepting requests for 2026 dates', so no new group booking is possible for this weekend; the center also has only 17 rooms / 22 beds.",
+      "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies"
+    }
+  ],
+  "sources": [
+    "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies",
+    "https://www.sfzc.org/locations/green-gulch-farm"
+  ]
+}

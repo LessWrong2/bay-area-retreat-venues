@@ -1,0 +1,38 @@
+{
+  "id": "green-mountain-retreat",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "quote",
+    "summary": "Quote only",
+    "basis": "The site publishes no rates: the contact page has a 'Request a Quote' form (event dates, guest count, lodging type, meeting rooms needed; allow up to 3 business days) and the retreats, lodging, food and weddings pages describe facilities only (102-bed dormitory plus cottages of 2–12, dining hall for 120, Performance Hall, Cavanaugh Room, Guadalupe Hall). Third-party directories (The Vendry, The Knot) also show 'request pricing'. The only number found is a wedding-reception site fee on WeddingWire, which says nothing about lodging or meals, so no 60-person total can be estimated responsibly.",
+    "source_url": "https://www.greenmountainretreat.com/contact-us",
+    "source_label": "Green Mountain Retreat quote request form",
+    "confidence": "low",
+    "hint": "WeddingWire FAQ: starting site fee for wedding receptions $3,000 peak season / $2,400 off-peak (venue fee only; lodging and meals not listed). A 2025 UC Berkeley Center for Computational Biology retreat (Fri–Sun, Oct 24–26, 2025) was hosted here, showing the venue takes ~100-person academic groups on fall weekends.",
+    "hint_url": "https://www.weddingwire.com/biz/green-mountain-retreat/76446b48ac1a222d.html"
+  },
+  "availability_notes": "No public availability calendar or booking engine; availability is only confirmed through the quote form or by phone (669-269-8811, Mon–Fri 9–5). WeddingWire listing notes 2026 dates open for booking since Jan 2025. No public events naming the venue were found for Aug–Oct 2026 (the only dated 2026 retreat found in search, an ACC 'Labor Day Retreat' Sep 4–7, is held in Lake Arrowhead, not here).",
+  "availability": [
+    {"weekend": "2026-08-21", "status": "unknown", "evidence": "No public calendar and no event found naming the venue for this weekend.", "source_url": "https://www.greenmountainretreat.com/contact-us"},
+    {"weekend": "2026-08-28", "status": "unknown", "evidence": "No public calendar and no event found naming the venue for this weekend.", "source_url": "https://www.greenmountainretreat.com/contact-us"},
+    {"weekend": "2026-09-04", "status": "unknown", "evidence": "No public calendar and no event found naming the venue for Labor Day weekend.", "source_url": "https://www.greenmountainretreat.com/contact-us"},
+    {"weekend": "2026-09-11", "status": "unknown", "evidence": "No public calendar and no event found naming the venue for this weekend.", "source_url": "https://www.greenmountainretreat.com/contact-us"},
+    {"weekend": "2026-09-18", "status": "unknown", "evidence": "No public calendar and no event found naming the venue for this weekend.", "source_url": "https://www.greenmountainretreat.com/contact-us"},
+    {"weekend": "2026-09-25", "status": "unknown", "evidence": "No public calendar and no event found naming the venue for this weekend.", "source_url": "https://www.greenmountainretreat.com/contact-us"},
+    {"weekend": "2026-10-02", "status": "unknown", "evidence": "No public calendar and no event found naming the venue for this weekend.", "source_url": "https://www.greenmountainretreat.com/contact-us"},
+    {"weekend": "2026-10-09", "status": "unknown", "evidence": "No public calendar and no event found naming the venue for this weekend.", "source_url": "https://www.greenmountainretreat.com/contact-us"},
+    {"weekend": "2026-10-16", "status": "unknown", "evidence": "No public calendar and no event found naming the venue for this weekend; the UC Berkeley CCB retreat that used the venue in 2025 was the following weekend (Oct 24–26).", "source_url": "https://ccb.berkeley.edu/outreach/annual-retreat"}
+  ],
+  "sources": [
+    "https://www.greenmountainretreat.com/",
+    "https://www.greenmountainretreat.com/retreats",
+    "https://www.greenmountainretreat.com/lodging",
+    "https://www.greenmountainretreat.com/food",
+    "https://www.greenmountainretreat.com/weddings",
+    "https://www.greenmountainretreat.com/contact-us",
+    "https://www.weddingwire.com/biz/green-mountain-retreat/76446b48ac1a222d.html",
+    "https://thevendry.com/venue/167242/green-mountain-retreat-los-gatos-ca",
+    "https://ccb.berkeley.edu/outreach/annual-retreat",
+    "https://ccb.berkeley.edu/outreach/annual-retreat/logistics"
+  ]
+}

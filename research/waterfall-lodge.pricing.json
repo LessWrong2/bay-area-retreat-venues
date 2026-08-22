@@ -1,0 +1,42 @@
+{
+  "id": "waterfall-lodge",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "quote",
+    "low": 28000,
+    "high": 62000,
+    "summary": "Quote (est. $28k–62k)",
+    "basis": "The venue publishes no numbers: the corporate page offers a full-property buyout (80 acres, 33 cabins, lodge, meadow) or a day-use-only Redwood Meadow, and the start-here page says pricing is sent by email on inquiry. Estimate built from third-party hints: venue fee for a Fri-noon-to-Sun-morning 2-day weekend was $22,900 (Sept and first two Oct weekends) / $19,800 (Oct 3rd–5th weekends) on the venue's own 2021/22 wedding rate sheet, while current directory listings show a 1-day site fee of $13,700 peak (Jun–Oct 15) / $12,700 mid-peak (Oct 16–Nov 23) and a 'starting site fee' of $12,000 peak / $9,000 off-peak, so assume $13k–23k for a two-day corporate buyout. Cabins are rented separately at $275/night (Waterfall and Stones & Flowers cabins) or $325/night (Birds cabins) plus tax, minimum 16 cabins, each sleeping up to 4: 60 people in 16–20 cabins x 2 nights = $8,800–13,000 plus ~12% occupancy tax = ~$9,900–14,600. Food is bring-your-own-vendor (lodge has an equipped kitchen; referred caterers run $40–100+/person): ~$5,000 self-catered to ~$24,000 catered at $400/person for six meals. Totals: ~$28,000 low, ~$62,000 high.",
+    "per_person": "Roughly $470–1,030 per person for the weekend depending on venue tier and catering",
+    "source_url": "https://www.waterfallsantacruz.com/corporate",
+    "source_label": "Waterfall Lodge corporate page (inquire for pricing)",
+    "confidence": "low",
+    "hint": "Venue-authored 2021/22 rate sheet: 2-day weekend wedding package $22,900 (Jun–early Oct) / $19,800 (late Oct), cabins $275–325/night + tax with 15-cabin minimum, caterers $40–100+/person; Wedy listing shows current 1-day packages at $13,700 peak (June–Oct 15) and $12,700 mid-peak (Oct 16–Nov 23) with a 16-cabin minimum; WeddingWire FAQ lists a starting site fee of $12,000 peak / $9,000 off-peak; Wedding Spot says 'starting at $10,050 for 50 guests'.",
+    "hint_url": "https://pricing-sheets.s3.amazonaws.com/48ed69ee-9b09-450b-84fb-38986ce3d479/1c9cb5ea2b51dc1d4f545680cd7e9d9b5e2b28d6/2ea70c9c-25f4-48f2-bb3c-bf0e16b8340e"
+  },
+  "availability_notes": "No public availability calendar; tours and pricing are by inquiry (hello@waterfallsantacruz.com, replies Mon–Fri), and the old 17hats tour scheduler has been removed. Cabins are rented only to guests of events on the property (no individual cabin rentals). Bookings are full-property or partial buyouts with a 16-cabin minimum; Fri–Sun two-day packages are standard and single-day events are not offered on Fridays or Saturdays (per the venue rate sheet). Overnight capacity is 86–89 across 33 cabins plus two lodge bedrooms; 150 day guests. Rainy-season events (Nov–Mar) are limited to 60 guests. Primarily a wedding venue, so fall Saturdays are likely to be taken first.",
+  "availability": [
+    {"weekend": "2026-08-21", "status": "unknown", "evidence": "No public calendar; no wedding or event found naming the venue for this weekend.", "source_url": "https://www.waterfallsantacruz.com/corporate"},
+    {"weekend": "2026-08-28", "status": "unknown", "evidence": "No public calendar; no wedding or event found naming the venue for this weekend.", "source_url": "https://www.waterfallsantacruz.com/corporate"},
+    {"weekend": "2026-09-04", "status": "unknown", "evidence": "No public calendar; no wedding or event found naming the venue for Labor Day weekend.", "source_url": "https://www.waterfallsantacruz.com/corporate"},
+    {"weekend": "2026-09-11", "status": "unknown", "evidence": "No public calendar; no wedding or event found naming the venue for this weekend.", "source_url": "https://www.waterfallsantacruz.com/corporate"},
+    {"weekend": "2026-09-18", "status": "unknown", "evidence": "No public calendar; no wedding or event found naming the venue for this weekend.", "source_url": "https://www.waterfallsantacruz.com/corporate"},
+    {"weekend": "2026-09-25", "status": "unknown", "evidence": "No public calendar; no wedding or event found naming the venue for this weekend.", "source_url": "https://www.waterfallsantacruz.com/corporate"},
+    {"weekend": "2026-10-02", "status": "unknown", "evidence": "No public calendar; no wedding or event found naming the venue for this weekend.", "source_url": "https://www.waterfallsantacruz.com/corporate"},
+    {"weekend": "2026-10-09", "status": "partial", "evidence": "A public Zola wedding website schedules a wedding at Waterfall Lodge & Retreat on Sunday Oct 11, 2026, 3:30–10pm with guests staying on site that night (a Sunday-only package), so the property is taken from Sunday midday; Fri/Sat nights are not publicly confirmed either way.", "source_url": "https://www.zola.com/wedding/jonah-rhiannon/event"},
+    {"weekend": "2026-10-16", "status": "unknown", "evidence": "No public calendar; no wedding or event found naming the venue for this weekend (it falls in the venue's 'mid-peak' Oct 16–Nov 23 pricing tier).", "source_url": "https://www.wedyapp.com/packages/Waterfall%20Lodge%20and%20Retreat?vendorId=6610e10081a162d5c26119fc"}
+  ],
+  "sources": [
+    "https://www.waterfallsantacruz.com/corporate",
+    "https://www.waterfallsantacruz.com/weddings",
+    "https://www.waterfallsantacruz.com/cabins",
+    "https://www.waterfallsantacruz.com/cabin-faqs",
+    "https://www.waterfallsantacruz.com/start-here",
+    "https://www.waterfallsantacruz.com/corporate-old",
+    "https://pricing-sheets.s3.amazonaws.com/48ed69ee-9b09-450b-84fb-38986ce3d479/1c9cb5ea2b51dc1d4f545680cd7e9d9b5e2b28d6/2ea70c9c-25f4-48f2-bb3c-bf0e16b8340e",
+    "https://www.wedyapp.com/packages/Waterfall%20Lodge%20and%20Retreat?vendorId=6610e10081a162d5c26119fc",
+    "https://www.weddingwire.com/biz/waterfall-lodge-retreat/670fd96393f287c4.html",
+    "https://www.wedding-spot.com/venue/15998/waterfall-lodge-retreat/",
+    "https://www.zola.com/wedding/jonah-rhiannon/event"
+  ]
+}

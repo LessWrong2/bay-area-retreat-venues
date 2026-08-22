@@ -1,0 +1,83 @@
+{
+  "id": "asilomar",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "published",
+    "low": 39000,
+    "high": 47500,
+    "summary": "$39k–48k",
+    "basis": "Lodging: hotel booking engine for Fri Oct 16–Sun Oct 18, 2026 (2 adults) lists 40 room types at Best Flexible Rate $299.50–$338.50 average/night (historic and standard rooms $299.50; fireplace rooms $306.50–329.50; 1 queen + 3 twin $338.50). Rates include the $12 facility fee and $2.50 tourism fee; Pacific Grove occupancy tax is extra (~10% assumed). 30 rooms x $299.50–338.50 x 2 nights x 1.10 = $19,800–22,300. Meals (not included in room rates): 2024 event catering menu, prices valid through 1/1/2025 so expect increases: continental breakfasts $24–29, boxed lunch $33 / lunch buffets $48–67, dinner buffets/entrees $65–86 per guest, all plus 20% F&B administrative fee and sales tax. 6 meals x 60 people = $244–320 pp x 1.31 = $19,200–25,200. Total $39,000–47,500. Asilomar's per-person 'Complete Meeting Package' (room + 3 meals/day + meeting space, facility fees and taxes) is priced only through the RFP and would likely undercut the a-la-carte total. Meeting space is complimentary only above a peak-night guestroom minimum; all rates double occupancy, extra-person fees for 3+.",
+    "per_person": "$650–790 per person for Fri–Sun incl. 6 catered meals (double occupancy)",
+    "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+    "source_label": "Asilomar booking engine results, Oct 16-18 2026, 2 adults (reservations.ahlsmsworld.com)",
+    "confidence": "medium"
+  },
+  "availability_notes": "312-room state-park conference hotel run by Aramark; never sold as a buyout, but group room blocks plus meeting rooms (Merrill Hall 569 theatre, Chapel 256, Fred Farr Forum 176, Kiln 126, Nautilus 100, etc.) are contracted via the meetings RFP, with Complete Meeting Packages quoted per person per night. Transient rooms: deposit of one night + tax at booking, rate-specific cancellation, rates double occupancy with fees for extra adults, cottages (4) by phone only. The booking engine's date picker exposes a nightly count of unsold rooms; weekend statuses below use that count for Fri and Sat nights (Aug 21/22: 62/4; Aug 28/29: 104/64; Sep 4/5: 62/4; Sep 11/12: 134/121; Sep 18/19: 63/91; Sep 25/26: 36/64; Oct 2/3: 33/68; Oct 9/10: 70/-8; Oct 16/17: 77/104). No on-site festival was found for these weekends; Oktoberfest Weekend and Sunset Music Series are guest events that do not close the grounds.",
+  "availability": [
+    {
+      "weekend": "2026-08-21",
+      "status": "partial",
+      "evidence": "Booking engine's public inventory count (GetInventoryCountData, of 312 rooms) shows 62 rooms open Fri 08/21 and 4 open the following Sat — plenty Friday but only a handful Saturday, far short of the ~30 rooms 60 people need. (Individual hotel rooms, not a buyout.)",
+      "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Search/Accomodations"
+    },
+    {
+      "weekend": "2026-08-28",
+      "status": "available",
+      "evidence": "Booking engine's public inventory count (GetInventoryCountData, of 312 rooms) shows 104 rooms open Fri 08/28 and 64 open the following Sat — more than the ~30 rooms (double occupancy) a 60-person group needs on both nights; this is individual hotel-room availability, not a buyout (Asilomar never closes to one group), and group blocks/meeting space go through the RFP.",
+      "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Search/Accomodations"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "partial",
+      "evidence": "Booking engine's public inventory count (GetInventoryCountData, of 312 rooms) shows 62 rooms open Fri 09/04 and 4 open the following Sat — plenty Friday but only a handful Saturday, far short of the ~30 rooms 60 people need. (Individual hotel rooms, not a buyout.) Labor Day weekend.",
+      "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Search/Accomodations"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "available",
+      "evidence": "Booking engine's public inventory count (GetInventoryCountData, of 312 rooms) shows 134 rooms open Fri 09/11 and 121 open the following Sat — more than the ~30 rooms (double occupancy) a 60-person group needs on both nights; this is individual hotel-room availability, not a buyout (Asilomar never closes to one group), and group blocks/meeting space go through the RFP.",
+      "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Search/Accomodations"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "available",
+      "evidence": "Booking engine's public inventory count (GetInventoryCountData, of 312 rooms) shows 63 rooms open Fri 09/18 and 91 open the following Sat — more than the ~30 rooms (double occupancy) a 60-person group needs on both nights; this is individual hotel-room availability, not a buyout (Asilomar never closes to one group), and group blocks/meeting space go through the RFP.",
+      "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Search/Accomodations"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "available",
+      "evidence": "Booking engine's public inventory count (GetInventoryCountData, of 312 rooms) shows 36 rooms open Fri 09/25 and 64 open the following Sat — more than the ~30 rooms (double occupancy) a 60-person group needs on both nights; this is individual hotel-room availability, not a buyout (Asilomar never closes to one group), and group blocks/meeting space go through the RFP.",
+      "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Search/Accomodations"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "available",
+      "evidence": "Booking engine's public inventory count (GetInventoryCountData, of 312 rooms) shows 33 rooms open Fri 10/02 and 68 open the following Sat — more than the ~30 rooms (double occupancy) a 60-person group needs on both nights; this is individual hotel-room availability, not a buyout (Asilomar never closes to one group), and group blocks/meeting space go through the RFP.",
+      "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Search/Accomodations"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "booked",
+      "evidence": "Booking engine's public inventory count (GetInventoryCountData, of 312 rooms) shows 70 rooms open Fri 10/09 and -8 open the following Sat — Saturday is oversold, so no 2-night transient stay is possible; a group room block would have to come from Conference Services. (Individual hotel rooms, not a buyout.)",
+      "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Search/Accomodations"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "available",
+      "evidence": "Booking engine's public inventory count (GetInventoryCountData, of 312 rooms) shows 77 rooms open Fri 10/16 and 104 open the following Sat — more than the ~30 rooms (double occupancy) a 60-person group needs on both nights; this is individual hotel-room availability, not a buyout (Asilomar never closes to one group), and group blocks/meeting space go through the RFP. Rate search for Oct 16-18, 2 adults returned 40 room types from $299.50/night.",
+      "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Search/Accomodations"
+    }
+  ],
+  "sources": [
+    "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+    "https://reservations.ahlsmsworld.com/Asilomar/Search/Accomodations",
+    "https://www.visitasilomar.com/meetings-events/complete-meeting-packages",
+    "https://assets.milestoneinternet.com/aramark-parent/asilomar-hotel-and-conference-grounds/pdf/asilomar-event-catering-menu-2024.pdf",
+    "https://www.visitasilomar.com/plan/policies-information",
+    "https://www.visitasilomar.com/lodging/lodging-at-asilomar",
+    "https://www.visitasilomar.com/meetings-events/spec-sheet",
+    "https://www.visitasilomar.com/dining/crocker-dining-hall",
+    "https://www.visitasilomar.com/"
+  ]
+}

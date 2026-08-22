@@ -1,0 +1,115 @@
+{
+ "st-dorothys-rest": {
+  "note": "Research note: the retreats page lists per-building bed counts (Main House, Farmer, Lydia, Upper/Lower Miriam) and 2026 rates; 12-person minimum for meals; dorm bedding extra. Office hours Tue-Fri 10-5."
+ },
+ "green-mountain-retreat": {
+  "name": "Green Mountain Retreat",
+  "subtitle": "former Presentation Center"
+ },
+ "westerbeke-ranch": {
+  "note": "Research note: meeting rooms on site are Casa Nueva and the Round House; cabins are color-named. The venue's photo library is low resolution, hence the softer images here."
+ },
+ "the-land": {
+  "note": "Research note: the site now also brands the property as 'The Eros Monastery' with practice-infused stays; it is 18+ only and alcohol- and cannabis-free. Verizon has no signal on site (AT&T and T-Mobile do)."
+ },
+ "camp-navarro": {
+  "note": "Research note: the physical address is 901 Masonite Industrial Rd, Navarro. Booking inquiries go to inquiry@campnavarroca.com; site tours are by approved request only."
+ },
+ "enchanted-hills": {
+  "note": "Research note: now branded 'Enchanted Hills Napa'. Post-fire rebuild includes the Forest Commons dining/meeting hall, Hillside Village casitas, and Lakeside and Forest cabins plus tents and yurts."
+ },
+ "costanoa": {
+  "email": ""
+ },
+ "saratoga-springs": {
+  "email": "",
+  "note": "Research note: the official site is a frozen 2020 page with tiny photos, so the gallery here is thin. The center is still operating (it hosted a festival in Oct 2025); site text says exclusive use for groups of 25+, 2-10 night stays, 260 acres."
+ },
+ "ymca-point-bonita": {
+  "name": "NatureBridge Golden Gate",
+  "sleeps": "Dorm lodging on two campuses (Bluff at Point Bonita, Beach at Fort Cronkhite); up to 200 guests total",
+  "meeting": "4 meeting rooms: Coast 20-49, Raven 30-62, Cypress 30-97, Sunset 50-130",
+  "buyout": "Ask; with two campuses, 60 can likely have the Bluff campus to itself",
+  "watch": "Bunk dorms and shared baths; institutional interiors. The YMCA no longer runs it: NatureBridge took over in Nov 2023, so the sheet's YMCA phone is stale",
+  "phone": "",
+  "email": "Via naturebridge.org inquiry form",
+  "website": "https://naturebridge.org/retreat-space/golden-gate",
+  "booking": "https://naturebridge.org/retreat-space/golden-gate",
+  "subtitle": "former YMCA Point Bonita",
+  "note": "Research note: the YMCA of SF closed this site; NatureBridge now markets it as the Golden Gate Conference & Retreat Center. Published 2026 rates are about $157-162 per person per night ($136-141 for nonprofits). Overnight availability is Fri-Sun during the school year, which fits Oct 16-18."
+ },
+ "walker-creek-ranch": {
+  "phone": "(415) 491-6603",
+  "email": "jparker@marinschools.org",
+  "note": "Research note: the conference-center contact on the site is (415) 491-6603 / jparker@marinschools.org (the sheet had the main office line). Lodging is four lodges with 2-5 bed rooms, 13 bunk cabins, two bunkhouses and camping."
+ },
+ "harbin-hot-springs": {
+  "note": "Research note: the post-2015-fire rebuild is still in progress. A new restaurant opened in August 2026 and a new multi-story hotel is being finished; current lodging is domes, hotel rooms, caravans and tent camping. Harbin has not allowed group bookings since July 2023: every guest buys a membership and books individually, so a 60-person retreat here means 60 separate reservations."
+ },
+ "asilomar": {
+  "email": ""
+ },
+ "1440-multiversity": {
+  "email": "",
+  "note": "Research note: 1440 never sells a buyout; groups book room blocks under all-inclusive packages, and its Group FAQ says it has a waiting list for private mission-aligned group events."
+ },
+ "land-of-medicine-buddha": {
+  "email": "",
+  "booking": "https://landofmedicinebuddha.org/stay/group-rentals/",
+  "note": "Research note: the sheet's stay.landofmedicinebuddha.org booking link was returning errors; the working group-rentals page is on the main domain."
+ },
+ "presidio-lodging": {
+  "name": "Presidio Lodging",
+  "subtitle": "Inn + Lodge at the Presidio",
+  "email": ""
+ },
+ "hidden-villa": {
+  "email": "",
+  "note": "Research note: meeting spaces are the Dana Center, Duveneck House and Morgan Family Pavilion; the hostel sleeps 39."
+ },
+ "triple-s-ranch": {
+  "name": "Triple S Ranch",
+  "subtitle": "your SSS example",
+  "email": ""
+ },
+ "mayacamas-ranch": {
+  "email": ""
+ },
+ "ratna-ling": {
+  "name": "Ratna Ling",
+  "area": "Cazadero, Sonoma coast",
+  "drive": "~2 hr 30 min",
+  "sleeps": "28",
+  "meeting": "n/a",
+  "why": "Gorgeous Tibetan Buddhist retreat center in the coastal hills, but too small for 60. Noted so it does not come up again.",
+  "phone": "(510) 809-4995",
+  "email": "reservations@ratnaling.org",
+  "booking": "https://ratnaling.org/"
+ },
+ "green-gulch-farm": {
+  "name": "Green Gulch Farm",
+  "area": "Muir Beach, Marin",
+  "drive": "~45 min",
+  "sleeps": "22",
+  "meeting": "40 max",
+  "why": "Zen Center farm in a coastal valley above Muir Beach. Gorgeous, but too small for 60, and not accepting new 2026 booking requests.",
+  "phone": "Email only",
+  "email": "ggfconference@sfzc.org",
+  "website": "https://www.sfzc.org/locations/green-gulch-farm"
+ },
+ "sea-ranch-lodge": {
+  "name": "Sea Ranch Lodge",
+  "area": "The Sea Ranch, Sonoma coast",
+  "drive": "~2 hr 30 min",
+  "sleeps": "17",
+  "meeting": "n/a",
+  "why": "Iconic 1960s modernist lodge on the Sonoma coast bluffs. Gorgeous, but too small for 60. Noted so it does not come up again.",
+  "phone": "(707) 579-9777",
+  "email": "",
+  "website": "https://www.thesearanchlodge.com/",
+  "booking": "https://www.thesearanchlodge.com/"
+ },
+ "lodge-at-marconi": {
+  "note": "Research note: as of Aug 21 the hotel booking engine returns no rooms for any night Oct 1-29 (while late October onward is wide open), which looks like a closure or full buyout; the reason is not published, so ask."
+ }
+}

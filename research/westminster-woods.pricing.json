@@ -1,0 +1,86 @@
+{
+  "id": "westminster-woods",
+  "checked_on": "2026-08-21",
+  "cost": {
+    "mode": "quote",
+    "low": 20000,
+    "high": 26000,
+    "summary": "Quote only (~$20k–26k est.)",
+    "basis": "Guest Groups page promises 'package rates that include lodging, delicious meals, meeting rooms' for groups of 20–200 but publishes no figures; the /camp-rates page returns 401 ('being updated'). Estimate uses the venue's own retail weekend programs as a proxy: Women's Weekend (Fri–Sun, 2 nights, all meals, program) is $340 standard cabin / $400 cabin with bathroom / $430 guest-house room per person, and Family Camp says $550 for 3 nights 'reflects the actual cost of camp' (~$183/person/night). 60 x $340–430 = $20,400–25,800 for Fri–Sun with meals. Cabins are bunk dorms; guests bring bedding and towels.",
+    "per_person": "~$340–430 per person for the weekend incl. meals (proxy from their own retail weekends)",
+    "source_url": "https://www.westminsterwoods.org/guest-groups",
+    "source_label": "Westminster Woods Guest Group Rentals page (rates on inquiry)",
+    "confidence": "low",
+    "hint": "Women's Weekend 2027 (Fri–Sun on site, meals included): $340 standard cabin, $400 cabin with bathroom, $430 guest house per person.",
+    "hint_url": "https://www.westminsterwoods.org/womens-weekend"
+  },
+  "availability_notes": "Hosts guest groups of 20–200. No group rentals in June–July; during the school year guest-group rentals are limited to weekends (Friday–Sunday) because of weekday school programs, so all nine Fri–Sun weekends are in principle eligible. No weddings except Nov–Mar; rarely family reunions. Lodging is mostly dorm cabins (8–10 bunks each) plus three 10–12-person guest houses and a few private-bath rooms; bring sleeping bags, pillows, towels. Inquiry via the group-inquiries form; no public availability calendar.",
+  "availability": [
+    {
+      "weekend": "2026-08-21",
+      "status": "booked",
+      "evidence": "Westminster Woods' own Family Camp (The Grove) Session 7 runs Fri 8/21–Mon 8/24 2026, and the summer-camp page states that during each program session 'we suspend all other rentals and uses of the facility'.",
+      "source_url": "https://www.westminsterwoods.org/summer-camp"
+    },
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "No public guest-group availability calendar (the site's events calendar page is empty); no program of their own listed this weekend.",
+      "source_url": "https://www.westminsterwoods.org/guest-groups"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "unknown",
+      "evidence": "No public guest-group availability calendar (the site's events calendar page is empty); no program of their own listed this weekend.",
+      "source_url": "https://www.westminsterwoods.org/guest-groups"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "unknown",
+      "evidence": "No public guest-group availability calendar (the site's events calendar page is empty); no program of their own listed this weekend.",
+      "source_url": "https://www.westminsterwoods.org/guest-groups"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "No public guest-group availability calendar (the site's events calendar page is empty); no program of their own listed this weekend.",
+      "source_url": "https://www.westminsterwoods.org/guest-groups"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "unknown",
+      "evidence": "No public guest-group availability calendar (the site's events calendar page is empty); no program of their own listed this weekend.",
+      "source_url": "https://www.westminsterwoods.org/guest-groups"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "No public guest-group availability calendar (the site's events calendar page is empty); no program of their own listed this weekend.",
+      "source_url": "https://www.westminsterwoods.org/guest-groups"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "No public guest-group availability calendar (the site's events calendar page is empty); no program of their own listed this weekend.",
+      "source_url": "https://www.westminsterwoods.org/guest-groups"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "partial",
+      "evidence": "Their own Camp Heartwood Weekend Retreat (ages 7–16, $299) is scheduled 10/16–10/18 2026 on site; the page does not say whether guest groups can be hosted alongside it, but a youth camp occupying cabins, dining hall and challenge course that weekend makes a 60-person adult rental unlikely.",
+      "source_url": "https://www.westminsterwoods.org/retreat-weekends-overview"
+    }
+  ],
+  "sources": [
+    "https://www.westminsterwoods.org/guest-groups",
+    "https://www.westminsterwoods.org/group-inquiries",
+    "https://www.westminsterwoods.org/facilities",
+    "https://www.westminsterwoods.org/summer-camp",
+    "https://www.westminsterwoods.org/family-camp",
+    "https://www.westminsterwoods.org/retreat-weekends-overview",
+    "https://www.westminsterwoods.org/camp-weekend-retreats",
+    "https://www.westminsterwoods.org/womens-weekend",
+    "https://www.westminsterwoods.org/cal-events",
+    "https://www.westminsterwoods.org/camp-rates"
+  ]
+}
