@@ -1,0 +1,67 @@
+{
+  "id": "ymca-point-bonita",
+  "address": "981 Fort Barry, Sausalito, CA 94965",
+  "lat": 37.823231,
+  "lng": -122.529494,
+  "geo_method": "nominatim address",
+  "geo_confidence": "high",
+  "geo_notes": "Nominatim did not resolve the street address '981 Fort Barry' but resolved the name 'Point Bonita YMCA' to an OSM leisure feature at 981 Field Road, Sausalito (37.8232, -122.5295), on the bluff above Rodeo Beach in the Marin Headlands, which matches the campus seen in the drone photo (01.jpg). Wikipedia's Fort Barry coordinate (37.828, -122.525) is the parade ground ~0.6 km away, not the campus.",
+  "thumb": "01.jpg",
+  "images": [
+    {
+      "file": "01.jpg",
+      "source_url": "https://web.archive.org/web/2022id_/https://www.ymcasf.org/sites/default/files/styles/responsive_hero_breakpoints_theme_ymca_wide_1x/public/dji_0001-pano-27small_0.jpg?itok=MJKmvJqy",
+      "page_url": "http://web.archive.org/web/20210920090616/https://www.ymcasf.org/locations/point-bonita-ymca/visiting-point-bonita",
+      "credit": "YMCA of San Francisco (archived official site, via Wayback Machine)",
+      "caption": "Aerial view of the Point Bonita campus on the Marin Headlands bluff, Golden Gate Bridge and San Francisco skyline beyond",
+      "width": 1400,
+      "height": 800
+    },
+    {
+      "file": "02.jpg",
+      "source_url": "https://web.archive.org/web/20231029033459im_/https://www.ymcasf.org/sites/default/files/pointbonita_elt_2019_213.jpg",
+      "page_url": "http://web.archive.org/web/20230120113022/https://www.ymcasf.org/locations/point-bonita-ymca",
+      "credit": "YMCA of San Francisco (archived official site, via Wayback Machine)",
+      "caption": "Campus basketball court and green dormitory building among coastal scrub",
+      "width": 5000,
+      "height": 3333
+    },
+    {
+      "file": "03.jpg",
+      "source_url": "https://naturebridge.org/sites/default/files/Rainbow.JPG",
+      "page_url": "https://naturebridge.org/locations/golden-gate",
+      "credit": "NatureBridge (current operator, official site)",
+      "caption": "Panorama of the Point Bonita 'Bluff' campus buildings with a rainbow over Rodeo Beach",
+      "width": 6698,
+      "height": 2936
+    },
+    {
+      "file": "04.jpg",
+      "source_url": "https://naturebridge.org/sites/default/files/ENG-221201-150025-1.jpg",
+      "page_url": "https://naturebridge.org/locations/golden-gate",
+      "credit": "NatureBridge (current operator, official site)",
+      "caption": "Point Bonita dining hall with checkerboard floor and buffet line",
+      "width": 1000,
+      "height": 714
+    },
+    {
+      "file": "05.jpg",
+      "source_url": "https://web.archive.org/web/20160615121842im_/http://www.ymcasf.org/sites/default/files/pointbonitaconferences4.jpg",
+      "page_url": "http://web.archive.org/web/20230120113022/https://www.ymcasf.org/locations/point-bonita-ymca",
+      "credit": "YMCA of San Francisco (archived official site, via Wayback Machine)",
+      "caption": "Rodeo Beach surf below the campus",
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "file": "06.jpg",
+      "source_url": "https://web.archive.org/web/20160616224302im_/http://www.ymcasf.org/sites/default/files/point_bonita.jpg",
+      "page_url": "http://web.archive.org/web/20230120113022/https://www.ymcasf.org/locations/point-bonita-ymca",
+      "credit": "YMCA of San Francisco (archived official site, via Wayback Machine)",
+      "caption": "Hikers on the headlands bluff trail above the Pacific",
+      "width": 960,
+      "height": 720
+    }
+  ],
+  "notes": "IMPORTANT: The YMCA of San Francisco no longer operates this site. Yelp lists 'Point Bonita YMCA - CLOSED', the ymcasf.org location page is gone (404; the current YMCA SF site only lists Camp Jones Gulch under 'Conferences and Retreats'), and NatureBridge announced in November 2023 that it took over the former Point Bonita YMCA campus as its 'Bluff' campus, paired with its existing Fort Cronkhite 'Beach' campus at Rodeo Beach. NatureBridge's 'Golden Gate Conference & Retreat Center' page (https://naturebridge.org/retreat-space/golden-gate) now markets retreats across 'two campuses for up to 200 guests' with dorm lodging, 4 meeting rooms (Coast 20-49, Raven 30-62, Cypress 30-97, Sunset 50-130 people), published per-person rates (2026: 1 night $157-162 standard, $136-141 nonprofit), overnight availability Fri-Sun in the school year and weekdays mid-June to Labor Day, beer/wine only in meeting rooms. The venue entry should probably be renamed/re-pointed to NatureBridge Golden Gate (phone/website on that page) and the listed YMCA phone (415) 331-9622 verified. Official YMCA-era photos were only recoverable via the Wayback Machine (ymcasf.org images are archived; their originals are offline); the Wayback CDX API was intermittently returning 502/connection errors, so a few larger originals (e.g. the full drone panorama) could not be retrieved. The NatureBridge page has some 'Bluffs campus' photos but most are people-focused."
+}

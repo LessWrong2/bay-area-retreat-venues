@@ -1,0 +1,67 @@
+{
+  "id": "wilbur-hot-springs",
+  "address": "3375 Wilbur Springs Rd, Williams, CA 95987",
+  "lat": 39.03879,
+  "lng": -122.42115,
+  "geo_method": "nominatim address",
+  "geo_confidence": "high",
+  "geo_notes": "Nominatim did not resolve the house number but returns an OSM hot_spring node 'Wilbur Hot Springs, Wilbur Springs Road, Colusa County' at 39.03879, -122.42115; Wikipedia/GNIS gives 39.03861, -122.42083 (same spot). The contact page embeds a Google map centred at 39.0388, -122.4559 but that is just the embed viewport centre at a wide zoom, not the marker.",
+  "thumb": "01.jpg",
+  "images": [
+    {
+      "file": "01.jpg",
+      "source_url": "https://www.wilburhotsprings.com/wp-content/uploads/2024/02/WilburHotSprings_140-2.jpg",
+      "page_url": "https://www.wilburhotsprings.com/reservations/rooms-rates/",
+      "credit": "Wilbur Hot Springs (official site)",
+      "caption": "The open-air Fluminarium bathhouse and soaking pool above Sulphur Creek",
+      "width": 1000,
+      "height": 750
+    },
+    {
+      "file": "02.jpg",
+      "source_url": "https://www.wilburhotsprings.com/wp-content/uploads/2020/06/image-e1591034758428.jpg",
+      "page_url": "https://www.wilburhotsprings.com/photos/vistas/",
+      "credit": "Wilbur Hot Springs (official site)",
+      "caption": "The resort in its canyon: historic hotel (left), cabins and outbuildings below the nature-preserve hills",
+      "width": 1536,
+      "height": 942
+    },
+    {
+      "file": "03.jpg",
+      "source_url": "https://www.wilburhotsprings.com/wp-content/uploads/2014/03/Wilbur_2015_1452-optimized.jpg",
+      "page_url": "https://www.wilburhotsprings.com/",
+      "credit": "Wilbur Hot Springs (official site)",
+      "caption": "Guest cabins at sunset",
+      "width": 2000,
+      "height": 1154
+    },
+    {
+      "file": "04.jpg",
+      "source_url": "https://www.wilburhotsprings.com/wp-content/uploads/2014/03/6-fluminarium1.jpg",
+      "page_url": "https://www.wilburhotsprings.com/photos/geothermal-springs/",
+      "credit": "Wilbur Hot Springs (official site)",
+      "caption": "Inside the Fluminarium: the three mineral-water flumes under a timber roof",
+      "width": 1000,
+      "height": 600
+    },
+    {
+      "file": "05.jpg",
+      "source_url": "https://www.wilburhotsprings.com/wp-content/uploads/2015/04/Wilbur_2015_0732.jpg",
+      "page_url": "https://www.wilburhotsprings.com/reservations/rooms-rates/",
+      "credit": "Wilbur Hot Springs (official site)",
+      "caption": "Solar Suite interior with canyon view",
+      "width": 1200,
+      "height": 791
+    },
+    {
+      "file": "06.jpg",
+      "source_url": "https://www.wilburhotsprings.com/wp-content/uploads/2014/03/silversd4511-229.jpg",
+      "page_url": "https://www.wilburhotsprings.com/photos/vistas/",
+      "credit": "Wilbur Hot Springs (official site)",
+      "caption": "Sulphur Creek and the bathhouse from the hillside",
+      "width": 1000,
+      "height": 750
+    }
+  ],
+  "notes": "WordPress site with Jetpack (i0.wp.com) image proxy; originals fetched directly from /wp-content/uploads/. Many gallery originals are only ~1000 px wide (the site's own gallery size); the home-page slider images are 2000 px. Rooms & Rates page lists historic hotel rooms, cabins, cabin suites, Solar Suites, and camping, with property maps. The site has a /photo-credits/ page, so individual photographers may be credited there. The site notes a 'current conditions' page (fire/smoke/road), worth checking before any booking."
+}

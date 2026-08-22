@@ -1,0 +1,67 @@
+{
+  "id": "asilomar",
+  "address": "800 Asilomar Ave, Pacific Grove, CA 93950",
+  "lat": 36.618554,
+  "lng": -121.938448,
+  "geo_method": "nominatim address",
+  "geo_confidence": "high",
+  "geo_notes": "Nominatim resolves the street address to 'Crocker Dining Hall, 800 Asilomar Avenue, Pacific Grove' at 36.61855, -121.93845 (inside the grounds). Wikipedia gives 36.61889, -121.93778, ~60 m away.",
+  "thumb": "01.jpg",
+  "images": [
+    {
+      "file": "01.jpg",
+      "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto,width=2400/aramark-parent/asilomar-hotel-and-conference-grounds/site-images/front-view-of-building-asilomar-hotel-and-conference-grounds-pacific-grove-california.jpg",
+      "page_url": "https://www.visitasilomar.com/",
+      "credit": "Asilomar Conference Grounds / Aramark (official site)",
+      "caption": "Merrill Hall, Julia Morgan's stone-and-shingle auditorium (1928)",
+      "width": 2400,
+      "height": 1600
+    },
+    {
+      "file": "02.jpg",
+      "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto,width=2400/aramark-parent/asilomar-hotel-and-conference-grounds/site-images/exterior-view-of-asilomar-hotel-and-conference-grounds-pacific-grove-california.jpg",
+      "page_url": "https://www.visitasilomar.com/gallery",
+      "credit": "Asilomar Conference Grounds / Aramark (official site)",
+      "caption": "Historic Arts-and-Crafts shingle building in the pines",
+      "width": 2400,
+      "height": 1597
+    },
+    {
+      "file": "03.jpg",
+      "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto,width=2400/aramark-parent/asilomar-hotel-and-conference-grounds/site-images/rustic-lodge-interior-with-wooden-beams-and-furniture-asilomar-hotel-and-conference-grounds-pacific-grove-california.jpg",
+      "page_url": "https://www.visitasilomar.com/plan/asilomar-architecture",
+      "credit": "Asilomar Conference Grounds / Aramark (official site)",
+      "caption": "Timber-beamed social hall lounge with stone fireplace",
+      "width": 2400,
+      "height": 1600
+    },
+    {
+      "file": "04.jpg",
+      "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto,width=2400/aramark-parent/asilomar-hotel-and-conference-grounds/site-images/a-spacious-conference-hall-with-wooden-interior-asilomar-hotel-and-conference-grounds-pacific-grove-california.jpg",
+      "page_url": "https://www.visitasilomar.com/",
+      "credit": "Asilomar Conference Grounds / Aramark (official site)",
+      "caption": "Merrill Hall interior from the balcony, trusses and theatre seating",
+      "width": 2400,
+      "height": 1600
+    },
+    {
+      "file": "05.jpg",
+      "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto,width=2400/aramark-parent/asilomar-hotel-and-conference-grounds/site-images/crocker-dining-hall-asilomar-hotel-and-conference-grounds-pacific-grove-california.jpg",
+      "page_url": "https://www.visitasilomar.com/",
+      "credit": "Asilomar Conference Grounds / Aramark (official site)",
+      "caption": "Crocker Dining Hall with its wood-beamed ceiling",
+      "width": 2400,
+      "height": 1600
+    },
+    {
+      "file": "06.jpg",
+      "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto,width=2400/aramark-parent/asilomar-hotel-and-conference-grounds/site-images/coastal-landscape-with-rocky-shoreline-asilomar-hotel-and-conference-grounds-pacific-grove-california.jpg",
+      "page_url": "https://www.visitasilomar.com/gallery",
+      "credit": "Asilomar Conference Grounds / Aramark (official site)",
+      "caption": "Asilomar State Beach shoreline at the edge of the grounds",
+      "width": 2400,
+      "height": 1600
+    }
+  ],
+  "notes": "Site runs on Milestone CMS with images served through a Cloudflare image resizer (assets.milestoneinternet.com/cdn-cgi/image/...). Source originals are very large (4000-7500 px); they were fetched with width=2400 to keep files manageable -- drop the 'width=2400' parameter for the full-size original. The asset server is slow (10-20 s per image). The image named 'a-cornerstone...' on the home page is actually a food photo, so it was skipped. Official site also has a meetings-events/photo-gallery with a dozen meeting-room photos and a lodging gallery. Operated by Aramark as a California State Parks concession; National Historic Landmark with Julia Morgan buildings. Wikimedia Commons also has a Julia Morgan photo set (e.g. Merrill_Hall_Asilomar_edit1.jpg) if more is needed."
+}

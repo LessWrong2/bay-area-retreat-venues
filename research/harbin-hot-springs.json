@@ -1,0 +1,67 @@
+{
+  "id": "harbin-hot-springs",
+  "address": "18424 Harbin Springs Rd, Middletown, CA 95461",
+  "lat": 38.78608,
+  "lng": -122.65183,
+  "geo_method": "site map link",
+  "geo_confidence": "high",
+  "geo_notes": "The contact page's 'View Map' link (maps.app.goo.gl/oe15hU3pSv21qLei9) resolves to a Google Maps place 'Harbin Hot Springs' at !3d38.7860806!4d-122.6518315. Wikipedia gives 38.78742, -122.65379 (~240 m away, same property). Nominatim does not know the address or the name.",
+  "thumb": "01.jpg",
+  "images": [
+    {
+      "file": "01.jpg",
+      "source_url": "https://harbin.org/wp-content/uploads/2024/06/A6505100-med-pool-colors-scaled.jpg",
+      "page_url": "https://harbin.org/",
+      "credit": "Harbin Hot Springs (official site)",
+      "caption": "The rebuilt pool building with its stained-glass gable and the warm pool",
+      "width": 2560,
+      "height": 1707
+    },
+    {
+      "file": "02.jpg",
+      "source_url": "https://harbin.org/wp-content/uploads/2024/05/domes-accommodations.jpg",
+      "page_url": "https://harbin.org/reservations/accommodations-rates/",
+      "credit": "Harbin Hot Springs (official site)",
+      "caption": "Dome guest accommodations beside the pool area",
+      "width": 2048,
+      "height": 1152
+    },
+    {
+      "file": "03.jpg",
+      "source_url": "https://harbin.org/wp-content/uploads/2026/08/hotel-and-labyrinth.jpg",
+      "page_url": "https://harbin.org/heart-consciousness/photos/",
+      "credit": "Harbin Hot Springs (official site)",
+      "caption": "The new hotel building on the hillside above the stone labyrinth and gazebo",
+      "width": 1080,
+      "height": 810
+    },
+    {
+      "file": "04.jpg",
+      "source_url": "https://harbin.org/wp-content/uploads/2026/08/Restaurant-front.jpg",
+      "page_url": "https://harbin.org/heart-consciousness/photos/",
+      "credit": "Harbin Hot Springs (official site)",
+      "caption": "Front of the new restaurant building (opened August 2026)",
+      "width": 1440,
+      "height": 810
+    },
+    {
+      "file": "05.jpg",
+      "source_url": "https://harbin.org/wp-content/uploads/2026/08/Garden-pavilion.jpg",
+      "page_url": "https://harbin.org/heart-consciousness/photos/",
+      "credit": "Harbin Hot Springs (official site)",
+      "caption": "Garden pavilion among flowering shrubs",
+      "width": 1080,
+      "height": 810
+    },
+    {
+      "file": "06.jpg",
+      "source_url": "https://harbin.org/wp-content/uploads/2024/09/A6507415.jpg",
+      "page_url": "https://harbin.org/reservations/accommodations-rates/",
+      "credit": "Harbin Hot Springs (official site)",
+      "caption": "Hotel guest room with queen bed and sitting area",
+      "width": 2048,
+      "height": 1152
+    }
+  ],
+  "notes": "harbin.org is behind Cloudflare and returns 'Attention Required' to a bare/short User-Agent; a full Chrome UA string works. Property was largely destroyed in the September 2015 Valley Fire and partially reopened January 2019 (pools, sauna, limited cafe). Rebuild is ongoing: the site's August 2026 photo gallery documents a brand-new restaurant (ribbon-cutting/blessing ceremony, Aug 2026) and a new multi-story hotel with elevator under construction/finishing. Lodging currently on the accommodations page: domes (rooms 30-53), hotel rooms, caravans, and tent camping. Some gallery images carry a small 'harbin.org' watermark in the corner. Operated by Heart Consciousness Church (nonprofit); pools are clothing-optional."
+}

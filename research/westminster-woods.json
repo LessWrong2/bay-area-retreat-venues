@@ -1,0 +1,67 @@
+{
+  "id": "westminster-woods",
+  "address": "6510 Bohemian Hwy, Occidental, CA 95465",
+  "lat": 38.4389615,
+  "lng": -122.9750034,
+  "geo_method": "approx",
+  "geo_confidence": "medium",
+  "geo_notes": "Not in OSM/Nominatim by name or house number. US Census TIGER geocoder interpolates 6510 Bohemian Hwy to 38.43896,-122.97500, which matches the venue's own directions ('about 3 more miles' north of Occidental on Bohemian Hwy, past the Camp Meeker sign) and its Dutch Bill Creek setting between Camp Meeker and Monte Rio. Expect the actual entrance within ~300 m of this point.",
+  "thumb": "01.jpg",
+  "images": [
+    {
+      "file": "01.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/592c80cf1e5b6ca26e4bd495/1503007491286-4346PD5CTUGV2Y11VI7W/woodsinn.jpg?format=2500w",
+      "page_url": "https://www.westminsterwoods.org/facilities",
+      "credit": "Westminster Woods (official site)",
+      "caption": "The Woods Inn guest lodge in the redwoods",
+      "width": 2500,
+      "height": 1667
+    },
+    {
+      "file": "02.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/592c80cf1e5b6ca26e4bd495/1503007561343-5DLJEZLLO5R0WK4Y1GSA/homestead.jpg?format=2500w",
+      "page_url": "https://www.westminsterwoods.org/facilities",
+      "credit": "Westminster Woods (official site)",
+      "caption": "Homestead lodge exterior",
+      "width": 2500,
+      "height": 1667
+    },
+    {
+      "file": "03.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/592c80cf1e5b6ca26e4bd495/1503007768814-DDGA2WVB2KPBQ7MUMNP1/cabins.jpg?format=2500w",
+      "page_url": "https://www.westminsterwoods.org/facilities",
+      "credit": "Westminster Woods (official site)",
+      "caption": "Dorm cabin",
+      "width": 2500,
+      "height": 1667
+    },
+    {
+      "file": "04.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/592c80cf1e5b6ca26e4bd495/1500927508028-QOJMVQ4EP06AAZZ5Q7WV/campfire.jpg?format=2500w",
+      "page_url": "https://www.westminsterwoods.org/facilities",
+      "credit": "Westminster Woods (official site)",
+      "caption": "Hillside campfire amphitheater",
+      "width": 1136,
+      "height": 852
+    },
+    {
+      "file": "05.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/592c80cf1e5b6ca26e4bd495/1502994733187-WGCD7G523BQY27JWVX6B/homestead.jpg?format=2500w",
+      "page_url": "https://www.westminsterwoods.org/facilities",
+      "credit": "Westminster Woods (official site)",
+      "caption": "Homestead meeting room with stone fireplace",
+      "width": 2500,
+      "height": 1478
+    },
+    {
+      "file": "06.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/592c80cf1e5b6ca26e4bd495/1503007942259-79P60AT3BK3LX0CN79RI/meadow.jpg?format=2500w",
+      "page_url": "https://www.westminsterwoods.org/facilities",
+      "credit": "Westminster Woods (official site)",
+      "caption": "Meadow and redwoods",
+      "width": 2500,
+      "height": 1667
+    }
+  ],
+  "notes": "Squarespace site; CDN serves WebP unless an 'Accept: image/jpeg' header is sent, which is how JPEGs were obtained. Most facility photos date from 2017 uploads. Site lists Guest Groups contact mark@westminsterwoods.org and an inquiry form at /inquire. Camp is owned by the Presbytery of the Redwoods."
+}

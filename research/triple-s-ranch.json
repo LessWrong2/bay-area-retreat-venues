@@ -1,0 +1,67 @@
+{
+ "id": "triple-s-ranch",
+ "address": "4600 Mountain Home Ranch Road, Calistoga, CA 94515",
+ "lat": 38.57155,
+ "lng": -122.63936,
+ "geo_method": "nominatim address",
+ "geo_confidence": "high",
+ "geo_notes": "Nominatim structured query matched house number 4600 on Mountain Home Ranch Road (OSM 'place=house'). Free-text query returned nothing; structured street/state query worked. Property is technically just over the Sonoma County line but uses a Calistoga 94515 address. About 1 km east of Mayacamas Ranch (3975) on the same road.",
+ "thumb": "01.jpg",
+ "images": [
+  {
+   "file": "01.jpg",
+   "source_url": "https://images.squarespace-cdn.com/content/v1/67fefcf512b58b07a8ccd1dc/1744764229905-DJTV8JNBQ710J9I40BVW/Event+Barn+Exterior+%282%29.jpg?format=2500w",
+   "page_url": "https://www.triplesranchnapa.com/lodging",
+   "credit": "Triple S Ranch (official site)",
+   "caption": "Restored event barn exterior at dusk, lit from inside",
+   "width": 1280,
+   "height": 853
+  },
+  {
+   "file": "02.jpg",
+   "source_url": "https://images.squarespace-cdn.com/content/v1/67fefcf512b58b07a8ccd1dc/1744764212832-LE7DOYW0OJST2QUXSQVX/Grand%2BVictorian%2BExterior%2B3.jpg?format=2500w",
+   "page_url": "https://www.triplesranchnapa.com/real-retreats-gallery",
+   "credit": "Triple S Ranch (official site)",
+   "caption": "The Grand Victorian house at twilight",
+   "width": 853,
+   "height": 853
+  },
+  {
+   "file": "03.jpg",
+   "source_url": "https://images.squarespace-cdn.com/content/v1/67fefcf512b58b07a8ccd1dc/1744764166052-KBLP5ZD1ENQYM6BBWCGH/cozy+pool+patio+with+warm+fireplace?format=2500w",
+   "page_url": "https://www.triplesranchnapa.com/",
+   "credit": "Triple S Ranch (official site)",
+   "caption": "Pool, pool house and outdoor fireplace at dusk",
+   "width": 1283,
+   "height": 855
+  },
+  {
+   "file": "04.jpg",
+   "source_url": "https://images.squarespace-cdn.com/content/v1/67fefcf512b58b07a8ccd1dc/1744764304881-CBZ7TOF1A7XHP6J7D7L5/company-retreat-locations-Napa-Valley.jpeg?format=2500w",
+   "page_url": "https://www.triplesranchnapa.com/",
+   "credit": "Triple S Ranch (official site)",
+   "caption": "Company retreat session inside the main barn",
+   "width": 1500,
+   "height": 1000
+  },
+  {
+   "file": "05.jpg",
+   "source_url": "https://images.squarespace-cdn.com/content/v1/67fefcf512b58b07a8ccd1dc/1744764229850-9Q20EBCBNGDZT3CD84IL/New+Victorian+Livingroom.jpg?format=2500w",
+   "page_url": "https://www.triplesranchnapa.com/lodging",
+   "credit": "Triple S Ranch (official site)",
+   "caption": "Wood-panelled lounge / living room interior",
+   "width": 1024,
+   "height": 683
+  },
+  {
+   "file": "06.jpg",
+   "source_url": "https://images.squarespace-cdn.com/content/v1/67fefcf512b58b07a8ccd1dc/1744764252462-3P7O63ORSH2XR60NZSED/K+-+Exterior+back.jpg?format=2500w",
+   "page_url": "https://www.triplesranchnapa.com/real-retreats-gallery",
+   "credit": "Triple S Ranch (official site)",
+   "caption": "Guest cabin with covered porch at dusk",
+   "width": 1280,
+   "height": 853
+  }
+ ],
+ "notes": "Squarespace site; images served as WebP unless an Accept: image/jpeg header is sent (done here). Address confirmed on site footer/contact page. Site is wedding-heavy; the /overview-retreat and /real-retreats-gallery pages have the corporate retreat photos. Site also lists a sister property 'Spring Ranch Mendocino'."
+}

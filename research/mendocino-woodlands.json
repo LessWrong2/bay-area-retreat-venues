@@ -1,0 +1,67 @@
+{
+  "id": "mendocino-woodlands",
+  "address": "39350 Little Lake Road, Mendocino, CA 95460",
+  "lat": 39.3182,
+  "lng": -123.703,
+  "geo_method": "OSM feature (Camp One) cross-checked with nominatim address",
+  "geo_confidence": "high",
+  "geo_notes": "Pin is the OSM 'Mendocino Woodlands Camp 1' camp_site node (39.31824,-123.70296), the main camp with office/dining hall; Nominatim address point is ~300 m away at 39.31654,-123.70693. Camp 2 is at 39.34016,-123.69224 and Camp 3 at 39.33591,-123.70012 (OSM). Wikipedia park centroid 39.32861,-123.69833 is the middle of the 700-acre park, not a building.",
+  "thumb": "01.jpg",
+  "images": [
+    {
+      "file": "01.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/5c76d6a8c2ff611d78dc5bdd/1645040630732-JDZYA76IPRHJRUFG21AM/C1+Cabin+-+Home+Page+Hi+Res.jpg?format=2500w",
+      "page_url": "https://www.mendocinowoodlands.org/",
+      "credit": "Mendocino Woodlands Camp Association (official site)",
+      "caption": "CCC-built redwood cabin at Camp One",
+      "width": 2500,
+      "height": 1668
+    },
+    {
+      "file": "02.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/5c76d6a8c2ff611d78dc5bdd/1666217994924-10K9LM6DMFOP2S6WYIEC/C1+Dance+Hall+Interior+Hi+Res.jpg?format=2500w",
+      "page_url": "https://www.mendocinowoodlands.org/",
+      "credit": "Mendocino Woodlands Camp Association (official site)",
+      "caption": "Camp One dance hall / recreation hall interior with stone fireplace",
+      "width": 1920,
+      "height": 1281
+    },
+    {
+      "file": "03.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/5c76d6a8c2ff611d78dc5bdd/1554410352400-2C9X2NCNPC76ZT59SK0Y/IMGP4519.jpg?format=2500w",
+      "page_url": "https://www.mendocinowoodlands.org/",
+      "credit": "Mendocino Woodlands Camp Association (official site)",
+      "caption": "Cabin and open-air shelter among the redwoods",
+      "width": 1200,
+      "height": 801
+    },
+    {
+      "file": "04.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/5c76d6a8c2ff611d78dc5bdd/1554410340378-MP0OSPAKYOF41JC01Y9O/IMGP4439.jpg?format=2500w",
+      "page_url": "https://www.mendocinowoodlands.org/",
+      "credit": "Mendocino Woodlands Camp Association (official site)",
+      "caption": "Cabin interior with stone fireplace and cots",
+      "width": 1200,
+      "height": 801
+    },
+    {
+      "file": "05.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/5c76d6a8c2ff611d78dc5bdd/1782258977486-MXRYO9IVRAPVIQJJFZRK/1000010714.jpeg?format=2500w",
+      "page_url": "https://www.mendocinowoodlands.org/bookings-events",
+      "credit": "Mendocino Woodlands Camp Association (official site)",
+      "caption": "Outdoor dining set up in a redwood grove",
+      "width": 1528,
+      "height": 1145
+    },
+    {
+      "file": "06.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/5c76d6a8c2ff611d78dc5bdd/1782259196252-H7NGR9QTCJT6N33CMT4W/89DC6ABE-B764-4C82-A67A-0D62528D2875.jpeg?format=2500w",
+      "page_url": "https://www.mendocinowoodlands.org/bookings-events",
+      "credit": "Mendocino Woodlands Camp Association (official site)",
+      "caption": "Outdoor amphitheater / ceremony site",
+      "width": 1689,
+      "height": 1266
+    }
+  ],
+  "notes": "Squarespace site; ?format=2500w returns originals (served as WebP unless Accept: image/jpeg is sent). Wikimedia Commons has no usable photos of the camp buildings despite NHL status (only a 'Big Tree' photo and unrelated hits). Three self-contained camps (Camp One, Two, Three) each with dining hall, kitchen, rec hall and cabins; per-camp kitchen pages exist at /camp-kitchens-copy, -copy-1, -copy-2."
+}

@@ -1,0 +1,67 @@
+{
+  "id": "costanoa",
+  "address": "2001 Rossi Road (at Hwy 1), Pescadero, CA 94060",
+  "lat": 37.1555806,
+  "lng": -122.3472231,
+  "geo_method": "site map link",
+  "geo_confidence": "high",
+  "geo_notes": "Coordinates from the maps.app.goo.gl link on costanoa.com (Google place pin for the lodge). Cross-checked: Nominatim returns the Costanoa camp_site at 37.1569,-122.3491 and OSM maps 'Costanoa Lodge' (2001 Rossi Rd) at 37.1554,-122.3471; US Census geocoder gives 37.1559,-122.3482. Property spans ~37.153-37.158.",
+  "thumb": "01.jpg",
+  "images": [
+    {
+      "file": "01.jpg",
+      "source_url": "https://www.costanoa.com/wp-content/uploads/2024/02/california-coastal-lodge-exterior.jpg",
+      "page_url": "https://www.costanoa.com/stay/lodge/",
+      "credit": "Costanoa (official site)",
+      "caption": "Main lodge exterior and lawn at dusk",
+      "width": 2048,
+      "height": 1365
+    },
+    {
+      "file": "02.jpg",
+      "source_url": "https://www.costanoa.com/wp-content/uploads/2024/03/california-lodge.jpg",
+      "page_url": "https://www.costanoa.com/event-spaces/",
+      "credit": "Costanoa (official site)",
+      "caption": "Aerial view of the lodge and grounds with the Pacific beyond",
+      "width": 1800,
+      "height": 1093
+    },
+    {
+      "file": "03.jpg",
+      "source_url": "https://www.costanoa.com/wp-content/uploads/2024/07/mountain-view-cabins.jpg",
+      "page_url": "https://www.costanoa.com/stay/cabins/",
+      "credit": "Costanoa (official site)",
+      "caption": "Mountain-view cabins",
+      "width": 2100,
+      "height": 1400
+    },
+    {
+      "file": "04.jpg",
+      "source_url": "https://www.costanoa.com/wp-content/uploads/2024/07/california-lodge-venue-at-night.jpg",
+      "page_url": "https://www.costanoa.com/meetings/",
+      "credit": "Costanoa (official site)",
+      "caption": "Lodge courtyard lit up at night",
+      "width": 2400,
+      "height": 1419
+    },
+    {
+      "file": "05.jpg",
+      "source_url": "https://www.costanoa.com/wp-content/uploads/2024/07/california-glamping-tents.jpg",
+      "page_url": "https://www.costanoa.com/photos/",
+      "credit": "Costanoa (official site)",
+      "caption": "Tent bungalows (glamping) on the lawn",
+      "width": 1620,
+      "height": 1080
+    },
+    {
+      "file": "06.jpg",
+      "source_url": "https://www.costanoa.com/wp-content/uploads/2024/05/outdoor-meeting-area.jpg",
+      "page_url": "https://www.costanoa.com/",
+      "credit": "Costanoa (official site)",
+      "caption": "Covered outdoor meeting/dining patio",
+      "width": 1620,
+      "height": 1080
+    }
+  ],
+  "notes": "costanoa.com returns 403 to plain curl but serves fine with a full browser User-Agent/Accept header set; WordPress site with Yoast sitemap. Site is current (2026 uploads). No dedicated 'meeting room' interior shots found; closest are the outdoor patio and lodge-at-night images. Lodge rooms, cabins and tent bungalows all photographed on site."
+}

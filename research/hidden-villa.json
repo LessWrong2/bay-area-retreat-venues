@@ -1,0 +1,67 @@
+{
+  "id": "hidden-villa",
+  "address": "26870 Moody Road, Los Altos Hills, CA 94022",
+  "lat": 37.354,
+  "lng": -122.1563,
+  "geo_method": "nominatim address",
+  "geo_confidence": "high",
+  "geo_notes": "Nominatim matched the address directly as a 'farm' feature (37.35401,-122.15633); OSM farm-building outlines named 'Hidden Villa' cluster at 37.3535-37.3543,-122.1568 and Wikipedia gives 37.351361,-122.160987 (Duveneck House area, ~500 m up-valley). Pin is at the farm/visitor entrance off Moody Road.",
+  "thumb": "01.jpg",
+  "images": [
+    {
+      "file": "01.jpg",
+      "source_url": "https://hiddenvilla.arlo.co/content/img/RNDH_list.jpg",
+      "page_url": "https://www.hiddenvilla.org/meeting-retreats/",
+      "credit": "Hidden Villa (official site)",
+      "caption": "Duveneck House, the 1920s family home used for meetings and retreats",
+      "width": 720,
+      "height": 480
+    },
+    {
+      "file": "02.jpg",
+      "source_url": "https://www.hiddenvilla.org/wp-content/uploads/2018/10/Plan-Your-Trip_list.jpg",
+      "page_url": "https://www.hiddenvilla.org/visit/plan-your-trip/",
+      "credit": "Hidden Villa (official site)",
+      "caption": "Farm pasture and barns in the Adobe Creek valley",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "03.jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Hidden_Villa_Adobe_Creek_headwaters.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Hidden_Villa_Adobe_Creek_headwaters.jpg",
+      "credit": "Dicklyon, Wikimedia Commons, CC BY-SA 4.0",
+      "caption": "Hidden Villa and the Adobe Creek valley from the hills above Moody Road",
+      "width": 2849,
+      "height": 3397
+    },
+    {
+      "file": "04.jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Hidden_Villa_Education_Center_2010.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Hidden_Villa_Education_Center_2010.jpg",
+      "credit": "Schmiebel, Wikimedia Commons, CC BY-SA 3.0",
+      "caption": "Environmental education center building (straw-bale construction)",
+      "width": 2384,
+      "height": 1515
+    },
+    {
+      "file": "05.jpg",
+      "source_url": "https://hiddenvilla.arlo.co/content/img/DCsmall.jpeg",
+      "page_url": "https://www.hiddenvilla.org/meeting-retreats/",
+      "credit": "Hidden Villa (official site)",
+      "caption": "Dana Center meeting hall interior with skylights and stone fireplace",
+      "width": 1120,
+      "height": 1120
+    },
+    {
+      "file": "06.jpg",
+      "source_url": "https://www.hiddenvilla.org/wp-content/uploads/2018/10/SustainableAg.jpg",
+      "page_url": "https://www.hiddenvilla.org/",
+      "credit": "Hidden Villa (official site)",
+      "caption": "Organic farm rows below the hills at sunset",
+      "width": 2951,
+      "height": 1967
+    }
+  ],
+  "notes": "Official site has few large building photos: the rental catalog (Arlo-hosted) images of Duveneck House, Dana Center, Hostel and Morgan Pavilion are only 720px or smaller, and the WordPress media library's larger 'Duveneck'/'Dana Center' files turned out to be a Cesar Chavez portrait, a goat, and event-table close-ups. 01.jpg (Duveneck House) is kept at 720x480 because it is the best establishing shot; 03 and 04 are CC-licensed Wikimedia Commons photos (attribution required). Hostel sleeps 39 only; meeting spaces are Dana Center, Duveneck House and Morgan Family Pavilion."
+}

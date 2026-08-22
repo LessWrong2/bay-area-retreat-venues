@@ -1,0 +1,67 @@
+{
+  "id": "vallombrosa",
+  "address": "250 Oak Grove Avenue, Menlo Park, CA 94025",
+  "lat": 37.4602497,
+  "lng": -122.1813261,
+  "geo_method": "nominatim address",
+  "geo_confidence": "high",
+  "geo_notes": "Nominatim returns 'Vallombrosa Center, 250 Oak Grove Avenue' (events_centre 37.45991,-122.18117; historic building 37.46026,-122.18130). Used the historic main building polygon centroid. The site's own /direct2/ page embeds a Google map centred at 37.45964,-122.18356. All within the 8-acre walled parcel.",
+  "thumb": "01.jpg",
+  "images": [
+    {
+      "file": "01.jpg",
+      "source_url": "https://www.vallombrosa.org/wp-content/uploads/2015/11/MLB_5791_HDR.jpg",
+      "page_url": "https://www.vallombrosa.org/mlb_5791_hdr/",
+      "credit": "Vallombrosa Center (official site)",
+      "caption": "The 1920s mansion, Vallombrosa's main house",
+      "width": 4286,
+      "height": 2846
+    },
+    {
+      "file": "02.jpg",
+      "source_url": "https://www.vallombrosa.org/wp-content/uploads/2015/11/MLB_5869_HDR.jpg",
+      "page_url": "https://www.vallombrosa.org/tour/",
+      "credit": "Vallombrosa Center (official site)",
+      "caption": "Great oak on the lawn",
+      "width": 4285,
+      "height": 2846
+    },
+    {
+      "file": "03.jpg",
+      "source_url": "https://www.vallombrosa.org/wp-content/uploads/2015/11/val1-311.jpg",
+      "page_url": "https://www.vallombrosa.org/val1-311/",
+      "credit": "Vallombrosa Center (official site)",
+      "caption": "Guest-room wing and garden",
+      "width": 2272,
+      "height": 1704
+    },
+    {
+      "file": "04.jpg",
+      "source_url": "https://www.vallombrosa.org/wp-content/uploads/2014/10/East-Parlor.ed_.jpg",
+      "page_url": "https://www.vallombrosa.org/meet-rooms/",
+      "credit": "Vallombrosa Center (official site)",
+      "caption": "East Parlor meeting room",
+      "width": 2007,
+      "height": 1506
+    },
+    {
+      "file": "05.jpg",
+      "source_url": "https://www.vallombrosa.org/wp-content/uploads/2015/11/val1-317.jpg",
+      "page_url": "https://www.vallombrosa.org/val1-317/",
+      "credit": "Vallombrosa Center (official site)",
+      "caption": "Tree-lined entry drive",
+      "width": 2272,
+      "height": 1704
+    },
+    {
+      "file": "06.jpg",
+      "source_url": "https://www.vallombrosa.org/wp-content/uploads/2015/11/entrance700.jpg",
+      "page_url": "https://www.vallombrosa.org/",
+      "credit": "Vallombrosa Center (official site)",
+      "caption": "Front gate on Oak Grove Avenue (wide banner crop)",
+      "width": 1900,
+      "height": 700
+    }
+  ],
+  "notes": "WordPress site; the /tour/ gallery only links 542x360 thumbnails, so full-size originals were pulled from the WP REST media API (wp-json/wp/v2/media). Photos are older (2011-2015 uploads). Home page currently says 'Vallombrosa is Open for In-Person Group Retreats. Please Call Jaynie at 650-325-5614' (copyright 2026); a 2020 'temporary closure' banner exists in uploads but is not displayed. Owned by the Archdiocese of San Francisco; some revslider dining-room images on the site look like stock and were skipped."
+}

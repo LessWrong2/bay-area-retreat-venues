@@ -1,0 +1,67 @@
+{
+  "id": "monte-toyon",
+  "address": "220 Cloister Lane, Aptos, CA 95003",
+  "lat": 36.996114,
+  "lng": -121.896946,
+  "geo_method": "site map link",
+  "geo_confidence": "high",
+  "geo_notes": "uccr.org/monte-toyon links the address to maps.app.goo.gl/DT9gEgBWNLbwCszg7, which resolves to the Google pin for 220 Cloister Ln at 36.996114,-121.896946. Consistent with OSM: Cloister Lane ends at 36.9959,-121.8969 and an OSM place node 'Monte Toyon' sits at 36.9963,-121.8961; US Census geocoder puts the address at the lane's start (36.9942,-121.8963). Address confirmed on the UCCR page.",
+  "thumb": "01.jpg",
+  "images": [
+    {
+      "file": "01.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/65496b70b770183c657391c2/c3a29fcb-8a1e-4196-a41f-f321a5874d42/MTN+Cary+Lodge.jpg?format=2500w",
+      "page_url": "https://www.uccr.org/monte-toyon",
+      "credit": "UCCR / Monte Toyon (official site)",
+      "caption": "Cary Lodge among the redwoods",
+      "width": 2500,
+      "height": 1625
+    },
+    {
+      "file": "02.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/65496b70b770183c657391c2/1721076561358-T6KY2VX2YV8EP4RGKNQT/MT+back+of+Dining+Hall.jpg?format=2500w",
+      "page_url": "https://www.uccr.org/monte-toyon",
+      "credit": "UCCR / Monte Toyon (official site)",
+      "caption": "Dining hall exterior with bell tower",
+      "width": 2016,
+      "height": 1512
+    },
+    {
+      "file": "03.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/65496b70b770183c657391c2/1721072720187-82VARTONA27NKKU7AQ49/MT+Fire++Dining+Hall.jpg?format=2500w",
+      "page_url": "https://www.uccr.org/monte-toyon",
+      "credit": "UCCR / Monte Toyon (official site)",
+      "caption": "Hall interior with wood floor and stone fireplace",
+      "width": 1874,
+      "height": 1395
+    },
+    {
+      "file": "04.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/65496b70b770183c657391c2/1718201705339-4KE5XFD0IQYHJEFTZON0/Outdoor+Amphitheater+.jpg?format=2500w",
+      "page_url": "https://www.uccr.org/monte-toyon",
+      "credit": "UCCR / Monte Toyon (official site)",
+      "caption": "Outdoor amphitheater and fire circle",
+      "width": 2016,
+      "height": 1512
+    },
+    {
+      "file": "05.jpg",
+      "source_url": "https://static1.squarespace.com/static/65496b70b770183c657391c2/t/66f5c71e5efe7112c0e5ed13/1727383326500/MTC+DH+view.jpg?format=2500w",
+      "page_url": "https://www.uccr.org/monte-toyon",
+      "credit": "UCCR / Monte Toyon (official site)",
+      "caption": "Dining hall interior",
+      "width": 2500,
+      "height": 1875
+    },
+    {
+      "file": "06.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/65496b70b770183c657391c2/1758038175779-7ZGE74Y3F9VO6HSXHLG7/MTN+bridge-2.jpg?format=2500w",
+      "page_url": "https://www.uccr.org/monte-toyon",
+      "credit": "UCCR / Monte Toyon (official site)",
+      "caption": "Footbridge over the creek",
+      "width": 2500,
+      "height": 2332
+    }
+  ],
+  "notes": "UCCR (United Camps, Conferences and Retreats) Squarespace page; 'Accept: image/jpeg' header needed to get JPEG rather than WebP from the CDN. Page states capacity 30-146 overnight, site director (831) 688-5420, camp owned by the California-Nevada Annual Conference of the United Methodist Church. Recent (2025-26) photos show dorms and Hollidge Hall repainted blue."
+}

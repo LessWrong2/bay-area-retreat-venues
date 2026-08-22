@@ -1,0 +1,67 @@
+{
+  "id": "presidio-lodging",
+  "address": "Inn at the Presidio, 42 Moraga Avenue, San Francisco, CA 94129 (Lodge at the Presidio: 105 Montgomery Street, SF 94129)",
+  "lat": 37.7971,
+  "lng": -122.4578,
+  "geo_method": "nominatim address",
+  "geo_confidence": "high",
+  "geo_notes": "Pin is the Inn at the Presidio (Pershing Hall, 42 Moraga Ave); Nominatim matched it directly as a hotel POI (37.79707,-122.45785). The Lodge at the Presidio (105 Montgomery St, Main Post barracks) is ~350 m north-east of the Inn. Both addresses confirmed on presidiolodging.com.",
+  "thumb": "01.jpg",
+  "images": [
+    {
+      "file": "01.jpg",
+      "source_url": "https://presidiolodging.com/wp-content/uploads/2023/08/Inn-At-The-Presidio-From-Lift.jpg",
+      "page_url": "https://presidiolodging.com/inn-at-the-presidio/",
+      "credit": "Presidio Lodging (official site)",
+      "caption": "Inn at the Presidio (historic Pershing Hall) aerial view with Golden Gate Bridge behind",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "02.jpg",
+      "source_url": "https://presidiolodging.com/wp-content/uploads/2023/08/Lodge-Front-Title-Shot-1920-1080.jpg",
+      "page_url": "https://presidiolodging.com/lodge-at-the-presidio/",
+      "credit": "Presidio Lodging (official site)",
+      "caption": "Lodge at the Presidio, Montgomery Street barracks, aerial view toward the Golden Gate",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "03.jpg",
+      "source_url": "https://presidiolodging.com/wp-content/uploads/2023/08/Lodge-Front-2-1920-1080.jpg",
+      "page_url": "https://presidiolodging.com/lodge-at-the-presidio/",
+      "credit": "Presidio Lodging (official site)",
+      "caption": "Lodge at the Presidio front facade with Golden Gate Bridge view",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "04.jpg",
+      "source_url": "https://presidiolodging.com/wp-content/uploads/2024/01/Inn-At-The-Presidio-Lobby-1920-1080.jpg",
+      "page_url": "https://presidiolodging.com/inn-at-the-presidio/",
+      "credit": "Presidio Lodging (official site)",
+      "caption": "Inn at the Presidio living room / lobby with fireplace",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "05.jpg",
+      "source_url": "https://presidiolodging.com/wp-content/uploads/2023/08/Lodge-Lobby.jpg",
+      "page_url": "https://presidiolodging.com/lodge-at-the-presidio/",
+      "credit": "Presidio Lodging (official site)",
+      "caption": "Lodge at the Presidio lobby and breakfast room",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "06.jpg",
+      "source_url": "https://presidiolodging.com/wp-content/uploads/2023/08/meetings-1920-1080.jpg",
+      "page_url": "https://presidiolodging.com/inn-at-the-presidio/meetings-events/",
+      "credit": "Presidio Lodging (official site)",
+      "caption": "Meeting room set up boardroom-style",
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "notes": "Two properties under one operator: Inn at the Presidio (22 rooms, 1903 Pershing Hall, opened 2012) and Lodge at the Presidio (42 rooms, 1890s Montgomery St barracks, opened 2018), plus Funston House (a 4-bedroom 1860s officer's house bookable as a whole). Official site is WordPress and serves 1920x1080 originals directly; a 'Lodge-fire-Pit' image turned out to be a lifestyle shot of guests and was skipped."
+}

@@ -1,0 +1,67 @@
+{
+  "id": "1440-multiversity",
+  "address": "800 Bethany Drive, Scotts Valley, CA 95066",
+  "lat": 37.0751,
+  "lng": -121.9947,
+  "geo_method": "nominatim address",
+  "geo_confidence": "high",
+  "geo_notes": "Nominatim returned the address point ('Lodge, 800 Bethany Drive'); OSM also has an '1440 Multiversity' node at 37.07535,-121.99395, ~70 m away. Campus sits on the former Bethany University site off Bethany Dr, Scotts Valley.",
+  "thumb": "01.jpg",
+  "images": [
+    {
+      "file": "01.jpg",
+      "source_url": "https://assets.milestoneinternet.com/1440-multiversity/site-images/gallery/lodge.jpg",
+      "page_url": "https://www.1440.org/the-campus-gallery",
+      "credit": "1440 Multiversity (official site)",
+      "caption": "The Lodge at dusk, with pond and footbridge",
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "file": "02.jpg",
+      "source_url": "https://assets.milestoneinternet.com/1440-multiversity/site-images/gallery/campus-1.jpg",
+      "page_url": "https://www.1440.org/the-campus-gallery",
+      "credit": "1440 Multiversity (official site)",
+      "caption": "Campus entrance sign with Sanctuary building at dusk",
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "file": "03.jpg",
+      "source_url": "https://assets.milestoneinternet.com/1440-multiversity/site-images/gallery/redwood-amphitheater3.jpg",
+      "page_url": "https://www.1440.org/outdoor-venues-gallery",
+      "credit": "1440 Multiversity (official site)",
+      "caption": "Redwood Amphitheater, outdoor venue in the redwoods",
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "file": "04.jpg",
+      "source_url": "https://assets.milestoneinternet.com/1440-multiversity/site-images/gallery/redwood-auditorium.jpg",
+      "page_url": "https://www.1440.org/meeting-venues-gallery",
+      "credit": "1440 Multiversity (official site)",
+      "caption": "Redwood Auditorium set up for a conference",
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "file": "05.jpg",
+      "source_url": "https://assets.milestoneinternet.com/1440-multiversity/site-images/gallery/sanctuary.jpg",
+      "page_url": "https://www.1440.org/meeting-venues-gallery",
+      "credit": "1440 Multiversity (official site)",
+      "caption": "The Sanctuary, timber-framed gathering hall interior",
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "file": "06.jpg",
+      "source_url": "https://assets.milestoneinternet.com/1440-multiversity/site-images/gallery/kitchen-table1.jpg",
+      "page_url": "https://www.1440.org/dining-gallery",
+      "credit": "1440 Multiversity (official site)",
+      "caption": "Kitchen Table dining hall",
+      "width": 1920,
+      "height": 1280
+    }
+  ],
+  "notes": "Site (1440.org, Milestone CMS) is rich: per-topic gallery pages (the-campus-gallery, meeting-venues-gallery, outdoor-venues-gallery, dining-gallery, accommodations-gallery) serve 1920px originals at assets.milestoneinternet.com; the main venues page only serves 660px crops. Group/meetings page: /groups and /capacity-diagrams-and-venues. Opened 2017 on the former Bethany University campus."
+}

@@ -1,0 +1,67 @@
+{
+ "id": "mayacamas-ranch",
+ "address": "3975 Mountain Home Ranch Road, Calistoga, CA 94515",
+ "lat": 38.56958,
+ "lng": -122.65057,
+ "geo_method": "nominatim address",
+ "geo_confidence": "high",
+ "geo_notes": "Nominatim matched house number 3975 on Mountain Home Ranch Road (OSM 'building=commercial'), Sonoma County side of the line with a Calistoga 94515 mailing address. Address cross-checked against Yelp/BBB listings. About 1 km west of Triple S Ranch (4600).",
+ "thumb": "01.jpg",
+ "images": [
+  {
+   "file": "01.jpg",
+   "source_url": "https://web.archive.org/web/20181017214716id_/http://mayacamasranch.com/wp-content/uploads/2014/07/gal_gath_5.jpg",
+   "page_url": "https://web.archive.org/web/20141013093910/http://mayacamasranch.com/gallery/gatherings/",
+   "credit": "Mayacamas Ranch (official site, pre-fire, archived via Wayback Machine)",
+   "caption": "Pool and sunset over the Mayacamas Mountains (pre-2017 fire)",
+   "width": 800,
+   "height": 600
+  },
+  {
+   "file": "02.jpg",
+   "source_url": "https://web.archive.org/web/20160527161223id_/http://mayacamasranch.com/wp-content/uploads/2014/07/gal_fac_7-700x600.jpg",
+   "page_url": "https://web.archive.org/web/20150214033511/http://mayacamasranch.com/gallery/facilities/",
+   "credit": "Mayacamas Ranch (official site, pre-fire, archived via Wayback Machine)",
+   "caption": "Main lodge deck set for an outdoor dinner (pre-2017 fire; building lost in the Tubbs Fire)",
+   "width": 700,
+   "height": 600
+  },
+  {
+   "file": "03.webp",
+   "source_url": "https://mayacamasranch.com/wp-content/uploads/2026/03/960_500_umb_meadow.webp",
+   "page_url": "https://mayacamasranch.com/",
+   "credit": "Mayacamas Ranch (official site)",
+   "caption": "Lawn and umbrella looking out over the Mayacamas range (legacy photo on the current site)",
+   "width": 960,
+   "height": 500
+  },
+  {
+   "file": "04.jpg",
+   "source_url": "https://web.archive.org/web/20160804164332id_/http://mayacamasranch.com/wp-content/uploads/2014/06/600_facing_east.jpg",
+   "page_url": "https://web.archive.org/web/20170616221614/http://mayacamasranch.com/",
+   "credit": "Mayacamas Ranch (official site, pre-fire, archived via Wayback Machine)",
+   "caption": "Hidden Lake with a canoe, looking east (pre-2017 fire)",
+   "width": 1792,
+   "height": 1200
+  },
+  {
+   "file": "05.webp",
+   "source_url": "https://mayacamasranch.com/wp-content/uploads/2026/03/960_500_rainbow_grassland_terrace.webp",
+   "page_url": "https://mayacamasranch.com/",
+   "credit": "Mayacamas Ranch (official site)",
+   "caption": "Rainbow over the grassland terrace, current post-fire landscape",
+   "width": 960,
+   "height": 500
+  },
+  {
+   "file": "06.webp",
+   "source_url": "https://mayacamasranch.com/wp-content/uploads/2026/03/960_500_pasture_helena_clouds.webp",
+   "page_url": "https://mayacamasranch.com/",
+   "credit": "Mayacamas Ranch (official site)",
+   "caption": "Pasture looking toward Mount St. Helena at sunset, current post-fire landscape",
+   "width": 960,
+   "height": 500
+  }
+ ],
+ "notes": "Burned in the October 2017 Tubbs Fire; all lodge/cabin buildings were lost. The current mayacamasranch.com is a WordPress 'bioregional hub' site whose originals are tiny (600px squares and 960x500 banners) and show only landscape (no buildings). Images 03, 05, 06 are from the current site (960x500, the largest available; 03 is a legacy pre-fire lawn shot). Images 01, 02, 04 are pre-fire photos recovered from the 2014-2018 Wayback Machine archive of the old site; full-size gallery originals (gal_fac_N.jpg) were never archived, only the 700x600 thumbnails, so 02 is exactly at the 700px floor. Wikimedia Commons has nothing for this venue. Not bookable."
+}

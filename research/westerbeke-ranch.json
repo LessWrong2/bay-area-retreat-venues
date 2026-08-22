@@ -1,0 +1,67 @@
+{
+  "id": "westerbeke-ranch",
+  "address": "2300 Grove Street, Sonoma, CA 95476",
+  "lat": 38.2931091,
+  "lng": -122.5196168,
+  "geo_method": "site map link",
+  "geo_confidence": "high",
+  "geo_notes": "Coordinates from the !3d/!4d parameters of the venue's own Google Maps link (goo.gl/maps/LxrrtK6od2xm7ziN7 -> google.com/maps/place/2300+Grove+St). Nominatim was rate-limited (HTTP 429) on every attempt for this address.",
+  "thumb": "01.jpg",
+  "images": [
+    {
+      "file": "01.jpg",
+      "source_url": "https://www.thewesterbekeranch.com/wp-content/uploads/2014/08/Westerbeke_ranch_Sonoma_meeting_retreats_weddings_napa_events_conference_0086.jpg",
+      "page_url": "https://www.thewesterbekeranch.com/explore/gallery/",
+      "credit": "Westerbeke Ranch (official site)",
+      "caption": "Adobe main house patio with Mexican tile roof and equipale chairs",
+      "width": 800,
+      "height": 460
+    },
+    {
+      "file": "02.jpg",
+      "source_url": "https://www.thewesterbekeranch.com/wp-content/uploads/2014/08/Westerbeke_ranch_Sonoma_meeting_retreats_weddings_napa_events_conference_0215.jpg",
+      "page_url": "https://www.thewesterbekeranch.com/explore/gallery/",
+      "credit": "Westerbeke Ranch (official site)",
+      "caption": "Pool and main house from the lawn under the oaks",
+      "width": 800,
+      "height": 507
+    },
+    {
+      "file": "03.jpg",
+      "source_url": "https://www.thewesterbekeranch.com/wp-content/uploads/2014/08/Westerbeke_ranch_Sonoma_meeting_retreats_weddings_napa_events_conference_0093.jpg",
+      "page_url": "https://www.thewesterbekeranch.com/explore/gallery/",
+      "credit": "Westerbeke Ranch (official site)",
+      "caption": "Dining room with stone fireplace and papel picado",
+      "width": 800,
+      "height": 531
+    },
+    {
+      "file": "04.jpg",
+      "source_url": "https://www.thewesterbekeranch.com/wp-content/uploads/2014/08/Westerbeke_ranch_Sonoma_meeting_retreats_weddings_napa_events_conference_0223.jpg",
+      "page_url": "https://www.thewesterbekeranch.com/explore/gallery/",
+      "credit": "Westerbeke Ranch (official site)",
+      "caption": "Casa Nueva meeting room set for a meditation retreat",
+      "width": 800,
+      "height": 413
+    },
+    {
+      "file": "05.jpg",
+      "source_url": "https://www.thewesterbekeranch.com/wp-content/uploads/2014/08/Westerbeke_ranch_Sonoma_meeting_retreats_weddings_napa_events_conference_0209.jpg",
+      "page_url": "https://www.thewesterbekeranch.com/yourstay/cabins/",
+      "credit": "Westerbeke Ranch (official site)",
+      "caption": "Yellow guest cabin with porch",
+      "width": 800,
+      "height": 533
+    },
+    {
+      "file": "06.jpg",
+      "source_url": "https://www.thewesterbekeranch.com/wp-content/uploads/2014/08/Westerbeke_ranch_Sonoma_meeting_retreats_weddings_napa_events_conference_0227.jpg",
+      "page_url": "https://www.thewesterbekeranch.com/explore/gallery/",
+      "credit": "Westerbeke Ranch (official site)",
+      "caption": "The Round House meeting room",
+      "width": 800,
+      "height": 515
+    }
+  ],
+  "notes": "WordPress site (2014-era theme). The entire photo library tops out at 800px wide: the gallery has ~200 images all at 800px, the only larger files are 1680x423/450 banner crops, and the WP media API's 2400px files are screenshots of other websites. No -scaled variants exist. So all six images are 800px, above the 700px floor but below the 1200px ideal. Building names confirmed from the site: Casa Nueva (meeting room), The Round House (meeting room), color-named cabins (yellow, blue, green, orange, red)."
+}

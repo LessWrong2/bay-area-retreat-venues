@@ -1,0 +1,49 @@
+{
+  "id": "saratoga-springs",
+  "address": "10243 Saratoga Springs Rd, Upper Lake, CA 95485",
+  "lat": 39.1748543,
+  "lng": -122.9808979,
+  "geo_method": "wikipedia",
+  "geo_confidence": "high",
+  "geo_notes": "Nominatim could not geocode the address. OSM has a 'Saratoga Springs Retreat Center' node (leisure=resort, addr 10243 Saratoga Springs Road) at 39.1748543,-122.9808979; Wikipedia 'Saratoga Springs, California' gives 39.17528,-122.98083; US Census geocoder gives 39.1762,-122.9826. All agree within ~200 m. Location is ~4 mi west of Upper Lake off Hwy 20 at the end of Saratoga Springs Rd (Lake County) — NOT the town of Saratoga in Santa Clara County.",
+  "thumb": "01.jpg",
+  "images": [
+    {
+      "file": "01.jpg",
+      "source_url": "https://saratogasprings.com/vintage/Newsletter/IMG_4091.jpg",
+      "page_url": "https://saratogasprings.com/vintage/",
+      "credit": "Saratoga Springs Retreat Center (official site)",
+      "caption": "Historic main lodge under the valley oaks",
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "file": "02.jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/en/5/55/Saratoge_Springs%2C_main_lodge.JPG",
+      "page_url": "https://en.wikipedia.org/wiki/File:Saratoge_Springs,_main_lodge.JPG",
+      "credit": "Elacy via Wikipedia, CC BY-SA 3.0",
+      "caption": "Main lodge front with double veranda",
+      "width": 3264,
+      "height": 2448
+    },
+    {
+      "file": "03.jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/en/a/a5/Saratoga_Springs_cabins.JPG",
+      "page_url": "https://en.wikipedia.org/wiki/File:Saratoga_Springs_cabins.JPG",
+      "credit": "Elacy via Wikipedia, CC BY-SA 3.0",
+      "caption": "Historic guest cabins",
+      "width": 3264,
+      "height": 2448
+    },
+    {
+      "file": "04.jpg",
+      "source_url": "https://lakecounty.com/wp-content/uploads/2016/03/SaratogaSprings.jpg",
+      "page_url": "https://lakecounty.com/accommodation/saratoga-springs-retreat-and-conference-center/",
+      "credit": "Lake County Tourism (lakecounty.com)",
+      "caption": "Entry drive past the lodge and cabins",
+      "width": 745,
+      "height": 535
+    }
+  ],
+  "notes": "Official site saratogasprings.com redirects to /vintage/ — a 2020-era static site ('last updated July 11, 2020') whose photos are almost all 200-600 px wide; the only large official image is the newsletter lodge photo used as 01. No Heart Lodge, pool or labyrinth photos at usable resolution anywhere official. Two CC BY-SA photos hosted on English Wikipedia (not Commons) were used, plus one 745 px travel-site image that is a larger copy of the site's own banner. Yelp has 16 user photos (bedroom/picnic-table snapshots) — not used. The Hexenfest festival (Oct 2025) lists the center as its venue, so it is still operating. Site text: exclusive use for groups of 25+, 2-10 night stays, 260 acres."
+}

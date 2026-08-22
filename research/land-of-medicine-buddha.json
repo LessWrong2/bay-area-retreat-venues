@@ -1,0 +1,67 @@
+{
+  "id": "land-of-medicine-buddha",
+  "address": "5800 Prescott Road, Soquel, CA 95073",
+  "lat": 37.0109,
+  "lng": -121.9344,
+  "geo_method": "OSM feature (guest house building) after nominatim returned road centroid",
+  "geo_confidence": "high",
+  "geo_notes": "Nominatim only matched 'Prescott Road' (37.0042,-121.9388, a road centroid ~800 m away). OSM has 'Land of Medicine Buddha' tagged tourism=guest_house building at 37.01087,-121.93443 (the main campus/entrance) and the temple (place_of_worship) at 37.01416,-121.93179 up the hill. Address confirmed on the official site.",
+  "thumb": "01.jpg",
+  "images": [
+    {
+      "file": "01.jpg",
+      "source_url": "https://landofmedicinebuddha.org/wp-content/uploads/2024/08/DSC09329.jpg",
+      "page_url": "https://landofmedicinebuddha.org/sacred-sites/",
+      "credit": "Land of Medicine Buddha (official site)",
+      "caption": "Wish-Fulfilling Temple exterior",
+      "width": 3936,
+      "height": 2568
+    },
+    {
+      "file": "02.jpg",
+      "source_url": "https://landofmedicinebuddha.org/wp-content/uploads/2024/07/WFT-2024-IMG_1726-copy.jpg",
+      "page_url": "https://landofmedicinebuddha.org/visit/wish-fulfilling-temple/",
+      "credit": "Land of Medicine Buddha (official site)",
+      "caption": "Wish-Fulfilling Temple interior",
+      "width": 4011,
+      "height": 2375
+    },
+    {
+      "file": "03.jpg",
+      "source_url": "https://landofmedicinebuddha.org/wp-content/uploads/2024/07/IMG_1712-copy-1.jpg",
+      "page_url": "https://landofmedicinebuddha.org/",
+      "credit": "Land of Medicine Buddha (official site)",
+      "caption": "Entrance courtyard with prayer wheel pavilion, prayer flags and guest building",
+      "width": 4028,
+      "height": 2719
+    },
+    {
+      "file": "04.jpg",
+      "source_url": "https://landofmedicinebuddha.org/wp-content/uploads/2023/03/STAY-GroupRentals-Banner.jpg",
+      "page_url": "https://landofmedicinebuddha.org/stay/group-rentals/",
+      "credit": "Land of Medicine Buddha (official site)",
+      "caption": "Wooden deck overlooking the meadow, used for outdoor sessions",
+      "width": 1800,
+      "height": 1350
+    },
+    {
+      "file": "05.jpg",
+      "source_url": "https://landofmedicinebuddha.org/wp-content/uploads/2023/03/Treetops-building-2-1.jpg",
+      "page_url": "https://landofmedicinebuddha.org/stay/personal-getaway/",
+      "credit": "Land of Medicine Buddha (official site)",
+      "caption": "Treetops guest-room building",
+      "width": 1200,
+      "height": 900
+    },
+    {
+      "file": "06.jpg",
+      "source_url": "https://landofmedicinebuddha.org/wp-content/uploads/2023/03/VISIT-SacredSites-Gompa.jpg",
+      "page_url": "https://landofmedicinebuddha.org/sacred-sites/",
+      "credit": "Land of Medicine Buddha (official site)",
+      "caption": "Gompa (meditation hall) interior",
+      "width": 1284,
+      "height": 982
+    }
+  ],
+  "notes": "The booking URL in venues-base (stay.landofmedicinebuddha.org/...) returned HTTP 500 and the stay. subdomain root returned 403 at research time; the main site's equivalent pages are https://landofmedicinebuddha.org/stay/group-rentals/ and /group-rentals/. Several images on the site are stock (Depositphotos/Unsplash) and were excluded. WordPress site; '-scaled' originals are served as WebP by default."
+}

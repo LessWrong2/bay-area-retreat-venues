@@ -1,0 +1,67 @@
+{
+  "id": "green-mountain-retreat",
+  "address": "19480 Bear Creek Rd, Los Gatos, CA 95033",
+  "lat": 37.1731628,
+  "lng": -122.008872,
+  "geo_method": "nominatim address",
+  "geo_confidence": "high",
+  "geo_notes": "Nominatim returned the OSM amenity=conference_center node named 'Green Mountain Retreat' at this address (not a town centroid).",
+  "thumb": "01.jpg",
+  "images": [
+    {
+      "file": "01.jpg",
+      "source_url": "https://static.wixstatic.com/media/a02c0e_34cc7b8c2fd64c8b9a04d24d1d4e88fa~mv2.jpg",
+      "page_url": "https://www.greenmountainretreat.com/retreats",
+      "credit": "Green Mountain Retreat (official site)",
+      "caption": "Labyrinth on the front lawn with the white stucco main building behind",
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "file": "02.jpg",
+      "source_url": "https://static.wixstatic.com/media/a02c0e_b8ff0ed427c540d6b2815b546473372f~mv2.jpg",
+      "page_url": "https://www.greenmountainretreat.com/",
+      "credit": "Green Mountain Retreat (official site)",
+      "caption": "Conference/meeting building in the meadow, redwoods behind",
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "file": "03.jpg",
+      "source_url": "https://static.wixstatic.com/media/a02c0e_f1a74a37ec16498aacc1d3271afb7f7e~mv2.jpg",
+      "page_url": "https://www.greenmountainretreat.com/",
+      "credit": "Green Mountain Retreat (official site)",
+      "caption": "Redwood amphitheater (panorama)",
+      "width": 1920,
+      "height": 896
+    },
+    {
+      "file": "04.jpg",
+      "source_url": "https://static.wixstatic.com/media/a02c0e_913e8365676445f98d31412f5b582172~mv2.jpg",
+      "page_url": "https://www.greenmountainretreat.com/",
+      "credit": "Green Mountain Retreat (official site)",
+      "caption": "Lounge with carved stone fireplace in the main building",
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "file": "05.jpg",
+      "source_url": "https://static.wixstatic.com/media/a02c0e_9ebf0015375241e8837e730389e36a11~mv2.jpg",
+      "page_url": "https://www.greenmountainretreat.com/retreats",
+      "credit": "Green Mountain Retreat (official site)",
+      "caption": "Dining hall (capacity 120, doubles as meeting space)",
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "file": "06.jpg",
+      "source_url": "https://static.wixstatic.com/media/4d1ed0_d6f8f2b5f81b4de58f5ed3047556fd0d~mv2.jpg",
+      "page_url": "https://www.greenmountainretreat.com/lodging",
+      "credit": "Green Mountain Retreat (official site)",
+      "caption": "Casa cottage with covered porch",
+      "width": 3941,
+      "height": 2627
+    }
+  ],
+  "notes": "Wix site with ~150 gallery images, the large majority being renovated bedroom/bathroom interiors of the cottages and dorm. Grounds photos are a 2019 HDR series that matches the former Presentation Center campus (white stucco buildings, labyrinth, redwood amphitheater). Site confirms 66 acres, 102-bed dormitory building, dining hall capacity 120, multiple meeting rooms (Cavanaugh Room etc.), amphitheater, labyrinth, pool, bocce, archery, hiking trail. A lake/pond photo (DSC01064) on the retreats page was skipped because it could not be confirmed as on-site. Wix originals are served without transforms; 06 is a 3941x2627 original."
+}

@@ -1,0 +1,67 @@
+{
+  "id": "st-dorothys-rest",
+  "address": "168 St Dorothy Ave, Camp Meeker, CA 95419",
+  "lat": 38.4289925,
+  "lng": -122.9640174,
+  "geo_method": "nominatim address",
+  "geo_confidence": "high",
+  "geo_notes": "Nominatim matched the exact house number as an OSM building way (168 Saint Dorothy Avenue, Camp Meeker). Entrance is off Bohemian Hwy per the site's hand-drawn map.",
+  "thumb": "01.jpg",
+  "images": [
+    {
+      "file": "01.jpg",
+      "source_url": "https://static.wixstatic.com/media/d1baf1_3257e4322d3f49c2a381d52b62ca7818~mv2.png/v1/fit/w_2500,h_2500,q_90/chapel.jpg",
+      "page_url": "https://www.saintdorothysrest.org/",
+      "credit": "St. Dorothy's Rest (official site)",
+      "caption": "Redwood chapel with bell tower among the redwoods",
+      "width": 2500,
+      "height": 1875
+    },
+    {
+      "file": "02.jpg",
+      "source_url": "https://static.wixstatic.com/media/d1baf1_ca929bf3047a44d0999f2e9ae00f83aa~mv2.png/v1/fit/w_2500,h_2500,q_90/main-house.jpg",
+      "page_url": "https://www.saintdorothysrest.org/retreats",
+      "credit": "St. Dorothy's Rest (official site)",
+      "caption": "Main House, the 1901 shingled lodge",
+      "width": 2500,
+      "height": 1875
+    },
+    {
+      "file": "03.jpg",
+      "source_url": "https://static.wixstatic.com/media/ac711f_cfdbfbe65f5d4cbd9d7d4d73b3b9054a~mv2.jpg",
+      "page_url": "https://www.saintdorothysrest.org/retreats",
+      "credit": "St. Dorothy's Rest (official site)",
+      "caption": "Guest building and deck in the redwoods at sunset",
+      "width": 3072,
+      "height": 4080
+    },
+    {
+      "file": "04.jpg",
+      "source_url": "https://static.wixstatic.com/media/f07472_5dcbd51ead0046c5a70bb3308ccc4a58~mv2.jpg",
+      "page_url": "https://www.saintdorothysrest.org/retreats",
+      "credit": "St. Dorothy's Rest (official site)",
+      "caption": "Covered porch looking out over the Russian River hills",
+      "width": 2631,
+      "height": 2015
+    },
+    {
+      "file": "05.jpg",
+      "source_url": "https://static.wixstatic.com/media/d1baf1_9fa99471980746199866c3381dd7fcfb~mv2.png/v1/fit/w_2500,h_2500,q_90/chapel-sun.jpg",
+      "page_url": "https://www.saintdorothysrest.org/about-us",
+      "credit": "St. Dorothy's Rest (official site)",
+      "caption": "Chapel in afternoon light through the redwoods",
+      "width": 1024,
+      "height": 592
+    },
+    {
+      "file": "06.jpg",
+      "source_url": "https://static.wixstatic.com/media/d1baf1_6813ea3d88b44309aa6ce1c28bdbb1b2~mv2.png/v1/fit/w_2500,h_2500,q_90/view.jpg",
+      "page_url": "https://www.saintdorothysrest.org/",
+      "credit": "St. Dorothy's Rest (official site)",
+      "caption": "Ridge view from the property at dusk",
+      "width": 2500,
+      "height": 1875
+    }
+  ],
+  "notes": "Wix site. The /facilities page is titled '(wip)' and is empty; the hero is an animated GIF and photo galleries are sparse, so images were pulled from the retreats/about-us/home pages. Originals are 20-30 MB phone PNGs (4032x3024); 01/02/05/06 were fetched as Wix-rendered 2500px JPEGs via the /v1/fit/ transform (05 is natively 1024x592). 03 had EXIF orientation 6 and was rotated to its displayed portrait orientation. Retreats page lists per-building bed counts (Main House, Farmer, Lydia, Upper/Lower Miriam) and 2026 rates; minimum 12 people for meals; dorm bedding extra. Email retreats@stdorothysrest.org; office hours Tue-Fri 10-5."
+}

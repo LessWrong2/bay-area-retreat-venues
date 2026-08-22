@@ -1,0 +1,19 @@
+{
+  "id": "camp-navarro",
+  "address": "901 Masonite Industrial Rd, Navarro, CA 95463",
+  "lat": 39.16911,
+  "lng": -123.56673,
+  "geo_method": "nominatim address",
+  "geo_confidence": "high",
+  "geo_notes": "Nominatim returns an OSM tourism=camp_site way named 'Camp Navarro' with address 901 Masonite Industrial Road, Navarro 95463 (centroid 39.1691079,-123.5667341; bbox 39.1643-39.1738, -123.5703 to -123.5597). This matches the site's directions: on CA-128, 1.6 mi past the Navarro General Store, right on Masonite Rd immediately after the first Navarro River bridge, 0.7 mi to the entrance. Note the official street address is Masonite Industrial Rd, NOT Wendling Soda Creek Rd as given in the assignment notes (Wendling is the historic name of Navarro; the site does not use that road name anywhere).",
+  "thumb": "01.jpg",
+  "images": [
+    {"file": "01.jpg", "source_url": "https://images.squarespace-cdn.com/content/v1/54064905e4b072d122d5b8d2/1614707077760-UQ6FADOKRLGQWV812SIJ/Lodge+and+Lawn.jpg?format=2500w", "page_url": "https://www.campnavarro.com/photo-gallery", "credit": "Camp Navarro (official site)", "caption": "The historic two-story lodge (Great Hall) seen across the main lawn, redwoods behind", "width": 2250, "height": 1500},
+    {"file": "02.jpg", "source_url": "https://images.squarespace-cdn.com/content/v1/54064905e4b072d122d5b8d2/1614707073208-JQEG0RQHNT2Z1K2LK3O6/Drone+Plaza+and+river.jpg?format=2500w", "page_url": "https://www.campnavarro.com/photo-gallery", "credit": "Camp Navarro (official site)", "caption": "Aerial view of the plaza, lodge, tent village and the Navarro River", "width": 2500, "height": 1874},
+    {"file": "03.jpg", "source_url": "https://images.squarespace-cdn.com/content/v1/54064905e4b072d122d5b8d2/1614706902024-HLEZEQM7RHP2HQZZNLAK/Camp+Navarro_Cluster+of+Cabins_Photo+Credit+Colin+McCarthy.jpg?format=2500w", "page_url": "https://www.campnavarro.com/photo-gallery", "credit": "Camp Navarro (official site); photo Colin McCarthy", "caption": "Cluster of 1930s-era cabins among the redwoods", "width": 2500, "height": 1667},
+    {"file": "04.jpg", "source_url": "https://images.squarespace-cdn.com/content/v1/54064905e4b072d122d5b8d2/1614707108577-AA5GI4YC96X4C68BF7J3/Meeting+Circle.jpg?format=2500w", "page_url": "https://www.campnavarro.com/photo-gallery", "credit": "Camp Navarro (official site)", "caption": "Group meeting circle on benches in the redwood grove", "width": 1920, "height": 1280},
+    {"file": "05.jpg", "source_url": "https://images.squarespace-cdn.com/content/v1/54064905e4b072d122d5b8d2/1614707011479-FKD7TZV2KDC2VNOP05CX/Commish+Indoors.jpg?format=2500w", "page_url": "https://www.campnavarro.com/photo-gallery", "credit": "Camp Navarro (official site)", "caption": "Cabin interior (the 'Commish' cabin) with wood paneling and French doors", "width": 2500, "height": 1667},
+    {"file": "06.jpg", "source_url": "https://images.squarespace-cdn.com/content/v1/54064905e4b072d122d5b8d2/1614707219112-UGBKQDVL0R852SI8DH7Y/Teepees+in+Redwoods.jpg?format=2500w", "page_url": "https://www.campnavarro.com/photo-gallery", "credit": "Camp Navarro (official site)", "caption": "Glamping tipis set among the redwoods", "width": 1920, "height": 1280}
+  ],
+  "notes": "Squarespace site; CDN serves WebP by default to curl, so images were fetched with an Accept: image/jpeg header to obtain JPEGs. Site footer: 901 Masonite Industrial Rd, Navarro, CA 95463; mailing P.O. Box 346, Navarro; inquiry@campnavarroca.com for event booking, info@campnavarroca.com general, support@campnavarroca.com festival ticketing; site tours by approved request only. Site describes itself as 2.5 hours from SF and 11 miles from the Mendocino coast, with a camp map and printable directions (they warn GPS is unreliable in Anderson Valley). Site also promotes its own festivals (Camp Deep End, Camp Redwoods) and a 'Vintage Boy Scout Camp Navarro' history page."
+}

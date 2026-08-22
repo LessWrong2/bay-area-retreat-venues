@@ -1,0 +1,67 @@
+{
+  "id": "waterfall-lodge",
+  "address": "325 Hidden Falls Trail, Ben Lomond, CA 95005",
+  "lat": 37.0928319,
+  "lng": -122.1160957,
+  "geo_method": "site map link",
+  "geo_confidence": "high",
+  "geo_notes": "From the Squarespace map block on the venue home page (mapLat/mapLng, addressTitle 'Waterfall Lodge & Retreat', addressLine1 '325 Hidden Falls Trail'). Nominatim does not know Hidden Falls Trail; reverse geocoding the point returns Brookdale (95007), the hamlet immediately adjacent to Ben Lomond, about 2.6 km west of Ben Lomond's center, which is consistent with a mountain property.",
+  "thumb": "01.jpg",
+  "images": [
+    {
+      "file": "01.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/613fa9b046bfa54546762de9/71d5712a-b7ee-4f07-9eeb-e3b7f8ca303b/006_dsc06570.jpg",
+      "page_url": "https://www.waterfallsantacruz.com/virtual-tour/lodge",
+      "credit": "Waterfall Lodge & Retreat (official site)",
+      "caption": "The reclaimed-barnwood lodge and paver courtyard",
+      "width": 2000,
+      "height": 1336
+    },
+    {
+      "file": "02.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/613fa9b046bfa54546762de9/f485770c-1452-42ad-8b1a-6ecc7c6c3770/waterfall-lodge-4.jpg",
+      "page_url": "https://www.waterfallsantacruz.com/",
+      "credit": "Waterfall Lodge & Retreat (official site)",
+      "caption": "A-frame cabins on stilts in the redwoods",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "file": "03.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/613fa9b046bfa54546762de9/c15f8c60-8714-4858-861e-dd1eecdfe07f/169_dsc00744.jpg",
+      "page_url": "https://www.waterfallsantacruz.com/virtual-tour/lodge",
+      "credit": "Waterfall Lodge & Retreat (official site)",
+      "caption": "Lodge interior: open timber-frame hall",
+      "width": 2000,
+      "height": 1336
+    },
+    {
+      "file": "04.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/613fa9b046bfa54546762de9/96ba1b31-a0f2-436f-a079-f01bc2d97681/Saeb_0286.jpg",
+      "page_url": "https://www.waterfallsantacruz.com/",
+      "credit": "Waterfall Lodge & Retreat (official site)",
+      "caption": "Redwood grove ceremony/gathering site",
+      "width": 2500,
+      "height": 1667
+    },
+    {
+      "file": "05.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/613fa9b046bfa54546762de9/46cea23e-2b35-4e38-b321-0ee934254e79/012_dsc06600.jpg",
+      "page_url": "https://www.waterfallsantacruz.com/virtual-tour/lodge",
+      "credit": "Waterfall Lodge & Retreat (official site)",
+      "caption": "Lodge side entrance and stone patio",
+      "width": 2000,
+      "height": 1336
+    },
+    {
+      "file": "06.jpg",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/613fa9b046bfa54546762de9/d1d7a6e8-0c1f-4186-8ebb-713d529de2cc/062_max_0034.jpg",
+      "page_url": "https://www.waterfallsantacruz.com/virtual-tour/ceremonylocations",
+      "credit": "Waterfall Lodge & Retreat (official site)",
+      "caption": "Outdoor gathering clearing in the redwoods (aerial)",
+      "width": 2000,
+      "height": 1500
+    }
+  ],
+  "notes": "Squarespace site, ~150 images, mostly wedding photography plus cabin interiors. Images fetched with ?format=2500w and an explicit Accept: image/jpeg header (Squarespace otherwise serves WebP). 04 shows a wedding ceremony in the redwood grove; kept because it is the best shot of the grove's scale. Site lists 32 cabins/cottages and a corporate page; it is marketed primarily as a wedding venue."
+}

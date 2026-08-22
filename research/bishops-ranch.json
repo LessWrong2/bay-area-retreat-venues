@@ -1,0 +1,67 @@
+{
+  "id": "bishops-ranch",
+  "address": "5297 Westside Rd, Healdsburg, CA 95448",
+  "lat": 38.54404,
+  "lng": -122.87396,
+  "geo_method": "site map link",
+  "geo_confidence": "high",
+  "geo_notes": "Address confirmed in the site footer (5297 Westside Rd, Healdsburg, CA 95448, 707-433-2440, info@bishopsranch.org). Coordinates from the site's own Google Maps link (maps.app.goo.gl/gjBtWbBWVxf1946q6 -> 'The Bishop's Ranch' place pin at 38.5440405,-122.8739636). Cross-checked against OSM, which has a landuse polygon named 'The Bishop's Ranch' (website bishopsranch.org) centered at 38.5446744,-122.8735674, ~70 m away. The property is about 7 km southwest of downtown Healdsburg on Westside Road above the Russian River; Nominatim's address search only returned the Westside Road segment near town (38.606,-122.877), which is NOT the property and was discarded.",
+  "thumb": "01.jpg",
+  "images": [
+    {
+      "file": "01.jpg",
+      "source_url": "https://static.wixstatic.com/media/daa2cc_6712baf3256340aa81f5253c658f4c69~mv2.jpg",
+      "page_url": "https://www.bishopsranch.org/group-reservations/facilities",
+      "credit": "The Bishop's Ranch (official site)",
+      "caption": "The ivy-covered stone Ranch House, the historic heart of the property",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "file": "02.jpg",
+      "source_url": "https://static.wixstatic.com/media/daa2cc_f84cdd0436144cfe9fd24092416e9bb3~mv2.jpg",
+      "page_url": "https://www.bishopsranch.org/group-reservations",
+      "credit": "The Bishop's Ranch (official site)",
+      "caption": "Aerial view of the ranch, pool and oak-studded hills above the Russian River valley",
+      "width": 2000,
+      "height": 1124
+    },
+    {
+      "file": "03.jpg",
+      "source_url": "https://static.wixstatic.com/media/daa2cc_2c03c30e78ea41e28be34edc1c2bb06f~mv2.jpg",
+      "page_url": "https://www.bishopsranch.org/group-reservations/facilities",
+      "credit": "The Bishop's Ranch (official site)",
+      "caption": "Interior of the large conference hall with wood floor and arched timber ceiling",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "file": "04.jpg",
+      "source_url": "https://static.wixstatic.com/media/daa2cc_3d8c8150f34040079f3a1b6e258c1bd2~mv2.jpg",
+      "page_url": "https://www.bishopsranch.org/group-reservations/facilities",
+      "credit": "The Bishop's Ranch (official site)",
+      "caption": "The Chapel of St. George on the lawn",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "file": "05.jpg",
+      "source_url": "https://static.wixstatic.com/media/daa2cc_34df6905e62a45578ece3195665032e9~mv2.jpg",
+      "page_url": "https://www.bishopsranch.org/group-reservations/facilities",
+      "credit": "The Bishop's Ranch (official site)",
+      "caption": "Two-story lodge building with balconies, set among trees",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "file": "06.jpg",
+      "source_url": "https://static.wixstatic.com/media/daa2cc_907a71dd04ac400688def8e4a03bdb2a~mv2.jpg",
+      "page_url": "https://www.bishopsranch.org/group-reservations/facilities",
+      "credit": "The Bishop's Ranch (official site)",
+      "caption": "Cottage living room with fireplace and vaulted ceiling",
+      "width": 2000,
+      "height": 1333
+    }
+  ],
+  "notes": "Wix site; originals were fetched by stripping everything after /v1/ from the static.wixstatic.com URLs (most are 2000 px on the long side). Founded 1947 when the Episcopal Diocese of California bought the Ranch House and 63 acres; now a 501(c)(3) on 365 acres. Group Reservations page states the Ranch 'exclusively hosts nonprofit groups who exist for religious, charitable or community benefit' and gives priority booking to Exclusive Use and recurring groups (including Diocese parishes). Site sections: Facilities, Dining, Sample Packages, Pricing Structure, Inquire Now; also individual retreats, life events, summer camp, Chapel of St. George. Staff headshots on the About page were excluded from image candidates."
+}

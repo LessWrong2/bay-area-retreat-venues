@@ -1,0 +1,67 @@
+{
+ "id": "mount-madonna",
+ "address": "445 Summit Rd, Watsonville, CA 95076",
+ "lat": 37.02558,
+ "lng": -121.74461,
+ "geo_method": "site map link",
+ "geo_confidence": "high",
+ "geo_notes": "Address confirmed in the site footer (445 Summit Road, Watsonville, CA 95076). Coordinates from the site's own Google Maps link (maps.app.goo.gl/U4h67RvqnDVVeBRV7 -> 'Mount Madonna Center' place pin at 37.0255775,-121.7446136); the directions-page embeds geocode the street address to 37.0255453,-121.7433674, ~110 m east, consistent. On the Santa Cruz Mountains ridge above Hecker Pass (Hwy 152), between Watsonville and Gilroy.",
+ "thumb": "01.jpg",
+ "images": [
+  {
+   "file": "01.jpg",
+   "source_url": "https://mountmadonna.org/wp-content/uploads/2023/05/02-conference-center-exterior-california.jpg",
+   "page_url": "https://mountmadonna.org/host-your-group/",
+   "credit": "Mount Madonna Center (official site)",
+   "caption": "Conference Center entrance courtyard and covered pavilion",
+   "width": 1200,
+   "height": 800
+  },
+  {
+   "file": "02.jpg",
+   "source_url": "https://mountmadonna.org/wp-content/uploads/2022/11/mount-madonna-mountain-b.jpg",
+   "page_url": "https://mountmadonna.org/",
+   "credit": "Mount Madonna Center (official site)",
+   "caption": "Aerial view of the ridge-top campus with forested hills rolling toward Monterey Bay",
+   "width": 1800,
+   "height": 1008
+  },
+  {
+   "file": "03.jpg",
+   "source_url": "https://mountmadonna.org/wp-content/uploads/2023/05/16-conference-center-interior-california.jpg",
+   "page_url": "https://mountmadonna.org/host-your-group/",
+   "credit": "Mount Madonna Center (official site)",
+   "caption": "Large meeting room in the Conference Center set with floor cushions and chairs",
+   "width": 1200,
+   "height": 800
+  },
+  {
+   "file": "04.jpg",
+   "source_url": "https://mountmadonna.org/wp-content/uploads/2023/05/08-conference-center-exterior-california.jpg",
+   "page_url": "https://mountmadonna.org/host-your-group/",
+   "credit": "Mount Madonna Center (official site)",
+   "caption": "Conference Center patio with lounge chairs and the view over the forested ridge",
+   "width": 1200,
+   "height": 800
+  },
+  {
+   "file": "05.jpg",
+   "source_url": "https://mountmadonna.org/wp-content/uploads/2023/05/02-seminar-house-exterior-venue.jpg",
+   "page_url": "https://mountmadonna.org/host-your-group/",
+   "credit": "Mount Madonna Center (official site)",
+   "caption": "Seminar House on its hillside among oaks and redwoods",
+   "width": 1200,
+   "height": 800
+  },
+  {
+   "file": "06.jpg",
+   "source_url": "https://mountmadonna.org/wp-content/uploads/2024/02/campus-hero-image.jpg",
+   "page_url": "https://mountmadonna.org/about/our-campus/",
+   "credit": "Mount Madonna Center (official site)",
+   "caption": "Pond and meadow on the campus with Monterey Bay in the distance",
+   "width": 2200,
+   "height": 900
+  }
+ ],
+ "notes": "WordPress site run by the Hanuman Fellowship (501(c)(3)); 'Host Your Group' page lists Conference Center, Seminar House and Orchard House as bookable venues, plus accommodations in Conference Center rooms, Oaks cabins, yurts, Ram Cottage, glamping tents, camping and own-vehicle camping; vegetarian meals; Kaya Kalpa Wellness Center on site. Site contact: reception@mountmadonna.org, +1 408-847-0406. The campus also contains the Sankat Mochan Hanuman Temple and runs its own yoga/Ayurveda schools and annual retreats; the calendar shows the center busy with its own programs around major holidays (e.g. Navaratri Oct 11-20, 2026; New Year's retreat Dec 28-Jan 1). Many site images are served as WebP; JPEG originals were chosen where available."
+}

@@ -1,0 +1,67 @@
+{
+  "id": "lodge-at-marconi",
+  "address": "18500 State Hwy 1, Marshall, CA 94940",
+  "lat": 38.144256,
+  "lng": -122.8780054,
+  "geo_method": "nominatim address",
+  "geo_confidence": "high",
+  "geo_notes": "Nominatim returned the OSM leisure=park feature 'Marconi Conference Center & Historic Park' with housenumber 18500. Wikidata Q49521579 gives 38.143056, -122.876667, about 150 m away; the two agree. The lodge buildings sit on the bay-side hillside within the 62-acre park, so either point is within the property. Address confirmed on the venue site footer.",
+  "thumb": "01.jpg",
+  "images": [
+    {
+      "file": "01.jpg",
+      "source_url": "https://lodgeatmarconi.com/wp-content/uploads/2024/03/MAR-BrianFerry-20231011-914-2000px.jpg",
+      "page_url": "https://lodgeatmarconi.com/",
+      "credit": "Lodge at Marconi (official site)",
+      "caption": "Guest lodges and fire circle under the pines",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "file": "02.jpg",
+      "source_url": "https://lodgeatmarconi.com/wp-content/uploads/2025/01/LAM-@michaellaxphoto-DJI_20241220080906_0394_D.jpg",
+      "page_url": "https://lodgeatmarconi.com/",
+      "credit": "Lodge at Marconi (official site)",
+      "caption": "Aerial of the lodge buildings on the hillside above Tomales Bay",
+      "width": 1920,
+      "height": 1438
+    },
+    {
+      "file": "03.jpg",
+      "source_url": "https://lodgeatmarconi.com/wp-content/uploads/2024/01/hero.jpg",
+      "page_url": "https://lodgeatmarconi.com/the-park/",
+      "credit": "Lodge at Marconi (official site)",
+      "caption": "Aerial of the 62-acre state historic park and Tomales Bay",
+      "width": 2500,
+      "height": 1874
+    },
+    {
+      "file": "04.jpg",
+      "source_url": "https://lodgeatmarconi.com/wp-content/uploads/2024/03/MAR-BrianFerry-20231011-802-Edit-ret-2000px.jpg",
+      "page_url": "https://lodgeatmarconi.com/gather/",
+      "credit": "Lodge at Marconi (official site)",
+      "caption": "Mable's restaurant dining room",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "file": "05.jpg",
+      "source_url": "https://lodgeatmarconi.com/wp-content/uploads/2024/07/LAM-Asher-202405-240430_LODGE_AT_MARCONI_05_1121-2000px.jpg",
+      "page_url": "https://lodgeatmarconi.com/gather/",
+      "credit": "Lodge at Marconi (official site)",
+      "caption": "Buck Hall event space",
+      "width": 2000,
+      "height": 1333
+    },
+    {
+      "file": "06.jpg",
+      "source_url": "https://lodgeatmarconi.com/wp-content/uploads/2024/03/MAR-MarconiEvent2022_0810_144344-2322_SAG-1920px.jpg",
+      "page_url": "https://lodgeatmarconi.com/gather/",
+      "credit": "Lodge at Marconi (official site)",
+      "caption": "Outdoor amphitheater benches in the woods",
+      "width": 1920,
+      "height": 1280
+    }
+  ],
+  "notes": "lodgeatmarconi.com returns HTTP 403 to curl's default User-Agent; a full Chrome UA string gets through. WordPress site with no sitemap exposed; ~200 image files found across home, gather, stay, the-lodge, the-park and gallery pages. Sizes on disk are suffixed -300x200/-768x512/-1536x1024, originals are the unsuffixed files (1920-4000px). The English Wikipedia article for Marconi Conference Center State Historic Park is a redirect to Tomales Bay#Marconi Conference Center. Site describes 'a 62-acre historic state park overlooking Tomales Bay', with the restaurant Mable's, Buck Hall, an A-frame, and an outdoor amphitheater. 04 caption (Mable's) is inferred from the Brian Ferry dining-room photo series on the gather page."
+}

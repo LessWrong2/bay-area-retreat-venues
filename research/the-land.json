@@ -1,0 +1,19 @@
+{
+  "id": "the-land",
+  "address": "18501 Van Zandt Resort Rd, Philo, CA 95466",
+  "lat": 39.05195,
+  "lng": -123.44851,
+  "geo_method": "site map link",
+  "geo_confidence": "high",
+  "geo_notes": "Coordinates from the Google Maps place link on the-land.us/visiting (goo.gl/maps/tq1rkngX2sGtXtkb9 -> 'The Land' @39.0519487,-123.4485054), about 1.5 km south of Philo village at the end of Van Zandt Resort Road on the Navarro River. OSM has Van Zandt Resort Road at 39.0599,-123.4447 (consistent). The site's JSON-LD lists geo 39.0429,-123.4283, which is ~2.4 km off and appears to be a rough approximation; the Google pin was preferred. Nominatim was rate-limiting (429) during research so the address itself was not house-number geocoded.",
+  "thumb": "01.jpg",
+  "images": [
+    {"file": "01.jpg", "source_url": "https://the-land.us/__l5e/assets-v1/f3dc2fad-8acb-4eb4-9511-11cafb2cf2e5/explore-6.jpg", "page_url": "https://the-land.us/corporate-retreats", "credit": "The Land (official site)", "caption": "Two-story redwood lodge building with green metal roof, set among oaks and redwoods", "width": 1500, "height": 842},
+    {"file": "02.jpg", "source_url": "https://the-land.us/__l5e/assets-v1/575966c3-7eda-4e60-9519-9747620dd264/home-1.jpg", "page_url": "https://the-land.us/", "credit": "The Land (official site)", "caption": "Aerial view of the Navarro River winding through redwood forest on the property", "width": 2400, "height": 1295},
+    {"file": "03.jpg", "source_url": "https://the-land.us/__l5e/assets-v1/a821a347-9182-473b-ac8f-7bca4cca871e/gallery-8.jpg", "page_url": "https://the-land.us/gallery", "credit": "The Land (official site)", "caption": "Dining lodge interior with long tables and stone fireplace", "width": 1200, "height": 1200},
+    {"file": "04.jpg", "source_url": "https://the-land.us/__l5e/assets-v1/a0b0f429-dc27-4384-a833-78957fcb882f/gallery-14.jpg", "page_url": "https://the-land.us/gallery", "credit": "The Land (official site)", "caption": "Timber-frame practice / meeting hall interior with cushions", "width": 2400, "height": 1600},
+    {"file": "05.jpg", "source_url": "https://the-land.us/__l5e/assets-v1/d8e9c4d2-4518-4051-befa-dfd2040c4493/explore-3.jpg", "page_url": "https://the-land.us/explore-the-land", "credit": "The Land (official site)", "caption": "Glamping tents under the redwoods", "width": 1200, "height": 1200},
+    {"file": "06.jpg", "source_url": "https://the-land.us/__l5e/assets-v1/96bf7699-c708-4625-b7f4-99324d183799/gallery-9.jpg", "page_url": "https://the-land.us/gallery", "credit": "The Land (official site)", "caption": "Lodge at dusk with string lights over the outdoor seating area", "width": 1200, "height": 1198}
+  ],
+  "notes": "Site (the-land.us) is a custom React/Lovable build; images are served from /__l5e/assets-v1/ paths. The site now brands the property as a 162-acre retreat center in Anderson Valley and also as 'The Eros Monastery' (practice-infused stays), with a 'True North' retreat and a Women's Retreat program; it hosts corporate retreats and weddings. Directions page says check-in 2-6pm, all guests 18+, alcohol/cannabis-free property, saltwater pool and Navarro River access, AT&T/T-Mobile work but Verizon does not. Phone (707) 485-3117 and info@the-land.us confirmed on site."
+}

@@ -1,0 +1,67 @@
+{
+ "id": "sea-ranch-lodge",
+ "address": "60 Sea Walk Drive, The Sea Ranch, CA 95497",
+ "lat": 38.68094,
+ "lng": -123.4296,
+ "geo_method": "nominatim address",
+ "geo_confidence": "high",
+ "geo_notes": "Nominatim for '60 Sea Walk Dr' returns the Sea Ranch Post Office (38.68028, -123.42893), which is physically part of the lodge complex (the home-page video poster shows the post office under the lodge sign). Nominatim for 'Sea Ranch Lodge' returns the OSM hotel building at 38.68094, -123.42960 (used here) and a tourism=hotel node at 38.68039, -123.42910; all within ~80 m. Address confirmed in the site footer.",
+ "thumb": "01.jpg",
+ "images": [
+  {
+   "file": "01.jpg",
+   "source_url": "https://www.thesearanchlodge.com/images/hero/full/-drone-and-exterior-from-bluff-trail-web-2.jpg",
+   "page_url": "https://www.thesearanchlodge.com/lodging",
+   "credit": "The Sea Ranch Lodge (official site)",
+   "caption": "Aerial view of the lodge on the bluffs above the cove",
+   "width": 1920,
+   "height": 1200
+  },
+  {
+   "file": "02.jpg",
+   "source_url": "https://www.thesearanchlodge.com/images/hero/full/sea-ranch-day-1-previews-27.jpg",
+   "page_url": "https://www.thesearanchlodge.com/lodging/lodge-rooms",
+   "credit": "The Sea Ranch Lodge (official site)",
+   "caption": "Lodge rooms wing at sunset, looking down the coast",
+   "width": 2628,
+   "height": 1642
+  },
+  {
+   "file": "03.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Sea_Ranch_Lodge%2C_Exterior_%282024%29-L1004456.jpg/3840px-Sea_Ranch_Lodge%2C_Exterior_%282024%29-L1004456.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Sea_Ranch_Lodge,_Exterior_(2024)-L1004456.jpg",
+   "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
+   "caption": "Lodge exterior with the glass-walled dining room and meadow terrace (2024)",
+   "width": 3840,
+   "height": 2551
+  },
+  {
+   "file": "04.jpg",
+   "source_url": "https://www.thesearanchlodge.com/images/content/lodging/sub-hero/sea-ranch-lodge-round-1-interior-selects-web-1.jpg",
+   "page_url": "https://www.thesearanchlodge.com/lodging/lodge-rooms",
+   "credit": "The Sea Ranch Lodge (official site)",
+   "caption": "Lodge room with wood-burning stove and ocean-view window seat",
+   "width": 1920,
+   "height": 1200
+  },
+  {
+   "file": "05.jpg",
+   "source_url": "https://www.thesearanchlodge.com/images/hero/small/North-Buidling-Courtyard-WEB-81-Adam-Potts-Photography.jpg",
+   "page_url": "https://www.thesearanchlodge.com/lodging",
+   "credit": "The Sea Ranch Lodge (official site; photo by Adam Potts Photography)",
+   "caption": "North building courtyard at dusk",
+   "width": 1920,
+   "height": 720
+  },
+  {
+   "file": "06.jpg",
+   "source_url": "https://www.thesearanchlodge.com/images/videos/homepage-postervid.jpg",
+   "page_url": "https://www.thesearanchlodge.com/",
+   "credit": "The Sea Ranch Lodge (official site)",
+   "caption": "Lodge entrance and Sea Ranch post office from the road",
+   "width": 1920,
+   "height": 1080
+  }
+ ],
+ "notes": "Custom (non-CMS) site; most inline content images are small (340-600px) but /images/hero/full/ and /lodging/sub-hero/ hold 1920-2628px originals. Some 'Sea Ranch Living' vacation-home images on the lodging pages are private rental houses managed by the lodge, not the lodge itself, and were excluded. Wikimedia Commons has a 2024 CC BY-SA 4.0 set by Frank Schulenburg (used for 03; original is 9092px, the 3840px rendition was downloaded). Lodge reopened in 2021-22 after a full renovation; 17 rooms."
+}

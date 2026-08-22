@@ -1,0 +1,58 @@
+{
+ "id": "walker-creek-ranch",
+ "address": "1700 Marshall Petaluma Rd, Petaluma, CA 94952",
+ "lat": 38.17374,
+ "lng": -122.81402,
+ "geo_method": "site map link",
+ "geo_confidence": "high",
+ "geo_notes": "The contact page's Google Maps link carries !3d38.1737412!4d-122.8140247; Nominatim independently returns the 'Walker Creek Ranch' building at 38.17373, -122.81405 (and the MCOE landuse polygon centroid at 38.17462, -122.81441). All agree.",
+ "thumb": "01.jpg",
+ "images": [
+  {
+   "file": "01.jpg",
+   "source_url": "https://static.wixstatic.com/media/f401d1_daca6ba02b52463cbd0a188df31e6c47~mv2.jpg",
+   "page_url": "https://www.walkercreekranch.org/floor-plans-maps",
+   "credit": "Walker Creek Ranch (official site)",
+   "caption": "Spring poppies on the hill trail above the main campus in the Walker Creek valley",
+   "width": 1529,
+   "height": 1108
+  },
+  {
+   "file": "02.jpg",
+   "source_url": "https://static.wixstatic.com/media/f401d1_a5ba426e46d440eda4c9cd88ebb82242~mv2_d_2048_1536_s_2.jpg",
+   "page_url": "https://www.walkercreekranch.org/floor-plans-maps",
+   "credit": "Walker Creek Ranch (official site)",
+   "caption": "The 1,741-acre ranch property with Turtle Pond and the campus buildings in the valley",
+   "width": 2048,
+   "height": 1536
+  },
+  {
+   "file": "03.jpg",
+   "source_url": "https://static.wixstatic.com/media/f401d1_9d9723b7f1384db3bfb0545bad641605~mv2_d_2599_1873_s_2.jpg",
+   "page_url": "https://www.walkercreekranch.org/floor-plans-maps",
+   "credit": "Walker Creek Ranch (official site)",
+   "caption": "Willow Lodge meeting room / lounge",
+   "width": 2599,
+   "height": 1873
+  },
+  {
+   "file": "04.jpg",
+   "source_url": "https://static.wixstatic.com/media/f401d1_9a621eb8b6fe41c3bfb972ffcdf19462~mv2_d_2048_1536_s_2.jpeg",
+   "page_url": "https://www.walkercreekranch.org/lodging",
+   "credit": "Walker Creek Ranch (official site)",
+   "caption": "Lodge guest room with two beds",
+   "width": 2048,
+   "height": 1536
+  },
+  {
+   "file": "06.jpg",
+   "source_url": "https://static.wixstatic.com/media/f401d1_b2ed4fd8b3464b558a94abe6732c92f9~mv2_d_2048_1536_s_2.jpeg",
+   "page_url": "https://www.walkercreekranch.org/plan-your-event-1",
+   "credit": "Walker Creek Ranch (official site)",
+   "caption": "Rock outcrop on Walker Peak overlooking the West Marin hills",
+   "width": 2048,
+   "height": 1536
+  }
+ ],
+ "notes": "Wix site; images pulled at original resolution from static.wixstatic.com (part before /v1/). Run by the Marin County Office of Education. Lodging page: four lodges with semi-private 2-5 bed rooms (linens, central heat, Wi-Fi, adjacent bathrooms); 13 cabins with 7-9 bunks (some with private bath, others use a bathhouse); two larger bunkhouses; camping. Conference-center contact on the site is 415-491-6603 / jparker@marinschools.org (base data lists 415-491-6600). Floor plans/maps page exists (floor-plans-maps). The site has no exterior photos of the cabins/lodges themselves; the best establishing shots are the valley views."
+}
