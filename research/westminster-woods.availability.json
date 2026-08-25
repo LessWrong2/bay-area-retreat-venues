@@ -1,0 +1,100 @@
+{
+  "id": "westminster-woods",
+  "checked_on": "2026-08-25",
+  "method": "Westminster Woods runs a Squarespace site with a genuinely useful set of programme pages, all fetched at HTTP 200: /guest-groups (rental policy and FAQ), /weekend-retreats (aliased as /retreat-weekends-overview, their public 'Weekend Retreats and Events' listing), /camp-weekend-retreats (the fall camp programme detail), /womens-weekend, /family-camp, /facilities, /programs-2 and /inquire. There is no booking engine and no guest-group availability calendar - enquiries go through /inquire and mark@westminsterwoods.org - but the venue does publish its own fall programme dates, and that turned out to be decisive. Their weekend events listing shows exactly three dated programmes: Women's Weekend 3/12-3/14, Camp Heartwood 10/16-10/18 and Camp Soulspring 11/20-11/22. Neither page prints a year, so I pinned it by weekday: 10/16-18 and 11/20-22 are Fri-Sun only in 2026 (Oct 16 and Nov 20 both fall on a Friday that year; in 2025 and 2027 they do not), and the pages are live in August 2026 describing the coming fall, so these are 2026 dates. That puts one of their own youth programmes squarely on the group's target weekend. The important limitation on everything below: this calendar lists Westminster Woods' OWN programmes only. Guest-group bookings by outside organisations are never published, so a weekend showing clear here can still be taken. I ran web searches for outside groups announcing 2026 retreats at the Woods and found none with dates in this window.",
+  "booking_policy": "Purpose-built guest-group retreat centre, comfortably sized for 60: 'We are able to hosts groups with 20 to 200 participants, with great package rates that include lodging, delicious meals, meeting rooms, and plenty of outdoor space for fun activities!' Lodging is mixed - dorm-style bunk cabins (bring your own sleeping bag, bathhouses a short walk away) plus three Guest Lodges taking 7-8 adults each, up to 12 maximum, with linens on request. Two season rules matter here and both are favourable for these ten weekends: no group rentals at all in June and July because of summer camp, and during the school year guest-group rentals are restricted to Friday-Sunday weekends because the midweek slots go to their school outdoor-education programmes. A Fri-Sun booking in September or October is therefore exactly the shape of stay they take. Owned by the Presbytery of the Redwoods and Christian in framing, but they host 'church groups, youth and college retreats, adult gatherings, and more'. Weddings are effectively excluded (November-March only, special circumstances), family reunions are rare. Practical notes for a 60-person group: no cell reception on site, WiFi in meeting rooms and guest houses only, no snacks or soda sold on site, and campfires are often banned in warm dry months for fire danger - relevant to September.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "probably_available",
+      "evidence": "Late August falls after the June-July rental blackout ends, and their published fall programme calendar lists nothing this weekend. Only 'probably': the calendar shows Westminster Woods' own programmes, not bookings by outside guest groups, which are never published.",
+      "evidence_quote": "Due to our exciting Summer Programs we do not have availability for group rentals during June and July.",
+      "source_url": "https://www.westminsterwoods.org/guest-groups",
+      "source_label": "Westminster Woods Guest Groups page, rental season policy"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "probably_available",
+      "evidence": "Labor Day weekend, inside the school-year window when guest-group rentals are limited to Fri-Sun - the shape of stay this group wants. Nothing on their programme calendar this weekend, but outside guest-group bookings are invisible, so this is not confirmation.",
+      "evidence_quote": "Westminster Woods is a wonderful location for a retreat or other group getaway!",
+      "source_url": "https://www.westminsterwoods.org/guest-groups",
+      "source_label": "Westminster Woods Guest Groups page"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "probably_available",
+      "evidence": "School-year Fri-Sun window, no Westminster Woods programme scheduled. Same caveat: their calendar does not show outside guest-group bookings.",
+      "evidence_quote": "Westminster Woods is a wonderful location for a retreat or other group getaway!",
+      "source_url": "https://www.westminsterwoods.org/guest-groups",
+      "source_label": "Westminster Woods Guest Groups page"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "probably_available",
+      "evidence": "School-year Fri-Sun window, no Westminster Woods programme scheduled this weekend on their published events listing.",
+      "evidence_quote": "Westminster Woods is a wonderful location for a retreat or other group getaway!",
+      "source_url": "https://www.westminsterwoods.org/guest-groups",
+      "source_label": "Westminster Woods Guest Groups page"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "probably_available",
+      "evidence": "School-year Fri-Sun window, no Westminster Woods programme scheduled this weekend on their published events listing.",
+      "evidence_quote": "Westminster Woods is a wonderful location for a retreat or other group getaway!",
+      "source_url": "https://www.westminsterwoods.org/guest-groups",
+      "source_label": "Westminster Woods Guest Groups page"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "probably_available",
+      "evidence": "Their fall programme calendar demonstrably covers October 2026 - it lists Camp Heartwood on 10/16-18 - and shows nothing on this weekend, which makes the clear reading slightly more meaningful here than in September. Still only 'probably', since outside guest-group bookings are not published.",
+      "evidence_quote": "Westminster Woods is a wonderful location for a retreat or other group getaway!",
+      "source_url": "https://www.westminsterwoods.org/weekend-retreats",
+      "source_label": "Westminster Woods Weekend Retreats and Events listing"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "probably_available",
+      "evidence": "Their fall calendar covers this period and shows nothing this weekend, though it is the weekend immediately before their Camp Heartwood retreat, which may mean staff setup. No published conflict.",
+      "evidence_quote": "Westminster Woods is a wonderful location for a retreat or other group getaway!",
+      "source_url": "https://www.westminsterwoods.org/weekend-retreats",
+      "source_label": "Westminster Woods Weekend Retreats and Events listing"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "probably_not_available",
+      "evidence": "This is the group's target weekend, and Westminster Woods runs its own Camp Heartwood Weekend Retreat on it - listed as '$299 • AGES 7-16 • 10/16 - 10/18' on their weekend events page, with a fuller description on the camp retreats page. It is a residential youth camp weekend using cabins, the dining hall, campfire and the Challenge Course, so it likely occupies much of the site. Not marked 'definitely' because a camp this size (they host up to 200) could in principle run a youth programme alongside a separate guest group, but a 60-person adult retreat sharing the site with a children's camp is unlikely to be offered.",
+      "evidence_quote": "Join us for this special Camp Heartwood Retreat! At Westminster Woods, we bring the magic of summer camp back to our campers every Fall.",
+      "source_url": "https://www.westminsterwoods.org/camp-weekend-retreats",
+      "source_label": "Westminster Woods Camp Weekend Retreats - Camp Heartwood, 10/16-18"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "probably_available",
+      "evidence": "The weekend after Camp Heartwood. Their fall calendar covers this period and lists nothing here; the next scheduled programme is Camp Soulspring on 11/20-22. Outside guest-group bookings remain unpublished.",
+      "evidence_quote": "Westminster Woods is a wonderful location for a retreat or other group getaway!",
+      "source_url": "https://www.westminsterwoods.org/weekend-retreats",
+      "source_label": "Westminster Woods Weekend Retreats and Events listing"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "probably_available",
+      "evidence": "Halloween weekend. Nothing on their published fall programme calendar, which runs through to Camp Soulspring on 11/20-22. Same caveat about unpublished guest-group bookings.",
+      "evidence_quote": "Westminster Woods is a wonderful location for a retreat or other group getaway!",
+      "source_url": "https://www.westminsterwoods.org/weekend-retreats",
+      "source_label": "Westminster Woods Weekend Retreats and Events listing"
+    }
+  ],
+  "sources": [
+    "https://www.westminsterwoods.org/",
+    "https://www.westminsterwoods.org/guest-groups",
+    "https://www.westminsterwoods.org/weekend-retreats",
+    "https://www.westminsterwoods.org/retreat-weekends-overview",
+    "https://www.westminsterwoods.org/camp-weekend-retreats",
+    "https://www.westminsterwoods.org/womens-weekend",
+    "https://www.westminsterwoods.org/family-camp",
+    "https://www.westminsterwoods.org/facilities",
+    "https://www.westminsterwoods.org/programs-2",
+    "https://www.westminsterwoods.org/inquire"
+  ]
+}

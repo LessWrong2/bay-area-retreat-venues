@@ -1,0 +1,96 @@
+{
+  "id": "westerbeke-ranch",
+  "checked_on": "2026-08-25",
+  "method": "Fetched the home, Special Events, Event Details and Rates & Resources pages. The ranch publishes no availability calendar for 2026: its rates page says space books far in advance and to phone the office, and the one calendar it does have (thewesterbekeranch.com/about/calendar/, not linked from the main nav) is abandoned - it lists 'Groups at Westerbeke Ranch' month by month for 2020 and 2021 only, and its WordPress shortcodes render as raw [spb_row] text. So I searched for outside groups advertising stays there and fetched each source directly. Two are dated inside the window: a yoga retreat with Elise Miller and Marla Apt, Oct 2-4, 2026, and Productive Learning's Women's Retreat, Oct 19-23, 2026. A third result, WITHIN Meditation's weekend retreat at Westerbeke, is stale - it is dated April 14-16, 2023. Nothing dated was found for the eight other weekends.",
+  "booking_policy": "The hard constraint is size: 'Overnight accommodations maximum: 52 guests', which is under our ~60, so some of the group would have to double up or commute (event capacity is 120, but that is day guests). Exclusive use is explicit but priced as a floor - 'To secure exclusive use of all overnight accommodations, client agrees to pay total room and board for forty guests'; below that, the remaining cabins may be sold to other guests, and the ranch will not release unused beds to you even if you happen to be the only group. There is a two-night minimum for weekend reservations. Arrival 4:00 PM, departure 3:00 PM, cabin check-out 10:00 AM. Weekend conference rates effective July 1, 2026 are $255/person/night for 33-48+ people, including shared lodging, one meeting room, three meals, pool and hot tub, plus 20% service charge, 14% occupancy tax and 9.25% sales tax. One meeting room is assigned per group; more costs extra. A 50% deposit and signed contract are required, and no outside food or beverage without prior approval.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "The ranch publishes no current availability; its rates page simply warns that space books far ahead and directs you to contact the office, and its own Calendar page has not been updated past 2021.",
+      "evidence_quote": "Please note that space is often booked far in advance.",
+      "source_url": "https://www.thewesterbekeranch.com/yourstay/rates-resources/",
+      "source_label": "Westerbeke Ranch - Rates & Resources"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "unknown",
+      "evidence": "The ranch publishes no current availability; its rates page simply warns that space books far ahead and directs you to contact the office, and its own Calendar page has not been updated past 2021.",
+      "evidence_quote": "Please note that space is often booked far in advance.",
+      "source_url": "https://www.thewesterbekeranch.com/yourstay/rates-resources/",
+      "source_label": "Westerbeke Ranch - Rates & Resources"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "unknown",
+      "evidence": "The ranch publishes no current availability; its rates page simply warns that space books far ahead and directs you to contact the office, and its own Calendar page has not been updated past 2021.",
+      "evidence_quote": "Please note that space is often booked far in advance.",
+      "source_url": "https://www.thewesterbekeranch.com/yourstay/rates-resources/",
+      "source_label": "Westerbeke Ranch - Rates & Resources"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "The ranch publishes no current availability; its rates page simply warns that space books far ahead and directs you to contact the office, and its own Calendar page has not been updated past 2021.",
+      "evidence_quote": "Please note that space is often booked far in advance.",
+      "source_url": "https://www.thewesterbekeranch.com/yourstay/rates-resources/",
+      "source_label": "Westerbeke Ranch - Rates & Resources"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "unknown",
+      "evidence": "The ranch publishes no current availability; its rates page simply warns that space books far ahead and directs you to contact the office, and its own Calendar page has not been updated past 2021.",
+      "evidence_quote": "Please note that space is often booked far in advance.",
+      "source_url": "https://www.thewesterbekeranch.com/yourstay/rates-resources/",
+      "source_label": "Westerbeke Ranch - Rates & Resources"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "definitely_not_available",
+      "evidence": "A dated third-party retreat occupies the ranch across this exact Fri-Sun: the event page's schedule line reads 'October 2 - October 4' and its location field is Westerbeke Ranch. The quote is the event title, since the dates sit in a separate calendar widget rather than in prose.",
+      "evidence_quote": "Yoga Retreat at Westerbeke with Elise Miller and Marla Apt",
+      "source_url": "https://ebmyoga.com/workshops_retreats/yoga-retreat-at-westerbeke-with-elise-miller-and-marla-apt/",
+      "source_label": "Elise Miller Yoga - Workshops & Retreats"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "The ranch publishes no current availability; its rates page simply warns that space books far ahead and directs you to contact the office, and its own Calendar page has not been updated past 2021.",
+      "evidence_quote": "Please note that space is often booked far in advance.",
+      "source_url": "https://www.thewesterbekeranch.com/yourstay/rates-resources/",
+      "source_label": "Westerbeke Ranch - Rates & Resources"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "unknown",
+      "evidence": "The ranch publishes no current availability; its rates page simply warns that space books far ahead and directs you to contact the office, and its own Calendar page has not been updated past 2021.",
+      "evidence_quote": "Please note that space is often booked far in advance.",
+      "source_url": "https://www.thewesterbekeranch.com/yourstay/rates-resources/",
+      "source_label": "Westerbeke Ranch - Rates & Resources"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "probably_not_available",
+      "evidence": "Productive Learning's five-day Women's Retreat runs Mon Oct 19 to Fri Oct 23, 2026 at the ranch, so the site is occupied through the Friday our group would arrive (check-in is 4:00 PM Friday). Saturday and Sunday are probably clear, but a Fri-Sun booking is not, and same-day turnover of a whole-site retreat is unlikely.",
+      "evidence_quote": "Oct 19 - Oct 23, 2026",
+      "source_url": "https://productivelearning.com/workshop/womens-retreat-2026/",
+      "source_label": "Productive Learning - Women's Retreat 2026"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "unknown",
+      "evidence": "The ranch publishes no current availability; its rates page simply warns that space books far ahead and directs you to contact the office, and its own Calendar page has not been updated past 2021.",
+      "evidence_quote": "Please note that space is often booked far in advance.",
+      "source_url": "https://www.thewesterbekeranch.com/yourstay/rates-resources/",
+      "source_label": "Westerbeke Ranch - Rates & Resources"
+    }
+  ],
+  "sources": [
+    "https://www.thewesterbekeranch.com/",
+    "https://www.thewesterbekeranch.com/yourstay/rates-resources/",
+    "https://www.thewesterbekeranch.com/events/details/",
+    "http://www.thewesterbekeranch.com/about/calendar/",
+    "https://ebmyoga.com/workshops_retreats/yoga-retreat-at-westerbeke-with-elise-miller-and-marla-apt/",
+    "https://productivelearning.com/workshop/womens-retreat-2026/"
+  ]
+}

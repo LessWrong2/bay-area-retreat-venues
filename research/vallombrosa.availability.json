@@ -1,0 +1,99 @@
+{
+  "id": "vallombrosa",
+  "checked_on": "2026-08-25",
+  "method": "Vallombrosa runs a dated WordPress site that does have a Calendar of Events page, so I went straight there and then worked outward: vallombrosa.org home, /calendar/, /retreats-conferences-programs/, /accommodations/, /bookevent/, /rts/ and /inquire/, all HTTP 200. The calendar page is the disappointment - it is fully built out with registration instructions, Eventbrite branding and payment terms, but it currently lists no events whatsoever, closing with 'Watch this page for more events planned in 2026.' An empty calendar of that kind carries no information: it does not show past events either, so silence on a given weekend means the page is simply unmaintained, not that the date is free. There is no booking engine and no published rate card - the rates page just says to phone Jaynie Fedele. I then went to the owner, the Archdiocese of San Francisco, whose sfarch.org events system has a venue page for Vallombrosa Retreat Center. That calendar IS live and does cover this period, but the only event it lists is November 13-15, 2026, outside the window. I also chased third-party groups publishing retreats held at Vallombrosa and found the Balance Center's 'Come Home to Your Original Alignment' retreat, held there January 16-18, 2026 - again outside the window. Both Archdiocesan and third-party calendars show only their own bookings, and ordinary group rentals never appear anywhere public, so all ten weekends are unknown.",
+  "booking_policy": "Sized well for 60 people and structured for exactly a Fri-Sun stay: 'groups up to 100 can be accommodated for overnight occupancy', with 20 single rooms in the Lourdes Court and 40 twin-bedded rooms in the Francis and Teresa wings - 60 rooms, every one with its own private bathroom. The calendar page states the standard weekend shape: 'weekend events begin Friday with dinner at 6:00pm and end after lunch on Sunday', with bedrooms ready after 4:00pm Friday. The one real constraint to check before pursuing this venue is guest type. Vallombrosa is owned by the Archdiocese of San Francisco and its own wording is that it 'welcomes groups to use our facility for meetings of a religious, educational or charitable nature'. That is not a flat exclusion and a great many retreats qualify as educational, but a purely social 60-person gathering should confirm it fits before planning around this site. The centre is confirmed open and actively taking group bookings - the home page carries a 2026 copyright and reads 'Vallombrosa is Open for In-Person Group Retreats. Please Call Jaynie at 650-325-5614.' All booking, rates and availability run through Jaynie Fedele, jaynie@vallombrosa.org / 650-325-5614; deposits are non-refundable but transferable within a year.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "The venue's Calendar of Events lists no events at all, so it cannot be read as showing this weekend free. No third-party source names these dates at Vallombrosa.",
+      "evidence_quote": "Watch this page for more events planned in 2026.",
+      "source_url": "https://www.vallombrosa.org/calendar/",
+      "source_label": "Vallombrosa Calendar of Events (currently empty)"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "unknown",
+      "evidence": "Labor Day weekend. The venue calendar is empty and the Archdiocese venue calendar lists nothing at Vallombrosa in September 2026, but neither shows ordinary group rentals.",
+      "evidence_quote": "Watch this page for more events planned in 2026.",
+      "source_url": "https://www.vallombrosa.org/calendar/",
+      "source_label": "Vallombrosa Calendar of Events (currently empty)"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "unknown",
+      "evidence": "No dated public information either way. The Archdiocese of San Francisco venue page for Vallombrosa is live and covers this period but lists only a November 13-15, 2026 event.",
+      "evidence_quote": null,
+      "source_url": "https://sfarch.org/venue/vallombrosa-retreat-center/",
+      "source_label": "Archdiocese of San Francisco - Vallombrosa venue events page"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "No dated public information. Venue calendar empty; Archdiocese venue calendar shows nothing in September 2026.",
+      "evidence_quote": "Watch this page for more events planned in 2026.",
+      "source_url": "https://www.vallombrosa.org/calendar/",
+      "source_label": "Vallombrosa Calendar of Events (currently empty)"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "unknown",
+      "evidence": "No dated public information for this weekend on the venue calendar, the Archdiocese calendar, or any third-party listing.",
+      "evidence_quote": "Watch this page for more events planned in 2026.",
+      "source_url": "https://www.vallombrosa.org/calendar/",
+      "source_label": "Vallombrosa Calendar of Events (currently empty)"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "No dated public information. Neither the venue's own empty calendar nor the Archdiocese venue calendar names anything in October 2026.",
+      "evidence_quote": "Watch this page for more events planned in 2026.",
+      "source_url": "https://www.vallombrosa.org/calendar/",
+      "source_label": "Vallombrosa Calendar of Events (currently empty)"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "No dated public information for this weekend at Vallombrosa.",
+      "evidence_quote": "Watch this page for more events planned in 2026.",
+      "source_url": "https://www.vallombrosa.org/calendar/",
+      "source_label": "Vallombrosa Calendar of Events (currently empty)"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "unknown",
+      "evidence": "The group's target weekend. Nothing is published either way; the Archdiocese calendar covering this period shows no Vallombrosa event until November 13-15, 2026, but group rentals do not appear there. Resolving this needs a call to the Conference Coordinator.",
+      "evidence_quote": null,
+      "source_url": "https://sfarch.org/venue/vallombrosa-retreat-center/",
+      "source_label": "Archdiocese of San Francisco - Vallombrosa venue events page"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "unknown",
+      "evidence": "No dated public information for this weekend at Vallombrosa.",
+      "evidence_quote": "Watch this page for more events planned in 2026.",
+      "source_url": "https://www.vallombrosa.org/calendar/",
+      "source_label": "Vallombrosa Calendar of Events (currently empty)"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "unknown",
+      "evidence": "Halloween weekend. No dated public information; the next event the Archdiocese lists at this venue is November 13-15, 2026.",
+      "evidence_quote": "Watch this page for more events planned in 2026.",
+      "source_url": "https://www.vallombrosa.org/calendar/",
+      "source_label": "Vallombrosa Calendar of Events (currently empty)"
+    }
+  ],
+  "sources": [
+    "https://www.vallombrosa.org/",
+    "https://www.vallombrosa.org/calendar/",
+    "https://www.vallombrosa.org/retreats-conferences-programs/",
+    "https://www.vallombrosa.org/accommodations/",
+    "https://www.vallombrosa.org/bookevent/",
+    "https://www.vallombrosa.org/rts/",
+    "https://www.vallombrosa.org/inquire/",
+    "https://sfarch.org/venue/vallombrosa-retreat-center/",
+    "https://balancecenter.com/retreat2026/"
+  ]
+}

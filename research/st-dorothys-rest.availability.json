@@ -1,0 +1,96 @@
+{
+  "id": "st-dorothys-rest",
+  "checked_on": "2026-08-25",
+  "method": "Fetched the retreats page twice (curl and a real browser render) plus the home, events, book-online and FAQ pages, and walked both Wix sitemaps (pages-sitemap.xml, event-pages-sitemap.xml) to reach every event-detail URL. The retreats page instructs groups to 'check the calendar below', but in a live browser render the page contains no iframe and no calendar widget at all - the embed is missing or broken, so the availability calendar the venue points at is not actually published. The events page lists only spring and early-summer 2026 items (Woods to Waves May 2, Hearts & Hands May 29-31, Camp Comeback June 4-7) and a vague 'Next show coming in September' note for a new music series with no date. The fall event-detail pages in the sitemap (fall-hearts-hands-work-weekend, fall-artists-writers-retreat) resolve to stale 2025 content through the Wix SPA router. The Book Online page is an unconfigured Wix template showing placeholder 'Service Name' items at $19.99, not a working booking engine. Web searches for the venue with 2026 fall dates returned only directory listings (ACA, Yelp, Episcopal Asset Map) with no dated bookings. Nothing dated is published for any of the ten weekends.",
+  "booking_policy": "Whole-site use is gated on group size: the buildings table gives 'Entire Facility - Total Beds: 112 - Minimum needed to book: 65', and the prose says 'A group of 68+ people may reserve the entire facility.' A ~60-person group is BELOW that whole-site threshold and would instead book a combination of buildings (e.g. Main 32 beds + Upper Miriam 22 + Lydia 13 = 67), each with its own minimum (Lydia 8, Farmer 8, Main 7, Miriams none). 2026 rates are $135 single / $105 double / $77 dorm without bedding / $97 dorm with bedding, per person per night; dorm bedding costs extra. Meals are $22 per person per meal with a 12-person minimum. Farmer and Lydia carry a kitchen usage fee for self-catering. Booking is by email inquiry to retreats@stdorothysrest.org, not self-serve; office hours are Tuesday-Friday 10:00-5:00.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "The retreats page tells inquirers to consult an availability calendar, but no calendar renders on the page, so nothing dated is published for this weekend.",
+      "evidence_quote": "check the calendar below and make sure that building isn't currently reserved",
+      "source_url": "https://www.saintdorothysrest.org/retreats",
+      "source_label": "St. Dorothy's Rest - Retreats page"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "unknown",
+      "evidence": "The retreats page tells inquirers to consult an availability calendar, but no calendar renders on the page, so nothing dated is published for this weekend.",
+      "evidence_quote": "check the calendar below and make sure that building isn't currently reserved",
+      "source_url": "https://www.saintdorothysrest.org/retreats",
+      "source_label": "St. Dorothy's Rest - Retreats page"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "unknown",
+      "evidence": "The retreats page tells inquirers to consult an availability calendar, but no calendar renders on the page, so nothing dated is published for this weekend.",
+      "evidence_quote": "check the calendar below and make sure that building isn't currently reserved",
+      "source_url": "https://www.saintdorothysrest.org/retreats",
+      "source_label": "St. Dorothy's Rest - Retreats page"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "The retreats page tells inquirers to consult an availability calendar, but no calendar renders on the page, so nothing dated is published for this weekend.",
+      "evidence_quote": "check the calendar below and make sure that building isn't currently reserved",
+      "source_url": "https://www.saintdorothysrest.org/retreats",
+      "source_label": "St. Dorothy's Rest - Retreats page"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "unknown",
+      "evidence": "The retreats page tells inquirers to consult an availability calendar, but no calendar renders on the page, so nothing dated is published for this weekend.",
+      "evidence_quote": "check the calendar below and make sure that building isn't currently reserved",
+      "source_url": "https://www.saintdorothysrest.org/retreats",
+      "source_label": "St. Dorothy's Rest - Retreats page"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "The retreats page tells inquirers to consult an availability calendar, but no calendar renders on the page, so nothing dated is published for this weekend.",
+      "evidence_quote": "check the calendar below and make sure that building isn't currently reserved",
+      "source_url": "https://www.saintdorothysrest.org/retreats",
+      "source_label": "St. Dorothy's Rest - Retreats page"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "The retreats page tells inquirers to consult an availability calendar, but no calendar renders on the page, so nothing dated is published for this weekend.",
+      "evidence_quote": "check the calendar below and make sure that building isn't currently reserved",
+      "source_url": "https://www.saintdorothysrest.org/retreats",
+      "source_label": "St. Dorothy's Rest - Retreats page"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "unknown",
+      "evidence": "The retreats page tells inquirers to consult an availability calendar, but no calendar renders on the page, so nothing dated is published for this weekend.",
+      "evidence_quote": "check the calendar below and make sure that building isn't currently reserved",
+      "source_url": "https://www.saintdorothysrest.org/retreats",
+      "source_label": "St. Dorothy's Rest - Retreats page"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "unknown",
+      "evidence": "The retreats page tells inquirers to consult an availability calendar, but no calendar renders on the page, so nothing dated is published for this weekend.",
+      "evidence_quote": "check the calendar below and make sure that building isn't currently reserved",
+      "source_url": "https://www.saintdorothysrest.org/retreats",
+      "source_label": "St. Dorothy's Rest - Retreats page"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "unknown",
+      "evidence": "The retreats page tells inquirers to consult an availability calendar, but no calendar renders on the page, so nothing dated is published for this weekend.",
+      "evidence_quote": "check the calendar below and make sure that building isn't currently reserved",
+      "source_url": "https://www.saintdorothysrest.org/retreats",
+      "source_label": "St. Dorothy's Rest - Retreats page"
+    }
+  ],
+  "sources": [
+    "https://www.saintdorothysrest.org/retreats",
+    "https://www.saintdorothysrest.org/",
+    "https://www.saintdorothysrest.org/events",
+    "https://www.saintdorothysrest.org/book-online",
+    "https://www.saintdorothysrest.org/pages-sitemap.xml",
+    "https://www.saintdorothysrest.org/event-pages-sitemap.xml"
+  ]
+}

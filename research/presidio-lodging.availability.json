@@ -1,0 +1,114 @@
+{
+  "id": "presidio-lodging",
+  "checked_on": "2026-08-25",
+  "method": "presidiolodging.com hides its booking engine behind two Blazor WebAssembly subdomains, innres.presidiolodging.com and lodgeres.presidiolodging.com, which I found in the page source of /accommodations/. Those pages server-side prerender the date picker, and they accept ?checkin=YYYY-MM-DD&checkout=YYYY-MM-DD, so I ran a real Fri-Sun date search for each of the ten weekends against each property (20 fetches, all HTTP 200) and read the per-day state classes the picker emits (SoldOut, TwoDayMin, or open). Important gotcha I hit and corrected for: the picker only populates availability from the queried check-in date forward, so reading October off a late-October anchor silently shows everything as open. Anchoring each query on its own Friday fixes that, and the results then reproduce exactly across anchors. I also read /hotel-policies/, /inn-at-the-presidio/meetings-events/ and /faq/. No form was submitted and no reservation was started; these are URL date searches only.",
+  "booking_policy": "Two hotels under one operator, 22 rooms at the Inn (42 Moraga Ave) and 42 at the Lodge (105 Montgomery St), 68 total, plus the 4-bedroom Funston House. That is enough beds for 60 people only if you take most of both properties, so almost every weekend below turns on whether BOTH hotels are selling. Most Fridays and Saturdays carry a published two-night minimum, which a Fri-Sun stay satisfies. Individual reservations cancel free up to 72 hours before a 6pm arrival. Worth flagging as a correction to the venue notes: I could not find a published two-property buyout product anywhere on presidiolodging.com. The meetings page offers only 'For meetings, events or room block inquiries' by email, and the Inn's own meeting rooms are two 425 sq ft spaces holding 20 people each, so there is no single hall for a 60-person plenary on site. A Presidio retreat would mean renting a separate park venue through presidio.gov.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "probably_available",
+      "evidence": "Querying the booking engine for 8/28-8/30 shows the Inn selling Fri 8/28 (two-night minimum) and Sat 8/29, and the Lodge selling both nights, so all 68 rooms across the two properties are in play. Only 'probably': the calendar is a per-room inventory view for a single guest and nothing on the public site confirms a 60-person block or a two-property buyout. Quote is the picker heading, since the calendar itself is a widget with no per-date prose.",
+      "evidence_quote": "Pick dates for Inn at the Presidio",
+      "source_url": "https://innres.presidiolodging.com/?checkin=2026-08-28&checkout=2026-08-30",
+      "source_label": "Inn at the Presidio booking engine, Fri-Sun date search"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "probably_not_available",
+      "evidence": "A Fri-Sun query over Labor Day weekend shows the Lodge sold out on Saturday 9/5. That leaves only the Inn's 22 rooms for the Saturday night, which cannot sleep 60 people even at double occupancy. Quote is the picker heading; the sold-out state is carried by the 9/5 day cell, not by prose.",
+      "evidence_quote": "Pick dates for Lodge at the Presidio",
+      "source_url": "https://lodgeres.presidiolodging.com/?checkin=2026-09-04&checkout=2026-09-06",
+      "source_label": "Lodge at the Presidio booking engine, Fri-Sun date search"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "probably_available",
+      "evidence": "Querying 9/11-9/13 shows both the Inn and the Lodge selling Friday and Saturday nights with only a two-night minimum, which a Fri-Sun stay satisfies. Full 68-room inventory is nominally open. Only 'probably' because the engine prices one guest at a time and no group block or buyout is published.",
+      "evidence_quote": "Pick dates for Inn at the Presidio",
+      "source_url": "https://innres.presidiolodging.com/?checkin=2026-09-11&checkout=2026-09-13",
+      "source_label": "Inn at the Presidio booking engine, Fri-Sun date search"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "probably_available",
+      "evidence": "The Inn is sold out on Friday 9/18, but the Lodge is selling both Friday and Saturday nights, and its 42 rooms can sleep 60 at double occupancy. So the weekend is workable as a Lodge-only booking rather than a two-property one. Quote is the Lodge picker heading.",
+      "evidence_quote": "Pick dates for Lodge at the Presidio",
+      "source_url": "https://lodgeres.presidiolodging.com/?checkin=2026-09-18&checkout=2026-09-20",
+      "source_label": "Lodge at the Presidio booking engine, Fri-Sun date search"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "definitely_not_available",
+      "evidence": "Both properties are sold out on Saturday 9/26: the Inn's and the Lodge's date pickers each render the 26th with the Sold Out state while 9/25 is merely two-night-minimum. With zero rooms available across all 68 on the Saturday night, a Fri-Sun stay is impossible.",
+      "evidence_quote": "Pick dates for Inn at the Presidio",
+      "source_url": "https://innres.presidiolodging.com/?checkin=2026-09-25&checkout=2026-09-27",
+      "source_label": "Inn at the Presidio booking engine, Fri-Sun date search"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "definitely_not_available",
+      "evidence": "Both properties are sold out on Friday 10/2. The Inn and the Lodge both render the 2nd in the Sold Out state, so neither hotel can take the Friday night of a Fri-Sun stay.",
+      "evidence_quote": "Pick dates for Lodge at the Presidio",
+      "source_url": "https://lodgeres.presidiolodging.com/?checkin=2026-10-02&checkout=2026-10-04",
+      "source_label": "Lodge at the Presidio booking engine, Fri-Sun date search"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "definitely_not_available",
+      "evidence": "The strongest negative of the ten: both the Inn and the Lodge are sold out on BOTH Friday 10/9 and Saturday 10/10, and the surrounding weekdays 10/6-10/14 are largely sold out too. This is San Francisco Fleet Week, when Presidio and Marina-side hotels fill months ahead.",
+      "evidence_quote": "Pick dates for Inn at the Presidio",
+      "source_url": "https://innres.presidiolodging.com/?checkin=2026-10-09&checkout=2026-10-11",
+      "source_label": "Inn at the Presidio booking engine, Fri-Sun date search"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "definitely_not_available",
+      "evidence": "Both properties are sold out on Friday 10/16 while Saturday 10/17 is still selling. With no Friday night available at either hotel, a Fri-Sun booking cannot be assembled.",
+      "evidence_quote": "Pick dates for Inn at the Presidio",
+      "source_url": "https://innres.presidiolodging.com/?checkin=2026-10-16&checkout=2026-10-18",
+      "source_label": "Inn at the Presidio booking engine, Fri-Sun date search"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "probably_available",
+      "evidence": "One of only two clean weekends: querying 10/23-10/25 shows both the Inn and the Lodge selling Friday and Saturday with just a two-night minimum, so the full 68 rooms are nominally open. Only 'probably' because a 60-person block or buyout still has to go through their events email and is not published anywhere.",
+      "evidence_quote": "Pick dates for Inn at the Presidio",
+      "source_url": "https://innres.presidiolodging.com/?checkin=2026-10-23&checkout=2026-10-25",
+      "source_label": "Inn at the Presidio booking engine, Fri-Sun date search"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "probably_available",
+      "evidence": "Halloween weekend also queries clean: both hotels sell Friday 10/30 and Saturday 10/31 with a two-night minimum. Same caveat as 10/23 - the engine confirms public room inventory, not a 60-person group block.",
+      "evidence_quote": "Pick dates for Lodge at the Presidio",
+      "source_url": "https://lodgeres.presidiolodging.com/?checkin=2026-10-30&checkout=2026-11-01",
+      "source_label": "Lodge at the Presidio booking engine, Fri-Sun date search"
+    }
+  ],
+  "sources": [
+    "https://presidiolodging.com/",
+    "https://presidiolodging.com/accommodations/",
+    "https://presidiolodging.com/hotel-policies/",
+    "https://presidiolodging.com/inn-at-the-presidio/meetings-events/",
+    "https://innres.presidiolodging.com/?checkin=2026-08-28&checkout=2026-08-30",
+    "https://lodgeres.presidiolodging.com/?checkin=2026-08-28&checkout=2026-08-30",
+    "https://innres.presidiolodging.com/?checkin=2026-09-04&checkout=2026-09-06",
+    "https://lodgeres.presidiolodging.com/?checkin=2026-09-04&checkout=2026-09-06",
+    "https://innres.presidiolodging.com/?checkin=2026-09-11&checkout=2026-09-13",
+    "https://lodgeres.presidiolodging.com/?checkin=2026-09-11&checkout=2026-09-13",
+    "https://innres.presidiolodging.com/?checkin=2026-09-18&checkout=2026-09-20",
+    "https://lodgeres.presidiolodging.com/?checkin=2026-09-18&checkout=2026-09-20",
+    "https://innres.presidiolodging.com/?checkin=2026-09-25&checkout=2026-09-27",
+    "https://lodgeres.presidiolodging.com/?checkin=2026-09-25&checkout=2026-09-27",
+    "https://innres.presidiolodging.com/?checkin=2026-10-02&checkout=2026-10-04",
+    "https://lodgeres.presidiolodging.com/?checkin=2026-10-02&checkout=2026-10-04",
+    "https://innres.presidiolodging.com/?checkin=2026-10-09&checkout=2026-10-11",
+    "https://lodgeres.presidiolodging.com/?checkin=2026-10-09&checkout=2026-10-11",
+    "https://innres.presidiolodging.com/?checkin=2026-10-16&checkout=2026-10-18",
+    "https://lodgeres.presidiolodging.com/?checkin=2026-10-16&checkout=2026-10-18",
+    "https://innres.presidiolodging.com/?checkin=2026-10-23&checkout=2026-10-25",
+    "https://lodgeres.presidiolodging.com/?checkin=2026-10-23&checkout=2026-10-25",
+    "https://innres.presidiolodging.com/?checkin=2026-10-30&checkout=2026-11-01",
+    "https://lodgeres.presidiolodging.com/?checkin=2026-10-30&checkout=2026-11-01"
+  ]
+}

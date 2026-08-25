@@ -141,7 +141,94 @@ window.VENUES = [
     "credit": "St. Dorothy's Rest (official site)",
     "source": "https://www.saintdorothysrest.org/"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Fetched the retreats page twice (curl and a real browser render) plus the home, events, book-online and FAQ pages, and walked both Wix sitemaps (pages-sitemap.xml, event-pages-sitemap.xml) to reach every event-detail URL. The retreats page instructs groups to 'check the calendar below', but in a live browser render the page contains no iframe and no calendar widget at all - the embed is missing or broken, so the availability calendar the venue points at is not actually published. The events page lists only spring and early-summer 2026 items (Woods to Waves May 2, Hearts & Hands May 29-31, Camp Comeback June 4-7) and a vague 'Next show coming in September' note for a new music series with no date. The fall event-detail pages in the sitemap (fall-hearts-hands-work-weekend, fall-artists-writers-retreat) resolve to stale 2025 content through the Wix SPA router. The Book Online page is an unconfigured Wix template showing placeholder 'Service Name' items at $19.99, not a working booking engine. Web searches for the venue with 2026 fall dates returned only directory listings (ACA, Yelp, Episcopal Asset Map) with no dated bookings. Nothing dated is published for any of the ten weekends.",
+   "bookingPolicy": "Whole-site use is gated on group size: the buildings table gives 'Entire Facility - Total Beds: 112 - Minimum needed to book: 65', and the prose says 'A group of 68+ people may reserve the entire facility.' A ~60-person group is BELOW that whole-site threshold and would instead book a combination of buildings (e.g. Main 32 beds + Upper Miriam 22 + Lydia 13 = 67), each with its own minimum (Lydia 8, Farmer 8, Main 7, Miriams none). 2026 rates are $135 single / $105 double / $77 dorm without bedding / $97 dorm with bedding, per person per night; dorm bedding costs extra. Meals are $22 per person per meal with a 12-person minimum. Farmer and Lydia carry a kitchen usage fee for self-catering. Booking is by email inquiry to retreats@stdorothysrest.org, not self-serve; office hours are Tuesday-Friday 10:00-5:00.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "unknown",
+     "evidence": "The retreats page tells inquirers to consult an availability calendar, but no calendar renders on the page, so nothing dated is published for this weekend.",
+     "quote": "check the calendar below and make sure that building isn't currently reserved",
+     "sourceUrl": "https://www.saintdorothysrest.org/retreats",
+     "sourceLabel": "St. Dorothy's Rest - Retreats page"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "unknown",
+     "evidence": "The retreats page tells inquirers to consult an availability calendar, but no calendar renders on the page, so nothing dated is published for this weekend.",
+     "quote": "check the calendar below and make sure that building isn't currently reserved",
+     "sourceUrl": "https://www.saintdorothysrest.org/retreats",
+     "sourceLabel": "St. Dorothy's Rest - Retreats page"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "unknown",
+     "evidence": "The retreats page tells inquirers to consult an availability calendar, but no calendar renders on the page, so nothing dated is published for this weekend.",
+     "quote": "check the calendar below and make sure that building isn't currently reserved",
+     "sourceUrl": "https://www.saintdorothysrest.org/retreats",
+     "sourceLabel": "St. Dorothy's Rest - Retreats page"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "The retreats page tells inquirers to consult an availability calendar, but no calendar renders on the page, so nothing dated is published for this weekend.",
+     "quote": "check the calendar below and make sure that building isn't currently reserved",
+     "sourceUrl": "https://www.saintdorothysrest.org/retreats",
+     "sourceLabel": "St. Dorothy's Rest - Retreats page"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "unknown",
+     "evidence": "The retreats page tells inquirers to consult an availability calendar, but no calendar renders on the page, so nothing dated is published for this weekend.",
+     "quote": "check the calendar below and make sure that building isn't currently reserved",
+     "sourceUrl": "https://www.saintdorothysrest.org/retreats",
+     "sourceLabel": "St. Dorothy's Rest - Retreats page"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "unknown",
+     "evidence": "The retreats page tells inquirers to consult an availability calendar, but no calendar renders on the page, so nothing dated is published for this weekend.",
+     "quote": "check the calendar below and make sure that building isn't currently reserved",
+     "sourceUrl": "https://www.saintdorothysrest.org/retreats",
+     "sourceLabel": "St. Dorothy's Rest - Retreats page"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "unknown",
+     "evidence": "The retreats page tells inquirers to consult an availability calendar, but no calendar renders on the page, so nothing dated is published for this weekend.",
+     "quote": "check the calendar below and make sure that building isn't currently reserved",
+     "sourceUrl": "https://www.saintdorothysrest.org/retreats",
+     "sourceLabel": "St. Dorothy's Rest - Retreats page"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "unknown",
+     "evidence": "The retreats page tells inquirers to consult an availability calendar, but no calendar renders on the page, so nothing dated is published for this weekend.",
+     "quote": "check the calendar below and make sure that building isn't currently reserved",
+     "sourceUrl": "https://www.saintdorothysrest.org/retreats",
+     "sourceLabel": "St. Dorothy's Rest - Retreats page"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "unknown",
+     "evidence": "The retreats page tells inquirers to consult an availability calendar, but no calendar renders on the page, so nothing dated is published for this weekend.",
+     "quote": "check the calendar below and make sure that building isn't currently reserved",
+     "sourceUrl": "https://www.saintdorothysrest.org/retreats",
+     "sourceLabel": "St. Dorothy's Rest - Retreats page"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "unknown",
+     "evidence": "The retreats page tells inquirers to consult an availability calendar, but no calendar renders on the page, so nothing dated is published for this weekend.",
+     "quote": "check the calendar below and make sure that building isn't currently reserved",
+     "sourceUrl": "https://www.saintdorothysrest.org/retreats",
+     "sourceLabel": "St. Dorothy's Rest - Retreats page"
+    }
+   ]
+  }
  },
  {
   "id": "green-mountain-retreat",
@@ -283,7 +370,94 @@ window.VENUES = [
     "credit": "Green Mountain Retreat (official site)",
     "source": "https://www.greenmountainretreat.com/lodging"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Fetched the home, retreats and lodging pages (the site is Wix and inquiry-only: no calendar, no booking engine, and the only 'availability' string on the lodging page refers to kitchen availability in the cottages). Because the venue publishes nothing dated, I searched for third-party groups advertising stays there in the window. Two turned up for the same weekend and I fetched both source pages directly at HTTP 200: internationalguitarcamp.com, whose fall camp runs Sept 10-13, 2026 at Green Mountain Retreat ('limited to 20 students', dorm-style rooms in the Pueblo building, meals Thursday evening through Sunday morning by the venue's chefs), and collectiveselfenergy.com/retreats, listing 'Boundaries & Our Parts' with Lissa Rankin, Friday Sept 11 - Sunday Sept 13, 2026, at Green Mountain Retreat Center, with the venue name hyperlinked to greenmountainretreat.com. The same IFS page lists an Oct 30 - Nov 1, 2026 retreat but at Mount Madonna in Watsonville, not here, so it does not affect the Halloween weekend. Nothing dated was found for the other nine weekends.",
+   "bookingPolicy": "No public availability calendar and no self-serve booking; enquiries go through the contact form, info@greenmountainretreat.com or (669) 269-8811. Lodging is the Pueblo Lodge dormitory (35 rooms, 102 beds, pitched at 'groups of 30 or more who would like to stay under one roof') plus a set of cottages sleeping 2-12 each. Meeting spaces run from the 200-capacity Performance Hall down to the 15-person Morgan Hill Room, and the venue advertises meeting/gathering space for up to 195. Critically for a near-whole-site request, the property demonstrably runs more than one group at a time - two unrelated retreats share the Sept 11-13 weekend - so exclusive use has to be negotiated explicitly rather than assumed.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "unknown",
+     "evidence": "Green Mountain publishes no availability calendar or booking engine and no dated event listings, and no third-party group was found advertising this weekend at the property.",
+     "quote": "",
+     "sourceUrl": "https://www.greenmountainretreat.com/retreats",
+     "sourceLabel": "Green Mountain Retreat - Retreats page"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "unknown",
+     "evidence": "Green Mountain publishes no availability calendar or booking engine and no dated event listings, and no third-party group was found advertising this weekend at the property.",
+     "quote": "",
+     "sourceUrl": "https://www.greenmountainretreat.com/retreats",
+     "sourceLabel": "Green Mountain Retreat - Retreats page"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "definitely_not_available",
+     "evidence": "Two independent groups publish dated bookings covering this exact Fri-Sun: an IFS retreat led by Lissa Rankin on Sept 11-13 (quoted, and it links straight to greenmountainretreat.com), and the International Guitar Camp's fall session on Sept 10-13. The site is running other programs, so a 60-person near-whole-site booking is not possible.",
+     "quote": "Friday, September 11 through Sunday, September 13, 2026",
+     "sourceUrl": "https://collectiveselfenergy.com/retreats/",
+     "sourceLabel": "IFS California - Upcoming Retreats"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "Green Mountain publishes no availability calendar or booking engine and no dated event listings, and no third-party group was found advertising this weekend at the property.",
+     "quote": "",
+     "sourceUrl": "https://www.greenmountainretreat.com/retreats",
+     "sourceLabel": "Green Mountain Retreat - Retreats page"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "unknown",
+     "evidence": "Green Mountain publishes no availability calendar or booking engine and no dated event listings, and no third-party group was found advertising this weekend at the property.",
+     "quote": "",
+     "sourceUrl": "https://www.greenmountainretreat.com/retreats",
+     "sourceLabel": "Green Mountain Retreat - Retreats page"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "unknown",
+     "evidence": "Green Mountain publishes no availability calendar or booking engine and no dated event listings, and no third-party group was found advertising this weekend at the property.",
+     "quote": "",
+     "sourceUrl": "https://www.greenmountainretreat.com/retreats",
+     "sourceLabel": "Green Mountain Retreat - Retreats page"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "unknown",
+     "evidence": "Green Mountain publishes no availability calendar or booking engine and no dated event listings, and no third-party group was found advertising this weekend at the property.",
+     "quote": "",
+     "sourceUrl": "https://www.greenmountainretreat.com/retreats",
+     "sourceLabel": "Green Mountain Retreat - Retreats page"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "unknown",
+     "evidence": "Green Mountain publishes no availability calendar or booking engine and no dated event listings, and no third-party group was found advertising this weekend at the property.",
+     "quote": "",
+     "sourceUrl": "https://www.greenmountainretreat.com/retreats",
+     "sourceLabel": "Green Mountain Retreat - Retreats page"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "unknown",
+     "evidence": "Green Mountain publishes no availability calendar or booking engine and no dated event listings, and no third-party group was found advertising this weekend at the property.",
+     "quote": "",
+     "sourceUrl": "https://www.greenmountainretreat.com/retreats",
+     "sourceLabel": "Green Mountain Retreat - Retreats page"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "unknown",
+     "evidence": "Green Mountain publishes no availability calendar or booking engine and no dated event listings, and no third-party group was found advertising this weekend at the property.",
+     "quote": "",
+     "sourceUrl": "https://www.greenmountainretreat.com/retreats",
+     "sourceLabel": "Green Mountain Retreat - Retreats page"
+    }
+   ]
+  }
  },
  {
   "id": "westerbeke-ranch",
@@ -426,7 +600,94 @@ window.VENUES = [
     "credit": "Westerbeke Ranch (official site)",
     "source": "https://www.thewesterbekeranch.com/explore/gallery/"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Fetched the home, Special Events, Event Details and Rates & Resources pages. The ranch publishes no availability calendar for 2026: its rates page says space books far in advance and to phone the office, and the one calendar it does have (thewesterbekeranch.com/about/calendar/, not linked from the main nav) is abandoned - it lists 'Groups at Westerbeke Ranch' month by month for 2020 and 2021 only, and its WordPress shortcodes render as raw [spb_row] text. So I searched for outside groups advertising stays there and fetched each source directly. Two are dated inside the window: a yoga retreat with Elise Miller and Marla Apt, Oct 2-4, 2026, and Productive Learning's Women's Retreat, Oct 19-23, 2026. A third result, WITHIN Meditation's weekend retreat at Westerbeke, is stale - it is dated April 14-16, 2023. Nothing dated was found for the eight other weekends.",
+   "bookingPolicy": "The hard constraint is size: 'Overnight accommodations maximum: 52 guests', which is under our ~60, so some of the group would have to double up or commute (event capacity is 120, but that is day guests). Exclusive use is explicit but priced as a floor - 'To secure exclusive use of all overnight accommodations, client agrees to pay total room and board for forty guests'; below that, the remaining cabins may be sold to other guests, and the ranch will not release unused beds to you even if you happen to be the only group. There is a two-night minimum for weekend reservations. Arrival 4:00 PM, departure 3:00 PM, cabin check-out 10:00 AM. Weekend conference rates effective July 1, 2026 are $255/person/night for 33-48+ people, including shared lodging, one meeting room, three meals, pool and hot tub, plus 20% service charge, 14% occupancy tax and 9.25% sales tax. One meeting room is assigned per group; more costs extra. A 50% deposit and signed contract are required, and no outside food or beverage without prior approval.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "unknown",
+     "evidence": "The ranch publishes no current availability; its rates page simply warns that space books far ahead and directs you to contact the office, and its own Calendar page has not been updated past 2021.",
+     "quote": "Please note that space is often booked far in advance.",
+     "sourceUrl": "https://www.thewesterbekeranch.com/yourstay/rates-resources/",
+     "sourceLabel": "Westerbeke Ranch - Rates & Resources"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "unknown",
+     "evidence": "The ranch publishes no current availability; its rates page simply warns that space books far ahead and directs you to contact the office, and its own Calendar page has not been updated past 2021.",
+     "quote": "Please note that space is often booked far in advance.",
+     "sourceUrl": "https://www.thewesterbekeranch.com/yourstay/rates-resources/",
+     "sourceLabel": "Westerbeke Ranch - Rates & Resources"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "unknown",
+     "evidence": "The ranch publishes no current availability; its rates page simply warns that space books far ahead and directs you to contact the office, and its own Calendar page has not been updated past 2021.",
+     "quote": "Please note that space is often booked far in advance.",
+     "sourceUrl": "https://www.thewesterbekeranch.com/yourstay/rates-resources/",
+     "sourceLabel": "Westerbeke Ranch - Rates & Resources"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "The ranch publishes no current availability; its rates page simply warns that space books far ahead and directs you to contact the office, and its own Calendar page has not been updated past 2021.",
+     "quote": "Please note that space is often booked far in advance.",
+     "sourceUrl": "https://www.thewesterbekeranch.com/yourstay/rates-resources/",
+     "sourceLabel": "Westerbeke Ranch - Rates & Resources"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "unknown",
+     "evidence": "The ranch publishes no current availability; its rates page simply warns that space books far ahead and directs you to contact the office, and its own Calendar page has not been updated past 2021.",
+     "quote": "Please note that space is often booked far in advance.",
+     "sourceUrl": "https://www.thewesterbekeranch.com/yourstay/rates-resources/",
+     "sourceLabel": "Westerbeke Ranch - Rates & Resources"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "definitely_not_available",
+     "evidence": "A dated third-party retreat occupies the ranch across this exact Fri-Sun: the event page's schedule line reads 'October 2 - October 4' and its location field is Westerbeke Ranch. The quote is the event title, since the dates sit in a separate calendar widget rather than in prose.",
+     "quote": "Yoga Retreat at Westerbeke with Elise Miller and Marla Apt",
+     "sourceUrl": "https://ebmyoga.com/workshops_retreats/yoga-retreat-at-westerbeke-with-elise-miller-and-marla-apt/",
+     "sourceLabel": "Elise Miller Yoga - Workshops & Retreats"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "unknown",
+     "evidence": "The ranch publishes no current availability; its rates page simply warns that space books far ahead and directs you to contact the office, and its own Calendar page has not been updated past 2021.",
+     "quote": "Please note that space is often booked far in advance.",
+     "sourceUrl": "https://www.thewesterbekeranch.com/yourstay/rates-resources/",
+     "sourceLabel": "Westerbeke Ranch - Rates & Resources"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "unknown",
+     "evidence": "The ranch publishes no current availability; its rates page simply warns that space books far ahead and directs you to contact the office, and its own Calendar page has not been updated past 2021.",
+     "quote": "Please note that space is often booked far in advance.",
+     "sourceUrl": "https://www.thewesterbekeranch.com/yourstay/rates-resources/",
+     "sourceLabel": "Westerbeke Ranch - Rates & Resources"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "probably_not_available",
+     "evidence": "Productive Learning's five-day Women's Retreat runs Mon Oct 19 to Fri Oct 23, 2026 at the ranch, so the site is occupied through the Friday our group would arrive (check-in is 4:00 PM Friday). Saturday and Sunday are probably clear, but a Fri-Sun booking is not, and same-day turnover of a whole-site retreat is unlikely.",
+     "quote": "Oct 19 - Oct 23, 2026",
+     "sourceUrl": "https://productivelearning.com/workshop/womens-retreat-2026/",
+     "sourceLabel": "Productive Learning - Women's Retreat 2026"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "unknown",
+     "evidence": "The ranch publishes no current availability; its rates page simply warns that space books far ahead and directs you to contact the office, and its own Calendar page has not been updated past 2021.",
+     "quote": "Please note that space is often booked far in advance.",
+     "sourceUrl": "https://www.thewesterbekeranch.com/yourstay/rates-resources/",
+     "sourceLabel": "Westerbeke Ranch - Rates & Resources"
+    }
+   ]
+  }
  },
  {
   "id": "waterfall-lodge",
@@ -570,7 +831,94 @@ window.VENUES = [
     "credit": "Waterfall Lodge & Retreat (official site)",
     "source": "https://www.waterfallsantacruz.com/virtual-tour/ceremonylocations"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Fetched the home, corporate, cabins and weddings pages and checked each for a booking or availability widget; there is none. The only date inputs on the site are inside the contact/inquiry form, the /cart route is an unused Squarespace commerce stub, and the site publishes no events calendar. The corporate page lays out two booking modes ('The Full Property' and 'The Redwood Meadow', the latter marked 'New for 2028' and day-use only) and then asks you to describe your group rather than pick dates. I then searched third-party wedding directories and press for dated 2026 bookings. A search summary claimed a peak season of 'October 16 - November 23', but when I fetched the Wedding Spot listing itself that claim was not on the page - it only says to reach out for current pricing, packages and availability - so I discarded it rather than pass on an unverified seasonality. No dated booking, event or closure was found for any of the ten weekends.",
+   "bookingPolicy": "Two ways to book, and only one fits a 60-person residential group: the full-property buyout, which is all 80 acres, 33 cabins, the Redwood Meadow and the lodge, with nobody else on the property for the length of the stay. (The alternative, the Redwood Meadow, is day-use only and is labelled 'New for 2028'.) Overnight capacity is about 86 across 33 cabins sleeping 2-4 each, plus two bedrooms inside the lodge included in the venue fee for overnight events; day capacity is 150. That comfortably covers ~60 overnight. It is a bring-your-own-vendor property, and Wi-Fi is only in the lodge, which is where working sessions have to happen - worth pressing on for AV and breakout needs, since the venue's primary business is weddings. Booking is inquiry-only via the contact form, hello@waterfallsantacruz.com or (831) 212-3895; no rates, minimums or seasonal restrictions are published.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "unknown",
+     "evidence": "Waterfall sells exactly the whole-property buyout this group would need, but publishes no dates for it - there is no calendar, no booking engine and no event listings anywhere on the site, so the public web does not say whether this weekend is free.",
+     "quote": "All eighty acres, 33 cabins, the Redwood Meadow, and the lodge. For the length of your stay, nobody else is on the mountain.",
+     "sourceUrl": "https://www.waterfallsantacruz.com/corporate",
+     "sourceLabel": "Waterfall Lodge & Retreat - Corporate page"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "unknown",
+     "evidence": "Waterfall sells exactly the whole-property buyout this group would need, but publishes no dates for it - there is no calendar, no booking engine and no event listings anywhere on the site, so the public web does not say whether this weekend is free.",
+     "quote": "All eighty acres, 33 cabins, the Redwood Meadow, and the lodge. For the length of your stay, nobody else is on the mountain.",
+     "sourceUrl": "https://www.waterfallsantacruz.com/corporate",
+     "sourceLabel": "Waterfall Lodge & Retreat - Corporate page"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "unknown",
+     "evidence": "Waterfall sells exactly the whole-property buyout this group would need, but publishes no dates for it - there is no calendar, no booking engine and no event listings anywhere on the site, so the public web does not say whether this weekend is free.",
+     "quote": "All eighty acres, 33 cabins, the Redwood Meadow, and the lodge. For the length of your stay, nobody else is on the mountain.",
+     "sourceUrl": "https://www.waterfallsantacruz.com/corporate",
+     "sourceLabel": "Waterfall Lodge & Retreat - Corporate page"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "Waterfall sells exactly the whole-property buyout this group would need, but publishes no dates for it - there is no calendar, no booking engine and no event listings anywhere on the site, so the public web does not say whether this weekend is free.",
+     "quote": "All eighty acres, 33 cabins, the Redwood Meadow, and the lodge. For the length of your stay, nobody else is on the mountain.",
+     "sourceUrl": "https://www.waterfallsantacruz.com/corporate",
+     "sourceLabel": "Waterfall Lodge & Retreat - Corporate page"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "unknown",
+     "evidence": "Waterfall sells exactly the whole-property buyout this group would need, but publishes no dates for it - there is no calendar, no booking engine and no event listings anywhere on the site, so the public web does not say whether this weekend is free.",
+     "quote": "All eighty acres, 33 cabins, the Redwood Meadow, and the lodge. For the length of your stay, nobody else is on the mountain.",
+     "sourceUrl": "https://www.waterfallsantacruz.com/corporate",
+     "sourceLabel": "Waterfall Lodge & Retreat - Corporate page"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "unknown",
+     "evidence": "Waterfall sells exactly the whole-property buyout this group would need, but publishes no dates for it - there is no calendar, no booking engine and no event listings anywhere on the site, so the public web does not say whether this weekend is free.",
+     "quote": "All eighty acres, 33 cabins, the Redwood Meadow, and the lodge. For the length of your stay, nobody else is on the mountain.",
+     "sourceUrl": "https://www.waterfallsantacruz.com/corporate",
+     "sourceLabel": "Waterfall Lodge & Retreat - Corporate page"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "unknown",
+     "evidence": "Waterfall sells exactly the whole-property buyout this group would need, but publishes no dates for it - there is no calendar, no booking engine and no event listings anywhere on the site, so the public web does not say whether this weekend is free.",
+     "quote": "All eighty acres, 33 cabins, the Redwood Meadow, and the lodge. For the length of your stay, nobody else is on the mountain.",
+     "sourceUrl": "https://www.waterfallsantacruz.com/corporate",
+     "sourceLabel": "Waterfall Lodge & Retreat - Corporate page"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "unknown",
+     "evidence": "Waterfall sells exactly the whole-property buyout this group would need, but publishes no dates for it - there is no calendar, no booking engine and no event listings anywhere on the site, so the public web does not say whether this weekend is free.",
+     "quote": "All eighty acres, 33 cabins, the Redwood Meadow, and the lodge. For the length of your stay, nobody else is on the mountain.",
+     "sourceUrl": "https://www.waterfallsantacruz.com/corporate",
+     "sourceLabel": "Waterfall Lodge & Retreat - Corporate page"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "unknown",
+     "evidence": "Waterfall sells exactly the whole-property buyout this group would need, but publishes no dates for it - there is no calendar, no booking engine and no event listings anywhere on the site, so the public web does not say whether this weekend is free.",
+     "quote": "All eighty acres, 33 cabins, the Redwood Meadow, and the lodge. For the length of your stay, nobody else is on the mountain.",
+     "sourceUrl": "https://www.waterfallsantacruz.com/corporate",
+     "sourceLabel": "Waterfall Lodge & Retreat - Corporate page"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "unknown",
+     "evidence": "Waterfall sells exactly the whole-property buyout this group would need, but publishes no dates for it - there is no calendar, no booking engine and no event listings anywhere on the site, so the public web does not say whether this weekend is free.",
+     "quote": "All eighty acres, 33 cabins, the Redwood Meadow, and the lodge. For the length of your stay, nobody else is on the mountain.",
+     "sourceUrl": "https://www.waterfallsantacruz.com/corporate",
+     "sourceLabel": "Waterfall Lodge & Retreat - Corporate page"
+    }
+   ]
+  }
  },
  {
   "id": "lodge-at-marconi",
@@ -713,7 +1061,94 @@ window.VENUES = [
     "credit": "Lodge at Marconi (official site)",
     "source": "https://lodgeatmarconi.com/gather/"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "This is the only one of my five venues with a real public booking engine, so it produced hard dated evidence. I drove the Amadeus/iHotelier engine at lodgeatmarconi.ihotelier.com in a browser tab of my own, declined the cookie banner, and read the date picker's own day cells (a flatpickr grid inside a shadow DOM) for August through October 2026, capturing each date's accessible label and disabled state. Every Friday and Saturday in the window is accounted for. The pattern is striking: weekdays and Sundays sit at a flat $327 and stay open all autumn, while Fri/Sat nights are blocked solid from Sept 18 through Oct 24 - seven consecutive weekends - with Sept 5/6 also blocked, and only Aug 28-29, Sept 11-12 and Oct 30-31 sellable. That looks like weekend group business or buyouts already on the books rather than a closure, but the reason is not published anywhere, so it is worth asking the sales office directly. I also checked the venue's own Calendar of Events page in a browser (it renders with no events listed at all) and its ?ical=1 feed (returns an empty body), plus the Gather, Offsites and Hotel Policy pages for group rules.",
+   "bookingPolicy": "The public engine sells individual rooms only; a ~60-person Fri-Sun would need a room block or full buyout arranged with the sales team (415.663.9020 / sales@lodgeatmarconi.com, inquiries handled through Tripleseat), so open dates in the engine are necessary but not sufficient evidence. The property is 45 rooms sleeping up to 100, small enough that ~60 people nearly fills it, and at least one space - The Lodge Lobby - 'Can only be reserved with a full buyout of the property.' Minimum age to reserve a guestroom is 21. Note also that the engine reports only the lowest available rate per night, not remaining inventory, so a date shown open may still lack 30+ rooms. Nothing published states a seasonal closure.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "probably_available",
+     "evidence": "Both nights are live in the booking engine: Fri Aug 28 from $376 and Sat Aug 29 from $458. Only 'probably' because I queried one room for two adults, which shows the lowest available rate per date but not how many rooms remain - a 60-person block or buyout is unconfirmed.",
+     "quote": "Choose Friday, 28 August 2026 as your check-in date Current price from: $ 376",
+     "sourceUrl": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+     "sourceLabel": "Lodge at Marconi booking engine - date picker"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "definitely_not_available",
+     "evidence": "Friday Sept 4 is bookable, but Saturday Sept 5 offers no check-in ('Check-out only', no price) and Sunday Sept 6 is disabled outright, so the Saturday night of this Labor Day weekend cannot be sold and a Fri-Sun stay is impossible.",
+     "quote": "Choose Saturday, 5 September 2026 as your check-in date, no price available for this day Check-out only",
+     "sourceUrl": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+     "sourceLabel": "Lodge at Marconi booking engine - date picker"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "probably_available",
+     "evidence": "Both nights are live: Fri Sept 11 from $475 and Sat Sept 12 from $435 - the priciest Friday in the window, which usually signals real demand rather than a block. Only 'probably' because room-count depth for ~60 people is not visible to the public engine.",
+     "quote": "Choose Friday, 11 September 2026 as your check-in date Current price from: $ 475",
+     "sourceUrl": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+     "sourceLabel": "Lodge at Marconi booking engine - date picker"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "definitely_not_available",
+     "evidence": "The booking engine offers no check-in on the Friday - its date cell is marked 'Check-out only' with no price - and the Saturday cell is fully disabled, so neither night of a Fri-Sun stay can be sold.",
+     "quote": "Choose Friday, 18 September 2026 as your check-in date, no price available for this day Check-out only",
+     "sourceUrl": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+     "sourceLabel": "Lodge at Marconi booking engine - date picker"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "definitely_not_available",
+     "evidence": "The booking engine offers no check-in on the Friday - its date cell is marked 'Check-out only' with no price - and the Saturday cell is fully disabled, so neither night of a Fri-Sun stay can be sold.",
+     "quote": "Choose Friday, 25 September 2026 as your check-in date, no price available for this day Check-out only",
+     "sourceUrl": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+     "sourceLabel": "Lodge at Marconi booking engine - date picker"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "definitely_not_available",
+     "evidence": "The booking engine offers no check-in on the Friday - its date cell is marked 'Check-out only' with no price - and the Saturday cell is fully disabled, so neither night of a Fri-Sun stay can be sold.",
+     "quote": "Choose Friday, 2 October 2026 as your check-in date, no price available for this day Check-out only",
+     "sourceUrl": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+     "sourceLabel": "Lodge at Marconi booking engine - date picker"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "definitely_not_available",
+     "evidence": "The booking engine offers no check-in on the Friday - its date cell is marked 'Check-out only' with no price - and the Saturday cell is fully disabled, so neither night of a Fri-Sun stay can be sold.",
+     "quote": "Choose Friday, 9 October 2026 as your check-in date, no price available for this day Check-out only",
+     "sourceUrl": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+     "sourceLabel": "Lodge at Marconi booking engine - date picker"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "definitely_not_available",
+     "evidence": "Both Fri Oct 16 and Sat Oct 17 are fully disabled in the date picker - unlike the other blocked Fridays these carry no price and no check-in label at all, so the only literal on-page string for the cell is its date label, quoted here.",
+     "quote": "October 16, 2026",
+     "sourceUrl": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+     "sourceLabel": "Lodge at Marconi booking engine - date picker"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "definitely_not_available",
+     "evidence": "The booking engine offers no check-in on the Friday - its date cell is marked 'Check-out only' with no price - and the Saturday cell is fully disabled, so neither night of a Fri-Sun stay can be sold.",
+     "quote": "Choose Friday, 23 October 2026 as your check-in date, no price available for this day Check-out only",
+     "sourceUrl": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+     "sourceLabel": "Lodge at Marconi booking engine - date picker"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "probably_available",
+     "evidence": "Halloween weekend is open on both nights: Fri Oct 30 from $376 and Sat Oct 31 from $376. It is the first fully open weekend after a long blocked run. Only 'probably' because inventory depth for a 60-person block is not public.",
+     "quote": "Choose Friday, 30 October 2026 as your check-in date Current price from: $ 376",
+     "sourceUrl": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+     "sourceLabel": "Lodge at Marconi booking engine - date picker"
+    }
+   ]
+  }
  },
  {
   "id": "the-land",
@@ -856,7 +1291,94 @@ window.VENUES = [
     "credit": "The Land (official site)",
     "source": "https://the-land.us/gallery"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Fetched the-land.us sitemap.xml and every page on it (home, explore-the-land/Stay, corporate-retreats, visiting, monastery-welcome, womens-retreat, true-north, winter-retreat, unconditional-freedom). The Land publishes no availability calendar, no booking engine and no events listing: the only dated programs anywhere on the site are True North (Aug 6-9, 2026, already past), the Women's Retreat (Sept 24-27, 2026) and a Winter Retreat whose 2026-27 dates are still 'coming soon'. 'Book a Stay' links to the Stay page, which routes to an inquiry form (or Airbnb) rather than a live calendar. Also searched the web for Eros Monastery / The Land programming in Sept-Oct 2026 and checked BookRetreats' organizer page for The Land; neither surfaced any further dated program in the window.",
+   "bookingPolicy": "18+ only; alcohol-, cannabis- and drug-free. 90 beds across 18 cabins, 12 glamping tents and 8 houses; they market whole-property buyouts and 2-4 day corporate immersions. Booking is inquiry-only ('All bookings are done person to person over the phone' on the monastery page); personal stays can also go through Airbnb. IMPORTANT current constraint: the monastery page carries a standing notice that Eros Monastery programming is on pause and guests are hosted 'without the schedule, activities, or food offerings we normally provide', with self-catering in a shared kitchen. For a 60-person Fri-Sun retreat that depends on their farm-to-table kitchen, confirm directly that full meal service is running before assuming any of these dates work.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "unknown",
+     "evidence": "The Land publishes no availability calendar and no booking engine; stays and group bookings are handled entirely by inquiry, so the public web says nothing about this specific weekend.",
+     "quote": "Send an inquiry below and we’ll help you find the right space and dates.",
+     "sourceUrl": "https://the-land.us/explore-the-land",
+     "sourceLabel": "The Land — Stay / booking page"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "unknown",
+     "evidence": "No dated availability is published for this weekend; the site's only current operational notice is that monastery programming (schedule, activities and meals) is paused, which is a constraint on a 60-person Fri-Sun retreat rather than evidence about the date itself.",
+     "quote": "Hello! The Eros Monastery at The Land programming is on pause.",
+     "sourceUrl": "https://the-land.us/monastery-welcome",
+     "sourceLabel": "The Land — Eros Monastery notice"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "unknown",
+     "evidence": "The Land publishes no availability calendar and no booking engine; stays and group bookings are handled entirely by inquiry, so the public web says nothing about this specific weekend.",
+     "quote": "Send an inquiry below and we’ll help you find the right space and dates.",
+     "sourceUrl": "https://the-land.us/explore-the-land",
+     "sourceLabel": "The Land — Stay / booking page"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "The group/corporate page invites custom 2-4 day bookings but publishes no dates or calendar, so nothing on the public web indicates whether this weekend is open.",
+     "quote": "Design a custom-curated package for your team with a 2, 3, or 4 day immersion.",
+     "sourceUrl": "https://the-land.us/corporate-retreats",
+     "sourceLabel": "The Land — Corporate Retreats"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "definitely_not_available",
+     "evidence": "The Land is running its own four-day Women's Retreat Thursday Sept 24 through Sunday Sept 27, 2026, which covers this entire Fri-Sun weekend; the retreat includes all meals and lodging on the property, so the site is occupied.",
+     "quote": "You are invited to The Land in Philo, California, September 24–27, for a weekend devoted to women's power and what it is for.",
+     "sourceUrl": "https://the-land.us/womens-retreat",
+     "sourceLabel": "The Land — Women's Retreat"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "unknown",
+     "evidence": "The Land publishes no availability calendar and no booking engine; stays and group bookings are handled entirely by inquiry, so the public web says nothing about this specific weekend.",
+     "quote": "Send an inquiry below and we’ll help you find the right space and dates.",
+     "sourceUrl": "https://the-land.us/explore-the-land",
+     "sourceLabel": "The Land — Stay / booking page"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "unknown",
+     "evidence": "The group/corporate page invites custom 2-4 day bookings but publishes no dates or calendar, so nothing on the public web indicates whether this weekend is open.",
+     "quote": "Design a custom-curated package for your team with a 2, 3, or 4 day immersion.",
+     "sourceUrl": "https://the-land.us/corporate-retreats",
+     "sourceLabel": "The Land — Corporate Retreats"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "unknown",
+     "evidence": "The Land publishes no availability calendar and no booking engine; stays and group bookings are handled entirely by inquiry, so the public web says nothing about this specific weekend.",
+     "quote": "Send an inquiry below and we’ll help you find the right space and dates.",
+     "sourceUrl": "https://the-land.us/explore-the-land",
+     "sourceLabel": "The Land — Stay / booking page"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "unknown",
+     "evidence": "No dated availability is published for this weekend; the site's only current operational notice is that monastery programming (schedule, activities and meals) is paused, which is a constraint on a 60-person Fri-Sun retreat rather than evidence about the date itself.",
+     "quote": "Hello! The Eros Monastery at The Land programming is on pause.",
+     "sourceUrl": "https://the-land.us/monastery-welcome",
+     "sourceLabel": "The Land — Eros Monastery notice"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "unknown",
+     "evidence": "The Land publishes no availability calendar and no booking engine; stays and group bookings are handled entirely by inquiry, so the public web says nothing about this specific weekend.",
+     "quote": "Send an inquiry below and we’ll help you find the right space and dates.",
+     "sourceUrl": "https://the-land.us/explore-the-land",
+     "sourceLabel": "The Land — Stay / booking page"
+    }
+   ]
+  }
  },
  {
   "id": "camp-navarro",
@@ -1001,7 +1523,94 @@ window.VENUES = [
     "credit": "Camp Navarro (official site)",
     "source": "https://www.campnavarro.com/photo-gallery"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Fetched campnavarro.com home, /events-1, /cn-festivals, /deep-end-home, /deep-end, /campout, /halloween, /inquiryrequest, /policies and everything in campnavarro.com/sitemap.xml, plus all 34 URLs in campnavarropresents.com/sitemap.xml (their per-client landing pages) looking for dated 2026 bookings. The home page carries a dated 'May 27th Availability Update' that is the single most useful public statement about this window. Three dated third-party events on the property were found and verified by fetching the organisers' own sites: Camp Deep End 10 (Sept 25-27), Reboot / YC Alumni Retreat (Oct 1-4) and The Reunion (Oct 8-11). Camp Redwoods 5 (Aug 21-23, sold out) falls just before the window. The /upcoming-events URL that appears in search results returns 404, and experiences.campnavarro.com (their ticketing host) returns 403 to non-browser clients.",
+   "bookingPolicy": "Whole-site rental only — 'Camp Navarro is not open to the general public for individual overnight and multi-night reservations.' No phone inquiries: 'We do not accept phone call inquiries in regards to booking an event' and all phone inquiries go unanswered; booking starts with the web inquiry form to inquiry@campnavarroca.com. 240-260 beds across 32 year-round cabins, 54 three-season glamping units and campsites, permitted up to 1,500 people — far larger than a 60-person group, so expect to pay for scale you will not use. Site tours by approved request only.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "definitely_available",
+     "evidence": "Camp Navarro's home page carries a dated availability notice stating the Aug 25 - Sept 25 window is wide open; this weekend falls inside it. The notice is dated May 27, so it is roughly three months stale; treat it as strong but not fresh.",
+     "quote": "CN has select availability throughout the rest of the year and August 25-September 25 is wide open for late summer gatherings.",
+     "sourceUrl": "https://www.campnavarro.com/",
+     "sourceLabel": "Camp Navarro — home page availability update"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "definitely_available",
+     "evidence": "Camp Navarro's home page carries a dated availability notice stating the Aug 25 - Sept 25 window is wide open; this weekend falls inside it. The notice is dated May 27 and predates any later bookings, so re-confirm.",
+     "quote": "CN has select availability throughout the rest of the year and August 25-September 25 is wide open for late summer gatherings.",
+     "sourceUrl": "https://www.campnavarro.com/",
+     "sourceLabel": "Camp Navarro — home page availability update"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "definitely_available",
+     "evidence": "Camp Navarro's home page carries a dated availability notice stating the Aug 25 - Sept 25 window is wide open; this weekend falls inside it. The notice is dated May 27; no third-party event was found on this weekend.",
+     "quote": "CN has select availability throughout the rest of the year and August 25-September 25 is wide open for late summer gatherings.",
+     "sourceUrl": "https://www.campnavarro.com/",
+     "sourceLabel": "Camp Navarro — home page availability update"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "definitely_available",
+     "evidence": "Camp Navarro's home page carries a dated availability notice stating the Aug 25 - Sept 25 window is wide open; this weekend falls inside it. The stated open window runs to Sept 25, so this weekend is inside it — but Camp Deep End 10 opens the following Friday, and load-in for a festival of that size plausibly starts during the preceding week.",
+     "quote": "CN has select availability throughout the rest of the year and August 25-September 25 is wide open for late summer gatherings.",
+     "sourceUrl": "https://www.campnavarro.com/",
+     "sourceLabel": "Camp Navarro — home page availability update"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "definitely_not_available",
+     "evidence": "Camp Navarro produces its own Camp Deep End 10 music festival on the property Sept 25-27, 2026 — exactly this Fri-Sun weekend — and tickets are already on sale. Quote is the page headline (the date sits on a second line of the same heading).",
+     "quote": "CAMP DEEP END 10 September 25-27,2026",
+     "sourceUrl": "https://www.campnavarro.com/deep-end-home",
+     "sourceLabel": "Camp Deep End 10 — event home"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "definitely_not_available",
+     "evidence": "Reboot, the YC alumni retreat, takes over Camp Navarro Oct 1-4, 2026, which covers Fri Oct 2 through Sun Oct 4; the organiser's site names the venue throughout and lists Camp Navarro's own emergency contact.",
+     "quote": "YC Alumni Retreat · Oct 1–4, 2026 · Camp Navarro, CA",
+     "sourceUrl": "https://camp-reboot.com/",
+     "sourceLabel": "Reboot 2026 — YC alumni retreat at Camp Navarro"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "definitely_not_available",
+     "evidence": "The Reunion, a 21+ adult camp, occupies Camp Navarro Thursday Oct 8 through Sunday Oct 11, 2026, covering this whole weekend; gates open Thursday 3pm and camp closes after Sunday breakfast.",
+     "quote": "The Reunion: October 8–11, 2026 • Camp Navarro • Mendocino County",
+     "sourceUrl": "https://thereunion.camp/",
+     "sourceLabel": "The Reunion — Oct 8-11, 2026 at Camp Navarro"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "unknown",
+     "evidence": "Outside the Aug 25 - Sept 25 window the venue says only that it has 'select availability' for the rest of the year, without naming dates, and it publishes no booking calendar; no third-party event was found on this weekend.",
+     "quote": "CN has select availability throughout the rest of the year",
+     "sourceUrl": "https://www.campnavarro.com/",
+     "sourceLabel": "Camp Navarro — home page availability update"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "unknown",
+     "evidence": "Outside the Aug 25 - Sept 25 window the venue says only that it has 'select availability' for the rest of the year, without naming dates, and it publishes no booking calendar; no third-party event was found on this weekend.",
+     "quote": "CN has select availability throughout the rest of the year",
+     "sourceUrl": "https://www.campnavarro.com/",
+     "sourceLabel": "Camp Navarro — home page availability update"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "unknown",
+     "evidence": "No 2026 Halloween event is published — the venue's /halloween page still advertises 'Harvest Meltdown: October 28-31, 2022' and has not been updated — so nothing public says whether this weekend is free. Quote is the stale headline on that page.",
+     "quote": "Harvest Meltdown: October 28-31, 2022",
+     "sourceUrl": "https://www.campnavarro.com/halloween",
+     "sourceLabel": "Camp Navarro — Halloween page (last updated 2022)"
+    }
+   ]
+  }
  },
  {
   "id": "enchanted-hills",
@@ -1151,7 +1760,94 @@ window.VENUES = [
     "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
     "source": "https://enchantedhillsnapa.org/enchanted-hills-napa/accommodations/"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Fetched enchantedhillsnapa.org (home, /booking/, /booking/events/, /booking/stays/) and, on the operator's site, lighthouse-sf.org's Enchanted Hills Camp page and the full 2026 EHC Sessions and Registration page, which lists every camp session for the year with dates. Enchanted Hills publishes a complete camp-session calendar but no rental availability calendar and no booking engine — both the Stays and Events pages are inquiry forms only. The 2026 session list is the decisive document: it puts every summer session in June-August, one Summer Family Camp Aug 6-8, and exactly one session inside our window, Fall Family Camp Oct 30 - Nov 1. Also searched the web for Enchanted Hills Napa 2026 session dates and October rentals, which surfaced the same session page.",
+   "bookingPolicy": "Owned and run by LightHouse for the Blind; the Napa campus runs blind/low-vision camp sessions June through early August and Fall Family Camp Oct 30 - Nov 1, and is rented to outside groups the rest of the year, with rental income subsidising camp. Advertised for groups of roughly 30-150 across Forest Commons cabins, Hillside Commons, the Hogan Lodge, Lakeside casitas, safari tents and yurts, so 60 people fits comfortably. No online booking: rentals go through the Stays or Events inquiry form or events@lighthouse-sf.org. Rebuilt after the 2017 Atlas fire — worth confirming which buildings are back online for your headcount.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "probably_available",
+     "evidence": "The published 2026 camp schedule has no session on this weekend — summer sessions ended with Summer Family Camp Aug 6-8 and the next session is Fall Family Camp Oct 30 - Nov 1 — and LightHouse states the campus is rented out whenever camp is not in session. It is only 'probably' because Enchanted Hills publishes no rental calendar and no booking engine, so an unadvertised private rental or wedding could already hold the date. ",
+     "quote": "When Enchanted Hills isn’t hosting camp programs, we make our beautiful Napa campus available for rentals, retreats, and events.",
+     "sourceUrl": "https://lighthouse-sf.org/program/enchanted-hills-camp/",
+     "sourceLabel": "LightHouse — Enchanted Hills Camp (off-season rentals)"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "probably_available",
+     "evidence": "The published 2026 camp schedule has no session on this weekend — summer sessions ended with Summer Family Camp Aug 6-8 and the next session is Fall Family Camp Oct 30 - Nov 1 — and LightHouse states the campus is rented out whenever camp is not in session. It is only 'probably' because Enchanted Hills publishes no rental calendar and no booking engine, so an unadvertised private rental or wedding could already hold the date. The venue's own home page frames the same summer-camp / off-season-rental split.",
+     "quote": "our property hosts an active camp in the summer for the blind and visually impaired community and opens as a versatile retreat venue during the off-season",
+     "sourceUrl": "https://enchantedhillsnapa.org/",
+     "sourceLabel": "Enchanted Hills Napa — home page"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "probably_available",
+     "evidence": "The published 2026 camp schedule has no session on this weekend — summer sessions ended with Summer Family Camp Aug 6-8 and the next session is Fall Family Camp Oct 30 - Nov 1 — and LightHouse states the campus is rented out whenever camp is not in session. It is only 'probably' because Enchanted Hills publishes no rental calendar and no booking engine, so an unadvertised private rental or wedding could already hold the date. ",
+     "quote": "When Enchanted Hills isn’t hosting camp programs, we make our beautiful Napa campus available for rentals, retreats, and events.",
+     "sourceUrl": "https://lighthouse-sf.org/program/enchanted-hills-camp/",
+     "sourceLabel": "LightHouse — Enchanted Hills Camp (off-season rentals)"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "probably_available",
+     "evidence": "The published 2026 camp schedule has no session on this weekend — summer sessions ended with Summer Family Camp Aug 6-8 and the next session is Fall Family Camp Oct 30 - Nov 1 — and LightHouse states the campus is rented out whenever camp is not in session. It is only 'probably' because Enchanted Hills publishes no rental calendar and no booking engine, so an unadvertised private rental or wedding could already hold the date. The quote is from the Stays page, which confirms booking is by inquiry only, with no dates shown.",
+     "quote": "The Enchanted Hills Napa team will respond to your inquiry and provide personalized assistance to ensure a comfortable and enjoyable stay.",
+     "sourceUrl": "https://enchantedhillsnapa.org/booking/stays/",
+     "sourceLabel": "Enchanted Hills Napa — Stays inquiry page"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "probably_available",
+     "evidence": "The published 2026 camp schedule has no session on this weekend — summer sessions ended with Summer Family Camp Aug 6-8 and the next session is Fall Family Camp Oct 30 - Nov 1 — and LightHouse states the campus is rented out whenever camp is not in session. It is only 'probably' because Enchanted Hills publishes no rental calendar and no booking engine, so an unadvertised private rental or wedding could already hold the date. ",
+     "quote": "When Enchanted Hills isn’t hosting camp programs, we make our beautiful Napa campus available for rentals, retreats, and events.",
+     "sourceUrl": "https://lighthouse-sf.org/program/enchanted-hills-camp/",
+     "sourceLabel": "LightHouse — Enchanted Hills Camp (off-season rentals)"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "probably_available",
+     "evidence": "The published 2026 camp schedule has no session on this weekend — summer sessions ended with Summer Family Camp Aug 6-8 and the next session is Fall Family Camp Oct 30 - Nov 1 — and LightHouse states the campus is rented out whenever camp is not in session. It is only 'probably' because Enchanted Hills publishes no rental calendar and no booking engine, so an unadvertised private rental or wedding could already hold the date. The venue's own home page frames the same summer-camp / off-season-rental split.",
+     "quote": "our property hosts an active camp in the summer for the blind and visually impaired community and opens as a versatile retreat venue during the off-season",
+     "sourceUrl": "https://enchantedhillsnapa.org/",
+     "sourceLabel": "Enchanted Hills Napa — home page"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "probably_available",
+     "evidence": "The published 2026 camp schedule has no session on this weekend — summer sessions ended with Summer Family Camp Aug 6-8 and the next session is Fall Family Camp Oct 30 - Nov 1 — and LightHouse states the campus is rented out whenever camp is not in session. It is only 'probably' because Enchanted Hills publishes no rental calendar and no booking engine, so an unadvertised private rental or wedding could already hold the date. ",
+     "quote": "When Enchanted Hills isn’t hosting camp programs, we make our beautiful Napa campus available for rentals, retreats, and events.",
+     "sourceUrl": "https://lighthouse-sf.org/program/enchanted-hills-camp/",
+     "sourceLabel": "LightHouse — Enchanted Hills Camp (off-season rentals)"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "probably_available",
+     "evidence": "The published 2026 camp schedule has no session on this weekend — summer sessions ended with Summer Family Camp Aug 6-8 and the next session is Fall Family Camp Oct 30 - Nov 1 — and LightHouse states the campus is rented out whenever camp is not in session. It is only 'probably' because Enchanted Hills publishes no rental calendar and no booking engine, so an unadvertised private rental or wedding could already hold the date. Quote is the heading of the last summer session on the 2026 session list, the item immediately before the Aug 8 - Oct 30 gap.",
+     "quote": "Summer Family Camp (priority families with BVI Parents)",
+     "sourceUrl": "https://lighthouse-sf.org/program/enchanted-hills-camp/enchanted-hills-camp-2026-sessions/",
+     "sourceLabel": "LightHouse — 2026 EHC session list"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "probably_available",
+     "evidence": "The published 2026 camp schedule has no session on this weekend — summer sessions ended with Summer Family Camp Aug 6-8 and the next session is Fall Family Camp Oct 30 - Nov 1 — and LightHouse states the campus is rented out whenever camp is not in session. It is only 'probably' because Enchanted Hills publishes no rental calendar and no booking engine, so an unadvertised private rental or wedding could already hold the date. ",
+     "quote": "When Enchanted Hills isn’t hosting camp programs, we make our beautiful Napa campus available for rentals, retreats, and events.",
+     "sourceUrl": "https://lighthouse-sf.org/program/enchanted-hills-camp/",
+     "sourceLabel": "LightHouse — Enchanted Hills Camp (off-season rentals)"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "definitely_not_available",
+     "evidence": "LightHouse runs Fall Family Camp at Enchanted Hills from Friday Oct 30 to Sunday Nov 1, 2026 — exactly this weekend — so the campus is hosting its own camp session and is not available as a rental.",
+     "quote": "October 30th – November 1st $1,000 for the first/blind student, $250 for each additional family member",
+     "sourceUrl": "https://lighthouse-sf.org/program/enchanted-hills-camp/enchanted-hills-camp-2026-sessions/",
+     "sourceLabel": "LightHouse — 2026 EHC session list (Fall Family Camp)"
+    }
+   ]
+  }
  },
  {
   "id": "mount-madonna",
@@ -1293,7 +1989,94 @@ window.VENUES = [
     "credit": "Mount Madonna Center (official site)",
     "source": "https://mountmadonna.org/about/our-campus/"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Mount Madonna publishes a real, densely populated public calendar at mountmadonna.org/calendar/, tagging outside bookings as 'Hosted Group'. The list is paginated behind a 'Load More' control, so I opened the page in a browser tab I created myself and clicked through to the end, giving all 39 upcoming entries out to late 2027; every October 2026 conflict below comes from that fully-loaded list and was then confirmed on the organiser's own site where the calendar links off-site. The calendar's first page (what curl returns) already contains every September entry plus the Welwood and Henry Shukman retreats, so those quotes are in the raw page; the mid-to-late October entries are only in the loaded list, so I cite the third-party organiser pages or Mount Madonna's own Navaratri page instead. I also read host-your-group for capacity and booking mechanics. Note the calendar lists programs, not room inventory: it shows when the campus is committed, not confirmation that an open weekend can actually take 60 people.",
+   "bookingPolicy": "Retreat venue for groups of 15 to 150+ on a 380-acre ridge campus. The relevant building for 60 people is the Conference Center: 33 guest rooms, 74 beds, 52'x52' main hall (250 theatre / 125 yoga mats) plus the Maple and Willow breakout rooms; the Seminar House adds only 16 beds. Yurts and cabins supplement but some have no plumbing. All meals are strictly vegetarian, three buffet meals a day in a communal lodge. No online availability — booking is by inquiry ('INQUIRE ABOUT AVAILABILITY') to hostyourgroup@mountmadonna.org. The campus routinely runs several hosted groups plus its own temple festivals at once, so a weekend that shows one booking may still have space, and a weekend that shows three almost certainly does not.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "probably_available",
+     "evidence": "The public calendar covers this period densely and shows nothing on Aug 28-30: the last August entry is a Thursday-evening temple ceremony on Aug 27 and the next entry is Sept 11. Quote is the Aug 27 entry, the nearest dated item before the gap.",
+     "quote": "In honor of Raksha Bandhan, you are invited to join us for a special Mahamrityunjaya Puja & Yajna at Sankat Mochan Hanuman Temple",
+     "sourceUrl": "https://mountmadonna.org/calendar/",
+     "sourceLabel": "Mount Madonna — public calendar"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "probably_available",
+     "evidence": "Nothing is scheduled on Labor Day weekend: the calendar jumps straight from Aug 27 to Sept 11. Quote is the first September entry, showing where the gap ends.",
+     "quote": "Move, breathe, and connect during a weekend of community-centered offerings",
+     "sourceUrl": "https://mountmadonna.org/calendar/",
+     "sourceLabel": "Mount Madonna — public calendar"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "definitely_not_available",
+     "evidence": "Two programs occupy the campus across exactly this weekend: the hosted-group retreat 'Exhale: A Body Awareness Retreat' (Sept 11-13) and Mount Madonna's own campus-wide 'A Weekend in Community' (Sept 11-13), which opens scheduled classes and kirtan to all overnight guests.",
+     "quote": "Body Awareness Yoga (BAY) retreats invite you to listen to your body and move with your breath.",
+     "sourceUrl": "https://mountmadonna.org/calendar/",
+     "sourceLabel": "Mount Madonna — public calendar"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "definitely_not_available",
+     "evidence": "Two long hosted-group trainings overlap this weekend: the Grof Breathwork Facilitator Training (Sept 13-20) and the 10-day Recovery 2.0 Level 1 Coach Training (Sept 18-27), which begins on this Friday.",
+     "quote": "An immersive 10-day certification training led by Tommy Rosen, world-renowned yoga teacher and addiction expert",
+     "sourceUrl": "https://mountmadonna.org/calendar/",
+     "sourceLabel": "Mount Madonna — public calendar"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "definitely_not_available",
+     "evidence": "Three things run across this weekend: Recovery 2.0 (Sept 18-27), the Awake Heart 300-hour training (Sept 20-27), and Mount Madonna's own 8th annual Aradhana ceremony on Saturday Sept 26.",
+     "quote": "Awake Heart Session III is an advanced yoga training with Hannah Muse.",
+     "sourceUrl": "https://mountmadonna.org/calendar/",
+     "sourceLabel": "Mount Madonna — public calendar"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "probably_not_available",
+     "evidence": "Jennifer Welwood's Mystery School Retreat runs Sept 27 - Oct 4 and covers this whole weekend. It is a single hosted group rather than a campus-wide event, so a second booking is not flatly impossible on a campus this size, but the main retreat facilities will be committed.",
+     "quote": "In this retreat, Jennifer Welwood explores two paths of transformation: realizing our awake nature and integrating it into embodied human life.",
+     "sourceUrl": "https://mountmadonna.org/calendar/",
+     "sourceLabel": "Mount Madonna — public calendar"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "probably_not_available",
+     "evidence": "Henry Shukman's 'Realizing The Way' retreat runs Oct 8-11, covering Fri through Sun. Again a single hosted group, so not an absolute bar, but the retreat space and rooms are spoken for.",
+     "quote": "Join Henry Shukman for a 3-day retreat including extended meditation, dharma teachings, community, and conditions for deep insight to arise naturally.",
+     "sourceUrl": "https://mountmadonna.org/calendar/",
+     "sourceLabel": "Mount Madonna — public calendar"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "definitely_not_available",
+     "evidence": "Mount Madonna's own ten-day Navaratri and Vijay Dasami festival runs Oct 11-20 and spans this weekend, and the fully-loaded calendar additionally shows three concurrent hosted-group retreats on the same dates: The Rooted Return (Oct 14-16), the 5th Annual Women's Evolution Weekend Retreat (Oct 16-18) and Reset in the Redwoods (Oct 16-20).",
+     "quote": "Save the Date | October 11 - October 20, 2026",
+     "sourceUrl": "https://mountmadonna.org/calendar/navaratri-and-vijay-dasami-2026/?occurrence=2026-10-11",
+     "sourceLabel": "Mount Madonna — Navaratri & Vijay Dasami 2026"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "probably_available",
+     "evidence": "The fully-loaded calendar shows a clear gap here: Navaratri ends Oct 20 and the next booking, the Ridhwan DHR6 retreat, does not start until Sunday Oct 25. There is no quotable string for an empty date, and the Sunday changeover with an arriving week-long group is worth checking.",
+     "quote": "",
+     "sourceUrl": "https://mountmadonna.org/calendar/",
+     "sourceLabel": "Mount Madonna — public calendar (fully loaded)"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "definitely_not_available",
+     "evidence": "Two bookings cover this weekend: the Ridhwan School's DHR6 retreat (Oct 25 - Nov 1) and 'IFS & Women in the Wild', which the organiser advertises at Mount Madonna for exactly Friday Oct 30 to Sunday Nov 1.",
+     "quote": "Friday, October 30 through Sunday, November 1, 2026",
+     "sourceUrl": "https://mcaft.com/retreats",
+     "sourceLabel": "Mindful Child & Family — Women in the Wild retreat"
+    }
+   ]
+  }
  },
  {
   "id": "bishops-ranch",
@@ -1435,7 +2218,94 @@ window.VENUES = [
     "credit": "The Bishop's Ranch (official site)",
     "source": "https://www.bishopsranch.org/group-reservations/facilities"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Fetched bishopsranch.org home, /group-reservations (pricing structure and booking policies), /programs (their own dated public program list) and /experiences/individual-retreats, which is the one page that reveals when the Ranch has spare capacity. Their reservation system is Campwise, but only the registration front end is public — there is no public availability calendar for group bookings. The programs page runs from Aug 31 through Jan 2027 and is the only dated inventory of what the Ranch itself is doing. I also searched for third-party retreats booked at the Ranch in the window and verified one (a Viniyoga retreat, Sept 14-18, Mon-Fri) on the leader's own site; Grace Cathedral's congregation-retreat page returns 403 to non-browser clients so I could not confirm its dates.",
+   "bookingPolicy": "HARD CONSTRAINT: 'The Bishop's Ranch exclusively hosts nonprofit groups who exist for religious, charitable or community benefit' — a private 60-person group would need a qualifying nonprofit as the organising entity, so ask before anything else. Up to 80 adults across the Ranch House, Webb Lodge and five cottages; conference hall to 125, smallest meeting room 12. Exclusive Use groups get booking priority; non-exclusive groups are priced 'By Building' with a Ranch-set 'up to X guests' per building, and all lodging and meeting spaces you intend to use must be in the contract. Recurring groups, including Episcopal Diocese of California parishes, confirm next year's dates before reservations open to new groups, which is why autumn weekends can be gone without ever being advertised.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "unknown",
+     "evidence": "The Ranch publishes no availability calendar for group bookings — everything runs through a reservations coordinator — and nothing on their programs page or in web searches puts an event on this weekend. The binding public fact is the guest-type policy, not the date.",
+     "quote": "The Bishop's Ranch exclusively hosts nonprofit groups who exist for religious, charitable or community benefit",
+     "sourceUrl": "https://www.bishopsranch.org/group-reservations",
+     "sourceLabel": "The Bishop's Ranch — group reservations policy"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "probably_not_available",
+     "evidence": "The Ranch has scheduled one of its own individual/household weekend retreats for Sept 4-6, 2026 in Webb Lodge, taking Friday-evening arrivals through Sunday. That rules out exclusive or near-whole-site use by an outside group, though it also shows the Ranch was not fully booked when the retreat was scheduled — they only run these 'when space is available'.",
+     "quote": "Come visit The Ranch! Our 360-acre campus offers abundant outdoor spaces to relax, explore and recharge during your weekend retreat.",
+     "sourceUrl": "https://www.bishopsranch.org/experiences/individual-retreats",
+     "sourceLabel": "The Bishop's Ranch — individual retreats (Sept 4-6 weekend)"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "unknown",
+     "evidence": "The Ranch's own contemplative retreat with Fr. Brendan Ellis Williams runs Monday Sept 7 to Friday Sept 11 with lodging in the Ranch House, so the site is occupied until Friday morning of this weekend; a same-day changeover is routine, but nothing public says whether the weekend itself is free.",
+     "quote": "In this year’s annual autumn retreat,",
+     "sourceUrl": "https://www.bishopsranch.org/programs",
+     "sourceLabel": "The Bishop's Ranch — programs (Sept 7-11 retreat)"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "A third-party Viniyoga retreat led by Mirka Kraftsow is booked at the Ranch for September 14-18, 2026 (Monday-Friday), ending on this Friday; that says nothing directly about the weekend itself, and no other event is published for it. Quote is the retreat description sitting directly under the 'September 14-18, 2026' heading on the leader's page.",
+     "quote": "Come enjoy time in nature and immerse yourself in the practices of Yoga that you love in the company of old and new friends.",
+     "sourceUrl": "https://www.viniyogalife.com/bishops-ranch-retreat/",
+     "sourceLabel": "Viniyoga Life — Bishop's Ranch retreat, Sept 14-18 2026"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "unknown",
+     "evidence": "No dated information exists for this weekend; the only public signal is that Exclusive Use groups get booking priority and recurring diocesan parishes confirm their dates before new groups, which means popular fall weekends are often taken long before anything appears publicly.",
+     "quote": "We give priority booking to Exclusive Use groups.",
+     "sourceUrl": "https://www.bishopsranch.org/group-reservations",
+     "sourceLabel": "The Bishop's Ranch — booking priority"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "unknown",
+     "evidence": "The Ranch publishes no availability calendar for group bookings — everything runs through a reservations coordinator — and nothing on their programs page or in web searches puts an event on this weekend. The binding public fact is the guest-type policy, not the date.",
+     "quote": "The Bishop's Ranch exclusively hosts nonprofit groups who exist for religious, charitable or community benefit",
+     "sourceUrl": "https://www.bishopsranch.org/group-reservations",
+     "sourceLabel": "The Bishop's Ranch — group reservations policy"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "unknown",
+     "evidence": "No dated information exists for this weekend; the only public signal is that Exclusive Use groups get booking priority and recurring diocesan parishes confirm their dates before new groups, which means popular fall weekends are often taken long before anything appears publicly.",
+     "quote": "We give priority booking to Exclusive Use groups.",
+     "sourceUrl": "https://www.bishopsranch.org/group-reservations",
+     "sourceLabel": "The Bishop's Ranch — booking priority"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "probably_not_available",
+     "evidence": "The Ranch is running its own public Fall Hike program on Saturday Oct 17 with a Ranch-prepared lunch, so it will be hosting day guests in the middle of this weekend. That does not rule out a partial booking, but it is inconsistent with the exclusive or near-whole-site use a 60-person retreat wants.",
+     "quote": "Experience the quiet magic of fall at The Bishop’s Ranch on a guided Saturday hike through some of its lesser-known trails.",
+     "sourceUrl": "https://www.bishopsranch.org/programs",
+     "sourceLabel": "The Bishop's Ranch — programs (Fall Hike, Oct 17)"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "unknown",
+     "evidence": "The Ranch publishes no availability calendar for group bookings — everything runs through a reservations coordinator — and nothing on their programs page or in web searches puts an event on this weekend. The binding public fact is the guest-type policy, not the date.",
+     "quote": "The Bishop's Ranch exclusively hosts nonprofit groups who exist for religious, charitable or community benefit",
+     "sourceUrl": "https://www.bishopsranch.org/group-reservations",
+     "sourceLabel": "The Bishop's Ranch — group reservations policy"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "probably_not_available",
+     "evidence": "The Ranch runs its own day-long 'Your Kitchen Madonna' workshop on Saturday Oct 31 with lunch included, putting outside day guests on site through the middle of this weekend — again compatible with a partial booking but not with exclusive use.",
+     "quote": "This creative collage, word, painting project is based on the book, The Kitchen Madonna, by Rumer Godden.",
+     "sourceUrl": "https://www.bishopsranch.org/programs",
+     "sourceLabel": "The Bishop's Ranch — programs (Oct 31 workshop)"
+    }
+   ]
+  }
  },
  {
   "id": "costanoa",
@@ -1579,7 +2449,94 @@ window.VENUES = [
     "credit": "Costanoa (official site)",
     "source": "https://www.costanoa.com/"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Costanoa is a commercial Highway West Vacations resort with a live public booking engine at reservations.costanoa.com/costanoa/, so this venue could be checked far more directly than most. I fetched the marketing pages (costanoa.com home, /meetings/, /event-spaces/, /stay/lodge/) for capacity and group policy, then ran a dated availability search against reservations.costanoa.com/costanoa/availability.asp for each of the ten Fri-Sun windows (2 adults, both nights, HTTP 200 each time). Important parsing caveat I verified before trusting any result: every room card in the response contains BOTH a real price div and a hidden fallback div reading 'Not available for your current dates or guest count', so a naive text scrape reports every room as unavailable. A control query on an ordinary midweek date (11/10-11/12/2026) returned 27 room types with the same hidden fallback text, which proved the fallback is boilerplate. The real signal is which room-type cards the engine returns at all: it lists only types with bookable inventory for the full stay. I also probed adults=60, which is meaningless here - the engine's own error says it cannot accommodate that 'in one room' - so all counts below are from 2-adult searches. Room-type counts are a floor, not a unit count: a listed type means at least one unit is free, not thirty. The engine also shows only transient inventory, so rooms already held in a group block are invisible to it, which cuts both ways.",
+   "bookingPolicy": "Year-round commercial coastal resort, not a whole-site rental camp: 138 units total ('There are 39 luxury rooms in our Lodge, 14 cabins with a variety of amenities, and 85 glamping style tent bungalows'), plus RV sites and tent villages. A 60-person group needs roughly 30 units, a fraction of the property, so no buyout is required - but it is also far more than the public engine confirms on most of these weekends. Meeting spaces run to 'banquet seating for 80' (The Ranch House) and 'reception for 150' (Pine Tent), so the function space comfortably fits 60. Groups are handled by a sales team via the /meetings/ inquiry path rather than the public engine; a Group/Block rate code field exists on the booking form. Holiday weekends (Labor Day is named explicitly) carry a first-night non-refundable deposit and stricter cancellation terms. Note the booking engine footer leaks a sister property's address and phone ('221 Palm Canyon Drive'), so do not trust contact details shown there.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "probably_available",
+     "evidence": "A dated 08/28-08/30 search returned 8 bookable room types, 6 of them real lodging (Outer Pine Bungalows, Cypress, both Douglas Fir cabins, Lodge View King, Lighthouse View Bungalows) plus 2 RV site types. The quote is the description on the first returned card; cards only render for types with inventory for both nights. Only 'probably' because this confirms a handful of free units, not the ~30 a 60-person group needs, and no buyout is confirmed.",
+     "quote": "Bring your rig and roll right in - our premium pull-thru sites are built for convenience and comfort.",
+     "sourceUrl": "https://reservations.costanoa.com/costanoa/availability.asp",
+     "sourceLabel": "Costanoa booking engine, 08/28-08/30/2026 search"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "probably_not_available",
+     "evidence": "Labor Day weekend. The 09/04-09/06 search returned only 2 bookable room types in the entire resort, Cypress and Lodge View King, both 'Sleeps 2'. That is a nearly sold-out holiday weekend and nowhere near enough for 60 people.",
+     "quote": "Tucked beneath the dappled shade of mature cypress trees, these cozy bungalows are perfect for couples or solo travelers seeking peace and quiet.",
+     "sourceUrl": "https://reservations.costanoa.com/costanoa/availability.asp",
+     "sourceLabel": "Costanoa booking engine, 09/04-09/06/2026 search"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "probably_not_available",
+     "evidence": "The 09/11-09/13 search returned 5 room types, but 3 are RV sites; only Cypress and Pebble are lodging. Too thin for a 60-person group, though the resort is clearly open and selling.",
+     "quote": "Upgrade your stay with our deluxe back-in RV sites featuring an 8x11.5ft wooden platform - perfect for setting up one small tent (no tents permitted on the ground).",
+     "sourceUrl": "https://reservations.costanoa.com/costanoa/availability.asp",
+     "sourceLabel": "Costanoa booking engine, 09/11-09/13/2026 search"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "probably_not_available",
+     "evidence": "The 09/18-09/20 search returned 6 room types, 3 of them RV sites; the lodging types left were Cypress, Douglas Fir Cabin King and Lodge Premium. Limited remaining inventory rather than a sellout, but well short of 60 people.",
+     "quote": "Upgrade your stay with our deluxe back-in RV sites featuring an 8x11.5ft wooden platform - perfect for setting up one small tent (no tents permitted on the ground).",
+     "sourceUrl": "https://reservations.costanoa.com/costanoa/availability.asp",
+     "sourceLabel": "Costanoa booking engine, 09/18-09/20/2026 search"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "probably_not_available",
+     "evidence": "The 09/25-09/27 search returned exactly one bookable type across the whole resort, and it is an RV pull-through site, not lodging. Re-run to confirm it was not a transient glitch and it returned 1 again. Effectively no lodging left for a group.",
+     "quote": "Bring your rig and roll right in - our premium pull-thru sites are built for convenience and comfort.",
+     "sourceUrl": "https://reservations.costanoa.com/costanoa/availability.asp",
+     "sourceLabel": "Costanoa booking engine, 09/25-09/27/2026 search"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "probably_not_available",
+     "evidence": "The 10/02-10/04 search returned 6 types but mostly camping: two tent villages and two RV site types, leaving Family Bungalows and Pebble as the only lodging. Not enough for 60 people in cabins or rooms.",
+     "quote": "Bring your own tent and set up in a shady, grassy site designed for laid-back camping with family or friends.",
+     "sourceUrl": "https://reservations.costanoa.com/costanoa/availability.asp",
+     "sourceLabel": "Costanoa booking engine, 10/02-10/04/2026 search"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "definitely_not_available",
+     "evidence": "The only weekend where the engine returned zero bookable room types and the explicit sold-out message below. I split the stay to find out why: Friday 10/09-10/10 alone still returned one type, but Saturday 10/10-10/11 alone returned zero types and the same message, so the resort is genuinely full on the Saturday night rather than merely blocked by a minimum-stay rule.",
+     "quote": "Our apologies, We are either fully booked on one of the days you have requested, has set a minimum stay restriction, or the number of guests you have specified can not be accommodated in one room.",
+     "sourceUrl": "https://reservations.costanoa.com/costanoa/availability.asp",
+     "sourceLabel": "Costanoa booking engine, 10/09-10/11/2026 search (zero results)"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "probably_available",
+     "evidence": "The target weekend for this group. The 10/16-10/18 search returned 6 bookable types, all of them lodging (Outer Pine Bungalows, Cypress, Lodge King Accessible, Lodge Premium, View Lodge Premium, Pebble) with no RV filler - the healthiest lodging mix of any September or October weekend except 10/30. Still only 'probably': six free types is not thirty free units, and a group block would have to be confirmed with the sales team.",
+     "quote": "Nestled along the grassy ridgeline, these quiet hideaways are ideal for those who want a little more solitude.",
+     "sourceUrl": "https://reservations.costanoa.com/costanoa/availability.asp",
+     "sourceLabel": "Costanoa booking engine, 10/16-10/18/2026 search"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "probably_not_available",
+     "evidence": "The 10/23-10/25 search returned 7 types, but three are tent/RV sites; lodging left is Outer Pine Bungalows, Cypress, Pebble and Coastal Deluxe Cabin. Borderline, but thin enough that a 30-unit block looks unlikely without displacing existing bookings.",
+     "quote": "Bring your own tent and set up in a shady, grassy site designed for laid-back camping with family or friends.",
+     "sourceUrl": "https://reservations.costanoa.com/costanoa/availability.asp",
+     "sourceLabel": "Costanoa booking engine, 10/23-10/25/2026 search"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "probably_available",
+     "evidence": "Halloween weekend is by far the most open of the ten: the 10/30-11/01 search returned 24 bookable room types, close to the 27 returned by my off-peak midweek control, covering essentially the full range of lodge rooms, cabins, bungalows and cottages. This is the one weekend where enough distinct inventory is visibly free that a 60-person block looks realistic, but the engine still does not expose unit counts, so it stays 'probably'.",
+     "quote": "Bring your own tent and set up in a shady, grassy site designed for laid-back camping with family or friends.",
+     "sourceUrl": "https://reservations.costanoa.com/costanoa/availability.asp",
+     "sourceLabel": "Costanoa booking engine, 10/30-11/01/2026 search"
+    }
+   ]
+  }
  },
  {
   "id": "saratoga-springs",
@@ -1707,7 +2664,94 @@ window.VENUES = [
     "credit": "Lake County Tourism (lakecounty.com)",
     "source": "https://lakecounty.com/accommodation/saratoga-springs-retreat-and-conference-center/"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "saratogasprings.com redirects to a hand-built static site under /vintage/ whose own footer reads 'Site last updated: July 11, 2020'. I walked essentially the whole site: home, sitemap, /retreats/retreats-events.html (their only events page), /rates/rates.html, retreat_facility.html and contact.html, all HTTP 200. There is no booking engine, no availability calendar, no rate card and no group-availability PDF anywhere on the domain - the rates page just says to phone or email for a quote. The events page has been touched more recently than the rest of the site (it lists an April 3-5, 2026 retreat) but names no event after April 2026, so it establishes nothing about September or October. Off-site I checked Yelp, Lake County tourism, winecountry.com, Nextdoor and cityseeker, and searched for 2026 retreats and festivals naming the venue; none carried dated 2026 fall bookings. I specifically chased Hexenfest, the multi-day festival that has occupied a Saratoga Springs October weekend in past years: hexenfest.net is still advertising 'October 9th - 12th, 2025' across its home, tickets, schedule and FAQ pages and has published no 2026 dates. That is a recurrence pattern, not evidence about 2026, so I have not let it move any status. The honest result for this venue is ten unknowns: nothing about fall 2026 occupancy is public.",
+   "bookingPolicy": "Exclusive whole-site use only, which suits a 60-person group well: the home page states the center is 'available for EXCLUSIVE USE' by groups (the site says minimum 20 in one place and the group-reservations note says min 20) for stays of 2 to 10 nights - so a Fri-Sun two-night booking sits at the bottom edge of the accepted range. 260-acre private valley, 19th-century lodge, rustic cabins, the 2,400 sq ft Heart Lodge meeting hall, pool and hot tub. Rates are quoted per group by season and size rather than published: 'We offer competitive group and individual packages depending on the size of your group and time of year for your event. Please call or email us for details.' Bookings go through stay@saratogasprings.com or the Events Manager at 707-275-9503, weekdays 9am-4pm. Because the site is exclusive-use, any single booked group blocks the entire weekend, which makes the total absence of a public calendar especially limiting.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "unknown",
+     "evidence": "The venue publishes no availability calendar or booking engine. Its only events page lists nothing for August 2026, but that page also lists nothing after April 2026 at all, so silence there carries no information.",
+     "quote": "",
+     "sourceUrl": "https://saratogasprings.com/vintage/retreats/retreats-events.html",
+     "sourceLabel": "Saratoga Springs Retreats & Events page (only events listing on the site)"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "unknown",
+     "evidence": "Labor Day weekend. Nothing published either way; no calendar, no rate/availability sheet, and no third-party listing naming this weekend at the venue.",
+     "quote": "",
+     "sourceUrl": "https://saratogasprings.com/vintage/retreats/retreats-events.html",
+     "sourceLabel": "Saratoga Springs Retreats & Events page"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "unknown",
+     "evidence": "No public source states whether the site is booked. The rates page directs all enquiries to phone or email rather than showing availability.",
+     "quote": "",
+     "sourceUrl": "https://saratogasprings.com/vintage/rates/rates.html",
+     "sourceLabel": "Saratoga Springs rates page (quote on request, no availability shown)"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "No public source states whether the site is booked this weekend. Searched the venue site, Yelp, Lake County tourism and general web for dated fall 2026 events; nothing.",
+     "quote": "",
+     "sourceUrl": "https://saratogasprings.com/vintage/retreats/retreats-events.html",
+     "sourceLabel": "Saratoga Springs Retreats & Events page"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "unknown",
+     "evidence": "No public source states whether the site is booked this weekend.",
+     "quote": "",
+     "sourceUrl": "https://saratogasprings.com/vintage/retreats/retreats-events.html",
+     "sourceLabel": "Saratoga Springs Retreats & Events page"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "unknown",
+     "evidence": "No public source states whether the site is booked this weekend.",
+     "quote": "",
+     "sourceUrl": "https://saratogasprings.com/vintage/retreats/retreats-events.html",
+     "sourceLabel": "Saratoga Springs Retreats & Events page"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "unknown",
+     "evidence": "This is the weekend Hexenfest has historically occupied at Saratoga Springs - its 2025 edition ran Oct 9-12, 2025 on this site. But hexenfest.net has not been updated for 2026: every page still advertises the 2025 dates and no 2026 festival has been announced. A past-years pattern is not dated evidence, so this stays unknown rather than becoming a negative.",
+     "quote": "",
+     "sourceUrl": "https://www.hexenfest.net/faq",
+     "sourceLabel": "Hexenfest FAQ (still showing 2025 dates, no 2026 announcement)"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "unknown",
+     "evidence": "The group's target weekend. No public source states whether the site is booked; the venue would have to be phoned or emailed to find out.",
+     "quote": "",
+     "sourceUrl": "https://saratogasprings.com/vintage/retreats/retreats-events.html",
+     "sourceLabel": "Saratoga Springs Retreats & Events page"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "unknown",
+     "evidence": "No public source states whether the site is booked this weekend.",
+     "quote": "",
+     "sourceUrl": "https://saratogasprings.com/vintage/retreats/retreats-events.html",
+     "sourceLabel": "Saratoga Springs Retreats & Events page"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "unknown",
+     "evidence": "Halloween weekend. No public source states whether the site is booked; nothing on the venue site or in third-party listings names it.",
+     "quote": "",
+     "sourceUrl": "https://saratogasprings.com/vintage/retreats/retreats-events.html",
+     "sourceLabel": "Saratoga Springs Retreats & Events page"
+    }
+   ]
+  }
  },
  {
   "id": "westminster-woods",
@@ -1851,7 +2895,94 @@ window.VENUES = [
     "credit": "Westminster Woods (official site)",
     "source": "https://www.westminsterwoods.org/facilities"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Westminster Woods runs a Squarespace site with a genuinely useful set of programme pages, all fetched at HTTP 200: /guest-groups (rental policy and FAQ), /weekend-retreats (aliased as /retreat-weekends-overview, their public 'Weekend Retreats and Events' listing), /camp-weekend-retreats (the fall camp programme detail), /womens-weekend, /family-camp, /facilities, /programs-2 and /inquire. There is no booking engine and no guest-group availability calendar - enquiries go through /inquire and mark@westminsterwoods.org - but the venue does publish its own fall programme dates, and that turned out to be decisive. Their weekend events listing shows exactly three dated programmes: Women's Weekend 3/12-3/14, Camp Heartwood 10/16-10/18 and Camp Soulspring 11/20-11/22. Neither page prints a year, so I pinned it by weekday: 10/16-18 and 11/20-22 are Fri-Sun only in 2026 (Oct 16 and Nov 20 both fall on a Friday that year; in 2025 and 2027 they do not), and the pages are live in August 2026 describing the coming fall, so these are 2026 dates. That puts one of their own youth programmes squarely on the group's target weekend. The important limitation on everything below: this calendar lists Westminster Woods' OWN programmes only. Guest-group bookings by outside organisations are never published, so a weekend showing clear here can still be taken. I ran web searches for outside groups announcing 2026 retreats at the Woods and found none with dates in this window.",
+   "bookingPolicy": "Purpose-built guest-group retreat centre, comfortably sized for 60: 'We are able to hosts groups with 20 to 200 participants, with great package rates that include lodging, delicious meals, meeting rooms, and plenty of outdoor space for fun activities!' Lodging is mixed - dorm-style bunk cabins (bring your own sleeping bag, bathhouses a short walk away) plus three Guest Lodges taking 7-8 adults each, up to 12 maximum, with linens on request. Two season rules matter here and both are favourable for these ten weekends: no group rentals at all in June and July because of summer camp, and during the school year guest-group rentals are restricted to Friday-Sunday weekends because the midweek slots go to their school outdoor-education programmes. A Fri-Sun booking in September or October is therefore exactly the shape of stay they take. Owned by the Presbytery of the Redwoods and Christian in framing, but they host 'church groups, youth and college retreats, adult gatherings, and more'. Weddings are effectively excluded (November-March only, special circumstances), family reunions are rare. Practical notes for a 60-person group: no cell reception on site, WiFi in meeting rooms and guest houses only, no snacks or soda sold on site, and campfires are often banned in warm dry months for fire danger - relevant to September.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "probably_available",
+     "evidence": "Late August falls after the June-July rental blackout ends, and their published fall programme calendar lists nothing this weekend. Only 'probably': the calendar shows Westminster Woods' own programmes, not bookings by outside guest groups, which are never published.",
+     "quote": "Due to our exciting Summer Programs we do not have availability for group rentals during June and July.",
+     "sourceUrl": "https://www.westminsterwoods.org/guest-groups",
+     "sourceLabel": "Westminster Woods Guest Groups page, rental season policy"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "probably_available",
+     "evidence": "Labor Day weekend, inside the school-year window when guest-group rentals are limited to Fri-Sun - the shape of stay this group wants. Nothing on their programme calendar this weekend, but outside guest-group bookings are invisible, so this is not confirmation.",
+     "quote": "Westminster Woods is a wonderful location for a retreat or other group getaway!",
+     "sourceUrl": "https://www.westminsterwoods.org/guest-groups",
+     "sourceLabel": "Westminster Woods Guest Groups page"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "probably_available",
+     "evidence": "School-year Fri-Sun window, no Westminster Woods programme scheduled. Same caveat: their calendar does not show outside guest-group bookings.",
+     "quote": "Westminster Woods is a wonderful location for a retreat or other group getaway!",
+     "sourceUrl": "https://www.westminsterwoods.org/guest-groups",
+     "sourceLabel": "Westminster Woods Guest Groups page"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "probably_available",
+     "evidence": "School-year Fri-Sun window, no Westminster Woods programme scheduled this weekend on their published events listing.",
+     "quote": "Westminster Woods is a wonderful location for a retreat or other group getaway!",
+     "sourceUrl": "https://www.westminsterwoods.org/guest-groups",
+     "sourceLabel": "Westminster Woods Guest Groups page"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "probably_available",
+     "evidence": "School-year Fri-Sun window, no Westminster Woods programme scheduled this weekend on their published events listing.",
+     "quote": "Westminster Woods is a wonderful location for a retreat or other group getaway!",
+     "sourceUrl": "https://www.westminsterwoods.org/guest-groups",
+     "sourceLabel": "Westminster Woods Guest Groups page"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "probably_available",
+     "evidence": "Their fall programme calendar demonstrably covers October 2026 - it lists Camp Heartwood on 10/16-18 - and shows nothing on this weekend, which makes the clear reading slightly more meaningful here than in September. Still only 'probably', since outside guest-group bookings are not published.",
+     "quote": "Westminster Woods is a wonderful location for a retreat or other group getaway!",
+     "sourceUrl": "https://www.westminsterwoods.org/weekend-retreats",
+     "sourceLabel": "Westminster Woods Weekend Retreats and Events listing"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "probably_available",
+     "evidence": "Their fall calendar covers this period and shows nothing this weekend, though it is the weekend immediately before their Camp Heartwood retreat, which may mean staff setup. No published conflict.",
+     "quote": "Westminster Woods is a wonderful location for a retreat or other group getaway!",
+     "sourceUrl": "https://www.westminsterwoods.org/weekend-retreats",
+     "sourceLabel": "Westminster Woods Weekend Retreats and Events listing"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "probably_not_available",
+     "evidence": "This is the group's target weekend, and Westminster Woods runs its own Camp Heartwood Weekend Retreat on it - listed as '$299 • AGES 7-16 • 10/16 - 10/18' on their weekend events page, with a fuller description on the camp retreats page. It is a residential youth camp weekend using cabins, the dining hall, campfire and the Challenge Course, so it likely occupies much of the site. Not marked 'definitely' because a camp this size (they host up to 200) could in principle run a youth programme alongside a separate guest group, but a 60-person adult retreat sharing the site with a children's camp is unlikely to be offered.",
+     "quote": "Join us for this special Camp Heartwood Retreat! At Westminster Woods, we bring the magic of summer camp back to our campers every Fall.",
+     "sourceUrl": "https://www.westminsterwoods.org/camp-weekend-retreats",
+     "sourceLabel": "Westminster Woods Camp Weekend Retreats - Camp Heartwood, 10/16-18"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "probably_available",
+     "evidence": "The weekend after Camp Heartwood. Their fall calendar covers this period and lists nothing here; the next scheduled programme is Camp Soulspring on 11/20-22. Outside guest-group bookings remain unpublished.",
+     "quote": "Westminster Woods is a wonderful location for a retreat or other group getaway!",
+     "sourceUrl": "https://www.westminsterwoods.org/weekend-retreats",
+     "sourceLabel": "Westminster Woods Weekend Retreats and Events listing"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "probably_available",
+     "evidence": "Halloween weekend. Nothing on their published fall programme calendar, which runs through to Camp Soulspring on 11/20-22. Same caveat about unpublished guest-group bookings.",
+     "quote": "Westminster Woods is a wonderful location for a retreat or other group getaway!",
+     "sourceUrl": "https://www.westminsterwoods.org/weekend-retreats",
+     "sourceLabel": "Westminster Woods Weekend Retreats and Events listing"
+    }
+   ]
+  }
  },
  {
   "id": "monte-toyon",
@@ -1993,7 +3124,94 @@ window.VENUES = [
     "credit": "UCCR / Monte Toyon (official site)",
     "source": "https://www.uccr.org/monte-toyon"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Monte Toyon is run by UCCR (United Camps, Conferences & Retreats), so I worked their Squarespace site first: www.uccr.org/monte-toyon, the /monte-toyon-forms-information/pricing page (which carries 2026 and 2027 pricing PDFs), /inquire, and the UCCR home page, all HTTP 200. UCCR publishes no availability calendar and no booking engine for Monte Toyon - reservations run through reservations@uccr.org and a phone line, and the site's own Availability section just tells you to enquire early. Since the venue itself says nothing dated, the productive angle was the demand side: the guest groups who book it publish their own retreat dates. I searched for churches, fellowships and organisations naming Monte Toyon with 2026 dates, which surfaced one direct hit on my list - First Church Berkeley UCC's Fall All-Church Retreat on exactly the Sept 11-13, 2026 weekend, confirmed by fetching their page (HTTP 200). I also found an Epworth Berkeley retreat there May 1-3, 2026, outside the window. Repeat searches aimed at October 2026 bookings turned up nothing, and I checked Yelp, ACA Camps, UUFRC and the Cal-Nevada UMC conference page without finding further dated 2026 fall bookings. Absence of a second hit is not evidence the other weekends are free - most groups never publish, and UCCR does not - so the remaining nine stay unknown.",
+   "bookingPolicy": "Whole-facility group rental, well matched to 60 people: 'For groups as small as 30 guests up to 146 guests', overnight capacity 146, day-use and dining capacity 150. Carey Lodge sleeps up to 70 in nineteen bedrooms and the Miller and Morris dorms take 36 and 40, so a 60-person group fits in the lodge alone. Open to secular groups as well as religious ones ('We are open to all types of groups who want to rent our facility... we welcome groups from all backgrounds'), which matters since the camp is owned by the United Methodist Cal-Nevada Conference. Pricing is per-person package based (2026 and 2027 rate PDFs published), the basic rate covering one night and three meals in a 24-hour window. Two constraints on a fall Fri-Sun: UCCR warns the camp books out early ('Our camp is popular'), and WOLF School runs outdoor-education programmes on site during the school year, though those are typically midweek rather than weekends. Reservations: reservations@uccr.org, 800-678-5102.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "unknown",
+     "evidence": "UCCR publishes no dated availability for Monte Toyon; the site only advises enquiring early. No third-party group announced a retreat here this weekend.",
+     "quote": "Our camp is popular. For availability, inquire about reservations as soon as possible.",
+     "sourceUrl": "https://www.uccr.org/monte-toyon",
+     "sourceLabel": "UCCR Monte Toyon page, Availability section"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "unknown",
+     "evidence": "Labor Day weekend. No published calendar and no group announcement naming these dates at Monte Toyon.",
+     "quote": "Our camp is popular. For availability, inquire about reservations as soon as possible.",
+     "sourceUrl": "https://www.uccr.org/monte-toyon",
+     "sourceLabel": "UCCR Monte Toyon page, Availability section"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "definitely_not_available",
+     "evidence": "First Church Berkeley UCC is holding its Fall All-Church Retreat at Monte Toyon on exactly these dates - their page header reads 'Fri., Sept. 11 to Sun., Sept. 13, 2026' over 'Monte Toyon, Aptos', with registration already live. The quote below shows they are consuming the on-site lodging: demand exceeded the living arrangements, so they added an off-site hotel option for overflow. The site is booked by another whole-congregation group that weekend.",
+     "quote": "If staying at Monte Toyon is not accessible to you or your family, there will be an option to register for an Offsite Weekend and stay at a hotel of your choosing.",
+     "sourceUrl": "https://www.firstchurchberkeley.org/fall-all-church-retreat-2026/",
+     "sourceLabel": "First Church Berkeley UCC - Fall All-Church Retreat 2026 at Monte Toyon"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "No published calendar and no group announcement naming these dates. Note this weekend falls immediately after a confirmed booking, which says nothing either way about it.",
+     "quote": "Our camp is popular. For availability, inquire about reservations as soon as possible.",
+     "sourceUrl": "https://www.uccr.org/monte-toyon",
+     "sourceLabel": "UCCR Monte Toyon page, Availability section"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "unknown",
+     "evidence": "No published calendar and no group announcement naming these dates at Monte Toyon.",
+     "quote": "Our camp is popular. For availability, inquire about reservations as soon as possible.",
+     "sourceUrl": "https://www.uccr.org/monte-toyon",
+     "sourceLabel": "UCCR Monte Toyon page, Availability section"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "unknown",
+     "evidence": "No published calendar and no group announcement naming these dates. Targeted searches for October 2026 bookings at Monte Toyon returned nothing.",
+     "quote": "Our camp is popular. For availability, inquire about reservations as soon as possible.",
+     "sourceUrl": "https://www.uccr.org/monte-toyon",
+     "sourceLabel": "UCCR Monte Toyon page, Availability section"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "unknown",
+     "evidence": "No published calendar and no group announcement naming these dates at Monte Toyon.",
+     "quote": "Our camp is popular. For availability, inquire about reservations as soon as possible.",
+     "sourceUrl": "https://www.uccr.org/monte-toyon",
+     "sourceLabel": "UCCR Monte Toyon page, Availability section"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "unknown",
+     "evidence": "The group's target weekend. UCCR publishes nothing dated and no third-party group has announced a Monte Toyon retreat for it; this would need a call to reservations@uccr.org to resolve.",
+     "quote": "Our camp is popular. For availability, inquire about reservations as soon as possible.",
+     "sourceUrl": "https://www.uccr.org/monte-toyon",
+     "sourceLabel": "UCCR Monte Toyon page, Availability section"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "unknown",
+     "evidence": "No published calendar and no group announcement naming these dates at Monte Toyon.",
+     "quote": "Our camp is popular. For availability, inquire about reservations as soon as possible.",
+     "sourceUrl": "https://www.uccr.org/monte-toyon",
+     "sourceLabel": "UCCR Monte Toyon page, Availability section"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "unknown",
+     "evidence": "Halloween weekend. No published calendar and no group announcement naming these dates at Monte Toyon.",
+     "quote": "Our camp is popular. For availability, inquire about reservations as soon as possible.",
+     "sourceUrl": "https://www.uccr.org/monte-toyon",
+     "sourceLabel": "UCCR Monte Toyon page, Availability section"
+    }
+   ]
+  }
  },
  {
   "id": "vallombrosa",
@@ -2137,7 +3355,94 @@ window.VENUES = [
     "credit": "Vallombrosa Center (official site)",
     "source": "https://www.vallombrosa.org/"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Vallombrosa runs a dated WordPress site that does have a Calendar of Events page, so I went straight there and then worked outward: vallombrosa.org home, /calendar/, /retreats-conferences-programs/, /accommodations/, /bookevent/, /rts/ and /inquire/, all HTTP 200. The calendar page is the disappointment - it is fully built out with registration instructions, Eventbrite branding and payment terms, but it currently lists no events whatsoever, closing with 'Watch this page for more events planned in 2026.' An empty calendar of that kind carries no information: it does not show past events either, so silence on a given weekend means the page is simply unmaintained, not that the date is free. There is no booking engine and no published rate card - the rates page just says to phone Jaynie Fedele. I then went to the owner, the Archdiocese of San Francisco, whose sfarch.org events system has a venue page for Vallombrosa Retreat Center. That calendar IS live and does cover this period, but the only event it lists is November 13-15, 2026, outside the window. I also chased third-party groups publishing retreats held at Vallombrosa and found the Balance Center's 'Come Home to Your Original Alignment' retreat, held there January 16-18, 2026 - again outside the window. Both Archdiocesan and third-party calendars show only their own bookings, and ordinary group rentals never appear anywhere public, so all ten weekends are unknown.",
+   "bookingPolicy": "Sized well for 60 people and structured for exactly a Fri-Sun stay: 'groups up to 100 can be accommodated for overnight occupancy', with 20 single rooms in the Lourdes Court and 40 twin-bedded rooms in the Francis and Teresa wings - 60 rooms, every one with its own private bathroom. The calendar page states the standard weekend shape: 'weekend events begin Friday with dinner at 6:00pm and end after lunch on Sunday', with bedrooms ready after 4:00pm Friday. The one real constraint to check before pursuing this venue is guest type. Vallombrosa is owned by the Archdiocese of San Francisco and its own wording is that it 'welcomes groups to use our facility for meetings of a religious, educational or charitable nature'. That is not a flat exclusion and a great many retreats qualify as educational, but a purely social 60-person gathering should confirm it fits before planning around this site. The centre is confirmed open and actively taking group bookings - the home page carries a 2026 copyright and reads 'Vallombrosa is Open for In-Person Group Retreats. Please Call Jaynie at 650-325-5614.' All booking, rates and availability run through Jaynie Fedele, jaynie@vallombrosa.org / 650-325-5614; deposits are non-refundable but transferable within a year.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "unknown",
+     "evidence": "The venue's Calendar of Events lists no events at all, so it cannot be read as showing this weekend free. No third-party source names these dates at Vallombrosa.",
+     "quote": "Watch this page for more events planned in 2026.",
+     "sourceUrl": "https://www.vallombrosa.org/calendar/",
+     "sourceLabel": "Vallombrosa Calendar of Events (currently empty)"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "unknown",
+     "evidence": "Labor Day weekend. The venue calendar is empty and the Archdiocese venue calendar lists nothing at Vallombrosa in September 2026, but neither shows ordinary group rentals.",
+     "quote": "Watch this page for more events planned in 2026.",
+     "sourceUrl": "https://www.vallombrosa.org/calendar/",
+     "sourceLabel": "Vallombrosa Calendar of Events (currently empty)"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "unknown",
+     "evidence": "No dated public information either way. The Archdiocese of San Francisco venue page for Vallombrosa is live and covers this period but lists only a November 13-15, 2026 event.",
+     "quote": "",
+     "sourceUrl": "https://sfarch.org/venue/vallombrosa-retreat-center/",
+     "sourceLabel": "Archdiocese of San Francisco - Vallombrosa venue events page"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "No dated public information. Venue calendar empty; Archdiocese venue calendar shows nothing in September 2026.",
+     "quote": "Watch this page for more events planned in 2026.",
+     "sourceUrl": "https://www.vallombrosa.org/calendar/",
+     "sourceLabel": "Vallombrosa Calendar of Events (currently empty)"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "unknown",
+     "evidence": "No dated public information for this weekend on the venue calendar, the Archdiocese calendar, or any third-party listing.",
+     "quote": "Watch this page for more events planned in 2026.",
+     "sourceUrl": "https://www.vallombrosa.org/calendar/",
+     "sourceLabel": "Vallombrosa Calendar of Events (currently empty)"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "unknown",
+     "evidence": "No dated public information. Neither the venue's own empty calendar nor the Archdiocese venue calendar names anything in October 2026.",
+     "quote": "Watch this page for more events planned in 2026.",
+     "sourceUrl": "https://www.vallombrosa.org/calendar/",
+     "sourceLabel": "Vallombrosa Calendar of Events (currently empty)"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "unknown",
+     "evidence": "No dated public information for this weekend at Vallombrosa.",
+     "quote": "Watch this page for more events planned in 2026.",
+     "sourceUrl": "https://www.vallombrosa.org/calendar/",
+     "sourceLabel": "Vallombrosa Calendar of Events (currently empty)"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "unknown",
+     "evidence": "The group's target weekend. Nothing is published either way; the Archdiocese calendar covering this period shows no Vallombrosa event until November 13-15, 2026, but group rentals do not appear there. Resolving this needs a call to the Conference Coordinator.",
+     "quote": "",
+     "sourceUrl": "https://sfarch.org/venue/vallombrosa-retreat-center/",
+     "sourceLabel": "Archdiocese of San Francisco - Vallombrosa venue events page"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "unknown",
+     "evidence": "No dated public information for this weekend at Vallombrosa.",
+     "quote": "Watch this page for more events planned in 2026.",
+     "sourceUrl": "https://www.vallombrosa.org/calendar/",
+     "sourceLabel": "Vallombrosa Calendar of Events (currently empty)"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "unknown",
+     "evidence": "Halloween weekend. No dated public information; the next event the Archdiocese lists at this venue is November 13-15, 2026.",
+     "quote": "Watch this page for more events planned in 2026.",
+     "sourceUrl": "https://www.vallombrosa.org/calendar/",
+     "sourceLabel": "Vallombrosa Calendar of Events (currently empty)"
+    }
+   ]
+  }
  },
  {
   "id": "ymca-point-bonita",
@@ -2281,7 +3586,94 @@ window.VENUES = [
     "credit": "YMCA of San Francisco (archived official site, via Wayback Machine)",
     "source": "http://web.archive.org/web/20230120113022/https://www.ymcasf.org/locations/point-bonita-ymca"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Fetched the NatureBridge Golden Gate Conference & Retreat Center page (naturebridge.org/retreat-space/golden-gate) in full and read its package, lodging, pricing and FAQ text; fetched naturebridge.org/events and the one listed signature event page to see whether any organization-run event occupies the Marin Headlands campuses this fall (the only listed events are May 7 at Fort Mason and Nov 6 in Seattle); checked the Golden Gate summer/Coastal Camp pages; and ran web searches for third-party retreats, conferences or weddings announced at NatureBridge Golden Gate / Fort Cronkhite / Point Bonita for September and October 2026. NatureBridge publishes NO availability calendar and no booking engine — reservations run entirely through a 'Request Information' form and a reservations team, so no weekend can be dated-confirmed from the public web. What the site does publish is an explicit, unconditional statement of which days are bookable for overnight groups, which covers all ten weekends.",
+   "bookingPolicy": "Overnight packages are sold Friday-Sunday during the school year, with added weekday availability mid-June through Labor Day, for groups of 20 or more; packages bundle meeting rooms, Wi-Fi, three meals a day and dorm-style lodging. Two campuses (Bluff at Point Bonita, Beach at Fort Cronkhite) hold up to 200 guests total. This is NOT a buyout venue: main dorms sleep roughly 60-70 each, are typically gender-separated by building, and are explicitly shared with other groups on site, as is the dining hall; the Raven building (max 45) is the only self-contained option, too small for 60. Booking requires a signed contract plus a 25% non-refundable deposit; cancellations inside 90 days owe the full balance. Alcohol is restricted to beer/wine in meeting rooms only, arranged in advance. Guests bring their own bedding and toiletries. 2026 weekend rate for a 2-night stay is $307/person standard, $259/person nonprofit.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "probably_available",
+     "evidence": "This Friday falls inside the published mid-June-through-Labor-Day window, when weekends plus weekdays are bookable for groups of 20+, but nothing dated confirms the weekend is free.",
+     "quote": "Available Friday–Sunday during the school year, with additional weekday availability from mid-June through Labor Day for groups of 20 or more.",
+     "sourceUrl": "https://naturebridge.org/retreat-space/golden-gate",
+     "sourceLabel": "NatureBridge Golden Gate Conference & Retreat Center"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "probably_available",
+     "evidence": "Labor Day weekend sits at the boundary of the summer window and the school year; either way the published Fri-Sun overnight window covers it, but no dated confirmation exists.",
+     "quote": "Available Friday–Sunday during the school year, with additional weekday availability from mid-June through Labor Day for groups of 20 or more.",
+     "sourceUrl": "https://naturebridge.org/retreat-space/golden-gate",
+     "sourceLabel": "NatureBridge Golden Gate Conference & Retreat Center"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "probably_available",
+     "evidence": "NatureBridge publishes Fri-Sun overnight group packages as its standard weekend offering during the school year, which covers this date, but it publishes no dated availability calendar and dorms are shared between groups.",
+     "quote": "Available Friday–Sunday during the school year, with additional weekday availability from mid-June through Labor Day for groups of 20 or more.",
+     "sourceUrl": "https://naturebridge.org/retreat-space/golden-gate",
+     "sourceLabel": "NatureBridge Golden Gate Conference & Retreat Center"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "probably_available",
+     "evidence": "NatureBridge publishes Fri-Sun overnight group packages as its standard weekend offering during the school year, which covers this date, but it publishes no dated availability calendar and dorms are shared between groups.",
+     "quote": "Available Friday–Sunday during the school year, with additional weekday availability from mid-June through Labor Day for groups of 20 or more.",
+     "sourceUrl": "https://naturebridge.org/retreat-space/golden-gate",
+     "sourceLabel": "NatureBridge Golden Gate Conference & Retreat Center"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "probably_available",
+     "evidence": "The season is open under the published Fri-Sun overnight window, but the FAQ makes clear a 60-person group would not have the campus to itself, so this is only 'probably'.",
+     "quote": "Groups can expect to have participants from other groups sharing the same dorm rooms and bathrooms.",
+     "sourceUrl": "https://naturebridge.org/retreat-space/golden-gate",
+     "sourceLabel": "NatureBridge Golden Gate retreat page, FAQ section"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "probably_available",
+     "evidence": "NatureBridge publishes Fri-Sun overnight group packages as its standard weekend offering during the school year, which covers this date, but it publishes no dated availability calendar and dorms are shared between groups.",
+     "quote": "Available Friday–Sunday during the school year, with additional weekday availability from mid-June through Labor Day for groups of 20 or more.",
+     "sourceUrl": "https://naturebridge.org/retreat-space/golden-gate",
+     "sourceLabel": "NatureBridge Golden Gate Conference & Retreat Center"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "probably_available",
+     "evidence": "NatureBridge publishes Fri-Sun overnight group packages as its standard weekend offering during the school year, which covers this date, but it publishes no dated availability calendar and dorms are shared between groups.",
+     "quote": "Available Friday–Sunday during the school year, with additional weekday availability from mid-June through Labor Day for groups of 20 or more.",
+     "sourceUrl": "https://naturebridge.org/retreat-space/golden-gate",
+     "sourceLabel": "NatureBridge Golden Gate Conference & Retreat Center"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "probably_available",
+     "evidence": "NatureBridge publishes Fri-Sun overnight group packages as its standard weekend offering during the school year, which covers this date, but it publishes no dated availability calendar and dorms are shared between groups.",
+     "quote": "Available Friday–Sunday during the school year, with additional weekday availability from mid-June through Labor Day for groups of 20 or more.",
+     "sourceUrl": "https://naturebridge.org/retreat-space/golden-gate",
+     "sourceLabel": "NatureBridge Golden Gate Conference & Retreat Center"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "probably_available",
+     "evidence": "The school year is in session, so the published Fri-Sun overnight window applies; no dated calendar exists to confirm this specific weekend.",
+     "quote": "Available Friday–Sunday during the school year, with additional weekday availability from mid-June through Labor Day for groups of 20 or more.",
+     "sourceUrl": "https://naturebridge.org/retreat-space/golden-gate",
+     "sourceLabel": "NatureBridge Golden Gate Conference & Retreat Center"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "probably_available",
+     "evidence": "NatureBridge publishes Fri-Sun overnight group packages as its standard weekend offering during the school year, which covers this date, but it publishes no dated availability calendar and dorms are shared between groups.",
+     "quote": "Available Friday–Sunday during the school year, with additional weekday availability from mid-June through Labor Day for groups of 20 or more.",
+     "sourceUrl": "https://naturebridge.org/retreat-space/golden-gate",
+     "sourceLabel": "NatureBridge Golden Gate Conference & Retreat Center"
+    }
+   ]
+  }
  },
  {
   "id": "walker-creek-ranch",
@@ -2416,7 +3808,94 @@ window.VENUES = [
     "credit": "Walker Creek Ranch (official site)",
     "source": "https://www.walkercreekranch.org/plan-your-event-1"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Pulled the Walker Creek Ranch sitemap (three Wix sitemaps) and read every relevant page: home, Plan Your Event, Schedule Your Event, Lodging, Community Events, Forms & FAQ and Learn About Our Program, plus the three PDFs linked from Plan Your Event (Summer 2026 rate sheet, 2025-26 conference pricing, and the bed-by-bed lodging/wedding sheet). None of these contains an availability calendar, a booking engine, or any list of booked dates — the only booked-date information the ranch itself publishes is a 'Upcoming Events' block that currently shows one item, a May community day. I then searched the wider web for events naming Walker Creek Ranch in September and October 2026, which surfaced Walker Creek Music Camp; I fetched that organization's home, registration, schedule and about pages to confirm its Fall 2026 dates and that the camp is residential at the ranch. Everything else is genuinely unknown from the public web.",
+   "bookingPolicy": "Owned and run by the Marin County Office of Education; the ranch runs its residential outdoor school for ~5,000 students a year and separately hosts ~5,000 conference, reunion and wedding guests, so a private group shares the 1,700-acre site with whatever school session is running. Conference bookings are handled by inquiry only (Jean Parker, jparker@marinschools.org, conference direct 415-491-6603). Capacity is ample for 60: 287 economy cabin/bunkhouse beds (13 cabins of 15-17 beds plus Eucalyptus 56 and Pine 32) and 82 semi-private lodge beds, meeting rooms included with lodging. 2025-26 conference rates are per person per night: camping $44.25, cabins $75, shared lodge room $125.50, private lodge room $184.50, with meals $22/$24.25/$31; day use $38.50. Lodging discounts start at groups of 100+ or Nov-Feb stays, so a 60-person weekend gets no discount. Weddings carry a $5,768 minimum. Pond use is seasonal, May-October, at $110/hour with lifeguard. Guests bring their own bedding for cabins; linens are included in lodges.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "unknown",
+     "evidence": "Walker Creek Ranch publishes no availability calendar and no booking engine; the only way to check a date is the 'Schedule Your Event' inquiry form, so the public web says nothing about this weekend either way.",
+     "quote": "",
+     "sourceUrl": "https://www.walkercreekranch.org/schedule-your-event-1",
+     "sourceLabel": "Walker Creek Ranch 'Schedule Your Event' page"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "unknown",
+     "evidence": "Walker Creek Ranch publishes no availability calendar and no booking engine; the only way to check a date is the 'Schedule Your Event' inquiry form, so the public web says nothing about this weekend either way.",
+     "quote": "",
+     "sourceUrl": "https://www.walkercreekranch.org/schedule-your-event-1",
+     "sourceLabel": "Walker Creek Ranch 'Schedule Your Event' page"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "unknown",
+     "evidence": "Walker Creek Ranch publishes no availability calendar and no booking engine; the only way to check a date is the 'Schedule Your Event' inquiry form, so the public web says nothing about this weekend either way.",
+     "quote": "",
+     "sourceUrl": "https://www.walkercreekranch.org/schedule-your-event-1",
+     "sourceLabel": "Walker Creek Ranch 'Schedule Your Event' page"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "Walker Creek Ranch publishes no availability calendar and no booking engine; the only way to check a date is the 'Schedule Your Event' inquiry form, so the public web says nothing about this weekend either way.",
+     "quote": "",
+     "sourceUrl": "https://www.walkercreekranch.org/schedule-your-event-1",
+     "sourceLabel": "Walker Creek Ranch 'Schedule Your Event' page"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "unknown",
+     "evidence": "The ranch's only public 'Upcoming Events' entry is this May community day (quote is the event title, the nearest literal on-page string); nothing is listed for this weekend, which is absence of information rather than evidence the date is free.",
+     "quote": "West Marin Community Day",
+     "sourceUrl": "https://www.walkercreekranch.org/community-events",
+     "sourceLabel": "Walker Creek Ranch community events listing"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "unknown",
+     "evidence": "Walker Creek Ranch publishes no availability calendar and no booking engine; the only way to check a date is the 'Schedule Your Event' inquiry form, so the public web says nothing about this weekend either way.",
+     "quote": "",
+     "sourceUrl": "https://www.walkercreekranch.org/schedule-your-event-1",
+     "sourceLabel": "Walker Creek Ranch 'Schedule Your Event' page"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "unknown",
+     "evidence": "Walker Creek Ranch publishes no availability calendar and no booking engine; the only way to check a date is the 'Schedule Your Event' inquiry form, so the public web says nothing about this weekend either way.",
+     "quote": "",
+     "sourceUrl": "https://www.walkercreekranch.org/schedule-your-event-1",
+     "sourceLabel": "Walker Creek Ranch 'Schedule Your Event' page"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "unknown",
+     "evidence": "Walker Creek Ranch publishes no availability calendar and no booking engine; the only way to check a date is the 'Schedule Your Event' inquiry form, so the public web says nothing about this weekend either way.",
+     "quote": "",
+     "sourceUrl": "https://www.walkercreekranch.org/schedule-your-event-1",
+     "sourceLabel": "Walker Creek Ranch 'Schedule Your Event' page"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "definitely_not_available",
+     "evidence": "Walker Creek Music Camp's Fall 2026 session runs Thursday Oct 22 through Sunday Oct 25 at Walker Creek Ranch, a four-day residential camp using the ranch's lodging, dining hall, barn and classrooms, which covers this entire Fri-Sun window.",
+     "quote": "Fall ’26 Camp – Thursday October 22-Sunday October 25",
+     "sourceUrl": "https://walkercreekmusiccamp.org/registration/",
+     "sourceLabel": "Walker Creek Music Camp registration page"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "unknown",
+     "evidence": "The ranch's only public 'Upcoming Events' entry is this May community day (quote is the event title, the nearest literal on-page string); nothing is listed for this weekend, which is absence of information rather than evidence the date is free.",
+     "quote": "West Marin Community Day",
+     "sourceUrl": "https://www.walkercreekranch.org/community-events",
+     "sourceLabel": "Walker Creek Ranch community events listing"
+    }
+   ]
+  }
  },
  {
   "id": "harbin-hot-springs",
@@ -2559,7 +4038,94 @@ window.VENUES = [
     "credit": "Harbin Hot Springs (official site)",
     "source": "https://harbin.org/reservations/accommodations-rates/"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Fetched harbin.org, the Book Your Visit reservation page, Accommodations & Rates, Helpful Information & Policies, the Events & Workshops page and the news blog, plus the site's own sitemap to make sure no group/rental page was missed. The decisive finding needs no calendar: Harbin's reservation policy states outright that group bookings are no longer allowed and that every guest over 18 must buy a membership and reserve individually. There is therefore no date on which a 60-person Fri-Sun group booking is possible, and I did not need to query the individual booking engine date by date. The Events & Workshops page loads its listings through a JavaScript calendar widget with no server-rendered dates, and in any case lists third-party workshops that do not occupy the site. Harbin is open 24 hours a day, 365 days a year, so there is no seasonal closure — the block is entirely a policy block.",
+   "bookingPolicy": "Group bookings have not been permitted since July 2023: all guests 18+ must purchase a membership ($15 one-month trial, $35 annual, $300 lifetime) and make their own individual reservation, with photo ID checked at check-in. Indoor lodging on weekends and holidays carries a two-night minimum. Lodging inventory is individual units — Grove Cottages (double occupancy), the Harbin Domes (single/double, no children, rates $125-$345 Fri-Sun) and Creekside Caravans — plus meadow and vehicle camping and day passes; two new Mainside hotels (Walnut and Azalea) are still under construction with ongoing noise. Pools and pool areas are clothing-optional; the property is alcohol- and drug-free. Open 24/7 year-round; 48-hour cancellation policy.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "definitely_not_available",
+     "evidence": "Harbin's published reservation policy flatly forbids group bookings, so a 60-person Fri-Sun group booking cannot be made this weekend regardless of how much room the property has.",
+     "quote": "Group bookings are no longer allowed",
+     "sourceUrl": "https://harbin.org/reservations/book-your-visit/",
+     "sourceLabel": "Harbin 'Book Your Visit' — Church Membership Policy"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "definitely_not_available",
+     "evidence": "Harbin's published reservation policy flatly forbids group bookings, so a 60-person Fri-Sun group booking cannot be made this weekend regardless of how much room the property has.",
+     "quote": "Group bookings are no longer allowed",
+     "sourceUrl": "https://harbin.org/reservations/book-your-visit/",
+     "sourceLabel": "Harbin 'Book Your Visit' — Church Membership Policy"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "definitely_not_available",
+     "evidence": "Harbin's published reservation policy flatly forbids group bookings, so a 60-person Fri-Sun group booking cannot be made this weekend regardless of how much room the property has.",
+     "quote": "Group bookings are no longer allowed",
+     "sourceUrl": "https://harbin.org/reservations/book-your-visit/",
+     "sourceLabel": "Harbin 'Book Your Visit' — Church Membership Policy"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "definitely_not_available",
+     "evidence": "Every adult must buy their own membership and make their own reservation, so a 60-person retreat would be 60 unrelated individual bookings with no held block and no group contract.",
+     "quote": "Effective July, 2023, all guests over the age of 18 are REQUIRED to purchase a membership and make their own reservation.",
+     "sourceUrl": "https://harbin.org/reservations/book-your-visit/",
+     "sourceLabel": "Harbin 'Book Your Visit' — Church Membership Policy"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "definitely_not_available",
+     "evidence": "Harbin's published reservation policy flatly forbids group bookings, so a 60-person Fri-Sun group booking cannot be made this weekend regardless of how much room the property has.",
+     "quote": "Group bookings are no longer allowed",
+     "sourceUrl": "https://harbin.org/reservations/book-your-visit/",
+     "sourceLabel": "Harbin 'Book Your Visit' — Church Membership Policy"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "definitely_not_available",
+     "evidence": "Harbin's published reservation policy flatly forbids group bookings, so a 60-person Fri-Sun group booking cannot be made this weekend regardless of how much room the property has.",
+     "quote": "Group bookings are no longer allowed",
+     "sourceUrl": "https://harbin.org/reservations/book-your-visit/",
+     "sourceLabel": "Harbin 'Book Your Visit' — Church Membership Policy"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "definitely_not_available",
+     "evidence": "Harbin's published reservation policy flatly forbids group bookings, so a 60-person Fri-Sun group booking cannot be made this weekend regardless of how much room the property has.",
+     "quote": "Group bookings are no longer allowed",
+     "sourceUrl": "https://harbin.org/reservations/book-your-visit/",
+     "sourceLabel": "Harbin 'Book Your Visit' — Church Membership Policy"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "definitely_not_available",
+     "evidence": "Weekend room stays carry a two-night minimum and are sold as individual double-occupancy cottages, domes and caravans; combined with the no-group-bookings rule, a whole-site 60-person weekend is not bookable.",
+     "quote": "For indoor lodging on weekends and holidays, a two night minimum stay is required.",
+     "sourceUrl": "https://harbin.org/reservations/accommodations-rates/",
+     "sourceLabel": "Harbin Accommodations & Rates"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "definitely_not_available",
+     "evidence": "Harbin's published reservation policy flatly forbids group bookings, so a 60-person Fri-Sun group booking cannot be made this weekend regardless of how much room the property has.",
+     "quote": "Group bookings are no longer allowed",
+     "sourceUrl": "https://harbin.org/reservations/book-your-visit/",
+     "sourceLabel": "Harbin 'Book Your Visit' — Church Membership Policy"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "definitely_not_available",
+     "evidence": "Harbin's published reservation policy flatly forbids group bookings, so a 60-person Fri-Sun group booking cannot be made this weekend regardless of how much room the property has.",
+     "quote": "Group bookings are no longer allowed",
+     "sourceUrl": "https://harbin.org/reservations/book-your-visit/",
+     "sourceLabel": "Harbin 'Book Your Visit' — Church Membership Policy"
+    }
+   ]
+  }
  },
  {
   "id": "wilbur-hot-springs",
@@ -2703,7 +4269,94 @@ window.VENUES = [
     "credit": "Wilbur Hot Springs (official site)",
     "source": "https://www.wilburhotsprings.com/photos/vistas/"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Wilbur's 'Book Now' buttons all point at FareHarbor (fareharbor.com/embeds/book/wilburhotsprings/), whose embed is a JavaScript app but whose underlying read API is public. I listed the company's items at https://fareharbor.com/api/v1/companies/wilburhotsprings/items/ and identified the seven lodging products - Cabin Queen (712141), Cabin Queen ADA (732939), Cabin Suite (732980), Solar Lodge (732990), Hotel Queen (733001), Bunk Room (733014) and Campsites (733207) - then queried /availabilities/date/<YYYY-MM-DD>/ for each product on both the Friday and the Saturday of all ten weekends (140 dated lookups), recording is_sold_out and is_bookable for each. I cross-checked the results against Wilbur's own Programs and Events page, the Reservations & Rates page, the reservation policies page, the Deals and Discounts page and the Current Conditions page. Wilbur publishes no group-availability calendar, no buyout or whole-site rental product, and no group rates; its published events list stops at September 27, 2026, so nothing on the website explains what is happening in October. The booking API is therefore the only dated evidence, and because approximate_available_capacity is reported as 0 even for products that are plainly bookable, it tells you which products are open on a night but not how many rooms remain.",
+   "bookingPolicy": "Small off-grid health sanctuary with a handful of cabins, an eight-room Solar Lodge, a few Historic Hotel rooms, a co-ed bunk room and six campsites - well under the ~30 rooms a 60-person group would need, and there is no published whole-site or group buyout option. Confirmed reservations are required for every visit and walk-ins cannot be accepted. Rates & policies state 'One-night stays available during the warmer summer months. Select weekends are 2 night stays (Friday & Saturday),' so Fri-Sat is the normal weekend unit. No one under 13 is allowed on the property and minors cannot use the bunk room; no pets; camping is seasonal, April-October; bathing is clothing-optional; all rates include an 11% land-management fee. Overnight cancellations carry a 5-day window, extended to 7 days on holidays, Guest Chef Weekends and special events.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "probably_not_available",
+     "evidence": "A visiting-teacher program is scheduled on the property across exactly this weekend, and the bunk room is already sold out Friday with campsites sold out Saturday; cabins, Solar Lodge and Hotel rooms are still individually bookable, so the site is open but not free for a 60-person takeover.",
+     "quote": "Wilbur periodically hosts special events and programs which are open to guest participation.",
+     "sourceUrl": "https://www.wilburhotsprings.com/activities-events/special-events/",
+     "sourceLabel": "Wilbur Programs and Events page (lists 'August 28 - 30 Pamela Gould - Yoga')"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "probably_not_available",
+     "evidence": "Labor Day weekend is mostly gone: on Saturday September 5 the FareHarbor API reports five of the seven lodging products sold out (Cabin Queen ADA, Cabin Suite, Hotel Queen, Bunk Room and Campsites), leaving only Cabin Queen and Solar Lodge; the quote is the raw availability record for the Hotel Queen that night.",
+     "quote": "\"utc_start_at\":\"2026-09-05T22:00:00+0000\",\"utc_end_at\":\"2026-09-05T22:00:00+0000\",\"status\":\"auto\",\"is_sold_out\":true",
+     "sourceUrl": "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/733001/availabilities/date/2026-09-05/",
+     "sourceLabel": "FareHarbor availability record, Hotel Queen, Sat 5 Sep 2026"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "probably_not_available",
+     "evidence": "A yoga program runs on site September 11-13, and the Cabin Suite is sold out both nights with the bunk room gone Friday and the Hotel Queen gone Saturday; the quote is the Cabin Suite's sold-out record for Friday night.",
+     "quote": "\"utc_start_at\":\"2026-09-11T22:00:00+0000\",\"utc_end_at\":\"2026-09-11T22:00:00+0000\",\"status\":\"auto\",\"is_sold_out\":true",
+     "sourceUrl": "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/732980/availabilities/date/2026-09-11/",
+     "sourceLabel": "FareHarbor availability record, Cabin Suite, Fri 11 Sep 2026"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "definitely_not_available",
+     "evidence": "Every one of the seven lodging products is sold out on both Friday and Saturday, and Wilbur's own events page explains why: this is one of the two 2026 Sarana Yoga Retreat / Guest Chef Weekends (September 18-20), which takes the whole property. The API block runs September 18-19.",
+     "quote": "2026 Sarana Yoga Retreat and Guest Chef Weekends",
+     "sourceUrl": "https://www.wilburhotsprings.com/activities-events/special-events/",
+     "sourceLabel": "Wilbur Programs and Events page, Sarana Yoga Retreat weekends"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "probably_not_available",
+     "evidence": "Another visiting-teacher yoga program is booked September 25-27, and the Cabin Suite is sold out both nights with the bunk room gone Friday and the Hotel Queen gone Saturday; individual cabins remain but the property is partly committed.",
+     "quote": "\"utc_start_at\":\"2026-09-25T22:00:00+0000\",\"utc_end_at\":\"2026-09-25T22:00:00+0000\",\"status\":\"auto\",\"is_sold_out\":true",
+     "sourceUrl": "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/732980/availabilities/date/2026-09-25/",
+     "sourceLabel": "FareHarbor availability record, Cabin Suite, Fri 25 Sep 2026"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "definitely_not_available",
+     "evidence": "All seven lodging products are sold out on both nights - the block actually runs October 1-3 - matching the second published Sarana Yoga Retreat and Guest Chef Weekend, October 2-4, which carries its own per-person food and beverage charge.",
+     "quote": "(extra Food & Beverage charge of $225 per person for guests participating in the Guest Chef Weekend)",
+     "sourceUrl": "https://www.wilburhotsprings.com/activities-events/special-events/",
+     "sourceLabel": "Wilbur Programs and Events page, Guest Chef Weekend Oct 2-4"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "probably_available",
+     "evidence": "All seven lodging products are bookable Friday night and five of seven Saturday night (only the Cabin Suite and bunk room are gone), and no program is published for that weekend; it is only 'probably' because Wilbur sells no whole-site buyout and the API does not expose how many rooms remain.",
+     "quote": "\"utc_start_at\":\"2026-10-09T22:00:00+0000\",\"utc_end_at\":\"2026-10-09T22:00:00+0000\",\"status\":\"auto\",\"is_sold_out\":false",
+     "sourceUrl": "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/712141/availabilities/date/2026-10-09/",
+     "sourceLabel": "FareHarbor availability record, Cabin Queen, Fri 9 Oct 2026"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "probably_available",
+     "evidence": "Six of seven products are bookable Friday (only the Cabin Suite is out) and all seven Saturday, with no published program; again 'probably' rather than 'definitely' because there is no group or buyout product and no remaining-room count.",
+     "quote": "\"utc_start_at\":\"2026-10-16T22:00:00+0000\",\"utc_end_at\":\"2026-10-16T22:00:00+0000\",\"status\":\"auto\",\"is_sold_out\":false",
+     "sourceUrl": "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/712141/availabilities/date/2026-10-16/",
+     "sourceLabel": "FareHarbor availability record, Cabin Queen, Fri 16 Oct 2026"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "definitely_not_available",
+     "evidence": "Every lodging product is sold out on both nights, and probing the surrounding dates shows an unbroken block from October 20 through October 27 - an eight-day closure or private booking that Wilbur has not published anywhere on its website.",
+     "quote": "\"utc_start_at\":\"2026-10-23T22:00:00+0000\",\"utc_end_at\":\"2026-10-23T22:00:00+0000\",\"status\":\"auto\",\"is_sold_out\":true",
+     "sourceUrl": "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/712141/availabilities/date/2026-10-23/",
+     "sourceLabel": "FareHarbor availability record, Cabin Queen, Fri 23 Oct 2026"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "probably_available",
+     "evidence": "The cleanest weekend of the ten: all seven lodging products, including campsites and the bunk room, are bookable on both Friday and Saturday, with no published program; still 'probably' because a 60-person whole-site hold is not something Wilbur sells online.",
+     "quote": "\"utc_start_at\":\"2026-10-30T22:00:00+0000\",\"utc_end_at\":\"2026-10-30T22:00:00+0000\",\"status\":\"auto\",\"is_sold_out\":false",
+     "sourceUrl": "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/712141/availabilities/date/2026-10-30/",
+     "sourceLabel": "FareHarbor availability record, Cabin Queen, Fri 30 Oct 2026"
+    }
+   ]
+  }
  },
  {
   "id": "asilomar",
@@ -2845,7 +4498,94 @@ window.VENUES = [
     "credit": "Asilomar Conference Grounds / Aramark (official site)",
     "source": "https://www.visitasilomar.com/gallery"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "I drove Asilomar's own live booking engine (Aramark's reservations.ahlsmsworld.com, property code APOWELL, the engine behind the 'Book Now' widget on visitasilomar.com) once per weekend, POSTing ArrivalDate=Friday / DepartureDate=Sunday, 2 adults, 1 unit, then following the /Asilomar/PleaseWait redirect to /Asilomar/Plan-Your-Trip/Accommodation-Search/Results and parsing what came back. Each search returns a 'Your Search:' panel echoing the exact Fri-Sun date range, followed by one card per bookable room type with a 'Best Flexible Rate' price and an 'Add to Cart' button; a weekend with nothing left instead returns an 'Our Apologies!' page. I recorded, for every one of the ten weekends, how many distinct room types and how many rate options the engine offered for the full two-night stay. I also read the meetings/venues, complete-meeting-packages, lodging and upcoming-events pages on visitasilomar.com for group policy, and checked the site's events feed (which only lists third-party Monterey-area events such as the Monterey County Fair, not on-site conferences). Asilomar publishes no group-availability calendar and no list of the conferences occupying the grounds, so the booking engine is the only dated public evidence; note that its results are session-scoped POST output, so the Results URL only shows content inside the search session I created. The engine also rejects multi-room (UnitCount>1) searches, so it cannot confirm that ~30 rooms are free on any given weekend - only that the property is or is not taking two-night transient bookings.",
+   "bookingPolicy": "A large public conference ground run by Aramark as a California State Parks concession, with (per its venues page) '30 venues and 27 breakout spaces' and several hundred guest rooms; because it is open to the public, so a true whole-site buyout is not something they offer or that a 60-person group would need. Groups book through Complete Meeting Packages (per-person, per-night, including guestrooms, meeting space, three meals and fees) via an RFP, not through the public engine. The package page warns that 'Additional Room Rental charges may apply based on space to room ration' and that complimentary meeting space carries a minimum-guestroom requirement on peak nights. The transient engine caps a single search at 1 unit and 9 adults, so it cannot be used to hold ~30 rooms; a 60-person Fri-Sun booking would go through group sales, whose inventory may differ from what the transient engine shows.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "definitely_available",
+     "evidence": "A live two-night Fri-Sun search on Asilomar's own booking engine returned 9 distinct room types and 28 bookable rate options (Asilomar Rooms, Fireplace Rooms, Historic Rooms, King and ADA rooms), all with Add to Cart enabled; the quote is the engine's own echo of the dates searched.",
+     "quote": "Friday, August 28, 2026 - Sunday, August 30, 2026",
+     "sourceUrl": "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+     "sourceLabel": "Asilomar booking engine, Fri-Sun search results"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "probably_not_available",
+     "evidence": "Labor Day weekend came back all but sold out: the engine offered exactly one room type ('Fireplace & 2 Double Beds') with 4 rate options for the whole grounds, which is nowhere near 30 rooms; the result reproduced identically on a repeat search.",
+     "quote": "Friday, September 4, 2026 - Sunday, September 6, 2026",
+     "sourceUrl": "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+     "sourceLabel": "Asilomar booking engine, Fri-Sun search results"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "definitely_available",
+     "evidence": "The widest availability of any weekend tested: 11 distinct room types and 45 bookable rate options for the full Friday-to-Sunday stay, including Ocean View and Historic categories.",
+     "quote": "Friday, September 11, 2026 - Sunday, September 13, 2026",
+     "sourceUrl": "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+     "sourceLabel": "Asilomar booking engine, Fri-Sun search results"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "probably_available",
+     "evidence": "8 room types and 33 rate options were bookable for both nights - plenty for individual rooms, but narrower than the strongest weekends and with no way to confirm through the public engine that ~30 rooms are free.",
+     "quote": "Friday, September 18, 2026 - Sunday, September 20, 2026",
+     "sourceUrl": "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+     "sourceLabel": "Asilomar booking engine, Fri-Sun search results"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "probably_available",
+     "evidence": "Only 5 room types and 21 rate options remained for the two-night stay (no Asilomar Room king or fireplace inventory), suggesting the grounds are already partly committed; enough for some rooms but not demonstrably for 30.",
+     "quote": "Friday, September 25, 2026 - Sunday, September 27, 2026",
+     "sourceUrl": "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+     "sourceLabel": "Asilomar booking engine, Fri-Sun search results"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "probably_available",
+     "evidence": "6 room types and 25 rate options were bookable for both nights, but the mix is heavily Historic and ADA rooms, which reads as leftover inventory around an existing group rather than an open house.",
+     "quote": "Friday, October 2, 2026 - Sunday, October 4, 2026",
+     "sourceUrl": "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+     "sourceLabel": "Asilomar booking engine, Fri-Sun search results"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "probably_not_available",
+     "evidence": "Nearly sold out: just 2 room types ('Fireplace & 2 Double Beds' and 'Ocean View & 2 Double Beds') and 9 rate options survived a two-night Fri-Sun search, far short of what 60 people would need.",
+     "quote": "Friday, October 9, 2026 - Sunday, October 11, 2026",
+     "sourceUrl": "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+     "sourceLabel": "Asilomar booking engine, Fri-Sun search results"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "definitely_available",
+     "evidence": "10 distinct room types and 41 bookable rate options for the full two-night stay, at the lowest rates seen in the sample ($217/night starting), which is what a genuinely open weekend looks like on this engine.",
+     "quote": "Friday, October 16, 2026 - Sunday, October 18, 2026",
+     "sourceUrl": "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+     "sourceLabel": "Asilomar booking engine, Fri-Sun search results"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "definitely_not_available",
+     "evidence": "The engine returned no inventory at all for Fri-Sun; retried as Fri-Sat and again as Sat-Sun, and each single night was also empty, so the whole grounds are sold out or blocked that weekend. This is the quoted 'Our Apologies!' response text.",
+     "quote": "We are unable to provide you with rates & availability based on search requirements entered.",
+     "sourceUrl": "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+     "sourceLabel": "Asilomar booking engine, no-availability response"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "definitely_available",
+     "evidence": "Halloween weekend came back wide open: 9 room types and 34 bookable rate options across both nights, again at low season rates from $192.",
+     "quote": "Friday, October 30, 2026 - Sunday, November 1, 2026",
+     "sourceUrl": "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+     "sourceLabel": "Asilomar booking engine, Fri-Sun search results"
+    }
+   ]
+  }
  },
  {
   "id": "1440-multiversity",
@@ -2990,7 +4730,94 @@ window.VENUES = [
     "credit": "1440 Multiversity (official site)",
     "source": "https://www.1440.org/dining-gallery"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Read /groups (Essential Requisites) and the full /faqs page, which is where 1440 actually documents how group bookings work, then the public /events calendar, which is the only dated listing on the site. I also checked /stay and /accommodations for a booking engine: there is none. Reservations run through reservations@1440.org and two phone numbers, and the FAQ confirms that contracted groups get a private, code-gated booking link that only goes live 30 days before arrival, so no public inventory exists to query. The events calendar lists just four campus items between now and the end of October plus one in June 2027, so it is maintained but sparse. Net: 1440 publishes essentially nothing about weekend availability, and most entries below are honestly 'unknown'.",
+   "bookingPolicy": "Not a buyout venue and not a general-hire venue. 1440 defines a group as 10+ people for two or more nights, and every group must be vetted: 'all guests must be participating in a mission-aligned learning activity or program that has been thoroughly reviewed by our 1440 Programming department'. Crucially the FAQ states twice that '1440 has established a waiting list for private mission-aligned group events', and separately that availability is limited because the campus has been committed to a multi-year corporate-wellness case study. Groups pre-pay 50% at contract signing and all charges before arrival. Pricing is all-inclusive per person (room, three meals, signature classes, parking). Private dining is 12-32 people per family-style menu; private events for 10-300 are possible for extra fees. Practically, a 60-person Fri-Sun booking here is a months-ahead, application-style process, not a date search - which is why the date-level answer is unknowable from the public web.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "probably_not_available",
+     "evidence": "1440 has two dated community events on campus that Friday and Saturday, and more decisively its group process rules out a booking at three days' notice: groups are contracted in advance with 50% prepaid, must be vetted as mission-aligned by the Programming department, and there is an explicit waiting list. This is a policy constraint, not a published date conflict.",
+     "quote": "The Ancestral Watch: A Night of Remembering at 1440",
+     "sourceUrl": "https://www.1440.org/events",
+     "sourceLabel": "1440 Multiversity events calendar"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "unknown",
+     "evidence": "1440 publishes no room inventory, no group-availability calendar and no booking engine on 1440.org; its only dated public listing is the events page, which shows nothing on campus this weekend. Under the brief's rule I do not read that silence as availability - it says only that I checked and the site is silent.",
+     "quote": "",
+     "sourceUrl": "https://www.1440.org/events",
+     "sourceLabel": "1440 Multiversity events calendar"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "unknown",
+     "evidence": "1440 publishes no room inventory, no group-availability calendar and no booking engine on 1440.org; its only dated public listing is the events page, which shows nothing on campus this weekend. Under the brief's rule I do not read that silence as availability - it says only that I checked and the site is silent.",
+     "quote": "",
+     "sourceUrl": "https://www.1440.org/events",
+     "sourceLabel": "1440 Multiversity events calendar"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "1440 is selling a public overnight program on Sept 18-19, which holds guest rooms and program venues on both nights of this weekend. That is a partial hold rather than proof: the campus has 147 rooms and 30+ venues and publishes no inventory, so I cannot tell whether a 60-person block would still fit alongside it.",
+     "quote": "Overnight Program Stay: Shift Your Heart Health",
+     "sourceUrl": "https://www.1440.org/events",
+     "sourceLabel": "1440 Multiversity events calendar"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "unknown",
+     "evidence": "1440 publishes no room inventory, no group-availability calendar and no booking engine on 1440.org; its only dated public listing is the events page, which shows nothing on campus this weekend. Under the brief's rule I do not read that silence as availability - it says only that I checked and the site is silent.",
+     "quote": "",
+     "sourceUrl": "https://www.1440.org/events",
+     "sourceLabel": "1440 Multiversity events calendar"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "unknown",
+     "evidence": "1440 publishes no room inventory, no group-availability calendar and no booking engine on 1440.org; its only dated public listing is the events page, which shows nothing on campus this weekend. Under the brief's rule I do not read that silence as availability - it says only that I checked and the site is silent.",
+     "quote": "",
+     "sourceUrl": "https://www.1440.org/events",
+     "sourceLabel": "1440 Multiversity events calendar"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "unknown",
+     "evidence": "1440 publishes no room inventory, no group-availability calendar and no booking engine on 1440.org; its only dated public listing is the events page, which shows nothing on campus this weekend. Under the brief's rule I do not read that silence as availability - it says only that I checked and the site is silent.",
+     "quote": "",
+     "sourceUrl": "https://www.1440.org/events",
+     "sourceLabel": "1440 Multiversity events calendar"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "unknown",
+     "evidence": "1440 publishes no room inventory, no group-availability calendar and no booking engine on 1440.org; its only dated public listing is the events page, which shows nothing on campus this weekend. Under the brief's rule I do not read that silence as availability - it says only that I checked and the site is silent.",
+     "quote": "",
+     "sourceUrl": "https://www.1440.org/events",
+     "sourceLabel": "1440 Multiversity events calendar"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "unknown",
+     "evidence": "1440 publishes no room inventory, no group-availability calendar and no booking engine on 1440.org; its only dated public listing is the events page, which shows nothing on campus this weekend. Under the brief's rule I do not read that silence as availability - it says only that I checked and the site is silent.",
+     "quote": "",
+     "sourceUrl": "https://www.1440.org/events",
+     "sourceLabel": "1440 Multiversity events calendar"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "unknown",
+     "evidence": "1440 publishes no room inventory, no group-availability calendar and no booking engine on 1440.org; its only dated public listing is the events page, which shows nothing on campus this weekend. Under the brief's rule I do not read that silence as availability - it says only that I checked and the site is silent. The events page does list a program for late June 2027, so it is maintained well beyond this date rather than simply stale.",
+     "quote": "",
+     "sourceUrl": "https://www.1440.org/events",
+     "sourceLabel": "1440 Multiversity events calendar"
+    }
+   ]
+  }
  },
  {
   "id": "mendocino-woodlands",
@@ -3134,7 +4961,94 @@ window.VENUES = [
     "credit": "Mendocino Woodlands Camp Association (official site)",
     "source": "https://www.mendocinowoodlands.org/bookings-events"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Started from mendocinowoodlands.org/bookings-events, which tells you to 'View our Camp Calendar to check for availability'. The camp-calendar page embeds a Google Calendar iframe carrying three public calendar IDs, colour-coded in the page's own legend as Camp 1 (red), Camp 2 (blue) and Camp 3 (green). I decoded the three base64 calendar IDs out of the iframe src and fetched each calendar's public .ics feed directly (all HTTP 200), then listed every VEVENT between Aug and Dec 2026. That gives confirmed, dated, per-camp reservations rather than a rendered widget. I also read /camp-rental-details for terms and /bookings-events for per-camp capacities. This is by far the best-published availability of the five venues I checked: MWCA publishes actual booked dates per camp.",
+   "bookingPolicy": "Group camping only, no individual bookings: 'The Mendocino Woodlands Camp is available for group camping only.' Groups from 30 to 200+. You rent one entire self-contained camp: Camp One (46 four-bed cabins plus two 10-person cabins, 1,800 sq ft rec hall, max 200), Camp Two (max 120), Camp Three (20 four-bed tent cabins, max 80). A 60-person group fits in any of the three. Arrival no earlier than 2:00 pm, departure no later than 11:00 am, so a Fri-Sun booking needs the camp free on the Friday and Saturday nights. Two deposits are due with the signed contract, including a 25% non-refundable rental deposit; the minimum fee is due 60 days before arrival, which makes anything inside 60 days a special case. Rates are not published, only by email or phone. Your group cooks for itself and cleans the camp before departure. The calendar warns that 'The open dates are subject to change' and that several legacy camps rebook the same weeks annually.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "definitely_not_available",
+     "evidence": "All three camps are reserved across Fri 8/28 and Sat 8/29: Camp 1 has a wedding 8/27-8/30, Camp 2 has 'Duffy's Reunion' 8/28-8/30 and Camp 3 has 'Camp 40' 8/27-8/31. The quote is the Camp 1 event title from that camp's public .ics feed.",
+     "quote": "C-1 Josh and April Wedding",
+     "sourceUrl": "https://calendar.google.com/calendar/ical/c_5f2822059a7aac14074a0774a5ab4f01879a9af7ea4c07ad62ae15d18b6ee50d%40group.calendar.google.com/public/basic.ics",
+     "sourceLabel": "Mendocino Woodlands Camp 1 public Google Calendar (.ics)"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "definitely_not_available",
+     "evidence": "Labor Day weekend is fully booked across all three camps: Camp 1 'Woodside Beasts', Camp 2 'UU Labor Day Camp' and Camp 3 'Andre Libarle', each running 9/4-9/7. The quote is the Camp 2 event title from its public .ics feed.",
+     "quote": "C-2 UU Labor Day Camp",
+     "sourceUrl": "https://calendar.google.com/calendar/ical/u1jlf1ckt2cl6p75rlejfpdigg%40group.calendar.google.com/public/basic.ics",
+     "sourceLabel": "Mendocino Woodlands Camp 2 public Google Calendar (.ics)"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "definitely_not_available",
+     "evidence": "No camp is free on Friday 9/11: Camp 1 has 'Sisters in Serenity' 9/11-9/13, Camp 3 has the Mendocino Running Festival 9/11-9/13, and Camp 2 is occupied by the school group quoted here through 9/11, freeing up only on the Saturday.",
+     "quote": "C-2 Mendocino Community High School",
+     "sourceUrl": "https://calendar.google.com/calendar/ical/u1jlf1ckt2cl6p75rlejfpdigg%40group.calendar.google.com/public/basic.ics",
+     "sourceLabel": "Mendocino Woodlands Camp 2 public Google Calendar (.ics)"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "definitely_available",
+     "evidence": "Camp 3 (max 80, enough for 60) has no reservation over 9/18-9/20 on its public calendar, so it shows as white/available; Camp 1 ('Camp Awesome') and Camp 2 ('Bay Campers') are both booked 9/17-9/19. Quote is the calendar page's own legend for open dates.",
+     "quote": "Available dates are shown in white.",
+     "sourceUrl": "https://www.mendocinowoodlands.org/camp-calendar",
+     "sourceLabel": "Mendocino Woodlands Camp Calendar"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "definitely_available",
+     "evidence": "Camp 1, the largest camp (max 200), has no reservation between 9/21 and 10/1 on its public calendar, so 9/25-9/27 is open; Camp 2 ('On Set Cinema') and Camp 3 ('St. Dominic's Young Adult Group') are both booked that weekend.",
+     "quote": "Available dates are shown in white.",
+     "sourceUrl": "https://www.mendocinowoodlands.org/camp-calendar",
+     "sourceLabel": "Mendocino Woodlands Camp Calendar"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "definitely_available",
+     "evidence": "Camp 2 (max 120) has no reservation between 9/28 and 11/1 on its public calendar, so 10/2-10/4 is open; Camp 1 ('Krisanne and Marie', 10/2-10/5) and Camp 3 ('NorCal', 10/1-10/4) are both booked.",
+     "quote": "Available dates are shown in white.",
+     "sourceUrl": "https://www.mendocinowoodlands.org/camp-calendar",
+     "sourceLabel": "Mendocino Woodlands Camp Calendar"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "definitely_available",
+     "evidence": "Camps 1 and 2 are both clear over 10/9-10/11 on their public calendars; only Camp 3 is taken ('Mysteries of Samhain', 10/9-10/12). Either open camp comfortably holds 60.",
+     "quote": "Available dates are shown in white.",
+     "sourceUrl": "https://www.mendocinowoodlands.org/camp-calendar",
+     "sourceLabel": "Mendocino Woodlands Camp Calendar"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "definitely_available",
+     "evidence": "All three camp calendars are empty over 10/16-10/18; the next reservations are Camp 1 on 11/6 and Camp 3 not until after October. Whole-site or single-camp use is open.",
+     "quote": "Available dates are shown in white.",
+     "sourceUrl": "https://www.mendocinowoodlands.org/camp-calendar",
+     "sourceLabel": "Mendocino Woodlands Camp Calendar"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "definitely_available",
+     "evidence": "All three camp calendars are empty over 10/23-10/25, so any camp including Camp One with its 1,800 sq ft recreation hall is available.",
+     "quote": "Available dates are shown in white.",
+     "sourceUrl": "https://www.mendocinowoodlands.org/camp-calendar",
+     "sourceLabel": "Mendocino Woodlands Camp Calendar"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "definitely_available",
+     "evidence": "Halloween weekend is clear on all three camp calendars; the last October booking ends 10/13 and the next event is Camp 1 on 11/6. Note the site is rustic and unheated apart from cabin fireplaces, so late-October nights are cold.",
+     "quote": "Available dates are shown in white.",
+     "sourceUrl": "https://www.mendocinowoodlands.org/camp-calendar",
+     "sourceLabel": "Mendocino Woodlands Camp Calendar"
+    }
+   ]
+  }
  },
  {
   "id": "land-of-medicine-buddha",
@@ -3277,7 +5191,94 @@ window.VENUES = [
     "credit": "Land of Medicine Buddha (official site)",
     "source": "https://landofmedicinebuddha.org/sacred-sites/"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Read /stay/group-rentals/ for the rental terms and capacity, then worked through /programs/all-programs/, which lists every LMB program with dates through November 2026 and, usefully, also lists outside groups that have rented the site. I cross-checked that against the Google Calendar embedded on /programs/calendar-of-events/ by decoding its calendar ID and pulling the public .ics feed (HTTP 200, 428 events). The two sources agree on LMB's own programs but the .ics does NOT contain the two outside conference rentals, so the programs page is the more complete source. LMB does not publish a room-availability calendar or a booking engine on the main domain (the stay. subdomain booking host was not reachable), so 'nothing listed' is inference from a calendar that does cover the period, not from a real inventory feed.",
+   "bookingPolicy": "Hard capacity ceiling below the group size: the group rentals page states 'Minimum Occupancy: 18' and 'Maximum Occupancy: 56' across 19 guest rooms plus the seasonal Yurt Village, so a 60-person party cannot all sleep on site. A few people would have to commute or the group would need to shrink. Minimum stay is 2 nights, which fits Fri-Sun exactly. Rentals are exclusive-use group bookings with vegetarian breakfast/lunch/dinner provided and a dining hall open 24/7; the Pine Room seats 60 for sessions, so day capacity is fine even though sleeping capacity is not. Booking is by rental inquiry form, no online availability. LMB runs its own in-person retreat programme heavily in September, which is the real constraint on those weekends.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "probably_not_available",
+     "evidence": "A public festival occupies the Ksitigarbha Pure Land part of the site on Sunday 8/30, 10am-2pm, and the weekend is three days away against a rental-inquiry process with no online booking. Friday and Saturday themselves have only online-only teachings.",
+     "quote": "2026 Ksitigarbha Festival with 100 Torma Offering",
+     "sourceUrl": "https://landofmedicinebuddha.org/programs/all-programs/",
+     "sourceLabel": "Land of Medicine Buddha - All Programs"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "definitely_not_available",
+     "evidence": "LMB runs its own in-person weekend retreat in the Gompa on Sat 9/5 and Sun 9/6, the opening weekend of a three-week 'In Person Only' teaching series with Segyu Khen Rinpoche that runs 9/5-9/27.",
+     "quote": "The Foundation of All Good Qualities",
+     "sourceUrl": "https://landofmedicinebuddha.org/programs/all-programs/",
+     "sourceLabel": "Land of Medicine Buddha - All Programs"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "definitely_not_available",
+     "evidence": "An outside group has already rented the site for 'A Sacred Pause', September 9-13, which covers the whole Fri-Sun window; LMB's own '16 Human Dharmas' weekend retreat also runs in the Gompa 9/12-9/13. The quote is the page's own note identifying the renter.",
+     "quote": "This retreat is presented by Brave Directions, an outside conference rental group, not managed by Land of Medicine Buddha.",
+     "sourceUrl": "https://landofmedicinebuddha.org/programs/all-programs/",
+     "sourceLabel": "Land of Medicine Buddha - All Programs"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "definitely_not_available",
+     "evidence": "An eight-day in-person residential retreat runs 9/16-9/23 and swallows this weekend entirely; the programs page marks it 'In Person Only' and the Google Calendar feed carries the same block as 9/16-9/24.",
+     "quote": "White Tara Retreat with Long Life Empowerment and The Three Principal Paths",
+     "sourceUrl": "https://landofmedicinebuddha.org/programs/all-programs/",
+     "sourceLabel": "Land of Medicine Buddha - All Programs"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "definitely_not_available",
+     "evidence": "LMB holds its own in-person weekend retreat in the Gompa on Sat 9/26 and Sun 9/27, the closing weekend of the three-week Khen Rinpoche series, so the main hall and guest rooms are committed.",
+     "quote": "Lama Tsongkhapa’s Mind Training Poem",
+     "sourceUrl": "https://landofmedicinebuddha.org/programs/all-programs/",
+     "sourceLabel": "Land of Medicine Buddha - All Programs"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "probably_available",
+     "evidence": "Both the programs page and the Google Calendar feed run well past this date yet show nothing scheduled between 10/1 and 10/28, and LMB takes group rentals year-round. Only 'probably' because nothing confirms the dates are unsold and a full 60-person party exceeds the published 56-person maximum.",
+     "quote": "We host groups nearly every week.",
+     "sourceUrl": "https://landofmedicinebuddha.org/stay/group-rentals/",
+     "sourceLabel": "Land of Medicine Buddha - Group Rentals"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "probably_available",
+     "evidence": "Nothing on the programs page or the .ics feed between 10/1 and 10/28, so the site looks open for a group rental. Only 'probably': no published inventory, and 60 people exceeds the stated 56-person maximum occupancy.",
+     "quote": "We host groups nearly every week.",
+     "sourceUrl": "https://landofmedicinebuddha.org/stay/group-rentals/",
+     "sourceLabel": "Land of Medicine Buddha - Group Rentals"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "probably_available",
+     "evidence": "No LMB programme and no outside rental listed for this weekend on either source, and the season is open. Only 'probably' because absence from a programme calendar is not an inventory check and the 56-person cap still binds.",
+     "quote": "We host groups nearly every week.",
+     "sourceUrl": "https://landofmedicinebuddha.org/stay/group-rentals/",
+     "sourceLabel": "Land of Medicine Buddha - Group Rentals"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "probably_available",
+     "evidence": "The last clear weekend before the Oct 28 outside rental starts; nothing scheduled 10/1-10/28 on either source. Only 'probably' for the same two reasons: no published inventory, and 60 people exceeds the 56-person maximum.",
+     "quote": "We host groups nearly every week.",
+     "sourceUrl": "https://landofmedicinebuddha.org/stay/group-rentals/",
+     "sourceLabel": "Land of Medicine Buddha - Group Rentals"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "definitely_not_available",
+     "evidence": "Another outside group already has the site for the 'Living Stillness Retreat', October 28 - November 1, which covers Friday, Saturday and Sunday of this weekend. The quote is the page's own note identifying the renter.",
+     "quote": "This retreat is presented by One Mindful, an outside conference rental group, not managed by Land of Medicine Buddha.",
+     "sourceUrl": "https://landofmedicinebuddha.org/programs/all-programs/",
+     "sourceLabel": "Land of Medicine Buddha - All Programs"
+    }
+   ]
+  }
  },
  {
   "id": "presidio-lodging",
@@ -3420,7 +5421,94 @@ window.VENUES = [
     "credit": "Presidio Lodging (official site)",
     "source": "https://presidiolodging.com/inn-at-the-presidio/meetings-events/"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "presidiolodging.com hides its booking engine behind two Blazor WebAssembly subdomains, innres.presidiolodging.com and lodgeres.presidiolodging.com, which I found in the page source of /accommodations/. Those pages server-side prerender the date picker, and they accept ?checkin=YYYY-MM-DD&checkout=YYYY-MM-DD, so I ran a real Fri-Sun date search for each of the ten weekends against each property (20 fetches, all HTTP 200) and read the per-day state classes the picker emits (SoldOut, TwoDayMin, or open). Important gotcha I hit and corrected for: the picker only populates availability from the queried check-in date forward, so reading October off a late-October anchor silently shows everything as open. Anchoring each query on its own Friday fixes that, and the results then reproduce exactly across anchors. I also read /hotel-policies/, /inn-at-the-presidio/meetings-events/ and /faq/. No form was submitted and no reservation was started; these are URL date searches only.",
+   "bookingPolicy": "Two hotels under one operator, 22 rooms at the Inn (42 Moraga Ave) and 42 at the Lodge (105 Montgomery St), 68 total, plus the 4-bedroom Funston House. That is enough beds for 60 people only if you take most of both properties, so almost every weekend below turns on whether BOTH hotels are selling. Most Fridays and Saturdays carry a published two-night minimum, which a Fri-Sun stay satisfies. Individual reservations cancel free up to 72 hours before a 6pm arrival. Worth flagging as a correction to the venue notes: I could not find a published two-property buyout product anywhere on presidiolodging.com. The meetings page offers only 'For meetings, events or room block inquiries' by email, and the Inn's own meeting rooms are two 425 sq ft spaces holding 20 people each, so there is no single hall for a 60-person plenary on site. A Presidio retreat would mean renting a separate park venue through presidio.gov.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "probably_available",
+     "evidence": "Querying the booking engine for 8/28-8/30 shows the Inn selling Fri 8/28 (two-night minimum) and Sat 8/29, and the Lodge selling both nights, so all 68 rooms across the two properties are in play. Only 'probably': the calendar is a per-room inventory view for a single guest and nothing on the public site confirms a 60-person block or a two-property buyout. Quote is the picker heading, since the calendar itself is a widget with no per-date prose.",
+     "quote": "Pick dates for Inn at the Presidio",
+     "sourceUrl": "https://innres.presidiolodging.com/?checkin=2026-08-28&checkout=2026-08-30",
+     "sourceLabel": "Inn at the Presidio booking engine, Fri-Sun date search"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "probably_not_available",
+     "evidence": "A Fri-Sun query over Labor Day weekend shows the Lodge sold out on Saturday 9/5. That leaves only the Inn's 22 rooms for the Saturday night, which cannot sleep 60 people even at double occupancy. Quote is the picker heading; the sold-out state is carried by the 9/5 day cell, not by prose.",
+     "quote": "Pick dates for Lodge at the Presidio",
+     "sourceUrl": "https://lodgeres.presidiolodging.com/?checkin=2026-09-04&checkout=2026-09-06",
+     "sourceLabel": "Lodge at the Presidio booking engine, Fri-Sun date search"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "probably_available",
+     "evidence": "Querying 9/11-9/13 shows both the Inn and the Lodge selling Friday and Saturday nights with only a two-night minimum, which a Fri-Sun stay satisfies. Full 68-room inventory is nominally open. Only 'probably' because the engine prices one guest at a time and no group block or buyout is published.",
+     "quote": "Pick dates for Inn at the Presidio",
+     "sourceUrl": "https://innres.presidiolodging.com/?checkin=2026-09-11&checkout=2026-09-13",
+     "sourceLabel": "Inn at the Presidio booking engine, Fri-Sun date search"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "probably_available",
+     "evidence": "The Inn is sold out on Friday 9/18, but the Lodge is selling both Friday and Saturday nights, and its 42 rooms can sleep 60 at double occupancy. So the weekend is workable as a Lodge-only booking rather than a two-property one. Quote is the Lodge picker heading.",
+     "quote": "Pick dates for Lodge at the Presidio",
+     "sourceUrl": "https://lodgeres.presidiolodging.com/?checkin=2026-09-18&checkout=2026-09-20",
+     "sourceLabel": "Lodge at the Presidio booking engine, Fri-Sun date search"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "definitely_not_available",
+     "evidence": "Both properties are sold out on Saturday 9/26: the Inn's and the Lodge's date pickers each render the 26th with the Sold Out state while 9/25 is merely two-night-minimum. With zero rooms available across all 68 on the Saturday night, a Fri-Sun stay is impossible.",
+     "quote": "Pick dates for Inn at the Presidio",
+     "sourceUrl": "https://innres.presidiolodging.com/?checkin=2026-09-25&checkout=2026-09-27",
+     "sourceLabel": "Inn at the Presidio booking engine, Fri-Sun date search"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "definitely_not_available",
+     "evidence": "Both properties are sold out on Friday 10/2. The Inn and the Lodge both render the 2nd in the Sold Out state, so neither hotel can take the Friday night of a Fri-Sun stay.",
+     "quote": "Pick dates for Lodge at the Presidio",
+     "sourceUrl": "https://lodgeres.presidiolodging.com/?checkin=2026-10-02&checkout=2026-10-04",
+     "sourceLabel": "Lodge at the Presidio booking engine, Fri-Sun date search"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "definitely_not_available",
+     "evidence": "The strongest negative of the ten: both the Inn and the Lodge are sold out on BOTH Friday 10/9 and Saturday 10/10, and the surrounding weekdays 10/6-10/14 are largely sold out too. This is San Francisco Fleet Week, when Presidio and Marina-side hotels fill months ahead.",
+     "quote": "Pick dates for Inn at the Presidio",
+     "sourceUrl": "https://innres.presidiolodging.com/?checkin=2026-10-09&checkout=2026-10-11",
+     "sourceLabel": "Inn at the Presidio booking engine, Fri-Sun date search"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "definitely_not_available",
+     "evidence": "Both properties are sold out on Friday 10/16 while Saturday 10/17 is still selling. With no Friday night available at either hotel, a Fri-Sun booking cannot be assembled.",
+     "quote": "Pick dates for Inn at the Presidio",
+     "sourceUrl": "https://innres.presidiolodging.com/?checkin=2026-10-16&checkout=2026-10-18",
+     "sourceLabel": "Inn at the Presidio booking engine, Fri-Sun date search"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "probably_available",
+     "evidence": "One of only two clean weekends: querying 10/23-10/25 shows both the Inn and the Lodge selling Friday and Saturday with just a two-night minimum, so the full 68 rooms are nominally open. Only 'probably' because a 60-person block or buyout still has to go through their events email and is not published anywhere.",
+     "quote": "Pick dates for Inn at the Presidio",
+     "sourceUrl": "https://innres.presidiolodging.com/?checkin=2026-10-23&checkout=2026-10-25",
+     "sourceLabel": "Inn at the Presidio booking engine, Fri-Sun date search"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "probably_available",
+     "evidence": "Halloween weekend also queries clean: both hotels sell Friday 10/30 and Saturday 10/31 with a two-night minimum. Same caveat as 10/23 - the engine confirms public room inventory, not a 60-person group block.",
+     "quote": "Pick dates for Lodge at the Presidio",
+     "sourceUrl": "https://lodgeres.presidiolodging.com/?checkin=2026-10-30&checkout=2026-11-01",
+     "sourceLabel": "Lodge at the Presidio booking engine, Fri-Sun date search"
+    }
+   ]
+  }
  },
  {
   "id": "hidden-villa",
@@ -3563,7 +5651,94 @@ window.VENUES = [
     "credit": "Hidden Villa (official site)",
     "source": "https://www.hiddenvilla.org/"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Read /meeting-retreats/ and /rentals/facility-rentals/ for the rental catalogue and /rentals/picnic-sites/ for the picnic terms. Hidden Villa's catalogue and public calendar are both driven by Arlo (hiddenvilla.arlo.co), and I found that Arlo's public API is open: eventsearch returned all 98 forward-dated sessions with names, dates and an IsFull flag, which is real dated inventory for the picnic sites and public programs. It is not, however, inventory for the retreat facilities - the Dana Center, Duveneck House, Hostel and Josephine's Retreat are published as Learn More / Inquire with no sessions and no dates at all, so their bookedness is genuinely not on the public web. That is why every weekend below is 'unknown' rather than green or red: I could see the farm's public diary in detail and still could not see the rental calendar.",
+   "bookingPolicy": "The blocking fact is capacity, not dates: the only overnight facility for a group is the Hostel, 'Accommodates up to 39 guests', and the catalogue states plainly that the Dana Center and Duveneck House are 'Not available for overnight stays'. Josephine's Retreat sleeps 1-2. So a 60-person Fri-Sun stay on site is not possible on ANY of these ten weekends regardless of what is booked - Hidden Villa only works as a day venue with off-site lodging, which is how the venue notes already frame it. For day use, the Morgan Family Pavilion seats 60 and the Garden Picnic Site 40; both are weekend-reservable and any gathering of 15+ is required to have a picnic rental. Day-rate spaces run $300-$850. Hidden Villa says it prioritises youth-serving organisations and other non-profits. Booking is via the facility rental inquiry form, not an online calendar.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "unknown",
+     "evidence": "Hidden Villa's rental catalogue lists the Dana Center, Duveneck House, Hostel and Josephine's Retreat as inquire-only with no dates, so nothing on the public web says whether they are booked this weekend. The Arlo booking feed does show the site operating that weekend - Garden Picnic Site bookable Sat 8/29 and Morgan Family Pavilion bookable Sun 8/30, with a farm tour and archery already sold out on the 29th.",
+     "quote": "",
+     "sourceUrl": "https://www.hiddenvilla.org/rentals/facility-rentals/",
+     "sourceLabel": "Hidden Villa facility rentals catalogue"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "unknown",
+     "evidence": "Hidden Villa's rental catalogue lists the Dana Center, Duveneck House, Hostel and Josephine's Retreat as inquire-only with no dates, so nothing on the public web says whether they are booked this weekend. The feed shows Garden Picnic Site and Morgan Family Pavilion both still bookable on Sat 9/5 and Sun 9/6 over Labor Day weekend, so the property is open and taking day rentals.",
+     "quote": "",
+     "sourceUrl": "https://www.hiddenvilla.org/rentals/facility-rentals/",
+     "sourceLabel": "Hidden Villa facility rentals catalogue"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "unknown",
+     "evidence": "Hidden Villa's rental catalogue lists the Dana Center, Duveneck House, Hostel and Josephine's Retreat as inquire-only with no dates, so nothing on the public web says whether they are booked this weekend. Public programming runs that weekend (a Star Party on Fri 9/11, volunteer training 9/12, farm tour and workshops 9/13) and both picnic sites are still bookable on Sun 9/13.",
+     "quote": "",
+     "sourceUrl": "https://www.hiddenvilla.org/rentals/facility-rentals/",
+     "sourceLabel": "Hidden Villa facility rentals catalogue"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "Hidden Villa's rental catalogue lists the Dana Center, Duveneck House, Hostel and Josephine's Retreat as inquire-only with no dates, so nothing on the public web says whether they are booked this weekend. One dated negative worth noting: the Morgan Family Pavilion, the only space that seats 60, is marked full on Sun 9/20 in the Arlo feed, though it is still bookable on Sat 9/19.",
+     "quote": "",
+     "sourceUrl": "https://www.hiddenvilla.org/rentals/facility-rentals/",
+     "sourceLabel": "Hidden Villa facility rentals catalogue"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "unknown",
+     "evidence": "Hidden Villa's rental catalogue lists the Dana Center, Duveneck House, Hostel and Josephine's Retreat as inquire-only with no dates, so nothing on the public web says whether they are booked this weekend. Both picnic sites are still bookable on Sat 9/26, and a hide-tanning workshop and volunteer training are scheduled that weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.hiddenvilla.org/rentals/facility-rentals/",
+     "sourceLabel": "Hidden Villa facility rentals catalogue"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "unknown",
+     "evidence": "Hidden Villa's rental catalogue lists the Dana Center, Duveneck House, Hostel and Josephine's Retreat as inquire-only with no dates, so nothing on the public web says whether they are booked this weekend. Note a seasonal signal: the Arlo feed carries no picnic-site or day-parking sessions at all after 9/30, while still listing October programs, which suggests weekend picnic rentals wind down after September. I am flagging that rather than treating it as proof.",
+     "quote": "",
+     "sourceUrl": "https://www.hiddenvilla.org/rentals/facility-rentals/",
+     "sourceLabel": "Hidden Villa facility rentals catalogue"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "unknown",
+     "evidence": "Hidden Villa's rental catalogue lists the Dana Center, Duveneck House, Hostel and Josephine's Retreat as inquire-only with no dates, so nothing on the public web says whether they are booked this weekend. As with 10/2, no picnic-site sessions are published for October at all; the only listed activity that weekend is an Acorn Adventure and a farm tour on Sat 10/10.",
+     "quote": "",
+     "sourceUrl": "https://www.hiddenvilla.org/rentals/facility-rentals/",
+     "sourceLabel": "Hidden Villa facility rentals catalogue"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "unknown",
+     "evidence": "Hidden Villa's rental catalogue lists the Dana Center, Duveneck House, Hostel and Josephine's Retreat as inquire-only with no dates, so nothing on the public web says whether they are booked this weekend. The public calendar shows archery on Sat 10/17 and a farm tour on Sun 10/18, so the site is open and staffed, but no rental inventory is published.",
+     "quote": "",
+     "sourceUrl": "https://www.hiddenvilla.org/rentals/facility-rentals/",
+     "sourceLabel": "Hidden Villa facility rentals catalogue"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "unknown",
+     "evidence": "Hidden Villa's rental catalogue lists the Dana Center, Duveneck House, Hostel and Josephine's Retreat as inquire-only with no dates, so nothing on the public web says whether they are booked this weekend. Nothing at all is listed on the public calendar for this weekend, which under the brief's rule tells me nothing either way about the rental facilities.",
+     "quote": "",
+     "sourceUrl": "https://www.hiddenvilla.org/rentals/facility-rentals/",
+     "sourceLabel": "Hidden Villa facility rentals catalogue"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "unknown",
+     "evidence": "Hidden Villa's rental catalogue lists the Dana Center, Duveneck House, Hostel and Josephine's Retreat as inquire-only with no dates, so nothing on the public web says whether they are booked this weekend. Nothing is listed for Halloween weekend itself; the next published item is a block-printing workshop on Sun 11/1, so the calendar does extend past this date.",
+     "quote": "",
+     "sourceUrl": "https://www.hiddenvilla.org/rentals/facility-rentals/",
+     "sourceLabel": "Hidden Villa facility rentals catalogue"
+    }
+   ]
+  }
  },
  {
   "id": "triple-s-ranch",
@@ -3708,7 +5883,94 @@ window.VENUES = [
     "credit": "Triple S Ranch (official site)",
     "source": "https://www.triplesranchnapa.com/real-retreats-gallery"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Fetched the venue's own site directly (HTTP 200 on the home page, /overview-retreat, /lodging, /pricing, /contact and /blog) and looked for any calendar, booking engine, date picker or dated event listing. There is none: every path on the site ends at a contact/inquiry form, the /pricing page only offers a brochure download, and the blog is undated marketing copy. Also downloaded the linked private-event brochure PDF (TripleSRanchPrivateEventBrochure.pdf, 20 pages, HTTP 200) but its text is a subsetted custom-encoded font that does not extract to quotable text. Searched the wider web for dated activity at the ranch in the window ('Triple S Ranch' Calistoga retreat October 2026; 'Triple S Ranch' Napa event September 2026; 'Triple S Ranch' wedding 'October 2026' OR 'September 2026' Calistoga booked) and checked the third-party listings that surfaced (Cvent, Wedding Spot). Cvent's own FAQ fields for pricing, deposits and date availability all read as no information available, and Wedding Spot shows no 2026 calendar. Conclusion: nothing dated is published for any of the ten weekends, so all ten are unknown. This is the one venue of my five that is actually sized for the group.",
+   "bookingPolicy": "Whole-estate exclusive use; the retreat page states lodging for up to 34 single / 60 double occupancy, so 60 people only fits if everyone shares a room, and the site adds that onsite glamping and nearby lodging can absorb overflow. Note a discrepancy worth confirming: the Wedding Spot listing describes the exclusive-use package as a Grand Victorian and cabins 'that sleeps up to 51 guests', below the 60 the venue's own page advertises. The standard exclusive-use package is sold as 3 days / 2 nights, which matches a Fri-Sun booking. No published season closure; Sept-Oct is peak Napa wedding season, so weekend inventory is likely to be tight even though nothing is published. Dates are only obtainable by inquiry (phone (415) 760-3432 or the site form).",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "unknown",
+     "evidence": "Triple S Ranch publishes no public availability calendar and no booking engine; dates are handled entirely through an inquiry form and a phone call, so the public web says nothing about this weekend either way.",
+     "quote": "",
+     "sourceUrl": "https://www.triplesranchnapa.com/overview-retreat",
+     "sourceLabel": "Triple S Ranch - Retreats overview (inquiry only, no calendar)"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "unknown",
+     "evidence": "Triple S Ranch publishes no public availability calendar and no booking engine; dates are handled entirely through an inquiry form and a phone call, so the public web says nothing about this weekend either way.",
+     "quote": "",
+     "sourceUrl": "https://www.triplesranchnapa.com/overview-retreat",
+     "sourceLabel": "Triple S Ranch - Retreats overview (inquiry only, no calendar)"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "unknown",
+     "evidence": "Triple S Ranch publishes no public availability calendar and no booking engine; dates are handled entirely through an inquiry form and a phone call, so the public web says nothing about this weekend either way.",
+     "quote": "",
+     "sourceUrl": "https://www.triplesranchnapa.com/overview-retreat",
+     "sourceLabel": "Triple S Ranch - Retreats overview (inquiry only, no calendar)"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "Triple S Ranch publishes no public availability calendar and no booking engine; dates are handled entirely through an inquiry form and a phone call, so the public web says nothing about this weekend either way.",
+     "quote": "",
+     "sourceUrl": "https://www.triplesranchnapa.com/overview-retreat",
+     "sourceLabel": "Triple S Ranch - Retreats overview (inquiry only, no calendar)"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "unknown",
+     "evidence": "Triple S Ranch publishes no public availability calendar and no booking engine; dates are handled entirely through an inquiry form and a phone call, so the public web says nothing about this weekend either way.",
+     "quote": "",
+     "sourceUrl": "https://www.triplesranchnapa.com/overview-retreat",
+     "sourceLabel": "Triple S Ranch - Retreats overview (inquiry only, no calendar)"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "unknown",
+     "evidence": "Triple S Ranch publishes no public availability calendar and no booking engine; dates are handled entirely through an inquiry form and a phone call, so the public web says nothing about this weekend either way.",
+     "quote": "",
+     "sourceUrl": "https://www.triplesranchnapa.com/overview-retreat",
+     "sourceLabel": "Triple S Ranch - Retreats overview (inquiry only, no calendar)"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "unknown",
+     "evidence": "Triple S Ranch publishes no public availability calendar and no booking engine; dates are handled entirely through an inquiry form and a phone call, so the public web says nothing about this weekend either way.",
+     "quote": "",
+     "sourceUrl": "https://www.triplesranchnapa.com/overview-retreat",
+     "sourceLabel": "Triple S Ranch - Retreats overview (inquiry only, no calendar)"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "unknown",
+     "evidence": "Triple S Ranch publishes no public availability calendar and no booking engine; dates are handled entirely through an inquiry form and a phone call, so the public web says nothing about this weekend either way.",
+     "quote": "",
+     "sourceUrl": "https://www.triplesranchnapa.com/overview-retreat",
+     "sourceLabel": "Triple S Ranch - Retreats overview (inquiry only, no calendar)"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "unknown",
+     "evidence": "Triple S Ranch publishes no public availability calendar and no booking engine; dates are handled entirely through an inquiry form and a phone call, so the public web says nothing about this weekend either way.",
+     "quote": "",
+     "sourceUrl": "https://www.triplesranchnapa.com/overview-retreat",
+     "sourceLabel": "Triple S Ranch - Retreats overview (inquiry only, no calendar)"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "unknown",
+     "evidence": "Triple S Ranch publishes no public availability calendar and no booking engine; dates are handled entirely through an inquiry form and a phone call, so the public web says nothing about this weekend either way.",
+     "quote": "",
+     "sourceUrl": "https://www.triplesranchnapa.com/overview-retreat",
+     "sourceLabel": "Triple S Ranch - Retreats overview (inquiry only, no calendar)"
+    }
+   ]
+  }
  },
  {
   "id": "mayacamas-ranch",
@@ -3849,7 +6111,94 @@ window.VENUES = [
     "credit": "Mayacamas Ranch (official site)",
     "source": "https://mayacamasranch.com/"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Fetched mayacamasranch.com and its /the-invitation/ page (both HTTP 200) and read the full site - it is a four-page WordPress brochure (The Land, The Vision, The Invitation, Partners) aimed at prospective steward partners and impact investors. There is no lodging page, no rates, no calendar, no booking engine, no reservations email and no published phone number; the only interactive element is a 'Request Partner Access' contact form gated behind a private partner portal. The pre-fire retreat-centre site (mayacamasranch.com circa 2014-2017) is gone. Because the property publishes no dates at all, no weekend can be assessed individually; the verdict is the same for all ten and rests on the property's own description of its current state rather than on any dated calendar entry.",
+   "bookingPolicy": "Not bookable. The 2017 Tubbs Fire destroyed the lodge and cabin buildings and they have not been rebuilt - the site's own line is that the fire 'irrevocably altered its physical form' and that the owners chose regeneration over rebuilding. The 300-acre property is being placed into a long-term stewardship framework through Rock Creek Institute, and access today is by personal invitation to a small circle of founding steward partners. Any hosting that happens is 'select partners in residence' doing intimate gatherings and creative work. There is no guest lodging, no rate card and no enquiry path for a paying 60-person group.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "definitely_not_available",
+     "evidence": "Mayacamas is not a bookable retreat centre on any date in the window: its lodge and cabins were destroyed in the 2017 Tubbs Fire and were never rebuilt, and the current site says the land now hosts only invited 'partners in residence' and intimate gatherings. There is no lodging inventory, no booking channel and no published phone number, so a 60-person Fri-Sun booking is impossible this weekend and every other.",
+     "quote": "Through select partners in residence, the ranch currently hosts intimate gatherings and creative work",
+     "sourceUrl": "https://mayacamasranch.com/the-invitation/",
+     "sourceLabel": "Mayacamas Ranch - The Invitation (steward-partner page)"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "definitely_not_available",
+     "evidence": "Mayacamas is not a bookable retreat centre on any date in the window: its lodge and cabins were destroyed in the 2017 Tubbs Fire and were never rebuilt, and the current site says the land now hosts only invited 'partners in residence' and intimate gatherings. There is no lodging inventory, no booking channel and no published phone number, so a 60-person Fri-Sun booking is impossible this weekend and every other.",
+     "quote": "Through select partners in residence, the ranch currently hosts intimate gatherings and creative work",
+     "sourceUrl": "https://mayacamasranch.com/the-invitation/",
+     "sourceLabel": "Mayacamas Ranch - The Invitation (steward-partner page)"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "definitely_not_available",
+     "evidence": "Mayacamas is not a bookable retreat centre on any date in the window: its lodge and cabins were destroyed in the 2017 Tubbs Fire and were never rebuilt, and the current site says the land now hosts only invited 'partners in residence' and intimate gatherings. There is no lodging inventory, no booking channel and no published phone number, so a 60-person Fri-Sun booking is impossible this weekend and every other.",
+     "quote": "Through select partners in residence, the ranch currently hosts intimate gatherings and creative work",
+     "sourceUrl": "https://mayacamasranch.com/the-invitation/",
+     "sourceLabel": "Mayacamas Ranch - The Invitation (steward-partner page)"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "definitely_not_available",
+     "evidence": "Mayacamas is not a bookable retreat centre on any date in the window: its lodge and cabins were destroyed in the 2017 Tubbs Fire and were never rebuilt, and the current site says the land now hosts only invited 'partners in residence' and intimate gatherings. There is no lodging inventory, no booking channel and no published phone number, so a 60-person Fri-Sun booking is impossible this weekend and every other.",
+     "quote": "Through select partners in residence, the ranch currently hosts intimate gatherings and creative work",
+     "sourceUrl": "https://mayacamasranch.com/the-invitation/",
+     "sourceLabel": "Mayacamas Ranch - The Invitation (steward-partner page)"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "definitely_not_available",
+     "evidence": "Mayacamas is not a bookable retreat centre on any date in the window: its lodge and cabins were destroyed in the 2017 Tubbs Fire and were never rebuilt, and the current site says the land now hosts only invited 'partners in residence' and intimate gatherings. There is no lodging inventory, no booking channel and no published phone number, so a 60-person Fri-Sun booking is impossible this weekend and every other.",
+     "quote": "Through select partners in residence, the ranch currently hosts intimate gatherings and creative work",
+     "sourceUrl": "https://mayacamasranch.com/the-invitation/",
+     "sourceLabel": "Mayacamas Ranch - The Invitation (steward-partner page)"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "definitely_not_available",
+     "evidence": "Mayacamas is not a bookable retreat centre on any date in the window: its lodge and cabins were destroyed in the 2017 Tubbs Fire and were never rebuilt, and the current site says the land now hosts only invited 'partners in residence' and intimate gatherings. There is no lodging inventory, no booking channel and no published phone number, so a 60-person Fri-Sun booking is impossible this weekend and every other.",
+     "quote": "Through select partners in residence, the ranch currently hosts intimate gatherings and creative work",
+     "sourceUrl": "https://mayacamasranch.com/the-invitation/",
+     "sourceLabel": "Mayacamas Ranch - The Invitation (steward-partner page)"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "definitely_not_available",
+     "evidence": "Mayacamas is not a bookable retreat centre on any date in the window: its lodge and cabins were destroyed in the 2017 Tubbs Fire and were never rebuilt, and the current site says the land now hosts only invited 'partners in residence' and intimate gatherings. There is no lodging inventory, no booking channel and no published phone number, so a 60-person Fri-Sun booking is impossible this weekend and every other.",
+     "quote": "Through select partners in residence, the ranch currently hosts intimate gatherings and creative work",
+     "sourceUrl": "https://mayacamasranch.com/the-invitation/",
+     "sourceLabel": "Mayacamas Ranch - The Invitation (steward-partner page)"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "definitely_not_available",
+     "evidence": "Mayacamas is not a bookable retreat centre on any date in the window: its lodge and cabins were destroyed in the 2017 Tubbs Fire and were never rebuilt, and the current site says the land now hosts only invited 'partners in residence' and intimate gatherings. There is no lodging inventory, no booking channel and no published phone number, so a 60-person Fri-Sun booking is impossible this weekend and every other.",
+     "quote": "Through select partners in residence, the ranch currently hosts intimate gatherings and creative work",
+     "sourceUrl": "https://mayacamasranch.com/the-invitation/",
+     "sourceLabel": "Mayacamas Ranch - The Invitation (steward-partner page)"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "definitely_not_available",
+     "evidence": "Mayacamas is not a bookable retreat centre on any date in the window: its lodge and cabins were destroyed in the 2017 Tubbs Fire and were never rebuilt, and the current site says the land now hosts only invited 'partners in residence' and intimate gatherings. There is no lodging inventory, no booking channel and no published phone number, so a 60-person Fri-Sun booking is impossible this weekend and every other.",
+     "quote": "Through select partners in residence, the ranch currently hosts intimate gatherings and creative work",
+     "sourceUrl": "https://mayacamasranch.com/the-invitation/",
+     "sourceLabel": "Mayacamas Ranch - The Invitation (steward-partner page)"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "definitely_not_available",
+     "evidence": "Mayacamas is not a bookable retreat centre on any date in the window: its lodge and cabins were destroyed in the 2017 Tubbs Fire and were never rebuilt, and the current site says the land now hosts only invited 'partners in residence' and intimate gatherings. There is no lodging inventory, no booking channel and no published phone number, so a 60-person Fri-Sun booking is impossible this weekend and every other.",
+     "quote": "Through select partners in residence, the ranch currently hosts intimate gatherings and creative work",
+     "sourceUrl": "https://mayacamasranch.com/the-invitation/",
+     "sourceLabel": "Mayacamas Ranch - The Invitation (steward-partner page)"
+    }
+   ]
+  }
  },
  {
   "id": "ratna-ling",
@@ -3993,7 +6342,94 @@ window.VENUES = [
     "credit": "Ratna Ling Retreat Center (official site; photo by Troy Ziel Photography)",
     "source": "https://ratnaling.org/"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "ratnaling.org returns 403 to curl regardless of headers, so the venue's own pages were read through WebFetch (home page, HTTP 200) and its separate group-booking site ratnalingretreatcenterbooking.org was opened in a real browser tab to capture its text verbatim (curl gets 403 there too). The dated program schedule came from retreat.guru's Ratna Ling centre page (HTTP 200, fetched and parsed locally), which lists every upcoming program with printed date ranges and covers the whole window; it was cross-checked against a web search of ratnaling.org's own retreat pages. Also checked the Sonoma County tourism lodging listing. Ratna Ling publishes a detailed program calendar but no room-level availability calendar and no booking engine - group rentals go through an inquiry form. Nine of the ten weekends carry a scheduled in-house program; August 28 and September 18 do not, and are ruled out on capacity instead.",
+   "bookingPolicy": "Hard capacity ceiling of 28 guests in 14 deluxe two-person cottages - under half the 60 required, and the single decisive constraint. On top of that the centre imposes a guest-type restriction: it rents only to non-profit organisations, educational institutions and other spiritual organisations dedicated to public service. Meeting and dining space is much larger than the lodging (White Lotus practice room holds 70, the Grand Dining Hall seats 106, the Garden Pavilion seats 60), which is why third-party listings can look as though the site is bigger than it is - but you cannot sleep 60 people there. Facility rentals are described as being for small private multi-day events. Group bookings are by inquiry form or (510) 809-4995; no online availability is exposed.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "unknown",
+     "evidence": "No scheduled program was found on this weekend and Ratna Ling publishes no rental availability, so the public web says nothing about this date. The centre's 28-guest ceiling and non-profit-only rental policy rule the venue out for this group regardless — see the booking policy — but that is not date-specific evidence.",
+     "quote": "We offer comfortable accommodations for up to 28 guests",
+     "sourceUrl": "https://ratnalingretreatcenterbooking.org/",
+     "sourceLabel": "Ratna Ling - group event booking page"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "definitely_not_available",
+     "evidence": "Ratna Ling's public program listing shows its own scheduled retreat \"A Weekend of Self-Care | Labor Day\" running September 4 - 7, 2026, which occupies the centre across this Fri-Sun weekend; the quoted string is the program title as printed on the listing. The listing also showed only 2 spaces remaining in that program. Separately and decisively, the centre's own group-rental page caps a group booking at 28 guests in 14 two-person cottages - less than half the 60 needed - and restricts rentals to non-profit, educational and spiritual organisations.",
+     "quote": "A Weekend of Self-Care | Labor Day",
+     "sourceUrl": "https://retreat.guru/centers/388-1/ratna-ling-retreat-center",
+     "sourceLabel": "retreat.guru - Ratna Ling program listing"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "definitely_not_available",
+     "evidence": "Ratna Ling's public program listing shows its own scheduled retreat \"Transitions & Transformation: A Yoga Retreat\" running September 11 - 13, 2026, which occupies the centre across this Fri-Sun weekend; the quoted string is the program title as printed on the listing. A second program, \"Space and Ease: A Personal Retreat\", runs the same September 11 - 13 dates. Separately and decisively, the centre's own group-rental page caps a group booking at 28 guests in 14 two-person cottages - less than half the 60 needed - and restricts rentals to non-profit, educational and spiritual organisations.",
+     "quote": "Transitions & Transformation: A Yoga Retreat",
+     "sourceUrl": "https://retreat.guru/centers/388-1/ratna-ling-retreat-center",
+     "sourceLabel": "retreat.guru - Ratna Ling program listing"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "No scheduled program was found on this weekend and Ratna Ling publishes no rental availability, so the public web says nothing about this date. The centre's 28-guest ceiling and non-profit-only rental policy rule the venue out for this group regardless — see the booking policy — but that is not date-specific evidence.",
+     "quote": "Ratna Ling Retreat Center is available for rent by non-profit organizations, educational institutions, and other spiritual organizations dedicated to public service and the spiritual well-being of humankind.",
+     "sourceUrl": "https://ratnalingretreatcenterbooking.org/",
+     "sourceLabel": "Ratna Ling - group event booking page"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "definitely_not_available",
+     "evidence": "Ratna Ling's public program listing shows its own scheduled retreat \"Re-Vision: Sonoma County Writers Camp\" running September 23 - 27, 2026, which occupies the centre across this Fri-Sun weekend; the quoted string is the program title as printed on the listing. That five-day camp spans the whole Fri-Sun weekend. Separately and decisively, the centre's own group-rental page caps a group booking at 28 guests in 14 two-person cottages - less than half the 60 needed - and restricts rentals to non-profit, educational and spiritual organisations.",
+     "quote": "Re-Vision: Sonoma County Writers Camp",
+     "sourceUrl": "https://retreat.guru/centers/388-1/ratna-ling-retreat-center",
+     "sourceLabel": "retreat.guru - Ratna Ling program listing"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "definitely_not_available",
+     "evidence": "Ratna Ling's public program listing shows its own scheduled retreat \"Cultivating Compassion - A movement and meditation weekend\" running October 2 - 4, 2026, which occupies the centre across this Fri-Sun weekend; the quoted string is the program title as printed on the listing. Ratna Ling's own home page separately advertises its 2026 Fall Harvest Celebration fundraiser on October 4, 2026, on the same weekend. Separately and decisively, the centre's own group-rental page caps a group booking at 28 guests in 14 two-person cottages - less than half the 60 needed - and restricts rentals to non-profit, educational and spiritual organisations.",
+     "quote": "Cultivating Compassion - A movement and meditation weekend",
+     "sourceUrl": "https://retreat.guru/centers/388-1/ratna-ling-retreat-center",
+     "sourceLabel": "retreat.guru - Ratna Ling program listing"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "definitely_not_available",
+     "evidence": "The program listing shows Ratna Ling's own \"Women's Self-Care Retreat\" running October 9 - 12, 2026, occupying the centre across this Fri-Sun weekend. That title is too short to serve as the required quote, so the quote here is the capacity statement, which independently rules the weekend out: 28 guests maximum against a party of 60.",
+     "quote": "We offer comfortable accommodations for up to 28 guests",
+     "sourceUrl": "https://ratnalingretreatcenterbooking.org/",
+     "sourceLabel": "Ratna Ling - group event booking page"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "definitely_not_available",
+     "evidence": "Ratna Ling's public program listing shows its own scheduled retreat \"Living in Harmony: Tibetan Buddhist Meditation\" running October 16 - 18, 2026, which occupies the centre across this Fri-Sun weekend; the quoted string is the program title as printed on the listing. Separately and decisively, the centre's own group-rental page caps a group booking at 28 guests in 14 two-person cottages - less than half the 60 needed - and restricts rentals to non-profit, educational and spiritual organisations.",
+     "quote": "Living in Harmony: Tibetan Buddhist Meditation",
+     "sourceUrl": "https://retreat.guru/centers/388-1/ratna-ling-retreat-center",
+     "sourceLabel": "retreat.guru - Ratna Ling program listing"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "definitely_not_available",
+     "evidence": "Ratna Ling's public program listing shows its own scheduled retreat \"The Inner Landscape: A Meditation Retreat in Nature\" running October 23 - 25, 2026, which occupies the centre across this Fri-Sun weekend; the quoted string is the program title as printed on the listing. A second program, \"Elevate Your Essence\", runs the same October 23 - 25 dates. Separately and decisively, the centre's own group-rental page caps a group booking at 28 guests in 14 two-person cottages - less than half the 60 needed - and restricts rentals to non-profit, educational and spiritual organisations.",
+     "quote": "The Inner Landscape: A Meditation Retreat in Nature",
+     "sourceUrl": "https://retreat.guru/centers/388-1/ratna-ling-retreat-center",
+     "sourceLabel": "retreat.guru - Ratna Ling program listing"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "definitely_not_available",
+     "evidence": "Ratna Ling's public program listing shows its own scheduled retreat \"The Art of Loss: Letting Go with Grace\" running October 30 - November 1, 2026, which occupies the centre across this Fri-Sun weekend; the quoted string is the program title as printed on the listing. Separately and decisively, the centre's own group-rental page caps a group booking at 28 guests in 14 two-person cottages - less than half the 60 needed - and restricts rentals to non-profit, educational and spiritual organisations.",
+     "quote": "The Art of Loss: Letting Go with Grace",
+     "sourceUrl": "https://retreat.guru/centers/388-1/ratna-ling-retreat-center",
+     "sourceLabel": "retreat.guru - Ratna Ling program listing"
+    }
+   ]
+  }
  },
  {
   "id": "green-gulch-farm",
@@ -4135,7 +6571,94 @@ window.VENUES = [
     "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Green_Gulch_Farm_Zen_Center,_May_2019-5934.jpg"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Fetched the SFZC Green Gulch location page and the Green Gulch conference centre facilities/rates/policies page (both HTTP 200) and read them in full, then fetched SFZC's site-wide calendar (HTTP 200), which lists dated entries day by day from late August 2026 onward and can be filtered to the Green Gulch Farm location. Unusually for this set, Green Gulch answers the question directly in published prose rather than through a booking engine: the conference page opens with a standing notice that 2026 date requests are closed, and it also prints exact room, bed and meeting-room counts. The calendar then supplies dated corroboration for the last three weekends in the form of the Fall Practice Period. No booking engine exists - conferences are arranged by email to ggfconference@sfzc.org - but none was needed.",
+   "bookingPolicy": "Two independent blockers. First, the conference centre is not taking any new 2026 bookings at all - a blanket refusal printed at the top of its rates page, which covers every one of the ten weekends. Second, capacity: 17 guest rooms with 22 beds total, and conference rooms for at most 40 people (Wheelwright Center 35, Still Water Hall 40, the Yurt 40). The overnight package is priced as exclusive use of the Lindisfarne Guest House for up to 12 people with per-person add-ons above that, which is the scale the site is built for - roughly a third of a 60-person group. It is also an active monastic practice centre: the 2026 Fall Practice Period occupies the temple from October 14 to December 15, covering the last three weekends in the window. Booking is by email only.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "definitely_not_available",
+     "evidence": "Green Gulch's conference centre page carries a standing notice at the top that it has stopped taking booking requests for any 2026 date, which closes this weekend outright. The capacity numbers on the same page close it a second time: 17 guest rooms with 22 beds total and meeting rooms for at most 40, against a party of 60.",
+     "quote": "We are no longer accepting requests for 2026 dates.",
+     "sourceUrl": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies",
+     "sourceLabel": "Green Gulch Farm Conference Center - facilities, rates & policies"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "definitely_not_available",
+     "evidence": "Green Gulch's conference centre page carries a standing notice at the top that it has stopped taking booking requests for any 2026 date, which closes this weekend outright. The capacity numbers on the same page close it a second time: 17 guest rooms with 22 beds total and meeting rooms for at most 40, against a party of 60.",
+     "quote": "We are no longer accepting requests for 2026 dates.",
+     "sourceUrl": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies",
+     "sourceLabel": "Green Gulch Farm Conference Center - facilities, rates & policies"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "definitely_not_available",
+     "evidence": "Green Gulch's conference centre page carries a standing notice at the top that it has stopped taking booking requests for any 2026 date, which closes this weekend outright. The capacity numbers on the same page close it a second time: 17 guest rooms with 22 beds total and meeting rooms for at most 40, against a party of 60.",
+     "quote": "We are no longer accepting requests for 2026 dates.",
+     "sourceUrl": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies",
+     "sourceLabel": "Green Gulch Farm Conference Center - facilities, rates & policies"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "definitely_not_available",
+     "evidence": "Green Gulch's conference centre page carries a standing notice at the top that it has stopped taking booking requests for any 2026 date, which closes this weekend outright. The capacity numbers on the same page close it a second time: 17 guest rooms with 22 beds total and meeting rooms for at most 40, against a party of 60.",
+     "quote": "We are no longer accepting requests for 2026 dates.",
+     "sourceUrl": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies",
+     "sourceLabel": "Green Gulch Farm Conference Center - facilities, rates & policies"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "definitely_not_available",
+     "evidence": "Green Gulch's conference centre page carries a standing notice at the top that it has stopped taking booking requests for any 2026 date, which closes this weekend outright. The capacity numbers on the same page close it a second time: 17 guest rooms with 22 beds total and meeting rooms for at most 40, against a party of 60.",
+     "quote": "We are no longer accepting requests for 2026 dates.",
+     "sourceUrl": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies",
+     "sourceLabel": "Green Gulch Farm Conference Center - facilities, rates & policies"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "definitely_not_available",
+     "evidence": "Green Gulch's conference centre page carries a standing notice at the top that it has stopped taking booking requests for any 2026 date, which closes this weekend outright. The capacity numbers on the same page close it a second time: 17 guest rooms with 22 beds total and meeting rooms for at most 40, against a party of 60.",
+     "quote": "We are no longer accepting requests for 2026 dates.",
+     "sourceUrl": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies",
+     "sourceLabel": "Green Gulch Farm Conference Center - facilities, rates & policies"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "definitely_not_available",
+     "evidence": "Green Gulch's conference centre page carries a standing notice at the top that it has stopped taking booking requests for any 2026 date, which closes this weekend outright. The capacity numbers on the same page close it a second time: 17 guest rooms with 22 beds total and meeting rooms for at most 40, against a party of 60.",
+     "quote": "We are no longer accepting requests for 2026 dates.",
+     "sourceUrl": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies",
+     "sourceLabel": "Green Gulch Farm Conference Center - facilities, rates & policies"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "definitely_not_available",
+     "evidence": "On top of the standing refusal of all 2026 booking requests, SFZC's calendar shows the 2026 Fall Practice Period running at Green Gulch from Oct 14, 2026 to Dec 15, 2026 - an intensive residential monastic period that occupies the temple across this weekend. Capacity rules it out independently: 17 guest rooms and 22 beds against a party of 60.",
+     "quote": "2026 Fall Practice Period at Green Gulch Farm",
+     "sourceUrl": "https://www.sfzc.org/calendar",
+     "sourceLabel": "San Francisco Zen Center - full calendar"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "definitely_not_available",
+     "evidence": "On top of the standing refusal of all 2026 booking requests, SFZC's calendar shows the 2026 Fall Practice Period running at Green Gulch from Oct 14, 2026 to Dec 15, 2026 - an intensive residential monastic period that occupies the temple across this weekend. Capacity rules it out independently: 17 guest rooms and 22 beds against a party of 60.",
+     "quote": "2026 Fall Practice Period at Green Gulch Farm",
+     "sourceUrl": "https://www.sfzc.org/calendar",
+     "sourceLabel": "San Francisco Zen Center - full calendar"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "definitely_not_available",
+     "evidence": "On top of the standing refusal of all 2026 booking requests, SFZC's calendar shows the 2026 Fall Practice Period running at Green Gulch from Oct 14, 2026 to Dec 15, 2026 - an intensive residential monastic period that occupies the temple across this weekend. Capacity rules it out independently: 17 guest rooms and 22 beds against a party of 60.",
+     "quote": "2026 Fall Practice Period at Green Gulch Farm",
+     "sourceUrl": "https://www.sfzc.org/calendar",
+     "sourceLabel": "San Francisco Zen Center - full calendar"
+    }
+   ]
+  }
  },
  {
   "id": "sea-ranch-lodge",
@@ -4279,6 +6802,93 @@ window.VENUES = [
     "credit": "The Sea Ranch Lodge (official site)",
     "source": "https://www.thesearanchlodge.com/"
    }
-  ]
+  ],
+  "verified": {
+   "checkedOn": "2026-08-25",
+   "method": "Read the Lodge's own site (home, /lodging, /faq, /private-events, /community/events - all HTTP 200) for room counts, group policy and dated programming, then drove the actual booking engine. The Lodge sells through SynXis (hotel=40594); the page is JavaScript-only, so it was opened in a browser tab and queried once per weekend, Friday to Sunday, 2 adults, 1 room - all ten weekends individually. Results split two ways: four weekends returned an explicit 'not available' message, and six returned only 'Sea Ranch Living' cabins/homes with no 'The Lodge Rooms' category at all. To rule out a stuck filter, two midweek control searches were run: Sep 1-3, 2026 did return 'The Lodge Rooms', confirming the category appears when inventory exists. So the Lodge's own 17 rooms were unbookable for a two-night Fri-Sun stay on every one of the ten weekends. The public programming calendar (yoga, workshops, artist exhibitions) was also read and shows the property operating normally through October 10 - these are small public events, not site occupancy.",
+   "bookingPolicy": "The binding constraint is lodging, not event space. The Lodge has 17 guest rooms - about 34 people at double occupancy - so it cannot sleep 60 on its own, and no whole-site buyout is offered. Its event side is much larger (Barn Meadow North is 3,500 sq ft with capacity 200, and the property markets meetings, retreats and weddings across 500,000+ sq ft of land), which is why the venue can look bigger than its bed count. A group could in principle reach 60 by spreading across Sea Ranch Living private rental homes, but those are individually-owned houses scattered through the Sea Ranch community, not near-whole-site use of the Lodge, and the Lodge's policy forbids gatherings or events in any guest room or rental home without prior written consent and caps occupancy at each unit's published maximum. Minimum stay requirements may apply depending on season and demand. Cancellation is 14 days for Lodge rooms, 30 for Sea Ranch Living.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "definitely_not_available",
+     "evidence": "Queried the Lodge's SynXis booking engine for this Fri-Sun stay with 2 adults: the only category returned was Sea Ranch Living Homes - the separately-managed private rental houses - with no 'The Lodge Rooms' category offered, meaning not one of the Lodge's own rooms was bookable for these two nights. A midweek control search (Sep 1-3, 2026) did return 'The Lodge Rooms', so the absence is real and not a filter artefact. The quote is the Lodge's published room count, which rules the weekend out independently: 17 rooms sleeps about 34 people, not 60.",
+     "quote": "Experience our 17 thoughtfully designed guest rooms.",
+     "sourceUrl": "https://www.thesearanchlodge.com/faq",
+     "sourceLabel": "The Sea Ranch Lodge - FAQ (room count)"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "definitely_not_available",
+     "evidence": "The Lodge's own SynXis booking engine, queried for this Fri-Sun stay with 2 adults, returned no bookable inventory at all for the two-night combination. Either way the weekend is already closed by size: the Lodge has 17 guest rooms, so it sleeps roughly 34 at double occupancy against a party of 60, and there is no whole-site buyout that would change that.",
+     "quote": "Your check-in/check-out combination is not available on September 4, 2026.",
+     "sourceUrl": "https://be.synxis.com/?hotel=40594&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1",
+     "sourceLabel": "The Sea Ranch Lodge - SynXis booking engine, Fri-Sun 2 adults"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "definitely_not_available",
+     "evidence": "The Lodge's own SynXis booking engine, queried for this Fri-Sun stay with 2 adults, returned no bookable inventory at all for the two-night combination. Either way the weekend is already closed by size: the Lodge has 17 guest rooms, so it sleeps roughly 34 at double occupancy against a party of 60, and there is no whole-site buyout that would change that.",
+     "quote": "Your check-in/check-out combination is not available on September 11, 2026.",
+     "sourceUrl": "https://be.synxis.com/?hotel=40594&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1",
+     "sourceLabel": "The Sea Ranch Lodge - SynXis booking engine, Fri-Sun 2 adults"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "definitely_not_available",
+     "evidence": "Queried the Lodge's SynXis booking engine for this Fri-Sun stay with 2 adults: the only category returned was Sea Ranch Living Cabins - the separately-managed private rental houses - with no 'The Lodge Rooms' category offered, meaning not one of the Lodge's own rooms was bookable for these two nights. A midweek control search (Sep 1-3, 2026) did return 'The Lodge Rooms', so the absence is real and not a filter artefact. The quote is the Lodge's published room count, which rules the weekend out independently: 17 rooms sleeps about 34 people, not 60.",
+     "quote": "Experience our 17 thoughtfully designed guest rooms.",
+     "sourceUrl": "https://www.thesearanchlodge.com/faq",
+     "sourceLabel": "The Sea Ranch Lodge - FAQ (room count)"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "definitely_not_available",
+     "evidence": "Queried the Lodge's SynXis booking engine for this Fri-Sun stay with 2 adults: the only category returned was Sea Ranch Living Homes - the separately-managed private rental houses - with no 'The Lodge Rooms' category offered, meaning not one of the Lodge's own rooms was bookable for these two nights. A midweek control search (Sep 1-3, 2026) did return 'The Lodge Rooms', so the absence is real and not a filter artefact. The quote is the Lodge's published room count, which rules the weekend out independently: 17 rooms sleeps about 34 people, not 60.",
+     "quote": "Experience our 17 thoughtfully designed guest rooms.",
+     "sourceUrl": "https://www.thesearanchlodge.com/faq",
+     "sourceLabel": "The Sea Ranch Lodge - FAQ (room count)"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "definitely_not_available",
+     "evidence": "The Lodge's own SynXis booking engine, queried for this Fri-Sun stay with 2 adults, returned no bookable inventory at all for the two-night combination. Either way the weekend is already closed by size: the Lodge has 17 guest rooms, so it sleeps roughly 34 at double occupancy against a party of 60, and there is no whole-site buyout that would change that.",
+     "quote": "The room or rate you selected is not available on October 3, 2026.",
+     "sourceUrl": "https://be.synxis.com/?hotel=40594&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1",
+     "sourceLabel": "The Sea Ranch Lodge - SynXis booking engine, Fri-Sun 2 adults"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "definitely_not_available",
+     "evidence": "Queried the Lodge's SynXis booking engine for this Fri-Sun stay with 2 adults: the only category returned was Sea Ranch Living Homes - the separately-managed private rental houses - with no 'The Lodge Rooms' category offered, meaning not one of the Lodge's own rooms was bookable for these two nights. A midweek control search (Sep 1-3, 2026) did return 'The Lodge Rooms', so the absence is real and not a filter artefact. The quote is the Lodge's published room count, which rules the weekend out independently: 17 rooms sleeps about 34 people, not 60.",
+     "quote": "Experience our 17 thoughtfully designed guest rooms.",
+     "sourceUrl": "https://www.thesearanchlodge.com/faq",
+     "sourceLabel": "The Sea Ranch Lodge - FAQ (room count)"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "definitely_not_available",
+     "evidence": "The Lodge's own SynXis booking engine, queried for this Fri-Sun stay with 2 adults, returned no bookable inventory at all for the two-night combination. Either way the weekend is already closed by size: the Lodge has 17 guest rooms, so it sleeps roughly 34 at double occupancy against a party of 60, and there is no whole-site buyout that would change that.",
+     "quote": "Your check-in/check-out combination is not available on October 16, 2026.",
+     "sourceUrl": "https://be.synxis.com/?hotel=40594&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1",
+     "sourceLabel": "The Sea Ranch Lodge - SynXis booking engine, Fri-Sun 2 adults"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "definitely_not_available",
+     "evidence": "Queried the Lodge's SynXis booking engine for this Fri-Sun stay with 2 adults: the only category returned was Sea Ranch Living Homes - the separately-managed private rental houses - with no 'The Lodge Rooms' category offered, meaning not one of the Lodge's own rooms was bookable for these two nights. A midweek control search (Sep 1-3, 2026) did return 'The Lodge Rooms', so the absence is real and not a filter artefact. The quote is the Lodge's published room count, which rules the weekend out independently: 17 rooms sleeps about 34 people, not 60.",
+     "quote": "Experience our 17 thoughtfully designed guest rooms.",
+     "sourceUrl": "https://www.thesearanchlodge.com/faq",
+     "sourceLabel": "The Sea Ranch Lodge - FAQ (room count)"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "definitely_not_available",
+     "evidence": "Queried the Lodge's SynXis booking engine for this Fri-Sun stay with 2 adults: the only category returned was Sea Ranch Living Cabins and Sea Ranch Living Homes - the separately-managed private rental houses - with no 'The Lodge Rooms' category offered, meaning not one of the Lodge's own rooms was bookable for these two nights. A midweek control search (Sep 1-3, 2026) did return 'The Lodge Rooms', so the absence is real and not a filter artefact. The quote is the Lodge's published room count, which rules the weekend out independently: 17 rooms sleeps about 34 people, not 60.",
+     "quote": "Experience our 17 thoughtfully designed guest rooms.",
+     "sourceUrl": "https://www.thesearanchlodge.com/faq",
+     "sourceLabel": "The Sea Ranch Lodge - FAQ (room count)"
+    }
+   ]
+  }
  }
 ];

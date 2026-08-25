@@ -92,12 +92,14 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; margin: 0; letter-spac
 .group-header .count { font-weight: 500; color: var(--muted); opacity: .7; }
 
 .row {
-  display: grid; grid-template-columns: 44px 1fr; gap: 12px; align-items: center;
+  display: grid; grid-template-columns: 12px 44px minmax(0, 1fr) auto; gap: 10px; align-items: center;
   width: 100%; text-align: left;
-  padding: 9px 20px;
+  padding: 9px 20px 9px 7px;
   border-left: 3px solid transparent;
   transition: background .12s;
+  cursor: pointer;
 }
+.row:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 .row:hover, .row.is-hover { background: var(--hover); }
 .row.is-selected { background: var(--selected); border-left-color: var(--ink); }
 .row-thumb {
@@ -314,10 +316,11 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; margin: 0; letter-spac
 .weekends-title { font-size: 10.5px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
 .weekends-clear { font-size: 11.5px; color: var(--ink-2); border-bottom: 1px solid var(--line-2); }
 .weekends-clear:hover { color: var(--ink); border-bottom-color: var(--ink); }
-.weekend-grid { display: grid; grid-template-columns: repeat(9, 1fr); gap: 3px; }
+.weekend-grid { display: grid; grid-template-columns: repeat(10, 1fr); gap: 2px; }
 .wk {
   display: flex; flex-direction: column; align-items: center; gap: 3px;
   padding: 6px 0 5px; border-radius: 7px; border: 1px solid transparent;
+  min-width: 0;
   transition: background .12s, border-color .12s;
 }
 .wk:hover { background: var(--hover); }
@@ -334,14 +337,15 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; margin: 0; letter-spac
 .wk.is-active .wk-target-label { color: #fff; }
 .weekends-hint { margin: 8px 0 0; font-size: 11px; line-height: 1.45; color: var(--muted); }
 
-.dot.avail-available { background: #2e9a5a; }
-.dot.avail-partial { background: #d9a531; }
-.dot.avail-booked { background: #c8463d; }
+.dot.avail-definitely_available { background: #1f8a4c; }
+.dot.avail-probably_available { background: #8cc06a; }
 .dot.avail-unknown { background: #d2ccc0; }
+.dot.avail-probably_not_available { background: #e0954a; }
+.dot.avail-definitely_not_available { background: #c8463d; }
 
 /* ---------- tier descriptions + cost in rows ---------- */
 .group-desc { padding: 0 20px 8px; font-size: 12px; line-height: 1.45; color: var(--muted); }
-.row { grid-template-columns: 44px 1fr auto; }
+.row { grid-template-columns: 12px 44px minmax(0, 1fr) auto; }
 .row-side { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; text-align: right; padding-top: 2px; }
 .row-cost { font-family: var(--serif); font-size: 14px; color: var(--ink-2); white-space: nowrap; }
 .row-cost.quote { color: var(--muted); font-style: italic; font-size: 13px; }
@@ -373,3 +377,122 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; margin: 0; letter-spac
 .avail-legend { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; font-size: 11px; color: var(--muted); }
 .avail-legend span { display: inline-flex; align-items: center; gap: 4px; }
 .avail-legend .dot { width: 7px; height: 7px; }
+
+
+/* ---------- weekend availability strip (list rows) ---------- */
+.wk-strip {
+  display: grid; grid-auto-rows: 4px; gap: 1px;
+  width: 12px; align-self: center;
+}
+.wk-sq {
+  display: block; width: 12px; height: 4px; border-radius: 1px;
+  background: #d2ccc0; cursor: pointer;
+  transition: transform .1s, box-shadow .1s;
+}
+.wk-sq:hover { transform: scaleX(1.35); box-shadow: 0 0 0 1px rgba(0,0,0,.25); }
+.wk-sq.is-current { box-shadow: inset 0 0 0 1px rgba(0,0,0,.35); }
+.wk-sq.is-target { box-shadow: inset 0 0 0 1px rgba(0,0,0,.18); }
+.wk-sq.is-open { transform: scaleX(1.35); box-shadow: 0 0 0 1.5px var(--ink); }
+.wk-sq.avail-definitely_available { background: #1f8a4c; }
+.wk-sq.avail-probably_available { background: #8cc06a; }
+.wk-sq.avail-unknown { background: #ded9cf; }
+.wk-sq.avail-probably_not_available { background: #e0954a; }
+.wk-sq.avail-definitely_not_available { background: #c8463d; }
+
+/* ---------- popper tooltip ---------- */
+.wk-tip {
+  position: absolute; top: 0; left: 0; z-index: 2000;
+  display: none; width: 290px;
+  background: var(--ink); color: #f6f3ec;
+  border-radius: 10px; padding: 10px 12px;
+  font-size: 12.5px; line-height: 1.45;
+  box-shadow: 0 8px 28px -8px rgba(20,15,5,.6);
+  pointer-events: none;
+}
+.wk-tip[data-show] { display: block; }
+.wk-tip-head { display: flex; align-items: center; gap: 6px; font-weight: 600; font-size: 12.5px; }
+.wk-tip-head .dot { width: 8px; height: 8px; }
+.wk-tip-date { color: #b8b1a4; font-size: 11.5px; margin-top: 1px; }
+.wk-tip-quote {
+  margin: 8px 0 0; padding-left: 9px; border-left: 2px solid #6a6357;
+  font-family: var(--serif); font-size: 13.5px; line-height: 1.4; color: #fff;
+}
+.wk-tip-none { margin: 8px 0 0; color: #b8b1a4; font-style: italic; }
+.wk-tip-ev { margin: 7px 0 0; color: #ddd7cb; }
+.wk-tip-src { margin: 6px 0 0; color: #948d80; font-size: 11px; }
+.wk-tip-hint { margin: 6px 0 0; color: #948d80; font-size: 11px; font-style: italic; }
+.wk-tip-arrow, .wk-tip-arrow::before { position: absolute; width: 8px; height: 8px; background: inherit; }
+.wk-tip-arrow { visibility: hidden; }
+.wk-tip-arrow::before { visibility: visible; content: ''; transform: rotate(45deg); }
+.wk-tip[data-popper-placement^='right'] .wk-tip-arrow { left: -4px; }
+.wk-tip[data-popper-placement^='left'] .wk-tip-arrow { right: -4px; }
+.wk-tip[data-popper-placement^='top'] .wk-tip-arrow { bottom: -4px; }
+.wk-tip[data-popper-placement^='bottom'] .wk-tip-arrow { top: -4px; }
+
+/* ---------- evidence iframe panel ---------- */
+.evidence-panel {
+  position: absolute; top: 0; right: 0; bottom: 0; width: min(620px, 52vw);
+  display: flex; flex-direction: column;
+  background: var(--panel); border-left: 1px solid var(--line);
+  box-shadow: var(--shadow); z-index: 900;
+  transform: translateX(100%); visibility: hidden;
+  transition: transform .22s ease, visibility .22s;
+}
+.evidence-panel.is-open { transform: none; visibility: visible; }
+.evidence-head {
+  display: flex; align-items: flex-start; gap: 10px;
+  padding: 14px 14px 12px 18px; border-bottom: 1px solid var(--line);
+}
+.evidence-meta { min-width: 0; flex: 1; }
+.ev-venue { font-family: var(--serif); font-size: 17px; font-weight: 500; }
+.ev-date { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--ink-2); margin-top: 2px; }
+.ev-quote {
+  margin: 9px 0 0; padding-left: 10px; border-left: 3px solid var(--accent);
+  font-family: var(--serif); font-size: 14.5px; line-height: 1.45; color: var(--ink);
+}
+.ev-ev { margin: 7px 0 0; font-size: 12.5px; color: var(--ink-2); line-height: 1.5; }
+.ev-src { margin: 6px 0 0; font-size: 11.5px; }
+.ev-src a { color: var(--accent); }
+.evidence-close { flex: none; }
+.evidence-body { position: relative; flex: 1; min-height: 0; background: var(--hover); }
+.evidence-frame { width: 100%; height: 100%; border: 0; background: #fff; }
+.evidence-loading {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  background: var(--hover); color: var(--muted); font-size: 13px; z-index: 2;
+}
+.evidence-loading[hidden], .evidence-fallback[hidden], .evidence-frame[hidden] { display: none; }
+.evidence-fallback {
+  position: absolute; inset: 0; overflow: auto; z-index: 3;
+  background: var(--hover); padding: 28px 24px; font-size: 13px; line-height: 1.6; color: var(--ink-2);
+}
+.evidence-fallback blockquote {
+  margin: 12px 0; padding-left: 12px; border-left: 3px solid var(--line-2);
+  font-family: var(--serif); font-size: 15px; color: var(--ink);
+}
+.evidence-fallback a { color: var(--accent); }
+.app.evidence-open .leaflet-bottom.leaflet-right { right: min(620px, 52vw); }
+/* On a wide screen the detail panel slides aside so both are readable; otherwise the
+   evidence panel simply covers it. */
+@media (min-width: 1500px) {
+  .app.evidence-open .detail-panel { transform: translateX(calc(-1 * min(620px, 52vw))); }
+}
+
+/* ---------- detail-panel availability extras ---------- */
+.avail-grid { grid-template-columns: repeat(10, 1fr) !important; }
+.avail-quote {
+  margin: 8px 0 0; padding-left: 10px; border-left: 3px solid var(--accent);
+  font-family: var(--serif); font-size: 14px; line-height: 1.4; color: var(--ink);
+}
+.avail-ev { margin-top: 7px; }
+.avail-open {
+  margin-top: 9px; padding: 5px 10px; border-radius: 999px;
+  border: 1px solid var(--line-2); background: var(--panel);
+  font: inherit; font-size: 11.5px; color: var(--ink-2); cursor: pointer;
+}
+.avail-open:hover { background: var(--panel); border-color: var(--ink); color: var(--ink); }
+.avail-method { font-size: 11.5px; color: var(--muted); margin: 8px 0 0; line-height: 1.5; }
+
+@media (max-width: 820px) {
+  .evidence-panel { width: 100%; }
+  .app.evidence-open .leaflet-bottom.leaflet-right { right: 0; }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "hidden-villa",
+  "checked_on": "2026-08-25",
+  "method": "Read /meeting-retreats/ and /rentals/facility-rentals/ for the rental catalogue and /rentals/picnic-sites/ for the picnic terms. Hidden Villa's catalogue and public calendar are both driven by Arlo (hiddenvilla.arlo.co), and I found that Arlo's public API is open: eventsearch returned all 98 forward-dated sessions with names, dates and an IsFull flag, which is real dated inventory for the picnic sites and public programs. It is not, however, inventory for the retreat facilities - the Dana Center, Duveneck House, Hostel and Josephine's Retreat are published as Learn More / Inquire with no sessions and no dates at all, so their bookedness is genuinely not on the public web. That is why every weekend below is 'unknown' rather than green or red: I could see the farm's public diary in detail and still could not see the rental calendar.",
+  "booking_policy": "The blocking fact is capacity, not dates: the only overnight facility for a group is the Hostel, 'Accommodates up to 39 guests', and the catalogue states plainly that the Dana Center and Duveneck House are 'Not available for overnight stays'. Josephine's Retreat sleeps 1-2. So a 60-person Fri-Sun stay on site is not possible on ANY of these ten weekends regardless of what is booked - Hidden Villa only works as a day venue with off-site lodging, which is how the venue notes already frame it. For day use, the Morgan Family Pavilion seats 60 and the Garden Picnic Site 40; both are weekend-reservable and any gathering of 15+ is required to have a picnic rental. Day-rate spaces run $300-$850. Hidden Villa says it prioritises youth-serving organisations and other non-profits. Booking is via the facility rental inquiry form, not an online calendar.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "Hidden Villa's rental catalogue lists the Dana Center, Duveneck House, Hostel and Josephine's Retreat as inquire-only with no dates, so nothing on the public web says whether they are booked this weekend. The Arlo booking feed does show the site operating that weekend - Garden Picnic Site bookable Sat 8/29 and Morgan Family Pavilion bookable Sun 8/30, with a farm tour and archery already sold out on the 29th.",
+      "evidence_quote": null,
+      "source_url": "https://www.hiddenvilla.org/rentals/facility-rentals/",
+      "source_label": "Hidden Villa facility rentals catalogue"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "unknown",
+      "evidence": "Hidden Villa's rental catalogue lists the Dana Center, Duveneck House, Hostel and Josephine's Retreat as inquire-only with no dates, so nothing on the public web says whether they are booked this weekend. The feed shows Garden Picnic Site and Morgan Family Pavilion both still bookable on Sat 9/5 and Sun 9/6 over Labor Day weekend, so the property is open and taking day rentals.",
+      "evidence_quote": null,
+      "source_url": "https://www.hiddenvilla.org/rentals/facility-rentals/",
+      "source_label": "Hidden Villa facility rentals catalogue"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "unknown",
+      "evidence": "Hidden Villa's rental catalogue lists the Dana Center, Duveneck House, Hostel and Josephine's Retreat as inquire-only with no dates, so nothing on the public web says whether they are booked this weekend. Public programming runs that weekend (a Star Party on Fri 9/11, volunteer training 9/12, farm tour and workshops 9/13) and both picnic sites are still bookable on Sun 9/13.",
+      "evidence_quote": null,
+      "source_url": "https://www.hiddenvilla.org/rentals/facility-rentals/",
+      "source_label": "Hidden Villa facility rentals catalogue"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "Hidden Villa's rental catalogue lists the Dana Center, Duveneck House, Hostel and Josephine's Retreat as inquire-only with no dates, so nothing on the public web says whether they are booked this weekend. One dated negative worth noting: the Morgan Family Pavilion, the only space that seats 60, is marked full on Sun 9/20 in the Arlo feed, though it is still bookable on Sat 9/19.",
+      "evidence_quote": null,
+      "source_url": "https://www.hiddenvilla.org/rentals/facility-rentals/",
+      "source_label": "Hidden Villa facility rentals catalogue"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "unknown",
+      "evidence": "Hidden Villa's rental catalogue lists the Dana Center, Duveneck House, Hostel and Josephine's Retreat as inquire-only with no dates, so nothing on the public web says whether they are booked this weekend. Both picnic sites are still bookable on Sat 9/26, and a hide-tanning workshop and volunteer training are scheduled that weekend.",
+      "evidence_quote": null,
+      "source_url": "https://www.hiddenvilla.org/rentals/facility-rentals/",
+      "source_label": "Hidden Villa facility rentals catalogue"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "Hidden Villa's rental catalogue lists the Dana Center, Duveneck House, Hostel and Josephine's Retreat as inquire-only with no dates, so nothing on the public web says whether they are booked this weekend. Note a seasonal signal: the Arlo feed carries no picnic-site or day-parking sessions at all after 9/30, while still listing October programs, which suggests weekend picnic rentals wind down after September. I am flagging that rather than treating it as proof.",
+      "evidence_quote": null,
+      "source_url": "https://www.hiddenvilla.org/rentals/facility-rentals/",
+      "source_label": "Hidden Villa facility rentals catalogue"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "Hidden Villa's rental catalogue lists the Dana Center, Duveneck House, Hostel and Josephine's Retreat as inquire-only with no dates, so nothing on the public web says whether they are booked this weekend. As with 10/2, no picnic-site sessions are published for October at all; the only listed activity that weekend is an Acorn Adventure and a farm tour on Sat 10/10.",
+      "evidence_quote": null,
+      "source_url": "https://www.hiddenvilla.org/rentals/facility-rentals/",
+      "source_label": "Hidden Villa facility rentals catalogue"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "unknown",
+      "evidence": "Hidden Villa's rental catalogue lists the Dana Center, Duveneck House, Hostel and Josephine's Retreat as inquire-only with no dates, so nothing on the public web says whether they are booked this weekend. The public calendar shows archery on Sat 10/17 and a farm tour on Sun 10/18, so the site is open and staffed, but no rental inventory is published.",
+      "evidence_quote": null,
+      "source_url": "https://www.hiddenvilla.org/rentals/facility-rentals/",
+      "source_label": "Hidden Villa facility rentals catalogue"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "unknown",
+      "evidence": "Hidden Villa's rental catalogue lists the Dana Center, Duveneck House, Hostel and Josephine's Retreat as inquire-only with no dates, so nothing on the public web says whether they are booked this weekend. Nothing at all is listed on the public calendar for this weekend, which under the brief's rule tells me nothing either way about the rental facilities.",
+      "evidence_quote": null,
+      "source_url": "https://www.hiddenvilla.org/rentals/facility-rentals/",
+      "source_label": "Hidden Villa facility rentals catalogue"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "unknown",
+      "evidence": "Hidden Villa's rental catalogue lists the Dana Center, Duveneck House, Hostel and Josephine's Retreat as inquire-only with no dates, so nothing on the public web says whether they are booked this weekend. Nothing is listed for Halloween weekend itself; the next published item is a block-printing workshop on Sun 11/1, so the calendar does extend past this date.",
+      "evidence_quote": null,
+      "source_url": "https://www.hiddenvilla.org/rentals/facility-rentals/",
+      "source_label": "Hidden Villa facility rentals catalogue"
+    }
+  ],
+  "sources": [
+    "https://www.hiddenvilla.org/meeting-retreats/",
+    "https://www.hiddenvilla.org/rentals/facility-rentals/",
+    "https://www.hiddenvilla.org/rentals/picnic-sites/",
+    "https://www.hiddenvilla.org/calendar/individuals-families/",
+    "https://hiddenvilla.arlo.co/api/2012-02-01/pub/resources/eventsearch?format=json&top=300&fields=EventID,Name,StartDateTime,EndDateTime,PlacesRemaining,IsFull,TemplateCode,Summary"
+  ]
+}

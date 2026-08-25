@@ -1,0 +1,94 @@
+{
+  "id": "land-of-medicine-buddha",
+  "checked_on": "2026-08-25",
+  "method": "Read /stay/group-rentals/ for the rental terms and capacity, then worked through /programs/all-programs/, which lists every LMB program with dates through November 2026 and, usefully, also lists outside groups that have rented the site. I cross-checked that against the Google Calendar embedded on /programs/calendar-of-events/ by decoding its calendar ID and pulling the public .ics feed (HTTP 200, 428 events). The two sources agree on LMB's own programs but the .ics does NOT contain the two outside conference rentals, so the programs page is the more complete source. LMB does not publish a room-availability calendar or a booking engine on the main domain (the stay. subdomain booking host was not reachable), so 'nothing listed' is inference from a calendar that does cover the period, not from a real inventory feed.",
+  "booking_policy": "Hard capacity ceiling below the group size: the group rentals page states 'Minimum Occupancy: 18' and 'Maximum Occupancy: 56' across 19 guest rooms plus the seasonal Yurt Village, so a 60-person party cannot all sleep on site. A few people would have to commute or the group would need to shrink. Minimum stay is 2 nights, which fits Fri-Sun exactly. Rentals are exclusive-use group bookings with vegetarian breakfast/lunch/dinner provided and a dining hall open 24/7; the Pine Room seats 60 for sessions, so day capacity is fine even though sleeping capacity is not. Booking is by rental inquiry form, no online availability. LMB runs its own in-person retreat programme heavily in September, which is the real constraint on those weekends.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "probably_not_available",
+      "evidence": "A public festival occupies the Ksitigarbha Pure Land part of the site on Sunday 8/30, 10am-2pm, and the weekend is three days away against a rental-inquiry process with no online booking. Friday and Saturday themselves have only online-only teachings.",
+      "evidence_quote": "2026 Ksitigarbha Festival with 100 Torma Offering",
+      "source_url": "https://landofmedicinebuddha.org/programs/all-programs/",
+      "source_label": "Land of Medicine Buddha - All Programs"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "definitely_not_available",
+      "evidence": "LMB runs its own in-person weekend retreat in the Gompa on Sat 9/5 and Sun 9/6, the opening weekend of a three-week 'In Person Only' teaching series with Segyu Khen Rinpoche that runs 9/5-9/27.",
+      "evidence_quote": "The Foundation of All Good Qualities",
+      "source_url": "https://landofmedicinebuddha.org/programs/all-programs/",
+      "source_label": "Land of Medicine Buddha - All Programs"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "definitely_not_available",
+      "evidence": "An outside group has already rented the site for 'A Sacred Pause', September 9-13, which covers the whole Fri-Sun window; LMB's own '16 Human Dharmas' weekend retreat also runs in the Gompa 9/12-9/13. The quote is the page's own note identifying the renter.",
+      "evidence_quote": "This retreat is presented by Brave Directions, an outside conference rental group, not managed by Land of Medicine Buddha.",
+      "source_url": "https://landofmedicinebuddha.org/programs/all-programs/",
+      "source_label": "Land of Medicine Buddha - All Programs"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "definitely_not_available",
+      "evidence": "An eight-day in-person residential retreat runs 9/16-9/23 and swallows this weekend entirely; the programs page marks it 'In Person Only' and the Google Calendar feed carries the same block as 9/16-9/24.",
+      "evidence_quote": "White Tara Retreat with Long Life Empowerment and The Three Principal Paths",
+      "source_url": "https://landofmedicinebuddha.org/programs/all-programs/",
+      "source_label": "Land of Medicine Buddha - All Programs"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "definitely_not_available",
+      "evidence": "LMB holds its own in-person weekend retreat in the Gompa on Sat 9/26 and Sun 9/27, the closing weekend of the three-week Khen Rinpoche series, so the main hall and guest rooms are committed.",
+      "evidence_quote": "Lama Tsongkhapa’s Mind Training Poem",
+      "source_url": "https://landofmedicinebuddha.org/programs/all-programs/",
+      "source_label": "Land of Medicine Buddha - All Programs"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "probably_available",
+      "evidence": "Both the programs page and the Google Calendar feed run well past this date yet show nothing scheduled between 10/1 and 10/28, and LMB takes group rentals year-round. Only 'probably' because nothing confirms the dates are unsold and a full 60-person party exceeds the published 56-person maximum.",
+      "evidence_quote": "We host groups nearly every week.",
+      "source_url": "https://landofmedicinebuddha.org/stay/group-rentals/",
+      "source_label": "Land of Medicine Buddha - Group Rentals"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "probably_available",
+      "evidence": "Nothing on the programs page or the .ics feed between 10/1 and 10/28, so the site looks open for a group rental. Only 'probably': no published inventory, and 60 people exceeds the stated 56-person maximum occupancy.",
+      "evidence_quote": "We host groups nearly every week.",
+      "source_url": "https://landofmedicinebuddha.org/stay/group-rentals/",
+      "source_label": "Land of Medicine Buddha - Group Rentals"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "probably_available",
+      "evidence": "No LMB programme and no outside rental listed for this weekend on either source, and the season is open. Only 'probably' because absence from a programme calendar is not an inventory check and the 56-person cap still binds.",
+      "evidence_quote": "We host groups nearly every week.",
+      "source_url": "https://landofmedicinebuddha.org/stay/group-rentals/",
+      "source_label": "Land of Medicine Buddha - Group Rentals"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "probably_available",
+      "evidence": "The last clear weekend before the Oct 28 outside rental starts; nothing scheduled 10/1-10/28 on either source. Only 'probably' for the same two reasons: no published inventory, and 60 people exceeds the 56-person maximum.",
+      "evidence_quote": "We host groups nearly every week.",
+      "source_url": "https://landofmedicinebuddha.org/stay/group-rentals/",
+      "source_label": "Land of Medicine Buddha - Group Rentals"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "definitely_not_available",
+      "evidence": "Another outside group already has the site for the 'Living Stillness Retreat', October 28 - November 1, which covers Friday, Saturday and Sunday of this weekend. The quote is the page's own note identifying the renter.",
+      "evidence_quote": "This retreat is presented by One Mindful, an outside conference rental group, not managed by Land of Medicine Buddha.",
+      "source_url": "https://landofmedicinebuddha.org/programs/all-programs/",
+      "source_label": "Land of Medicine Buddha - All Programs"
+    }
+  ],
+  "sources": [
+    "https://landofmedicinebuddha.org/stay/group-rentals/",
+    "https://landofmedicinebuddha.org/programs/all-programs/",
+    "https://landofmedicinebuddha.org/programs/calendar-of-events/",
+    "https://calendar.google.com/calendar/ical/c_bdcb92c9bec7bf04975ab6d91d0c9079e713ba69bfd02b9cc9a8e14c57666dd5%40group.calendar.google.com/public/basic.ics"
+  ]
+}

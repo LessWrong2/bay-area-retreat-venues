@@ -1,0 +1,99 @@
+{
+  "id": "triple-s-ranch",
+  "checked_on": "2026-08-25",
+  "method": "Fetched the venue's own site directly (HTTP 200 on the home page, /overview-retreat, /lodging, /pricing, /contact and /blog) and looked for any calendar, booking engine, date picker or dated event listing. There is none: every path on the site ends at a contact/inquiry form, the /pricing page only offers a brochure download, and the blog is undated marketing copy. Also downloaded the linked private-event brochure PDF (TripleSRanchPrivateEventBrochure.pdf, 20 pages, HTTP 200) but its text is a subsetted custom-encoded font that does not extract to quotable text. Searched the wider web for dated activity at the ranch in the window ('Triple S Ranch' Calistoga retreat October 2026; 'Triple S Ranch' Napa event September 2026; 'Triple S Ranch' wedding 'October 2026' OR 'September 2026' Calistoga booked) and checked the third-party listings that surfaced (Cvent, Wedding Spot). Cvent's own FAQ fields for pricing, deposits and date availability all read as no information available, and Wedding Spot shows no 2026 calendar. Conclusion: nothing dated is published for any of the ten weekends, so all ten are unknown. This is the one venue of my five that is actually sized for the group.",
+  "booking_policy": "Whole-estate exclusive use; the retreat page states lodging for up to 34 single / 60 double occupancy, so 60 people only fits if everyone shares a room, and the site adds that onsite glamping and nearby lodging can absorb overflow. Note a discrepancy worth confirming: the Wedding Spot listing describes the exclusive-use package as a Grand Victorian and cabins 'that sleeps up to 51 guests', below the 60 the venue's own page advertises. The standard exclusive-use package is sold as 3 days / 2 nights, which matches a Fri-Sun booking. No published season closure; Sept-Oct is peak Napa wedding season, so weekend inventory is likely to be tight even though nothing is published. Dates are only obtainable by inquiry (phone (415) 760-3432 or the site form).",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "Triple S Ranch publishes no public availability calendar and no booking engine; dates are handled entirely through an inquiry form and a phone call, so the public web says nothing about this weekend either way.",
+      "evidence_quote": null,
+      "source_url": "https://www.triplesranchnapa.com/overview-retreat",
+      "source_label": "Triple S Ranch - Retreats overview (inquiry only, no calendar)"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "unknown",
+      "evidence": "Triple S Ranch publishes no public availability calendar and no booking engine; dates are handled entirely through an inquiry form and a phone call, so the public web says nothing about this weekend either way.",
+      "evidence_quote": null,
+      "source_url": "https://www.triplesranchnapa.com/overview-retreat",
+      "source_label": "Triple S Ranch - Retreats overview (inquiry only, no calendar)"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "unknown",
+      "evidence": "Triple S Ranch publishes no public availability calendar and no booking engine; dates are handled entirely through an inquiry form and a phone call, so the public web says nothing about this weekend either way.",
+      "evidence_quote": null,
+      "source_url": "https://www.triplesranchnapa.com/overview-retreat",
+      "source_label": "Triple S Ranch - Retreats overview (inquiry only, no calendar)"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "Triple S Ranch publishes no public availability calendar and no booking engine; dates are handled entirely through an inquiry form and a phone call, so the public web says nothing about this weekend either way.",
+      "evidence_quote": null,
+      "source_url": "https://www.triplesranchnapa.com/overview-retreat",
+      "source_label": "Triple S Ranch - Retreats overview (inquiry only, no calendar)"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "unknown",
+      "evidence": "Triple S Ranch publishes no public availability calendar and no booking engine; dates are handled entirely through an inquiry form and a phone call, so the public web says nothing about this weekend either way.",
+      "evidence_quote": null,
+      "source_url": "https://www.triplesranchnapa.com/overview-retreat",
+      "source_label": "Triple S Ranch - Retreats overview (inquiry only, no calendar)"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "Triple S Ranch publishes no public availability calendar and no booking engine; dates are handled entirely through an inquiry form and a phone call, so the public web says nothing about this weekend either way.",
+      "evidence_quote": null,
+      "source_url": "https://www.triplesranchnapa.com/overview-retreat",
+      "source_label": "Triple S Ranch - Retreats overview (inquiry only, no calendar)"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "Triple S Ranch publishes no public availability calendar and no booking engine; dates are handled entirely through an inquiry form and a phone call, so the public web says nothing about this weekend either way.",
+      "evidence_quote": null,
+      "source_url": "https://www.triplesranchnapa.com/overview-retreat",
+      "source_label": "Triple S Ranch - Retreats overview (inquiry only, no calendar)"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "unknown",
+      "evidence": "Triple S Ranch publishes no public availability calendar and no booking engine; dates are handled entirely through an inquiry form and a phone call, so the public web says nothing about this weekend either way.",
+      "evidence_quote": null,
+      "source_url": "https://www.triplesranchnapa.com/overview-retreat",
+      "source_label": "Triple S Ranch - Retreats overview (inquiry only, no calendar)"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "unknown",
+      "evidence": "Triple S Ranch publishes no public availability calendar and no booking engine; dates are handled entirely through an inquiry form and a phone call, so the public web says nothing about this weekend either way.",
+      "evidence_quote": null,
+      "source_url": "https://www.triplesranchnapa.com/overview-retreat",
+      "source_label": "Triple S Ranch - Retreats overview (inquiry only, no calendar)"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "unknown",
+      "evidence": "Triple S Ranch publishes no public availability calendar and no booking engine; dates are handled entirely through an inquiry form and a phone call, so the public web says nothing about this weekend either way.",
+      "evidence_quote": null,
+      "source_url": "https://www.triplesranchnapa.com/overview-retreat",
+      "source_label": "Triple S Ranch - Retreats overview (inquiry only, no calendar)"
+    }
+  ],
+  "sources": [
+    "https://www.triplesranchnapa.com/",
+    "https://www.triplesranchnapa.com/overview-retreat",
+    "https://www.triplesranchnapa.com/lodging",
+    "https://www.triplesranchnapa.com/pricing",
+    "https://www.triplesranchnapa.com/contact",
+    "https://www.triplesranchnapa.com/blog",
+    "https://www.triplesranchnapa.com/s/TripleSRanchPrivateEventBrochure.pdf",
+    "https://www.cvent.com/venues/calistoga/special-event-venue/triple-s-ranch-napa/venue-506bb15b-ff74-4144-87ff-66f8b22237ec",
+    "https://www.wedding-spot.com/venue/2544/triple-s-ranch-napa/"
+  ]
+}

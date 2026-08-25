@@ -1,0 +1,95 @@
+{
+  "id": "green-mountain-retreat",
+  "checked_on": "2026-08-25",
+  "method": "Fetched the home, retreats and lodging pages (the site is Wix and inquiry-only: no calendar, no booking engine, and the only 'availability' string on the lodging page refers to kitchen availability in the cottages). Because the venue publishes nothing dated, I searched for third-party groups advertising stays there in the window. Two turned up for the same weekend and I fetched both source pages directly at HTTP 200: internationalguitarcamp.com, whose fall camp runs Sept 10-13, 2026 at Green Mountain Retreat ('limited to 20 students', dorm-style rooms in the Pueblo building, meals Thursday evening through Sunday morning by the venue's chefs), and collectiveselfenergy.com/retreats, listing 'Boundaries & Our Parts' with Lissa Rankin, Friday Sept 11 - Sunday Sept 13, 2026, at Green Mountain Retreat Center, with the venue name hyperlinked to greenmountainretreat.com. The same IFS page lists an Oct 30 - Nov 1, 2026 retreat but at Mount Madonna in Watsonville, not here, so it does not affect the Halloween weekend. Nothing dated was found for the other nine weekends.",
+  "booking_policy": "No public availability calendar and no self-serve booking; enquiries go through the contact form, info@greenmountainretreat.com or (669) 269-8811. Lodging is the Pueblo Lodge dormitory (35 rooms, 102 beds, pitched at 'groups of 30 or more who would like to stay under one roof') plus a set of cottages sleeping 2-12 each. Meeting spaces run from the 200-capacity Performance Hall down to the 15-person Morgan Hill Room, and the venue advertises meeting/gathering space for up to 195. Critically for a near-whole-site request, the property demonstrably runs more than one group at a time - two unrelated retreats share the Sept 11-13 weekend - so exclusive use has to be negotiated explicitly rather than assumed.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "Green Mountain publishes no availability calendar or booking engine and no dated event listings, and no third-party group was found advertising this weekend at the property.",
+      "evidence_quote": null,
+      "source_url": "https://www.greenmountainretreat.com/retreats",
+      "source_label": "Green Mountain Retreat - Retreats page"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "unknown",
+      "evidence": "Green Mountain publishes no availability calendar or booking engine and no dated event listings, and no third-party group was found advertising this weekend at the property.",
+      "evidence_quote": null,
+      "source_url": "https://www.greenmountainretreat.com/retreats",
+      "source_label": "Green Mountain Retreat - Retreats page"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "definitely_not_available",
+      "evidence": "Two independent groups publish dated bookings covering this exact Fri-Sun: an IFS retreat led by Lissa Rankin on Sept 11-13 (quoted, and it links straight to greenmountainretreat.com), and the International Guitar Camp's fall session on Sept 10-13. The site is running other programs, so a 60-person near-whole-site booking is not possible.",
+      "evidence_quote": "Friday, September 11 through Sunday, September 13, 2026",
+      "source_url": "https://collectiveselfenergy.com/retreats/",
+      "source_label": "IFS California - Upcoming Retreats"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "Green Mountain publishes no availability calendar or booking engine and no dated event listings, and no third-party group was found advertising this weekend at the property.",
+      "evidence_quote": null,
+      "source_url": "https://www.greenmountainretreat.com/retreats",
+      "source_label": "Green Mountain Retreat - Retreats page"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "unknown",
+      "evidence": "Green Mountain publishes no availability calendar or booking engine and no dated event listings, and no third-party group was found advertising this weekend at the property.",
+      "evidence_quote": null,
+      "source_url": "https://www.greenmountainretreat.com/retreats",
+      "source_label": "Green Mountain Retreat - Retreats page"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "Green Mountain publishes no availability calendar or booking engine and no dated event listings, and no third-party group was found advertising this weekend at the property.",
+      "evidence_quote": null,
+      "source_url": "https://www.greenmountainretreat.com/retreats",
+      "source_label": "Green Mountain Retreat - Retreats page"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "Green Mountain publishes no availability calendar or booking engine and no dated event listings, and no third-party group was found advertising this weekend at the property.",
+      "evidence_quote": null,
+      "source_url": "https://www.greenmountainretreat.com/retreats",
+      "source_label": "Green Mountain Retreat - Retreats page"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "unknown",
+      "evidence": "Green Mountain publishes no availability calendar or booking engine and no dated event listings, and no third-party group was found advertising this weekend at the property.",
+      "evidence_quote": null,
+      "source_url": "https://www.greenmountainretreat.com/retreats",
+      "source_label": "Green Mountain Retreat - Retreats page"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "unknown",
+      "evidence": "Green Mountain publishes no availability calendar or booking engine and no dated event listings, and no third-party group was found advertising this weekend at the property.",
+      "evidence_quote": null,
+      "source_url": "https://www.greenmountainretreat.com/retreats",
+      "source_label": "Green Mountain Retreat - Retreats page"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "unknown",
+      "evidence": "Green Mountain publishes no availability calendar or booking engine and no dated event listings, and no third-party group was found advertising this weekend at the property.",
+      "evidence_quote": null,
+      "source_url": "https://www.greenmountainretreat.com/retreats",
+      "source_label": "Green Mountain Retreat - Retreats page"
+    }
+  ],
+  "sources": [
+    "https://www.greenmountainretreat.com/",
+    "https://www.greenmountainretreat.com/retreats",
+    "https://www.greenmountainretreat.com/lodging",
+    "https://collectiveselfenergy.com/retreats/",
+    "https://www.internationalguitarcamp.com/"
+  ]
+}

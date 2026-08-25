@@ -1,0 +1,93 @@
+{
+  "id": "green-gulch-farm",
+  "checked_on": "2026-08-25",
+  "method": "Fetched the SFZC Green Gulch location page and the Green Gulch conference centre facilities/rates/policies page (both HTTP 200) and read them in full, then fetched SFZC's site-wide calendar (HTTP 200), which lists dated entries day by day from late August 2026 onward and can be filtered to the Green Gulch Farm location. Unusually for this set, Green Gulch answers the question directly in published prose rather than through a booking engine: the conference page opens with a standing notice that 2026 date requests are closed, and it also prints exact room, bed and meeting-room counts. The calendar then supplies dated corroboration for the last three weekends in the form of the Fall Practice Period. No booking engine exists - conferences are arranged by email to ggfconference@sfzc.org - but none was needed.",
+  "booking_policy": "Two independent blockers. First, the conference centre is not taking any new 2026 bookings at all - a blanket refusal printed at the top of its rates page, which covers every one of the ten weekends. Second, capacity: 17 guest rooms with 22 beds total, and conference rooms for at most 40 people (Wheelwright Center 35, Still Water Hall 40, the Yurt 40). The overnight package is priced as exclusive use of the Lindisfarne Guest House for up to 12 people with per-person add-ons above that, which is the scale the site is built for - roughly a third of a 60-person group. It is also an active monastic practice centre: the 2026 Fall Practice Period occupies the temple from October 14 to December 15, covering the last three weekends in the window. Booking is by email only.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "definitely_not_available",
+      "evidence": "Green Gulch's conference centre page carries a standing notice at the top that it has stopped taking booking requests for any 2026 date, which closes this weekend outright. The capacity numbers on the same page close it a second time: 17 guest rooms with 22 beds total and meeting rooms for at most 40, against a party of 60.",
+      "evidence_quote": "We are no longer accepting requests for 2026 dates.",
+      "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies",
+      "source_label": "Green Gulch Farm Conference Center - facilities, rates & policies"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "definitely_not_available",
+      "evidence": "Green Gulch's conference centre page carries a standing notice at the top that it has stopped taking booking requests for any 2026 date, which closes this weekend outright. The capacity numbers on the same page close it a second time: 17 guest rooms with 22 beds total and meeting rooms for at most 40, against a party of 60.",
+      "evidence_quote": "We are no longer accepting requests for 2026 dates.",
+      "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies",
+      "source_label": "Green Gulch Farm Conference Center - facilities, rates & policies"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "definitely_not_available",
+      "evidence": "Green Gulch's conference centre page carries a standing notice at the top that it has stopped taking booking requests for any 2026 date, which closes this weekend outright. The capacity numbers on the same page close it a second time: 17 guest rooms with 22 beds total and meeting rooms for at most 40, against a party of 60.",
+      "evidence_quote": "We are no longer accepting requests for 2026 dates.",
+      "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies",
+      "source_label": "Green Gulch Farm Conference Center - facilities, rates & policies"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "definitely_not_available",
+      "evidence": "Green Gulch's conference centre page carries a standing notice at the top that it has stopped taking booking requests for any 2026 date, which closes this weekend outright. The capacity numbers on the same page close it a second time: 17 guest rooms with 22 beds total and meeting rooms for at most 40, against a party of 60.",
+      "evidence_quote": "We are no longer accepting requests for 2026 dates.",
+      "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies",
+      "source_label": "Green Gulch Farm Conference Center - facilities, rates & policies"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "definitely_not_available",
+      "evidence": "Green Gulch's conference centre page carries a standing notice at the top that it has stopped taking booking requests for any 2026 date, which closes this weekend outright. The capacity numbers on the same page close it a second time: 17 guest rooms with 22 beds total and meeting rooms for at most 40, against a party of 60.",
+      "evidence_quote": "We are no longer accepting requests for 2026 dates.",
+      "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies",
+      "source_label": "Green Gulch Farm Conference Center - facilities, rates & policies"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "definitely_not_available",
+      "evidence": "Green Gulch's conference centre page carries a standing notice at the top that it has stopped taking booking requests for any 2026 date, which closes this weekend outright. The capacity numbers on the same page close it a second time: 17 guest rooms with 22 beds total and meeting rooms for at most 40, against a party of 60.",
+      "evidence_quote": "We are no longer accepting requests for 2026 dates.",
+      "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies",
+      "source_label": "Green Gulch Farm Conference Center - facilities, rates & policies"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "definitely_not_available",
+      "evidence": "Green Gulch's conference centre page carries a standing notice at the top that it has stopped taking booking requests for any 2026 date, which closes this weekend outright. The capacity numbers on the same page close it a second time: 17 guest rooms with 22 beds total and meeting rooms for at most 40, against a party of 60.",
+      "evidence_quote": "We are no longer accepting requests for 2026 dates.",
+      "source_url": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies",
+      "source_label": "Green Gulch Farm Conference Center - facilities, rates & policies"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "definitely_not_available",
+      "evidence": "On top of the standing refusal of all 2026 booking requests, SFZC's calendar shows the 2026 Fall Practice Period running at Green Gulch from Oct 14, 2026 to Dec 15, 2026 - an intensive residential monastic period that occupies the temple across this weekend. Capacity rules it out independently: 17 guest rooms and 22 beds against a party of 60.",
+      "evidence_quote": "2026 Fall Practice Period at Green Gulch Farm",
+      "source_url": "https://www.sfzc.org/calendar",
+      "source_label": "San Francisco Zen Center - full calendar"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "definitely_not_available",
+      "evidence": "On top of the standing refusal of all 2026 booking requests, SFZC's calendar shows the 2026 Fall Practice Period running at Green Gulch from Oct 14, 2026 to Dec 15, 2026 - an intensive residential monastic period that occupies the temple across this weekend. Capacity rules it out independently: 17 guest rooms and 22 beds against a party of 60.",
+      "evidence_quote": "2026 Fall Practice Period at Green Gulch Farm",
+      "source_url": "https://www.sfzc.org/calendar",
+      "source_label": "San Francisco Zen Center - full calendar"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "definitely_not_available",
+      "evidence": "On top of the standing refusal of all 2026 booking requests, SFZC's calendar shows the 2026 Fall Practice Period running at Green Gulch from Oct 14, 2026 to Dec 15, 2026 - an intensive residential monastic period that occupies the temple across this weekend. Capacity rules it out independently: 17 guest rooms and 22 beds against a party of 60.",
+      "evidence_quote": "2026 Fall Practice Period at Green Gulch Farm",
+      "source_url": "https://www.sfzc.org/calendar",
+      "source_label": "San Francisco Zen Center - full calendar"
+    }
+  ],
+  "sources": [
+    "https://www.sfzc.org/locations/green-gulch-farm",
+    "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies",
+    "https://www.sfzc.org/calendar"
+  ]
+}

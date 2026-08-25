@@ -1,0 +1,100 @@
+{
+  "id": "the-land",
+  "checked_on": "2026-08-25",
+  "method": "Fetched the-land.us sitemap.xml and every page on it (home, explore-the-land/Stay, corporate-retreats, visiting, monastery-welcome, womens-retreat, true-north, winter-retreat, unconditional-freedom). The Land publishes no availability calendar, no booking engine and no events listing: the only dated programs anywhere on the site are True North (Aug 6-9, 2026, already past), the Women's Retreat (Sept 24-27, 2026) and a Winter Retreat whose 2026-27 dates are still 'coming soon'. 'Book a Stay' links to the Stay page, which routes to an inquiry form (or Airbnb) rather than a live calendar. Also searched the web for Eros Monastery / The Land programming in Sept-Oct 2026 and checked BookRetreats' organizer page for The Land; neither surfaced any further dated program in the window.",
+  "booking_policy": "18+ only; alcohol-, cannabis- and drug-free. 90 beds across 18 cabins, 12 glamping tents and 8 houses; they market whole-property buyouts and 2-4 day corporate immersions. Booking is inquiry-only ('All bookings are done person to person over the phone' on the monastery page); personal stays can also go through Airbnb. IMPORTANT current constraint: the monastery page carries a standing notice that Eros Monastery programming is on pause and guests are hosted 'without the schedule, activities, or food offerings we normally provide', with self-catering in a shared kitchen. For a 60-person Fri-Sun retreat that depends on their farm-to-table kitchen, confirm directly that full meal service is running before assuming any of these dates work.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "The Land publishes no availability calendar and no booking engine; stays and group bookings are handled entirely by inquiry, so the public web says nothing about this specific weekend.",
+      "evidence_quote": "Send an inquiry below and we’ll help you find the right space and dates.",
+      "source_url": "https://the-land.us/explore-the-land",
+      "source_label": "The Land — Stay / booking page"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "unknown",
+      "evidence": "No dated availability is published for this weekend; the site's only current operational notice is that monastery programming (schedule, activities and meals) is paused, which is a constraint on a 60-person Fri-Sun retreat rather than evidence about the date itself.",
+      "evidence_quote": "Hello! The Eros Monastery at The Land programming is on pause.",
+      "source_url": "https://the-land.us/monastery-welcome",
+      "source_label": "The Land — Eros Monastery notice"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "unknown",
+      "evidence": "The Land publishes no availability calendar and no booking engine; stays and group bookings are handled entirely by inquiry, so the public web says nothing about this specific weekend.",
+      "evidence_quote": "Send an inquiry below and we’ll help you find the right space and dates.",
+      "source_url": "https://the-land.us/explore-the-land",
+      "source_label": "The Land — Stay / booking page"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "The group/corporate page invites custom 2-4 day bookings but publishes no dates or calendar, so nothing on the public web indicates whether this weekend is open.",
+      "evidence_quote": "Design a custom-curated package for your team with a 2, 3, or 4 day immersion.",
+      "source_url": "https://the-land.us/corporate-retreats",
+      "source_label": "The Land — Corporate Retreats"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "definitely_not_available",
+      "evidence": "The Land is running its own four-day Women's Retreat Thursday Sept 24 through Sunday Sept 27, 2026, which covers this entire Fri-Sun weekend; the retreat includes all meals and lodging on the property, so the site is occupied.",
+      "evidence_quote": "You are invited to The Land in Philo, California, September 24–27, for a weekend devoted to women's power and what it is for.",
+      "source_url": "https://the-land.us/womens-retreat",
+      "source_label": "The Land — Women's Retreat"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "The Land publishes no availability calendar and no booking engine; stays and group bookings are handled entirely by inquiry, so the public web says nothing about this specific weekend.",
+      "evidence_quote": "Send an inquiry below and we’ll help you find the right space and dates.",
+      "source_url": "https://the-land.us/explore-the-land",
+      "source_label": "The Land — Stay / booking page"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "The group/corporate page invites custom 2-4 day bookings but publishes no dates or calendar, so nothing on the public web indicates whether this weekend is open.",
+      "evidence_quote": "Design a custom-curated package for your team with a 2, 3, or 4 day immersion.",
+      "source_url": "https://the-land.us/corporate-retreats",
+      "source_label": "The Land — Corporate Retreats"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "unknown",
+      "evidence": "The Land publishes no availability calendar and no booking engine; stays and group bookings are handled entirely by inquiry, so the public web says nothing about this specific weekend.",
+      "evidence_quote": "Send an inquiry below and we’ll help you find the right space and dates.",
+      "source_url": "https://the-land.us/explore-the-land",
+      "source_label": "The Land — Stay / booking page"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "unknown",
+      "evidence": "No dated availability is published for this weekend; the site's only current operational notice is that monastery programming (schedule, activities and meals) is paused, which is a constraint on a 60-person Fri-Sun retreat rather than evidence about the date itself.",
+      "evidence_quote": "Hello! The Eros Monastery at The Land programming is on pause.",
+      "source_url": "https://the-land.us/monastery-welcome",
+      "source_label": "The Land — Eros Monastery notice"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "unknown",
+      "evidence": "The Land publishes no availability calendar and no booking engine; stays and group bookings are handled entirely by inquiry, so the public web says nothing about this specific weekend.",
+      "evidence_quote": "Send an inquiry below and we’ll help you find the right space and dates.",
+      "source_url": "https://the-land.us/explore-the-land",
+      "source_label": "The Land — Stay / booking page"
+    }
+  ],
+  "sources": [
+    "https://the-land.us/explore-the-land",
+    "https://the-land.us/monastery-welcome",
+    "https://the-land.us/womens-retreat",
+    "https://the-land.us/corporate-retreats",
+    "https://the-land.us/",
+    "https://the-land.us/sitemap.xml",
+    "https://the-land.us/visiting",
+    "https://the-land.us/true-north",
+    "https://the-land.us/winter-retreat",
+    "https://bookretreats.com/organizers/o/the-land"
+  ]
+}

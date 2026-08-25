@@ -1,0 +1,106 @@
+{
+  "id": "sea-ranch-lodge",
+  "checked_on": "2026-08-25",
+  "method": "Read the Lodge's own site (home, /lodging, /faq, /private-events, /community/events - all HTTP 200) for room counts, group policy and dated programming, then drove the actual booking engine. The Lodge sells through SynXis (hotel=40594); the page is JavaScript-only, so it was opened in a browser tab and queried once per weekend, Friday to Sunday, 2 adults, 1 room - all ten weekends individually. Results split two ways: four weekends returned an explicit 'not available' message, and six returned only 'Sea Ranch Living' cabins/homes with no 'The Lodge Rooms' category at all. To rule out a stuck filter, two midweek control searches were run: Sep 1-3, 2026 did return 'The Lodge Rooms', confirming the category appears when inventory exists. So the Lodge's own 17 rooms were unbookable for a two-night Fri-Sun stay on every one of the ten weekends. The public programming calendar (yoga, workshops, artist exhibitions) was also read and shows the property operating normally through October 10 - these are small public events, not site occupancy.",
+  "booking_policy": "The binding constraint is lodging, not event space. The Lodge has 17 guest rooms - about 34 people at double occupancy - so it cannot sleep 60 on its own, and no whole-site buyout is offered. Its event side is much larger (Barn Meadow North is 3,500 sq ft with capacity 200, and the property markets meetings, retreats and weddings across 500,000+ sq ft of land), which is why the venue can look bigger than its bed count. A group could in principle reach 60 by spreading across Sea Ranch Living private rental homes, but those are individually-owned houses scattered through the Sea Ranch community, not near-whole-site use of the Lodge, and the Lodge's policy forbids gatherings or events in any guest room or rental home without prior written consent and caps occupancy at each unit's published maximum. Minimum stay requirements may apply depending on season and demand. Cancellation is 14 days for Lodge rooms, 30 for Sea Ranch Living.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "definitely_not_available",
+      "evidence": "Queried the Lodge's SynXis booking engine for this Fri-Sun stay with 2 adults: the only category returned was Sea Ranch Living Homes - the separately-managed private rental houses - with no 'The Lodge Rooms' category offered, meaning not one of the Lodge's own rooms was bookable for these two nights. A midweek control search (Sep 1-3, 2026) did return 'The Lodge Rooms', so the absence is real and not a filter artefact. The quote is the Lodge's published room count, which rules the weekend out independently: 17 rooms sleeps about 34 people, not 60.",
+      "evidence_quote": "Experience our 17 thoughtfully designed guest rooms.",
+      "source_url": "https://www.thesearanchlodge.com/faq",
+      "source_label": "The Sea Ranch Lodge - FAQ (room count)"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "definitely_not_available",
+      "evidence": "The Lodge's own SynXis booking engine, queried for this Fri-Sun stay with 2 adults, returned no bookable inventory at all for the two-night combination. Either way the weekend is already closed by size: the Lodge has 17 guest rooms, so it sleeps roughly 34 at double occupancy against a party of 60, and there is no whole-site buyout that would change that.",
+      "evidence_quote": "Your check-in/check-out combination is not available on September 4, 2026.",
+      "source_url": "https://be.synxis.com/?hotel=40594&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1",
+      "source_label": "The Sea Ranch Lodge - SynXis booking engine, Fri-Sun 2 adults"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "definitely_not_available",
+      "evidence": "The Lodge's own SynXis booking engine, queried for this Fri-Sun stay with 2 adults, returned no bookable inventory at all for the two-night combination. Either way the weekend is already closed by size: the Lodge has 17 guest rooms, so it sleeps roughly 34 at double occupancy against a party of 60, and there is no whole-site buyout that would change that.",
+      "evidence_quote": "Your check-in/check-out combination is not available on September 11, 2026.",
+      "source_url": "https://be.synxis.com/?hotel=40594&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1",
+      "source_label": "The Sea Ranch Lodge - SynXis booking engine, Fri-Sun 2 adults"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "definitely_not_available",
+      "evidence": "Queried the Lodge's SynXis booking engine for this Fri-Sun stay with 2 adults: the only category returned was Sea Ranch Living Cabins - the separately-managed private rental houses - with no 'The Lodge Rooms' category offered, meaning not one of the Lodge's own rooms was bookable for these two nights. A midweek control search (Sep 1-3, 2026) did return 'The Lodge Rooms', so the absence is real and not a filter artefact. The quote is the Lodge's published room count, which rules the weekend out independently: 17 rooms sleeps about 34 people, not 60.",
+      "evidence_quote": "Experience our 17 thoughtfully designed guest rooms.",
+      "source_url": "https://www.thesearanchlodge.com/faq",
+      "source_label": "The Sea Ranch Lodge - FAQ (room count)"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "definitely_not_available",
+      "evidence": "Queried the Lodge's SynXis booking engine for this Fri-Sun stay with 2 adults: the only category returned was Sea Ranch Living Homes - the separately-managed private rental houses - with no 'The Lodge Rooms' category offered, meaning not one of the Lodge's own rooms was bookable for these two nights. A midweek control search (Sep 1-3, 2026) did return 'The Lodge Rooms', so the absence is real and not a filter artefact. The quote is the Lodge's published room count, which rules the weekend out independently: 17 rooms sleeps about 34 people, not 60.",
+      "evidence_quote": "Experience our 17 thoughtfully designed guest rooms.",
+      "source_url": "https://www.thesearanchlodge.com/faq",
+      "source_label": "The Sea Ranch Lodge - FAQ (room count)"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "definitely_not_available",
+      "evidence": "The Lodge's own SynXis booking engine, queried for this Fri-Sun stay with 2 adults, returned no bookable inventory at all for the two-night combination. Either way the weekend is already closed by size: the Lodge has 17 guest rooms, so it sleeps roughly 34 at double occupancy against a party of 60, and there is no whole-site buyout that would change that.",
+      "evidence_quote": "The room or rate you selected is not available on October 3, 2026.",
+      "source_url": "https://be.synxis.com/?hotel=40594&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1",
+      "source_label": "The Sea Ranch Lodge - SynXis booking engine, Fri-Sun 2 adults"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "definitely_not_available",
+      "evidence": "Queried the Lodge's SynXis booking engine for this Fri-Sun stay with 2 adults: the only category returned was Sea Ranch Living Homes - the separately-managed private rental houses - with no 'The Lodge Rooms' category offered, meaning not one of the Lodge's own rooms was bookable for these two nights. A midweek control search (Sep 1-3, 2026) did return 'The Lodge Rooms', so the absence is real and not a filter artefact. The quote is the Lodge's published room count, which rules the weekend out independently: 17 rooms sleeps about 34 people, not 60.",
+      "evidence_quote": "Experience our 17 thoughtfully designed guest rooms.",
+      "source_url": "https://www.thesearanchlodge.com/faq",
+      "source_label": "The Sea Ranch Lodge - FAQ (room count)"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "definitely_not_available",
+      "evidence": "The Lodge's own SynXis booking engine, queried for this Fri-Sun stay with 2 adults, returned no bookable inventory at all for the two-night combination. Either way the weekend is already closed by size: the Lodge has 17 guest rooms, so it sleeps roughly 34 at double occupancy against a party of 60, and there is no whole-site buyout that would change that.",
+      "evidence_quote": "Your check-in/check-out combination is not available on October 16, 2026.",
+      "source_url": "https://be.synxis.com/?hotel=40594&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1",
+      "source_label": "The Sea Ranch Lodge - SynXis booking engine, Fri-Sun 2 adults"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "definitely_not_available",
+      "evidence": "Queried the Lodge's SynXis booking engine for this Fri-Sun stay with 2 adults: the only category returned was Sea Ranch Living Homes - the separately-managed private rental houses - with no 'The Lodge Rooms' category offered, meaning not one of the Lodge's own rooms was bookable for these two nights. A midweek control search (Sep 1-3, 2026) did return 'The Lodge Rooms', so the absence is real and not a filter artefact. The quote is the Lodge's published room count, which rules the weekend out independently: 17 rooms sleeps about 34 people, not 60.",
+      "evidence_quote": "Experience our 17 thoughtfully designed guest rooms.",
+      "source_url": "https://www.thesearanchlodge.com/faq",
+      "source_label": "The Sea Ranch Lodge - FAQ (room count)"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "definitely_not_available",
+      "evidence": "Queried the Lodge's SynXis booking engine for this Fri-Sun stay with 2 adults: the only category returned was Sea Ranch Living Cabins and Sea Ranch Living Homes - the separately-managed private rental houses - with no 'The Lodge Rooms' category offered, meaning not one of the Lodge's own rooms was bookable for these two nights. A midweek control search (Sep 1-3, 2026) did return 'The Lodge Rooms', so the absence is real and not a filter artefact. The quote is the Lodge's published room count, which rules the weekend out independently: 17 rooms sleeps about 34 people, not 60.",
+      "evidence_quote": "Experience our 17 thoughtfully designed guest rooms.",
+      "source_url": "https://www.thesearanchlodge.com/faq",
+      "source_label": "The Sea Ranch Lodge - FAQ (room count)"
+    }
+  ],
+  "sources": [
+    "https://www.thesearanchlodge.com/",
+    "https://www.thesearanchlodge.com/lodging",
+    "https://www.thesearanchlodge.com/faq",
+    "https://www.thesearanchlodge.com/private-events",
+    "https://www.thesearanchlodge.com/community/events",
+    "https://be.synxis.com/?hotel=40594&arrive=2026-08-28&depart=2026-08-30&adult=2&rooms=1",
+    "https://be.synxis.com/?hotel=40594&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1",
+    "https://be.synxis.com/?hotel=40594&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1",
+    "https://be.synxis.com/?hotel=40594&arrive=2026-09-18&depart=2026-09-20&adult=2&rooms=1",
+    "https://be.synxis.com/?hotel=40594&arrive=2026-09-25&depart=2026-09-27&adult=2&rooms=1",
+    "https://be.synxis.com/?hotel=40594&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1",
+    "https://be.synxis.com/?hotel=40594&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1",
+    "https://be.synxis.com/?hotel=40594&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1",
+    "https://be.synxis.com/?hotel=40594&arrive=2026-10-23&depart=2026-10-25&adult=2&rooms=1",
+    "https://be.synxis.com/?hotel=40594&arrive=2026-10-30&depart=2026-11-01&adult=2&rooms=1",
+    "https://be.synxis.com/?hotel=40594&arrive=2026-09-01&depart=2026-09-03&adult=2&rooms=1"
+  ]
+}

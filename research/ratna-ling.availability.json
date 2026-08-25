@@ -1,0 +1,94 @@
+{
+  "id": "ratna-ling",
+  "checked_on": "2026-08-25",
+  "method": "ratnaling.org returns 403 to curl regardless of headers, so the venue's own pages were read through WebFetch (home page, HTTP 200) and its separate group-booking site ratnalingretreatcenterbooking.org was opened in a real browser tab to capture its text verbatim (curl gets 403 there too). The dated program schedule came from retreat.guru's Ratna Ling centre page (HTTP 200, fetched and parsed locally), which lists every upcoming program with printed date ranges and covers the whole window; it was cross-checked against a web search of ratnaling.org's own retreat pages. Also checked the Sonoma County tourism lodging listing. Ratna Ling publishes a detailed program calendar but no room-level availability calendar and no booking engine - group rentals go through an inquiry form. Nine of the ten weekends carry a scheduled in-house program; August 28 and September 18 do not, and are ruled out on capacity instead.",
+  "booking_policy": "Hard capacity ceiling of 28 guests in 14 deluxe two-person cottages - under half the 60 required, and the single decisive constraint. On top of that the centre imposes a guest-type restriction: it rents only to non-profit organisations, educational institutions and other spiritual organisations dedicated to public service. Meeting and dining space is much larger than the lodging (White Lotus practice room holds 70, the Grand Dining Hall seats 106, the Garden Pavilion seats 60), which is why third-party listings can look as though the site is bigger than it is - but you cannot sleep 60 people there. Facility rentals are described as being for small private multi-day events. Group bookings are by inquiry form or (510) 809-4995; no online availability is exposed.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "No scheduled program was found on this weekend and Ratna Ling publishes no rental availability, so the public web says nothing about this date. The centre's 28-guest ceiling and non-profit-only rental policy rule the venue out for this group regardless — see the booking policy — but that is not date-specific evidence.",
+      "evidence_quote": "We offer comfortable accommodations for up to 28 guests",
+      "source_url": "https://ratnalingretreatcenterbooking.org/",
+      "source_label": "Ratna Ling - group event booking page"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "definitely_not_available",
+      "evidence": "Ratna Ling's public program listing shows its own scheduled retreat \"A Weekend of Self-Care | Labor Day\" running September 4 - 7, 2026, which occupies the centre across this Fri-Sun weekend; the quoted string is the program title as printed on the listing. The listing also showed only 2 spaces remaining in that program. Separately and decisively, the centre's own group-rental page caps a group booking at 28 guests in 14 two-person cottages - less than half the 60 needed - and restricts rentals to non-profit, educational and spiritual organisations.",
+      "evidence_quote": "A Weekend of Self-Care | Labor Day",
+      "source_url": "https://retreat.guru/centers/388-1/ratna-ling-retreat-center",
+      "source_label": "retreat.guru - Ratna Ling program listing"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "definitely_not_available",
+      "evidence": "Ratna Ling's public program listing shows its own scheduled retreat \"Transitions & Transformation: A Yoga Retreat\" running September 11 - 13, 2026, which occupies the centre across this Fri-Sun weekend; the quoted string is the program title as printed on the listing. A second program, \"Space and Ease: A Personal Retreat\", runs the same September 11 - 13 dates. Separately and decisively, the centre's own group-rental page caps a group booking at 28 guests in 14 two-person cottages - less than half the 60 needed - and restricts rentals to non-profit, educational and spiritual organisations.",
+      "evidence_quote": "Transitions & Transformation: A Yoga Retreat",
+      "source_url": "https://retreat.guru/centers/388-1/ratna-ling-retreat-center",
+      "source_label": "retreat.guru - Ratna Ling program listing"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "No scheduled program was found on this weekend and Ratna Ling publishes no rental availability, so the public web says nothing about this date. The centre's 28-guest ceiling and non-profit-only rental policy rule the venue out for this group regardless — see the booking policy — but that is not date-specific evidence.",
+      "evidence_quote": "Ratna Ling Retreat Center is available for rent by non-profit organizations, educational institutions, and other spiritual organizations dedicated to public service and the spiritual well-being of humankind.",
+      "source_url": "https://ratnalingretreatcenterbooking.org/",
+      "source_label": "Ratna Ling - group event booking page"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "definitely_not_available",
+      "evidence": "Ratna Ling's public program listing shows its own scheduled retreat \"Re-Vision: Sonoma County Writers Camp\" running September 23 - 27, 2026, which occupies the centre across this Fri-Sun weekend; the quoted string is the program title as printed on the listing. That five-day camp spans the whole Fri-Sun weekend. Separately and decisively, the centre's own group-rental page caps a group booking at 28 guests in 14 two-person cottages - less than half the 60 needed - and restricts rentals to non-profit, educational and spiritual organisations.",
+      "evidence_quote": "Re-Vision: Sonoma County Writers Camp",
+      "source_url": "https://retreat.guru/centers/388-1/ratna-ling-retreat-center",
+      "source_label": "retreat.guru - Ratna Ling program listing"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "definitely_not_available",
+      "evidence": "Ratna Ling's public program listing shows its own scheduled retreat \"Cultivating Compassion - A movement and meditation weekend\" running October 2 - 4, 2026, which occupies the centre across this Fri-Sun weekend; the quoted string is the program title as printed on the listing. Ratna Ling's own home page separately advertises its 2026 Fall Harvest Celebration fundraiser on October 4, 2026, on the same weekend. Separately and decisively, the centre's own group-rental page caps a group booking at 28 guests in 14 two-person cottages - less than half the 60 needed - and restricts rentals to non-profit, educational and spiritual organisations.",
+      "evidence_quote": "Cultivating Compassion - A movement and meditation weekend",
+      "source_url": "https://retreat.guru/centers/388-1/ratna-ling-retreat-center",
+      "source_label": "retreat.guru - Ratna Ling program listing"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "definitely_not_available",
+      "evidence": "The program listing shows Ratna Ling's own \"Women's Self-Care Retreat\" running October 9 - 12, 2026, occupying the centre across this Fri-Sun weekend. That title is too short to serve as the required quote, so the quote here is the capacity statement, which independently rules the weekend out: 28 guests maximum against a party of 60.",
+      "evidence_quote": "We offer comfortable accommodations for up to 28 guests",
+      "source_url": "https://ratnalingretreatcenterbooking.org/",
+      "source_label": "Ratna Ling - group event booking page"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "definitely_not_available",
+      "evidence": "Ratna Ling's public program listing shows its own scheduled retreat \"Living in Harmony: Tibetan Buddhist Meditation\" running October 16 - 18, 2026, which occupies the centre across this Fri-Sun weekend; the quoted string is the program title as printed on the listing. Separately and decisively, the centre's own group-rental page caps a group booking at 28 guests in 14 two-person cottages - less than half the 60 needed - and restricts rentals to non-profit, educational and spiritual organisations.",
+      "evidence_quote": "Living in Harmony: Tibetan Buddhist Meditation",
+      "source_url": "https://retreat.guru/centers/388-1/ratna-ling-retreat-center",
+      "source_label": "retreat.guru - Ratna Ling program listing"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "definitely_not_available",
+      "evidence": "Ratna Ling's public program listing shows its own scheduled retreat \"The Inner Landscape: A Meditation Retreat in Nature\" running October 23 - 25, 2026, which occupies the centre across this Fri-Sun weekend; the quoted string is the program title as printed on the listing. A second program, \"Elevate Your Essence\", runs the same October 23 - 25 dates. Separately and decisively, the centre's own group-rental page caps a group booking at 28 guests in 14 two-person cottages - less than half the 60 needed - and restricts rentals to non-profit, educational and spiritual organisations.",
+      "evidence_quote": "The Inner Landscape: A Meditation Retreat in Nature",
+      "source_url": "https://retreat.guru/centers/388-1/ratna-ling-retreat-center",
+      "source_label": "retreat.guru - Ratna Ling program listing"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "definitely_not_available",
+      "evidence": "Ratna Ling's public program listing shows its own scheduled retreat \"The Art of Loss: Letting Go with Grace\" running October 30 - November 1, 2026, which occupies the centre across this Fri-Sun weekend; the quoted string is the program title as printed on the listing. Separately and decisively, the centre's own group-rental page caps a group booking at 28 guests in 14 two-person cottages - less than half the 60 needed - and restricts rentals to non-profit, educational and spiritual organisations.",
+      "evidence_quote": "The Art of Loss: Letting Go with Grace",
+      "source_url": "https://retreat.guru/centers/388-1/ratna-ling-retreat-center",
+      "source_label": "retreat.guru - Ratna Ling program listing"
+    }
+  ],
+  "sources": [
+    "https://ratnaling.org/",
+    "https://ratnalingretreatcenterbooking.org/",
+    "https://retreat.guru/centers/388-1/ratna-ling-retreat-center",
+    "https://www.sonomacounty.com/lodging/ratna-ling-retreat-center/"
+  ]
+}

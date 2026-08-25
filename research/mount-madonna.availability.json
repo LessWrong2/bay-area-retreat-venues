@@ -1,0 +1,96 @@
+{
+  "id": "mount-madonna",
+  "checked_on": "2026-08-25",
+  "method": "Mount Madonna publishes a real, densely populated public calendar at mountmadonna.org/calendar/, tagging outside bookings as 'Hosted Group'. The list is paginated behind a 'Load More' control, so I opened the page in a browser tab I created myself and clicked through to the end, giving all 39 upcoming entries out to late 2027; every October 2026 conflict below comes from that fully-loaded list and was then confirmed on the organiser's own site where the calendar links off-site. The calendar's first page (what curl returns) already contains every September entry plus the Welwood and Henry Shukman retreats, so those quotes are in the raw page; the mid-to-late October entries are only in the loaded list, so I cite the third-party organiser pages or Mount Madonna's own Navaratri page instead. I also read host-your-group for capacity and booking mechanics. Note the calendar lists programs, not room inventory: it shows when the campus is committed, not confirmation that an open weekend can actually take 60 people.",
+  "booking_policy": "Retreat venue for groups of 15 to 150+ on a 380-acre ridge campus. The relevant building for 60 people is the Conference Center: 33 guest rooms, 74 beds, 52'x52' main hall (250 theatre / 125 yoga mats) plus the Maple and Willow breakout rooms; the Seminar House adds only 16 beds. Yurts and cabins supplement but some have no plumbing. All meals are strictly vegetarian, three buffet meals a day in a communal lodge. No online availability — booking is by inquiry ('INQUIRE ABOUT AVAILABILITY') to hostyourgroup@mountmadonna.org. The campus routinely runs several hosted groups plus its own temple festivals at once, so a weekend that shows one booking may still have space, and a weekend that shows three almost certainly does not.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "probably_available",
+      "evidence": "The public calendar covers this period densely and shows nothing on Aug 28-30: the last August entry is a Thursday-evening temple ceremony on Aug 27 and the next entry is Sept 11. Quote is the Aug 27 entry, the nearest dated item before the gap.",
+      "evidence_quote": "In honor of Raksha Bandhan, you are invited to join us for a special Mahamrityunjaya Puja & Yajna at Sankat Mochan Hanuman Temple",
+      "source_url": "https://mountmadonna.org/calendar/",
+      "source_label": "Mount Madonna — public calendar"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "probably_available",
+      "evidence": "Nothing is scheduled on Labor Day weekend: the calendar jumps straight from Aug 27 to Sept 11. Quote is the first September entry, showing where the gap ends.",
+      "evidence_quote": "Move, breathe, and connect during a weekend of community-centered offerings",
+      "source_url": "https://mountmadonna.org/calendar/",
+      "source_label": "Mount Madonna — public calendar"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "definitely_not_available",
+      "evidence": "Two programs occupy the campus across exactly this weekend: the hosted-group retreat 'Exhale: A Body Awareness Retreat' (Sept 11-13) and Mount Madonna's own campus-wide 'A Weekend in Community' (Sept 11-13), which opens scheduled classes and kirtan to all overnight guests.",
+      "evidence_quote": "Body Awareness Yoga (BAY) retreats invite you to listen to your body and move with your breath.",
+      "source_url": "https://mountmadonna.org/calendar/",
+      "source_label": "Mount Madonna — public calendar"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "definitely_not_available",
+      "evidence": "Two long hosted-group trainings overlap this weekend: the Grof Breathwork Facilitator Training (Sept 13-20) and the 10-day Recovery 2.0 Level 1 Coach Training (Sept 18-27), which begins on this Friday.",
+      "evidence_quote": "An immersive 10-day certification training led by Tommy Rosen, world-renowned yoga teacher and addiction expert",
+      "source_url": "https://mountmadonna.org/calendar/",
+      "source_label": "Mount Madonna — public calendar"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "definitely_not_available",
+      "evidence": "Three things run across this weekend: Recovery 2.0 (Sept 18-27), the Awake Heart 300-hour training (Sept 20-27), and Mount Madonna's own 8th annual Aradhana ceremony on Saturday Sept 26.",
+      "evidence_quote": "Awake Heart Session III is an advanced yoga training with Hannah Muse.",
+      "source_url": "https://mountmadonna.org/calendar/",
+      "source_label": "Mount Madonna — public calendar"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "probably_not_available",
+      "evidence": "Jennifer Welwood's Mystery School Retreat runs Sept 27 - Oct 4 and covers this whole weekend. It is a single hosted group rather than a campus-wide event, so a second booking is not flatly impossible on a campus this size, but the main retreat facilities will be committed.",
+      "evidence_quote": "In this retreat, Jennifer Welwood explores two paths of transformation: realizing our awake nature and integrating it into embodied human life.",
+      "source_url": "https://mountmadonna.org/calendar/",
+      "source_label": "Mount Madonna — public calendar"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "probably_not_available",
+      "evidence": "Henry Shukman's 'Realizing The Way' retreat runs Oct 8-11, covering Fri through Sun. Again a single hosted group, so not an absolute bar, but the retreat space and rooms are spoken for.",
+      "evidence_quote": "Join Henry Shukman for a 3-day retreat including extended meditation, dharma teachings, community, and conditions for deep insight to arise naturally.",
+      "source_url": "https://mountmadonna.org/calendar/",
+      "source_label": "Mount Madonna — public calendar"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "definitely_not_available",
+      "evidence": "Mount Madonna's own ten-day Navaratri and Vijay Dasami festival runs Oct 11-20 and spans this weekend, and the fully-loaded calendar additionally shows three concurrent hosted-group retreats on the same dates: The Rooted Return (Oct 14-16), the 5th Annual Women's Evolution Weekend Retreat (Oct 16-18) and Reset in the Redwoods (Oct 16-20).",
+      "evidence_quote": "Save the Date | October 11 - October 20, 2026",
+      "source_url": "https://mountmadonna.org/calendar/navaratri-and-vijay-dasami-2026/?occurrence=2026-10-11",
+      "source_label": "Mount Madonna — Navaratri & Vijay Dasami 2026"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "probably_available",
+      "evidence": "The fully-loaded calendar shows a clear gap here: Navaratri ends Oct 20 and the next booking, the Ridhwan DHR6 retreat, does not start until Sunday Oct 25. There is no quotable string for an empty date, and the Sunday changeover with an arriving week-long group is worth checking.",
+      "evidence_quote": null,
+      "source_url": "https://mountmadonna.org/calendar/",
+      "source_label": "Mount Madonna — public calendar (fully loaded)"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "definitely_not_available",
+      "evidence": "Two bookings cover this weekend: the Ridhwan School's DHR6 retreat (Oct 25 - Nov 1) and 'IFS & Women in the Wild', which the organiser advertises at Mount Madonna for exactly Friday Oct 30 to Sunday Nov 1.",
+      "evidence_quote": "Friday, October 30 through Sunday, November 1, 2026",
+      "source_url": "https://mcaft.com/retreats",
+      "source_label": "Mindful Child & Family — Women in the Wild retreat"
+    }
+  ],
+  "sources": [
+    "https://mountmadonna.org/calendar/",
+    "https://mountmadonna.org/host-your-group/",
+    "https://mountmadonna.org/calendar/navaratri-and-vijay-dasami-2026/?occurrence=2026-10-11",
+    "https://mcaft.com/retreats",
+    "https://www.womenwhoareuptosomething.com/women-s-evolution-weekend-retreat",
+    "https://groundandroot.com/the-rooted-return"
+  ]
+}

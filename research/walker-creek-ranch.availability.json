@@ -1,0 +1,105 @@
+{
+  "id": "walker-creek-ranch",
+  "checked_on": "2026-08-25",
+  "method": "Pulled the Walker Creek Ranch sitemap (three Wix sitemaps) and read every relevant page: home, Plan Your Event, Schedule Your Event, Lodging, Community Events, Forms & FAQ and Learn About Our Program, plus the three PDFs linked from Plan Your Event (Summer 2026 rate sheet, 2025-26 conference pricing, and the bed-by-bed lodging/wedding sheet). None of these contains an availability calendar, a booking engine, or any list of booked dates — the only booked-date information the ranch itself publishes is a 'Upcoming Events' block that currently shows one item, a May community day. I then searched the wider web for events naming Walker Creek Ranch in September and October 2026, which surfaced Walker Creek Music Camp; I fetched that organization's home, registration, schedule and about pages to confirm its Fall 2026 dates and that the camp is residential at the ranch. Everything else is genuinely unknown from the public web.",
+  "booking_policy": "Owned and run by the Marin County Office of Education; the ranch runs its residential outdoor school for ~5,000 students a year and separately hosts ~5,000 conference, reunion and wedding guests, so a private group shares the 1,700-acre site with whatever school session is running. Conference bookings are handled by inquiry only (Jean Parker, jparker@marinschools.org, conference direct 415-491-6603). Capacity is ample for 60: 287 economy cabin/bunkhouse beds (13 cabins of 15-17 beds plus Eucalyptus 56 and Pine 32) and 82 semi-private lodge beds, meeting rooms included with lodging. 2025-26 conference rates are per person per night: camping $44.25, cabins $75, shared lodge room $125.50, private lodge room $184.50, with meals $22/$24.25/$31; day use $38.50. Lodging discounts start at groups of 100+ or Nov-Feb stays, so a 60-person weekend gets no discount. Weddings carry a $5,768 minimum. Pond use is seasonal, May-October, at $110/hour with lifeguard. Guests bring their own bedding for cabins; linens are included in lodges.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "Walker Creek Ranch publishes no availability calendar and no booking engine; the only way to check a date is the 'Schedule Your Event' inquiry form, so the public web says nothing about this weekend either way.",
+      "evidence_quote": null,
+      "source_url": "https://www.walkercreekranch.org/schedule-your-event-1",
+      "source_label": "Walker Creek Ranch 'Schedule Your Event' page"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "unknown",
+      "evidence": "Walker Creek Ranch publishes no availability calendar and no booking engine; the only way to check a date is the 'Schedule Your Event' inquiry form, so the public web says nothing about this weekend either way.",
+      "evidence_quote": null,
+      "source_url": "https://www.walkercreekranch.org/schedule-your-event-1",
+      "source_label": "Walker Creek Ranch 'Schedule Your Event' page"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "unknown",
+      "evidence": "Walker Creek Ranch publishes no availability calendar and no booking engine; the only way to check a date is the 'Schedule Your Event' inquiry form, so the public web says nothing about this weekend either way.",
+      "evidence_quote": null,
+      "source_url": "https://www.walkercreekranch.org/schedule-your-event-1",
+      "source_label": "Walker Creek Ranch 'Schedule Your Event' page"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "Walker Creek Ranch publishes no availability calendar and no booking engine; the only way to check a date is the 'Schedule Your Event' inquiry form, so the public web says nothing about this weekend either way.",
+      "evidence_quote": null,
+      "source_url": "https://www.walkercreekranch.org/schedule-your-event-1",
+      "source_label": "Walker Creek Ranch 'Schedule Your Event' page"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "unknown",
+      "evidence": "The ranch's only public 'Upcoming Events' entry is this May community day (quote is the event title, the nearest literal on-page string); nothing is listed for this weekend, which is absence of information rather than evidence the date is free.",
+      "evidence_quote": "West Marin Community Day",
+      "source_url": "https://www.walkercreekranch.org/community-events",
+      "source_label": "Walker Creek Ranch community events listing"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "Walker Creek Ranch publishes no availability calendar and no booking engine; the only way to check a date is the 'Schedule Your Event' inquiry form, so the public web says nothing about this weekend either way.",
+      "evidence_quote": null,
+      "source_url": "https://www.walkercreekranch.org/schedule-your-event-1",
+      "source_label": "Walker Creek Ranch 'Schedule Your Event' page"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "Walker Creek Ranch publishes no availability calendar and no booking engine; the only way to check a date is the 'Schedule Your Event' inquiry form, so the public web says nothing about this weekend either way.",
+      "evidence_quote": null,
+      "source_url": "https://www.walkercreekranch.org/schedule-your-event-1",
+      "source_label": "Walker Creek Ranch 'Schedule Your Event' page"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "unknown",
+      "evidence": "Walker Creek Ranch publishes no availability calendar and no booking engine; the only way to check a date is the 'Schedule Your Event' inquiry form, so the public web says nothing about this weekend either way.",
+      "evidence_quote": null,
+      "source_url": "https://www.walkercreekranch.org/schedule-your-event-1",
+      "source_label": "Walker Creek Ranch 'Schedule Your Event' page"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "definitely_not_available",
+      "evidence": "Walker Creek Music Camp's Fall 2026 session runs Thursday Oct 22 through Sunday Oct 25 at Walker Creek Ranch, a four-day residential camp using the ranch's lodging, dining hall, barn and classrooms, which covers this entire Fri-Sun window.",
+      "evidence_quote": "Fall ’26 Camp – Thursday October 22-Sunday October 25",
+      "source_url": "https://walkercreekmusiccamp.org/registration/",
+      "source_label": "Walker Creek Music Camp registration page"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "unknown",
+      "evidence": "The ranch's only public 'Upcoming Events' entry is this May community day (quote is the event title, the nearest literal on-page string); nothing is listed for this weekend, which is absence of information rather than evidence the date is free.",
+      "evidence_quote": "West Marin Community Day",
+      "source_url": "https://www.walkercreekranch.org/community-events",
+      "source_label": "Walker Creek Ranch community events listing"
+    }
+  ],
+  "sources": [
+    "https://www.walkercreekranch.org/",
+    "https://www.walkercreekranch.org/plan-your-event-1",
+    "https://www.walkercreekranch.org/schedule-your-event-1",
+    "https://www.walkercreekranch.org/lodging",
+    "https://www.walkercreekranch.org/community-events",
+    "https://www.walkercreekranch.org/forms-faq-1",
+    "https://www.walkercreekranch.org/learn-about-our-program",
+    "https://www.walkercreekranch.org/sitemap.xml",
+    "https://www.walkercreekranch.org/_files/ugd/f401d1_0c041005cc0540e8af7ce9344f0c669f.pdf",
+    "https://www.walkercreekranch.org/_files/ugd/f401d1_12e70d7c58ab40c5a1b65493612c6956.pdf",
+    "https://www.walkercreekranch.org/_files/ugd/f401d1_f03996a2af194de294306a8445dc7e19.pdf",
+    "https://walkercreekmusiccamp.org/",
+    "https://walkercreekmusiccamp.org/registration/",
+    "https://walkercreekmusiccamp.org/schedule/",
+    "https://walkercreekmusiccamp.org/about/"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "waterfall-lodge",
+  "checked_on": "2026-08-25",
+  "method": "Fetched the home, corporate, cabins and weddings pages and checked each for a booking or availability widget; there is none. The only date inputs on the site are inside the contact/inquiry form, the /cart route is an unused Squarespace commerce stub, and the site publishes no events calendar. The corporate page lays out two booking modes ('The Full Property' and 'The Redwood Meadow', the latter marked 'New for 2028' and day-use only) and then asks you to describe your group rather than pick dates. I then searched third-party wedding directories and press for dated 2026 bookings. A search summary claimed a peak season of 'October 16 - November 23', but when I fetched the Wedding Spot listing itself that claim was not on the page - it only says to reach out for current pricing, packages and availability - so I discarded it rather than pass on an unverified seasonality. No dated booking, event or closure was found for any of the ten weekends.",
+  "booking_policy": "Two ways to book, and only one fits a 60-person residential group: the full-property buyout, which is all 80 acres, 33 cabins, the Redwood Meadow and the lodge, with nobody else on the property for the length of the stay. (The alternative, the Redwood Meadow, is day-use only and is labelled 'New for 2028'.) Overnight capacity is about 86 across 33 cabins sleeping 2-4 each, plus two bedrooms inside the lodge included in the venue fee for overnight events; day capacity is 150. That comfortably covers ~60 overnight. It is a bring-your-own-vendor property, and Wi-Fi is only in the lodge, which is where working sessions have to happen - worth pressing on for AV and breakout needs, since the venue's primary business is weddings. Booking is inquiry-only via the contact form, hello@waterfallsantacruz.com or (831) 212-3895; no rates, minimums or seasonal restrictions are published.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "Waterfall sells exactly the whole-property buyout this group would need, but publishes no dates for it - there is no calendar, no booking engine and no event listings anywhere on the site, so the public web does not say whether this weekend is free.",
+      "evidence_quote": "All eighty acres, 33 cabins, the Redwood Meadow, and the lodge. For the length of your stay, nobody else is on the mountain.",
+      "source_url": "https://www.waterfallsantacruz.com/corporate",
+      "source_label": "Waterfall Lodge & Retreat - Corporate page"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "unknown",
+      "evidence": "Waterfall sells exactly the whole-property buyout this group would need, but publishes no dates for it - there is no calendar, no booking engine and no event listings anywhere on the site, so the public web does not say whether this weekend is free.",
+      "evidence_quote": "All eighty acres, 33 cabins, the Redwood Meadow, and the lodge. For the length of your stay, nobody else is on the mountain.",
+      "source_url": "https://www.waterfallsantacruz.com/corporate",
+      "source_label": "Waterfall Lodge & Retreat - Corporate page"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "unknown",
+      "evidence": "Waterfall sells exactly the whole-property buyout this group would need, but publishes no dates for it - there is no calendar, no booking engine and no event listings anywhere on the site, so the public web does not say whether this weekend is free.",
+      "evidence_quote": "All eighty acres, 33 cabins, the Redwood Meadow, and the lodge. For the length of your stay, nobody else is on the mountain.",
+      "source_url": "https://www.waterfallsantacruz.com/corporate",
+      "source_label": "Waterfall Lodge & Retreat - Corporate page"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "Waterfall sells exactly the whole-property buyout this group would need, but publishes no dates for it - there is no calendar, no booking engine and no event listings anywhere on the site, so the public web does not say whether this weekend is free.",
+      "evidence_quote": "All eighty acres, 33 cabins, the Redwood Meadow, and the lodge. For the length of your stay, nobody else is on the mountain.",
+      "source_url": "https://www.waterfallsantacruz.com/corporate",
+      "source_label": "Waterfall Lodge & Retreat - Corporate page"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "unknown",
+      "evidence": "Waterfall sells exactly the whole-property buyout this group would need, but publishes no dates for it - there is no calendar, no booking engine and no event listings anywhere on the site, so the public web does not say whether this weekend is free.",
+      "evidence_quote": "All eighty acres, 33 cabins, the Redwood Meadow, and the lodge. For the length of your stay, nobody else is on the mountain.",
+      "source_url": "https://www.waterfallsantacruz.com/corporate",
+      "source_label": "Waterfall Lodge & Retreat - Corporate page"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "Waterfall sells exactly the whole-property buyout this group would need, but publishes no dates for it - there is no calendar, no booking engine and no event listings anywhere on the site, so the public web does not say whether this weekend is free.",
+      "evidence_quote": "All eighty acres, 33 cabins, the Redwood Meadow, and the lodge. For the length of your stay, nobody else is on the mountain.",
+      "source_url": "https://www.waterfallsantacruz.com/corporate",
+      "source_label": "Waterfall Lodge & Retreat - Corporate page"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "Waterfall sells exactly the whole-property buyout this group would need, but publishes no dates for it - there is no calendar, no booking engine and no event listings anywhere on the site, so the public web does not say whether this weekend is free.",
+      "evidence_quote": "All eighty acres, 33 cabins, the Redwood Meadow, and the lodge. For the length of your stay, nobody else is on the mountain.",
+      "source_url": "https://www.waterfallsantacruz.com/corporate",
+      "source_label": "Waterfall Lodge & Retreat - Corporate page"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "unknown",
+      "evidence": "Waterfall sells exactly the whole-property buyout this group would need, but publishes no dates for it - there is no calendar, no booking engine and no event listings anywhere on the site, so the public web does not say whether this weekend is free.",
+      "evidence_quote": "All eighty acres, 33 cabins, the Redwood Meadow, and the lodge. For the length of your stay, nobody else is on the mountain.",
+      "source_url": "https://www.waterfallsantacruz.com/corporate",
+      "source_label": "Waterfall Lodge & Retreat - Corporate page"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "unknown",
+      "evidence": "Waterfall sells exactly the whole-property buyout this group would need, but publishes no dates for it - there is no calendar, no booking engine and no event listings anywhere on the site, so the public web does not say whether this weekend is free.",
+      "evidence_quote": "All eighty acres, 33 cabins, the Redwood Meadow, and the lodge. For the length of your stay, nobody else is on the mountain.",
+      "source_url": "https://www.waterfallsantacruz.com/corporate",
+      "source_label": "Waterfall Lodge & Retreat - Corporate page"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "unknown",
+      "evidence": "Waterfall sells exactly the whole-property buyout this group would need, but publishes no dates for it - there is no calendar, no booking engine and no event listings anywhere on the site, so the public web does not say whether this weekend is free.",
+      "evidence_quote": "All eighty acres, 33 cabins, the Redwood Meadow, and the lodge. For the length of your stay, nobody else is on the mountain.",
+      "source_url": "https://www.waterfallsantacruz.com/corporate",
+      "source_label": "Waterfall Lodge & Retreat - Corporate page"
+    }
+  ],
+  "sources": [
+    "https://www.waterfallsantacruz.com/",
+    "https://www.waterfallsantacruz.com/corporate",
+    "https://www.waterfallsantacruz.com/cabins",
+    "https://www.waterfallsantacruz.com/weddings",
+    "https://www.wedding-spot.com/venue/15998/waterfall-lodge-retreat/"
+  ]
+}

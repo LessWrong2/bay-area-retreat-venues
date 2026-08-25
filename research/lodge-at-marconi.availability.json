@@ -1,0 +1,96 @@
+{
+  "id": "lodge-at-marconi",
+  "checked_on": "2026-08-25",
+  "method": "This is the only one of my five venues with a real public booking engine, so it produced hard dated evidence. I drove the Amadeus/iHotelier engine at lodgeatmarconi.ihotelier.com in a browser tab of my own, declined the cookie banner, and read the date picker's own day cells (a flatpickr grid inside a shadow DOM) for August through October 2026, capturing each date's accessible label and disabled state. Every Friday and Saturday in the window is accounted for. The pattern is striking: weekdays and Sundays sit at a flat $327 and stay open all autumn, while Fri/Sat nights are blocked solid from Sept 18 through Oct 24 - seven consecutive weekends - with Sept 5/6 also blocked, and only Aug 28-29, Sept 11-12 and Oct 30-31 sellable. That looks like weekend group business or buyouts already on the books rather than a closure, but the reason is not published anywhere, so it is worth asking the sales office directly. I also checked the venue's own Calendar of Events page in a browser (it renders with no events listed at all) and its ?ical=1 feed (returns an empty body), plus the Gather, Offsites and Hotel Policy pages for group rules.",
+  "booking_policy": "The public engine sells individual rooms only; a ~60-person Fri-Sun would need a room block or full buyout arranged with the sales team (415.663.9020 / sales@lodgeatmarconi.com, inquiries handled through Tripleseat), so open dates in the engine are necessary but not sufficient evidence. The property is 45 rooms sleeping up to 100, small enough that ~60 people nearly fills it, and at least one space - The Lodge Lobby - 'Can only be reserved with a full buyout of the property.' Minimum age to reserve a guestroom is 21. Note also that the engine reports only the lowest available rate per night, not remaining inventory, so a date shown open may still lack 30+ rooms. Nothing published states a seasonal closure.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "probably_available",
+      "evidence": "Both nights are live in the booking engine: Fri Aug 28 from $376 and Sat Aug 29 from $458. Only 'probably' because I queried one room for two adults, which shows the lowest available rate per date but not how many rooms remain - a 60-person block or buyout is unconfirmed.",
+      "evidence_quote": "Choose Friday, 28 August 2026 as your check-in date Current price from: $ 376",
+      "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+      "source_label": "Lodge at Marconi booking engine - date picker"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "definitely_not_available",
+      "evidence": "Friday Sept 4 is bookable, but Saturday Sept 5 offers no check-in ('Check-out only', no price) and Sunday Sept 6 is disabled outright, so the Saturday night of this Labor Day weekend cannot be sold and a Fri-Sun stay is impossible.",
+      "evidence_quote": "Choose Saturday, 5 September 2026 as your check-in date, no price available for this day Check-out only",
+      "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+      "source_label": "Lodge at Marconi booking engine - date picker"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "probably_available",
+      "evidence": "Both nights are live: Fri Sept 11 from $475 and Sat Sept 12 from $435 - the priciest Friday in the window, which usually signals real demand rather than a block. Only 'probably' because room-count depth for ~60 people is not visible to the public engine.",
+      "evidence_quote": "Choose Friday, 11 September 2026 as your check-in date Current price from: $ 475",
+      "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+      "source_label": "Lodge at Marconi booking engine - date picker"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "definitely_not_available",
+      "evidence": "The booking engine offers no check-in on the Friday - its date cell is marked 'Check-out only' with no price - and the Saturday cell is fully disabled, so neither night of a Fri-Sun stay can be sold.",
+      "evidence_quote": "Choose Friday, 18 September 2026 as your check-in date, no price available for this day Check-out only",
+      "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+      "source_label": "Lodge at Marconi booking engine - date picker"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "definitely_not_available",
+      "evidence": "The booking engine offers no check-in on the Friday - its date cell is marked 'Check-out only' with no price - and the Saturday cell is fully disabled, so neither night of a Fri-Sun stay can be sold.",
+      "evidence_quote": "Choose Friday, 25 September 2026 as your check-in date, no price available for this day Check-out only",
+      "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+      "source_label": "Lodge at Marconi booking engine - date picker"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "definitely_not_available",
+      "evidence": "The booking engine offers no check-in on the Friday - its date cell is marked 'Check-out only' with no price - and the Saturday cell is fully disabled, so neither night of a Fri-Sun stay can be sold.",
+      "evidence_quote": "Choose Friday, 2 October 2026 as your check-in date, no price available for this day Check-out only",
+      "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+      "source_label": "Lodge at Marconi booking engine - date picker"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "definitely_not_available",
+      "evidence": "The booking engine offers no check-in on the Friday - its date cell is marked 'Check-out only' with no price - and the Saturday cell is fully disabled, so neither night of a Fri-Sun stay can be sold.",
+      "evidence_quote": "Choose Friday, 9 October 2026 as your check-in date, no price available for this day Check-out only",
+      "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+      "source_label": "Lodge at Marconi booking engine - date picker"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "definitely_not_available",
+      "evidence": "Both Fri Oct 16 and Sat Oct 17 are fully disabled in the date picker - unlike the other blocked Fridays these carry no price and no check-in label at all, so the only literal on-page string for the cell is its date label, quoted here.",
+      "evidence_quote": "October 16, 2026",
+      "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+      "source_label": "Lodge at Marconi booking engine - date picker"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "definitely_not_available",
+      "evidence": "The booking engine offers no check-in on the Friday - its date cell is marked 'Check-out only' with no price - and the Saturday cell is fully disabled, so neither night of a Fri-Sun stay can be sold.",
+      "evidence_quote": "Choose Friday, 23 October 2026 as your check-in date, no price available for this day Check-out only",
+      "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+      "source_label": "Lodge at Marconi booking engine - date picker"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "probably_available",
+      "evidence": "Halloween weekend is open on both nights: Fri Oct 30 from $376 and Sat Oct 31 from $376. It is the first fully open weekend after a long blocked run. Only 'probably' because inventory depth for a 60-person block is not public.",
+      "evidence_quote": "Choose Friday, 30 October 2026 as your check-in date Current price from: $ 376",
+      "source_url": "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+      "source_label": "Lodge at Marconi booking engine - date picker"
+    }
+  ],
+  "sources": [
+    "https://lodgeatmarconi.ihotelier.com/book/dates-of-stay",
+    "https://lodgeatmarconi.com/",
+    "https://lodgeatmarconi.com/experience/calendar-of-events/",
+    "https://lodgeatmarconi.com/gather/",
+    "https://lodgeatmarconi.com/gather/offsites/",
+    "https://lodgeatmarconi.com/hotel-policy/"
+  ]
+}

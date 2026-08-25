@@ -1,0 +1,94 @@
+{
+  "id": "ymca-point-bonita",
+  "checked_on": "2026-08-25",
+  "method": "Fetched the NatureBridge Golden Gate Conference & Retreat Center page (naturebridge.org/retreat-space/golden-gate) in full and read its package, lodging, pricing and FAQ text; fetched naturebridge.org/events and the one listed signature event page to see whether any organization-run event occupies the Marin Headlands campuses this fall (the only listed events are May 7 at Fort Mason and Nov 6 in Seattle); checked the Golden Gate summer/Coastal Camp pages; and ran web searches for third-party retreats, conferences or weddings announced at NatureBridge Golden Gate / Fort Cronkhite / Point Bonita for September and October 2026. NatureBridge publishes NO availability calendar and no booking engine — reservations run entirely through a 'Request Information' form and a reservations team, so no weekend can be dated-confirmed from the public web. What the site does publish is an explicit, unconditional statement of which days are bookable for overnight groups, which covers all ten weekends.",
+  "booking_policy": "Overnight packages are sold Friday-Sunday during the school year, with added weekday availability mid-June through Labor Day, for groups of 20 or more; packages bundle meeting rooms, Wi-Fi, three meals a day and dorm-style lodging. Two campuses (Bluff at Point Bonita, Beach at Fort Cronkhite) hold up to 200 guests total. This is NOT a buyout venue: main dorms sleep roughly 60-70 each, are typically gender-separated by building, and are explicitly shared with other groups on site, as is the dining hall; the Raven building (max 45) is the only self-contained option, too small for 60. Booking requires a signed contract plus a 25% non-refundable deposit; cancellations inside 90 days owe the full balance. Alcohol is restricted to beer/wine in meeting rooms only, arranged in advance. Guests bring their own bedding and toiletries. 2026 weekend rate for a 2-night stay is $307/person standard, $259/person nonprofit.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "probably_available",
+      "evidence": "This Friday falls inside the published mid-June-through-Labor-Day window, when weekends plus weekdays are bookable for groups of 20+, but nothing dated confirms the weekend is free.",
+      "evidence_quote": "Available Friday–Sunday during the school year, with additional weekday availability from mid-June through Labor Day for groups of 20 or more.",
+      "source_url": "https://naturebridge.org/retreat-space/golden-gate",
+      "source_label": "NatureBridge Golden Gate Conference & Retreat Center"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "probably_available",
+      "evidence": "Labor Day weekend sits at the boundary of the summer window and the school year; either way the published Fri-Sun overnight window covers it, but no dated confirmation exists.",
+      "evidence_quote": "Available Friday–Sunday during the school year, with additional weekday availability from mid-June through Labor Day for groups of 20 or more.",
+      "source_url": "https://naturebridge.org/retreat-space/golden-gate",
+      "source_label": "NatureBridge Golden Gate Conference & Retreat Center"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "probably_available",
+      "evidence": "NatureBridge publishes Fri-Sun overnight group packages as its standard weekend offering during the school year, which covers this date, but it publishes no dated availability calendar and dorms are shared between groups.",
+      "evidence_quote": "Available Friday–Sunday during the school year, with additional weekday availability from mid-June through Labor Day for groups of 20 or more.",
+      "source_url": "https://naturebridge.org/retreat-space/golden-gate",
+      "source_label": "NatureBridge Golden Gate Conference & Retreat Center"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "probably_available",
+      "evidence": "NatureBridge publishes Fri-Sun overnight group packages as its standard weekend offering during the school year, which covers this date, but it publishes no dated availability calendar and dorms are shared between groups.",
+      "evidence_quote": "Available Friday–Sunday during the school year, with additional weekday availability from mid-June through Labor Day for groups of 20 or more.",
+      "source_url": "https://naturebridge.org/retreat-space/golden-gate",
+      "source_label": "NatureBridge Golden Gate Conference & Retreat Center"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "probably_available",
+      "evidence": "The season is open under the published Fri-Sun overnight window, but the FAQ makes clear a 60-person group would not have the campus to itself, so this is only 'probably'.",
+      "evidence_quote": "Groups can expect to have participants from other groups sharing the same dorm rooms and bathrooms.",
+      "source_url": "https://naturebridge.org/retreat-space/golden-gate",
+      "source_label": "NatureBridge Golden Gate retreat page, FAQ section"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "probably_available",
+      "evidence": "NatureBridge publishes Fri-Sun overnight group packages as its standard weekend offering during the school year, which covers this date, but it publishes no dated availability calendar and dorms are shared between groups.",
+      "evidence_quote": "Available Friday–Sunday during the school year, with additional weekday availability from mid-June through Labor Day for groups of 20 or more.",
+      "source_url": "https://naturebridge.org/retreat-space/golden-gate",
+      "source_label": "NatureBridge Golden Gate Conference & Retreat Center"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "probably_available",
+      "evidence": "NatureBridge publishes Fri-Sun overnight group packages as its standard weekend offering during the school year, which covers this date, but it publishes no dated availability calendar and dorms are shared between groups.",
+      "evidence_quote": "Available Friday–Sunday during the school year, with additional weekday availability from mid-June through Labor Day for groups of 20 or more.",
+      "source_url": "https://naturebridge.org/retreat-space/golden-gate",
+      "source_label": "NatureBridge Golden Gate Conference & Retreat Center"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "probably_available",
+      "evidence": "NatureBridge publishes Fri-Sun overnight group packages as its standard weekend offering during the school year, which covers this date, but it publishes no dated availability calendar and dorms are shared between groups.",
+      "evidence_quote": "Available Friday–Sunday during the school year, with additional weekday availability from mid-June through Labor Day for groups of 20 or more.",
+      "source_url": "https://naturebridge.org/retreat-space/golden-gate",
+      "source_label": "NatureBridge Golden Gate Conference & Retreat Center"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "probably_available",
+      "evidence": "The school year is in session, so the published Fri-Sun overnight window applies; no dated calendar exists to confirm this specific weekend.",
+      "evidence_quote": "Available Friday–Sunday during the school year, with additional weekday availability from mid-June through Labor Day for groups of 20 or more.",
+      "source_url": "https://naturebridge.org/retreat-space/golden-gate",
+      "source_label": "NatureBridge Golden Gate Conference & Retreat Center"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "probably_available",
+      "evidence": "NatureBridge publishes Fri-Sun overnight group packages as its standard weekend offering during the school year, which covers this date, but it publishes no dated availability calendar and dorms are shared between groups.",
+      "evidence_quote": "Available Friday–Sunday during the school year, with additional weekday availability from mid-June through Labor Day for groups of 20 or more.",
+      "source_url": "https://naturebridge.org/retreat-space/golden-gate",
+      "source_label": "NatureBridge Golden Gate Conference & Retreat Center"
+    }
+  ],
+  "sources": [
+    "https://naturebridge.org/retreat-space/golden-gate",
+    "https://naturebridge.org/events",
+    "https://naturebridge.org/events/an-evening-with-naturebridge",
+    "https://naturebridge.org/programs/summer/coastal-camp"
+  ]
+}

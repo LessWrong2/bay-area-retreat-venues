@@ -1,0 +1,92 @@
+{
+  "id": "mayacamas-ranch",
+  "checked_on": "2026-08-25",
+  "method": "Fetched mayacamasranch.com and its /the-invitation/ page (both HTTP 200) and read the full site - it is a four-page WordPress brochure (The Land, The Vision, The Invitation, Partners) aimed at prospective steward partners and impact investors. There is no lodging page, no rates, no calendar, no booking engine, no reservations email and no published phone number; the only interactive element is a 'Request Partner Access' contact form gated behind a private partner portal. The pre-fire retreat-centre site (mayacamasranch.com circa 2014-2017) is gone. Because the property publishes no dates at all, no weekend can be assessed individually; the verdict is the same for all ten and rests on the property's own description of its current state rather than on any dated calendar entry.",
+  "booking_policy": "Not bookable. The 2017 Tubbs Fire destroyed the lodge and cabin buildings and they have not been rebuilt - the site's own line is that the fire 'irrevocably altered its physical form' and that the owners chose regeneration over rebuilding. The 300-acre property is being placed into a long-term stewardship framework through Rock Creek Institute, and access today is by personal invitation to a small circle of founding steward partners. Any hosting that happens is 'select partners in residence' doing intimate gatherings and creative work. There is no guest lodging, no rate card and no enquiry path for a paying 60-person group.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "definitely_not_available",
+      "evidence": "Mayacamas is not a bookable retreat centre on any date in the window: its lodge and cabins were destroyed in the 2017 Tubbs Fire and were never rebuilt, and the current site says the land now hosts only invited 'partners in residence' and intimate gatherings. There is no lodging inventory, no booking channel and no published phone number, so a 60-person Fri-Sun booking is impossible this weekend and every other.",
+      "evidence_quote": "Through select partners in residence, the ranch currently hosts intimate gatherings and creative work",
+      "source_url": "https://mayacamasranch.com/the-invitation/",
+      "source_label": "Mayacamas Ranch - The Invitation (steward-partner page)"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "definitely_not_available",
+      "evidence": "Mayacamas is not a bookable retreat centre on any date in the window: its lodge and cabins were destroyed in the 2017 Tubbs Fire and were never rebuilt, and the current site says the land now hosts only invited 'partners in residence' and intimate gatherings. There is no lodging inventory, no booking channel and no published phone number, so a 60-person Fri-Sun booking is impossible this weekend and every other.",
+      "evidence_quote": "Through select partners in residence, the ranch currently hosts intimate gatherings and creative work",
+      "source_url": "https://mayacamasranch.com/the-invitation/",
+      "source_label": "Mayacamas Ranch - The Invitation (steward-partner page)"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "definitely_not_available",
+      "evidence": "Mayacamas is not a bookable retreat centre on any date in the window: its lodge and cabins were destroyed in the 2017 Tubbs Fire and were never rebuilt, and the current site says the land now hosts only invited 'partners in residence' and intimate gatherings. There is no lodging inventory, no booking channel and no published phone number, so a 60-person Fri-Sun booking is impossible this weekend and every other.",
+      "evidence_quote": "Through select partners in residence, the ranch currently hosts intimate gatherings and creative work",
+      "source_url": "https://mayacamasranch.com/the-invitation/",
+      "source_label": "Mayacamas Ranch - The Invitation (steward-partner page)"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "definitely_not_available",
+      "evidence": "Mayacamas is not a bookable retreat centre on any date in the window: its lodge and cabins were destroyed in the 2017 Tubbs Fire and were never rebuilt, and the current site says the land now hosts only invited 'partners in residence' and intimate gatherings. There is no lodging inventory, no booking channel and no published phone number, so a 60-person Fri-Sun booking is impossible this weekend and every other.",
+      "evidence_quote": "Through select partners in residence, the ranch currently hosts intimate gatherings and creative work",
+      "source_url": "https://mayacamasranch.com/the-invitation/",
+      "source_label": "Mayacamas Ranch - The Invitation (steward-partner page)"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "definitely_not_available",
+      "evidence": "Mayacamas is not a bookable retreat centre on any date in the window: its lodge and cabins were destroyed in the 2017 Tubbs Fire and were never rebuilt, and the current site says the land now hosts only invited 'partners in residence' and intimate gatherings. There is no lodging inventory, no booking channel and no published phone number, so a 60-person Fri-Sun booking is impossible this weekend and every other.",
+      "evidence_quote": "Through select partners in residence, the ranch currently hosts intimate gatherings and creative work",
+      "source_url": "https://mayacamasranch.com/the-invitation/",
+      "source_label": "Mayacamas Ranch - The Invitation (steward-partner page)"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "definitely_not_available",
+      "evidence": "Mayacamas is not a bookable retreat centre on any date in the window: its lodge and cabins were destroyed in the 2017 Tubbs Fire and were never rebuilt, and the current site says the land now hosts only invited 'partners in residence' and intimate gatherings. There is no lodging inventory, no booking channel and no published phone number, so a 60-person Fri-Sun booking is impossible this weekend and every other.",
+      "evidence_quote": "Through select partners in residence, the ranch currently hosts intimate gatherings and creative work",
+      "source_url": "https://mayacamasranch.com/the-invitation/",
+      "source_label": "Mayacamas Ranch - The Invitation (steward-partner page)"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "definitely_not_available",
+      "evidence": "Mayacamas is not a bookable retreat centre on any date in the window: its lodge and cabins were destroyed in the 2017 Tubbs Fire and were never rebuilt, and the current site says the land now hosts only invited 'partners in residence' and intimate gatherings. There is no lodging inventory, no booking channel and no published phone number, so a 60-person Fri-Sun booking is impossible this weekend and every other.",
+      "evidence_quote": "Through select partners in residence, the ranch currently hosts intimate gatherings and creative work",
+      "source_url": "https://mayacamasranch.com/the-invitation/",
+      "source_label": "Mayacamas Ranch - The Invitation (steward-partner page)"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "definitely_not_available",
+      "evidence": "Mayacamas is not a bookable retreat centre on any date in the window: its lodge and cabins were destroyed in the 2017 Tubbs Fire and were never rebuilt, and the current site says the land now hosts only invited 'partners in residence' and intimate gatherings. There is no lodging inventory, no booking channel and no published phone number, so a 60-person Fri-Sun booking is impossible this weekend and every other.",
+      "evidence_quote": "Through select partners in residence, the ranch currently hosts intimate gatherings and creative work",
+      "source_url": "https://mayacamasranch.com/the-invitation/",
+      "source_label": "Mayacamas Ranch - The Invitation (steward-partner page)"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "definitely_not_available",
+      "evidence": "Mayacamas is not a bookable retreat centre on any date in the window: its lodge and cabins were destroyed in the 2017 Tubbs Fire and were never rebuilt, and the current site says the land now hosts only invited 'partners in residence' and intimate gatherings. There is no lodging inventory, no booking channel and no published phone number, so a 60-person Fri-Sun booking is impossible this weekend and every other.",
+      "evidence_quote": "Through select partners in residence, the ranch currently hosts intimate gatherings and creative work",
+      "source_url": "https://mayacamasranch.com/the-invitation/",
+      "source_label": "Mayacamas Ranch - The Invitation (steward-partner page)"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "definitely_not_available",
+      "evidence": "Mayacamas is not a bookable retreat centre on any date in the window: its lodge and cabins were destroyed in the 2017 Tubbs Fire and were never rebuilt, and the current site says the land now hosts only invited 'partners in residence' and intimate gatherings. There is no lodging inventory, no booking channel and no published phone number, so a 60-person Fri-Sun booking is impossible this weekend and every other.",
+      "evidence_quote": "Through select partners in residence, the ranch currently hosts intimate gatherings and creative work",
+      "source_url": "https://mayacamasranch.com/the-invitation/",
+      "source_label": "Mayacamas Ranch - The Invitation (steward-partner page)"
+    }
+  ],
+  "sources": [
+    "https://mayacamasranch.com/",
+    "https://mayacamasranch.com/the-invitation/"
+  ]
+}

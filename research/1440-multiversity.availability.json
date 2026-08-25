@@ -1,0 +1,94 @@
+{
+  "id": "1440-multiversity",
+  "checked_on": "2026-08-25",
+  "method": "Read /groups (Essential Requisites) and the full /faqs page, which is where 1440 actually documents how group bookings work, then the public /events calendar, which is the only dated listing on the site. I also checked /stay and /accommodations for a booking engine: there is none. Reservations run through reservations@1440.org and two phone numbers, and the FAQ confirms that contracted groups get a private, code-gated booking link that only goes live 30 days before arrival, so no public inventory exists to query. The events calendar lists just four campus items between now and the end of October plus one in June 2027, so it is maintained but sparse. Net: 1440 publishes essentially nothing about weekend availability, and most entries below are honestly 'unknown'.",
+  "booking_policy": "Not a buyout venue and not a general-hire venue. 1440 defines a group as 10+ people for two or more nights, and every group must be vetted: 'all guests must be participating in a mission-aligned learning activity or program that has been thoroughly reviewed by our 1440 Programming department'. Crucially the FAQ states twice that '1440 has established a waiting list for private mission-aligned group events', and separately that availability is limited because the campus has been committed to a multi-year corporate-wellness case study. Groups pre-pay 50% at contract signing and all charges before arrival. Pricing is all-inclusive per person (room, three meals, signature classes, parking). Private dining is 12-32 people per family-style menu; private events for 10-300 are possible for extra fees. Practically, a 60-person Fri-Sun booking here is a months-ahead, application-style process, not a date search - which is why the date-level answer is unknowable from the public web.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "probably_not_available",
+      "evidence": "1440 has two dated community events on campus that Friday and Saturday, and more decisively its group process rules out a booking at three days' notice: groups are contracted in advance with 50% prepaid, must be vetted as mission-aligned by the Programming department, and there is an explicit waiting list. This is a policy constraint, not a published date conflict.",
+      "evidence_quote": "The Ancestral Watch: A Night of Remembering at 1440",
+      "source_url": "https://www.1440.org/events",
+      "source_label": "1440 Multiversity events calendar"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "unknown",
+      "evidence": "1440 publishes no room inventory, no group-availability calendar and no booking engine on 1440.org; its only dated public listing is the events page, which shows nothing on campus this weekend. Under the brief's rule I do not read that silence as availability - it says only that I checked and the site is silent.",
+      "evidence_quote": null,
+      "source_url": "https://www.1440.org/events",
+      "source_label": "1440 Multiversity events calendar"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "unknown",
+      "evidence": "1440 publishes no room inventory, no group-availability calendar and no booking engine on 1440.org; its only dated public listing is the events page, which shows nothing on campus this weekend. Under the brief's rule I do not read that silence as availability - it says only that I checked and the site is silent.",
+      "evidence_quote": null,
+      "source_url": "https://www.1440.org/events",
+      "source_label": "1440 Multiversity events calendar"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "1440 is selling a public overnight program on Sept 18-19, which holds guest rooms and program venues on both nights of this weekend. That is a partial hold rather than proof: the campus has 147 rooms and 30+ venues and publishes no inventory, so I cannot tell whether a 60-person block would still fit alongside it.",
+      "evidence_quote": "Overnight Program Stay: Shift Your Heart Health",
+      "source_url": "https://www.1440.org/events",
+      "source_label": "1440 Multiversity events calendar"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "unknown",
+      "evidence": "1440 publishes no room inventory, no group-availability calendar and no booking engine on 1440.org; its only dated public listing is the events page, which shows nothing on campus this weekend. Under the brief's rule I do not read that silence as availability - it says only that I checked and the site is silent.",
+      "evidence_quote": null,
+      "source_url": "https://www.1440.org/events",
+      "source_label": "1440 Multiversity events calendar"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "1440 publishes no room inventory, no group-availability calendar and no booking engine on 1440.org; its only dated public listing is the events page, which shows nothing on campus this weekend. Under the brief's rule I do not read that silence as availability - it says only that I checked and the site is silent.",
+      "evidence_quote": null,
+      "source_url": "https://www.1440.org/events",
+      "source_label": "1440 Multiversity events calendar"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "1440 publishes no room inventory, no group-availability calendar and no booking engine on 1440.org; its only dated public listing is the events page, which shows nothing on campus this weekend. Under the brief's rule I do not read that silence as availability - it says only that I checked and the site is silent.",
+      "evidence_quote": null,
+      "source_url": "https://www.1440.org/events",
+      "source_label": "1440 Multiversity events calendar"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "unknown",
+      "evidence": "1440 publishes no room inventory, no group-availability calendar and no booking engine on 1440.org; its only dated public listing is the events page, which shows nothing on campus this weekend. Under the brief's rule I do not read that silence as availability - it says only that I checked and the site is silent.",
+      "evidence_quote": null,
+      "source_url": "https://www.1440.org/events",
+      "source_label": "1440 Multiversity events calendar"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "unknown",
+      "evidence": "1440 publishes no room inventory, no group-availability calendar and no booking engine on 1440.org; its only dated public listing is the events page, which shows nothing on campus this weekend. Under the brief's rule I do not read that silence as availability - it says only that I checked and the site is silent.",
+      "evidence_quote": null,
+      "source_url": "https://www.1440.org/events",
+      "source_label": "1440 Multiversity events calendar"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "unknown",
+      "evidence": "1440 publishes no room inventory, no group-availability calendar and no booking engine on 1440.org; its only dated public listing is the events page, which shows nothing on campus this weekend. Under the brief's rule I do not read that silence as availability - it says only that I checked and the site is silent. The events page does list a program for late June 2027, so it is maintained well beyond this date rather than simply stale.",
+      "evidence_quote": null,
+      "source_url": "https://www.1440.org/events",
+      "source_label": "1440 Multiversity events calendar"
+    }
+  ],
+  "sources": [
+    "https://www.1440.org/groups",
+    "https://www.1440.org/faqs",
+    "https://www.1440.org/events",
+    "https://www.1440.org/stay"
+  ]
+}

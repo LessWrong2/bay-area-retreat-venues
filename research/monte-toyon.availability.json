@@ -1,0 +1,97 @@
+{
+  "id": "monte-toyon",
+  "checked_on": "2026-08-25",
+  "method": "Monte Toyon is run by UCCR (United Camps, Conferences & Retreats), so I worked their Squarespace site first: www.uccr.org/monte-toyon, the /monte-toyon-forms-information/pricing page (which carries 2026 and 2027 pricing PDFs), /inquire, and the UCCR home page, all HTTP 200. UCCR publishes no availability calendar and no booking engine for Monte Toyon - reservations run through reservations@uccr.org and a phone line, and the site's own Availability section just tells you to enquire early. Since the venue itself says nothing dated, the productive angle was the demand side: the guest groups who book it publish their own retreat dates. I searched for churches, fellowships and organisations naming Monte Toyon with 2026 dates, which surfaced one direct hit on my list - First Church Berkeley UCC's Fall All-Church Retreat on exactly the Sept 11-13, 2026 weekend, confirmed by fetching their page (HTTP 200). I also found an Epworth Berkeley retreat there May 1-3, 2026, outside the window. Repeat searches aimed at October 2026 bookings turned up nothing, and I checked Yelp, ACA Camps, UUFRC and the Cal-Nevada UMC conference page without finding further dated 2026 fall bookings. Absence of a second hit is not evidence the other weekends are free - most groups never publish, and UCCR does not - so the remaining nine stay unknown.",
+  "booking_policy": "Whole-facility group rental, well matched to 60 people: 'For groups as small as 30 guests up to 146 guests', overnight capacity 146, day-use and dining capacity 150. Carey Lodge sleeps up to 70 in nineteen bedrooms and the Miller and Morris dorms take 36 and 40, so a 60-person group fits in the lodge alone. Open to secular groups as well as religious ones ('We are open to all types of groups who want to rent our facility... we welcome groups from all backgrounds'), which matters since the camp is owned by the United Methodist Cal-Nevada Conference. Pricing is per-person package based (2026 and 2027 rate PDFs published), the basic rate covering one night and three meals in a 24-hour window. Two constraints on a fall Fri-Sun: UCCR warns the camp books out early ('Our camp is popular'), and WOLF School runs outdoor-education programmes on site during the school year, though those are typically midweek rather than weekends. Reservations: reservations@uccr.org, 800-678-5102.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "UCCR publishes no dated availability for Monte Toyon; the site only advises enquiring early. No third-party group announced a retreat here this weekend.",
+      "evidence_quote": "Our camp is popular. For availability, inquire about reservations as soon as possible.",
+      "source_url": "https://www.uccr.org/monte-toyon",
+      "source_label": "UCCR Monte Toyon page, Availability section"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "unknown",
+      "evidence": "Labor Day weekend. No published calendar and no group announcement naming these dates at Monte Toyon.",
+      "evidence_quote": "Our camp is popular. For availability, inquire about reservations as soon as possible.",
+      "source_url": "https://www.uccr.org/monte-toyon",
+      "source_label": "UCCR Monte Toyon page, Availability section"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "definitely_not_available",
+      "evidence": "First Church Berkeley UCC is holding its Fall All-Church Retreat at Monte Toyon on exactly these dates - their page header reads 'Fri., Sept. 11 to Sun., Sept. 13, 2026' over 'Monte Toyon, Aptos', with registration already live. The quote below shows they are consuming the on-site lodging: demand exceeded the living arrangements, so they added an off-site hotel option for overflow. The site is booked by another whole-congregation group that weekend.",
+      "evidence_quote": "If staying at Monte Toyon is not accessible to you or your family, there will be an option to register for an Offsite Weekend and stay at a hotel of your choosing.",
+      "source_url": "https://www.firstchurchberkeley.org/fall-all-church-retreat-2026/",
+      "source_label": "First Church Berkeley UCC - Fall All-Church Retreat 2026 at Monte Toyon"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "No published calendar and no group announcement naming these dates. Note this weekend falls immediately after a confirmed booking, which says nothing either way about it.",
+      "evidence_quote": "Our camp is popular. For availability, inquire about reservations as soon as possible.",
+      "source_url": "https://www.uccr.org/monte-toyon",
+      "source_label": "UCCR Monte Toyon page, Availability section"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "unknown",
+      "evidence": "No published calendar and no group announcement naming these dates at Monte Toyon.",
+      "evidence_quote": "Our camp is popular. For availability, inquire about reservations as soon as possible.",
+      "source_url": "https://www.uccr.org/monte-toyon",
+      "source_label": "UCCR Monte Toyon page, Availability section"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "No published calendar and no group announcement naming these dates. Targeted searches for October 2026 bookings at Monte Toyon returned nothing.",
+      "evidence_quote": "Our camp is popular. For availability, inquire about reservations as soon as possible.",
+      "source_url": "https://www.uccr.org/monte-toyon",
+      "source_label": "UCCR Monte Toyon page, Availability section"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "No published calendar and no group announcement naming these dates at Monte Toyon.",
+      "evidence_quote": "Our camp is popular. For availability, inquire about reservations as soon as possible.",
+      "source_url": "https://www.uccr.org/monte-toyon",
+      "source_label": "UCCR Monte Toyon page, Availability section"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "unknown",
+      "evidence": "The group's target weekend. UCCR publishes nothing dated and no third-party group has announced a Monte Toyon retreat for it; this would need a call to reservations@uccr.org to resolve.",
+      "evidence_quote": "Our camp is popular. For availability, inquire about reservations as soon as possible.",
+      "source_url": "https://www.uccr.org/monte-toyon",
+      "source_label": "UCCR Monte Toyon page, Availability section"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "unknown",
+      "evidence": "No published calendar and no group announcement naming these dates at Monte Toyon.",
+      "evidence_quote": "Our camp is popular. For availability, inquire about reservations as soon as possible.",
+      "source_url": "https://www.uccr.org/monte-toyon",
+      "source_label": "UCCR Monte Toyon page, Availability section"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "unknown",
+      "evidence": "Halloween weekend. No published calendar and no group announcement naming these dates at Monte Toyon.",
+      "evidence_quote": "Our camp is popular. For availability, inquire about reservations as soon as possible.",
+      "source_url": "https://www.uccr.org/monte-toyon",
+      "source_label": "UCCR Monte Toyon page, Availability section"
+    }
+  ],
+  "sources": [
+    "https://www.uccr.org/monte-toyon",
+    "https://www.uccr.org/monte-toyon-forms-information/pricing",
+    "https://www.uccr.org/inquire",
+    "https://www.uccr.org/",
+    "https://www.firstchurchberkeley.org/fall-all-church-retreat-2026/",
+    "https://www.epworthberkeley.org/post/program-is-here-epworth-2026-retreat-may-1-3-monte-toyon",
+    "https://www.wolfschool.org/camp-monte-toyon"
+  ]
+}

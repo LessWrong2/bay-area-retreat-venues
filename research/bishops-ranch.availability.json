@@ -1,0 +1,95 @@
+{
+  "id": "bishops-ranch",
+  "checked_on": "2026-08-25",
+  "method": "Fetched bishopsranch.org home, /group-reservations (pricing structure and booking policies), /programs (their own dated public program list) and /experiences/individual-retreats, which is the one page that reveals when the Ranch has spare capacity. Their reservation system is Campwise, but only the registration front end is public — there is no public availability calendar for group bookings. The programs page runs from Aug 31 through Jan 2027 and is the only dated inventory of what the Ranch itself is doing. I also searched for third-party retreats booked at the Ranch in the window and verified one (a Viniyoga retreat, Sept 14-18, Mon-Fri) on the leader's own site; Grace Cathedral's congregation-retreat page returns 403 to non-browser clients so I could not confirm its dates.",
+  "booking_policy": "HARD CONSTRAINT: 'The Bishop's Ranch exclusively hosts nonprofit groups who exist for religious, charitable or community benefit' — a private 60-person group would need a qualifying nonprofit as the organising entity, so ask before anything else. Up to 80 adults across the Ranch House, Webb Lodge and five cottages; conference hall to 125, smallest meeting room 12. Exclusive Use groups get booking priority; non-exclusive groups are priced 'By Building' with a Ranch-set 'up to X guests' per building, and all lodging and meeting spaces you intend to use must be in the contract. Recurring groups, including Episcopal Diocese of California parishes, confirm next year's dates before reservations open to new groups, which is why autumn weekends can be gone without ever being advertised.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "The Ranch publishes no availability calendar for group bookings — everything runs through a reservations coordinator — and nothing on their programs page or in web searches puts an event on this weekend. The binding public fact is the guest-type policy, not the date.",
+      "evidence_quote": "The Bishop's Ranch exclusively hosts nonprofit groups who exist for religious, charitable or community benefit",
+      "source_url": "https://www.bishopsranch.org/group-reservations",
+      "source_label": "The Bishop's Ranch — group reservations policy"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "probably_not_available",
+      "evidence": "The Ranch has scheduled one of its own individual/household weekend retreats for Sept 4-6, 2026 in Webb Lodge, taking Friday-evening arrivals through Sunday. That rules out exclusive or near-whole-site use by an outside group, though it also shows the Ranch was not fully booked when the retreat was scheduled — they only run these 'when space is available'.",
+      "evidence_quote": "Come visit The Ranch! Our 360-acre campus offers abundant outdoor spaces to relax, explore and recharge during your weekend retreat.",
+      "source_url": "https://www.bishopsranch.org/experiences/individual-retreats",
+      "source_label": "The Bishop's Ranch — individual retreats (Sept 4-6 weekend)"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "unknown",
+      "evidence": "The Ranch's own contemplative retreat with Fr. Brendan Ellis Williams runs Monday Sept 7 to Friday Sept 11 with lodging in the Ranch House, so the site is occupied until Friday morning of this weekend; a same-day changeover is routine, but nothing public says whether the weekend itself is free.",
+      "evidence_quote": "In this year’s annual autumn retreat,",
+      "source_url": "https://www.bishopsranch.org/programs",
+      "source_label": "The Bishop's Ranch — programs (Sept 7-11 retreat)"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "A third-party Viniyoga retreat led by Mirka Kraftsow is booked at the Ranch for September 14-18, 2026 (Monday-Friday), ending on this Friday; that says nothing directly about the weekend itself, and no other event is published for it. Quote is the retreat description sitting directly under the 'September 14-18, 2026' heading on the leader's page.",
+      "evidence_quote": "Come enjoy time in nature and immerse yourself in the practices of Yoga that you love in the company of old and new friends.",
+      "source_url": "https://www.viniyogalife.com/bishops-ranch-retreat/",
+      "source_label": "Viniyoga Life — Bishop's Ranch retreat, Sept 14-18 2026"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "unknown",
+      "evidence": "No dated information exists for this weekend; the only public signal is that Exclusive Use groups get booking priority and recurring diocesan parishes confirm their dates before new groups, which means popular fall weekends are often taken long before anything appears publicly.",
+      "evidence_quote": "We give priority booking to Exclusive Use groups.",
+      "source_url": "https://www.bishopsranch.org/group-reservations",
+      "source_label": "The Bishop's Ranch — booking priority"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "The Ranch publishes no availability calendar for group bookings — everything runs through a reservations coordinator — and nothing on their programs page or in web searches puts an event on this weekend. The binding public fact is the guest-type policy, not the date.",
+      "evidence_quote": "The Bishop's Ranch exclusively hosts nonprofit groups who exist for religious, charitable or community benefit",
+      "source_url": "https://www.bishopsranch.org/group-reservations",
+      "source_label": "The Bishop's Ranch — group reservations policy"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "No dated information exists for this weekend; the only public signal is that Exclusive Use groups get booking priority and recurring diocesan parishes confirm their dates before new groups, which means popular fall weekends are often taken long before anything appears publicly.",
+      "evidence_quote": "We give priority booking to Exclusive Use groups.",
+      "source_url": "https://www.bishopsranch.org/group-reservations",
+      "source_label": "The Bishop's Ranch — booking priority"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "probably_not_available",
+      "evidence": "The Ranch is running its own public Fall Hike program on Saturday Oct 17 with a Ranch-prepared lunch, so it will be hosting day guests in the middle of this weekend. That does not rule out a partial booking, but it is inconsistent with the exclusive or near-whole-site use a 60-person retreat wants.",
+      "evidence_quote": "Experience the quiet magic of fall at The Bishop’s Ranch on a guided Saturday hike through some of its lesser-known trails.",
+      "source_url": "https://www.bishopsranch.org/programs",
+      "source_label": "The Bishop's Ranch — programs (Fall Hike, Oct 17)"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "unknown",
+      "evidence": "The Ranch publishes no availability calendar for group bookings — everything runs through a reservations coordinator — and nothing on their programs page or in web searches puts an event on this weekend. The binding public fact is the guest-type policy, not the date.",
+      "evidence_quote": "The Bishop's Ranch exclusively hosts nonprofit groups who exist for religious, charitable or community benefit",
+      "source_url": "https://www.bishopsranch.org/group-reservations",
+      "source_label": "The Bishop's Ranch — group reservations policy"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "probably_not_available",
+      "evidence": "The Ranch runs its own day-long 'Your Kitchen Madonna' workshop on Saturday Oct 31 with lunch included, putting outside day guests on site through the middle of this weekend — again compatible with a partial booking but not with exclusive use.",
+      "evidence_quote": "This creative collage, word, painting project is based on the book, The Kitchen Madonna, by Rumer Godden.",
+      "source_url": "https://www.bishopsranch.org/programs",
+      "source_label": "The Bishop's Ranch — programs (Oct 31 workshop)"
+    }
+  ],
+  "sources": [
+    "https://www.bishopsranch.org/",
+    "https://www.bishopsranch.org/group-reservations",
+    "https://www.bishopsranch.org/programs",
+    "https://www.bishopsranch.org/experiences/individual-retreats",
+    "https://www.viniyogalife.com/bishops-ranch-retreat/"
+  ]
+}

@@ -116,7 +116,26 @@ def main():
             v["availability"] = pr.get("availability") or []
             v["availabilityNotes"] = pr.get("availability_notes", "")
             v["checkedOn"] = pr.get("checked_on", "")
-        print(f"{v['id']}: research={'yes' if r else 'NO'} images={len(r.get('images', []))} geo={r.get('geo_confidence','-')} pricing={'yes' if os.path.exists(pp) else 'NO'}")
+        ap = os.path.join(RESEARCH, f"{v['id']}.availability.json")
+        if os.path.exists(ap):
+            av = json.load(open(ap))
+            v["verified"] = {
+                "checkedOn": av.get("checked_on", ""),
+                "method": av.get("method", ""),
+                "bookingPolicy": av.get("booking_policy", ""),
+                "weekends": [
+                    {
+                        "weekend": w.get("weekend"),
+                        "status": w.get("status", "unknown"),
+                        "evidence": w.get("evidence", ""),
+                        "quote": w.get("evidence_quote") or "",
+                        "sourceUrl": w.get("source_url", ""),
+                        "sourceLabel": w.get("source_label", ""),
+                    }
+                    for w in (av.get("weekends") or [])
+                ],
+            }
+        print(f"{v['id']}: research={'yes' if r else 'NO'} images={len(r.get('images', []))} geo={r.get('geo_confidence','-')} pricing={'yes' if os.path.exists(pp) else 'NO'} verified={len((v.get('verified') or {}).get('weekends', []))}")
         process_venue(v, r)
         out.append(v)
     with open(os.path.join(ROOT, "data.js"), "w") as f:

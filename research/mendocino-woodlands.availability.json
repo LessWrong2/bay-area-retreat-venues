@@ -1,0 +1,96 @@
+{
+  "id": "mendocino-woodlands",
+  "checked_on": "2026-08-25",
+  "method": "Started from mendocinowoodlands.org/bookings-events, which tells you to 'View our Camp Calendar to check for availability'. The camp-calendar page embeds a Google Calendar iframe carrying three public calendar IDs, colour-coded in the page's own legend as Camp 1 (red), Camp 2 (blue) and Camp 3 (green). I decoded the three base64 calendar IDs out of the iframe src and fetched each calendar's public .ics feed directly (all HTTP 200), then listed every VEVENT between Aug and Dec 2026. That gives confirmed, dated, per-camp reservations rather than a rendered widget. I also read /camp-rental-details for terms and /bookings-events for per-camp capacities. This is by far the best-published availability of the five venues I checked: MWCA publishes actual booked dates per camp.",
+  "booking_policy": "Group camping only, no individual bookings: 'The Mendocino Woodlands Camp is available for group camping only.' Groups from 30 to 200+. You rent one entire self-contained camp: Camp One (46 four-bed cabins plus two 10-person cabins, 1,800 sq ft rec hall, max 200), Camp Two (max 120), Camp Three (20 four-bed tent cabins, max 80). A 60-person group fits in any of the three. Arrival no earlier than 2:00 pm, departure no later than 11:00 am, so a Fri-Sun booking needs the camp free on the Friday and Saturday nights. Two deposits are due with the signed contract, including a 25% non-refundable rental deposit; the minimum fee is due 60 days before arrival, which makes anything inside 60 days a special case. Rates are not published, only by email or phone. Your group cooks for itself and cleans the camp before departure. The calendar warns that 'The open dates are subject to change' and that several legacy camps rebook the same weeks annually.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "definitely_not_available",
+      "evidence": "All three camps are reserved across Fri 8/28 and Sat 8/29: Camp 1 has a wedding 8/27-8/30, Camp 2 has 'Duffy's Reunion' 8/28-8/30 and Camp 3 has 'Camp 40' 8/27-8/31. The quote is the Camp 1 event title from that camp's public .ics feed.",
+      "evidence_quote": "C-1 Josh and April Wedding",
+      "source_url": "https://calendar.google.com/calendar/ical/c_5f2822059a7aac14074a0774a5ab4f01879a9af7ea4c07ad62ae15d18b6ee50d%40group.calendar.google.com/public/basic.ics",
+      "source_label": "Mendocino Woodlands Camp 1 public Google Calendar (.ics)"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "definitely_not_available",
+      "evidence": "Labor Day weekend is fully booked across all three camps: Camp 1 'Woodside Beasts', Camp 2 'UU Labor Day Camp' and Camp 3 'Andre Libarle', each running 9/4-9/7. The quote is the Camp 2 event title from its public .ics feed.",
+      "evidence_quote": "C-2 UU Labor Day Camp",
+      "source_url": "https://calendar.google.com/calendar/ical/u1jlf1ckt2cl6p75rlejfpdigg%40group.calendar.google.com/public/basic.ics",
+      "source_label": "Mendocino Woodlands Camp 2 public Google Calendar (.ics)"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "definitely_not_available",
+      "evidence": "No camp is free on Friday 9/11: Camp 1 has 'Sisters in Serenity' 9/11-9/13, Camp 3 has the Mendocino Running Festival 9/11-9/13, and Camp 2 is occupied by the school group quoted here through 9/11, freeing up only on the Saturday.",
+      "evidence_quote": "C-2 Mendocino Community High School",
+      "source_url": "https://calendar.google.com/calendar/ical/u1jlf1ckt2cl6p75rlejfpdigg%40group.calendar.google.com/public/basic.ics",
+      "source_label": "Mendocino Woodlands Camp 2 public Google Calendar (.ics)"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "definitely_available",
+      "evidence": "Camp 3 (max 80, enough for 60) has no reservation over 9/18-9/20 on its public calendar, so it shows as white/available; Camp 1 ('Camp Awesome') and Camp 2 ('Bay Campers') are both booked 9/17-9/19. Quote is the calendar page's own legend for open dates.",
+      "evidence_quote": "Available dates are shown in white.",
+      "source_url": "https://www.mendocinowoodlands.org/camp-calendar",
+      "source_label": "Mendocino Woodlands Camp Calendar"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "definitely_available",
+      "evidence": "Camp 1, the largest camp (max 200), has no reservation between 9/21 and 10/1 on its public calendar, so 9/25-9/27 is open; Camp 2 ('On Set Cinema') and Camp 3 ('St. Dominic's Young Adult Group') are both booked that weekend.",
+      "evidence_quote": "Available dates are shown in white.",
+      "source_url": "https://www.mendocinowoodlands.org/camp-calendar",
+      "source_label": "Mendocino Woodlands Camp Calendar"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "definitely_available",
+      "evidence": "Camp 2 (max 120) has no reservation between 9/28 and 11/1 on its public calendar, so 10/2-10/4 is open; Camp 1 ('Krisanne and Marie', 10/2-10/5) and Camp 3 ('NorCal', 10/1-10/4) are both booked.",
+      "evidence_quote": "Available dates are shown in white.",
+      "source_url": "https://www.mendocinowoodlands.org/camp-calendar",
+      "source_label": "Mendocino Woodlands Camp Calendar"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "definitely_available",
+      "evidence": "Camps 1 and 2 are both clear over 10/9-10/11 on their public calendars; only Camp 3 is taken ('Mysteries of Samhain', 10/9-10/12). Either open camp comfortably holds 60.",
+      "evidence_quote": "Available dates are shown in white.",
+      "source_url": "https://www.mendocinowoodlands.org/camp-calendar",
+      "source_label": "Mendocino Woodlands Camp Calendar"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "definitely_available",
+      "evidence": "All three camp calendars are empty over 10/16-10/18; the next reservations are Camp 1 on 11/6 and Camp 3 not until after October. Whole-site or single-camp use is open.",
+      "evidence_quote": "Available dates are shown in white.",
+      "source_url": "https://www.mendocinowoodlands.org/camp-calendar",
+      "source_label": "Mendocino Woodlands Camp Calendar"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "definitely_available",
+      "evidence": "All three camp calendars are empty over 10/23-10/25, so any camp including Camp One with its 1,800 sq ft recreation hall is available.",
+      "evidence_quote": "Available dates are shown in white.",
+      "source_url": "https://www.mendocinowoodlands.org/camp-calendar",
+      "source_label": "Mendocino Woodlands Camp Calendar"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "definitely_available",
+      "evidence": "Halloween weekend is clear on all three camp calendars; the last October booking ends 10/13 and the next event is Camp 1 on 11/6. Note the site is rustic and unheated apart from cabin fireplaces, so late-October nights are cold.",
+      "evidence_quote": "Available dates are shown in white.",
+      "source_url": "https://www.mendocinowoodlands.org/camp-calendar",
+      "source_label": "Mendocino Woodlands Camp Calendar"
+    }
+  ],
+  "sources": [
+    "https://www.mendocinowoodlands.org/bookings-events",
+    "https://www.mendocinowoodlands.org/camp-calendar",
+    "https://www.mendocinowoodlands.org/camp-rental-details",
+    "https://calendar.google.com/calendar/ical/c_5f2822059a7aac14074a0774a5ab4f01879a9af7ea4c07ad62ae15d18b6ee50d%40group.calendar.google.com/public/basic.ics",
+    "https://calendar.google.com/calendar/ical/u1jlf1ckt2cl6p75rlejfpdigg%40group.calendar.google.com/public/basic.ics",
+    "https://calendar.google.com/calendar/ical/qjhom66ed6lflb21l7nptf688k%40group.calendar.google.com/public/basic.ics"
+  ]
+}

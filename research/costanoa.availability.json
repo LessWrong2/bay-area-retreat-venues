@@ -1,0 +1,96 @@
+{
+  "id": "costanoa",
+  "checked_on": "2026-08-25",
+  "method": "Costanoa is a commercial Highway West Vacations resort with a live public booking engine at reservations.costanoa.com/costanoa/, so this venue could be checked far more directly than most. I fetched the marketing pages (costanoa.com home, /meetings/, /event-spaces/, /stay/lodge/) for capacity and group policy, then ran a dated availability search against reservations.costanoa.com/costanoa/availability.asp for each of the ten Fri-Sun windows (2 adults, both nights, HTTP 200 each time). Important parsing caveat I verified before trusting any result: every room card in the response contains BOTH a real price div and a hidden fallback div reading 'Not available for your current dates or guest count', so a naive text scrape reports every room as unavailable. A control query on an ordinary midweek date (11/10-11/12/2026) returned 27 room types with the same hidden fallback text, which proved the fallback is boilerplate. The real signal is which room-type cards the engine returns at all: it lists only types with bookable inventory for the full stay. I also probed adults=60, which is meaningless here - the engine's own error says it cannot accommodate that 'in one room' - so all counts below are from 2-adult searches. Room-type counts are a floor, not a unit count: a listed type means at least one unit is free, not thirty. The engine also shows only transient inventory, so rooms already held in a group block are invisible to it, which cuts both ways.",
+  "booking_policy": "Year-round commercial coastal resort, not a whole-site rental camp: 138 units total ('There are 39 luxury rooms in our Lodge, 14 cabins with a variety of amenities, and 85 glamping style tent bungalows'), plus RV sites and tent villages. A 60-person group needs roughly 30 units, a fraction of the property, so no buyout is required - but it is also far more than the public engine confirms on most of these weekends. Meeting spaces run to 'banquet seating for 80' (The Ranch House) and 'reception for 150' (Pine Tent), so the function space comfortably fits 60. Groups are handled by a sales team via the /meetings/ inquiry path rather than the public engine; a Group/Block rate code field exists on the booking form. Holiday weekends (Labor Day is named explicitly) carry a first-night non-refundable deposit and stricter cancellation terms. Note the booking engine footer leaks a sister property's address and phone ('221 Palm Canyon Drive'), so do not trust contact details shown there.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "probably_available",
+      "evidence": "A dated 08/28-08/30 search returned 8 bookable room types, 6 of them real lodging (Outer Pine Bungalows, Cypress, both Douglas Fir cabins, Lodge View King, Lighthouse View Bungalows) plus 2 RV site types. The quote is the description on the first returned card; cards only render for types with inventory for both nights. Only 'probably' because this confirms a handful of free units, not the ~30 a 60-person group needs, and no buyout is confirmed.",
+      "evidence_quote": "Bring your rig and roll right in - our premium pull-thru sites are built for convenience and comfort.",
+      "source_url": "https://reservations.costanoa.com/costanoa/availability.asp",
+      "source_label": "Costanoa booking engine, 08/28-08/30/2026 search"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "probably_not_available",
+      "evidence": "Labor Day weekend. The 09/04-09/06 search returned only 2 bookable room types in the entire resort, Cypress and Lodge View King, both 'Sleeps 2'. That is a nearly sold-out holiday weekend and nowhere near enough for 60 people.",
+      "evidence_quote": "Tucked beneath the dappled shade of mature cypress trees, these cozy bungalows are perfect for couples or solo travelers seeking peace and quiet.",
+      "source_url": "https://reservations.costanoa.com/costanoa/availability.asp",
+      "source_label": "Costanoa booking engine, 09/04-09/06/2026 search"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "probably_not_available",
+      "evidence": "The 09/11-09/13 search returned 5 room types, but 3 are RV sites; only Cypress and Pebble are lodging. Too thin for a 60-person group, though the resort is clearly open and selling.",
+      "evidence_quote": "Upgrade your stay with our deluxe back-in RV sites featuring an 8x11.5ft wooden platform - perfect for setting up one small tent (no tents permitted on the ground).",
+      "source_url": "https://reservations.costanoa.com/costanoa/availability.asp",
+      "source_label": "Costanoa booking engine, 09/11-09/13/2026 search"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "probably_not_available",
+      "evidence": "The 09/18-09/20 search returned 6 room types, 3 of them RV sites; the lodging types left were Cypress, Douglas Fir Cabin King and Lodge Premium. Limited remaining inventory rather than a sellout, but well short of 60 people.",
+      "evidence_quote": "Upgrade your stay with our deluxe back-in RV sites featuring an 8x11.5ft wooden platform - perfect for setting up one small tent (no tents permitted on the ground).",
+      "source_url": "https://reservations.costanoa.com/costanoa/availability.asp",
+      "source_label": "Costanoa booking engine, 09/18-09/20/2026 search"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "probably_not_available",
+      "evidence": "The 09/25-09/27 search returned exactly one bookable type across the whole resort, and it is an RV pull-through site, not lodging. Re-run to confirm it was not a transient glitch and it returned 1 again. Effectively no lodging left for a group.",
+      "evidence_quote": "Bring your rig and roll right in - our premium pull-thru sites are built for convenience and comfort.",
+      "source_url": "https://reservations.costanoa.com/costanoa/availability.asp",
+      "source_label": "Costanoa booking engine, 09/25-09/27/2026 search"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "probably_not_available",
+      "evidence": "The 10/02-10/04 search returned 6 types but mostly camping: two tent villages and two RV site types, leaving Family Bungalows and Pebble as the only lodging. Not enough for 60 people in cabins or rooms.",
+      "evidence_quote": "Bring your own tent and set up in a shady, grassy site designed for laid-back camping with family or friends.",
+      "source_url": "https://reservations.costanoa.com/costanoa/availability.asp",
+      "source_label": "Costanoa booking engine, 10/02-10/04/2026 search"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "definitely_not_available",
+      "evidence": "The only weekend where the engine returned zero bookable room types and the explicit sold-out message below. I split the stay to find out why: Friday 10/09-10/10 alone still returned one type, but Saturday 10/10-10/11 alone returned zero types and the same message, so the resort is genuinely full on the Saturday night rather than merely blocked by a minimum-stay rule.",
+      "evidence_quote": "Our apologies, We are either fully booked on one of the days you have requested, has set a minimum stay restriction, or the number of guests you have specified can not be accommodated in one room.",
+      "source_url": "https://reservations.costanoa.com/costanoa/availability.asp",
+      "source_label": "Costanoa booking engine, 10/09-10/11/2026 search (zero results)"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "probably_available",
+      "evidence": "The target weekend for this group. The 10/16-10/18 search returned 6 bookable types, all of them lodging (Outer Pine Bungalows, Cypress, Lodge King Accessible, Lodge Premium, View Lodge Premium, Pebble) with no RV filler - the healthiest lodging mix of any September or October weekend except 10/30. Still only 'probably': six free types is not thirty free units, and a group block would have to be confirmed with the sales team.",
+      "evidence_quote": "Nestled along the grassy ridgeline, these quiet hideaways are ideal for those who want a little more solitude.",
+      "source_url": "https://reservations.costanoa.com/costanoa/availability.asp",
+      "source_label": "Costanoa booking engine, 10/16-10/18/2026 search"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "probably_not_available",
+      "evidence": "The 10/23-10/25 search returned 7 types, but three are tent/RV sites; lodging left is Outer Pine Bungalows, Cypress, Pebble and Coastal Deluxe Cabin. Borderline, but thin enough that a 30-unit block looks unlikely without displacing existing bookings.",
+      "evidence_quote": "Bring your own tent and set up in a shady, grassy site designed for laid-back camping with family or friends.",
+      "source_url": "https://reservations.costanoa.com/costanoa/availability.asp",
+      "source_label": "Costanoa booking engine, 10/23-10/25/2026 search"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "probably_available",
+      "evidence": "Halloween weekend is by far the most open of the ten: the 10/30-11/01 search returned 24 bookable room types, close to the 27 returned by my off-peak midweek control, covering essentially the full range of lodge rooms, cabins, bungalows and cottages. This is the one weekend where enough distinct inventory is visibly free that a 60-person block looks realistic, but the engine still does not expose unit counts, so it stays 'probably'.",
+      "evidence_quote": "Bring your own tent and set up in a shady, grassy site designed for laid-back camping with family or friends.",
+      "source_url": "https://reservations.costanoa.com/costanoa/availability.asp",
+      "source_label": "Costanoa booking engine, 10/30-11/01/2026 search"
+    }
+  ],
+  "sources": [
+    "https://www.costanoa.com/",
+    "https://www.costanoa.com/meetings/",
+    "https://www.costanoa.com/event-spaces/",
+    "https://www.costanoa.com/stay/lodge/",
+    "https://reservations.costanoa.com/costanoa/",
+    "https://reservations.costanoa.com/costanoa/availability.asp"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "saratoga-springs",
+  "checked_on": "2026-08-25",
+  "method": "saratogasprings.com redirects to a hand-built static site under /vintage/ whose own footer reads 'Site last updated: July 11, 2020'. I walked essentially the whole site: home, sitemap, /retreats/retreats-events.html (their only events page), /rates/rates.html, retreat_facility.html and contact.html, all HTTP 200. There is no booking engine, no availability calendar, no rate card and no group-availability PDF anywhere on the domain - the rates page just says to phone or email for a quote. The events page has been touched more recently than the rest of the site (it lists an April 3-5, 2026 retreat) but names no event after April 2026, so it establishes nothing about September or October. Off-site I checked Yelp, Lake County tourism, winecountry.com, Nextdoor and cityseeker, and searched for 2026 retreats and festivals naming the venue; none carried dated 2026 fall bookings. I specifically chased Hexenfest, the multi-day festival that has occupied a Saratoga Springs October weekend in past years: hexenfest.net is still advertising 'October 9th - 12th, 2025' across its home, tickets, schedule and FAQ pages and has published no 2026 dates. That is a recurrence pattern, not evidence about 2026, so I have not let it move any status. The honest result for this venue is ten unknowns: nothing about fall 2026 occupancy is public.",
+  "booking_policy": "Exclusive whole-site use only, which suits a 60-person group well: the home page states the center is 'available for EXCLUSIVE USE' by groups (the site says minimum 20 in one place and the group-reservations note says min 20) for stays of 2 to 10 nights - so a Fri-Sun two-night booking sits at the bottom edge of the accepted range. 260-acre private valley, 19th-century lodge, rustic cabins, the 2,400 sq ft Heart Lodge meeting hall, pool and hot tub. Rates are quoted per group by season and size rather than published: 'We offer competitive group and individual packages depending on the size of your group and time of year for your event. Please call or email us for details.' Bookings go through stay@saratogasprings.com or the Events Manager at 707-275-9503, weekdays 9am-4pm. Because the site is exclusive-use, any single booked group blocks the entire weekend, which makes the total absence of a public calendar especially limiting.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "unknown",
+      "evidence": "The venue publishes no availability calendar or booking engine. Its only events page lists nothing for August 2026, but that page also lists nothing after April 2026 at all, so silence there carries no information.",
+      "evidence_quote": null,
+      "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html",
+      "source_label": "Saratoga Springs Retreats & Events page (only events listing on the site)"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "unknown",
+      "evidence": "Labor Day weekend. Nothing published either way; no calendar, no rate/availability sheet, and no third-party listing naming this weekend at the venue.",
+      "evidence_quote": null,
+      "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html",
+      "source_label": "Saratoga Springs Retreats & Events page"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "unknown",
+      "evidence": "No public source states whether the site is booked. The rates page directs all enquiries to phone or email rather than showing availability.",
+      "evidence_quote": null,
+      "source_url": "https://saratogasprings.com/vintage/rates/rates.html",
+      "source_label": "Saratoga Springs rates page (quote on request, no availability shown)"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "unknown",
+      "evidence": "No public source states whether the site is booked this weekend. Searched the venue site, Yelp, Lake County tourism and general web for dated fall 2026 events; nothing.",
+      "evidence_quote": null,
+      "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html",
+      "source_label": "Saratoga Springs Retreats & Events page"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "unknown",
+      "evidence": "No public source states whether the site is booked this weekend.",
+      "evidence_quote": null,
+      "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html",
+      "source_label": "Saratoga Springs Retreats & Events page"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "unknown",
+      "evidence": "No public source states whether the site is booked this weekend.",
+      "evidence_quote": null,
+      "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html",
+      "source_label": "Saratoga Springs Retreats & Events page"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "unknown",
+      "evidence": "This is the weekend Hexenfest has historically occupied at Saratoga Springs - its 2025 edition ran Oct 9-12, 2025 on this site. But hexenfest.net has not been updated for 2026: every page still advertises the 2025 dates and no 2026 festival has been announced. A past-years pattern is not dated evidence, so this stays unknown rather than becoming a negative.",
+      "evidence_quote": null,
+      "source_url": "https://www.hexenfest.net/faq",
+      "source_label": "Hexenfest FAQ (still showing 2025 dates, no 2026 announcement)"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "unknown",
+      "evidence": "The group's target weekend. No public source states whether the site is booked; the venue would have to be phoned or emailed to find out.",
+      "evidence_quote": null,
+      "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html",
+      "source_label": "Saratoga Springs Retreats & Events page"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "unknown",
+      "evidence": "No public source states whether the site is booked this weekend.",
+      "evidence_quote": null,
+      "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html",
+      "source_label": "Saratoga Springs Retreats & Events page"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "unknown",
+      "evidence": "Halloween weekend. No public source states whether the site is booked; nothing on the venue site or in third-party listings names it.",
+      "evidence_quote": null,
+      "source_url": "https://saratogasprings.com/vintage/retreats/retreats-events.html",
+      "source_label": "Saratoga Springs Retreats & Events page"
+    }
+  ],
+  "sources": [
+    "https://saratogasprings.com/",
+    "https://saratogasprings.com/vintage/",
+    "https://saratogasprings.com/vintage/retreats/retreats-events.html",
+    "https://saratogasprings.com/vintage/rates/rates.html",
+    "https://saratogasprings.com/vintage/retreat_facility.html",
+    "https://saratogasprings.com/vintage/sitemap.html",
+    "https://saratogasprings.com/vintage/contact.html",
+    "https://www.hexenfest.net/",
+    "https://www.hexenfest.net/faq",
+    "https://www.hexenfest.net/schedule",
+    "https://www.hexenfest.net/tickets"
+  ]
+}

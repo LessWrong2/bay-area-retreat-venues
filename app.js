@@ -12,7 +12,6 @@
     REF: 'Your own example venue, a venue that no longer rents, and three that are simply too small.'
   };
   var WEEKENDS = [
-    { id: '2026-08-21', mon: 'Aug', day: '21', label: 'Fri Aug 21 – Sun Aug 23' },
     { id: '2026-08-28', mon: 'Aug', day: '28', label: 'Fri Aug 28 – Sun Aug 30' },
     { id: '2026-09-04', mon: 'Sep', day: '4', label: 'Fri Sep 4 – Sun Sep 6 (Labor Day weekend)' },
     { id: '2026-09-11', mon: 'Sep', day: '11', label: 'Fri Sep 11 – Sun Sep 13' },
@@ -20,12 +19,22 @@
     { id: '2026-09-25', mon: 'Sep', day: '25', label: 'Fri Sep 25 – Sun Sep 27' },
     { id: '2026-10-02', mon: 'Oct', day: '2', label: 'Fri Oct 2 – Sun Oct 4' },
     { id: '2026-10-09', mon: 'Oct', day: '9', label: 'Fri Oct 9 – Sun Oct 11' },
-    { id: '2026-10-16', mon: 'Oct', day: '16', label: 'Fri Oct 16 – Sun Oct 18', target: true }
+    { id: '2026-10-16', mon: 'Oct', day: '16', label: 'Fri Oct 16 – Sun Oct 18', target: true },
+    { id: '2026-10-23', mon: 'Oct', day: '23', label: 'Fri Oct 23 – Sun Oct 25' },
+    { id: '2026-10-30', mon: 'Oct', day: '30', label: 'Fri Oct 30 – Sun Nov 1 (Halloween weekend)' }
   ];
   var TARGET_WEEKEND = '2026-10-16';
-  var STATUS_LABEL = { available: 'Open', partial: 'Partly open', booked: 'Booked / closed', unknown: 'No public info' };
+  var STATUSES = ['definitely_available', 'probably_available', 'unknown', 'probably_not_available', 'definitely_not_available'];
+  var STATUS_LABEL = {
+    definitely_available: 'Definitely available',
+    probably_available: 'Probably available',
+    unknown: 'Unknown',
+    probably_not_available: 'Probably not available',
+    definitely_not_available: 'Definitely not available'
+  };
+  var OPEN_STATUSES = { definitely_available: 1, probably_available: 1 };
 
-  var state = { filter: 'ALL', weekend: null, selected: null, hover: null, lightbox: { images: [], index: 0 } };
+  var state = { filter: 'ALL', weekend: null, selected: null, hover: null, evidence: null, lightbox: { images: [], index: 0 } };
   var markers = {};
   var rows = {};
 
@@ -40,13 +49,16 @@
     });
   }
   function byId(id) { for (var i = 0; i < VENUES.length; i++) if (VENUES[i].id === id) return VENUES[i]; return null; }
+  var EMPTY_WK = { status: 'unknown', evidence: '', quote: '', sourceUrl: '', sourceLabel: '' };
   function availStatus(v, weekendId) {
-    var a = (v.availability || []).filter(function (x) { return x.weekend === weekendId; })[0];
-    return a || { weekend: weekendId, status: 'unknown', evidence: '', source_url: '' };
+    var wks = (v.verified && v.verified.weekends) || [];
+    for (var i = 0; i < wks.length; i++) if (wks[i].weekend === weekendId) return wks[i];
+    return { weekend: weekendId, status: 'unknown', evidence: '', quote: '', sourceUrl: '', sourceLabel: '' };
   }
+  function weekendById(id) { for (var i = 0; i < WEEKENDS.length; i++) if (WEEKENDS[i].id === id) return WEEKENDS[i]; return null; }
   function visible(v) {
     if (state.filter !== 'ALL' && v.tier !== state.filter) return false;
-    if (state.weekend && availStatus(v, state.weekend).status !== 'available') return false;
+    if (state.weekend && !OPEN_STATUSES[availStatus(v, state.weekend).status]) return false;
     return true;
   }
   function isMobile() { return window.matchMedia('(max-width: 820px)').matches; }
@@ -116,13 +128,14 @@
         var thumb = v.thumb
           ? '<img class="row-thumb" src="' + esc(v.thumb) + '" alt="" loading="lazy">'
           : '<div class="row-thumb placeholder">' + esc(v.name.charAt(0)) + '</div>';
-        html += '<button class="row' + (state.selected === v.id ? ' is-selected' : '') + '" data-id="' + esc(v.id) + '" role="option" aria-selected="' + (state.selected === v.id) + '">' +
+        html += '<div class="row' + (state.selected === v.id ? ' is-selected' : '') + '" data-id="' + esc(v.id) + '" role="option" tabindex="0" aria-selected="' + (state.selected === v.id) + '">' +
+          weekendStrip(v) +
           thumb +
           '<div class="row-main">' +
             '<div class="row-name">' + esc(v.name) + '</div>' +
             '<div class="row-meta"><span>' + esc(v.area) + '</span><span class="sep">·</span><span>' + esc(v.drive) + '</span></div>' +
             '<div class="row-sleeps">' + esc(shortSleeps(v)) + '</div>' +
-          '</div>' + rowSide(v) + '</button>';
+          '</div>' + rowSide(v) + '</div>';
       });
     });
     listEl.innerHTML = html;
@@ -130,11 +143,27 @@
     Array.prototype.forEach.call(listEl.querySelectorAll('.row'), function (el) {
       rows[el.dataset.id] = el;
       el.addEventListener('click', function () { select(el.dataset.id, { from: 'list' }); });
+      el.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); select(el.dataset.id, { from: 'list' }); }
+      });
       el.addEventListener('mouseenter', function () { setHover(el.dataset.id); });
       el.addEventListener('mouseleave', function () { setHover(null); });
     });
     var n = VENUES.filter(visible).length;
     $('countLabel').textContent = n + ' venue' + (n === 1 ? '' : 's');
+  }
+
+  function weekendStrip(v) {
+    var wk = state.weekend || TARGET_WEEKEND;
+    var html = '<div class="wk-strip" aria-label="Weekend availability">';
+    WEEKENDS.forEach(function (w) {
+      var a = availStatus(v, w.id);
+      var isOpen = state.evidence && state.evidence.venue === v.id && state.evidence.weekend === w.id;
+      html += '<span class="wk-sq avail-' + esc(a.status) + (w.id === wk ? ' is-current' : '') + (w.target ? ' is-target' : '') + (isOpen ? ' is-open' : '') +
+        '" role="button" tabindex="-1" data-venue="' + esc(v.id) + '" data-wk="' + esc(w.id) + '"' +
+        ' aria-label="' + esc(w.label + ': ' + STATUS_LABEL[a.status]) + '"></span>';
+    });
+    return html + '</div>';
   }
 
   function rowSide(v) {
@@ -143,7 +172,7 @@
     var cost = '<span class="row-cost' + (c.mode === 'published' ? '' : ' quote') + '" title="' + esc(c.summary || '') + '">' + esc(label) + '</span>';
     var wk = state.weekend || TARGET_WEEKEND;
     var a = availStatus(v, wk);
-    var w = WEEKENDS.filter(function (x) { return x.id === wk; })[0];
+    var w = weekendById(wk);
     var avail = '<span class="row-avail" title="' + esc(w.label + ': ' + STATUS_LABEL[a.status]) + '"><span class="dot avail-' + esc(a.status) + '"></span>' + esc(w.mon + ' ' + w.day) + '</span>';
     return '<div class="row-side">' + cost + avail + '</div>';
   }
@@ -338,28 +367,35 @@
   }
 
   function availabilitySection(v) {
-    if (!v.availability || !v.availability.length) return '';
+    var ver = v.verified;
+    if (!ver || !ver.weekends || !ver.weekends.length) return '';
     var cur = state.weekend || TARGET_WEEKEND;
-    var html = '<div class="avail" id="availSection"><h3>Weekend availability (public evidence)</h3><div class="avail-grid">';
+    var html = '<div class="avail" id="availSection"><h3>Weekend availability (independently verified)</h3><div class="avail-grid">';
     WEEKENDS.forEach(function (w) {
       var a = availStatus(v, w.id);
       html += '<button class="avail-cell' + (w.id === cur ? ' is-active' : '') + (w.target ? ' is-target' : '') + '" data-wk="' + w.id + '" title="' + esc(w.label + ': ' + STATUS_LABEL[a.status]) + '">' +
         '<span class="wk-mon">' + esc(w.mon) + '</span><span class="wk-day">' + esc(w.day) + '</span><span class="dot avail-' + esc(a.status) + '"></span></button>';
     });
     html += '</div><div class="avail-detail" id="availDetail"></div>';
-    if (v.availabilityNotes) html += '<p class="avail-notes">' + esc(v.availabilityNotes) + '</p>';
-    html += '<div class="avail-legend"><span><span class="dot avail-available"></span>Open</span><span><span class="dot avail-partial"></span>Partly open</span><span><span class="dot avail-booked"></span>Booked / closed</span><span><span class="dot avail-unknown"></span>No public info</span>' + (v.checkedOn ? '<span>Checked ' + esc(v.checkedOn) + '</span>' : '') + '</div></div>';
+    if (ver.bookingPolicy) html += '<p class="avail-notes">' + esc(ver.bookingPolicy) + '</p>';
+    if (ver.method) html += '<p class="avail-method">' + esc(ver.method) + '</p>';
+    html += '<div class="avail-legend">' + STATUSES.map(function (st) {
+      return '<span><span class="dot avail-' + st + '"></span>' + esc(STATUS_LABEL[st]) + '</span>';
+    }).join('') + (ver.checkedOn ? '<span>Checked ' + esc(ver.checkedOn) + '</span>' : '') + '</div></div>';
     return html;
   }
 
   function renderAvailDetail(v, wkId) {
     var el = $('availDetail'); if (!el) return;
-    var w = WEEKENDS.filter(function (x) { return x.id === wkId; })[0];
+    var w = weekendById(wkId);
     var a = availStatus(v, wkId);
     el.innerHTML = '<strong>' + esc(w.label) + '</strong> — <span class="dot avail-' + esc(a.status) + '"></span> ' + esc(STATUS_LABEL[a.status]) +
-      (a.evidence ? '<br>' + esc(a.evidence) : '') +
-      (a.source_url ? ' <a href="' + esc(a.source_url) + '" target="_blank" rel="noopener">source</a>' : '');
+      (a.quote ? '<blockquote class="avail-quote">' + esc(a.quote) + '</blockquote>' : '') +
+      (a.evidence ? '<div class="avail-ev">' + esc(a.evidence) + '</div>' : '') +
+      (a.sourceUrl ? '<button class="avail-open" data-open-wk="' + esc(wkId) + '">Show the source page</button>' : '');
     Array.prototype.forEach.call(detailScroll.querySelectorAll('.avail-cell'), function (c) { c.classList.toggle('is-active', c.dataset.wk === wkId); });
+    var ob = el.querySelector('[data-open-wk]');
+    if (ob) ob.addEventListener('click', function () { openEvidence(v.id, wkId); });
   }
 
   function fact(label, value, wide) {
@@ -423,11 +459,11 @@
   function renderWeekends() {
     var html = '';
     WEEKENDS.forEach(function (w) {
-      var n = VENUES.filter(function (v) { return availStatus(v, w.id).status === 'available'; }).length;
-      var p = VENUES.filter(function (v) { return availStatus(v, w.id).status === 'partial'; }).length;
-      html += '<button class="wk' + (state.weekend === w.id ? ' is-active' : '') + (w.target ? ' is-target' : '') + '" data-wk="' + w.id + '" title="' + esc(w.label) + ' — ' + n + ' confirmed open' + (p ? ', ' + p + ' partly' : '') + '" role="tab" aria-selected="' + (state.weekend === w.id) + '">' +
+      var n = VENUES.filter(function (v) { return OPEN_STATUSES[availStatus(v, w.id).status]; }).length;
+      var p = VENUES.filter(function (v) { return availStatus(v, w.id).status === 'definitely_not_available'; }).length;
+      html += '<button class="wk' + (state.weekend === w.id ? ' is-active' : '') + (w.target ? ' is-target' : '') + '" data-wk="' + w.id + '" title="' + esc(w.label) + ' — ' + n + ' likely open' + (p ? ', ' + p + ' ruled out' : '') + '" role="tab" aria-selected="' + (state.weekend === w.id) + '">' +
         '<span class="wk-mon">' + esc(w.mon) + '</span><span class="wk-day">' + esc(w.day) + '</span>' +
-        '<span class="wk-count">' + (n ? '<span class="dot avail-available"></span>' + n : '<span class="dot avail-unknown"></span>0') + '</span>' +
+        '<span class="wk-count">' + (n ? '<span class="dot avail-definitely_available"></span>' + n : '<span class="dot avail-unknown"></span>0') + '</span>' +
         (w.target ? '<span class="wk-target-label">target</span>' : '') +
         '</button>';
     });
@@ -435,8 +471,8 @@
     $('weekendsClear').hidden = !state.weekend;
     var hint = $('weekendsHint');
     if (state.weekend) {
-      var w = WEEKENDS.filter(function (x) { return x.id === state.weekend; })[0];
-      var n = VENUES.filter(function (v) { return availStatus(v, state.weekend).status === 'available'; }).length;
+      var w = weekendById(state.weekend);
+      var n = VENUES.filter(function (v) { return OPEN_STATUSES[availStatus(v, state.weekend).status]; }).length;
       hint.textContent = w.label + ': ' + n + ' venue' + (n === 1 ? '' : 's') + ' with public evidence of being open. Others may still be free — call to confirm.';
     } else {
       hint.textContent = 'Pick a weekend to show only venues with public evidence they\u2019re open then. Most venues don\u2019t publish group availability — call to confirm.';
@@ -448,6 +484,146 @@
     applyFilters();
   });
   $('weekendsClear').addEventListener('click', function () { state.weekend = null; applyFilters(); });
+
+  /* ---------- weekend squares: popper tooltip + evidence iframe ---------- */
+  var tipEl = $('wkTip');
+  var tipInstance = null;
+  var tipTarget = null;
+
+  function showTip(sq) {
+    var v = byId(sq.dataset.venue);
+    var w = weekendById(sq.dataset.wk);
+    if (!v || !w) return;
+    var a = availStatus(v, w.id);
+    var quote = a.quote
+      ? '<blockquote class="wk-tip-quote">' + esc(a.quote) + '</blockquote>'
+      : '<p class="wk-tip-none">No quotable text on the page that was checked.</p>';
+    tipEl.innerHTML =
+      '<div class="wk-tip-head"><span class="dot avail-' + esc(a.status) + '"></span>' + esc(STATUS_LABEL[a.status]) + '</div>' +
+      '<div class="wk-tip-date">' + esc(w.label) + '</div>' +
+      quote +
+      (a.evidence ? '<p class="wk-tip-ev">' + esc(a.evidence) + '</p>' : '') +
+      (a.sourceLabel || a.sourceUrl ? '<p class="wk-tip-src">' + esc(a.sourceLabel || hostOf(a.sourceUrl)) + '</p>' : '') +
+      (a.sourceUrl ? '<p class="wk-tip-hint">Click to open the page at this text</p>' : '') +
+      '<div class="wk-tip-arrow" data-popper-arrow></div>';
+    tipEl.setAttribute('data-show', '');
+    tipTarget = sq;
+    if (tipInstance) tipInstance.destroy();
+    tipInstance = window.Popper.createPopper(sq, tipEl, {
+      placement: 'right',
+      modifiers: [
+        { name: 'offset', options: { offset: [0, 10] } },
+        { name: 'flip', options: { fallbackPlacements: ['left', 'bottom', 'top'] } },
+        { name: 'preventOverflow', options: { padding: 8 } },
+        { name: 'arrow', options: { padding: 6 } }
+      ]
+    });
+  }
+
+  function hideTip() {
+    tipEl.removeAttribute('data-show');
+    tipTarget = null;
+    if (tipInstance) { tipInstance.destroy(); tipInstance = null; }
+  }
+
+  /* Build a scroll-to-text URL. Chrome/Edge honour #:~:text=; other browsers ignore it. */
+  function textFragmentUrl(url, quote) {
+    if (!url) return url;
+    if (!quote) return url;
+    var base = url.split('#')[0];
+    var enc = function (t) { return encodeURIComponent(t).replace(/-/g, '%2D'); };
+    var words = quote.trim().split(/\s+/);
+    var frag;
+    if (words.length > 12) {
+      frag = enc(words.slice(0, 5).join(' ')) + ',' + enc(words.slice(-5).join(' '));
+    } else {
+      frag = enc(quote.trim());
+    }
+    return base + '#:~:text=' + frag;
+  }
+
+  var evPanel = $('evidencePanel');
+  var evFrame = $('evidenceFrame');
+  var evTimer = null;
+
+  function openEvidence(venueId, wkId) {
+    var v = byId(venueId), w = weekendById(wkId);
+    if (!v || !w) return;
+    var a = availStatus(v, wkId);
+    hideTip();
+    state.evidence = { venue: venueId, weekend: wkId };
+    var target = textFragmentUrl(a.sourceUrl, a.quote);
+
+    $('evidenceMeta').innerHTML =
+      '<div class="ev-venue">' + esc(v.name) + '</div>' +
+      '<div class="ev-date"><span class="dot avail-' + esc(a.status) + '"></span>' + esc(w.label) + ' — ' + esc(STATUS_LABEL[a.status]) + '</div>' +
+      (a.quote ? '<blockquote class="ev-quote">' + esc(a.quote) + '</blockquote>' : '') +
+      (a.evidence ? '<p class="ev-ev">' + esc(a.evidence) + '</p>' : '') +
+      (a.sourceUrl
+        ? '<p class="ev-src"><a href="' + esc(target) + '" target="_blank" rel="noopener">' + esc(a.sourceLabel || hostOf(a.sourceUrl)) + ' ↗</a></p>'
+        : '<p class="ev-src">No source page recorded — nothing was found for this weekend.</p>');
+
+    evPanel.classList.add('is-open');
+    evPanel.setAttribute('aria-hidden', 'false');
+    $('app').classList.add('evidence-open');
+    $('evidenceFallback').hidden = true;
+
+    if (evTimer) clearTimeout(evTimer);
+    if (a.sourceUrl) {
+      evFrame.hidden = false;
+      evFrame.src = target;
+      $('evidenceLoading').hidden = false;
+      evTimer = setTimeout(function () {
+        $('evidenceLoading').hidden = true;
+        showEvidenceFallback(a, target);
+      }, 4000);
+    } else {
+      evFrame.hidden = true;
+      evFrame.removeAttribute('src');
+      $('evidenceLoading').hidden = true;
+    }
+    renderList();
+  }
+
+  function showEvidenceFallback(a, target) {
+    var el = $('evidenceFallback');
+    el.innerHTML = '<p><strong>This site would not load in a frame.</strong> Many venue sites refuse to be embedded.</p>' +
+      (a.quote ? '<blockquote>' + esc(a.quote) + '</blockquote>' : '') +
+      (target ? '<p><a href="' + esc(target) + '" target="_blank" rel="noopener">Open the page in a new tab' + (a.quote ? ', scrolled to this text' : '') + ' ↗</a></p>' : '');
+    el.hidden = false;
+  }
+
+  evFrame.addEventListener('load', function () {
+    if (evTimer) clearTimeout(evTimer);
+    $('evidenceLoading').hidden = true;
+  });
+
+  function closeEvidence() {
+    if (evTimer) clearTimeout(evTimer);
+    evPanel.classList.remove('is-open');
+    evPanel.setAttribute('aria-hidden', 'true');
+    $('app').classList.remove('evidence-open');
+    evFrame.removeAttribute('src');
+    state.evidence = null;
+    renderList();
+  }
+  $('evidenceClose').addEventListener('click', closeEvidence);
+
+  listEl.addEventListener('mouseover', function (e) {
+    var sq = e.target.closest && e.target.closest('.wk-sq');
+    if (sq && sq !== tipTarget) showTip(sq);
+  });
+  listEl.addEventListener('mouseout', function (e) {
+    var sq = e.target.closest && e.target.closest('.wk-sq');
+    if (sq) hideTip();
+  });
+  listEl.addEventListener('click', function (e) {
+    var sq = e.target.closest && e.target.closest('.wk-sq');
+    if (!sq) return;
+    e.stopPropagation();
+    openEvidence(sq.dataset.venue, sq.dataset.wk);
+  }, true);
+  listEl.addEventListener('scroll', hideTip);
 
   /* ---------- keyboard ---------- */
   document.addEventListener('keydown', function (e) {

@@ -1,0 +1,96 @@
+{
+  "id": "harbin-hot-springs",
+  "checked_on": "2026-08-25",
+  "method": "Fetched harbin.org, the Book Your Visit reservation page, Accommodations & Rates, Helpful Information & Policies, the Events & Workshops page and the news blog, plus the site's own sitemap to make sure no group/rental page was missed. The decisive finding needs no calendar: Harbin's reservation policy states outright that group bookings are no longer allowed and that every guest over 18 must buy a membership and reserve individually. There is therefore no date on which a 60-person Fri-Sun group booking is possible, and I did not need to query the individual booking engine date by date. The Events & Workshops page loads its listings through a JavaScript calendar widget with no server-rendered dates, and in any case lists third-party workshops that do not occupy the site. Harbin is open 24 hours a day, 365 days a year, so there is no seasonal closure — the block is entirely a policy block.",
+  "booking_policy": "Group bookings have not been permitted since July 2023: all guests 18+ must purchase a membership ($15 one-month trial, $35 annual, $300 lifetime) and make their own individual reservation, with photo ID checked at check-in. Indoor lodging on weekends and holidays carries a two-night minimum. Lodging inventory is individual units — Grove Cottages (double occupancy), the Harbin Domes (single/double, no children, rates $125-$345 Fri-Sun) and Creekside Caravans — plus meadow and vehicle camping and day passes; two new Mainside hotels (Walnut and Azalea) are still under construction with ongoing noise. Pools and pool areas are clothing-optional; the property is alcohol- and drug-free. Open 24/7 year-round; 48-hour cancellation policy.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "definitely_not_available",
+      "evidence": "Harbin's published reservation policy flatly forbids group bookings, so a 60-person Fri-Sun group booking cannot be made this weekend regardless of how much room the property has.",
+      "evidence_quote": "Group bookings are no longer allowed",
+      "source_url": "https://harbin.org/reservations/book-your-visit/",
+      "source_label": "Harbin 'Book Your Visit' — Church Membership Policy"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "definitely_not_available",
+      "evidence": "Harbin's published reservation policy flatly forbids group bookings, so a 60-person Fri-Sun group booking cannot be made this weekend regardless of how much room the property has.",
+      "evidence_quote": "Group bookings are no longer allowed",
+      "source_url": "https://harbin.org/reservations/book-your-visit/",
+      "source_label": "Harbin 'Book Your Visit' — Church Membership Policy"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "definitely_not_available",
+      "evidence": "Harbin's published reservation policy flatly forbids group bookings, so a 60-person Fri-Sun group booking cannot be made this weekend regardless of how much room the property has.",
+      "evidence_quote": "Group bookings are no longer allowed",
+      "source_url": "https://harbin.org/reservations/book-your-visit/",
+      "source_label": "Harbin 'Book Your Visit' — Church Membership Policy"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "definitely_not_available",
+      "evidence": "Every adult must buy their own membership and make their own reservation, so a 60-person retreat would be 60 unrelated individual bookings with no held block and no group contract.",
+      "evidence_quote": "Effective July, 2023, all guests over the age of 18 are REQUIRED to purchase a membership and make their own reservation.",
+      "source_url": "https://harbin.org/reservations/book-your-visit/",
+      "source_label": "Harbin 'Book Your Visit' — Church Membership Policy"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "definitely_not_available",
+      "evidence": "Harbin's published reservation policy flatly forbids group bookings, so a 60-person Fri-Sun group booking cannot be made this weekend regardless of how much room the property has.",
+      "evidence_quote": "Group bookings are no longer allowed",
+      "source_url": "https://harbin.org/reservations/book-your-visit/",
+      "source_label": "Harbin 'Book Your Visit' — Church Membership Policy"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "definitely_not_available",
+      "evidence": "Harbin's published reservation policy flatly forbids group bookings, so a 60-person Fri-Sun group booking cannot be made this weekend regardless of how much room the property has.",
+      "evidence_quote": "Group bookings are no longer allowed",
+      "source_url": "https://harbin.org/reservations/book-your-visit/",
+      "source_label": "Harbin 'Book Your Visit' — Church Membership Policy"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "definitely_not_available",
+      "evidence": "Harbin's published reservation policy flatly forbids group bookings, so a 60-person Fri-Sun group booking cannot be made this weekend regardless of how much room the property has.",
+      "evidence_quote": "Group bookings are no longer allowed",
+      "source_url": "https://harbin.org/reservations/book-your-visit/",
+      "source_label": "Harbin 'Book Your Visit' — Church Membership Policy"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "definitely_not_available",
+      "evidence": "Weekend room stays carry a two-night minimum and are sold as individual double-occupancy cottages, domes and caravans; combined with the no-group-bookings rule, a whole-site 60-person weekend is not bookable.",
+      "evidence_quote": "For indoor lodging on weekends and holidays, a two night minimum stay is required.",
+      "source_url": "https://harbin.org/reservations/accommodations-rates/",
+      "source_label": "Harbin Accommodations & Rates"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "definitely_not_available",
+      "evidence": "Harbin's published reservation policy flatly forbids group bookings, so a 60-person Fri-Sun group booking cannot be made this weekend regardless of how much room the property has.",
+      "evidence_quote": "Group bookings are no longer allowed",
+      "source_url": "https://harbin.org/reservations/book-your-visit/",
+      "source_label": "Harbin 'Book Your Visit' — Church Membership Policy"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "definitely_not_available",
+      "evidence": "Harbin's published reservation policy flatly forbids group bookings, so a 60-person Fri-Sun group booking cannot be made this weekend regardless of how much room the property has.",
+      "evidence_quote": "Group bookings are no longer allowed",
+      "source_url": "https://harbin.org/reservations/book-your-visit/",
+      "source_label": "Harbin 'Book Your Visit' — Church Membership Policy"
+    }
+  ],
+  "sources": [
+    "https://harbin.org/",
+    "https://harbin.org/reservations/book-your-visit/",
+    "https://harbin.org/reservations/accommodations-rates/",
+    "https://harbin.org/reservations/helpful-information/",
+    "https://harbin.org/experience/events/",
+    "https://harbin.org/heart-consciousness/sitemap/"
+  ]
+}

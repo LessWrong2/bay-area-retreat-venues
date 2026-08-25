@@ -1,0 +1,109 @@
+{
+  "id": "wilbur-hot-springs",
+  "checked_on": "2026-08-25",
+  "method": "Wilbur's 'Book Now' buttons all point at FareHarbor (fareharbor.com/embeds/book/wilburhotsprings/), whose embed is a JavaScript app but whose underlying read API is public. I listed the company's items at https://fareharbor.com/api/v1/companies/wilburhotsprings/items/ and identified the seven lodging products - Cabin Queen (712141), Cabin Queen ADA (732939), Cabin Suite (732980), Solar Lodge (732990), Hotel Queen (733001), Bunk Room (733014) and Campsites (733207) - then queried /availabilities/date/<YYYY-MM-DD>/ for each product on both the Friday and the Saturday of all ten weekends (140 dated lookups), recording is_sold_out and is_bookable for each. I cross-checked the results against Wilbur's own Programs and Events page, the Reservations & Rates page, the reservation policies page, the Deals and Discounts page and the Current Conditions page. Wilbur publishes no group-availability calendar, no buyout or whole-site rental product, and no group rates; its published events list stops at September 27, 2026, so nothing on the website explains what is happening in October. The booking API is therefore the only dated evidence, and because approximate_available_capacity is reported as 0 even for products that are plainly bookable, it tells you which products are open on a night but not how many rooms remain.",
+  "booking_policy": "Small off-grid health sanctuary with a handful of cabins, an eight-room Solar Lodge, a few Historic Hotel rooms, a co-ed bunk room and six campsites - well under the ~30 rooms a 60-person group would need, and there is no published whole-site or group buyout option. Confirmed reservations are required for every visit and walk-ins cannot be accepted. Rates & policies state 'One-night stays available during the warmer summer months. Select weekends are 2 night stays (Friday & Saturday),' so Fri-Sat is the normal weekend unit. No one under 13 is allowed on the property and minors cannot use the bunk room; no pets; camping is seasonal, April-October; bathing is clothing-optional; all rates include an 11% land-management fee. Overnight cancellations carry a 5-day window, extended to 7 days on holidays, Guest Chef Weekends and special events.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "probably_not_available",
+      "evidence": "A visiting-teacher program is scheduled on the property across exactly this weekend, and the bunk room is already sold out Friday with campsites sold out Saturday; cabins, Solar Lodge and Hotel rooms are still individually bookable, so the site is open but not free for a 60-person takeover.",
+      "evidence_quote": "Wilbur periodically hosts special events and programs which are open to guest participation.",
+      "source_url": "https://www.wilburhotsprings.com/activities-events/special-events/",
+      "source_label": "Wilbur Programs and Events page (lists 'August 28 - 30 Pamela Gould - Yoga')"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "probably_not_available",
+      "evidence": "Labor Day weekend is mostly gone: on Saturday September 5 the FareHarbor API reports five of the seven lodging products sold out (Cabin Queen ADA, Cabin Suite, Hotel Queen, Bunk Room and Campsites), leaving only Cabin Queen and Solar Lodge; the quote is the raw availability record for the Hotel Queen that night.",
+      "evidence_quote": "\"utc_start_at\":\"2026-09-05T22:00:00+0000\",\"utc_end_at\":\"2026-09-05T22:00:00+0000\",\"status\":\"auto\",\"is_sold_out\":true",
+      "source_url": "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/733001/availabilities/date/2026-09-05/",
+      "source_label": "FareHarbor availability record, Hotel Queen, Sat 5 Sep 2026"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "probably_not_available",
+      "evidence": "A yoga program runs on site September 11-13, and the Cabin Suite is sold out both nights with the bunk room gone Friday and the Hotel Queen gone Saturday; the quote is the Cabin Suite's sold-out record for Friday night.",
+      "evidence_quote": "\"utc_start_at\":\"2026-09-11T22:00:00+0000\",\"utc_end_at\":\"2026-09-11T22:00:00+0000\",\"status\":\"auto\",\"is_sold_out\":true",
+      "source_url": "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/732980/availabilities/date/2026-09-11/",
+      "source_label": "FareHarbor availability record, Cabin Suite, Fri 11 Sep 2026"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "definitely_not_available",
+      "evidence": "Every one of the seven lodging products is sold out on both Friday and Saturday, and Wilbur's own events page explains why: this is one of the two 2026 Sarana Yoga Retreat / Guest Chef Weekends (September 18-20), which takes the whole property. The API block runs September 18-19.",
+      "evidence_quote": "2026 Sarana Yoga Retreat and Guest Chef Weekends",
+      "source_url": "https://www.wilburhotsprings.com/activities-events/special-events/",
+      "source_label": "Wilbur Programs and Events page, Sarana Yoga Retreat weekends"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "probably_not_available",
+      "evidence": "Another visiting-teacher yoga program is booked September 25-27, and the Cabin Suite is sold out both nights with the bunk room gone Friday and the Hotel Queen gone Saturday; individual cabins remain but the property is partly committed.",
+      "evidence_quote": "\"utc_start_at\":\"2026-09-25T22:00:00+0000\",\"utc_end_at\":\"2026-09-25T22:00:00+0000\",\"status\":\"auto\",\"is_sold_out\":true",
+      "source_url": "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/732980/availabilities/date/2026-09-25/",
+      "source_label": "FareHarbor availability record, Cabin Suite, Fri 25 Sep 2026"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "definitely_not_available",
+      "evidence": "All seven lodging products are sold out on both nights - the block actually runs October 1-3 - matching the second published Sarana Yoga Retreat and Guest Chef Weekend, October 2-4, which carries its own per-person food and beverage charge.",
+      "evidence_quote": "(extra Food & Beverage charge of $225 per person for guests participating in the Guest Chef Weekend)",
+      "source_url": "https://www.wilburhotsprings.com/activities-events/special-events/",
+      "source_label": "Wilbur Programs and Events page, Guest Chef Weekend Oct 2-4"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "probably_available",
+      "evidence": "All seven lodging products are bookable Friday night and five of seven Saturday night (only the Cabin Suite and bunk room are gone), and no program is published for that weekend; it is only 'probably' because Wilbur sells no whole-site buyout and the API does not expose how many rooms remain.",
+      "evidence_quote": "\"utc_start_at\":\"2026-10-09T22:00:00+0000\",\"utc_end_at\":\"2026-10-09T22:00:00+0000\",\"status\":\"auto\",\"is_sold_out\":false",
+      "source_url": "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/712141/availabilities/date/2026-10-09/",
+      "source_label": "FareHarbor availability record, Cabin Queen, Fri 9 Oct 2026"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "probably_available",
+      "evidence": "Six of seven products are bookable Friday (only the Cabin Suite is out) and all seven Saturday, with no published program; again 'probably' rather than 'definitely' because there is no group or buyout product and no remaining-room count.",
+      "evidence_quote": "\"utc_start_at\":\"2026-10-16T22:00:00+0000\",\"utc_end_at\":\"2026-10-16T22:00:00+0000\",\"status\":\"auto\",\"is_sold_out\":false",
+      "source_url": "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/712141/availabilities/date/2026-10-16/",
+      "source_label": "FareHarbor availability record, Cabin Queen, Fri 16 Oct 2026"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "definitely_not_available",
+      "evidence": "Every lodging product is sold out on both nights, and probing the surrounding dates shows an unbroken block from October 20 through October 27 - an eight-day closure or private booking that Wilbur has not published anywhere on its website.",
+      "evidence_quote": "\"utc_start_at\":\"2026-10-23T22:00:00+0000\",\"utc_end_at\":\"2026-10-23T22:00:00+0000\",\"status\":\"auto\",\"is_sold_out\":true",
+      "source_url": "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/712141/availabilities/date/2026-10-23/",
+      "source_label": "FareHarbor availability record, Cabin Queen, Fri 23 Oct 2026"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "probably_available",
+      "evidence": "The cleanest weekend of the ten: all seven lodging products, including campsites and the bunk room, are bookable on both Friday and Saturday, with no published program; still 'probably' because a 60-person whole-site hold is not something Wilbur sells online.",
+      "evidence_quote": "\"utc_start_at\":\"2026-10-30T22:00:00+0000\",\"utc_end_at\":\"2026-10-30T22:00:00+0000\",\"status\":\"auto\",\"is_sold_out\":false",
+      "source_url": "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/712141/availabilities/date/2026-10-30/",
+      "source_label": "FareHarbor availability record, Cabin Queen, Fri 30 Oct 2026"
+    }
+  ],
+  "sources": [
+    "https://www.wilburhotsprings.com/",
+    "https://www.wilburhotsprings.com/reservations/",
+    "https://www.wilburhotsprings.com/reservations/rooms-rates/",
+    "https://www.wilburhotsprings.com/reservations/policies-and-terms/",
+    "https://www.wilburhotsprings.com/activities-events/special-events/",
+    "https://www.wilburhotsprings.com/special-offers/",
+    "https://www.wilburhotsprings.com/current-conditions-at-wilbur/",
+    "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/",
+    "https://fareharbor.com/embeds/book/wilburhotsprings/items/732980/?full-items=yes",
+    "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/712141/availabilities/date/2026-09-18/",
+    "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/712141/availabilities/date/2026-10-02/",
+    "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/712141/availabilities/date/2026-10-09/",
+    "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/712141/availabilities/date/2026-10-16/",
+    "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/712141/availabilities/date/2026-10-23/",
+    "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/712141/availabilities/date/2026-10-30/",
+    "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/732980/availabilities/date/2026-09-11/",
+    "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/732980/availabilities/date/2026-09-25/",
+    "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/733001/availabilities/date/2026-09-05/",
+    "https://fareharbor.com/api/v1/companies/wilburhotsprings/items/733014/availabilities/date/2026-08-28/"
+  ]
+}

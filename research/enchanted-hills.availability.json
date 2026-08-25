@@ -1,0 +1,95 @@
+{
+  "id": "enchanted-hills",
+  "checked_on": "2026-08-25",
+  "method": "Fetched enchantedhillsnapa.org (home, /booking/, /booking/events/, /booking/stays/) and, on the operator's site, lighthouse-sf.org's Enchanted Hills Camp page and the full 2026 EHC Sessions and Registration page, which lists every camp session for the year with dates. Enchanted Hills publishes a complete camp-session calendar but no rental availability calendar and no booking engine — both the Stays and Events pages are inquiry forms only. The 2026 session list is the decisive document: it puts every summer session in June-August, one Summer Family Camp Aug 6-8, and exactly one session inside our window, Fall Family Camp Oct 30 - Nov 1. Also searched the web for Enchanted Hills Napa 2026 session dates and October rentals, which surfaced the same session page.",
+  "booking_policy": "Owned and run by LightHouse for the Blind; the Napa campus runs blind/low-vision camp sessions June through early August and Fall Family Camp Oct 30 - Nov 1, and is rented to outside groups the rest of the year, with rental income subsidising camp. Advertised for groups of roughly 30-150 across Forest Commons cabins, Hillside Commons, the Hogan Lodge, Lakeside casitas, safari tents and yurts, so 60 people fits comfortably. No online booking: rentals go through the Stays or Events inquiry form or events@lighthouse-sf.org. Rebuilt after the 2017 Atlas fire — worth confirming which buildings are back online for your headcount.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "probably_available",
+      "evidence": "The published 2026 camp schedule has no session on this weekend — summer sessions ended with Summer Family Camp Aug 6-8 and the next session is Fall Family Camp Oct 30 - Nov 1 — and LightHouse states the campus is rented out whenever camp is not in session. It is only 'probably' because Enchanted Hills publishes no rental calendar and no booking engine, so an unadvertised private rental or wedding could already hold the date. ",
+      "evidence_quote": "When Enchanted Hills isn’t hosting camp programs, we make our beautiful Napa campus available for rentals, retreats, and events.",
+      "source_url": "https://lighthouse-sf.org/program/enchanted-hills-camp/",
+      "source_label": "LightHouse — Enchanted Hills Camp (off-season rentals)"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "probably_available",
+      "evidence": "The published 2026 camp schedule has no session on this weekend — summer sessions ended with Summer Family Camp Aug 6-8 and the next session is Fall Family Camp Oct 30 - Nov 1 — and LightHouse states the campus is rented out whenever camp is not in session. It is only 'probably' because Enchanted Hills publishes no rental calendar and no booking engine, so an unadvertised private rental or wedding could already hold the date. The venue's own home page frames the same summer-camp / off-season-rental split.",
+      "evidence_quote": "our property hosts an active camp in the summer for the blind and visually impaired community and opens as a versatile retreat venue during the off-season",
+      "source_url": "https://enchantedhillsnapa.org/",
+      "source_label": "Enchanted Hills Napa — home page"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "probably_available",
+      "evidence": "The published 2026 camp schedule has no session on this weekend — summer sessions ended with Summer Family Camp Aug 6-8 and the next session is Fall Family Camp Oct 30 - Nov 1 — and LightHouse states the campus is rented out whenever camp is not in session. It is only 'probably' because Enchanted Hills publishes no rental calendar and no booking engine, so an unadvertised private rental or wedding could already hold the date. ",
+      "evidence_quote": "When Enchanted Hills isn’t hosting camp programs, we make our beautiful Napa campus available for rentals, retreats, and events.",
+      "source_url": "https://lighthouse-sf.org/program/enchanted-hills-camp/",
+      "source_label": "LightHouse — Enchanted Hills Camp (off-season rentals)"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "probably_available",
+      "evidence": "The published 2026 camp schedule has no session on this weekend — summer sessions ended with Summer Family Camp Aug 6-8 and the next session is Fall Family Camp Oct 30 - Nov 1 — and LightHouse states the campus is rented out whenever camp is not in session. It is only 'probably' because Enchanted Hills publishes no rental calendar and no booking engine, so an unadvertised private rental or wedding could already hold the date. The quote is from the Stays page, which confirms booking is by inquiry only, with no dates shown.",
+      "evidence_quote": "The Enchanted Hills Napa team will respond to your inquiry and provide personalized assistance to ensure a comfortable and enjoyable stay.",
+      "source_url": "https://enchantedhillsnapa.org/booking/stays/",
+      "source_label": "Enchanted Hills Napa — Stays inquiry page"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "probably_available",
+      "evidence": "The published 2026 camp schedule has no session on this weekend — summer sessions ended with Summer Family Camp Aug 6-8 and the next session is Fall Family Camp Oct 30 - Nov 1 — and LightHouse states the campus is rented out whenever camp is not in session. It is only 'probably' because Enchanted Hills publishes no rental calendar and no booking engine, so an unadvertised private rental or wedding could already hold the date. ",
+      "evidence_quote": "When Enchanted Hills isn’t hosting camp programs, we make our beautiful Napa campus available for rentals, retreats, and events.",
+      "source_url": "https://lighthouse-sf.org/program/enchanted-hills-camp/",
+      "source_label": "LightHouse — Enchanted Hills Camp (off-season rentals)"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "probably_available",
+      "evidence": "The published 2026 camp schedule has no session on this weekend — summer sessions ended with Summer Family Camp Aug 6-8 and the next session is Fall Family Camp Oct 30 - Nov 1 — and LightHouse states the campus is rented out whenever camp is not in session. It is only 'probably' because Enchanted Hills publishes no rental calendar and no booking engine, so an unadvertised private rental or wedding could already hold the date. The venue's own home page frames the same summer-camp / off-season-rental split.",
+      "evidence_quote": "our property hosts an active camp in the summer for the blind and visually impaired community and opens as a versatile retreat venue during the off-season",
+      "source_url": "https://enchantedhillsnapa.org/",
+      "source_label": "Enchanted Hills Napa — home page"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "probably_available",
+      "evidence": "The published 2026 camp schedule has no session on this weekend — summer sessions ended with Summer Family Camp Aug 6-8 and the next session is Fall Family Camp Oct 30 - Nov 1 — and LightHouse states the campus is rented out whenever camp is not in session. It is only 'probably' because Enchanted Hills publishes no rental calendar and no booking engine, so an unadvertised private rental or wedding could already hold the date. ",
+      "evidence_quote": "When Enchanted Hills isn’t hosting camp programs, we make our beautiful Napa campus available for rentals, retreats, and events.",
+      "source_url": "https://lighthouse-sf.org/program/enchanted-hills-camp/",
+      "source_label": "LightHouse — Enchanted Hills Camp (off-season rentals)"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "probably_available",
+      "evidence": "The published 2026 camp schedule has no session on this weekend — summer sessions ended with Summer Family Camp Aug 6-8 and the next session is Fall Family Camp Oct 30 - Nov 1 — and LightHouse states the campus is rented out whenever camp is not in session. It is only 'probably' because Enchanted Hills publishes no rental calendar and no booking engine, so an unadvertised private rental or wedding could already hold the date. Quote is the heading of the last summer session on the 2026 session list, the item immediately before the Aug 8 - Oct 30 gap.",
+      "evidence_quote": "Summer Family Camp (priority families with BVI Parents)",
+      "source_url": "https://lighthouse-sf.org/program/enchanted-hills-camp/enchanted-hills-camp-2026-sessions/",
+      "source_label": "LightHouse — 2026 EHC session list"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "probably_available",
+      "evidence": "The published 2026 camp schedule has no session on this weekend — summer sessions ended with Summer Family Camp Aug 6-8 and the next session is Fall Family Camp Oct 30 - Nov 1 — and LightHouse states the campus is rented out whenever camp is not in session. It is only 'probably' because Enchanted Hills publishes no rental calendar and no booking engine, so an unadvertised private rental or wedding could already hold the date. ",
+      "evidence_quote": "When Enchanted Hills isn’t hosting camp programs, we make our beautiful Napa campus available for rentals, retreats, and events.",
+      "source_url": "https://lighthouse-sf.org/program/enchanted-hills-camp/",
+      "source_label": "LightHouse — Enchanted Hills Camp (off-season rentals)"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "definitely_not_available",
+      "evidence": "LightHouse runs Fall Family Camp at Enchanted Hills from Friday Oct 30 to Sunday Nov 1, 2026 — exactly this weekend — so the campus is hosting its own camp session and is not available as a rental.",
+      "evidence_quote": "October 30th – November 1st $1,000 for the first/blind student, $250 for each additional family member",
+      "source_url": "https://lighthouse-sf.org/program/enchanted-hills-camp/enchanted-hills-camp-2026-sessions/",
+      "source_label": "LightHouse — 2026 EHC session list (Fall Family Camp)"
+    }
+  ],
+  "sources": [
+    "https://enchantedhillsnapa.org/",
+    "https://enchantedhillsnapa.org/booking/events/",
+    "https://enchantedhillsnapa.org/booking/stays/",
+    "https://lighthouse-sf.org/program/enchanted-hills-camp/",
+    "https://lighthouse-sf.org/program/enchanted-hills-camp/enchanted-hills-camp-2026-sessions/"
+  ]
+}

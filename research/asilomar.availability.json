@@ -1,0 +1,100 @@
+{
+  "id": "asilomar",
+  "checked_on": "2026-08-25",
+  "method": "I drove Asilomar's own live booking engine (Aramark's reservations.ahlsmsworld.com, property code APOWELL, the engine behind the 'Book Now' widget on visitasilomar.com) once per weekend, POSTing ArrivalDate=Friday / DepartureDate=Sunday, 2 adults, 1 unit, then following the /Asilomar/PleaseWait redirect to /Asilomar/Plan-Your-Trip/Accommodation-Search/Results and parsing what came back. Each search returns a 'Your Search:' panel echoing the exact Fri-Sun date range, followed by one card per bookable room type with a 'Best Flexible Rate' price and an 'Add to Cart' button; a weekend with nothing left instead returns an 'Our Apologies!' page. I recorded, for every one of the ten weekends, how many distinct room types and how many rate options the engine offered for the full two-night stay. I also read the meetings/venues, complete-meeting-packages, lodging and upcoming-events pages on visitasilomar.com for group policy, and checked the site's events feed (which only lists third-party Monterey-area events such as the Monterey County Fair, not on-site conferences). Asilomar publishes no group-availability calendar and no list of the conferences occupying the grounds, so the booking engine is the only dated public evidence; note that its results are session-scoped POST output, so the Results URL only shows content inside the search session I created. The engine also rejects multi-room (UnitCount>1) searches, so it cannot confirm that ~30 rooms are free on any given weekend - only that the property is or is not taking two-night transient bookings.",
+  "booking_policy": "A large public conference ground run by Aramark as a California State Parks concession, with (per its venues page) '30 venues and 27 breakout spaces' and several hundred guest rooms; because it is open to the public, so a true whole-site buyout is not something they offer or that a 60-person group would need. Groups book through Complete Meeting Packages (per-person, per-night, including guestrooms, meeting space, three meals and fees) via an RFP, not through the public engine. The package page warns that 'Additional Room Rental charges may apply based on space to room ration' and that complimentary meeting space carries a minimum-guestroom requirement on peak nights. The transient engine caps a single search at 1 unit and 9 adults, so it cannot be used to hold ~30 rooms; a 60-person Fri-Sun booking would go through group sales, whose inventory may differ from what the transient engine shows.",
+  "weekends": [
+    {
+      "weekend": "2026-08-28",
+      "status": "definitely_available",
+      "evidence": "A live two-night Fri-Sun search on Asilomar's own booking engine returned 9 distinct room types and 28 bookable rate options (Asilomar Rooms, Fireplace Rooms, Historic Rooms, King and ADA rooms), all with Add to Cart enabled; the quote is the engine's own echo of the dates searched.",
+      "evidence_quote": "Friday, August 28, 2026 - Sunday, August 30, 2026",
+      "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+      "source_label": "Asilomar booking engine, Fri-Sun search results"
+    },
+    {
+      "weekend": "2026-09-04",
+      "status": "probably_not_available",
+      "evidence": "Labor Day weekend came back all but sold out: the engine offered exactly one room type ('Fireplace & 2 Double Beds') with 4 rate options for the whole grounds, which is nowhere near 30 rooms; the result reproduced identically on a repeat search.",
+      "evidence_quote": "Friday, September 4, 2026 - Sunday, September 6, 2026",
+      "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+      "source_label": "Asilomar booking engine, Fri-Sun search results"
+    },
+    {
+      "weekend": "2026-09-11",
+      "status": "definitely_available",
+      "evidence": "The widest availability of any weekend tested: 11 distinct room types and 45 bookable rate options for the full Friday-to-Sunday stay, including Ocean View and Historic categories.",
+      "evidence_quote": "Friday, September 11, 2026 - Sunday, September 13, 2026",
+      "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+      "source_label": "Asilomar booking engine, Fri-Sun search results"
+    },
+    {
+      "weekend": "2026-09-18",
+      "status": "probably_available",
+      "evidence": "8 room types and 33 rate options were bookable for both nights - plenty for individual rooms, but narrower than the strongest weekends and with no way to confirm through the public engine that ~30 rooms are free.",
+      "evidence_quote": "Friday, September 18, 2026 - Sunday, September 20, 2026",
+      "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+      "source_label": "Asilomar booking engine, Fri-Sun search results"
+    },
+    {
+      "weekend": "2026-09-25",
+      "status": "probably_available",
+      "evidence": "Only 5 room types and 21 rate options remained for the two-night stay (no Asilomar Room king or fireplace inventory), suggesting the grounds are already partly committed; enough for some rooms but not demonstrably for 30.",
+      "evidence_quote": "Friday, September 25, 2026 - Sunday, September 27, 2026",
+      "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+      "source_label": "Asilomar booking engine, Fri-Sun search results"
+    },
+    {
+      "weekend": "2026-10-02",
+      "status": "probably_available",
+      "evidence": "6 room types and 25 rate options were bookable for both nights, but the mix is heavily Historic and ADA rooms, which reads as leftover inventory around an existing group rather than an open house.",
+      "evidence_quote": "Friday, October 2, 2026 - Sunday, October 4, 2026",
+      "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+      "source_label": "Asilomar booking engine, Fri-Sun search results"
+    },
+    {
+      "weekend": "2026-10-09",
+      "status": "probably_not_available",
+      "evidence": "Nearly sold out: just 2 room types ('Fireplace & 2 Double Beds' and 'Ocean View & 2 Double Beds') and 9 rate options survived a two-night Fri-Sun search, far short of what 60 people would need.",
+      "evidence_quote": "Friday, October 9, 2026 - Sunday, October 11, 2026",
+      "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+      "source_label": "Asilomar booking engine, Fri-Sun search results"
+    },
+    {
+      "weekend": "2026-10-16",
+      "status": "definitely_available",
+      "evidence": "10 distinct room types and 41 bookable rate options for the full two-night stay, at the lowest rates seen in the sample ($217/night starting), which is what a genuinely open weekend looks like on this engine.",
+      "evidence_quote": "Friday, October 16, 2026 - Sunday, October 18, 2026",
+      "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+      "source_label": "Asilomar booking engine, Fri-Sun search results"
+    },
+    {
+      "weekend": "2026-10-23",
+      "status": "definitely_not_available",
+      "evidence": "The engine returned no inventory at all for Fri-Sun; retried as Fri-Sat and again as Sat-Sun, and each single night was also empty, so the whole grounds are sold out or blocked that weekend. This is the quoted 'Our Apologies!' response text.",
+      "evidence_quote": "We are unable to provide you with rates & availability based on search requirements entered.",
+      "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+      "source_label": "Asilomar booking engine, no-availability response"
+    },
+    {
+      "weekend": "2026-10-30",
+      "status": "definitely_available",
+      "evidence": "Halloween weekend came back wide open: 9 room types and 34 bookable rate options across both nights, again at low season rates from $192.",
+      "evidence_quote": "Friday, October 30, 2026 - Sunday, November 1, 2026",
+      "source_url": "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+      "source_label": "Asilomar booking engine, Fri-Sun search results"
+    }
+  ],
+  "sources": [
+    "https://www.visitasilomar.com/",
+    "https://reservations.ahlsmsworld.com/Asilomar/Search/Accomodations",
+    "https://reservations.ahlsmsworld.com/Asilomar/PleaseWait",
+    "https://reservations.ahlsmsworld.com/Asilomar/Plan-Your-Trip/Accommodation-Search/Results",
+    "https://www.visitasilomar.com/meetings-events",
+    "https://www.visitasilomar.com/meetings-events/venues",
+    "https://www.visitasilomar.com/meetings-events/complete-meeting-packages",
+    "https://www.visitasilomar.com/lodging",
+    "https://www.visitasilomar.com/things-to-do/upcoming-events",
+    "https://www.visitasilomar.com/sitemap.xml"
+  ]
+}
