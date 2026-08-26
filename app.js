@@ -34,7 +34,7 @@
   };
   var OPEN_STATUSES = { definitely_available: 1, probably_available: 1 };
 
-  var state = { filter: 'ALL', weekend: null, selected: null, hover: null, evidence: null, lightbox: { images: [], index: 0 } };
+  var state = { filter: 'ALL', weekend: null, selected: null, hover: null, lightbox: { images: [], index: 0 } };
   var markers = {};
   var rows = {};
 
@@ -49,7 +49,6 @@
     });
   }
   function byId(id) { for (var i = 0; i < VENUES.length; i++) if (VENUES[i].id === id) return VENUES[i]; return null; }
-  var EMPTY_WK = { status: 'unknown', evidence: '', quote: '', sourceUrl: '', sourceLabel: '' };
   function availStatus(v, weekendId) {
     var wks = (v.verified && v.verified.weekends) || [];
     for (var i = 0; i < wks.length; i++) if (wks[i].weekend === weekendId) return wks[i];
@@ -142,7 +141,10 @@
     rows = {};
     Array.prototype.forEach.call(listEl.querySelectorAll('.row'), function (el) {
       rows[el.dataset.id] = el;
-      el.addEventListener('click', function () { select(el.dataset.id, { from: 'list' }); });
+      el.addEventListener('click', function (e) {
+        if (e.target.closest('.wk-sq')) return;
+        select(el.dataset.id, { from: 'list' });
+      });
       el.addEventListener('keydown', function (e) {
         if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); select(el.dataset.id, { from: 'list' }); }
       });
@@ -158,10 +160,11 @@
     var html = '<div class="wk-strip" aria-label="Weekend availability">';
     WEEKENDS.forEach(function (w) {
       var a = availStatus(v, w.id);
-      var isOpen = state.evidence && state.evidence.venue === v.id && state.evidence.weekend === w.id;
-      html += '<span class="wk-sq avail-' + esc(a.status) + (w.id === wk ? ' is-current' : '') + (w.target ? ' is-target' : '') + (isOpen ? ' is-open' : '') +
-        '" role="button" tabindex="-1" data-venue="' + esc(v.id) + '" data-wk="' + esc(w.id) + '"' +
-        ' aria-label="' + esc(w.label + ': ' + STATUS_LABEL[a.status]) + '"></span>';
+      var cls = 'wk-sq avail-' + esc(a.status) + (w.id === wk ? ' is-current' : '') + (w.target ? ' is-target' : '');
+      var attrs = ' data-venue="' + esc(v.id) + '" data-wk="' + esc(w.id) + '" aria-label="' + esc(w.label + ': ' + STATUS_LABEL[a.status]) + '"';
+      html += a.sourceUrl
+        ? '<a class="' + cls + '" href="' + esc(textFragmentUrl(a.sourceUrl, a.quote)) + '" target="_blank" rel="noopener"' + attrs + '></a>'
+        : '<span class="' + cls + ' no-source" ' + attrs + '></span>';
     });
     return html + '</div>';
   }
@@ -392,10 +395,8 @@
     el.innerHTML = '<strong>' + esc(w.label) + '</strong> — <span class="dot avail-' + esc(a.status) + '"></span> ' + esc(STATUS_LABEL[a.status]) +
       (a.quote ? '<blockquote class="avail-quote">' + esc(a.quote) + '</blockquote>' : '') +
       (a.evidence ? '<div class="avail-ev">' + esc(a.evidence) + '</div>' : '') +
-      (a.sourceUrl ? '<button class="avail-open" data-open-wk="' + esc(wkId) + '">Show the source page</button>' : '');
+      (a.sourceUrl ? '<a class="avail-open" href="' + esc(textFragmentUrl(a.sourceUrl, a.quote)) + '" target="_blank" rel="noopener">' + esc(a.sourceLabel || hostOf(a.sourceUrl)) + ' \u2197</a>' : '');
     Array.prototype.forEach.call(detailScroll.querySelectorAll('.avail-cell'), function (c) { c.classList.toggle('is-active', c.dataset.wk === wkId); });
-    var ob = el.querySelector('[data-open-wk]');
-    if (ob) ob.addEventListener('click', function () { openEvidence(v.id, wkId); });
   }
 
   function fact(label, value, wide) {
@@ -485,7 +486,7 @@
   });
   $('weekendsClear').addEventListener('click', function () { state.weekend = null; applyFilters(); });
 
-  /* ---------- weekend squares: popper tooltip + evidence iframe ---------- */
+  /* ---------- weekend squares: popper tooltip ---------- */
   var tipEl = $('wkTip');
   var tipInstance = null;
   var tipTarget = null;
@@ -504,7 +505,7 @@
       quote +
       (a.evidence ? '<p class="wk-tip-ev">' + esc(a.evidence) + '</p>' : '') +
       (a.sourceLabel || a.sourceUrl ? '<p class="wk-tip-src">' + esc(a.sourceLabel || hostOf(a.sourceUrl)) + '</p>' : '') +
-      (a.sourceUrl ? '<p class="wk-tip-hint">Click to open the page at this text</p>' : '') +
+      (a.sourceUrl ? '<p class="wk-tip-hint">Click to open the page in a new tab, at this text</p>' : '') +
       '<div class="wk-tip-arrow" data-popper-arrow></div>';
     tipEl.setAttribute('data-show', '');
     tipTarget = sq;
@@ -542,73 +543,6 @@
     return base + '#:~:text=' + frag;
   }
 
-  var evPanel = $('evidencePanel');
-  var evFrame = $('evidenceFrame');
-  var evTimer = null;
-
-  function openEvidence(venueId, wkId) {
-    var v = byId(venueId), w = weekendById(wkId);
-    if (!v || !w) return;
-    var a = availStatus(v, wkId);
-    hideTip();
-    state.evidence = { venue: venueId, weekend: wkId };
-    var target = textFragmentUrl(a.sourceUrl, a.quote);
-
-    $('evidenceMeta').innerHTML =
-      '<div class="ev-venue">' + esc(v.name) + '</div>' +
-      '<div class="ev-date"><span class="dot avail-' + esc(a.status) + '"></span>' + esc(w.label) + ' — ' + esc(STATUS_LABEL[a.status]) + '</div>' +
-      (a.quote ? '<blockquote class="ev-quote">' + esc(a.quote) + '</blockquote>' : '') +
-      (a.evidence ? '<p class="ev-ev">' + esc(a.evidence) + '</p>' : '') +
-      (a.sourceUrl
-        ? '<p class="ev-src"><a href="' + esc(target) + '" target="_blank" rel="noopener">' + esc(a.sourceLabel || hostOf(a.sourceUrl)) + ' ↗</a></p>'
-        : '<p class="ev-src">No source page recorded — nothing was found for this weekend.</p>');
-
-    evPanel.classList.add('is-open');
-    evPanel.setAttribute('aria-hidden', 'false');
-    $('app').classList.add('evidence-open');
-    $('evidenceFallback').hidden = true;
-
-    if (evTimer) clearTimeout(evTimer);
-    if (a.sourceUrl) {
-      evFrame.hidden = false;
-      evFrame.src = target;
-      $('evidenceLoading').hidden = false;
-      evTimer = setTimeout(function () {
-        $('evidenceLoading').hidden = true;
-        showEvidenceFallback(a, target);
-      }, 4000);
-    } else {
-      evFrame.hidden = true;
-      evFrame.removeAttribute('src');
-      $('evidenceLoading').hidden = true;
-    }
-    renderList();
-  }
-
-  function showEvidenceFallback(a, target) {
-    var el = $('evidenceFallback');
-    el.innerHTML = '<p><strong>This site would not load in a frame.</strong> Many venue sites refuse to be embedded.</p>' +
-      (a.quote ? '<blockquote>' + esc(a.quote) + '</blockquote>' : '') +
-      (target ? '<p><a href="' + esc(target) + '" target="_blank" rel="noopener">Open the page in a new tab' + (a.quote ? ', scrolled to this text' : '') + ' ↗</a></p>' : '');
-    el.hidden = false;
-  }
-
-  evFrame.addEventListener('load', function () {
-    if (evTimer) clearTimeout(evTimer);
-    $('evidenceLoading').hidden = true;
-  });
-
-  function closeEvidence() {
-    if (evTimer) clearTimeout(evTimer);
-    evPanel.classList.remove('is-open');
-    evPanel.setAttribute('aria-hidden', 'true');
-    $('app').classList.remove('evidence-open');
-    evFrame.removeAttribute('src');
-    state.evidence = null;
-    renderList();
-  }
-  $('evidenceClose').addEventListener('click', closeEvidence);
-
   listEl.addEventListener('mouseover', function (e) {
     var sq = e.target.closest && e.target.closest('.wk-sq');
     if (sq && sq !== tipTarget) showTip(sq);
@@ -617,12 +551,14 @@
     var sq = e.target.closest && e.target.closest('.wk-sq');
     if (sq) hideTip();
   });
+  /* A square is an ordinary link — the browser opens the tab. The row handler
+     ignores clicks that started on one, so the venue isn't selected as well. */
   listEl.addEventListener('click', function (e) {
     var sq = e.target.closest && e.target.closest('.wk-sq');
     if (!sq) return;
-    e.stopPropagation();
-    openEvidence(sq.dataset.venue, sq.dataset.wk);
-  }, true);
+    hideTip();
+    if (!sq.href) e.preventDefault();
+  });
   listEl.addEventListener('scroll', hideTip);
 
   /* ---------- keyboard ---------- */
