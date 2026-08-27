@@ -1,0 +1,18 @@
+{
+ "id": "sleeping-lady",
+ "address": "7375 Icicle Road, Leavenworth, WA 98826",
+ "lat": 47.5516461, "lng": -120.6825623,
+ "geo_method": "nominatim address",
+ "geo_confidence": "high",
+ "geo_notes": "Nominatim resolved the street address to two adjacent points ~70 m apart on the resort property; the northern one is used.",
+ "thumb": "01.jpg",
+ "images": [
+  {"file": "01.jpg", "source_url": "https://www.sleepinglady.com/wp-content/uploads/2026/05/ErikSvenPhotography010.jpg", "page_url": "https://www.sleepinglady.com/weddings-groups/spaces/", "credit": "Sleeping Lady Mountain Resort (official site), photo Erik Sven Photography", "caption": "The resort in Icicle Canyon, seen from above", "width": 1024, "height": 682},
+  {"file": "02.jpg", "source_url": "https://www.sleepinglady.com/wp-content/uploads/2026/05/ErikSvenPhotography050.jpg", "page_url": "https://www.sleepinglady.com/weddings-groups/spaces/", "credit": "Sleeping Lady Mountain Resort (official site), photo Erik Sven Photography", "caption": "Grounds and gathering spaces", "width": 1024, "height": 682},
+  {"file": "03.jpg", "source_url": "https://www.sleepinglady.com/wp-content/uploads/2026/05/ErikSvenPhotography096.jpg", "page_url": "https://www.sleepinglady.com/weddings-groups/spaces/", "credit": "Sleeping Lady Mountain Resort (official site), photo Erik Sven Photography", "caption": "Meeting and event space", "width": 1024, "height": 683},
+  {"file": "04.jpg", "source_url": "https://www.sleepinglady.com/wp-content/uploads/2026/05/ErikSvenPhotography101.jpg", "page_url": "https://www.sleepinglady.com/weddings-groups/spaces/", "credit": "Sleeping Lady Mountain Resort (official site), photo Erik Sven Photography", "caption": "Interior of one of the resort's timber buildings", "width": 1024, "height": 683},
+  {"file": "05.jpg", "source_url": "https://www.sleepinglady.com/wp-content/uploads/2026/06/ErikSvenPhotography041.jpg", "page_url": "https://www.sleepinglady.com/weddings-groups/spaces/", "credit": "Sleeping Lady Mountain Resort (official site), photo Erik Sven Photography", "caption": "Outdoor gathering area among the pines", "width": 1024, "height": 683},
+  {"file": "06.jpg", "source_url": "https://www.sleepinglady.com/wp-content/uploads/2026/06/CH_Sleeping-Lady_Sept-2025-205-scaled.jpg", "page_url": "https://www.sleepinglady.com/weddings-groups/spaces/", "credit": "Sleeping Lady Mountain Resort (official site)", "caption": "Guest lodging cluster", "width": 2560, "height": 1707}
+ ],
+ "notes": "Built by Harriet Bullitt as a rebuilt 1930s camp, with a large collection of Northwest art across the grounds. 58 guest rooms, nine meeting rooms and more than 10,000 sq ft of function space seating 30-190. A Cvent listing quotes inclusive group rates 'often start at just $195 per person'. The photos are the site's own, credited to Erik Sven Photography."
+}

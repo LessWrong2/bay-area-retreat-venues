@@ -1,0 +1,17 @@
+{
+ "id": "rosario-resort",
+ "address": "1624 Rosario Road, Eastsound, WA 98245 (Orcas Island)",
+ "lat": 48.6446386, "lng": -122.8733907,
+ "geo_method": "openstreetmap overpass (node 'Rosario Resort and Spa', tourism=hotel)",
+ "geo_confidence": "high",
+ "geo_notes": "Nominatim could not resolve the street address; the coordinates come from the OSM node named 'Rosario Resort and Spa' on Cascade Bay. The OSM node 'Rosario Seaplane Base' sits on the same waterfront.",
+ "thumb": "01.jpg",
+ "images": [
+  {"file": "01.jpg", "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Rosario_Resort_Moran_Mansion_01.jpg", "page_url": "https://commons.wikimedia.org/wiki/File:Rosario_Resort_Moran_Mansion_01.jpg", "credit": "Joe Mabel, CC BY-SA 3.0, via Wikimedia Commons", "caption": "The 1909 Moran Mansion", "width": 2592, "height": 1944},
+  {"file": "02.jpg", "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Rosario_Resort_Moran_Mansion_02.jpg", "page_url": "https://commons.wikimedia.org/wiki/File:Rosario_Resort_Moran_Mansion_02.jpg", "credit": "Joe Mabel, CC BY-SA 3.0, via Wikimedia Commons", "caption": "Moran Mansion from the grounds", "width": 2592, "height": 1944},
+  {"file": "03.jpg", "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Rosario_Resort_Moran_Mansion_music_room_02.jpg", "page_url": "https://commons.wikimedia.org/wiki/File:Rosario_Resort_Moran_Mansion_music_room_02.jpg", "credit": "Joe Mabel, CC BY-SA 3.0, via Wikimedia Commons", "caption": "The music room, with its Aeolian pipe organ", "width": 2560, "height": 1543},
+  {"file": "04.jpg", "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Rosario_Resort_Moran_Mansion_music_room_05.jpg", "page_url": "https://commons.wikimedia.org/wiki/File:Rosario_Resort_Moran_Mansion_music_room_05.jpg", "credit": "Joe Mabel, CC BY-SA 3.0, via Wikimedia Commons", "caption": "Mahogany and stained glass in the music room", "width": 2518, "height": 1802},
+  {"file": "05.jpg", "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Rosario_Resort_Moran_Mansion_view_from_old_dining_room.jpg", "page_url": "https://commons.wikimedia.org/wiki/File:Rosario_Resort_Moran_Mansion_view_from_old_dining_room.jpg", "credit": "Joe Mabel, CC BY-SA 3.0, via Wikimedia Commons", "caption": "Cascade Bay from the mansion's old dining room", "width": 2002, "height": 1837}
+ ],
+ "notes": "Shipbuilder Robert Moran's 1909 mansion, now the centrepiece of a 30-acre waterfront resort; the mansion holds the restaurant, spa, museum and its original Aeolian pipe organ, but no guest rooms — those are in the village buildings around it (sources vary between 69 and 107 rooms). All the photographs here are Wikimedia Commons images of the mansion; the resort's own site is a Wix build whose gallery could not be scraped, so there are no current pictures of the guest lodging."
+}

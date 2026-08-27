@@ -7,6 +7,8 @@ Usage: python3 sync_sheet.py            # downloads the sheet as CSV
 Sheet rows are matched to venue ids via research/sheet_map.json; per-venue
 corrections and site-only fields (subtitle, note, ...) come from
 research/overrides.json and are applied on top of the sheet values.
+Venues that are not in the sheet at all live in research/extra-venues.json and
+are appended after the sheet rows.
 """
 import csv, io, json, os, sys, urllib.request
 
@@ -56,13 +58,21 @@ def main():
             v.update(overrides.get(vid, {}))
             out.append(v)
             seen.add(vid)
+    extras_path = os.path.join(RESEARCH, "extra-venues.json")
+    extras = json.load(open(extras_path)) if os.path.exists(extras_path) else []
+    for v in extras:
+        v = dict(v)
+        v.update(overrides.get(v["id"], {}))
+        out.append(v)
+        seen.add(v["id"])
+
     missing = [vid for vid in overrides if vid not in seen]
     if missing:
         print(f"! overrides exist for ids not in the sheet: {missing}", file=sys.stderr)
     with open(os.path.join(RESEARCH, "venues-base.json"), "w") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
         f.write("\n")
-    print(f"wrote {len(out)} venues from {len(rows)} sheet rows")
+    print(f"wrote {len(out)} venues from {len(rows)} sheet rows + {len(extras)} extras")
 
 
 if __name__ == "__main__":

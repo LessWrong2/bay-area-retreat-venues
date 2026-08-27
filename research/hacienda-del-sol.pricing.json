@@ -1,0 +1,16 @@
+{
+ "cost": {
+  "mode": "estimate",
+  "low": 38000,
+  "high": 55000,
+  "summary": "est. $38-55k",
+  "basis": "Mid-October is the start of Tucson's high season. Thirty of the 97 rooms at roughly $350-500 a night for two nights is $21,000-30,000, and resort dining for six meals for 60 at $140-190 per person per day is $16,800-22,800 with service and tax. A full buyout of all 97 rooms would be substantially more. No dated quote was obtained; these are seasonal rack-rate assumptions, not a proposal.",
+  "per_person": "roughly $630-920 per person for Fri-Sun including meals",
+  "source_url": "https://www.haciendadelsol.com/meetings-events",
+  "source_label": "Resort meetings page (room and function-space counts); rates assumed",
+  "confidence": "low"
+ },
+ "availability_notes": "97 rooms, casitas and suites; over 14,000 sq ft of function space across six meeting rooms, the 2,910 sq ft Casa Luna and the 3,400 sq ft Casa Alcalde private residence (which itself holds a 35-person reception). The resort actively markets full buyouts, so 60 people can have the place to themselves. The tradeoff is price and the fact that it is a working luxury resort rather than a retreat centre.",
+ "checked_on": "2026-08-26",
+ "id": "hacienda-del-sol"
+}

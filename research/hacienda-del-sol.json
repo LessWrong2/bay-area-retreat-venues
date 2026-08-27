@@ -1,0 +1,67 @@
+{
+ "id": "hacienda-del-sol",
+ "address": "5501 N Hacienda del Sol Road, Tucson, AZ 85718",
+ "lat": 32.307438,
+ "lng": -110.9141115,
+ "geo_method": "nominatim address",
+ "geo_confidence": "high",
+ "geo_notes": "Nominatim returned the named feature 'Hacienda Del Sol Guest Ranch Resort' at the street address.",
+ "thumb": "01.jpg",
+ "images": [
+  {
+   "file": "01.jpg",
+   "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/hacienda-del-sol-guest-ranch-resort/siteimages/upon-arrival-hacienda-del-sol-guest-ranch-resort.jpg?width=2000&height=1500",
+   "page_url": "https://www.haciendadelsol.com/gallery",
+   "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+   "caption": "The 1929 adobe arrival court",
+   "width": 2000,
+   "height": 1500
+  },
+  {
+   "file": "02.jpg",
+   "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/hacienda-del-sol-guest-ranch-resort/siteimages/the-grill-entrance-and-outer-courtyard-hacienda-del-sol-guest-ranch-resort.jpg?width=2000&height=1500",
+   "page_url": "https://www.haciendadelsol.com/gallery",
+   "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+   "caption": "The Grill entrance and outer courtyard",
+   "width": 2000,
+   "height": 1500
+  },
+  {
+   "file": "03.jpg",
+   "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/hacienda-del-sol-guest-ranch-resort/haciendadelsol-new/site-images/home/aerial-view-of-a-resort-surrounded-by-desert-vegetation.jpg?width=2000&height=1500",
+   "page_url": "https://www.haciendadelsol.com/gallery",
+   "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+   "caption": "The property from the air, in the Catalina Foothills",
+   "width": 2000,
+   "height": 1500
+  },
+  {
+   "file": "04.jpg",
+   "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/hacienda-del-sol-guest-ranch-resort/siteimages/librarybookshelves.jpg?width=2000&height=1500",
+   "page_url": "https://www.haciendadelsol.com/gallery",
+   "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+   "caption": "The library",
+   "width": 2000,
+   "height": 1500
+  },
+  {
+   "file": "05.jpg",
+   "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/hacienda-del-sol-guest-ranch-resort/siteimages/guest-building-at-hacienda-del-sol-guest-ranch-resort-tucson-arizona.jpg?width=2000&height=1500",
+   "page_url": "https://www.haciendadelsol.com/gallery",
+   "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+   "caption": "A guest building",
+   "width": 2000,
+   "height": 1500
+  },
+  {
+   "file": "06.jpg",
+   "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/hacienda-del-sol-guest-ranch-resort/haciendadelsol-new/site-images/gallery/garden-with-tall-cacti-and-flowering-plants-in-the-foreground.jpg?width=2000&height=1500",
+   "page_url": "https://www.haciendadelsol.com/gallery",
+   "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+   "caption": "Cactus gardens on the grounds",
+   "width": 2000,
+   "height": 1500
+  }
+ ],
+ "notes": "Opened 1929 as a girls' boarding school, then a guest ranch; a Historic Hotels of America member. 97 rooms, casitas and suites in Spanish Colonial adobe, over 14,000 sq ft of indoor and outdoor function space across six meeting rooms, the 2,910 sq ft Casa Luna and the 3,400 sq ft Casa Alcalde residence. The resort markets itself for full buyouts."
+}
