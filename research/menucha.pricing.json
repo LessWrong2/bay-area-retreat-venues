@@ -1,0 +1,13 @@
+{
+ "cost": {
+  "mode": "quote",
+  "summary": "Quote only",
+  "basis": "Menucha publishes no rates anywhere on its site; the FAQ and facilities pages route every group to a Cognito group-inquiry form, and the office line is (503) 695-2243 / office@menucha.org. For scale: it serves roughly 200 groups a year averaging about 22 people each, and it is a non-profit conference centre rather than a resort, so expect conference-centre pricing well under the resort options in this tier.",
+  "source_url": "https://www.menucha.org/faqs",
+  "source_label": "Menucha FAQ (no rates published; group inquiry form only)",
+  "confidence": "low"
+ },
+ "availability_notes": "126+ beds across Wright Hall (45), Ballard Hall (37), The Barn (32), Beam House (12), plus the Creevey Complex and Boyd Hall. Site capacity is quoted as 1-140 (one listing says 1-150), so 60 fits with room to spare and a whole-site hold is plausible. Largest meeting room is Wright Hall's Great Hall at 90 on the main floor plus 30 in the balcony.",
+ "checked_on": "2026-08-26",
+ "id": "menucha"
+}

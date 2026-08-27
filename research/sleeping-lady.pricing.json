@@ -1,0 +1,16 @@
+{
+ "cost": {
+  "mode": "estimate",
+  "low": 23000,
+  "high": 32000,
+  "summary": "est. $23-32k",
+  "basis": "Two independent bases. (1) A Cvent venue listing for the resort states inclusive group rates 'often start at just $195 per person'; at 60 people x 2 nights that is $23,400 all-in. (2) A-la-carte: third-party listings put standard rooms at $178-254 a night, so 30 rooms x 2 nights is about $10,700-15,200, and the resort's own restaurant covering six meals for 60 at roughly $70-90 per person per day adds $8,400-10,800, plus tax and service. Both routes land in the $23-32k band. No rate was confirmed against the resort's own booking engine for Oct 16-18, 2026.",
+  "per_person": "roughly $390-530 per person for Fri-Sun, meals included",
+  "source_url": "https://www.cvent.com/venues/leavenworth/resort/sleeping-lady-mountain-resort/venue-882e52f5-382f-4d75-ba7b-55fe9443eb14",
+  "source_label": "Cvent venue listing (group rates from $195 pp) + third-party nightly rates",
+  "confidence": "low"
+ },
+ "availability_notes": "58 guest rooms — a 60-person group is effectively the whole resort, which is the cleanest buyout case in this tier. Nine meeting rooms, 10,000+ sq ft of function space, seating 30-190. Harriet Bullitt's rebuild of a 1930s camp, with a large Northwest art collection through the grounds.",
+ "checked_on": "2026-08-26",
+ "id": "sleeping-lady"
+}

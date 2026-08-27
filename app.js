@@ -133,7 +133,7 @@
           thumb +
           '<div class="row-main">' +
             '<div class="row-name">' + esc(v.name) + '</div>' +
-            '<div class="row-meta"><span>' + esc(v.area) + '</span><span class="sep">·</span><span>' + esc(v.airport || v.drive) + '</span></div>' +
+            '<div class="row-meta"><span>' + esc(v.area) + '</span><span class="sep">·</span><span>' + esc(v.airport || v.travel || v.drive) + '</span></div>' +
             '<div class="row-sleeps">' + esc(shortSleeps(v)) + '</div>' +
           '</div>' + rowSide(v) + '</div>';
       });
@@ -279,7 +279,8 @@
       (imgs.length > 1 ? '<span class="hero-count">' + imgs.length + ' photos</span>' : '') +
       '</div>';
     html += '<div class="detail-body">';
-    html += '<div class="tier-line"><span class="dot tier-' + esc(v.tier) + '"></span>' + esc(v.tierLabel) + (v.airport ? '<span style="opacity:.5">·</span><span style="text-transform:none;letter-spacing:0;font-weight:500">' + esc(v.airport) + '</span>' : v.drive ? '<span style="opacity:.5">·</span><span style="text-transform:none;letter-spacing:0;font-weight:500">' + esc(v.drive) + ' from SF</span>' : '') + '</div>';
+    var travelLine = v.airport || v.travel || (v.drive ? v.drive + ' from SF' : '');
+    html += '<div class="tier-line"><span class="dot tier-' + esc(v.tier) + '"></span>' + esc(v.tierLabel) + (travelLine ? '<span style="opacity:.5">·</span><span style="text-transform:none;letter-spacing:0;font-weight:500">' + esc(travelLine) + '</span>' : '') + '</div>';
     html += '<h2>' + esc(v.name) + '</h2>';
     if (v.subtitle) html += '<p class="detail-sub">' + esc(v.subtitle) + '</p>';
     html += '<p class="detail-area">' + esc(v.area) + (v.address ? ' · ' + esc(v.address) : '') + '</p>';

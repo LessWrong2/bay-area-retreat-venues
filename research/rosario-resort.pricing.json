@@ -1,0 +1,16 @@
+{
+ "cost": {
+  "mode": "estimate",
+  "low": 30000,
+  "high": 42000,
+  "summary": "est. $30-42k",
+  "basis": "Lodging: aggregators report an average of about $344 a night across a $132-962 range; mid-October is shoulder season on Orcas, so 30 rooms x 2 nights at $250-350 is $15,000-21,000. Meals: resort dining for six meals for 60 at $110-150 per person per day is $13,200-18,000 with service. Add meeting space in the mansion. No rate was confirmed for Oct 16-18, 2026 and no group or buyout quote was obtained.",
+  "per_person": "roughly $500-700 per person for Fri-Sun including meals",
+  "source_url": "https://www.rosarioresort.com/",
+  "source_label": "Resort site + third-party nightly-rate aggregates",
+  "confidence": "low"
+ },
+ "availability_notes": "30 waterfront acres on Cascade Bay; sources disagree on the room count (69 in one listing, up to 107 in others) but either comfortably covers 60. The 1909 Moran Mansion holds the restaurant, spa, museum and pipe organ and has no guest rooms. Getting there is the interesting part: Orcas Island Airport is about 10 minutes away and the Rosario Seaplane Base is on the resort's own waterfront, so Kenmore Air can land a group at the door — but from the Bay Area that means SFO-SEA plus a small plane or the Anacortes ferry.",
+ "checked_on": "2026-08-26",
+ "id": "rosario-resort"
+}

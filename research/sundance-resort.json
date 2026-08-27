@@ -1,0 +1,17 @@
+{
+ "id": "sundance-resort",
+ "address": "8841 N Alpine Loop Scenic Byway, Sundance, UT 84604",
+ "lat": 40.392, "lng": -111.579,
+ "geo_method": "wikipedia",
+ "geo_confidence": "medium",
+ "geo_notes": "Nominatim only resolved a ski run ('Novice Trail') inside the resort; these coordinates are the Wikipedia article's, which sit on the resort village.",
+ "thumb": "01.jpg",
+ "images": [
+  {"file": "01.jpg", "source_url": "https://www.sundanceresort.com/site/assets/files/7218/bryson_finley_2026_spring_inn_exterior-.1000x745.jpg", "page_url": "https://www.sundanceresort.com/stay/", "credit": "Sundance Mountain Resort (official site)", "caption": "The Inn, in timber and river stone", "width": 1000, "height": 745},
+  {"file": "02.jpg", "source_url": "https://www.sundanceresort.com/site/assets/files/7224/3eb019a20c80c83a21d4a07e84473fceec01b707.1984x1160.jpg", "page_url": "https://www.sundanceresort.com/stay/", "credit": "Sundance Mountain Resort (official site)", "caption": "Resort lodging under Mount Timpanogos", "width": 1771, "height": 1035},
+  {"file": "03.jpg", "source_url": "https://www.sundanceresort.com/site/assets/files/31553/dsc07459-scaled-2400x0-c-default_2400x1519.2400x1519.webp", "page_url": "https://www.sundanceresort.com/stay/cottages/", "credit": "Sundance Mountain Resort (official site)", "caption": "A cottage interior looking into the canyon", "width": 2400, "height": 1519},
+  {"file": "04.jpg", "source_url": "https://www.sundanceresort.com/site/assets/files/31551/2019_s_suite-4fr-2400x0-c-default_2400x1519.2400x1519.webp", "page_url": "https://www.sundanceresort.com/stay/cottages/", "credit": "Sundance Mountain Resort (official site)", "caption": "A Sundance suite", "width": 2400, "height": 1519},
+  {"file": "05.jpg", "source_url": "https://www.sundanceresort.com/site/assets/files/7230/mountain_home_lodging_landing_pg.1000x745.jpeg", "page_url": "https://www.sundanceresort.com/stay/mountain-homes/", "credit": "Sundance Mountain Resort (official site)", "caption": "One of the mountain homes", "width": 1000, "height": 745}
+ ],
+ "notes": "Robert Redford's resort in Provo Canyon, 5,000 acres under Mount Timpanogos, in the rustic-modern timber-and-stone idiom the place basically invented. Lodging is rooms, cottages/suites and multi-bedroom mountain homes; about 12,000 sq ft of indoor and outdoor meeting space. Redford sold his stake in 2020 to a Broadreach/Cedar investor group. Rates are resort-priced: third-party listings for October 2026 show roughly $278-$482 a night depending on unit."
+}

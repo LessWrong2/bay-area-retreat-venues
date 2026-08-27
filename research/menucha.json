@@ -1,0 +1,18 @@
+{
+ "id": "menucha",
+ "address": "38711 E Historic Columbia River Hwy, Corbett, OR 97019",
+ "lat": 45.5371482, "lng": -122.2658110,
+ "geo_method": "nominatim address",
+ "geo_confidence": "high",
+ "geo_notes": "Nominatim returned the named feature 'Menucha Retreat & Conference Center, Wright Hall' at the street address, not a town centroid.",
+ "thumb": "01.jpg",
+ "images": [
+  {"file": "01.jpg", "source_url": "https://www.menucha.org/wp-content/uploads/2021/05/Wright-Hall-2018-painted-gray-2048x1365.jpg", "page_url": "https://www.menucha.org/facilities", "credit": "Menucha Retreat & Conference Center (official site)", "caption": "Wright Hall, the 1927 Meier estate house", "width": 2048, "height": 1365},
+  {"file": "02.jpg", "source_url": "https://www.menucha.org/wp-content/uploads/2016/10/Creevey-Commons-from-outside.jpg", "page_url": "https://www.menucha.org/facilities", "credit": "Menucha Retreat & Conference Center (official site)", "caption": "Creevey Commons, the contemporary lodging and meeting complex", "width": 2048, "height": 1536},
+  {"file": "03.jpg", "source_url": "https://www.menucha.org/wp-content/uploads/2020/10/The-Barn-for-web-2048x1536.jpg", "page_url": "https://www.menucha.org/facilities", "credit": "Menucha Retreat & Conference Center (official site)", "caption": "The Barn — 32 beds and a 32-seat meeting room", "width": 2048, "height": 1536},
+  {"file": "04.jpg", "source_url": "https://www.menucha.org/wp-content/uploads/2021/10/IMG_0254-Ballard-new-gray-paint-fall-2021-2048x1536.jpg", "page_url": "https://www.menucha.org/facilities", "credit": "Menucha Retreat & Conference Center (official site)", "caption": "Ballard Hall — 37 beds plus a 40-person lounge", "width": 2048, "height": 1536},
+  {"file": "05.jpg", "source_url": "https://www.menucha.org/wp-content/uploads/2025/04/May-12-Rockery-Steps-with-blooms-Stairway-to-Heaven.jpg", "page_url": "https://www.menucha.org/about", "credit": "Menucha Retreat & Conference Center (official site)", "caption": "The rockery steps through the estate gardens", "width": 960, "height": 1280},
+  {"file": "06.jpg", "source_url": "https://www.menucha.org/wp-content/uploads/2018/11/menuchapool_razzanosubmission.jpg", "page_url": "https://www.menucha.org/facilities", "credit": "Menucha Retreat & Conference Center (official site)", "caption": "The pool on the bluff above the Columbia River", "width": 2133, "height": 1600}
+ ],
+ "notes": "Built 1927 as Julius Meier's summer estate (Meier was Oregon's governor 1931-35; Herbert Hoover visited). Now run by First Presbyterian Church of Portland, but rented to secular groups; about 200 groups a year. Rates are not published — everything goes through a group inquiry form. Office (503) 695-2243, office@menucha.org, Mon-Fri 8-4."
+}

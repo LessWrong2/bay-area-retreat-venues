@@ -1,0 +1,16 @@
+{
+ "cost": {
+  "mode": "estimate",
+  "low": 38000,
+  "high": 52000,
+  "summary": "est. $38-52k",
+  "basis": "Third-party listings for October 2026 dates show $278 (Oct 21-22), $345 (Oct 27-28), $384 and $482 (carriage houses, Oct 20-23) a night. Thirty units at $300-450 for two nights is $18,000-27,000; the mountain homes sleep more per unit and change that arithmetic. Resort dining for six meals for 60 at $160-210 per person per day is $19,200-25,200. Meeting space is quoted separately against the 12,000 sq ft of indoor and outdoor space. No dated group quote was obtained.",
+  "per_person": "roughly $630-870 per person for Fri-Sun including meals",
+  "source_url": "https://www.sundanceresort.com/stay/",
+  "source_label": "Sundance lodging pages + third-party October 2026 nightly rates",
+  "confidence": "low"
+ },
+ "availability_notes": "5,000 acres in Provo Canyon under Mount Timpanogos, with rooms, cottages/suites and multi-bedroom mountain homes and about 12,000 sq ft of indoor and outdoor meeting space. This is the closest thing on the list to a purpose-built beautiful campus at scale, and also close to the most expensive. Whether 60 can hold the whole village in mid-October (leaf season, pre-ski) needs a group-sales conversation.",
+ "checked_on": "2026-08-26",
+ "id": "sundance-resort"
+}

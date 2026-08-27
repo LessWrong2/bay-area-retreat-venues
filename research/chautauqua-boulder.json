@@ -1,0 +1,16 @@
+{
+ "id": "chautauqua-boulder",
+ "address": "900 Baseline Road, Boulder, CO 80302",
+ "lat": 39.9999701, "lng": -105.2832780,
+ "geo_method": "nominatim address",
+ "geo_confidence": "high",
+ "geo_notes": "Nominatim returned the named feature 'Colorado Chautauqua National Historic Landmark' at the street address.",
+ "thumb": "01.jpg",
+ "images": [
+  {"file": "01.jpg", "source_url": "https://www.chautauqua.com/wp-content/uploads/2021/07/MISSIONS_EXTERIOR_0026.jpg", "page_url": "https://www.chautauqua.com/group-retreats/", "credit": "The Colorado Chautauqua (official site)", "caption": "Missions House Lodge below the Flatirons", "width": 1261, "height": 817},
+  {"file": "02.jpg", "source_url": "https://www.chautauqua.com/wp-content/uploads/2020/08/community_house.jpg", "page_url": "https://www.chautauqua.com/group-retreats/", "credit": "The Colorado Chautauqua (official site)", "caption": "The Community House, one of the meeting buildings", "width": 1000, "height": 665},
+  {"file": "03.jpg", "source_url": "https://www.chautauqua.com/wp-content/uploads/2020/08/Chautaqua-21-e1608228693685.jpg", "page_url": "https://www.chautauqua.com/group-retreats/", "credit": "The Colorado Chautauqua (official site)", "caption": "Cottages on the Chautauqua green", "width": 1600, "height": 1068},
+  {"file": "05.jpg", "source_url": "https://www.chautauqua.com/wp-content/uploads/2021/07/entrance-benko-1024x683-1.jpg", "page_url": "https://www.chautauqua.com/group-retreats/", "credit": "The Colorado Chautauqua (official site)", "caption": "The entrance to the Chautauqua grounds", "width": 1024, "height": 683}
+ ],
+ "notes": "Founded 1898; a National Historic Landmark and the only continuously operating Chautauqua west of the Mississippi. 26 acres of Victorian cottages under the Flatirons, with the Dining Hall, Community House and 1898 Auditorium on site. The grounds are a public park, so this is a room block plus meeting space rather than a true buyout."
+}
