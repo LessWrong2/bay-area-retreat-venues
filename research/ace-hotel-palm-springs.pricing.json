@@ -1,0 +1,72 @@
+{
+ "id": "ace-hotel-palm-springs",
+ "checked_on": "2026-08-27",
+ "cost": {
+  "mode": "quote",
+  "summary": "Quote",
+  "basis": "No rate could be read: the Ace reservations engine returned an empty page for every date queried. The events team quotes group and buyout pricing directly.",
+  "source_url": "https://www.acehotelpalmsprings.com/meetings--groups.htm",
+  "source_label": "Ace Hotel Palm Springs meetings & groups",
+  "confidence": "low"
+ },
+ "availability_notes": "See the venue notes; no dated group availability is published.",
+ "availability": [
+  {
+   "weekend": "2026-08-28",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.acehotelpalmsprings.com/meetings--groups.htm"
+  },
+  {
+   "weekend": "2026-09-04",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.acehotelpalmsprings.com/meetings--groups.htm"
+  },
+  {
+   "weekend": "2026-09-11",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.acehotelpalmsprings.com/meetings--groups.htm"
+  },
+  {
+   "weekend": "2026-09-18",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.acehotelpalmsprings.com/meetings--groups.htm"
+  },
+  {
+   "weekend": "2026-09-25",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.acehotelpalmsprings.com/meetings--groups.htm"
+  },
+  {
+   "weekend": "2026-10-02",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.acehotelpalmsprings.com/meetings--groups.htm"
+  },
+  {
+   "weekend": "2026-10-09",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.acehotelpalmsprings.com/meetings--groups.htm"
+  },
+  {
+   "weekend": "2026-10-16",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.acehotelpalmsprings.com/meetings--groups.htm"
+  },
+  {
+   "weekend": "2026-10-23",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.acehotelpalmsprings.com/meetings--groups.htm"
+  }
+ ],
+ "sources": [
+  "https://www.acehotelpalmsprings.com/meetings--groups.htm"
+ ]
+}

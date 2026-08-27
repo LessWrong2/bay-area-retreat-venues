@@ -1,0 +1,55 @@
+{
+ "id": "ace-hotel-palm-springs",
+ "address": "701 East Palm Canyon Drive, Palm Springs, CA 92264",
+ "lat": 33.80098,
+ "lng": -116.53976,
+ "geo_method": "nominatim address",
+ "geo_confidence": "high",
+ "geo_notes": "Airport drive time (8 min / 3.6 mi from PSP) computed with OSRM from the airport terminal to these coordinates.",
+ "thumb": "02.jpg",
+ "images": [
+  {
+   "file": "02.jpg",
+   "source_url": "https://acehotel.com/palm-springs/wp-content/uploads/sites/6/2025/03/Ace-Pool-1.jpg",
+   "page_url": "https://acehotel.com/palm-springs/",
+   "credit": "Ace Hotel & Swim Club (official site)",
+   "caption": "The Swim Club pool with San Jacinto behind"
+  },
+  {
+   "file": "01.jpg",
+   "source_url": "https://acehotel.com/palm-springs/wp-content/uploads/sites/6/2021/08/ace-hotel-swim-club-kings-highway.jpg",
+   "page_url": "https://acehotel.com/palm-springs/",
+   "credit": "Ace Hotel & Swim Club (official site)",
+   "caption": "King's Highway, the diner in the old Denny's"
+  },
+  {
+   "file": "03.jpg",
+   "source_url": "https://acehotel.com/palm-springs/wp-content/uploads/sites/6/2021/08/HERO_2024_08_20_ACE_322_0198-MCKKMEDITv3.jpg",
+   "page_url": "https://acehotel.com/palm-springs/",
+   "credit": "Ace Hotel & Swim Club (official site)",
+   "caption": "Double queen room"
+  },
+  {
+   "file": "04.jpg",
+   "source_url": "https://acehotel.com/palm-springs/wp-content/uploads/sites/6/2021/08/PSP-pc-Tim-Hirschmann-3-2025-KING_LOUNGE_BED.jpg",
+   "page_url": "https://acehotel.com/palm-springs/",
+   "credit": "Ace Hotel & Swim Club (official site)",
+   "caption": "King room"
+  },
+  {
+   "file": "05.jpg",
+   "source_url": "https://acehotel.com/palm-springs/wp-content/uploads/sites/6/2025/06/groups.jpeg",
+   "page_url": "https://acehotel.com/palm-springs/",
+   "credit": "Ace Hotel & Swim Club (official site)",
+   "caption": "Gathering room opening to the terrace"
+  },
+  {
+   "file": "06.jpg",
+   "source_url": "https://acehotel.com/palm-springs/wp-content/uploads/sites/6/2021/08/PSP-pc-Tim-Hirschmann-3-2025-PATIO_FIREPLACE.jpeg",
+   "page_url": "https://acehotel.com/palm-springs/",
+   "credit": "Ace Hotel & Swim Club (official site)",
+   "caption": "Patio with outdoor fireplace"
+  }
+ ],
+ "notes": ""
+}

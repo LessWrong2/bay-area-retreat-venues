@@ -1,0 +1,72 @@
+{
+ "id": "mcmenamins-edgefield",
+ "checked_on": "2026-08-27",
+ "cost": {
+  "mode": "quote",
+  "summary": "Quote",
+  "basis": "McMenamins publishes room capacities but no rates, and notes only that there is \"No additional room rental fee once the food and beverage minimum is reached.\" Edgefield rooms are among the cheapest on this list, but it does not sell exclusive use.",
+  "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+  "source_label": "McMenamins Edgefield meetings",
+  "confidence": "low"
+ },
+ "availability_notes": "See the venue notes; no dated group availability is published.",
+ "availability": [
+  {
+   "weekend": "2026-08-28",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield"
+  },
+  {
+   "weekend": "2026-09-04",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield"
+  },
+  {
+   "weekend": "2026-09-11",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield"
+  },
+  {
+   "weekend": "2026-09-18",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield"
+  },
+  {
+   "weekend": "2026-09-25",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield"
+  },
+  {
+   "weekend": "2026-10-02",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield"
+  },
+  {
+   "weekend": "2026-10-09",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield"
+  },
+  {
+   "weekend": "2026-10-16",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield"
+  },
+  {
+   "weekend": "2026-10-23",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield"
+  }
+ ],
+ "sources": [
+  "https://www.mcmenamins.com/private-events/meetings/edgefield"
+ ]
+}

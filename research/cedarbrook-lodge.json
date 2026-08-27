@@ -1,0 +1,55 @@
+{
+ "id": "cedarbrook-lodge",
+ "address": "Cedarbrook Lodge, 18525 36th Ave S, SeaTac, WA 98188",
+ "lat": 47.43741,
+ "lng": -122.28764,
+ "geo_method": "nominatim address",
+ "geo_confidence": "high",
+ "geo_notes": "Airport drive time (8 min / 2.5 mi from SEA) computed with OSRM from the airport terminal to these coordinates.",
+ "thumb": "01.jpg",
+ "images": [
+  {
+   "file": "01.jpg",
+   "source_url": "https://cdn.colhosp.com/gallery-lodge-7-JY2O-1_signature_exterior.jpg",
+   "page_url": "https://www.cedarbrooklodge.com/gallery-lodge.php",
+   "credit": "Cedarbrook Lodge (official site)",
+   "caption": "Lawn and terrace on the 18-acre grounds"
+  },
+  {
+   "file": "02.jpg",
+   "source_url": "https://cdn.colhosp.com/gallery-lodge-7-LNDD-19_exterior_pond.jpg",
+   "page_url": "https://www.cedarbrooklodge.com/gallery-lodge.php",
+   "credit": "Cedarbrook Lodge (official site)",
+   "caption": "The wetland pond below the lodge"
+  },
+  {
+   "file": "03.jpg",
+   "source_url": "https://cdn.colhosp.com/gallery-lodge-7-Z087-7_living_room.jpg",
+   "page_url": "https://www.cedarbrooklodge.com/gallery-lodge.php",
+   "credit": "Cedarbrook Lodge (official site)",
+   "caption": "Lodge living room"
+  },
+  {
+   "file": "04.jpg",
+   "source_url": "https://cdn.colhosp.com/gallery-lodge-7-A3RJ-2_lobby.jpg",
+   "page_url": "https://www.cedarbrooklodge.com/gallery-lodge.php",
+   "credit": "Cedarbrook Lodge (official site)",
+   "caption": "The upper lobby"
+  },
+  {
+   "file": "05.jpg",
+   "source_url": "https://cdn.colhosp.com/gallery-lodge-7-EKP1-22_fall_path.jpg",
+   "page_url": "https://www.cedarbrooklodge.com/gallery-lodge.php",
+   "credit": "Cedarbrook Lodge (official site)",
+   "caption": "Autumn on the garden path"
+  },
+  {
+   "file": "06.jpg",
+   "source_url": "https://cdn.colhosp.com/gallery-lodge-7-2XJW-13_terrace_pond.jpg",
+   "page_url": "https://www.cedarbrooklodge.com/gallery-lodge.php",
+   "credit": "Cedarbrook Lodge (official site)",
+   "caption": "Terrace over the lily pond"
+  }
+ ],
+ "notes": ""
+}

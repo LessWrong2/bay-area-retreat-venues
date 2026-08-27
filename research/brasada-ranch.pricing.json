@@ -1,0 +1,84 @@
+{
+ "id": "brasada-ranch",
+ "checked_on": "2026-08-27",
+ "cost": {
+  "mode": "published",
+  "low": 17000,
+  "high": 35000,
+  "summary": "~$17k–35k for lodging; add meals",
+  "basis": "30 units x $262-524/night (Cabin Guestroom to Sage Canyon Cabin lead rates across the ten weekends; $295 and $524 on Fri Oct 16, 2026) x 2 nights, plus ~11% Oregon lodging tax and resort fee. Meals and meeting space are extra.",
+  "per_person": "roughly $290-580 per person for lodging",
+  "source_url": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+  "source_label": "Brasada Ranch booking engine, Oct 16-18 2026",
+  "confidence": "medium"
+ },
+ "availability_notes": "~89 units (65 Sage Canyon cabins, 16 Cascade bungalows, 8 ranch house rooms) on 1,800 acres. Resort with public golf and other guests; group blocks and event space handled by the sales team. Rates swing widely by weekend.",
+ "availability": [
+  {
+   "weekend": "2026-08-28",
+   "status": "available",
+   "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $339 per night; a 30-room block or buyout is unconfirmed.",
+   "source_url": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-08-28&depart=2026-08-30&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+  },
+  {
+   "weekend": "2026-09-04",
+   "status": "available",
+   "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $830 per night; a 30-room block or buyout is unconfirmed.",
+   "source_url": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+  },
+  {
+   "weekend": "2026-09-11",
+   "status": "available",
+   "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $386 per night; a 30-room block or buyout is unconfirmed.",
+   "source_url": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+  },
+  {
+   "weekend": "2026-09-18",
+   "status": "available",
+   "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $947 per night; a 30-room block or buyout is unconfirmed.",
+   "source_url": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-09-18&depart=2026-09-20&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+  },
+  {
+   "weekend": "2026-09-25",
+   "status": "available",
+   "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $409 per night; a 30-room block or buyout is unconfirmed.",
+   "source_url": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-09-25&depart=2026-09-27&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+  },
+  {
+   "weekend": "2026-10-02",
+   "status": "available",
+   "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $683 per night; a 30-room block or buyout is unconfirmed.",
+   "source_url": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+  },
+  {
+   "weekend": "2026-10-09",
+   "status": "available",
+   "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $327 per night; a 30-room block or buyout is unconfirmed.",
+   "source_url": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+  },
+  {
+   "weekend": "2026-10-16",
+   "status": "available",
+   "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $295 per night; a 30-room block or buyout is unconfirmed.",
+   "source_url": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+  },
+  {
+   "weekend": "2026-10-23",
+   "status": "available",
+   "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $402 per night; a 30-room block or buyout is unconfirmed.",
+   "source_url": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-10-23&depart=2026-10-25&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+  }
+ ],
+ "sources": [
+  "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-08-28&depart=2026-08-30&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+  "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+  "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+  "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-09-18&depart=2026-09-20&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+  "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-09-25&depart=2026-09-27&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+  "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+  "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+  "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+  "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-10-23&depart=2026-10-25&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+  "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-10-30&depart=2026-11-01&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+ ]
+}

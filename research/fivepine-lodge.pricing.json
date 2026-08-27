@@ -1,0 +1,72 @@
+{
+ "id": "fivepine-lodge",
+ "checked_on": "2026-08-27",
+ "cost": {
+  "mode": "quote",
+  "summary": "Quote",
+  "basis": "FivePine books through an innRoad client site that could not be queried by date, and publishes no group rate sheet.",
+  "source_url": "https://www.fivepinelodge.com/",
+  "source_label": "FivePine Lodge",
+  "confidence": "low"
+ },
+ "availability_notes": "See the venue notes; no dated group availability is published.",
+ "availability": [
+  {
+   "weekend": "2026-08-28",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.fivepinelodge.com/"
+  },
+  {
+   "weekend": "2026-09-04",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.fivepinelodge.com/"
+  },
+  {
+   "weekend": "2026-09-11",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.fivepinelodge.com/"
+  },
+  {
+   "weekend": "2026-09-18",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.fivepinelodge.com/"
+  },
+  {
+   "weekend": "2026-09-25",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.fivepinelodge.com/"
+  },
+  {
+   "weekend": "2026-10-02",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.fivepinelodge.com/"
+  },
+  {
+   "weekend": "2026-10-09",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.fivepinelodge.com/"
+  },
+  {
+   "weekend": "2026-10-16",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.fivepinelodge.com/"
+  },
+  {
+   "weekend": "2026-10-23",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://www.fivepinelodge.com/"
+  }
+ ],
+ "sources": [
+  "https://www.fivepinelodge.com/"
+ ]
+}

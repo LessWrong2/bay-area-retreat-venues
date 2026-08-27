@@ -1,0 +1,48 @@
+{
+ "id": "mcmenamins-edgefield",
+ "address": "2126 SW Halsey Street, Troutdale, OR 97060",
+ "lat": 45.53708,
+ "lng": -122.40686,
+ "geo_method": "nominatim address",
+ "geo_confidence": "high",
+ "geo_notes": "Airport drive time (20 min / 12.2 mi from PDX) computed with OSRM from the airport terminal to these coordinates.",
+ "thumb": "03.jpg",
+ "images": [
+  {
+   "file": "03.jpg",
+   "source_url": "https://d2660z551umiy9.cloudfront.net/images/Promos/Edgefield/ed-header.jpg",
+   "page_url": "https://www.mcmenamins.com/edgefield",
+   "credit": "McMenamins Edgefield (official site)",
+   "caption": "The 1911 manor at sunset"
+  },
+  {
+   "file": "02.jpg",
+   "source_url": "https://d2660z551umiy9.cloudfront.net/images/Promos/Edgefield/SoakingPool-1.jpg",
+   "page_url": "https://www.mcmenamins.com/edgefield",
+   "credit": "McMenamins Edgefield (official site)",
+   "caption": "The spring-fed soaking pool"
+  },
+  {
+   "file": "01.jpg",
+   "source_url": "https://d2660z551umiy9.cloudfront.net/images/Promos/Edgefield/Edgefield5-2020.jpg",
+   "page_url": "https://www.mcmenamins.com/edgefield",
+   "credit": "McMenamins Edgefield (official site)",
+   "caption": "Guest room in the main building"
+  },
+  {
+   "file": "05.jpg",
+   "source_url": "https://mcmenaminsarchive.photoshelter.com/img-get2/I0000ZyCA7Xl3O1k/sec=wd0sd0oe0lwe0ms1000ed20160926bhZECeJn.nZ1VIx/fit=1500x1500/ed-room-7183.jpg",
+   "page_url": "https://www.mcmenamins.com/edgefield",
+   "credit": "McMenamins Edgefield (official site)",
+   "caption": "Attic room under the eaves"
+  },
+  {
+   "file": "04.jpg",
+   "source_url": "https://d2660z551umiy9.cloudfront.net/images/Promos/Edgefield/Orchard26Summer.jpg",
+   "page_url": "https://www.mcmenamins.com/edgefield",
+   "credit": "McMenamins Edgefield (official site)",
+   "caption": "Tables in the orchard"
+  }
+ ],
+ "notes": ""
+}

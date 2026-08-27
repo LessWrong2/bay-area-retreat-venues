@@ -1,0 +1,41 @@
+{
+ "id": "hermosa-inn",
+ "address": "5532 North Palo Cristi Road, Paradise Valley, AZ 85253",
+ "lat": 33.51841,
+ "lng": -112.00472,
+ "geo_method": "nominatim address",
+ "geo_confidence": "high",
+ "geo_notes": "Airport drive time (19 min / 9.6 mi from PHX) computed with OSRM from the airport terminal to these coordinates.",
+ "thumb": "01.jpg",
+ "images": [
+  {
+   "file": "01.jpg",
+   "source_url": "https://azhideawaycollection.com/wp-content/uploads/2025/01/Front-of-the-hotel-scaled.jpg",
+   "page_url": "https://azhideawaycollection.com/hermosa-inn/",
+   "credit": "The Hermosa Inn (official site)",
+   "caption": "Bougainvillea over the adobe casitas"
+  },
+  {
+   "file": "02.jpg",
+   "source_url": "https://azhideawaycollection.com/wp-content/uploads/2024/12/KPL_1103_LonsHermosaEventSpaces.0728-Edit.jpg",
+   "page_url": "https://azhideawaycollection.com/hermosa-inn/",
+   "credit": "The Hermosa Inn (official site)",
+   "caption": "Casita with corner fireplace and beamed ceiling"
+  },
+  {
+   "file": "03.jpg",
+   "source_url": "https://azhideawaycollection.com/wp-content/uploads/2024/12/Pool.jpg",
+   "page_url": "https://azhideawaycollection.com/hermosa-inn/",
+   "credit": "The Hermosa Inn (official site)",
+   "caption": "The pool under the palms"
+  },
+  {
+   "file": "06.jpg",
+   "source_url": "https://azhideawaycollection.com/wp-content/uploads/2025/09/KPL_04152025_HermosaRooms_LonsFood.0005-HDR-Edit.jpg",
+   "page_url": "https://azhideawaycollection.com/hermosa-inn/",
+   "credit": "The Hermosa Inn (official site)",
+   "caption": "Brick paths through the gardens"
+  }
+ ],
+ "notes": ""
+}

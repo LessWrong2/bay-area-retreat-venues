@@ -1,0 +1,55 @@
+{
+ "id": "hacienda-del-sol",
+ "address": "5501 North Hacienda Del Sol Road, Tucson, AZ 85718",
+ "lat": 32.30785,
+ "lng": -110.91434,
+ "geo_method": "nominatim address",
+ "geo_confidence": "high",
+ "geo_notes": "Airport drive time (33 min / 17.0 mi from TUS) computed with OSRM from the airport terminal to these coordinates.",
+ "thumb": "02.jpg",
+ "images": [
+  {
+   "file": "02.jpg",
+   "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/hacienda-del-sol-guest-ranch-resort/siteimages/the-grill-entrance-and-outer-courtyard-hacienda-del-sol-guest-ranch-resort.jpg?width=2000",
+   "page_url": "https://www.haciendadelsol.com/gallery",
+   "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+   "caption": "Fountain courtyard at the main entrance"
+  },
+  {
+   "file": "01.jpg",
+   "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/hacienda-del-sol-guest-ranch-resort/haciendadelsol-new/site-images/home/aerial-view-of-a-resort-surrounded-by-desert-vegetation.jpg?width=2000",
+   "page_url": "https://www.haciendadelsol.com/gallery",
+   "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+   "caption": "The ranch from the air, Santa Catalinas behind"
+  },
+  {
+   "file": "03.jpg",
+   "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/hacienda-del-sol-guest-ranch-resort/siteimages/guest-building-at-hacienda-del-sol-guest-ranch-resort-tucson-arizona.jpg?width=2000",
+   "page_url": "https://www.haciendadelsol.com/gallery",
+   "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+   "caption": "Guest building on the hillside"
+  },
+  {
+   "file": "06.jpg",
+   "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/hacienda-del-sol-guest-ranch-resort/haciendadelsol-new/site-images/gallery/garden-with-tall-cacti-and-flowering-plants-in-the-foreground.jpg?width=2000",
+   "page_url": "https://www.haciendadelsol.com/gallery",
+   "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+   "caption": "Saguaro garden and the historic gate"
+  },
+  {
+   "file": "05.jpg",
+   "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/hacienda-del-sol-guest-ranch-resort/siteimages/librarybookshelves.jpg?width=2000",
+   "page_url": "https://www.haciendadelsol.com/gallery",
+   "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+   "caption": "The library"
+  },
+  {
+   "file": "04.jpg",
+   "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/hacienda-del-sol-guest-ranch-resort/siteimages/hacienda-casaluna.jpg?width=2000",
+   "page_url": "https://www.haciendadelsol.com/gallery",
+   "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+   "caption": "Casa Luna ballroom set for dinner"
+  }
+ ],
+ "notes": ""
+}

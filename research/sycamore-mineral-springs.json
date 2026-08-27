@@ -1,0 +1,41 @@
+{
+ "id": "sycamore-mineral-springs",
+ "address": "1215 Avila Beach Drive, San Luis Obispo, CA 93405",
+ "lat": 35.18667,
+ "lng": -120.71409,
+ "geo_method": "nominatim address",
+ "geo_confidence": "high",
+ "geo_notes": "Airport drive time (17 min / 7.1 mi from SBP) computed with OSRM from the airport terminal to these coordinates.",
+ "thumb": "01.webp",
+ "images": [
+  {
+   "file": "01.webp",
+   "source_url": "",
+   "page_url": "https://sycamoresprings.com/",
+   "credit": "Sycamore Mineral Springs Resort (official site)",
+   "caption": "Footbridge into the oak canyon"
+  },
+  {
+   "file": "03.webp",
+   "source_url": "",
+   "page_url": "https://sycamoresprings.com/",
+   "credit": "Sycamore Mineral Springs Resort (official site)",
+   "caption": "The grotto mineral pool"
+  },
+  {
+   "file": "04.webp",
+   "source_url": "",
+   "page_url": "https://sycamoresprings.com/",
+   "credit": "Sycamore Mineral Springs Resort (official site)",
+   "caption": "The swimming pool"
+  },
+  {
+   "file": "06.webp",
+   "source_url": "",
+   "page_url": "https://sycamoresprings.com/",
+   "credit": "Sycamore Mineral Springs Resort (official site)",
+   "caption": "Two-story suite"
+  }
+ ],
+ "notes": ""
+}

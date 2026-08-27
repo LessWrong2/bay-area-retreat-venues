@@ -1,0 +1,41 @@
+{
+ "id": "two-bunch-palms",
+ "address": "67425 Two Bunch Palms Trail, Desert Hot Springs, CA 92240",
+ "lat": 33.94827,
+ "lng": -116.48849,
+ "geo_method": "nominatim address",
+ "geo_confidence": "high",
+ "geo_notes": "Airport drive time (18 min / 10.1 mi from PSP) computed with OSRM from the airport terminal to these coordinates.",
+ "thumb": "06.jpg",
+ "images": [
+  {
+   "file": "06.jpg",
+   "source_url": "",
+   "page_url": "https://twobunchpalms.com/",
+   "credit": "Two Bunch Palms (official site)",
+   "caption": "Adobe archway onto a palm courtyard, San Jacinto behind"
+  },
+  {
+   "file": "01.webp",
+   "source_url": "https://cdn.sanity.io/images/txxm5upd/production/bc2fd467361e98b2ba5f043ab8e2cec49abe1dc1-2500x1307.webp?w=2000&q=85&auto=format",
+   "page_url": "https://twobunchpalms.com/",
+   "credit": "Two Bunch Palms (official site)",
+   "caption": "Cactus garden along the guest wing"
+  },
+  {
+   "file": "03.webp",
+   "source_url": "https://cdn.sanity.io/images/txxm5upd/production/0e129d7a648f0a3fc1be3c6c56ea93bef1a720fd-2500x1307.webp?w=2000&q=85&auto=format",
+   "page_url": "https://twobunchpalms.com/",
+   "credit": "Two Bunch Palms (official site)",
+   "caption": "Mount San Jacinto from the grove"
+  },
+  {
+   "file": "05.jpg",
+   "source_url": "",
+   "page_url": "https://twobunchpalms.com/",
+   "credit": "Two Bunch Palms (official site)",
+   "caption": "Guest room"
+  }
+ ],
+ "notes": ""
+}

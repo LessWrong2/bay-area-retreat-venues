@@ -1,0 +1,72 @@
+{
+ "id": "sycamore-mineral-springs",
+ "checked_on": "2026-08-27",
+ "cost": {
+  "mode": "quote",
+  "summary": "Quote",
+  "basis": "No queryable booking engine and no published group rate sheet; the resort quotes group and meeting packages directly.",
+  "source_url": "https://sycamoresprings.com/",
+  "source_label": "Sycamore Mineral Springs Resort",
+  "confidence": "low"
+ },
+ "availability_notes": "See the venue notes; no dated group availability is published.",
+ "availability": [
+  {
+   "weekend": "2026-08-28",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://sycamoresprings.com/"
+  },
+  {
+   "weekend": "2026-09-04",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://sycamoresprings.com/"
+  },
+  {
+   "weekend": "2026-09-11",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://sycamoresprings.com/"
+  },
+  {
+   "weekend": "2026-09-18",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://sycamoresprings.com/"
+  },
+  {
+   "weekend": "2026-09-25",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://sycamoresprings.com/"
+  },
+  {
+   "weekend": "2026-10-02",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://sycamoresprings.com/"
+  },
+  {
+   "weekend": "2026-10-09",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://sycamoresprings.com/"
+  },
+  {
+   "weekend": "2026-10-16",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://sycamoresprings.com/"
+  },
+  {
+   "weekend": "2026-10-23",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://sycamoresprings.com/"
+  }
+ ],
+ "sources": [
+  "https://sycamoresprings.com/"
+ ]
+}

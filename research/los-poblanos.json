@@ -1,0 +1,55 @@
+{
+ "id": "los-poblanos",
+ "address": "4803 Rio Grande Boulevard NW, Los Ranchos de Albuquerque, NM 87107",
+ "lat": 35.14909,
+ "lng": -106.66655,
+ "geo_method": "nominatim address",
+ "geo_confidence": "high",
+ "geo_notes": "Airport drive time (22 min / 11.5 mi from ABQ) computed with OSRM from the airport terminal to these coordinates.",
+ "thumb": "02.jpg",
+ "images": [
+  {
+   "file": "02.jpg",
+   "source_url": "https://lospoblanos.com/uploads/images/banners/_full_width/inn-room-slider.jpg",
+   "page_url": "https://lospoblanos.com/",
+   "credit": "Los Poblanos (official site)",
+   "caption": "Guest room in the Meem house"
+  },
+  {
+   "file": "01.jpg",
+   "source_url": "https://lospoblanos.com/uploads/images/banners/_full_width/Michelin_keys_slider_Kate_Russell_AIA.jpg",
+   "page_url": "https://lospoblanos.com/",
+   "credit": "Los Poblanos (official site)",
+   "caption": "The portal along the fields"
+  },
+  {
+   "file": "03.jpg",
+   "source_url": "",
+   "page_url": "https://lospoblanos.com/",
+   "credit": "Los Poblanos (official site)",
+   "caption": "Accommodations across the 25-acre farm"
+  },
+  {
+   "file": "04.jpg",
+   "source_url": "",
+   "page_url": "https://lospoblanos.com/",
+   "credit": "Los Poblanos (official site)",
+   "caption": "The event lawn"
+  },
+  {
+   "file": "05.jpg",
+   "source_url": "",
+   "page_url": "https://lospoblanos.com/",
+   "credit": "Los Poblanos (official site)",
+   "caption": "Frescoed interior at La Quinta"
+  },
+  {
+   "file": "06.jpg",
+   "source_url": "",
+   "page_url": "https://lospoblanos.com/",
+   "credit": "Los Poblanos (official site)",
+   "caption": "Field-to-fork dining at Campo"
+  }
+ ],
+ "notes": ""
+}

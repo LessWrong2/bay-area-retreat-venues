@@ -1,0 +1,41 @@
+{
+ "id": "mountain-shadows",
+ "address": "5445 East Lincoln Drive, Paradise Valley, AZ 85253",
+ "lat": 33.53038,
+ "lng": -111.96378,
+ "geo_method": "nominatim address",
+ "geo_confidence": "high",
+ "geo_notes": "Airport drive time (22 min / 9.6 mi from PHX) computed with OSRM from the airport terminal to these coordinates.",
+ "thumb": "01.jpg",
+ "images": [
+  {
+   "file": "01.jpg",
+   "source_url": "https://mountainshadows.com/wp-content/uploads/2024/10/MS-Sunset-Pool.jpg",
+   "page_url": "https://mountainshadows.com/resort/photo-video-gallery/",
+   "credit": "Mountain Shadows Resort (official site)",
+   "caption": "The pool aimed at Camelback at sunset"
+  },
+  {
+   "file": "02.jpg",
+   "source_url": "https://mountainshadows.com/wp-content/uploads/2024/07/ms-rooms-header-img.jpg",
+   "page_url": "https://mountainshadows.com/resort/photo-video-gallery/",
+   "credit": "Mountain Shadows Resort (official site)",
+   "caption": "Guest room with mountain balcony"
+  },
+  {
+   "file": "03.jpg",
+   "source_url": "https://mountainshadows.com/wp-content/uploads/2024/09/ms-dining-hero-banner.jpeg",
+   "page_url": "https://mountainshadows.com/resort/photo-video-gallery/",
+   "credit": "Mountain Shadows Resort (official site)",
+   "caption": "Hearth & Hound dining room"
+  },
+  {
+   "file": "04.jpg",
+   "source_url": "https://mountainshadows.com/wp-content/uploads/2024/07/MS-Golf-Home-Banner.jpg",
+   "page_url": "https://mountainshadows.com/resort/photo-video-gallery/",
+   "credit": "Mountain Shadows Resort (official site)",
+   "caption": "The short course under the Praying Monk"
+  }
+ ],
+ "notes": ""
+}

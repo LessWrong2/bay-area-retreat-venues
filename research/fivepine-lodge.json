@@ -1,0 +1,41 @@
+{
+ "id": "fivepine-lodge",
+ "address": "1021 East Desperado Trail, Sisters, OR 97759",
+ "lat": 44.28567,
+ "lng": -121.53629,
+ "geo_method": "nominatim address",
+ "geo_confidence": "high",
+ "geo_notes": "Airport drive time (33 min / 21.1 mi from RDM) computed with OSRM from the airport terminal to these coordinates.",
+ "thumb": "02.jpg",
+ "images": [
+  {
+   "file": "02.jpg",
+   "source_url": "https://a.storyblok.com/f/114394/2000x1333/e2340a31b3/lodge-welcome-photo.jpg",
+   "page_url": "https://www.fivepinelodge.com/",
+   "credit": "FivePine Lodge (official site)",
+   "caption": "The timber lodge among the ponderosas"
+  },
+  {
+   "file": "03.jpg",
+   "source_url": "https://a.storyblok.com/f/114394/2000x1333/ff981fbe2a/stay_web.jpg",
+   "page_url": "https://www.fivepinelodge.com/",
+   "credit": "FivePine Lodge (official site)",
+   "caption": "Stand-alone cabin"
+  },
+  {
+   "file": "04.jpg",
+   "source_url": "https://a.storyblok.com/f/114394/2000x2043/15b77508d5/events_web02.jpg",
+   "page_url": "https://www.fivepinelodge.com/",
+   "credit": "FivePine Lodge (official site)",
+   "caption": "Entrance to the conference centre"
+  },
+  {
+   "file": "05.jpg",
+   "source_url": "https://a.storyblok.com/f/114394/2000x1878/5b69673a6e/services_web-03.jpg",
+   "page_url": "https://www.fivepinelodge.com/",
+   "credit": "FivePine Lodge (official site)",
+   "caption": "Shibui spa treatment room"
+  }
+ ],
+ "notes": ""
+}

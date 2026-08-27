@@ -1,0 +1,55 @@
+{
+ "id": "el-capitan-canyon",
+ "address": "11560 Calle Real, Goleta, CA 93117",
+ "lat": 34.4737,
+ "lng": -120.0184,
+ "geo_method": "approx (resort entrance off Calle Real at El Capitan State Beach)",
+ "geo_confidence": "medium",
+ "geo_notes": "Airport drive time (20 min / 13.7 mi from SBA) computed with OSRM from the airport terminal to these coordinates.",
+ "thumb": "02.jpg",
+ "images": [
+  {
+   "file": "02.jpg",
+   "source_url": "https://elcapitancanyon.com/wp-content/uploads/2021/08/cabins-082721.jpg",
+   "page_url": "https://elcapitancanyon.com/",
+   "credit": "El Capitan Canyon (official site)",
+   "caption": "Cedar cabins around a fire pit"
+  },
+  {
+   "file": "09.jpg",
+   "source_url": "",
+   "page_url": "https://elcapitancanyon.com/",
+   "credit": "El Capitan Canyon (official site)",
+   "caption": "Cabin interior with wood stove"
+  },
+  {
+   "file": "03.jpg",
+   "source_url": "https://elcapitancanyon.com/wp-content/uploads/2021/08/adventure-yurt-082721.jpg",
+   "page_url": "https://elcapitancanyon.com/",
+   "credit": "El Capitan Canyon (official site)",
+   "caption": "Adventure yurt"
+  },
+  {
+   "file": "04.jpg",
+   "source_url": "https://elcapitancanyon.com/wp-content/uploads/2019/07/corporate-events.jpg",
+   "page_url": "https://elcapitancanyon.com/",
+   "credit": "El Capitan Canyon (official site)",
+   "caption": "Creekside fire pit in the evening"
+  },
+  {
+   "file": "08.jpg",
+   "source_url": "",
+   "page_url": "https://elcapitancanyon.com/",
+   "credit": "El Capitan Canyon (official site)",
+   "caption": "Long table set on the meadow"
+  },
+  {
+   "file": "07.jpg",
+   "source_url": "",
+   "page_url": "https://elcapitancanyon.com/",
+   "credit": "El Capitan Canyon (official site)",
+   "caption": "The meadow set for a gathering"
+  }
+ ],
+ "notes": ""
+}

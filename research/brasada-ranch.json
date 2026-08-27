@@ -1,0 +1,55 @@
+{
+ "id": "brasada-ranch",
+ "address": "16986 SW Brasada Ranch Road, Powell Butte, OR 97753",
+ "lat": 44.15396,
+ "lng": -121.05428,
+ "geo_method": "nominatim address",
+ "geo_confidence": "high",
+ "geo_notes": "Airport drive time (22 min / 14.9 mi from RDM) computed with OSRM from the airport terminal to these coordinates.",
+ "thumb": "03.jpg",
+ "images": [
+  {
+   "file": "03.jpg",
+   "source_url": "",
+   "page_url": "https://www.brasada.com/",
+   "credit": "Brasada Ranch (official site)",
+   "caption": "Cabin under the junipers"
+  },
+  {
+   "file": "05.jpg",
+   "source_url": "",
+   "page_url": "https://www.brasada.com/",
+   "credit": "Brasada Ranch (official site)",
+   "caption": "The ranch core from the air"
+  },
+  {
+   "file": "01.jpg",
+   "source_url": "https://cdn.sanity.io/images/i1mw3vbu/production/11527204b2d1a469649d756921a10d48f43fcf87-1617x831.jpg?w=2000&q=85&auto=format",
+   "page_url": "https://www.brasada.com/",
+   "credit": "Brasada Ranch (official site)",
+   "caption": "Horses on the high-desert pasture at dawn"
+  },
+  {
+   "file": "06.jpg",
+   "source_url": "",
+   "page_url": "https://www.brasada.com/",
+   "credit": "Brasada Ranch (official site)",
+   "caption": "The Cascades from the course"
+  },
+  {
+   "file": "04.jpg",
+   "source_url": "",
+   "page_url": "https://www.brasada.com/",
+   "credit": "Brasada Ranch (official site)",
+   "caption": "Trail ride along the water"
+  },
+  {
+   "file": "07.jpg",
+   "source_url": "",
+   "page_url": "https://www.brasada.com/",
+   "credit": "Brasada Ranch (official site)",
+   "caption": "Cabin interior with fireplace"
+  }
+ ],
+ "notes": ""
+}

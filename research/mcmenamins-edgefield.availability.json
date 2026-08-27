@@ -1,0 +1,91 @@
+{
+ "id": "mcmenamins-edgefield",
+ "checked_on": "2026-08-27",
+ "method": "McMenamins publishes event-space capacities and an enquiry form but no dated group availability, and Edgefield is a public property that does not sell exclusive use.",
+ "booking_policy": "See the venue notes; no dated group availability is published.",
+ "weekends": [
+  {
+   "weekend": "2026-08-28",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+   "source_label": "McMenamins Edgefield meetings"
+  },
+  {
+   "weekend": "2026-09-04",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+   "source_label": "McMenamins Edgefield meetings"
+  },
+  {
+   "weekend": "2026-09-11",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+   "source_label": "McMenamins Edgefield meetings"
+  },
+  {
+   "weekend": "2026-09-18",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+   "source_label": "McMenamins Edgefield meetings"
+  },
+  {
+   "weekend": "2026-09-25",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+   "source_label": "McMenamins Edgefield meetings"
+  },
+  {
+   "weekend": "2026-10-02",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+   "source_label": "McMenamins Edgefield meetings"
+  },
+  {
+   "weekend": "2026-10-09",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+   "source_label": "McMenamins Edgefield meetings"
+  },
+  {
+   "weekend": "2026-10-16",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+   "source_label": "McMenamins Edgefield meetings"
+  },
+  {
+   "weekend": "2026-10-23",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+   "source_label": "McMenamins Edgefield meetings"
+  },
+  {
+   "weekend": "2026-10-30",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+   "source_label": "McMenamins Edgefield meetings"
+  }
+ ],
+ "sources": [
+  "https://www.mcmenamins.com/private-events/meetings/edgefield"
+ ]
+}

@@ -6,7 +6,7 @@
   var TIER_NAMES = { A: 'Tier A — strongest matches', B: 'Tier B — solid, with tradeoffs', C: 'Tier C — worth a call', REF: 'Reference' };
   var SF = [37.7749, -122.4194];
   var TIER_DESC = {
-    A: 'Strongest matches to the Lighthaven / SSS Ranch / The Shadows profile: real character, whole-site exclusive use, on-site lodging that lands near 60, within about 2.5 hours of SF.',
+    A: 'Strongest matches to the Lighthaven / SSS Ranch / The Shadows profile: real character, whole-site exclusive use, on-site lodging that lands near 60 — within about 2.5 hours of SF, or within about half an hour of an airport with a nonstop from SFO or OAK.',
     B: 'Solid and bookable, but each trades something: aesthetics, distance, guest-type restrictions, or dorm-style lodging.',
     C: 'Worth a call for a specific reason (architecture, hot springs, all-inclusive ease, in-city convenience), with a clear tradeoff.',
     REF: 'Your own example venue, a venue that no longer rents, and three that are simply too small.'
@@ -34,7 +34,7 @@
   };
   var OPEN_STATUSES = { definitely_available: 1, probably_available: 1 };
 
-  var state = { filter: 'ALL', weekend: null, selected: null, hover: null, lightbox: { images: [], index: 0 } };
+  var state = { filter: 'ALL', region: 'ALL', weekend: null, selected: null, hover: null, lightbox: { images: [], index: 0 } };
   var markers = {};
   var rows = {};
 
@@ -57,6 +57,7 @@
   function weekendById(id) { for (var i = 0; i < WEEKENDS.length; i++) if (WEEKENDS[i].id === id) return WEEKENDS[i]; return null; }
   function visible(v) {
     if (state.filter !== 'ALL' && v.tier !== state.filter) return false;
+    if (state.region !== 'ALL' && (v.region || 'bay') !== state.region) return false;
     if (state.weekend && !OPEN_STATUSES[availStatus(v, state.weekend).status]) return false;
     return true;
   }
@@ -110,9 +111,9 @@
   function fitAll(animate) {
     var pts = VENUES.filter(function (v) { return visible(v) && markers[v.id]; }).map(function (v) { return [v.lat, v.lng]; });
     if (!pts.length) return;
-    pts.push(SF);
+    if (VENUES.some(function (v) { return visible(v) && (v.region || 'bay') === 'bay'; })) pts.push(SF);
     var pad = detailPanel.classList.contains('is-open') && !isMobile() ? [80, parseInt(getComputedStyle(document.documentElement).getPropertyValue('--detail-w')) + 40] : [80, 40];
-    map.fitBounds(L.latLngBounds(pts), { paddingTopLeft: [40, 40], paddingBottomRight: pad, maxZoom: 11, animate: animate !== false });
+    map.fitBounds(L.latLngBounds(pts), { paddingTopLeft: [40, 40], paddingBottomRight: pad, maxZoom: state.region === 'west' ? 9 : 11, animate: animate !== false });
   }
 
   /* ---------- list ---------- */
@@ -132,7 +133,7 @@
           thumb +
           '<div class="row-main">' +
             '<div class="row-name">' + esc(v.name) + '</div>' +
-            '<div class="row-meta"><span>' + esc(v.area) + '</span><span class="sep">·</span><span>' + esc(v.drive) + '</span></div>' +
+            '<div class="row-meta"><span>' + esc(v.area) + '</span><span class="sep">·</span><span>' + esc(v.airport || v.drive) + '</span></div>' +
             '<div class="row-sleeps">' + esc(shortSleeps(v)) + '</div>' +
           '</div>' + rowSide(v) + '</div>';
       });
@@ -278,13 +279,14 @@
       (imgs.length > 1 ? '<span class="hero-count">' + imgs.length + ' photos</span>' : '') +
       '</div>';
     html += '<div class="detail-body">';
-    html += '<div class="tier-line"><span class="dot tier-' + esc(v.tier) + '"></span>' + esc(v.tierLabel) + (v.drive ? '<span style="opacity:.5">·</span><span style="text-transform:none;letter-spacing:0;font-weight:500">' + esc(v.drive) + ' from SF</span>' : '') + '</div>';
+    html += '<div class="tier-line"><span class="dot tier-' + esc(v.tier) + '"></span>' + esc(v.tierLabel) + (v.airport ? '<span style="opacity:.5">·</span><span style="text-transform:none;letter-spacing:0;font-weight:500">' + esc(v.airport) + '</span>' : v.drive ? '<span style="opacity:.5">·</span><span style="text-transform:none;letter-spacing:0;font-weight:500">' + esc(v.drive) + ' from SF</span>' : '') + '</div>';
     html += '<h2>' + esc(v.name) + '</h2>';
     if (v.subtitle) html += '<p class="detail-sub">' + esc(v.subtitle) + '</p>';
     html += '<p class="detail-area">' + esc(v.area) + (v.address ? ' · ' + esc(v.address) : '') + '</p>';
 
     html += '<dl class="facts">';
     html += costFact(v);
+    if (v.flights) html += fact('Nonstop from the Bay', v.flights);
     html += fact('Sleeps on-site', v.sleeps);
     html += fact('Exclusive buyout?', v.buyout);
     html += fact('Meeting capacity', v.meeting, true);
@@ -454,6 +456,12 @@
     var btn = e.target.closest('.chip'); if (!btn) return;
     state.filter = btn.dataset.tier;
     Array.prototype.forEach.call($('filters').children, function (c) { c.classList.toggle('is-active', c === btn); });
+    applyFilters();
+  });
+  $('regions').addEventListener('click', function (e) {
+    var btn = e.target.closest('.chip'); if (!btn) return;
+    state.region = btn.dataset.region;
+    Array.prototype.forEach.call($('regions').children, function (c) { c.classList.toggle('is-active', c === btn); });
     applyFilters();
   });
 

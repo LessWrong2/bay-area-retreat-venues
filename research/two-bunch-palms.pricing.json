@@ -1,0 +1,84 @@
+{
+ "id": "two-bunch-palms",
+ "checked_on": "2026-08-27",
+ "cost": {
+  "mode": "published",
+  "low": 22000,
+  "high": 30000,
+  "summary": "~$22k–30k for rooms; add meals",
+  "basis": "30 of the 65 rooms x $326-448/night (the range the booking engine returned across the eight bookable weekends) x 2 nights, plus ~13% Desert Hot Springs transient occupancy tax and resort fee. A full buyout is quoted separately and would price above this.",
+  "per_person": "roughly $370-510 per person for rooms",
+  "source_url": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+  "source_label": "Two Bunch Palms booking engine, Oct 9-11 2026",
+  "confidence": "medium"
+ },
+ "availability_notes": "Adults only. 65 rooms (35 king, 16 double, 14 suites). Partial and full resort buyouts are a published product, described as suiting up to 175 guests and available year round; contact the events team for minimums.",
+ "availability": [
+  {
+   "weekend": "2026-08-28",
+   "status": "booked",
+   "evidence": "The property's own booking engine returns no bookable rooms for a night in this weekend.",
+   "source_url": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-08-28&depart=2026-08-30&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+  },
+  {
+   "weekend": "2026-09-04",
+   "status": "available",
+   "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $326 per night; a 30-room block or buyout is unconfirmed.",
+   "source_url": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+  },
+  {
+   "weekend": "2026-09-11",
+   "status": "available",
+   "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $344 per night; a 30-room block or buyout is unconfirmed.",
+   "source_url": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+  },
+  {
+   "weekend": "2026-09-18",
+   "status": "available",
+   "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $344 per night; a 30-room block or buyout is unconfirmed.",
+   "source_url": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-09-18&depart=2026-09-20&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+  },
+  {
+   "weekend": "2026-09-25",
+   "status": "available",
+   "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $401 per night; a 30-room block or buyout is unconfirmed.",
+   "source_url": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-09-25&depart=2026-09-27&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+  },
+  {
+   "weekend": "2026-10-02",
+   "status": "available",
+   "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $401 per night; a 30-room block or buyout is unconfirmed.",
+   "source_url": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+  },
+  {
+   "weekend": "2026-10-09",
+   "status": "available",
+   "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $401 per night; a 30-room block or buyout is unconfirmed.",
+   "source_url": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+  },
+  {
+   "weekend": "2026-10-16",
+   "status": "booked",
+   "evidence": "The property's own booking engine returns no bookable rooms for a night in this weekend.",
+   "source_url": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+  },
+  {
+   "weekend": "2026-10-23",
+   "status": "available",
+   "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $448 per night; a 30-room block or buyout is unconfirmed.",
+   "source_url": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-10-23&depart=2026-10-25&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+  }
+ ],
+ "sources": [
+  "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-08-28&depart=2026-08-30&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+  "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+  "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+  "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-09-18&depart=2026-09-20&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+  "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-09-25&depart=2026-09-27&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+  "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+  "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+  "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+  "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-10-23&depart=2026-10-25&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+  "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-10-30&depart=2026-11-01&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+ ]
+}

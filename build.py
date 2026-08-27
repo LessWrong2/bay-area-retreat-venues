@@ -106,6 +106,7 @@ def main():
         r = json.load(open(rp)) if os.path.exists(rp) else {}
         v = dict(v)
         v["tierLabel"] = TIER_LABEL.get(v["tier"], v["tier"])
+        v.setdefault("region", "bay")
         for k in ("address", "lat", "lng", "geo_confidence"):
             if k in r and r[k] not in (None, ""):
                 v[k] = r[k]

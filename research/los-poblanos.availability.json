@@ -1,0 +1,91 @@
+{
+ "id": "los-poblanos",
+ "checked_on": "2026-08-27",
+ "method": "Los Poblanos books rooms through an Agilysys system with no queryable date URL; the meetings page publishes space capacities and fees but no dated availability.",
+ "booking_policy": "See the venue notes; no dated group availability is published.",
+ "weekends": [
+  {
+   "weekend": "2026-08-28",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events",
+   "source_label": "Los Poblanos meetings & corporate events"
+  },
+  {
+   "weekend": "2026-09-04",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events",
+   "source_label": "Los Poblanos meetings & corporate events"
+  },
+  {
+   "weekend": "2026-09-11",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events",
+   "source_label": "Los Poblanos meetings & corporate events"
+  },
+  {
+   "weekend": "2026-09-18",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events",
+   "source_label": "Los Poblanos meetings & corporate events"
+  },
+  {
+   "weekend": "2026-09-25",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events",
+   "source_label": "Los Poblanos meetings & corporate events"
+  },
+  {
+   "weekend": "2026-10-02",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events",
+   "source_label": "Los Poblanos meetings & corporate events"
+  },
+  {
+   "weekend": "2026-10-09",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events",
+   "source_label": "Los Poblanos meetings & corporate events"
+  },
+  {
+   "weekend": "2026-10-16",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events",
+   "source_label": "Los Poblanos meetings & corporate events"
+  },
+  {
+   "weekend": "2026-10-23",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events",
+   "source_label": "Los Poblanos meetings & corporate events"
+  },
+  {
+   "weekend": "2026-10-30",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events",
+   "source_label": "Los Poblanos meetings & corporate events"
+  }
+ ],
+ "sources": [
+  "https://lospoblanos.com/special-events/meetings-corporate-events"
+ ]
+}

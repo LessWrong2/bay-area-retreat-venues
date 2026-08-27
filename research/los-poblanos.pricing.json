@@ -1,0 +1,74 @@
+{
+ "id": "los-poblanos",
+ "checked_on": "2026-08-27",
+ "cost": {
+  "mode": "quote",
+  "summary": "Quote",
+  "basis": "Room rates were not readable, but event fees are published: La Quinta Cultural Center is \"$2,500 site fee plus $4,000 food and beverage minimum\" Thursday-Saturday, with a 25% service charge on all food and beverage; Barn Commons is $650 plus a $500 F&B minimum. Add roughly 46 rooms of lodging on top.",
+  "hint": "La Quinta Cultural Center: $2,500 site fee plus $4,000 F&B minimum Thu-Sat, 25% service charge",
+  "hint_url": "https://lospoblanos.com/special-events/meetings-corporate-events",
+  "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events",
+  "source_label": "Los Poblanos meetings & corporate events",
+  "confidence": "low"
+ },
+ "availability_notes": "See the venue notes; no dated group availability is published.",
+ "availability": [
+  {
+   "weekend": "2026-08-28",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events"
+  },
+  {
+   "weekend": "2026-09-04",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events"
+  },
+  {
+   "weekend": "2026-09-11",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events"
+  },
+  {
+   "weekend": "2026-09-18",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events"
+  },
+  {
+   "weekend": "2026-09-25",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events"
+  },
+  {
+   "weekend": "2026-10-02",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events"
+  },
+  {
+   "weekend": "2026-10-09",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events"
+  },
+  {
+   "weekend": "2026-10-16",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events"
+  },
+  {
+   "weekend": "2026-10-23",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events"
+  }
+ ],
+ "sources": [
+  "https://lospoblanos.com/special-events/meetings-corporate-events"
+ ]
+}

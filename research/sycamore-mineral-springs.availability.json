@@ -1,0 +1,91 @@
+{
+ "id": "sycamore-mineral-springs",
+ "checked_on": "2026-08-27",
+ "method": "The resort does not expose a booking engine that can be queried by date from a URL, so no dated availability could be read for any weekend.",
+ "booking_policy": "See the venue notes; no dated group availability is published.",
+ "weekends": [
+  {
+   "weekend": "2026-08-28",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://sycamoresprings.com/",
+   "source_label": "Sycamore Mineral Springs Resort"
+  },
+  {
+   "weekend": "2026-09-04",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://sycamoresprings.com/",
+   "source_label": "Sycamore Mineral Springs Resort"
+  },
+  {
+   "weekend": "2026-09-11",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://sycamoresprings.com/",
+   "source_label": "Sycamore Mineral Springs Resort"
+  },
+  {
+   "weekend": "2026-09-18",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://sycamoresprings.com/",
+   "source_label": "Sycamore Mineral Springs Resort"
+  },
+  {
+   "weekend": "2026-09-25",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://sycamoresprings.com/",
+   "source_label": "Sycamore Mineral Springs Resort"
+  },
+  {
+   "weekend": "2026-10-02",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://sycamoresprings.com/",
+   "source_label": "Sycamore Mineral Springs Resort"
+  },
+  {
+   "weekend": "2026-10-09",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://sycamoresprings.com/",
+   "source_label": "Sycamore Mineral Springs Resort"
+  },
+  {
+   "weekend": "2026-10-16",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://sycamoresprings.com/",
+   "source_label": "Sycamore Mineral Springs Resort"
+  },
+  {
+   "weekend": "2026-10-23",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://sycamoresprings.com/",
+   "source_label": "Sycamore Mineral Springs Resort"
+  },
+  {
+   "weekend": "2026-10-30",
+   "status": "unknown",
+   "evidence": "No dated public availability was found for this weekend.",
+   "evidence_quote": null,
+   "source_url": "https://sycamoresprings.com/",
+   "source_label": "Sycamore Mineral Springs Resort"
+  }
+ ],
+ "sources": [
+  "https://sycamoresprings.com/"
+ ]
+}

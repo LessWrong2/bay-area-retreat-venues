@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bay Area Retreat Venues</title>
-<meta name="description" content="Northern California retreat and conference venues for a ~60-person gathering, Oct 16–18 2026. List, map and photos.">
+<title>Retreat Venues — Bay Area &amp; the Fly-in West</title>
+<meta name="description" content="Retreat and conference venues for a ~60-person gathering, Oct 16–18 2026: Northern California within driving distance, plus venues across the US West that are minutes from an airport with a nonstop from SFO or OAK. List, map and photos.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -18,13 +18,18 @@
   <aside class="list-panel" id="listPanel">
     <header class="list-header">
       <div class="title-row">
-        <h1>Bay Area retreat venues</h1>
+        <h1>Retreat venues</h1>
         <button class="mobile-close" id="mobileClose" aria-label="Back to map">Map</button>
         <button class="icon-btn" id="aboutBtn" title="About this list" aria-label="About this list">
           <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="10" cy="10" r="8"/><path d="M10 9v5M10 6.5v.5" stroke-linecap="round"/></svg>
         </button>
       </div>
       <p class="subtitle">~60 people · Fri Oct 16 – Sun Oct 18, 2026</p>
+      <div class="filters" id="regions" role="tablist">
+        <button class="chip is-active" data-region="ALL" title="Both lists">Everywhere</button>
+        <button class="chip" data-region="bay" title="Northern California, within driving distance of San Francisco">Drive from SF</button>
+        <button class="chip" data-region="west" title="Across the US West, close to an airport with a nonstop from SFO or OAK">Fly-in West</button>
+      </div>
       <div class="filters" id="filters" role="tablist">
         <button class="chip is-active" data-tier="ALL" title="All venues">All</button>
         <button class="chip" data-tier="A" title="Tier A — strongest matches: real character, whole-site exclusive use, on-site lodging near 60, within ~2.5 h of SF"><span class="dot tier-A"></span>A</button>
@@ -76,13 +81,16 @@
   <div class="modal-card">
     <button class="icon-btn modal-close" id="aboutClose" aria-label="Close">&times;</button>
     <h2>About this list</h2>
-    <p class="lede">Bay Area conference venues for roughly 60 people, Friday Oct 16 – Sunday Oct 18, 2026. Compiled August 19, 2026 from venue websites; capacities and phone numbers should be verified at time of booking.</p>
+    <p class="lede">Conference venues for roughly 60 people, Friday Oct 16 – Sunday Oct 18, 2026, in two lists. <strong>Drive from SF</strong> is the original Northern California set, compiled Aug 19, 2026. <strong>Fly-in West</strong> was added Aug 27, 2026: thirteen venues across the US West chosen for looks first, then for being close to an airport with a year-round nonstop from SFO or OAK. Capacities and phone numbers should be verified at time of booking.</p>
     <dl class="about-tiers">
-      <dt><span class="dot tier-A"></span>Tier A</dt><dd>Strongest matches to the Lighthaven / SSS Ranch / The Shadows profile: real character, whole-site exclusive use, on-site lodging near 60, within about 2.5 hours of SF.</dd>
+      <dt><span class="dot tier-A"></span>Tier A</dt><dd>Strongest matches to the Lighthaven / SSS Ranch / The Shadows profile: real character, whole-site exclusive use, on-site lodging near 60 — within about 2.5 hours of SF for the drive list, or within about half an hour of a nonstop airport for the fly-in list.</dd>
       <dt><span class="dot tier-B"></span>Tier B</dt><dd>Solid and bookable, but each trades something: aesthetics, distance, guest-type restrictions, or dorm-style lodging.</dd>
       <dt><span class="dot tier-C"></span>Tier C</dt><dd>Worth a call for a specific reason (architecture, hot springs, all-inclusive ease, in-city convenience), with a clear tradeoff.</dd>
       <dt><span class="dot tier-REF"></span>Reference</dt><dd>Your own example venue, a venue that no longer rents, and three that are simply too small.</dd>
     </dl>
+    <h3>The fly-in West list</h3>
+    <p>Airport drive times were computed with OSRM from the terminal to the property's own coordinates, not quoted from marketing copy. Every airport used here has a <strong>year-round</strong> nonstop from SFO or OAK, checked against the current route tables: PSP, TUS, PHX, ABQ, RDM, SEA, PDX, SBA and SBP. Seasonal-only routes (Jackson Hole, Missoula, Aspen, Bishop) were excluded because mid-October falls in their gaps.</p>
+    <p>Six venues are inside 20 minutes of the gate: Cedarbrook (8 min), Ace Palm Springs (8), Sycamore Mineral Springs (17, with a free group shuttle), Two Bunch Palms (18), The Hermosa Inn (19) and Edgefield (20). Brasada, Mountain Shadows and El Capitan Canyon sit at 20–22 minutes. Three run 30–33 minutes — Tanque Verde, Hacienda del Sol and FivePine — which needs a chartered coach for 60 people, but each is a single straight road from the terminal.</p>
     <h3>Timing</h3>
     <p>Oct 16–18 is a Friday-to-Sunday in peak Northern California wedding and harvest season. Napa, Sonoma and Santa Cruz Mountains venues book that weekend 9–15 months out, so call rather than email and ask about the date first.</p>
     <h3>Capacity</h3>
@@ -93,7 +101,7 @@
     <p>Bishop's Ranch hosts nonprofit groups only. Vallombrosa takes religious, educational or charitable groups only. Camp Navarro will not answer booking phone calls — use their form. Westminster Woods only takes Friday–Sunday bookings during the school year, which happens to be this exact window.</p>
     <h3>Cost &amp; availability</h3>
     <p>Weekend costs are rough estimates for 60 people over two nights (Fri + Sat), with meals where the venue serves them, computed from each venue's published rates; each figure links to the page it came from.</p>
-    <p>The strip of squares beside each venue is one square per Fri–Sun weekend from Aug 28 through Oct 30, 2026, earliest at the top. It was re-researched from scratch on Aug 25, 2026, independently of the earlier pass: <span class="dot avail-definitely_available"></span> definitely available, <span class="dot avail-probably_available"></span> probably available, <span class="dot avail-unknown"></span> unknown, <span class="dot avail-probably_not_available"></span> probably not available, <span class="dot avail-definitely_not_available"></span> definitely not available. Hover a square for the verbatim evidence; click it to open the source page in a new tab, scrolled to the quoted text where the browser supports it. <em>Unknown</em> is the honest answer for most venues most weekends — very few publish group availability. Individual-room availability is not the same as a 60-person buyout: always confirm by phone.</p>
+    <p>The strip of squares beside each venue is one square per Fri–Sun weekend from Aug 28 through Oct 30, 2026, earliest at the top. The Northern California set was re-researched from scratch on Aug 25, 2026. The fly-in West set was checked on Aug 27, 2026 by querying each property’s own booking engine for every one of the ten Friday-to-Sunday weekends: <span class="dot avail-definitely_available"></span> definitely available, <span class="dot avail-probably_available"></span> probably available, <span class="dot avail-unknown"></span> unknown, <span class="dot avail-probably_not_available"></span> probably not available, <span class="dot avail-definitely_not_available"></span> definitely not available. Hover a square for the verbatim evidence; click it to open the source page in a new tab, scrolled to the quoted text where the browser supports it. <em>Unknown</em> is the honest answer for most venues most weekends — very few publish group availability. Individual-room availability is not the same as a 60-person buyout: always confirm by phone.</p>
     <p class="muted small">Photos are from each venue's own website or Wikimedia Commons and are credited in each venue's panel. Map © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, tiles © <a href="https://carto.com/attributions">CARTO</a>.</p>
   </div>
 </div>

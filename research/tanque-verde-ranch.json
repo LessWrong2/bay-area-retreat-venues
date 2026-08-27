@@ -1,0 +1,55 @@
+{
+ "id": "tanque-verde-ranch",
+ "address": "14301 East Speedway Boulevard, Tucson, AZ 85748",
+ "lat": 32.23553,
+ "lng": -110.80402,
+ "geo_method": "nominatim address",
+ "geo_confidence": "high",
+ "geo_notes": "Airport drive time (30 min / 16.3 mi from TUS) computed with OSRM from the airport terminal to these coordinates.",
+ "thumb": "02.jpg",
+ "images": [
+  {
+   "file": "02.jpg",
+   "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/cote-family-companies-parent/rincon-vista-exterior-2.jpg?width=2000",
+   "page_url": "https://www.tanqueverderanch.com/",
+   "credit": "Tanque Verde Ranch (official site)",
+   "caption": "Adobe casita exterior"
+  },
+  {
+   "file": "01.jpg",
+   "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/cote-family-companies-parent/tanque-verde/siteimages/exterior-tanque-verde-ranch-tucson-arizona.jpg?width=2000",
+   "page_url": "https://www.tanqueverderanch.com/",
+   "credit": "Tanque Verde Ranch (official site)",
+   "caption": "Casitas scattered through the saguaro forest"
+  },
+  {
+   "file": "03.jpg",
+   "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/cote-family-companies-parent/roadrunner-exterior-5.jpg?width=2000",
+   "page_url": "https://www.tanqueverderanch.com/",
+   "credit": "Tanque Verde Ranch (official site)",
+   "caption": "Ramada and desert garden"
+  },
+  {
+   "file": "04.jpg",
+   "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/cote-family-companies-parent/tanque-verde/siteimages/desert-view-terrace-tanque-verde-ranch-tucson-arizona.jpg?width=2000",
+   "page_url": "https://www.tanqueverderanch.com/",
+   "credit": "Tanque Verde Ranch (official site)",
+   "caption": "Desert View Terrace set for a group dinner"
+  },
+  {
+   "file": "05.jpg",
+   "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/cote-family-companies-parent/tanque-verde/siteimages/pool-tanque-verde-ranch-tucson-arizona.jpg?width=2000",
+   "page_url": "https://www.tanqueverderanch.com/",
+   "credit": "Tanque Verde Ranch (official site)",
+   "caption": "The pool below the ranch buildings"
+  },
+  {
+   "file": "06.jpg",
+   "source_url": "https://assets.milestoneinternet.com/cdn-cgi/image/f=auto/cote-family-companies-parent/tanque-verde/siteimages/activities-riding-tanque-verde-ranch-tucson-arizona.jpg?width=2000",
+   "page_url": "https://www.tanqueverderanch.com/",
+   "credit": "Tanque Verde Ranch (official site)",
+   "caption": "Morning ride out into the Rincons"
+  }
+ ],
+ "notes": ""
+}

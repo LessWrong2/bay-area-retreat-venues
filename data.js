@@ -17,6 +17,7 @@ window.VENUES = [
   "booking": "https://www.saintdorothysrest.org/retreats",
   "note": "Research note: the retreats page lists per-building bed counts (Main House, Farmer, Lydia, Upper/Lower Miriam) and 2026 rates; 12-person minimum for meals; dorm bedding extra. Office hours Tue-Fri 10-5.",
   "tierLabel": "Tier A",
+  "region": "bay",
   "address": "168 St Dorothy Ave, Camp Meeker, CA 95419",
   "lat": 38.4289925,
   "lng": -122.9640174,
@@ -91,57 +92,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "No public availability calendar: the retreats page says to 'check the calendar below' for building reservations, but no calendar renders on the page (checked in a real browser). Inquire by email to retreats@stdorothysrest.org with group name/size/desired buildings; office hours Tue–Fri 10–5. Building minimums: Lydia 8, Farmer 8, Main 7, Miriam none; entire facility 65+ (another paragraph says 68+). Meals require 12+ people; dorm bedding costs extra. Labor Day weekend 2026 (Sep 4–7) is taken by the venue's own Artists & Writers Fall Retreat.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/st-dorothys-rest/thumb.jpg",
-  "images": [
-   {
-    "file": "images/st-dorothys-rest/01.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Redwood chapel with bell tower among the redwoods",
-    "credit": "St. Dorothy's Rest (official site)",
-    "source": "https://www.saintdorothysrest.org/"
-   },
-   {
-    "file": "images/st-dorothys-rest/02.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Main House, the 1901 shingled lodge",
-    "credit": "St. Dorothy's Rest (official site)",
-    "source": "https://www.saintdorothysrest.org/retreats"
-   },
-   {
-    "file": "images/st-dorothys-rest/03.jpg",
-    "w": 1600,
-    "h": 2125,
-    "caption": "Guest building and deck in the redwoods at sunset",
-    "credit": "St. Dorothy's Rest (official site)",
-    "source": "https://www.saintdorothysrest.org/retreats"
-   },
-   {
-    "file": "images/st-dorothys-rest/04.jpg",
-    "w": 1600,
-    "h": 1225,
-    "caption": "Covered porch looking out over the Russian River hills",
-    "credit": "St. Dorothy's Rest (official site)",
-    "source": "https://www.saintdorothysrest.org/retreats"
-   },
-   {
-    "file": "images/st-dorothys-rest/05.jpg",
-    "w": 1024,
-    "h": 592,
-    "caption": "Chapel in afternoon light through the redwoods",
-    "credit": "St. Dorothy's Rest (official site)",
-    "source": "https://www.saintdorothysrest.org/about-us"
-   },
-   {
-    "file": "images/st-dorothys-rest/06.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Ridge view from the property at dusk",
-    "credit": "St. Dorothy's Rest (official site)",
-    "source": "https://www.saintdorothysrest.org/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched the retreats page twice (curl and a real browser render) plus the home, events, book-online and FAQ pages, and walked both Wix sitemaps (pages-sitemap.xml, event-pages-sitemap.xml) to reach every event-detail URL. The retreats page instructs groups to 'check the calendar below', but in a live browser render the page contains no iframe and no calendar widget at all - the embed is missing or broken, so the availability calendar the venue points at is not actually published. The events page lists only spring and early-summer 2026 items (Woods to Waves May 2, Hearts & Hands May 29-31, Camp Comeback June 4-7) and a vague 'Next show coming in September' note for a new music series with no date. The fall event-detail pages in the sitemap (fall-hearts-hands-work-weekend, fall-artists-writers-retreat) resolve to stale 2025 content through the Wix SPA router. The Book Online page is an unconfigured Wix template showing placeholder 'Service Name' items at $19.99, not a working booking engine. Web searches for the venue with 2026 fall dates returned only directory listings (ACA, Yelp, Episcopal Asset Map) with no dated bookings. Nothing dated is published for any of the ten weekends.",
@@ -228,7 +178,58 @@ window.VENUES = [
      "sourceLabel": "St. Dorothy's Rest - Retreats page"
     }
    ]
-  }
+  },
+  "thumb": "images/st-dorothys-rest/thumb.jpg",
+  "images": [
+   {
+    "file": "images/st-dorothys-rest/01.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Redwood chapel with bell tower among the redwoods",
+    "credit": "St. Dorothy's Rest (official site)",
+    "source": "https://www.saintdorothysrest.org/"
+   },
+   {
+    "file": "images/st-dorothys-rest/02.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Main House, the 1901 shingled lodge",
+    "credit": "St. Dorothy's Rest (official site)",
+    "source": "https://www.saintdorothysrest.org/retreats"
+   },
+   {
+    "file": "images/st-dorothys-rest/03.jpg",
+    "w": 1600,
+    "h": 2125,
+    "caption": "Guest building and deck in the redwoods at sunset",
+    "credit": "St. Dorothy's Rest (official site)",
+    "source": "https://www.saintdorothysrest.org/retreats"
+   },
+   {
+    "file": "images/st-dorothys-rest/04.jpg",
+    "w": 1600,
+    "h": 1225,
+    "caption": "Covered porch looking out over the Russian River hills",
+    "credit": "St. Dorothy's Rest (official site)",
+    "source": "https://www.saintdorothysrest.org/retreats"
+   },
+   {
+    "file": "images/st-dorothys-rest/05.jpg",
+    "w": 1024,
+    "h": 592,
+    "caption": "Chapel in afternoon light through the redwoods",
+    "credit": "St. Dorothy's Rest (official site)",
+    "source": "https://www.saintdorothysrest.org/about-us"
+   },
+   {
+    "file": "images/st-dorothys-rest/06.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Ridge view from the property at dusk",
+    "credit": "St. Dorothy's Rest (official site)",
+    "source": "https://www.saintdorothysrest.org/"
+   }
+  ]
  },
  {
   "id": "green-mountain-retreat",
@@ -247,6 +248,7 @@ window.VENUES = [
   "booking": "https://www.greenmountainretreat.com/contact",
   "subtitle": "former Presentation Center",
   "tierLabel": "Tier A",
+  "region": "bay",
   "address": "19480 Bear Creek Rd, Los Gatos, CA 95033",
   "lat": 37.1731628,
   "lng": -122.008872,
@@ -320,57 +322,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "No public availability calendar or booking engine; availability is only confirmed through the quote form or by phone (669-269-8811, Mon–Fri 9–5). WeddingWire listing notes 2026 dates open for booking since Jan 2025. No public events naming the venue were found for Aug–Oct 2026 (the only dated 2026 retreat found in search, an ACC 'Labor Day Retreat' Sep 4–7, is held in Lake Arrowhead, not here).",
   "checkedOn": "2026-08-21",
-  "thumb": "images/green-mountain-retreat/thumb.jpg",
-  "images": [
-   {
-    "file": "images/green-mountain-retreat/01.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Labyrinth on the front lawn with the white stucco main building behind",
-    "credit": "Green Mountain Retreat (official site)",
-    "source": "https://www.greenmountainretreat.com/retreats"
-   },
-   {
-    "file": "images/green-mountain-retreat/02.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Conference/meeting building in the meadow, redwoods behind",
-    "credit": "Green Mountain Retreat (official site)",
-    "source": "https://www.greenmountainretreat.com/"
-   },
-   {
-    "file": "images/green-mountain-retreat/03.jpg",
-    "w": 1600,
-    "h": 747,
-    "caption": "Redwood amphitheater (panorama)",
-    "credit": "Green Mountain Retreat (official site)",
-    "source": "https://www.greenmountainretreat.com/"
-   },
-   {
-    "file": "images/green-mountain-retreat/04.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Lounge with carved stone fireplace in the main building",
-    "credit": "Green Mountain Retreat (official site)",
-    "source": "https://www.greenmountainretreat.com/"
-   },
-   {
-    "file": "images/green-mountain-retreat/05.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Dining hall (capacity 120, doubles as meeting space)",
-    "credit": "Green Mountain Retreat (official site)",
-    "source": "https://www.greenmountainretreat.com/retreats"
-   },
-   {
-    "file": "images/green-mountain-retreat/06.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Casa cottage with covered porch",
-    "credit": "Green Mountain Retreat (official site)",
-    "source": "https://www.greenmountainretreat.com/lodging"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched the home, retreats and lodging pages (the site is Wix and inquiry-only: no calendar, no booking engine, and the only 'availability' string on the lodging page refers to kitchen availability in the cottages). Because the venue publishes nothing dated, I searched for third-party groups advertising stays there in the window. Two turned up for the same weekend and I fetched both source pages directly at HTTP 200: internationalguitarcamp.com, whose fall camp runs Sept 10-13, 2026 at Green Mountain Retreat ('limited to 20 students', dorm-style rooms in the Pueblo building, meals Thursday evening through Sunday morning by the venue's chefs), and collectiveselfenergy.com/retreats, listing 'Boundaries & Our Parts' with Lissa Rankin, Friday Sept 11 - Sunday Sept 13, 2026, at Green Mountain Retreat Center, with the venue name hyperlinked to greenmountainretreat.com. The same IFS page lists an Oct 30 - Nov 1, 2026 retreat but at Mount Madonna in Watsonville, not here, so it does not affect the Halloween weekend. Nothing dated was found for the other nine weekends.",
@@ -457,7 +408,58 @@ window.VENUES = [
      "sourceLabel": "Green Mountain Retreat - Retreats page"
     }
    ]
-  }
+  },
+  "thumb": "images/green-mountain-retreat/thumb.jpg",
+  "images": [
+   {
+    "file": "images/green-mountain-retreat/01.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Labyrinth on the front lawn with the white stucco main building behind",
+    "credit": "Green Mountain Retreat (official site)",
+    "source": "https://www.greenmountainretreat.com/retreats"
+   },
+   {
+    "file": "images/green-mountain-retreat/02.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Conference/meeting building in the meadow, redwoods behind",
+    "credit": "Green Mountain Retreat (official site)",
+    "source": "https://www.greenmountainretreat.com/"
+   },
+   {
+    "file": "images/green-mountain-retreat/03.jpg",
+    "w": 1600,
+    "h": 747,
+    "caption": "Redwood amphitheater (panorama)",
+    "credit": "Green Mountain Retreat (official site)",
+    "source": "https://www.greenmountainretreat.com/"
+   },
+   {
+    "file": "images/green-mountain-retreat/04.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Lounge with carved stone fireplace in the main building",
+    "credit": "Green Mountain Retreat (official site)",
+    "source": "https://www.greenmountainretreat.com/"
+   },
+   {
+    "file": "images/green-mountain-retreat/05.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Dining hall (capacity 120, doubles as meeting space)",
+    "credit": "Green Mountain Retreat (official site)",
+    "source": "https://www.greenmountainretreat.com/retreats"
+   },
+   {
+    "file": "images/green-mountain-retreat/06.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Casa cottage with covered porch",
+    "credit": "Green Mountain Retreat (official site)",
+    "source": "https://www.greenmountainretreat.com/lodging"
+   }
+  ]
  },
  {
   "id": "westerbeke-ranch",
@@ -476,6 +478,7 @@ window.VENUES = [
   "booking": "https://www.thewesterbekeranch.com/yourstay/rates-resources/",
   "note": "Research note: meeting rooms on site are Casa Nueva and the Round House; cabins are color-named. The venue's photo library is low resolution, hence the softer images here.",
   "tierLabel": "Tier A",
+  "region": "bay",
   "address": "2300 Grove Street, Sonoma, CA 95476",
   "lat": 38.2931091,
   "lng": -122.5196168,
@@ -550,57 +553,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "No public booking calendar; the rates page says space is often booked far in advance and to contact the office (707-996-7546, Info@WestRanch.com). The site's 'Calendar' page is a stale 2020 list of groups. Two-night minimum for weekend reservations; arrival 4pm, departure 3pm, cabin checkout 10am. Overnight capacity 48 (five cabins), so a 60-person group needs ~12 commuters or day-use guests. Exclusive use = pay room and board for 40 guests; otherwise other groups may share the property. Third-party retreats publicly scheduled at the Ranch in the window: Elise Miller/Marla Apt yoga retreat Fri–Sun Oct 2–4, 2026; a Women's Retreat Oct 19–23 falls just outside the window.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/westerbeke-ranch/thumb.jpg",
-  "images": [
-   {
-    "file": "images/westerbeke-ranch/01.jpg",
-    "w": 800,
-    "h": 460,
-    "caption": "Adobe main house patio with Mexican tile roof and equipale chairs",
-    "credit": "Westerbeke Ranch (official site)",
-    "source": "https://www.thewesterbekeranch.com/explore/gallery/"
-   },
-   {
-    "file": "images/westerbeke-ranch/02.jpg",
-    "w": 800,
-    "h": 507,
-    "caption": "Pool and main house from the lawn under the oaks",
-    "credit": "Westerbeke Ranch (official site)",
-    "source": "https://www.thewesterbekeranch.com/explore/gallery/"
-   },
-   {
-    "file": "images/westerbeke-ranch/03.jpg",
-    "w": 800,
-    "h": 531,
-    "caption": "Dining room with stone fireplace and papel picado",
-    "credit": "Westerbeke Ranch (official site)",
-    "source": "https://www.thewesterbekeranch.com/explore/gallery/"
-   },
-   {
-    "file": "images/westerbeke-ranch/04.jpg",
-    "w": 800,
-    "h": 413,
-    "caption": "Casa Nueva meeting room set for a meditation retreat",
-    "credit": "Westerbeke Ranch (official site)",
-    "source": "https://www.thewesterbekeranch.com/explore/gallery/"
-   },
-   {
-    "file": "images/westerbeke-ranch/05.jpg",
-    "w": 800,
-    "h": 533,
-    "caption": "Yellow guest cabin with porch",
-    "credit": "Westerbeke Ranch (official site)",
-    "source": "https://www.thewesterbekeranch.com/yourstay/cabins/"
-   },
-   {
-    "file": "images/westerbeke-ranch/06.jpg",
-    "w": 800,
-    "h": 515,
-    "caption": "The Round House meeting room",
-    "credit": "Westerbeke Ranch (official site)",
-    "source": "https://www.thewesterbekeranch.com/explore/gallery/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched the home, Special Events, Event Details and Rates & Resources pages. The ranch publishes no availability calendar for 2026: its rates page says space books far in advance and to phone the office, and the one calendar it does have (thewesterbekeranch.com/about/calendar/, not linked from the main nav) is abandoned - it lists 'Groups at Westerbeke Ranch' month by month for 2020 and 2021 only, and its WordPress shortcodes render as raw [spb_row] text. So I searched for outside groups advertising stays there and fetched each source directly. Two are dated inside the window: a yoga retreat with Elise Miller and Marla Apt, Oct 2-4, 2026, and Productive Learning's Women's Retreat, Oct 19-23, 2026. A third result, WITHIN Meditation's weekend retreat at Westerbeke, is stale - it is dated April 14-16, 2023. Nothing dated was found for the eight other weekends.",
@@ -687,7 +639,58 @@ window.VENUES = [
      "sourceLabel": "Westerbeke Ranch - Rates & Resources"
     }
    ]
-  }
+  },
+  "thumb": "images/westerbeke-ranch/thumb.jpg",
+  "images": [
+   {
+    "file": "images/westerbeke-ranch/01.jpg",
+    "w": 800,
+    "h": 460,
+    "caption": "Adobe main house patio with Mexican tile roof and equipale chairs",
+    "credit": "Westerbeke Ranch (official site)",
+    "source": "https://www.thewesterbekeranch.com/explore/gallery/"
+   },
+   {
+    "file": "images/westerbeke-ranch/02.jpg",
+    "w": 800,
+    "h": 507,
+    "caption": "Pool and main house from the lawn under the oaks",
+    "credit": "Westerbeke Ranch (official site)",
+    "source": "https://www.thewesterbekeranch.com/explore/gallery/"
+   },
+   {
+    "file": "images/westerbeke-ranch/03.jpg",
+    "w": 800,
+    "h": 531,
+    "caption": "Dining room with stone fireplace and papel picado",
+    "credit": "Westerbeke Ranch (official site)",
+    "source": "https://www.thewesterbekeranch.com/explore/gallery/"
+   },
+   {
+    "file": "images/westerbeke-ranch/04.jpg",
+    "w": 800,
+    "h": 413,
+    "caption": "Casa Nueva meeting room set for a meditation retreat",
+    "credit": "Westerbeke Ranch (official site)",
+    "source": "https://www.thewesterbekeranch.com/explore/gallery/"
+   },
+   {
+    "file": "images/westerbeke-ranch/05.jpg",
+    "w": 800,
+    "h": 533,
+    "caption": "Yellow guest cabin with porch",
+    "credit": "Westerbeke Ranch (official site)",
+    "source": "https://www.thewesterbekeranch.com/yourstay/cabins/"
+   },
+   {
+    "file": "images/westerbeke-ranch/06.jpg",
+    "w": 800,
+    "h": 515,
+    "caption": "The Round House meeting room",
+    "credit": "Westerbeke Ranch (official site)",
+    "source": "https://www.thewesterbekeranch.com/explore/gallery/"
+   }
+  ]
  },
  {
   "id": "waterfall-lodge",
@@ -705,6 +708,7 @@ window.VENUES = [
   "website": "https://www.waterfallsantacruz.com/",
   "booking": "https://www.waterfallsantacruz.com/corporate",
   "tierLabel": "Tier A",
+  "region": "bay",
   "address": "325 Hidden Falls Trail, Ben Lomond, CA 95005",
   "lat": 37.0928319,
   "lng": -122.1160957,
@@ -781,57 +785,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "No public availability calendar; tours and pricing are by inquiry (hello@waterfallsantacruz.com, replies Mon–Fri), and the old 17hats tour scheduler has been removed. Cabins are rented only to guests of events on the property (no individual cabin rentals). Bookings are full-property or partial buyouts with a 16-cabin minimum; Fri–Sun two-day packages are standard and single-day events are not offered on Fridays or Saturdays (per the venue rate sheet). Overnight capacity is 86–89 across 33 cabins plus two lodge bedrooms; 150 day guests. Rainy-season events (Nov–Mar) are limited to 60 guests. Primarily a wedding venue, so fall Saturdays are likely to be taken first.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/waterfall-lodge/thumb.jpg",
-  "images": [
-   {
-    "file": "images/waterfall-lodge/01.jpg",
-    "w": 1600,
-    "h": 1069,
-    "caption": "The reclaimed-barnwood lodge and paver courtyard",
-    "credit": "Waterfall Lodge & Retreat (official site)",
-    "source": "https://www.waterfallsantacruz.com/virtual-tour/lodge"
-   },
-   {
-    "file": "images/waterfall-lodge/02.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "A-frame cabins on stilts in the redwoods",
-    "credit": "Waterfall Lodge & Retreat (official site)",
-    "source": "https://www.waterfallsantacruz.com/"
-   },
-   {
-    "file": "images/waterfall-lodge/03.jpg",
-    "w": 1600,
-    "h": 1069,
-    "caption": "Lodge interior: open timber-frame hall",
-    "credit": "Waterfall Lodge & Retreat (official site)",
-    "source": "https://www.waterfallsantacruz.com/virtual-tour/lodge"
-   },
-   {
-    "file": "images/waterfall-lodge/04.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Redwood grove ceremony/gathering site",
-    "credit": "Waterfall Lodge & Retreat (official site)",
-    "source": "https://www.waterfallsantacruz.com/"
-   },
-   {
-    "file": "images/waterfall-lodge/05.jpg",
-    "w": 1600,
-    "h": 1069,
-    "caption": "Lodge side entrance and stone patio",
-    "credit": "Waterfall Lodge & Retreat (official site)",
-    "source": "https://www.waterfallsantacruz.com/virtual-tour/lodge"
-   },
-   {
-    "file": "images/waterfall-lodge/06.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Outdoor gathering clearing in the redwoods (aerial)",
-    "credit": "Waterfall Lodge & Retreat (official site)",
-    "source": "https://www.waterfallsantacruz.com/virtual-tour/ceremonylocations"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched the home, corporate, cabins and weddings pages and checked each for a booking or availability widget; there is none. The only date inputs on the site are inside the contact/inquiry form, the /cart route is an unused Squarespace commerce stub, and the site publishes no events calendar. The corporate page lays out two booking modes ('The Full Property' and 'The Redwood Meadow', the latter marked 'New for 2028' and day-use only) and then asks you to describe your group rather than pick dates. I then searched third-party wedding directories and press for dated 2026 bookings. A search summary claimed a peak season of 'October 16 - November 23', but when I fetched the Wedding Spot listing itself that claim was not on the page - it only says to reach out for current pricing, packages and availability - so I discarded it rather than pass on an unverified seasonality. No dated booking, event or closure was found for any of the ten weekends.",
@@ -918,7 +871,58 @@ window.VENUES = [
      "sourceLabel": "Waterfall Lodge & Retreat - Corporate page"
     }
    ]
-  }
+  },
+  "thumb": "images/waterfall-lodge/thumb.jpg",
+  "images": [
+   {
+    "file": "images/waterfall-lodge/01.jpg",
+    "w": 1600,
+    "h": 1069,
+    "caption": "The reclaimed-barnwood lodge and paver courtyard",
+    "credit": "Waterfall Lodge & Retreat (official site)",
+    "source": "https://www.waterfallsantacruz.com/virtual-tour/lodge"
+   },
+   {
+    "file": "images/waterfall-lodge/02.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "A-frame cabins on stilts in the redwoods",
+    "credit": "Waterfall Lodge & Retreat (official site)",
+    "source": "https://www.waterfallsantacruz.com/"
+   },
+   {
+    "file": "images/waterfall-lodge/03.jpg",
+    "w": 1600,
+    "h": 1069,
+    "caption": "Lodge interior: open timber-frame hall",
+    "credit": "Waterfall Lodge & Retreat (official site)",
+    "source": "https://www.waterfallsantacruz.com/virtual-tour/lodge"
+   },
+   {
+    "file": "images/waterfall-lodge/04.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Redwood grove ceremony/gathering site",
+    "credit": "Waterfall Lodge & Retreat (official site)",
+    "source": "https://www.waterfallsantacruz.com/"
+   },
+   {
+    "file": "images/waterfall-lodge/05.jpg",
+    "w": 1600,
+    "h": 1069,
+    "caption": "Lodge side entrance and stone patio",
+    "credit": "Waterfall Lodge & Retreat (official site)",
+    "source": "https://www.waterfallsantacruz.com/virtual-tour/lodge"
+   },
+   {
+    "file": "images/waterfall-lodge/06.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Outdoor gathering clearing in the redwoods (aerial)",
+    "credit": "Waterfall Lodge & Retreat (official site)",
+    "source": "https://www.waterfallsantacruz.com/virtual-tour/ceremonylocations"
+   }
+  ]
  },
  {
   "id": "lodge-at-marconi",
@@ -937,6 +941,7 @@ window.VENUES = [
   "booking": "https://lodgeatmarconi.com/gather/",
   "note": "Research note: as of Aug 21 the hotel booking engine returns no rooms for any night Oct 1-29 (while late October onward is wide open), which looks like a closure or full buyout; the reason is not published, so ask.",
   "tierLabel": "Tier A",
+  "region": "bay",
   "address": "18500 State Hwy 1, Marshall, CA 94940",
   "lat": 38.144256,
   "lng": -122.8780054,
@@ -1011,57 +1016,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Public hotel booking engine (iHotelier) shows nightly availability and lowest rates; group room blocks, buyouts and event space go through a Tripleseat 'Plan Event' inquiry. 45 rooms sleeping up to 100; minimum age 21 to reserve; $38/night experience fee; 48-hour cancellation for standard rates. As of Aug 21, the engine sells rooms through Sep 30 and again from Oct 30 onward, but returns no rooms for any night Oct 1–29 (including midweek), with no reason published (possible closure or full-property buyout). The property's events calendar lists no public events in Sep–Oct; Mable's is closed for a private event Sat Aug 22. Individual-room availability is not the same as a 60-person buyout.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/lodge-at-marconi/thumb.jpg",
-  "images": [
-   {
-    "file": "images/lodge-at-marconi/01.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "Guest lodges and fire circle under the pines",
-    "credit": "Lodge at Marconi (official site)",
-    "source": "https://lodgeatmarconi.com/"
-   },
-   {
-    "file": "images/lodge-at-marconi/02.jpg",
-    "w": 1600,
-    "h": 1198,
-    "caption": "Aerial of the lodge buildings on the hillside above Tomales Bay",
-    "credit": "Lodge at Marconi (official site)",
-    "source": "https://lodgeatmarconi.com/"
-   },
-   {
-    "file": "images/lodge-at-marconi/03.jpg",
-    "w": 1600,
-    "h": 1199,
-    "caption": "Aerial of the 62-acre state historic park and Tomales Bay",
-    "credit": "Lodge at Marconi (official site)",
-    "source": "https://lodgeatmarconi.com/the-park/"
-   },
-   {
-    "file": "images/lodge-at-marconi/04.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "Mable's restaurant dining room",
-    "credit": "Lodge at Marconi (official site)",
-    "source": "https://lodgeatmarconi.com/gather/"
-   },
-   {
-    "file": "images/lodge-at-marconi/05.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "Buck Hall event space",
-    "credit": "Lodge at Marconi (official site)",
-    "source": "https://lodgeatmarconi.com/gather/"
-   },
-   {
-    "file": "images/lodge-at-marconi/06.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Outdoor amphitheater benches in the woods",
-    "credit": "Lodge at Marconi (official site)",
-    "source": "https://lodgeatmarconi.com/gather/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "This is the only one of my five venues with a real public booking engine, so it produced hard dated evidence. I drove the Amadeus/iHotelier engine at lodgeatmarconi.ihotelier.com in a browser tab of my own, declined the cookie banner, and read the date picker's own day cells (a flatpickr grid inside a shadow DOM) for August through October 2026, capturing each date's accessible label and disabled state. Every Friday and Saturday in the window is accounted for. The pattern is striking: weekdays and Sundays sit at a flat $327 and stay open all autumn, while Fri/Sat nights are blocked solid from Sept 18 through Oct 24 - seven consecutive weekends - with Sept 5/6 also blocked, and only Aug 28-29, Sept 11-12 and Oct 30-31 sellable. That looks like weekend group business or buyouts already on the books rather than a closure, but the reason is not published anywhere, so it is worth asking the sales office directly. I also checked the venue's own Calendar of Events page in a browser (it renders with no events listed at all) and its ?ical=1 feed (returns an empty body), plus the Gather, Offsites and Hotel Policy pages for group rules.",
@@ -1148,7 +1102,58 @@ window.VENUES = [
      "sourceLabel": "Lodge at Marconi booking engine - date picker"
     }
    ]
-  }
+  },
+  "thumb": "images/lodge-at-marconi/thumb.jpg",
+  "images": [
+   {
+    "file": "images/lodge-at-marconi/01.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Guest lodges and fire circle under the pines",
+    "credit": "Lodge at Marconi (official site)",
+    "source": "https://lodgeatmarconi.com/"
+   },
+   {
+    "file": "images/lodge-at-marconi/02.jpg",
+    "w": 1600,
+    "h": 1198,
+    "caption": "Aerial of the lodge buildings on the hillside above Tomales Bay",
+    "credit": "Lodge at Marconi (official site)",
+    "source": "https://lodgeatmarconi.com/"
+   },
+   {
+    "file": "images/lodge-at-marconi/03.jpg",
+    "w": 1600,
+    "h": 1199,
+    "caption": "Aerial of the 62-acre state historic park and Tomales Bay",
+    "credit": "Lodge at Marconi (official site)",
+    "source": "https://lodgeatmarconi.com/the-park/"
+   },
+   {
+    "file": "images/lodge-at-marconi/04.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Mable's restaurant dining room",
+    "credit": "Lodge at Marconi (official site)",
+    "source": "https://lodgeatmarconi.com/gather/"
+   },
+   {
+    "file": "images/lodge-at-marconi/05.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Buck Hall event space",
+    "credit": "Lodge at Marconi (official site)",
+    "source": "https://lodgeatmarconi.com/gather/"
+   },
+   {
+    "file": "images/lodge-at-marconi/06.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Outdoor amphitheater benches in the woods",
+    "credit": "Lodge at Marconi (official site)",
+    "source": "https://lodgeatmarconi.com/gather/"
+   }
+  ]
  },
  {
   "id": "the-land",
@@ -1167,6 +1172,7 @@ window.VENUES = [
   "booking": "https://the-land.us/contact",
   "note": "Research note: the site now also brands the property as 'The Eros Monastery' with practice-infused stays; it is 18+ only and alcohol- and cannabis-free. Verizon has no signal on site (AT&T and T-Mobile do).",
   "tierLabel": "Tier A",
+  "region": "bay",
   "address": "18501 Van Zandt Resort Rd, Philo, CA 95466",
   "lat": 39.05195,
   "lng": -123.44851,
@@ -1241,57 +1247,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Private events are custom-designed 2-4 day immersions quoted via the web inquiry form / info@the-land.us / (707) 485-3117. Guests must be 18+; property is alcohol- and cannabis-free. The corporate page currently says 'We do not host weddings at this time' (the weddings page still describes four weddings a year). The venue runs its own programs (Women's Retreat Sept 24-27, 2026; Winter Retreat 2026-27 dates TBD) and sells personal stays year-round directly or via Airbnb; Eros Monastery programming is paused. No public group-availability calendar.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/the-land/thumb.jpg",
-  "images": [
-   {
-    "file": "images/the-land/01.jpg",
-    "w": 1500,
-    "h": 842,
-    "caption": "Two-story redwood lodge building with green metal roof, set among oaks and redwoods",
-    "credit": "The Land (official site)",
-    "source": "https://the-land.us/corporate-retreats"
-   },
-   {
-    "file": "images/the-land/02.jpg",
-    "w": 1600,
-    "h": 863,
-    "caption": "Aerial view of the Navarro River winding through redwood forest on the property",
-    "credit": "The Land (official site)",
-    "source": "https://the-land.us/"
-   },
-   {
-    "file": "images/the-land/03.jpg",
-    "w": 1200,
-    "h": 1200,
-    "caption": "Dining lodge interior with long tables and stone fireplace",
-    "credit": "The Land (official site)",
-    "source": "https://the-land.us/gallery"
-   },
-   {
-    "file": "images/the-land/04.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Timber-frame practice / meeting hall interior with cushions",
-    "credit": "The Land (official site)",
-    "source": "https://the-land.us/gallery"
-   },
-   {
-    "file": "images/the-land/05.jpg",
-    "w": 1200,
-    "h": 1200,
-    "caption": "Glamping tents under the redwoods",
-    "credit": "The Land (official site)",
-    "source": "https://the-land.us/explore-the-land"
-   },
-   {
-    "file": "images/the-land/06.jpg",
-    "w": 1200,
-    "h": 1198,
-    "caption": "Lodge at dusk with string lights over the outdoor seating area",
-    "credit": "The Land (official site)",
-    "source": "https://the-land.us/gallery"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched the-land.us sitemap.xml and every page on it (home, explore-the-land/Stay, corporate-retreats, visiting, monastery-welcome, womens-retreat, true-north, winter-retreat, unconditional-freedom). The Land publishes no availability calendar, no booking engine and no events listing: the only dated programs anywhere on the site are True North (Aug 6-9, 2026, already past), the Women's Retreat (Sept 24-27, 2026) and a Winter Retreat whose 2026-27 dates are still 'coming soon'. 'Book a Stay' links to the Stay page, which routes to an inquiry form (or Airbnb) rather than a live calendar. Also searched the web for Eros Monastery / The Land programming in Sept-Oct 2026 and checked BookRetreats' organizer page for The Land; neither surfaced any further dated program in the window.",
@@ -1378,7 +1333,58 @@ window.VENUES = [
      "sourceLabel": "The Land — Stay / booking page"
     }
    ]
-  }
+  },
+  "thumb": "images/the-land/thumb.jpg",
+  "images": [
+   {
+    "file": "images/the-land/01.jpg",
+    "w": 1500,
+    "h": 842,
+    "caption": "Two-story redwood lodge building with green metal roof, set among oaks and redwoods",
+    "credit": "The Land (official site)",
+    "source": "https://the-land.us/corporate-retreats"
+   },
+   {
+    "file": "images/the-land/02.jpg",
+    "w": 1600,
+    "h": 863,
+    "caption": "Aerial view of the Navarro River winding through redwood forest on the property",
+    "credit": "The Land (official site)",
+    "source": "https://the-land.us/"
+   },
+   {
+    "file": "images/the-land/03.jpg",
+    "w": 1200,
+    "h": 1200,
+    "caption": "Dining lodge interior with long tables and stone fireplace",
+    "credit": "The Land (official site)",
+    "source": "https://the-land.us/gallery"
+   },
+   {
+    "file": "images/the-land/04.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Timber-frame practice / meeting hall interior with cushions",
+    "credit": "The Land (official site)",
+    "source": "https://the-land.us/gallery"
+   },
+   {
+    "file": "images/the-land/05.jpg",
+    "w": 1200,
+    "h": 1200,
+    "caption": "Glamping tents under the redwoods",
+    "credit": "The Land (official site)",
+    "source": "https://the-land.us/explore-the-land"
+   },
+   {
+    "file": "images/the-land/06.jpg",
+    "w": 1200,
+    "h": 1198,
+    "caption": "Lodge at dusk with string lights over the outdoor seating area",
+    "credit": "The Land (official site)",
+    "source": "https://the-land.us/gallery"
+   }
+  ]
  },
  {
   "id": "camp-navarro",
@@ -1397,6 +1403,7 @@ window.VENUES = [
   "booking": "https://www.campnavarro.com/inquiryrequest",
   "note": "Research note: the physical address is 901 Masonite Industrial Rd, Navarro. Booking inquiries go to inquiry@campnavarroca.com; site tours are by approved request only.",
   "tierLabel": "Tier A",
+  "region": "bay",
   "address": "901 Masonite Industrial Rd, Navarro, CA 95463",
   "lat": 39.16911,
   "lng": -123.56673,
@@ -1473,57 +1480,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Turn-key, quote-only venue that hosts one group at a time; 240-260 beds (32 cabins, 54 glamping units, tents/RV) and permitted to 1,500, so a 60-person group pays for exclusive use of a much larger site. No phone inquiries (web form or inquiry@campnavarroca.com only); not open to individual reservations; typical event is 3 days/2 nights with 5 buffet meals; 2-night lodging minimum; 7.875% sales tax on catering, 11% lodging tax. Home page banner (May 27, 2026 update) says CN has 'select availability throughout the rest of the year' and 'August 25-September 25 is wide open'. Festivals it produces: Camp Redwoods 5 (Aug 21-23, sold out) and Camp Deep End 10 (Sept 25-27).",
   "checkedOn": "2026-08-21",
-  "thumb": "images/camp-navarro/thumb.jpg",
-  "images": [
-   {
-    "file": "images/camp-navarro/01.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "The historic two-story lodge (Great Hall) seen across the main lawn, redwoods behind",
-    "credit": "Camp Navarro (official site)",
-    "source": "https://www.campnavarro.com/photo-gallery"
-   },
-   {
-    "file": "images/camp-navarro/02.jpg",
-    "w": 1600,
-    "h": 1199,
-    "caption": "Aerial view of the plaza, lodge, tent village and the Navarro River",
-    "credit": "Camp Navarro (official site)",
-    "source": "https://www.campnavarro.com/photo-gallery"
-   },
-   {
-    "file": "images/camp-navarro/03.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Cluster of 1930s-era cabins among the redwoods",
-    "credit": "Camp Navarro (official site); photo Colin McCarthy",
-    "source": "https://www.campnavarro.com/photo-gallery"
-   },
-   {
-    "file": "images/camp-navarro/04.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Group meeting circle on benches in the redwood grove",
-    "credit": "Camp Navarro (official site)",
-    "source": "https://www.campnavarro.com/photo-gallery"
-   },
-   {
-    "file": "images/camp-navarro/05.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Cabin interior (the 'Commish' cabin) with wood paneling and French doors",
-    "credit": "Camp Navarro (official site)",
-    "source": "https://www.campnavarro.com/photo-gallery"
-   },
-   {
-    "file": "images/camp-navarro/06.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Glamping tipis set among the redwoods",
-    "credit": "Camp Navarro (official site)",
-    "source": "https://www.campnavarro.com/photo-gallery"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched campnavarro.com home, /events-1, /cn-festivals, /deep-end-home, /deep-end, /campout, /halloween, /inquiryrequest, /policies and everything in campnavarro.com/sitemap.xml, plus all 34 URLs in campnavarropresents.com/sitemap.xml (their per-client landing pages) looking for dated 2026 bookings. The home page carries a dated 'May 27th Availability Update' that is the single most useful public statement about this window. Three dated third-party events on the property were found and verified by fetching the organisers' own sites: Camp Deep End 10 (Sept 25-27), Reboot / YC Alumni Retreat (Oct 1-4) and The Reunion (Oct 8-11). Camp Redwoods 5 (Aug 21-23, sold out) falls just before the window. The /upcoming-events URL that appears in search results returns 404, and experiences.campnavarro.com (their ticketing host) returns 403 to non-browser clients.",
@@ -1610,7 +1566,58 @@ window.VENUES = [
      "sourceLabel": "Camp Navarro — Halloween page (last updated 2022)"
     }
    ]
-  }
+  },
+  "thumb": "images/camp-navarro/thumb.jpg",
+  "images": [
+   {
+    "file": "images/camp-navarro/01.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "The historic two-story lodge (Great Hall) seen across the main lawn, redwoods behind",
+    "credit": "Camp Navarro (official site)",
+    "source": "https://www.campnavarro.com/photo-gallery"
+   },
+   {
+    "file": "images/camp-navarro/02.jpg",
+    "w": 1600,
+    "h": 1199,
+    "caption": "Aerial view of the plaza, lodge, tent village and the Navarro River",
+    "credit": "Camp Navarro (official site)",
+    "source": "https://www.campnavarro.com/photo-gallery"
+   },
+   {
+    "file": "images/camp-navarro/03.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Cluster of 1930s-era cabins among the redwoods",
+    "credit": "Camp Navarro (official site); photo Colin McCarthy",
+    "source": "https://www.campnavarro.com/photo-gallery"
+   },
+   {
+    "file": "images/camp-navarro/04.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Group meeting circle on benches in the redwood grove",
+    "credit": "Camp Navarro (official site)",
+    "source": "https://www.campnavarro.com/photo-gallery"
+   },
+   {
+    "file": "images/camp-navarro/05.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Cabin interior (the 'Commish' cabin) with wood paneling and French doors",
+    "credit": "Camp Navarro (official site)",
+    "source": "https://www.campnavarro.com/photo-gallery"
+   },
+   {
+    "file": "images/camp-navarro/06.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Glamping tipis set among the redwoods",
+    "credit": "Camp Navarro (official site)",
+    "source": "https://www.campnavarro.com/photo-gallery"
+   }
+  ]
  },
  {
   "id": "enchanted-hills",
@@ -1629,6 +1636,7 @@ window.VENUES = [
   "booking": "https://enchantedhillsnapa.org/",
   "note": "Research note: now branded 'Enchanted Hills Napa'. Post-fire rebuild includes the Forest Commons dining/meeting hall, Hillside Village casitas, and Lakeside and Forest cabins plus tents and yurts.",
   "tierLabel": "Tier B",
+  "region": "bay",
   "address": "3410 Mt Veeder Rd, Napa, CA 94558",
   "lat": 38.38088,
   "lng": -122.43151,
@@ -1702,65 +1710,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Off-season rental venue (groups of ~30-150; Forest Commons hall up to 200) owned by LightHouse for the Blind; summer camp for blind/low-vision campers runs mid-June to early August (2026 sessions end Aug 8) with a Fall Family Camp Oct 30-Nov 1, so the nine target weekends all fall in the rental season. Lodging is camp-style (Hillside casitas, Lakeside cabins, lodge dorm rooms, safari tents, yurts) with many shared rooms and bathrooms. Booking is 'subject to availability and confirmation'; inquire via web form or events@lighthouse-sf.org / (707) 261-1101. No public availability calendar.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/enchanted-hills/thumb.jpg",
-  "images": [
-   {
-    "file": "images/enchanted-hills/01.jpg",
-    "w": 1600,
-    "h": 790,
-    "caption": "Forest Commons, the rebuilt modern dining and gathering hall, among redwoods and pines",
-    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
-    "source": "https://enchantedhillsnapa.org/experiences/meetings/"
-   },
-   {
-    "file": "images/enchanted-hills/02.jpg",
-    "w": 1206,
-    "h": 866,
-    "caption": "The camp lake with a paddle boat, surrounded by forest",
-    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
-    "source": "https://enchantedhillsnapa.org/explore/image-gallery/"
-   },
-   {
-    "file": "images/enchanted-hills/03.jpg",
-    "w": 1206,
-    "h": 1037,
-    "caption": "Forest Commons interior set for a dinner, with glass garage-door walls opening to the trees",
-    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
-    "source": "https://enchantedhillsnapa.org/experiences/weddings/"
-   },
-   {
-    "file": "images/enchanted-hills/04.jpg",
-    "w": 1600,
-    "h": 790,
-    "caption": "Large meeting room with conference tables and floor-to-ceiling windows",
-    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
-    "source": "https://enchantedhillsnapa.org/experiences/meetings/"
-   },
-   {
-    "file": "images/enchanted-hills/05.jpg",
-    "w": 1600,
-    "h": 790,
-    "caption": "New cabins (Hillside Village) set on the wooded slope",
-    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
-    "source": "https://enchantedhillsnapa.org/experiences/weddings/"
-   },
-   {
-    "file": "images/enchanted-hills/06.jpg",
-    "w": 1206,
-    "h": 1277,
-    "caption": "Swimming pool with guests",
-    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
-    "source": "https://enchantedhillsnapa.org/experiences/wellness/"
-   },
-   {
-    "file": "images/enchanted-hills/07.jpg",
-    "w": 1205,
-    "h": 701,
-    "caption": "Hillside Village cabins; note the fire-scarred trees behind, regrowing after the 2017 fire",
-    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
-    "source": "https://enchantedhillsnapa.org/enchanted-hills-napa/accommodations/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched enchantedhillsnapa.org (home, /booking/, /booking/events/, /booking/stays/) and, on the operator's site, lighthouse-sf.org's Enchanted Hills Camp page and the full 2026 EHC Sessions and Registration page, which lists every camp session for the year with dates. Enchanted Hills publishes a complete camp-session calendar but no rental availability calendar and no booking engine — both the Stays and Events pages are inquiry forms only. The 2026 session list is the decisive document: it puts every summer session in June-August, one Summer Family Camp Aug 6-8, and exactly one session inside our window, Fall Family Camp Oct 30 - Nov 1. Also searched the web for Enchanted Hills Napa 2026 session dates and October rentals, which surfaced the same session page.",
@@ -1847,7 +1796,66 @@ window.VENUES = [
      "sourceLabel": "LightHouse — 2026 EHC session list (Fall Family Camp)"
     }
    ]
-  }
+  },
+  "thumb": "images/enchanted-hills/thumb.jpg",
+  "images": [
+   {
+    "file": "images/enchanted-hills/01.jpg",
+    "w": 1600,
+    "h": 790,
+    "caption": "Forest Commons, the rebuilt modern dining and gathering hall, among redwoods and pines",
+    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
+    "source": "https://enchantedhillsnapa.org/experiences/meetings/"
+   },
+   {
+    "file": "images/enchanted-hills/02.jpg",
+    "w": 1206,
+    "h": 866,
+    "caption": "The camp lake with a paddle boat, surrounded by forest",
+    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
+    "source": "https://enchantedhillsnapa.org/explore/image-gallery/"
+   },
+   {
+    "file": "images/enchanted-hills/03.jpg",
+    "w": 1206,
+    "h": 1037,
+    "caption": "Forest Commons interior set for a dinner, with glass garage-door walls opening to the trees",
+    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
+    "source": "https://enchantedhillsnapa.org/experiences/weddings/"
+   },
+   {
+    "file": "images/enchanted-hills/04.jpg",
+    "w": 1600,
+    "h": 790,
+    "caption": "Large meeting room with conference tables and floor-to-ceiling windows",
+    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
+    "source": "https://enchantedhillsnapa.org/experiences/meetings/"
+   },
+   {
+    "file": "images/enchanted-hills/05.jpg",
+    "w": 1600,
+    "h": 790,
+    "caption": "New cabins (Hillside Village) set on the wooded slope",
+    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
+    "source": "https://enchantedhillsnapa.org/experiences/weddings/"
+   },
+   {
+    "file": "images/enchanted-hills/06.jpg",
+    "w": 1206,
+    "h": 1277,
+    "caption": "Swimming pool with guests",
+    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
+    "source": "https://enchantedhillsnapa.org/experiences/wellness/"
+   },
+   {
+    "file": "images/enchanted-hills/07.jpg",
+    "w": 1205,
+    "h": 701,
+    "caption": "Hillside Village cabins; note the fire-scarred trees behind, regrowing after the 2017 fire",
+    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
+    "source": "https://enchantedhillsnapa.org/enchanted-hills-napa/accommodations/"
+   }
+  ]
  },
  {
   "id": "mount-madonna",
@@ -1865,6 +1873,7 @@ window.VENUES = [
   "website": "https://mountmadonna.org/",
   "booking": "https://mountmadonna.org/host-your-group/",
   "tierLabel": "Tier B",
+  "region": "bay",
   "address": "445 Summit Rd, Watsonville, CA 95076",
   "lat": 37.02558,
   "lng": -121.74461,
@@ -1939,57 +1948,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Group bookings are quoted through hostyourgroup@mountmadonna.org; the Conference Center (33 rooms / 72-74 beds, hall seats 240-250) is the only building that sleeps 60, with overflow in yurts, cabins and glamping tents. MMC runs and hosts multiple programs concurrently and does not publish a group-availability calendar; its public calendar lists hosted programs but not which building they use, so a weekend with a multi-day residential program is treated as booked for a 60-person group. Personal retreats are bookable 48 hours to 60 days ahead. Strictly vegetarian kitchen; Saturday meals are brunch and dinner only.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/mount-madonna/thumb.jpg",
-  "images": [
-   {
-    "file": "images/mount-madonna/01.jpg",
-    "w": 1200,
-    "h": 800,
-    "caption": "Conference Center entrance courtyard and covered pavilion",
-    "credit": "Mount Madonna Center (official site)",
-    "source": "https://mountmadonna.org/host-your-group/"
-   },
-   {
-    "file": "images/mount-madonna/02.jpg",
-    "w": 1600,
-    "h": 896,
-    "caption": "Aerial view of the ridge-top campus with forested hills rolling toward Monterey Bay",
-    "credit": "Mount Madonna Center (official site)",
-    "source": "https://mountmadonna.org/"
-   },
-   {
-    "file": "images/mount-madonna/03.jpg",
-    "w": 1200,
-    "h": 800,
-    "caption": "Large meeting room in the Conference Center set with floor cushions and chairs",
-    "credit": "Mount Madonna Center (official site)",
-    "source": "https://mountmadonna.org/host-your-group/"
-   },
-   {
-    "file": "images/mount-madonna/04.jpg",
-    "w": 1200,
-    "h": 800,
-    "caption": "Conference Center patio with lounge chairs and the view over the forested ridge",
-    "credit": "Mount Madonna Center (official site)",
-    "source": "https://mountmadonna.org/host-your-group/"
-   },
-   {
-    "file": "images/mount-madonna/05.jpg",
-    "w": 1200,
-    "h": 800,
-    "caption": "Seminar House on its hillside among oaks and redwoods",
-    "credit": "Mount Madonna Center (official site)",
-    "source": "https://mountmadonna.org/host-your-group/"
-   },
-   {
-    "file": "images/mount-madonna/06.jpg",
-    "w": 1600,
-    "h": 655,
-    "caption": "Pond and meadow on the campus with Monterey Bay in the distance",
-    "credit": "Mount Madonna Center (official site)",
-    "source": "https://mountmadonna.org/about/our-campus/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Mount Madonna publishes a real, densely populated public calendar at mountmadonna.org/calendar/, tagging outside bookings as 'Hosted Group'. The list is paginated behind a 'Load More' control, so I opened the page in a browser tab I created myself and clicked through to the end, giving all 39 upcoming entries out to late 2027; every October 2026 conflict below comes from that fully-loaded list and was then confirmed on the organiser's own site where the calendar links off-site. The calendar's first page (what curl returns) already contains every September entry plus the Welwood and Henry Shukman retreats, so those quotes are in the raw page; the mid-to-late October entries are only in the loaded list, so I cite the third-party organiser pages or Mount Madonna's own Navaratri page instead. I also read host-your-group for capacity and booking mechanics. Note the calendar lists programs, not room inventory: it shows when the campus is committed, not confirmation that an open weekend can actually take 60 people.",
@@ -2076,7 +2034,58 @@ window.VENUES = [
      "sourceLabel": "Mindful Child & Family — Women in the Wild retreat"
     }
    ]
-  }
+  },
+  "thumb": "images/mount-madonna/thumb.jpg",
+  "images": [
+   {
+    "file": "images/mount-madonna/01.jpg",
+    "w": 1200,
+    "h": 800,
+    "caption": "Conference Center entrance courtyard and covered pavilion",
+    "credit": "Mount Madonna Center (official site)",
+    "source": "https://mountmadonna.org/host-your-group/"
+   },
+   {
+    "file": "images/mount-madonna/02.jpg",
+    "w": 1600,
+    "h": 896,
+    "caption": "Aerial view of the ridge-top campus with forested hills rolling toward Monterey Bay",
+    "credit": "Mount Madonna Center (official site)",
+    "source": "https://mountmadonna.org/"
+   },
+   {
+    "file": "images/mount-madonna/03.jpg",
+    "w": 1200,
+    "h": 800,
+    "caption": "Large meeting room in the Conference Center set with floor cushions and chairs",
+    "credit": "Mount Madonna Center (official site)",
+    "source": "https://mountmadonna.org/host-your-group/"
+   },
+   {
+    "file": "images/mount-madonna/04.jpg",
+    "w": 1200,
+    "h": 800,
+    "caption": "Conference Center patio with lounge chairs and the view over the forested ridge",
+    "credit": "Mount Madonna Center (official site)",
+    "source": "https://mountmadonna.org/host-your-group/"
+   },
+   {
+    "file": "images/mount-madonna/05.jpg",
+    "w": 1200,
+    "h": 800,
+    "caption": "Seminar House on its hillside among oaks and redwoods",
+    "credit": "Mount Madonna Center (official site)",
+    "source": "https://mountmadonna.org/host-your-group/"
+   },
+   {
+    "file": "images/mount-madonna/06.jpg",
+    "w": 1600,
+    "h": 655,
+    "caption": "Pond and meadow on the campus with Monterey Bay in the distance",
+    "credit": "Mount Madonna Center (official site)",
+    "source": "https://mountmadonna.org/about/our-campus/"
+   }
+  ]
  },
  {
   "id": "bishops-ranch",
@@ -2094,6 +2103,7 @@ window.VENUES = [
   "website": "https://www.bishopsranch.org/",
   "booking": "https://www.bishopsranch.org/group-reservations",
   "tierLabel": "Tier B",
+  "region": "bay",
   "address": "5297 Westside Rd, Healdsburg, CA 95448",
   "lat": 38.54404,
   "lng": -122.87396,
@@ -2168,57 +2178,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Exclusively hosts nonprofit groups that exist for religious, charitable or community benefit (contact them to see if your organizing entity qualifies); priority booking goes to Exclusive Use groups and recurring groups including Episcopal Diocese of California parishes. Non-exclusive groups are paired with other groups and priced by building. Individual/household weekend retreats are sold only when group space is unused (next one: Sept 4-6, 2026). Lodging for ~80 (Ranch House 15 rooms/28+, Webb Lodge 10 rooms/20+, Harrison House 5/10+, St. Stephen's Cottages 10/20+); Swing Pavilion seats 125. No public availability calendar; inquire via web form, info@bishopsranch.org or 707-433-2440.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/bishops-ranch/thumb.jpg",
-  "images": [
-   {
-    "file": "images/bishops-ranch/01.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "The ivy-covered stone Ranch House, the historic heart of the property",
-    "credit": "The Bishop's Ranch (official site)",
-    "source": "https://www.bishopsranch.org/group-reservations/facilities"
-   },
-   {
-    "file": "images/bishops-ranch/02.jpg",
-    "w": 1600,
-    "h": 899,
-    "caption": "Aerial view of the ranch, pool and oak-studded hills above the Russian River valley",
-    "credit": "The Bishop's Ranch (official site)",
-    "source": "https://www.bishopsranch.org/group-reservations"
-   },
-   {
-    "file": "images/bishops-ranch/03.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "Interior of the large conference hall with wood floor and arched timber ceiling",
-    "credit": "The Bishop's Ranch (official site)",
-    "source": "https://www.bishopsranch.org/group-reservations/facilities"
-   },
-   {
-    "file": "images/bishops-ranch/04.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "The Chapel of St. George on the lawn",
-    "credit": "The Bishop's Ranch (official site)",
-    "source": "https://www.bishopsranch.org/group-reservations/facilities"
-   },
-   {
-    "file": "images/bishops-ranch/05.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "Two-story lodge building with balconies, set among trees",
-    "credit": "The Bishop's Ranch (official site)",
-    "source": "https://www.bishopsranch.org/group-reservations/facilities"
-   },
-   {
-    "file": "images/bishops-ranch/06.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "Cottage living room with fireplace and vaulted ceiling",
-    "credit": "The Bishop's Ranch (official site)",
-    "source": "https://www.bishopsranch.org/group-reservations/facilities"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched bishopsranch.org home, /group-reservations (pricing structure and booking policies), /programs (their own dated public program list) and /experiences/individual-retreats, which is the one page that reveals when the Ranch has spare capacity. Their reservation system is Campwise, but only the registration front end is public — there is no public availability calendar for group bookings. The programs page runs from Aug 31 through Jan 2027 and is the only dated inventory of what the Ranch itself is doing. I also searched for third-party retreats booked at the Ranch in the window and verified one (a Viniyoga retreat, Sept 14-18, Mon-Fri) on the leader's own site; Grace Cathedral's congregation-retreat page returns 403 to non-browser clients so I could not confirm its dates.",
@@ -2305,7 +2264,58 @@ window.VENUES = [
      "sourceLabel": "The Bishop's Ranch — programs (Oct 31 workshop)"
     }
    ]
-  }
+  },
+  "thumb": "images/bishops-ranch/thumb.jpg",
+  "images": [
+   {
+    "file": "images/bishops-ranch/01.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The ivy-covered stone Ranch House, the historic heart of the property",
+    "credit": "The Bishop's Ranch (official site)",
+    "source": "https://www.bishopsranch.org/group-reservations/facilities"
+   },
+   {
+    "file": "images/bishops-ranch/02.jpg",
+    "w": 1600,
+    "h": 899,
+    "caption": "Aerial view of the ranch, pool and oak-studded hills above the Russian River valley",
+    "credit": "The Bishop's Ranch (official site)",
+    "source": "https://www.bishopsranch.org/group-reservations"
+   },
+   {
+    "file": "images/bishops-ranch/03.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Interior of the large conference hall with wood floor and arched timber ceiling",
+    "credit": "The Bishop's Ranch (official site)",
+    "source": "https://www.bishopsranch.org/group-reservations/facilities"
+   },
+   {
+    "file": "images/bishops-ranch/04.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The Chapel of St. George on the lawn",
+    "credit": "The Bishop's Ranch (official site)",
+    "source": "https://www.bishopsranch.org/group-reservations/facilities"
+   },
+   {
+    "file": "images/bishops-ranch/05.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Two-story lodge building with balconies, set among trees",
+    "credit": "The Bishop's Ranch (official site)",
+    "source": "https://www.bishopsranch.org/group-reservations/facilities"
+   },
+   {
+    "file": "images/bishops-ranch/06.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Cottage living room with fireplace and vaulted ceiling",
+    "credit": "The Bishop's Ranch (official site)",
+    "source": "https://www.bishopsranch.org/group-reservations/facilities"
+   }
+  ]
  },
  {
   "id": "costanoa",
@@ -2323,6 +2333,7 @@ window.VENUES = [
   "website": "https://www.costanoa.com/",
   "booking": "https://www.costanoa.com/request-proposal/",
   "tierLabel": "Tier B",
+  "region": "bay",
   "address": "2001 Rossi Road (at Hwy 1), Pescadero, CA 94060",
   "lat": 37.1555806,
   "lng": -122.3472231,
@@ -2399,57 +2410,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Resort (39–40 lodge rooms, 14–24 cabins, 85–93 tent bungalows, plus RV/tent sites) that sells rooms individually year-round; group blocks and buyouts go through sales via the Tripleseat request-proposal form. Online engine may not show all inventory. Check-in 4pm, check-out 11am. Labor Day (Sept 4–7) and Columbus Day (Oct 9–12) are promo-blackout holiday weekends. Statuses below reflect individual-room availability on the public booking calendar, not whether a 60-person block is possible.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/costanoa/thumb.jpg",
-  "images": [
-   {
-    "file": "images/costanoa/01.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "Main lodge exterior and lawn at dusk",
-    "credit": "Costanoa (official site)",
-    "source": "https://www.costanoa.com/stay/lodge/"
-   },
-   {
-    "file": "images/costanoa/02.jpg",
-    "w": 1600,
-    "h": 972,
-    "caption": "Aerial view of the lodge and grounds with the Pacific beyond",
-    "credit": "Costanoa (official site)",
-    "source": "https://www.costanoa.com/event-spaces/"
-   },
-   {
-    "file": "images/costanoa/03.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Mountain-view cabins",
-    "credit": "Costanoa (official site)",
-    "source": "https://www.costanoa.com/stay/cabins/"
-   },
-   {
-    "file": "images/costanoa/04.jpg",
-    "w": 1600,
-    "h": 946,
-    "caption": "Lodge courtyard lit up at night",
-    "credit": "Costanoa (official site)",
-    "source": "https://www.costanoa.com/meetings/"
-   },
-   {
-    "file": "images/costanoa/05.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Tent bungalows (glamping) on the lawn",
-    "credit": "Costanoa (official site)",
-    "source": "https://www.costanoa.com/photos/"
-   },
-   {
-    "file": "images/costanoa/06.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Covered outdoor meeting/dining patio",
-    "credit": "Costanoa (official site)",
-    "source": "https://www.costanoa.com/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Costanoa is a commercial Highway West Vacations resort with a live public booking engine at reservations.costanoa.com/costanoa/, so this venue could be checked far more directly than most. I fetched the marketing pages (costanoa.com home, /meetings/, /event-spaces/, /stay/lodge/) for capacity and group policy, then ran a dated availability search against reservations.costanoa.com/costanoa/availability.asp for each of the ten Fri-Sun windows (2 adults, both nights, HTTP 200 each time). Important parsing caveat I verified before trusting any result: every room card in the response contains BOTH a real price div and a hidden fallback div reading 'Not available for your current dates or guest count', so a naive text scrape reports every room as unavailable. A control query on an ordinary midweek date (11/10-11/12/2026) returned 27 room types with the same hidden fallback text, which proved the fallback is boilerplate. The real signal is which room-type cards the engine returns at all: it lists only types with bookable inventory for the full stay. I also probed adults=60, which is meaningless here - the engine's own error says it cannot accommodate that 'in one room' - so all counts below are from 2-adult searches. Room-type counts are a floor, not a unit count: a listed type means at least one unit is free, not thirty. The engine also shows only transient inventory, so rooms already held in a group block are invisible to it, which cuts both ways.",
@@ -2536,7 +2496,58 @@ window.VENUES = [
      "sourceLabel": "Costanoa booking engine, 10/30-11/01/2026 search"
     }
    ]
-  }
+  },
+  "thumb": "images/costanoa/thumb.jpg",
+  "images": [
+   {
+    "file": "images/costanoa/01.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Main lodge exterior and lawn at dusk",
+    "credit": "Costanoa (official site)",
+    "source": "https://www.costanoa.com/stay/lodge/"
+   },
+   {
+    "file": "images/costanoa/02.jpg",
+    "w": 1600,
+    "h": 972,
+    "caption": "Aerial view of the lodge and grounds with the Pacific beyond",
+    "credit": "Costanoa (official site)",
+    "source": "https://www.costanoa.com/event-spaces/"
+   },
+   {
+    "file": "images/costanoa/03.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Mountain-view cabins",
+    "credit": "Costanoa (official site)",
+    "source": "https://www.costanoa.com/stay/cabins/"
+   },
+   {
+    "file": "images/costanoa/04.jpg",
+    "w": 1600,
+    "h": 946,
+    "caption": "Lodge courtyard lit up at night",
+    "credit": "Costanoa (official site)",
+    "source": "https://www.costanoa.com/meetings/"
+   },
+   {
+    "file": "images/costanoa/05.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Tent bungalows (glamping) on the lawn",
+    "credit": "Costanoa (official site)",
+    "source": "https://www.costanoa.com/photos/"
+   },
+   {
+    "file": "images/costanoa/06.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Covered outdoor meeting/dining patio",
+    "credit": "Costanoa (official site)",
+    "source": "https://www.costanoa.com/"
+   }
+  ]
  },
  {
   "id": "saratoga-springs",
@@ -2555,6 +2566,7 @@ window.VENUES = [
   "booking": "https://saratogasprings.com/retreat_facility.html",
   "note": "Research note: the official site is a frozen 2020 page with tiny photos, so the gallery here is thin. The center is still operating (it hosted a festival in Oct 2025); site text says exclusive use for groups of 25+, 2-10 night stays, 260 acres.",
   "tierLabel": "Tier B",
+  "region": "bay",
   "address": "10243 Saratoga Springs Rd, Upper Lake, CA 95485",
   "lat": 39.1748543,
   "lng": -122.9808979,
@@ -2630,41 +2642,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Exclusive use of the whole 260-acre site for groups of 20–25+, first-come first-served; group stays of 2–10 nights; weekend weddings run Friday noon to Sunday 2pm. Lodging: main lodge ~28 beds + cabins sleeping 50–80 + camping for 100+ (2 small cabins closed in winter). No public availability calendar; the only 2026 event listed on the site is April 3–5. Hexenfest (the recurring October festival here) still shows 2025 dates with no 2026 announcement.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/saratoga-springs/thumb.jpg",
-  "images": [
-   {
-    "file": "images/saratoga-springs/01.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Historic main lodge under the valley oaks",
-    "credit": "Saratoga Springs Retreat Center (official site)",
-    "source": "https://saratogasprings.com/vintage/"
-   },
-   {
-    "file": "images/saratoga-springs/02.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Main lodge front with double veranda",
-    "credit": "Elacy via Wikipedia, CC BY-SA 3.0",
-    "source": "https://en.wikipedia.org/wiki/File:Saratoge_Springs,_main_lodge.JPG"
-   },
-   {
-    "file": "images/saratoga-springs/03.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Historic guest cabins",
-    "credit": "Elacy via Wikipedia, CC BY-SA 3.0",
-    "source": "https://en.wikipedia.org/wiki/File:Saratoga_Springs_cabins.JPG"
-   },
-   {
-    "file": "images/saratoga-springs/04.jpg",
-    "w": 745,
-    "h": 535,
-    "caption": "Entry drive past the lodge and cabins",
-    "credit": "Lake County Tourism (lakecounty.com)",
-    "source": "https://lakecounty.com/accommodation/saratoga-springs-retreat-and-conference-center/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "saratogasprings.com redirects to a hand-built static site under /vintage/ whose own footer reads 'Site last updated: July 11, 2020'. I walked essentially the whole site: home, sitemap, /retreats/retreats-events.html (their only events page), /rates/rates.html, retreat_facility.html and contact.html, all HTTP 200. There is no booking engine, no availability calendar, no rate card and no group-availability PDF anywhere on the domain - the rates page just says to phone or email for a quote. The events page has been touched more recently than the rest of the site (it lists an April 3-5, 2026 retreat) but names no event after April 2026, so it establishes nothing about September or October. Off-site I checked Yelp, Lake County tourism, winecountry.com, Nextdoor and cityseeker, and searched for 2026 retreats and festivals naming the venue; none carried dated 2026 fall bookings. I specifically chased Hexenfest, the multi-day festival that has occupied a Saratoga Springs October weekend in past years: hexenfest.net is still advertising 'October 9th - 12th, 2025' across its home, tickets, schedule and FAQ pages and has published no 2026 dates. That is a recurrence pattern, not evidence about 2026, so I have not let it move any status. The honest result for this venue is ten unknowns: nothing about fall 2026 occupancy is public.",
@@ -2751,7 +2728,42 @@ window.VENUES = [
      "sourceLabel": "Saratoga Springs Retreats & Events page"
     }
    ]
-  }
+  },
+  "thumb": "images/saratoga-springs/thumb.jpg",
+  "images": [
+   {
+    "file": "images/saratoga-springs/01.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Historic main lodge under the valley oaks",
+    "credit": "Saratoga Springs Retreat Center (official site)",
+    "source": "https://saratogasprings.com/vintage/"
+   },
+   {
+    "file": "images/saratoga-springs/02.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Main lodge front with double veranda",
+    "credit": "Elacy via Wikipedia, CC BY-SA 3.0",
+    "source": "https://en.wikipedia.org/wiki/File:Saratoge_Springs,_main_lodge.JPG"
+   },
+   {
+    "file": "images/saratoga-springs/03.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Historic guest cabins",
+    "credit": "Elacy via Wikipedia, CC BY-SA 3.0",
+    "source": "https://en.wikipedia.org/wiki/File:Saratoga_Springs_cabins.JPG"
+   },
+   {
+    "file": "images/saratoga-springs/04.jpg",
+    "w": 745,
+    "h": 535,
+    "caption": "Entry drive past the lodge and cabins",
+    "credit": "Lake County Tourism (lakecounty.com)",
+    "source": "https://lakecounty.com/accommodation/saratoga-springs-retreat-and-conference-center/"
+   }
+  ]
  },
  {
   "id": "westminster-woods",
@@ -2769,6 +2781,7 @@ window.VENUES = [
   "website": "https://www.westminsterwoods.org/",
   "booking": "https://www.westminsterwoods.org/group-inquiries",
   "tierLabel": "Tier B",
+  "region": "bay",
   "address": "6510 Bohemian Hwy, Occidental, CA 95465",
   "lat": 38.4389615,
   "lng": -122.9750034,
@@ -2845,57 +2858,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Hosts guest groups of 20–200. No group rentals in June–July; during the school year guest-group rentals are limited to weekends (Friday–Sunday) because of weekday school programs, so all nine Fri–Sun weekends are in principle eligible. No weddings except Nov–Mar; rarely family reunions. Lodging is mostly dorm cabins (8–10 bunks each) plus three 10–12-person guest houses and a few private-bath rooms; bring sleeping bags, pillows, towels. Inquiry via the group-inquiries form; no public availability calendar.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/westminster-woods/thumb.jpg",
-  "images": [
-   {
-    "file": "images/westminster-woods/01.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "The Woods Inn guest lodge in the redwoods",
-    "credit": "Westminster Woods (official site)",
-    "source": "https://www.westminsterwoods.org/facilities"
-   },
-   {
-    "file": "images/westminster-woods/02.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Homestead lodge exterior",
-    "credit": "Westminster Woods (official site)",
-    "source": "https://www.westminsterwoods.org/facilities"
-   },
-   {
-    "file": "images/westminster-woods/03.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Dorm cabin",
-    "credit": "Westminster Woods (official site)",
-    "source": "https://www.westminsterwoods.org/facilities"
-   },
-   {
-    "file": "images/westminster-woods/04.jpg",
-    "w": 1136,
-    "h": 852,
-    "caption": "Hillside campfire amphitheater",
-    "credit": "Westminster Woods (official site)",
-    "source": "https://www.westminsterwoods.org/facilities"
-   },
-   {
-    "file": "images/westminster-woods/05.jpg",
-    "w": 1600,
-    "h": 946,
-    "caption": "Homestead meeting room with stone fireplace",
-    "credit": "Westminster Woods (official site)",
-    "source": "https://www.westminsterwoods.org/facilities"
-   },
-   {
-    "file": "images/westminster-woods/06.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Meadow and redwoods",
-    "credit": "Westminster Woods (official site)",
-    "source": "https://www.westminsterwoods.org/facilities"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Westminster Woods runs a Squarespace site with a genuinely useful set of programme pages, all fetched at HTTP 200: /guest-groups (rental policy and FAQ), /weekend-retreats (aliased as /retreat-weekends-overview, their public 'Weekend Retreats and Events' listing), /camp-weekend-retreats (the fall camp programme detail), /womens-weekend, /family-camp, /facilities, /programs-2 and /inquire. There is no booking engine and no guest-group availability calendar - enquiries go through /inquire and mark@westminsterwoods.org - but the venue does publish its own fall programme dates, and that turned out to be decisive. Their weekend events listing shows exactly three dated programmes: Women's Weekend 3/12-3/14, Camp Heartwood 10/16-10/18 and Camp Soulspring 11/20-11/22. Neither page prints a year, so I pinned it by weekday: 10/16-18 and 11/20-22 are Fri-Sun only in 2026 (Oct 16 and Nov 20 both fall on a Friday that year; in 2025 and 2027 they do not), and the pages are live in August 2026 describing the coming fall, so these are 2026 dates. That puts one of their own youth programmes squarely on the group's target weekend. The important limitation on everything below: this calendar lists Westminster Woods' OWN programmes only. Guest-group bookings by outside organisations are never published, so a weekend showing clear here can still be taken. I ran web searches for outside groups announcing 2026 retreats at the Woods and found none with dates in this window.",
@@ -2982,7 +2944,58 @@ window.VENUES = [
      "sourceLabel": "Westminster Woods Weekend Retreats and Events listing"
     }
    ]
-  }
+  },
+  "thumb": "images/westminster-woods/thumb.jpg",
+  "images": [
+   {
+    "file": "images/westminster-woods/01.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "The Woods Inn guest lodge in the redwoods",
+    "credit": "Westminster Woods (official site)",
+    "source": "https://www.westminsterwoods.org/facilities"
+   },
+   {
+    "file": "images/westminster-woods/02.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Homestead lodge exterior",
+    "credit": "Westminster Woods (official site)",
+    "source": "https://www.westminsterwoods.org/facilities"
+   },
+   {
+    "file": "images/westminster-woods/03.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Dorm cabin",
+    "credit": "Westminster Woods (official site)",
+    "source": "https://www.westminsterwoods.org/facilities"
+   },
+   {
+    "file": "images/westminster-woods/04.jpg",
+    "w": 1136,
+    "h": 852,
+    "caption": "Hillside campfire amphitheater",
+    "credit": "Westminster Woods (official site)",
+    "source": "https://www.westminsterwoods.org/facilities"
+   },
+   {
+    "file": "images/westminster-woods/05.jpg",
+    "w": 1600,
+    "h": 946,
+    "caption": "Homestead meeting room with stone fireplace",
+    "credit": "Westminster Woods (official site)",
+    "source": "https://www.westminsterwoods.org/facilities"
+   },
+   {
+    "file": "images/westminster-woods/06.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Meadow and redwoods",
+    "credit": "Westminster Woods (official site)",
+    "source": "https://www.westminsterwoods.org/facilities"
+   }
+  ]
  },
  {
   "id": "monte-toyon",
@@ -3000,6 +3013,7 @@ window.VENUES = [
   "website": "https://www.uccr.org/monte-toyon",
   "booking": "https://www.uccr.org/monte-toyon",
   "tierLabel": "Tier B",
+  "region": "bay",
   "address": "220 Cloister Lane, Aptos, CA 95003",
   "lat": 36.996114,
   "lng": -121.896946,
@@ -3074,57 +3088,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Takes groups of 30–146 overnight (Cary Lodge 70 in 19 rooms; Miller 36 + Morris 40 dorm beds), 150 day-use; open to secular and religious groups. No public calendar — UCCR says to inquire early because the camp is popular. WOLF School outdoor-education programs use the site on school weekdays, so weekends are the guest-group window. Exclusive-use rate ($132.95) applies when a group takes the whole site.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/monte-toyon/thumb.jpg",
-  "images": [
-   {
-    "file": "images/monte-toyon/01.jpg",
-    "w": 1600,
-    "h": 1040,
-    "caption": "Cary Lodge among the redwoods",
-    "credit": "UCCR / Monte Toyon (official site)",
-    "source": "https://www.uccr.org/monte-toyon"
-   },
-   {
-    "file": "images/monte-toyon/02.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Dining hall exterior with bell tower",
-    "credit": "UCCR / Monte Toyon (official site)",
-    "source": "https://www.uccr.org/monte-toyon"
-   },
-   {
-    "file": "images/monte-toyon/03.jpg",
-    "w": 1600,
-    "h": 1191,
-    "caption": "Hall interior with wood floor and stone fireplace",
-    "credit": "UCCR / Monte Toyon (official site)",
-    "source": "https://www.uccr.org/monte-toyon"
-   },
-   {
-    "file": "images/monte-toyon/04.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Outdoor amphitheater and fire circle",
-    "credit": "UCCR / Monte Toyon (official site)",
-    "source": "https://www.uccr.org/monte-toyon"
-   },
-   {
-    "file": "images/monte-toyon/05.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Dining hall interior",
-    "credit": "UCCR / Monte Toyon (official site)",
-    "source": "https://www.uccr.org/monte-toyon"
-   },
-   {
-    "file": "images/monte-toyon/06.jpg",
-    "w": 1600,
-    "h": 1492,
-    "caption": "Footbridge over the creek",
-    "credit": "UCCR / Monte Toyon (official site)",
-    "source": "https://www.uccr.org/monte-toyon"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Monte Toyon is run by UCCR (United Camps, Conferences & Retreats), so I worked their Squarespace site first: www.uccr.org/monte-toyon, the /monte-toyon-forms-information/pricing page (which carries 2026 and 2027 pricing PDFs), /inquire, and the UCCR home page, all HTTP 200. UCCR publishes no availability calendar and no booking engine for Monte Toyon - reservations run through reservations@uccr.org and a phone line, and the site's own Availability section just tells you to enquire early. Since the venue itself says nothing dated, the productive angle was the demand side: the guest groups who book it publish their own retreat dates. I searched for churches, fellowships and organisations naming Monte Toyon with 2026 dates, which surfaced one direct hit on my list - First Church Berkeley UCC's Fall All-Church Retreat on exactly the Sept 11-13, 2026 weekend, confirmed by fetching their page (HTTP 200). I also found an Epworth Berkeley retreat there May 1-3, 2026, outside the window. Repeat searches aimed at October 2026 bookings turned up nothing, and I checked Yelp, ACA Camps, UUFRC and the Cal-Nevada UMC conference page without finding further dated 2026 fall bookings. Absence of a second hit is not evidence the other weekends are free - most groups never publish, and UCCR does not - so the remaining nine stay unknown.",
@@ -3211,7 +3174,58 @@ window.VENUES = [
      "sourceLabel": "UCCR Monte Toyon page, Availability section"
     }
    ]
-  }
+  },
+  "thumb": "images/monte-toyon/thumb.jpg",
+  "images": [
+   {
+    "file": "images/monte-toyon/01.jpg",
+    "w": 1600,
+    "h": 1040,
+    "caption": "Cary Lodge among the redwoods",
+    "credit": "UCCR / Monte Toyon (official site)",
+    "source": "https://www.uccr.org/monte-toyon"
+   },
+   {
+    "file": "images/monte-toyon/02.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Dining hall exterior with bell tower",
+    "credit": "UCCR / Monte Toyon (official site)",
+    "source": "https://www.uccr.org/monte-toyon"
+   },
+   {
+    "file": "images/monte-toyon/03.jpg",
+    "w": 1600,
+    "h": 1191,
+    "caption": "Hall interior with wood floor and stone fireplace",
+    "credit": "UCCR / Monte Toyon (official site)",
+    "source": "https://www.uccr.org/monte-toyon"
+   },
+   {
+    "file": "images/monte-toyon/04.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Outdoor amphitheater and fire circle",
+    "credit": "UCCR / Monte Toyon (official site)",
+    "source": "https://www.uccr.org/monte-toyon"
+   },
+   {
+    "file": "images/monte-toyon/05.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Dining hall interior",
+    "credit": "UCCR / Monte Toyon (official site)",
+    "source": "https://www.uccr.org/monte-toyon"
+   },
+   {
+    "file": "images/monte-toyon/06.jpg",
+    "w": 1600,
+    "h": 1492,
+    "caption": "Footbridge over the creek",
+    "credit": "UCCR / Monte Toyon (official site)",
+    "source": "https://www.uccr.org/monte-toyon"
+   }
+  ]
  },
  {
   "id": "vallombrosa",
@@ -3229,6 +3243,7 @@ window.VENUES = [
   "website": "https://www.vallombrosa.org/",
   "booking": "https://www.vallombrosa.org/retreats-conferences-programs/",
   "tierLabel": "Tier B",
+  "region": "bay",
   "address": "250 Oak Grove Avenue, Menlo Park, CA 94025",
   "lat": 37.4602497,
   "lng": -122.1813261,
@@ -3305,57 +3320,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Archdiocese of San Francisco retreat center; hosts groups 'of a religious, educational or charitable nature' (its own letter also mentions secular organizations), up to 100 overnight in 60 private-bath rooms (20 singles, 40 twins). Weekend events run Friday 6pm dinner to Sunday lunch; rooms ready after 4pm Friday; deposits non-refundable but transferable. No public booking calendar — the site's 2026 events calendar is empty ('Watch this page'), and the Archdiocese venue listing shows only a Nov 13–15 retreat.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/vallombrosa/thumb.jpg",
-  "images": [
-   {
-    "file": "images/vallombrosa/01.jpg",
-    "w": 1600,
-    "h": 1062,
-    "caption": "The 1920s mansion, Vallombrosa's main house",
-    "credit": "Vallombrosa Center (official site)",
-    "source": "https://www.vallombrosa.org/mlb_5791_hdr/"
-   },
-   {
-    "file": "images/vallombrosa/02.jpg",
-    "w": 1600,
-    "h": 1063,
-    "caption": "Great oak on the lawn",
-    "credit": "Vallombrosa Center (official site)",
-    "source": "https://www.vallombrosa.org/tour/"
-   },
-   {
-    "file": "images/vallombrosa/03.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Guest-room wing and garden",
-    "credit": "Vallombrosa Center (official site)",
-    "source": "https://www.vallombrosa.org/val1-311/"
-   },
-   {
-    "file": "images/vallombrosa/04.jpg",
-    "w": 1600,
-    "h": 1201,
-    "caption": "East Parlor meeting room",
-    "credit": "Vallombrosa Center (official site)",
-    "source": "https://www.vallombrosa.org/meet-rooms/"
-   },
-   {
-    "file": "images/vallombrosa/05.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Tree-lined entry drive",
-    "credit": "Vallombrosa Center (official site)",
-    "source": "https://www.vallombrosa.org/val1-317/"
-   },
-   {
-    "file": "images/vallombrosa/06.jpg",
-    "w": 1600,
-    "h": 589,
-    "caption": "Front gate on Oak Grove Avenue (wide banner crop)",
-    "credit": "Vallombrosa Center (official site)",
-    "source": "https://www.vallombrosa.org/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Vallombrosa runs a dated WordPress site that does have a Calendar of Events page, so I went straight there and then worked outward: vallombrosa.org home, /calendar/, /retreats-conferences-programs/, /accommodations/, /bookevent/, /rts/ and /inquire/, all HTTP 200. The calendar page is the disappointment - it is fully built out with registration instructions, Eventbrite branding and payment terms, but it currently lists no events whatsoever, closing with 'Watch this page for more events planned in 2026.' An empty calendar of that kind carries no information: it does not show past events either, so silence on a given weekend means the page is simply unmaintained, not that the date is free. There is no booking engine and no published rate card - the rates page just says to phone Jaynie Fedele. I then went to the owner, the Archdiocese of San Francisco, whose sfarch.org events system has a venue page for Vallombrosa Retreat Center. That calendar IS live and does cover this period, but the only event it lists is November 13-15, 2026, outside the window. I also chased third-party groups publishing retreats held at Vallombrosa and found the Balance Center's 'Come Home to Your Original Alignment' retreat, held there January 16-18, 2026 - again outside the window. Both Archdiocesan and third-party calendars show only their own bookings, and ordinary group rentals never appear anywhere public, so all ten weekends are unknown.",
@@ -3442,7 +3406,58 @@ window.VENUES = [
      "sourceLabel": "Vallombrosa Calendar of Events (currently empty)"
     }
    ]
-  }
+  },
+  "thumb": "images/vallombrosa/thumb.jpg",
+  "images": [
+   {
+    "file": "images/vallombrosa/01.jpg",
+    "w": 1600,
+    "h": 1062,
+    "caption": "The 1920s mansion, Vallombrosa's main house",
+    "credit": "Vallombrosa Center (official site)",
+    "source": "https://www.vallombrosa.org/mlb_5791_hdr/"
+   },
+   {
+    "file": "images/vallombrosa/02.jpg",
+    "w": 1600,
+    "h": 1063,
+    "caption": "Great oak on the lawn",
+    "credit": "Vallombrosa Center (official site)",
+    "source": "https://www.vallombrosa.org/tour/"
+   },
+   {
+    "file": "images/vallombrosa/03.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Guest-room wing and garden",
+    "credit": "Vallombrosa Center (official site)",
+    "source": "https://www.vallombrosa.org/val1-311/"
+   },
+   {
+    "file": "images/vallombrosa/04.jpg",
+    "w": 1600,
+    "h": 1201,
+    "caption": "East Parlor meeting room",
+    "credit": "Vallombrosa Center (official site)",
+    "source": "https://www.vallombrosa.org/meet-rooms/"
+   },
+   {
+    "file": "images/vallombrosa/05.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Tree-lined entry drive",
+    "credit": "Vallombrosa Center (official site)",
+    "source": "https://www.vallombrosa.org/val1-317/"
+   },
+   {
+    "file": "images/vallombrosa/06.jpg",
+    "w": 1600,
+    "h": 589,
+    "caption": "Front gate on Oak Grove Avenue (wide banner crop)",
+    "credit": "Vallombrosa Center (official site)",
+    "source": "https://www.vallombrosa.org/"
+   }
+  ]
  },
  {
   "id": "ymca-point-bonita",
@@ -3462,6 +3477,7 @@ window.VENUES = [
   "subtitle": "former YMCA Point Bonita",
   "note": "Research note: the YMCA of SF closed this site; NatureBridge now markets it as the Golden Gate Conference & Retreat Center. Published 2026 rates are about $157-162 per person per night ($136-141 for nonprofits). Overnight availability is Fri-Sun during the school year, which fits Oct 16-18.",
   "tierLabel": "Tier B",
+  "region": "bay",
   "address": "981 Fort Barry, Sausalito, CA 94965",
   "lat": 37.823231,
   "lng": -122.529494,
@@ -3536,57 +3552,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Overnight packages are offered Friday–Sunday during the school year, plus weekdays from mid-June through Labor Day, for groups of 20+ (day-use Mon–Fri). All nine target weekends are Fri–Sun so all fall inside the policy window, but NatureBridge publishes no availability calendar; dates are confirmed by emailing goldengatereservations@naturebridge.org (415-332-5771). Two campuses (Beach/Fort Cronkhite and Bluff/Point Bonita) sleep up to 200 in shared, gender-separated bunk dorms (main dorms ~60-70 beds each); the Raven building (max 45) is the only self-contained co-ed option. Dorms and dining hall may be shared with other groups. Beer/wine only, in meeting rooms.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/ymca-point-bonita/thumb.jpg",
-  "images": [
-   {
-    "file": "images/ymca-point-bonita/01.jpg",
-    "w": 1400,
-    "h": 800,
-    "caption": "Aerial view of the Point Bonita campus on the Marin Headlands bluff, Golden Gate Bridge and San Francisco skyline beyond",
-    "credit": "YMCA of San Francisco (archived official site, via Wayback Machine)",
-    "source": "http://web.archive.org/web/20210920090616/https://www.ymcasf.org/locations/point-bonita-ymca/visiting-point-bonita"
-   },
-   {
-    "file": "images/ymca-point-bonita/02.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Campus basketball court and green dormitory building among coastal scrub",
-    "credit": "YMCA of San Francisco (archived official site, via Wayback Machine)",
-    "source": "http://web.archive.org/web/20230120113022/https://www.ymcasf.org/locations/point-bonita-ymca"
-   },
-   {
-    "file": "images/ymca-point-bonita/03.jpg",
-    "w": 1600,
-    "h": 701,
-    "caption": "Panorama of the Point Bonita 'Bluff' campus buildings with a rainbow over Rodeo Beach",
-    "credit": "NatureBridge (current operator, official site)",
-    "source": "https://naturebridge.org/locations/golden-gate"
-   },
-   {
-    "file": "images/ymca-point-bonita/04.jpg",
-    "w": 1000,
-    "h": 714,
-    "caption": "Point Bonita dining hall with checkerboard floor and buffet line",
-    "credit": "NatureBridge (current operator, official site)",
-    "source": "https://naturebridge.org/locations/golden-gate"
-   },
-   {
-    "file": "images/ymca-point-bonita/05.jpg",
-    "w": 1200,
-    "h": 800,
-    "caption": "Rodeo Beach surf below the campus",
-    "credit": "YMCA of San Francisco (archived official site, via Wayback Machine)",
-    "source": "http://web.archive.org/web/20230120113022/https://www.ymcasf.org/locations/point-bonita-ymca"
-   },
-   {
-    "file": "images/ymca-point-bonita/06.jpg",
-    "w": 960,
-    "h": 720,
-    "caption": "Hikers on the headlands bluff trail above the Pacific",
-    "credit": "YMCA of San Francisco (archived official site, via Wayback Machine)",
-    "source": "http://web.archive.org/web/20230120113022/https://www.ymcasf.org/locations/point-bonita-ymca"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched the NatureBridge Golden Gate Conference & Retreat Center page (naturebridge.org/retreat-space/golden-gate) in full and read its package, lodging, pricing and FAQ text; fetched naturebridge.org/events and the one listed signature event page to see whether any organization-run event occupies the Marin Headlands campuses this fall (the only listed events are May 7 at Fort Mason and Nov 6 in Seattle); checked the Golden Gate summer/Coastal Camp pages; and ran web searches for third-party retreats, conferences or weddings announced at NatureBridge Golden Gate / Fort Cronkhite / Point Bonita for September and October 2026. NatureBridge publishes NO availability calendar and no booking engine — reservations run entirely through a 'Request Information' form and a reservations team, so no weekend can be dated-confirmed from the public web. What the site does publish is an explicit, unconditional statement of which days are bookable for overnight groups, which covers all ten weekends.",
@@ -3673,7 +3638,58 @@ window.VENUES = [
      "sourceLabel": "NatureBridge Golden Gate Conference & Retreat Center"
     }
    ]
-  }
+  },
+  "thumb": "images/ymca-point-bonita/thumb.jpg",
+  "images": [
+   {
+    "file": "images/ymca-point-bonita/01.jpg",
+    "w": 1400,
+    "h": 800,
+    "caption": "Aerial view of the Point Bonita campus on the Marin Headlands bluff, Golden Gate Bridge and San Francisco skyline beyond",
+    "credit": "YMCA of San Francisco (archived official site, via Wayback Machine)",
+    "source": "http://web.archive.org/web/20210920090616/https://www.ymcasf.org/locations/point-bonita-ymca/visiting-point-bonita"
+   },
+   {
+    "file": "images/ymca-point-bonita/02.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Campus basketball court and green dormitory building among coastal scrub",
+    "credit": "YMCA of San Francisco (archived official site, via Wayback Machine)",
+    "source": "http://web.archive.org/web/20230120113022/https://www.ymcasf.org/locations/point-bonita-ymca"
+   },
+   {
+    "file": "images/ymca-point-bonita/03.jpg",
+    "w": 1600,
+    "h": 701,
+    "caption": "Panorama of the Point Bonita 'Bluff' campus buildings with a rainbow over Rodeo Beach",
+    "credit": "NatureBridge (current operator, official site)",
+    "source": "https://naturebridge.org/locations/golden-gate"
+   },
+   {
+    "file": "images/ymca-point-bonita/04.jpg",
+    "w": 1000,
+    "h": 714,
+    "caption": "Point Bonita dining hall with checkerboard floor and buffet line",
+    "credit": "NatureBridge (current operator, official site)",
+    "source": "https://naturebridge.org/locations/golden-gate"
+   },
+   {
+    "file": "images/ymca-point-bonita/05.jpg",
+    "w": 1200,
+    "h": 800,
+    "caption": "Rodeo Beach surf below the campus",
+    "credit": "YMCA of San Francisco (archived official site, via Wayback Machine)",
+    "source": "http://web.archive.org/web/20230120113022/https://www.ymcasf.org/locations/point-bonita-ymca"
+   },
+   {
+    "file": "images/ymca-point-bonita/06.jpg",
+    "w": 960,
+    "h": 720,
+    "caption": "Hikers on the headlands bluff trail above the Pacific",
+    "credit": "YMCA of San Francisco (archived official site, via Wayback Machine)",
+    "source": "http://web.archive.org/web/20230120113022/https://www.ymcasf.org/locations/point-bonita-ymca"
+   }
+  ]
  },
  {
   "id": "walker-creek-ranch",
@@ -3692,6 +3708,7 @@ window.VENUES = [
   "booking": "https://www.walkercreekranch.org/",
   "note": "Research note: the conference-center contact on the site is (415) 491-6603 / jparker@marinschools.org (the sheet had the main office line). Lodging is four lodges with 2-5 bed rooms, 13 bunk cabins, two bunkhouses and camping.",
   "tierLabel": "Tier B",
+  "region": "bay",
   "address": "1700 Marshall Petaluma Rd, Petaluma, CA 94952",
   "lat": 38.17374,
   "lng": -122.81402,
@@ -3766,49 +3783,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Run by the Marin County Office of Education. No public availability calendar: FAQ says to email conference admin Jean Parker (jparker@marinschools.org, 415-491-6603) with group size and preferred dates; a contract and deposit secure the reservation. The site serves ~5,000 outdoor-school students a year in week-long (4-5 day) residential programs during the school year, with conference/retreat groups (weddings, reunions, retreats) on other dates; weekends are the normal retreat window but nothing public confirms any specific weekend. Lodging: 4 lodges (82 beds, 2-5 per room, linens included), 13 bunk cabins + 2 bunkhouses (287 beds, bring bedding), camping for 10-200.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/walker-creek-ranch/thumb.jpg",
-  "images": [
-   {
-    "file": "images/walker-creek-ranch/01.jpg",
-    "w": 1529,
-    "h": 1108,
-    "caption": "Spring poppies on the hill trail above the main campus in the Walker Creek valley",
-    "credit": "Walker Creek Ranch (official site)",
-    "source": "https://www.walkercreekranch.org/floor-plans-maps"
-   },
-   {
-    "file": "images/walker-creek-ranch/02.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "The 1,741-acre ranch property with Turtle Pond and the campus buildings in the valley",
-    "credit": "Walker Creek Ranch (official site)",
-    "source": "https://www.walkercreekranch.org/floor-plans-maps"
-   },
-   {
-    "file": "images/walker-creek-ranch/03.jpg",
-    "w": 1600,
-    "h": 1153,
-    "caption": "Willow Lodge meeting room / lounge",
-    "credit": "Walker Creek Ranch (official site)",
-    "source": "https://www.walkercreekranch.org/floor-plans-maps"
-   },
-   {
-    "file": "images/walker-creek-ranch/04.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Lodge guest room with two beds",
-    "credit": "Walker Creek Ranch (official site)",
-    "source": "https://www.walkercreekranch.org/lodging"
-   },
-   {
-    "file": "images/walker-creek-ranch/05.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Rock outcrop on Walker Peak overlooking the West Marin hills",
-    "credit": "Walker Creek Ranch (official site)",
-    "source": "https://www.walkercreekranch.org/plan-your-event-1"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Pulled the Walker Creek Ranch sitemap (three Wix sitemaps) and read every relevant page: home, Plan Your Event, Schedule Your Event, Lodging, Community Events, Forms & FAQ and Learn About Our Program, plus the three PDFs linked from Plan Your Event (Summer 2026 rate sheet, 2025-26 conference pricing, and the bed-by-bed lodging/wedding sheet). None of these contains an availability calendar, a booking engine, or any list of booked dates — the only booked-date information the ranch itself publishes is a 'Upcoming Events' block that currently shows one item, a May community day. I then searched the wider web for events naming Walker Creek Ranch in September and October 2026, which surfaced Walker Creek Music Camp; I fetched that organization's home, registration, schedule and about pages to confirm its Fall 2026 dates and that the camp is residential at the ranch. Everything else is genuinely unknown from the public web.",
@@ -3895,7 +3869,50 @@ window.VENUES = [
      "sourceLabel": "Walker Creek Ranch community events listing"
     }
    ]
-  }
+  },
+  "thumb": "images/walker-creek-ranch/thumb.jpg",
+  "images": [
+   {
+    "file": "images/walker-creek-ranch/01.jpg",
+    "w": 1529,
+    "h": 1108,
+    "caption": "Spring poppies on the hill trail above the main campus in the Walker Creek valley",
+    "credit": "Walker Creek Ranch (official site)",
+    "source": "https://www.walkercreekranch.org/floor-plans-maps"
+   },
+   {
+    "file": "images/walker-creek-ranch/02.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "The 1,741-acre ranch property with Turtle Pond and the campus buildings in the valley",
+    "credit": "Walker Creek Ranch (official site)",
+    "source": "https://www.walkercreekranch.org/floor-plans-maps"
+   },
+   {
+    "file": "images/walker-creek-ranch/03.jpg",
+    "w": 1600,
+    "h": 1153,
+    "caption": "Willow Lodge meeting room / lounge",
+    "credit": "Walker Creek Ranch (official site)",
+    "source": "https://www.walkercreekranch.org/floor-plans-maps"
+   },
+   {
+    "file": "images/walker-creek-ranch/04.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Lodge guest room with two beds",
+    "credit": "Walker Creek Ranch (official site)",
+    "source": "https://www.walkercreekranch.org/lodging"
+   },
+   {
+    "file": "images/walker-creek-ranch/05.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Rock outcrop on Walker Peak overlooking the West Marin hills",
+    "credit": "Walker Creek Ranch (official site)",
+    "source": "https://www.walkercreekranch.org/plan-your-event-1"
+   }
+  ]
  },
  {
   "id": "harbin-hot-springs",
@@ -3914,6 +3931,7 @@ window.VENUES = [
   "booking": "https://harbin.org/experience/",
   "note": "Research note: the post-2015-fire rebuild is still in progress. A new restaurant opened in August 2026 and a new multi-story hotel is being finished; current lodging is domes, hotel rooms, caravans and tent camping. Harbin has not allowed group bookings since July 2023: every guest buys a membership and books individually, so a 60-person retreat here means 60 separate reservations.",
   "tierLabel": "Tier C",
+  "region": "bay",
   "address": "18424 Harbin Springs Rd, Middletown, CA 95461",
   "lat": 38.78608,
   "lng": -122.65183,
@@ -3988,57 +4006,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Group bookings are explicitly not allowed ('Effective July 2023 ... each guest will need to purchase their own membership and book their own reservation'); no buyouts, no group rates. Membership-only (guests 18+), clothing-optional pools, alcohol- and drug-free, electronics banned in pool areas. 2-night minimum for rooms on weekends/holidays; 48-hour cancellation policy; max 4 room cancellations per year. Lodging currently: Creekside Caravans (15 trailers), Grove Cottages, Dome rooms (~16), plus tent/vehicle camping on 24-hour passes; a new hotel near the pools is under construction (weekday construction noise). Harbin's events calendar lists daily classes/workshops that are included with admission and do not close the site. Availability below comes from the public reservation system (secure.rzda.net) reached from Book Your Visit, after selecting a membership type (no purchase made).",
   "checkedOn": "2026-08-21",
-  "thumb": "images/harbin-hot-springs/thumb.jpg",
-  "images": [
-   {
-    "file": "images/harbin-hot-springs/01.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "The rebuilt pool building with its stained-glass gable and the warm pool",
-    "credit": "Harbin Hot Springs (official site)",
-    "source": "https://harbin.org/"
-   },
-   {
-    "file": "images/harbin-hot-springs/02.jpg",
-    "w": 1600,
-    "h": 900,
-    "caption": "Dome guest accommodations beside the pool area",
-    "credit": "Harbin Hot Springs (official site)",
-    "source": "https://harbin.org/reservations/accommodations-rates/"
-   },
-   {
-    "file": "images/harbin-hot-springs/03.jpg",
-    "w": 1080,
-    "h": 810,
-    "caption": "The new hotel building on the hillside above the stone labyrinth and gazebo",
-    "credit": "Harbin Hot Springs (official site)",
-    "source": "https://harbin.org/heart-consciousness/photos/"
-   },
-   {
-    "file": "images/harbin-hot-springs/04.jpg",
-    "w": 1440,
-    "h": 810,
-    "caption": "Front of the new restaurant building (opened August 2026)",
-    "credit": "Harbin Hot Springs (official site)",
-    "source": "https://harbin.org/heart-consciousness/photos/"
-   },
-   {
-    "file": "images/harbin-hot-springs/05.jpg",
-    "w": 1080,
-    "h": 810,
-    "caption": "Garden pavilion among flowering shrubs",
-    "credit": "Harbin Hot Springs (official site)",
-    "source": "https://harbin.org/heart-consciousness/photos/"
-   },
-   {
-    "file": "images/harbin-hot-springs/06.jpg",
-    "w": 1600,
-    "h": 900,
-    "caption": "Hotel guest room with queen bed and sitting area",
-    "credit": "Harbin Hot Springs (official site)",
-    "source": "https://harbin.org/reservations/accommodations-rates/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched harbin.org, the Book Your Visit reservation page, Accommodations & Rates, Helpful Information & Policies, the Events & Workshops page and the news blog, plus the site's own sitemap to make sure no group/rental page was missed. The decisive finding needs no calendar: Harbin's reservation policy states outright that group bookings are no longer allowed and that every guest over 18 must buy a membership and reserve individually. There is therefore no date on which a 60-person Fri-Sun group booking is possible, and I did not need to query the individual booking engine date by date. The Events & Workshops page loads its listings through a JavaScript calendar widget with no server-rendered dates, and in any case lists third-party workshops that do not occupy the site. Harbin is open 24 hours a day, 365 days a year, so there is no seasonal closure — the block is entirely a policy block.",
@@ -4125,7 +4092,58 @@ window.VENUES = [
      "sourceLabel": "Harbin 'Book Your Visit' — Church Membership Policy"
     }
    ]
-  }
+  },
+  "thumb": "images/harbin-hot-springs/thumb.jpg",
+  "images": [
+   {
+    "file": "images/harbin-hot-springs/01.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "The rebuilt pool building with its stained-glass gable and the warm pool",
+    "credit": "Harbin Hot Springs (official site)",
+    "source": "https://harbin.org/"
+   },
+   {
+    "file": "images/harbin-hot-springs/02.jpg",
+    "w": 1600,
+    "h": 900,
+    "caption": "Dome guest accommodations beside the pool area",
+    "credit": "Harbin Hot Springs (official site)",
+    "source": "https://harbin.org/reservations/accommodations-rates/"
+   },
+   {
+    "file": "images/harbin-hot-springs/03.jpg",
+    "w": 1080,
+    "h": 810,
+    "caption": "The new hotel building on the hillside above the stone labyrinth and gazebo",
+    "credit": "Harbin Hot Springs (official site)",
+    "source": "https://harbin.org/heart-consciousness/photos/"
+   },
+   {
+    "file": "images/harbin-hot-springs/04.jpg",
+    "w": 1440,
+    "h": 810,
+    "caption": "Front of the new restaurant building (opened August 2026)",
+    "credit": "Harbin Hot Springs (official site)",
+    "source": "https://harbin.org/heart-consciousness/photos/"
+   },
+   {
+    "file": "images/harbin-hot-springs/05.jpg",
+    "w": 1080,
+    "h": 810,
+    "caption": "Garden pavilion among flowering shrubs",
+    "credit": "Harbin Hot Springs (official site)",
+    "source": "https://harbin.org/heart-consciousness/photos/"
+   },
+   {
+    "file": "images/harbin-hot-springs/06.jpg",
+    "w": 1600,
+    "h": 900,
+    "caption": "Hotel guest room with queen bed and sitting area",
+    "credit": "Harbin Hot Springs (official site)",
+    "source": "https://harbin.org/reservations/accommodations-rates/"
+   }
+  ]
  },
  {
   "id": "wilbur-hot-springs",
@@ -4143,6 +4161,7 @@ window.VENUES = [
   "website": "https://www.wilburhotsprings.com/",
   "booking": "https://www.wilburhotsprings.com/reservations/rooms-rates/",
   "tierLabel": "Tier C",
+  "region": "bay",
   "address": "3375 Wilbur Springs Rd, Williams, CA 95987",
   "lat": 39.03879,
   "lng": -122.42115,
@@ -4219,57 +4238,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Off-grid, clothing-optional health sanctuary with roughly 45-50 beds (10 cabins incl. 2 ADA, 1 cabin suite, 8 Solar Lodge rooms, 2 historic hotel rooms, a co-ed bunk room, 6 seasonal tent platforms Apr–Oct). Groups: the former group space (Red House) is gone; groups of more than 5 must contact the front desk before booking; exclusive-use events exist but are limited and quoted case by case. Ages 13+. Select weekends require 2-night (Fri+Sat) stays; 5-day cancellation policy for overnights; 11% land-management fee included in rates. Two Sarana Yoga Retreat / Guest Chef Weekends (Sept 18-20, Oct 2-4) take the whole property. Availability below read from the public FareHarbor calendar per accommodation type (no reservation made).",
   "checkedOn": "2026-08-21",
-  "thumb": "images/wilbur-hot-springs/thumb.jpg",
-  "images": [
-   {
-    "file": "images/wilbur-hot-springs/01.jpg",
-    "w": 1000,
-    "h": 750,
-    "caption": "The open-air Fluminarium bathhouse and soaking pool above Sulphur Creek",
-    "credit": "Wilbur Hot Springs (official site)",
-    "source": "https://www.wilburhotsprings.com/reservations/rooms-rates/"
-   },
-   {
-    "file": "images/wilbur-hot-springs/02.jpg",
-    "w": 1536,
-    "h": 942,
-    "caption": "The resort in its canyon: historic hotel (left), cabins and outbuildings below the nature-preserve hills",
-    "credit": "Wilbur Hot Springs (official site)",
-    "source": "https://www.wilburhotsprings.com/photos/vistas/"
-   },
-   {
-    "file": "images/wilbur-hot-springs/03.jpg",
-    "w": 1600,
-    "h": 923,
-    "caption": "Guest cabins at sunset",
-    "credit": "Wilbur Hot Springs (official site)",
-    "source": "https://www.wilburhotsprings.com/"
-   },
-   {
-    "file": "images/wilbur-hot-springs/04.jpg",
-    "w": 1000,
-    "h": 600,
-    "caption": "Inside the Fluminarium: the three mineral-water flumes under a timber roof",
-    "credit": "Wilbur Hot Springs (official site)",
-    "source": "https://www.wilburhotsprings.com/photos/geothermal-springs/"
-   },
-   {
-    "file": "images/wilbur-hot-springs/05.jpg",
-    "w": 1200,
-    "h": 791,
-    "caption": "Solar Suite interior with canyon view",
-    "credit": "Wilbur Hot Springs (official site)",
-    "source": "https://www.wilburhotsprings.com/reservations/rooms-rates/"
-   },
-   {
-    "file": "images/wilbur-hot-springs/06.jpg",
-    "w": 1000,
-    "h": 750,
-    "caption": "Sulphur Creek and the bathhouse from the hillside",
-    "credit": "Wilbur Hot Springs (official site)",
-    "source": "https://www.wilburhotsprings.com/photos/vistas/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Wilbur's 'Book Now' buttons all point at FareHarbor (fareharbor.com/embeds/book/wilburhotsprings/), whose embed is a JavaScript app but whose underlying read API is public. I listed the company's items at https://fareharbor.com/api/v1/companies/wilburhotsprings/items/ and identified the seven lodging products - Cabin Queen (712141), Cabin Queen ADA (732939), Cabin Suite (732980), Solar Lodge (732990), Hotel Queen (733001), Bunk Room (733014) and Campsites (733207) - then queried /availabilities/date/<YYYY-MM-DD>/ for each product on both the Friday and the Saturday of all ten weekends (140 dated lookups), recording is_sold_out and is_bookable for each. I cross-checked the results against Wilbur's own Programs and Events page, the Reservations & Rates page, the reservation policies page, the Deals and Discounts page and the Current Conditions page. Wilbur publishes no group-availability calendar, no buyout or whole-site rental product, and no group rates; its published events list stops at September 27, 2026, so nothing on the website explains what is happening in October. The booking API is therefore the only dated evidence, and because approximate_available_capacity is reported as 0 even for products that are plainly bookable, it tells you which products are open on a night but not how many rooms remain.",
@@ -4356,7 +4324,58 @@ window.VENUES = [
      "sourceLabel": "FareHarbor availability record, Cabin Queen, Fri 30 Oct 2026"
     }
    ]
-  }
+  },
+  "thumb": "images/wilbur-hot-springs/thumb.jpg",
+  "images": [
+   {
+    "file": "images/wilbur-hot-springs/01.jpg",
+    "w": 1000,
+    "h": 750,
+    "caption": "The open-air Fluminarium bathhouse and soaking pool above Sulphur Creek",
+    "credit": "Wilbur Hot Springs (official site)",
+    "source": "https://www.wilburhotsprings.com/reservations/rooms-rates/"
+   },
+   {
+    "file": "images/wilbur-hot-springs/02.jpg",
+    "w": 1536,
+    "h": 942,
+    "caption": "The resort in its canyon: historic hotel (left), cabins and outbuildings below the nature-preserve hills",
+    "credit": "Wilbur Hot Springs (official site)",
+    "source": "https://www.wilburhotsprings.com/photos/vistas/"
+   },
+   {
+    "file": "images/wilbur-hot-springs/03.jpg",
+    "w": 1600,
+    "h": 923,
+    "caption": "Guest cabins at sunset",
+    "credit": "Wilbur Hot Springs (official site)",
+    "source": "https://www.wilburhotsprings.com/"
+   },
+   {
+    "file": "images/wilbur-hot-springs/04.jpg",
+    "w": 1000,
+    "h": 600,
+    "caption": "Inside the Fluminarium: the three mineral-water flumes under a timber roof",
+    "credit": "Wilbur Hot Springs (official site)",
+    "source": "https://www.wilburhotsprings.com/photos/geothermal-springs/"
+   },
+   {
+    "file": "images/wilbur-hot-springs/05.jpg",
+    "w": 1200,
+    "h": 791,
+    "caption": "Solar Suite interior with canyon view",
+    "credit": "Wilbur Hot Springs (official site)",
+    "source": "https://www.wilburhotsprings.com/reservations/rooms-rates/"
+   },
+   {
+    "file": "images/wilbur-hot-springs/06.jpg",
+    "w": 1000,
+    "h": 750,
+    "caption": "Sulphur Creek and the bathhouse from the hillside",
+    "credit": "Wilbur Hot Springs (official site)",
+    "source": "https://www.wilburhotsprings.com/photos/vistas/"
+   }
+  ]
  },
  {
   "id": "asilomar",
@@ -4374,6 +4393,7 @@ window.VENUES = [
   "website": "https://www.visitasilomar.com/",
   "booking": "https://www.visitasilomar.com/meetings-events/meetings-rfp",
   "tierLabel": "Tier C",
+  "region": "bay",
   "address": "800 Asilomar Ave, Pacific Grove, CA 93950",
   "lat": 36.618554,
   "lng": -121.938448,
@@ -4448,57 +4468,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "312-room state-park conference hotel run by Aramark; never sold as a buyout, but group room blocks plus meeting rooms (Merrill Hall 569 theatre, Chapel 256, Fred Farr Forum 176, Kiln 126, Nautilus 100, etc.) are contracted via the meetings RFP, with Complete Meeting Packages quoted per person per night. Transient rooms: deposit of one night + tax at booking, rate-specific cancellation, rates double occupancy with fees for extra adults, cottages (4) by phone only. The booking engine's date picker exposes a nightly count of unsold rooms; weekend statuses below use that count for Fri and Sat nights (Aug 21/22: 62/4; Aug 28/29: 104/64; Sep 4/5: 62/4; Sep 11/12: 134/121; Sep 18/19: 63/91; Sep 25/26: 36/64; Oct 2/3: 33/68; Oct 9/10: 70/-8; Oct 16/17: 77/104). No on-site festival was found for these weekends; Oktoberfest Weekend and Sunset Music Series are guest events that do not close the grounds.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/asilomar/thumb.jpg",
-  "images": [
-   {
-    "file": "images/asilomar/01.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Merrill Hall, Julia Morgan's stone-and-shingle auditorium (1928)",
-    "credit": "Asilomar Conference Grounds / Aramark (official site)",
-    "source": "https://www.visitasilomar.com/"
-   },
-   {
-    "file": "images/asilomar/02.jpg",
-    "w": 1600,
-    "h": 1065,
-    "caption": "Historic Arts-and-Crafts shingle building in the pines",
-    "credit": "Asilomar Conference Grounds / Aramark (official site)",
-    "source": "https://www.visitasilomar.com/gallery"
-   },
-   {
-    "file": "images/asilomar/03.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Timber-beamed social hall lounge with stone fireplace",
-    "credit": "Asilomar Conference Grounds / Aramark (official site)",
-    "source": "https://www.visitasilomar.com/plan/asilomar-architecture"
-   },
-   {
-    "file": "images/asilomar/04.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Merrill Hall interior from the balcony, trusses and theatre seating",
-    "credit": "Asilomar Conference Grounds / Aramark (official site)",
-    "source": "https://www.visitasilomar.com/"
-   },
-   {
-    "file": "images/asilomar/05.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Crocker Dining Hall with its wood-beamed ceiling",
-    "credit": "Asilomar Conference Grounds / Aramark (official site)",
-    "source": "https://www.visitasilomar.com/"
-   },
-   {
-    "file": "images/asilomar/06.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Asilomar State Beach shoreline at the edge of the grounds",
-    "credit": "Asilomar Conference Grounds / Aramark (official site)",
-    "source": "https://www.visitasilomar.com/gallery"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "I drove Asilomar's own live booking engine (Aramark's reservations.ahlsmsworld.com, property code APOWELL, the engine behind the 'Book Now' widget on visitasilomar.com) once per weekend, POSTing ArrivalDate=Friday / DepartureDate=Sunday, 2 adults, 1 unit, then following the /Asilomar/PleaseWait redirect to /Asilomar/Plan-Your-Trip/Accommodation-Search/Results and parsing what came back. Each search returns a 'Your Search:' panel echoing the exact Fri-Sun date range, followed by one card per bookable room type with a 'Best Flexible Rate' price and an 'Add to Cart' button; a weekend with nothing left instead returns an 'Our Apologies!' page. I recorded, for every one of the ten weekends, how many distinct room types and how many rate options the engine offered for the full two-night stay. I also read the meetings/venues, complete-meeting-packages, lodging and upcoming-events pages on visitasilomar.com for group policy, and checked the site's events feed (which only lists third-party Monterey-area events such as the Monterey County Fair, not on-site conferences). Asilomar publishes no group-availability calendar and no list of the conferences occupying the grounds, so the booking engine is the only dated public evidence; note that its results are session-scoped POST output, so the Results URL only shows content inside the search session I created. The engine also rejects multi-room (UnitCount>1) searches, so it cannot confirm that ~30 rooms are free on any given weekend - only that the property is or is not taking two-night transient bookings.",
@@ -4585,7 +4554,58 @@ window.VENUES = [
      "sourceLabel": "Asilomar booking engine, Fri-Sun search results"
     }
    ]
-  }
+  },
+  "thumb": "images/asilomar/thumb.jpg",
+  "images": [
+   {
+    "file": "images/asilomar/01.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Merrill Hall, Julia Morgan's stone-and-shingle auditorium (1928)",
+    "credit": "Asilomar Conference Grounds / Aramark (official site)",
+    "source": "https://www.visitasilomar.com/"
+   },
+   {
+    "file": "images/asilomar/02.jpg",
+    "w": 1600,
+    "h": 1065,
+    "caption": "Historic Arts-and-Crafts shingle building in the pines",
+    "credit": "Asilomar Conference Grounds / Aramark (official site)",
+    "source": "https://www.visitasilomar.com/gallery"
+   },
+   {
+    "file": "images/asilomar/03.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Timber-beamed social hall lounge with stone fireplace",
+    "credit": "Asilomar Conference Grounds / Aramark (official site)",
+    "source": "https://www.visitasilomar.com/plan/asilomar-architecture"
+   },
+   {
+    "file": "images/asilomar/04.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Merrill Hall interior from the balcony, trusses and theatre seating",
+    "credit": "Asilomar Conference Grounds / Aramark (official site)",
+    "source": "https://www.visitasilomar.com/"
+   },
+   {
+    "file": "images/asilomar/05.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Crocker Dining Hall with its wood-beamed ceiling",
+    "credit": "Asilomar Conference Grounds / Aramark (official site)",
+    "source": "https://www.visitasilomar.com/"
+   },
+   {
+    "file": "images/asilomar/06.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Asilomar State Beach shoreline at the edge of the grounds",
+    "credit": "Asilomar Conference Grounds / Aramark (official site)",
+    "source": "https://www.visitasilomar.com/gallery"
+   }
+  ]
  },
  {
   "id": "1440-multiversity",
@@ -4604,6 +4624,7 @@ window.VENUES = [
   "booking": "https://www.1440.org/groups",
   "note": "Research note: 1440 never sells a buyout; groups book room blocks under all-inclusive packages, and its Group FAQ says it has a waiting list for private mission-aligned group events.",
   "tierLabel": "Tier C",
+  "region": "bay",
   "address": "800 Bethany Drive, Scotts Valley, CA 95066",
   "lat": 37.0751,
   "lng": -121.9947,
@@ -4680,57 +4701,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "147 private guest rooms; groups never get a buyout but book room blocks under an all-inclusive package. 1440 only hosts 'mission-aligned' groups that include a learning element, and its Group FAQ says it 'has established a waiting list for private mission-aligned group events' (inquire at inquiries@1440.org / 888-727-1440). Private group bookings are not published anywhere; the public Community Education Calendar lists only 1440's own open-enrollment events. The SynXis booking engine is program-gated ('Select a Learning Experience') and returns 'Our hotel is not available' for every open-dated search, so it cannot be used to test room availability. 50% deposit at booking, balance 14–45 days before arrival; 11% accommodation tax.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/1440-multiversity/thumb.jpg",
-  "images": [
-   {
-    "file": "images/1440-multiversity/01.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "The Lodge at dusk, with pond and footbridge",
-    "credit": "1440 Multiversity (official site)",
-    "source": "https://www.1440.org/the-campus-gallery"
-   },
-   {
-    "file": "images/1440-multiversity/02.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Campus entrance sign with Sanctuary building at dusk",
-    "credit": "1440 Multiversity (official site)",
-    "source": "https://www.1440.org/the-campus-gallery"
-   },
-   {
-    "file": "images/1440-multiversity/03.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Redwood Amphitheater, outdoor venue in the redwoods",
-    "credit": "1440 Multiversity (official site)",
-    "source": "https://www.1440.org/outdoor-venues-gallery"
-   },
-   {
-    "file": "images/1440-multiversity/04.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Redwood Auditorium set up for a conference",
-    "credit": "1440 Multiversity (official site)",
-    "source": "https://www.1440.org/meeting-venues-gallery"
-   },
-   {
-    "file": "images/1440-multiversity/05.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "The Sanctuary, timber-framed gathering hall interior",
-    "credit": "1440 Multiversity (official site)",
-    "source": "https://www.1440.org/meeting-venues-gallery"
-   },
-   {
-    "file": "images/1440-multiversity/06.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Kitchen Table dining hall",
-    "credit": "1440 Multiversity (official site)",
-    "source": "https://www.1440.org/dining-gallery"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Read /groups (Essential Requisites) and the full /faqs page, which is where 1440 actually documents how group bookings work, then the public /events calendar, which is the only dated listing on the site. I also checked /stay and /accommodations for a booking engine: there is none. Reservations run through reservations@1440.org and two phone numbers, and the FAQ confirms that contracted groups get a private, code-gated booking link that only goes live 30 days before arrival, so no public inventory exists to query. The events calendar lists just four campus items between now and the end of October plus one in June 2027, so it is maintained but sparse. Net: 1440 publishes essentially nothing about weekend availability, and most entries below are honestly 'unknown'.",
@@ -4817,7 +4787,58 @@ window.VENUES = [
      "sourceLabel": "1440 Multiversity events calendar"
     }
    ]
-  }
+  },
+  "thumb": "images/1440-multiversity/thumb.jpg",
+  "images": [
+   {
+    "file": "images/1440-multiversity/01.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "The Lodge at dusk, with pond and footbridge",
+    "credit": "1440 Multiversity (official site)",
+    "source": "https://www.1440.org/the-campus-gallery"
+   },
+   {
+    "file": "images/1440-multiversity/02.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Campus entrance sign with Sanctuary building at dusk",
+    "credit": "1440 Multiversity (official site)",
+    "source": "https://www.1440.org/the-campus-gallery"
+   },
+   {
+    "file": "images/1440-multiversity/03.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Redwood Amphitheater, outdoor venue in the redwoods",
+    "credit": "1440 Multiversity (official site)",
+    "source": "https://www.1440.org/outdoor-venues-gallery"
+   },
+   {
+    "file": "images/1440-multiversity/04.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Redwood Auditorium set up for a conference",
+    "credit": "1440 Multiversity (official site)",
+    "source": "https://www.1440.org/meeting-venues-gallery"
+   },
+   {
+    "file": "images/1440-multiversity/05.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "The Sanctuary, timber-framed gathering hall interior",
+    "credit": "1440 Multiversity (official site)",
+    "source": "https://www.1440.org/meeting-venues-gallery"
+   },
+   {
+    "file": "images/1440-multiversity/06.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Kitchen Table dining hall",
+    "credit": "1440 Multiversity (official site)",
+    "source": "https://www.1440.org/dining-gallery"
+   }
+  ]
  },
  {
   "id": "mendocino-woodlands",
@@ -4835,6 +4856,7 @@ window.VENUES = [
   "website": "https://www.mendocinowoodlands.org/",
   "booking": "https://www.mendocinowoodlands.org/bookings-events",
   "tierLabel": "Tier C",
+  "region": "bay",
   "address": "39350 Little Lake Road, Mendocino, CA 95460",
   "lat": 39.3182,
   "lng": -123.703,
@@ -4911,57 +4933,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Group camping only, exclusive use of one whole camp (Camp One cap 200, 46 four-bed cabins; Camp Two cap 120; Camp Three cap 80 tent cabins). Fall minimum occupancy: Camp One 60, Camp Two 40, Camp Three 30 (parks.ca.gov). Arrival 2 pm, departure 11 am; group self-caters and cleans. Seasonal: in 2025 Camp Three closed for the season Oct 14, Camp Two Nov 2, Camp One Nov 17; camps reopen late March–May. Availability is shown on the public Camp Calendar (three Google calendars, red/blue/green bars = reserved); book via the online Reservation Inquiry Form, 25% nonrefundable deposit + security deposit with signed contract.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/mendocino-woodlands/thumb.jpg",
-  "images": [
-   {
-    "file": "images/mendocino-woodlands/01.jpg",
-    "w": 1600,
-    "h": 1068,
-    "caption": "CCC-built redwood cabin at Camp One",
-    "credit": "Mendocino Woodlands Camp Association (official site)",
-    "source": "https://www.mendocinowoodlands.org/"
-   },
-   {
-    "file": "images/mendocino-woodlands/02.jpg",
-    "w": 1600,
-    "h": 1068,
-    "caption": "Camp One dance hall / recreation hall interior with stone fireplace",
-    "credit": "Mendocino Woodlands Camp Association (official site)",
-    "source": "https://www.mendocinowoodlands.org/"
-   },
-   {
-    "file": "images/mendocino-woodlands/03.jpg",
-    "w": 1200,
-    "h": 801,
-    "caption": "Cabin and open-air shelter among the redwoods",
-    "credit": "Mendocino Woodlands Camp Association (official site)",
-    "source": "https://www.mendocinowoodlands.org/"
-   },
-   {
-    "file": "images/mendocino-woodlands/04.jpg",
-    "w": 1200,
-    "h": 801,
-    "caption": "Cabin interior with stone fireplace and cots",
-    "credit": "Mendocino Woodlands Camp Association (official site)",
-    "source": "https://www.mendocinowoodlands.org/"
-   },
-   {
-    "file": "images/mendocino-woodlands/05.jpg",
-    "w": 1528,
-    "h": 1145,
-    "caption": "Outdoor dining set up in a redwood grove",
-    "credit": "Mendocino Woodlands Camp Association (official site)",
-    "source": "https://www.mendocinowoodlands.org/bookings-events"
-   },
-   {
-    "file": "images/mendocino-woodlands/06.jpg",
-    "w": 1600,
-    "h": 1199,
-    "caption": "Outdoor amphitheater / ceremony site",
-    "credit": "Mendocino Woodlands Camp Association (official site)",
-    "source": "https://www.mendocinowoodlands.org/bookings-events"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Started from mendocinowoodlands.org/bookings-events, which tells you to 'View our Camp Calendar to check for availability'. The camp-calendar page embeds a Google Calendar iframe carrying three public calendar IDs, colour-coded in the page's own legend as Camp 1 (red), Camp 2 (blue) and Camp 3 (green). I decoded the three base64 calendar IDs out of the iframe src and fetched each calendar's public .ics feed directly (all HTTP 200), then listed every VEVENT between Aug and Dec 2026. That gives confirmed, dated, per-camp reservations rather than a rendered widget. I also read /camp-rental-details for terms and /bookings-events for per-camp capacities. This is by far the best-published availability of the five venues I checked: MWCA publishes actual booked dates per camp.",
@@ -5048,7 +5019,58 @@ window.VENUES = [
      "sourceLabel": "Mendocino Woodlands Camp Calendar"
     }
    ]
-  }
+  },
+  "thumb": "images/mendocino-woodlands/thumb.jpg",
+  "images": [
+   {
+    "file": "images/mendocino-woodlands/01.jpg",
+    "w": 1600,
+    "h": 1068,
+    "caption": "CCC-built redwood cabin at Camp One",
+    "credit": "Mendocino Woodlands Camp Association (official site)",
+    "source": "https://www.mendocinowoodlands.org/"
+   },
+   {
+    "file": "images/mendocino-woodlands/02.jpg",
+    "w": 1600,
+    "h": 1068,
+    "caption": "Camp One dance hall / recreation hall interior with stone fireplace",
+    "credit": "Mendocino Woodlands Camp Association (official site)",
+    "source": "https://www.mendocinowoodlands.org/"
+   },
+   {
+    "file": "images/mendocino-woodlands/03.jpg",
+    "w": 1200,
+    "h": 801,
+    "caption": "Cabin and open-air shelter among the redwoods",
+    "credit": "Mendocino Woodlands Camp Association (official site)",
+    "source": "https://www.mendocinowoodlands.org/"
+   },
+   {
+    "file": "images/mendocino-woodlands/04.jpg",
+    "w": 1200,
+    "h": 801,
+    "caption": "Cabin interior with stone fireplace and cots",
+    "credit": "Mendocino Woodlands Camp Association (official site)",
+    "source": "https://www.mendocinowoodlands.org/"
+   },
+   {
+    "file": "images/mendocino-woodlands/05.jpg",
+    "w": 1528,
+    "h": 1145,
+    "caption": "Outdoor dining set up in a redwood grove",
+    "credit": "Mendocino Woodlands Camp Association (official site)",
+    "source": "https://www.mendocinowoodlands.org/bookings-events"
+   },
+   {
+    "file": "images/mendocino-woodlands/06.jpg",
+    "w": 1600,
+    "h": 1199,
+    "caption": "Outdoor amphitheater / ceremony site",
+    "credit": "Mendocino Woodlands Camp Association (official site)",
+    "source": "https://www.mendocinowoodlands.org/bookings-events"
+   }
+  ]
  },
  {
   "id": "land-of-medicine-buddha",
@@ -5067,6 +5089,7 @@ window.VENUES = [
   "booking": "https://landofmedicinebuddha.org/stay/group-rentals/",
   "note": "Research note: the sheet's stay.landofmedicinebuddha.org booking link was returning errors; the working group-rentals page is on the main domain.",
   "tierLabel": "Tier C",
+  "region": "bay",
   "address": "5800 Prescott Road, Soquel, CA 95073",
   "lat": 37.0109,
   "lng": -121.9344,
@@ -5141,57 +5164,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Exclusive group rentals: 19 rooms with private baths (up to 56 overnight incl. seasonal Yurt Village, open May 1–Oct 31), minimum 18 / maximum 56 guests, 2-night minimum, $3,900/night minimum invoice; Pine Room seats 60 (35 for yoga). 'We host groups nearly every week.' Rental inquiry form on the group-rentals page (facilityrentals@medicinebuddha.org). LMB runs its own residential retreats and weekend teachings, listed on the public LMB Events Calendar (Google Calendar) and All Programs page; Sep 2026 is heavily programmed (Khen Rinpoche three-week series Sep 5–27). The individual-room ResNexus booking engine is behind bot protection and could not be read.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/land-of-medicine-buddha/thumb.jpg",
-  "images": [
-   {
-    "file": "images/land-of-medicine-buddha/01.jpg",
-    "w": 1600,
-    "h": 1044,
-    "caption": "Wish-Fulfilling Temple exterior",
-    "credit": "Land of Medicine Buddha (official site)",
-    "source": "https://landofmedicinebuddha.org/sacred-sites/"
-   },
-   {
-    "file": "images/land-of-medicine-buddha/02.jpg",
-    "w": 1600,
-    "h": 947,
-    "caption": "Wish-Fulfilling Temple interior",
-    "credit": "Land of Medicine Buddha (official site)",
-    "source": "https://landofmedicinebuddha.org/visit/wish-fulfilling-temple/"
-   },
-   {
-    "file": "images/land-of-medicine-buddha/03.jpg",
-    "w": 1600,
-    "h": 1080,
-    "caption": "Entrance courtyard with prayer wheel pavilion, prayer flags and guest building",
-    "credit": "Land of Medicine Buddha (official site)",
-    "source": "https://landofmedicinebuddha.org/"
-   },
-   {
-    "file": "images/land-of-medicine-buddha/04.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Wooden deck overlooking the meadow, used for outdoor sessions",
-    "credit": "Land of Medicine Buddha (official site)",
-    "source": "https://landofmedicinebuddha.org/stay/group-rentals/"
-   },
-   {
-    "file": "images/land-of-medicine-buddha/05.jpg",
-    "w": 1200,
-    "h": 900,
-    "caption": "Treetops guest-room building",
-    "credit": "Land of Medicine Buddha (official site)",
-    "source": "https://landofmedicinebuddha.org/stay/personal-getaway/"
-   },
-   {
-    "file": "images/land-of-medicine-buddha/06.jpg",
-    "w": 1284,
-    "h": 982,
-    "caption": "Gompa (meditation hall) interior",
-    "credit": "Land of Medicine Buddha (official site)",
-    "source": "https://landofmedicinebuddha.org/sacred-sites/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Read /stay/group-rentals/ for the rental terms and capacity, then worked through /programs/all-programs/, which lists every LMB program with dates through November 2026 and, usefully, also lists outside groups that have rented the site. I cross-checked that against the Google Calendar embedded on /programs/calendar-of-events/ by decoding its calendar ID and pulling the public .ics feed (HTTP 200, 428 events). The two sources agree on LMB's own programs but the .ics does NOT contain the two outside conference rentals, so the programs page is the more complete source. LMB does not publish a room-availability calendar or a booking engine on the main domain (the stay. subdomain booking host was not reachable), so 'nothing listed' is inference from a calendar that does cover the period, not from a real inventory feed.",
@@ -5278,7 +5250,58 @@ window.VENUES = [
      "sourceLabel": "Land of Medicine Buddha - All Programs"
     }
    ]
-  }
+  },
+  "thumb": "images/land-of-medicine-buddha/thumb.jpg",
+  "images": [
+   {
+    "file": "images/land-of-medicine-buddha/01.jpg",
+    "w": 1600,
+    "h": 1044,
+    "caption": "Wish-Fulfilling Temple exterior",
+    "credit": "Land of Medicine Buddha (official site)",
+    "source": "https://landofmedicinebuddha.org/sacred-sites/"
+   },
+   {
+    "file": "images/land-of-medicine-buddha/02.jpg",
+    "w": 1600,
+    "h": 947,
+    "caption": "Wish-Fulfilling Temple interior",
+    "credit": "Land of Medicine Buddha (official site)",
+    "source": "https://landofmedicinebuddha.org/visit/wish-fulfilling-temple/"
+   },
+   {
+    "file": "images/land-of-medicine-buddha/03.jpg",
+    "w": 1600,
+    "h": 1080,
+    "caption": "Entrance courtyard with prayer wheel pavilion, prayer flags and guest building",
+    "credit": "Land of Medicine Buddha (official site)",
+    "source": "https://landofmedicinebuddha.org/"
+   },
+   {
+    "file": "images/land-of-medicine-buddha/04.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Wooden deck overlooking the meadow, used for outdoor sessions",
+    "credit": "Land of Medicine Buddha (official site)",
+    "source": "https://landofmedicinebuddha.org/stay/group-rentals/"
+   },
+   {
+    "file": "images/land-of-medicine-buddha/05.jpg",
+    "w": 1200,
+    "h": 900,
+    "caption": "Treetops guest-room building",
+    "credit": "Land of Medicine Buddha (official site)",
+    "source": "https://landofmedicinebuddha.org/stay/personal-getaway/"
+   },
+   {
+    "file": "images/land-of-medicine-buddha/06.jpg",
+    "w": 1284,
+    "h": 982,
+    "caption": "Gompa (meditation hall) interior",
+    "credit": "Land of Medicine Buddha (official site)",
+    "source": "https://landofmedicinebuddha.org/sacred-sites/"
+   }
+  ]
  },
  {
   "id": "presidio-lodging",
@@ -5297,6 +5320,7 @@ window.VENUES = [
   "booking": "https://presidiolodging.com/contact/",
   "subtitle": "Inn + Lodge at the Presidio",
   "tierLabel": "Tier C",
+  "region": "bay",
   "address": "Inn at the Presidio, 42 Moraga Avenue, San Francisco, CA 94129 (Lodge at the Presidio: 105 Montgomery Street, SF 94129)",
   "lat": 37.7971,
   "lng": -122.4578,
@@ -5371,57 +5395,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Two hotels, 68 rooms total (Lodge 42 rooms, Inn 22 + Funston House); full two-property buyout for up to 200 attendees is an advertised product (press Sept 2025) but quoted on request via the meetings/room-block email. Public engines (innres / lodgeres.presidiolodging.com) show a 2-night minimum on most fall weekends and 3 nights around Thanksgiving. Group blocks held back from public sale would not show online, so 'sold out' below means no public rooms, not necessarily no group contract. 16% park fee on all rooms, $13 overnight parking, 72-hour individual cancellation.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/presidio-lodging/thumb.jpg",
-  "images": [
-   {
-    "file": "images/presidio-lodging/01.jpg",
-    "w": 1600,
-    "h": 900,
-    "caption": "Inn at the Presidio (historic Pershing Hall) aerial view with Golden Gate Bridge behind",
-    "credit": "Presidio Lodging (official site)",
-    "source": "https://presidiolodging.com/inn-at-the-presidio/"
-   },
-   {
-    "file": "images/presidio-lodging/02.jpg",
-    "w": 1600,
-    "h": 900,
-    "caption": "Lodge at the Presidio, Montgomery Street barracks, aerial view toward the Golden Gate",
-    "credit": "Presidio Lodging (official site)",
-    "source": "https://presidiolodging.com/lodge-at-the-presidio/"
-   },
-   {
-    "file": "images/presidio-lodging/03.jpg",
-    "w": 1600,
-    "h": 900,
-    "caption": "Lodge at the Presidio front facade with Golden Gate Bridge view",
-    "credit": "Presidio Lodging (official site)",
-    "source": "https://presidiolodging.com/lodge-at-the-presidio/"
-   },
-   {
-    "file": "images/presidio-lodging/04.jpg",
-    "w": 1600,
-    "h": 900,
-    "caption": "Inn at the Presidio living room / lobby with fireplace",
-    "credit": "Presidio Lodging (official site)",
-    "source": "https://presidiolodging.com/inn-at-the-presidio/"
-   },
-   {
-    "file": "images/presidio-lodging/05.jpg",
-    "w": 1600,
-    "h": 900,
-    "caption": "Lodge at the Presidio lobby and breakfast room",
-    "credit": "Presidio Lodging (official site)",
-    "source": "https://presidiolodging.com/lodge-at-the-presidio/"
-   },
-   {
-    "file": "images/presidio-lodging/06.jpg",
-    "w": 1600,
-    "h": 900,
-    "caption": "Meeting room set up boardroom-style",
-    "credit": "Presidio Lodging (official site)",
-    "source": "https://presidiolodging.com/inn-at-the-presidio/meetings-events/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "presidiolodging.com hides its booking engine behind two Blazor WebAssembly subdomains, innres.presidiolodging.com and lodgeres.presidiolodging.com, which I found in the page source of /accommodations/. Those pages server-side prerender the date picker, and they accept ?checkin=YYYY-MM-DD&checkout=YYYY-MM-DD, so I ran a real Fri-Sun date search for each of the ten weekends against each property (20 fetches, all HTTP 200) and read the per-day state classes the picker emits (SoldOut, TwoDayMin, or open). Important gotcha I hit and corrected for: the picker only populates availability from the queried check-in date forward, so reading October off a late-October anchor silently shows everything as open. Anchoring each query on its own Friday fixes that, and the results then reproduce exactly across anchors. I also read /hotel-policies/, /inn-at-the-presidio/meetings-events/ and /faq/. No form was submitted and no reservation was started; these are URL date searches only.",
@@ -5508,7 +5481,58 @@ window.VENUES = [
      "sourceLabel": "Lodge at the Presidio booking engine, Fri-Sun date search"
     }
    ]
-  }
+  },
+  "thumb": "images/presidio-lodging/thumb.jpg",
+  "images": [
+   {
+    "file": "images/presidio-lodging/01.jpg",
+    "w": 1600,
+    "h": 900,
+    "caption": "Inn at the Presidio (historic Pershing Hall) aerial view with Golden Gate Bridge behind",
+    "credit": "Presidio Lodging (official site)",
+    "source": "https://presidiolodging.com/inn-at-the-presidio/"
+   },
+   {
+    "file": "images/presidio-lodging/02.jpg",
+    "w": 1600,
+    "h": 900,
+    "caption": "Lodge at the Presidio, Montgomery Street barracks, aerial view toward the Golden Gate",
+    "credit": "Presidio Lodging (official site)",
+    "source": "https://presidiolodging.com/lodge-at-the-presidio/"
+   },
+   {
+    "file": "images/presidio-lodging/03.jpg",
+    "w": 1600,
+    "h": 900,
+    "caption": "Lodge at the Presidio front facade with Golden Gate Bridge view",
+    "credit": "Presidio Lodging (official site)",
+    "source": "https://presidiolodging.com/lodge-at-the-presidio/"
+   },
+   {
+    "file": "images/presidio-lodging/04.jpg",
+    "w": 1600,
+    "h": 900,
+    "caption": "Inn at the Presidio living room / lobby with fireplace",
+    "credit": "Presidio Lodging (official site)",
+    "source": "https://presidiolodging.com/inn-at-the-presidio/"
+   },
+   {
+    "file": "images/presidio-lodging/05.jpg",
+    "w": 1600,
+    "h": 900,
+    "caption": "Lodge at the Presidio lobby and breakfast room",
+    "credit": "Presidio Lodging (official site)",
+    "source": "https://presidiolodging.com/lodge-at-the-presidio/"
+   },
+   {
+    "file": "images/presidio-lodging/06.jpg",
+    "w": 1600,
+    "h": 900,
+    "caption": "Meeting room set up boardroom-style",
+    "credit": "Presidio Lodging (official site)",
+    "source": "https://presidiolodging.com/inn-at-the-presidio/meetings-events/"
+   }
+  ]
  },
  {
   "id": "hidden-villa",
@@ -5527,6 +5551,7 @@ window.VENUES = [
   "booking": "https://www.hiddenvilla.org/meeting-retreats/",
   "note": "Research note: meeting spaces are the Dana Center, Duveneck House and Morgan Family Pavilion; the hostel sleeps 39.",
   "tierLabel": "Tier C",
+  "region": "bay",
   "address": "26870 Moody Road, Los Altos Hills, CA 94022",
   "lat": 37.354,
   "lng": -122.1563,
@@ -5601,57 +5626,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Hostel (39 beds), Dana Center and Duveneck House rent September through May only; Dana/Duveneck Tue–Sun; Hostel requires a 2-night minimum on weekends and 3 nights on holiday weekends; the hostel no longer rents individual beds. Rentals prioritize youth-serving and nonprofit groups but are open to all; book via the facility-rental inquiry form (rentals@hiddenvilla.org). No public availability calendar for the Hostel/Dana Center; only the picnic sites show bookable dates (Morgan Family Pavilion and Garden Picnic Site, $300/day, Aug 29–Sep 26 listed, then Nov 7). The farm stays open to day visitors, so this is never an exclusive-site buyout.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/hidden-villa/thumb.jpg",
-  "images": [
-   {
-    "file": "images/hidden-villa/01.jpg",
-    "w": 720,
-    "h": 480,
-    "caption": "Duveneck House, the 1920s family home used for meetings and retreats",
-    "credit": "Hidden Villa (official site)",
-    "source": "https://www.hiddenvilla.org/meeting-retreats/"
-   },
-   {
-    "file": "images/hidden-villa/02.jpg",
-    "w": 1536,
-    "h": 1024,
-    "caption": "Farm pasture and barns in the Adobe Creek valley",
-    "credit": "Hidden Villa (official site)",
-    "source": "https://www.hiddenvilla.org/visit/plan-your-trip/"
-   },
-   {
-    "file": "images/hidden-villa/03.jpg",
-    "w": 1600,
-    "h": 1908,
-    "caption": "Hidden Villa and the Adobe Creek valley from the hills above Moody Road",
-    "credit": "Dicklyon, Wikimedia Commons, CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Hidden_Villa_Adobe_Creek_headwaters.jpg"
-   },
-   {
-    "file": "images/hidden-villa/04.jpg",
-    "w": 1600,
-    "h": 1017,
-    "caption": "Environmental education center building (straw-bale construction)",
-    "credit": "Schmiebel, Wikimedia Commons, CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Hidden_Villa_Education_Center_2010.jpg"
-   },
-   {
-    "file": "images/hidden-villa/05.jpg",
-    "w": 1120,
-    "h": 1120,
-    "caption": "Dana Center meeting hall interior with skylights and stone fireplace",
-    "credit": "Hidden Villa (official site)",
-    "source": "https://www.hiddenvilla.org/meeting-retreats/"
-   },
-   {
-    "file": "images/hidden-villa/06.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "Organic farm rows below the hills at sunset",
-    "credit": "Hidden Villa (official site)",
-    "source": "https://www.hiddenvilla.org/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Read /meeting-retreats/ and /rentals/facility-rentals/ for the rental catalogue and /rentals/picnic-sites/ for the picnic terms. Hidden Villa's catalogue and public calendar are both driven by Arlo (hiddenvilla.arlo.co), and I found that Arlo's public API is open: eventsearch returned all 98 forward-dated sessions with names, dates and an IsFull flag, which is real dated inventory for the picnic sites and public programs. It is not, however, inventory for the retreat facilities - the Dana Center, Duveneck House, Hostel and Josephine's Retreat are published as Learn More / Inquire with no sessions and no dates at all, so their bookedness is genuinely not on the public web. That is why every weekend below is 'unknown' rather than green or red: I could see the farm's public diary in detail and still could not see the rental calendar.",
@@ -5738,7 +5712,58 @@ window.VENUES = [
      "sourceLabel": "Hidden Villa facility rentals catalogue"
     }
    ]
-  }
+  },
+  "thumb": "images/hidden-villa/thumb.jpg",
+  "images": [
+   {
+    "file": "images/hidden-villa/01.jpg",
+    "w": 720,
+    "h": 480,
+    "caption": "Duveneck House, the 1920s family home used for meetings and retreats",
+    "credit": "Hidden Villa (official site)",
+    "source": "https://www.hiddenvilla.org/meeting-retreats/"
+   },
+   {
+    "file": "images/hidden-villa/02.jpg",
+    "w": 1536,
+    "h": 1024,
+    "caption": "Farm pasture and barns in the Adobe Creek valley",
+    "credit": "Hidden Villa (official site)",
+    "source": "https://www.hiddenvilla.org/visit/plan-your-trip/"
+   },
+   {
+    "file": "images/hidden-villa/03.jpg",
+    "w": 1600,
+    "h": 1908,
+    "caption": "Hidden Villa and the Adobe Creek valley from the hills above Moody Road",
+    "credit": "Dicklyon, Wikimedia Commons, CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hidden_Villa_Adobe_Creek_headwaters.jpg"
+   },
+   {
+    "file": "images/hidden-villa/04.jpg",
+    "w": 1600,
+    "h": 1017,
+    "caption": "Environmental education center building (straw-bale construction)",
+    "credit": "Schmiebel, Wikimedia Commons, CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hidden_Villa_Education_Center_2010.jpg"
+   },
+   {
+    "file": "images/hidden-villa/05.jpg",
+    "w": 1120,
+    "h": 1120,
+    "caption": "Dana Center meeting hall interior with skylights and stone fireplace",
+    "credit": "Hidden Villa (official site)",
+    "source": "https://www.hiddenvilla.org/meeting-retreats/"
+   },
+   {
+    "file": "images/hidden-villa/06.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Organic farm rows below the hills at sunset",
+    "credit": "Hidden Villa (official site)",
+    "source": "https://www.hiddenvilla.org/"
+   }
+  ]
  },
  {
   "id": "triple-s-ranch",
@@ -5757,6 +5782,7 @@ window.VENUES = [
   "booking": "https://www.triplesranchnapa.com/overview-retreat",
   "subtitle": "your SSS example",
   "tierLabel": "Reference",
+  "region": "bay",
   "address": "4600 Mountain Home Ranch Road, Calistoga, CA 94515",
   "lat": 38.57155,
   "lng": -122.63936,
@@ -5833,57 +5859,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Exclusive-use weekend rentals only (3 days / 2 nights, Fri–Sun); the venue says it hosts a limited number of events per year built around full weekends. Lodging for up to 60 double / 34 single occupancy, glamping allowed for overflow. No on-site catering (BYO caterer and alcohol, licensed bartender required). In-season (roughly Apr–Oct) vs off-season (Nov–Mar) pricing. No public availability calendar; inquire via the site form or (415) 760-3432.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/triple-s-ranch/thumb.jpg",
-  "images": [
-   {
-    "file": "images/triple-s-ranch/01.jpg",
-    "w": 1280,
-    "h": 853,
-    "caption": "Restored event barn exterior at dusk, lit from inside",
-    "credit": "Triple S Ranch (official site)",
-    "source": "https://www.triplesranchnapa.com/lodging"
-   },
-   {
-    "file": "images/triple-s-ranch/02.jpg",
-    "w": 853,
-    "h": 853,
-    "caption": "The Grand Victorian house at twilight",
-    "credit": "Triple S Ranch (official site)",
-    "source": "https://www.triplesranchnapa.com/real-retreats-gallery"
-   },
-   {
-    "file": "images/triple-s-ranch/03.jpg",
-    "w": 1283,
-    "h": 855,
-    "caption": "Pool, pool house and outdoor fireplace at dusk",
-    "credit": "Triple S Ranch (official site)",
-    "source": "https://www.triplesranchnapa.com/"
-   },
-   {
-    "file": "images/triple-s-ranch/04.jpg",
-    "w": 1500,
-    "h": 1000,
-    "caption": "Company retreat session inside the main barn",
-    "credit": "Triple S Ranch (official site)",
-    "source": "https://www.triplesranchnapa.com/"
-   },
-   {
-    "file": "images/triple-s-ranch/05.jpg",
-    "w": 1024,
-    "h": 683,
-    "caption": "Wood-panelled lounge / living room interior",
-    "credit": "Triple S Ranch (official site)",
-    "source": "https://www.triplesranchnapa.com/lodging"
-   },
-   {
-    "file": "images/triple-s-ranch/06.jpg",
-    "w": 1280,
-    "h": 853,
-    "caption": "Guest cabin with covered porch at dusk",
-    "credit": "Triple S Ranch (official site)",
-    "source": "https://www.triplesranchnapa.com/real-retreats-gallery"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched the venue's own site directly (HTTP 200 on the home page, /overview-retreat, /lodging, /pricing, /contact and /blog) and looked for any calendar, booking engine, date picker or dated event listing. There is none: every path on the site ends at a contact/inquiry form, the /pricing page only offers a brochure download, and the blog is undated marketing copy. Also downloaded the linked private-event brochure PDF (TripleSRanchPrivateEventBrochure.pdf, 20 pages, HTTP 200) but its text is a subsetted custom-encoded font that does not extract to quotable text. Searched the wider web for dated activity at the ranch in the window ('Triple S Ranch' Calistoga retreat October 2026; 'Triple S Ranch' Napa event September 2026; 'Triple S Ranch' wedding 'October 2026' OR 'September 2026' Calistoga booked) and checked the third-party listings that surfaced (Cvent, Wedding Spot). Cvent's own FAQ fields for pricing, deposits and date availability all read as no information available, and Wedding Spot shows no 2026 calendar. Conclusion: nothing dated is published for any of the ten weekends, so all ten are unknown. This is the one venue of my five that is actually sized for the group.",
@@ -5970,7 +5945,58 @@ window.VENUES = [
      "sourceLabel": "Triple S Ranch - Retreats overview (inquiry only, no calendar)"
     }
    ]
-  }
+  },
+  "thumb": "images/triple-s-ranch/thumb.jpg",
+  "images": [
+   {
+    "file": "images/triple-s-ranch/01.jpg",
+    "w": 1280,
+    "h": 853,
+    "caption": "Restored event barn exterior at dusk, lit from inside",
+    "credit": "Triple S Ranch (official site)",
+    "source": "https://www.triplesranchnapa.com/lodging"
+   },
+   {
+    "file": "images/triple-s-ranch/02.jpg",
+    "w": 853,
+    "h": 853,
+    "caption": "The Grand Victorian house at twilight",
+    "credit": "Triple S Ranch (official site)",
+    "source": "https://www.triplesranchnapa.com/real-retreats-gallery"
+   },
+   {
+    "file": "images/triple-s-ranch/03.jpg",
+    "w": 1283,
+    "h": 855,
+    "caption": "Pool, pool house and outdoor fireplace at dusk",
+    "credit": "Triple S Ranch (official site)",
+    "source": "https://www.triplesranchnapa.com/"
+   },
+   {
+    "file": "images/triple-s-ranch/04.jpg",
+    "w": 1500,
+    "h": 1000,
+    "caption": "Company retreat session inside the main barn",
+    "credit": "Triple S Ranch (official site)",
+    "source": "https://www.triplesranchnapa.com/"
+   },
+   {
+    "file": "images/triple-s-ranch/05.jpg",
+    "w": 1024,
+    "h": 683,
+    "caption": "Wood-panelled lounge / living room interior",
+    "credit": "Triple S Ranch (official site)",
+    "source": "https://www.triplesranchnapa.com/lodging"
+   },
+   {
+    "file": "images/triple-s-ranch/06.jpg",
+    "w": 1280,
+    "h": 853,
+    "caption": "Guest cabin with covered porch at dusk",
+    "credit": "Triple S Ranch (official site)",
+    "source": "https://www.triplesranchnapa.com/real-retreats-gallery"
+   }
+  ]
  },
  {
   "id": "mayacamas-ranch",
@@ -5988,6 +6014,7 @@ window.VENUES = [
   "website": "https://mayacamasranch.com/",
   "booking": "https://mayacamasranch.com/the-invitation/",
   "tierLabel": "Reference",
+  "region": "bay",
   "address": "3975 Mountain Home Ranch Road, Calistoga, CA 94515",
   "lat": 38.56958,
   "lng": -122.65057,
@@ -6061,57 +6088,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Not taking group bookings. Post-fire the property has no guest buildings; it is being placed into a long-term stewardship framework (Rock Creek Institute) with governance 'developed over the next four years'. Only partner-in-residence gatherings (Inner View / Nic Askew) occur. Treat as unavailable for any 2026 weekend.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/mayacamas-ranch/thumb.jpg",
-  "images": [
-   {
-    "file": "images/mayacamas-ranch/01.jpg",
-    "w": 800,
-    "h": 600,
-    "caption": "Pool and sunset over the Mayacamas Mountains (pre-2017 fire)",
-    "credit": "Mayacamas Ranch (official site, pre-fire, archived via Wayback Machine)",
-    "source": "https://web.archive.org/web/20141013093910/http://mayacamasranch.com/gallery/gatherings/"
-   },
-   {
-    "file": "images/mayacamas-ranch/02.jpg",
-    "w": 700,
-    "h": 600,
-    "caption": "Main lodge deck set for an outdoor dinner (pre-2017 fire; building lost in the Tubbs Fire)",
-    "credit": "Mayacamas Ranch (official site, pre-fire, archived via Wayback Machine)",
-    "source": "https://web.archive.org/web/20150214033511/http://mayacamasranch.com/gallery/facilities/"
-   },
-   {
-    "file": "images/mayacamas-ranch/03.jpg",
-    "w": 960,
-    "h": 500,
-    "caption": "Lawn and umbrella looking out over the Mayacamas range (legacy photo on the current site)",
-    "credit": "Mayacamas Ranch (official site)",
-    "source": "https://mayacamasranch.com/"
-   },
-   {
-    "file": "images/mayacamas-ranch/04.jpg",
-    "w": 1600,
-    "h": 1071,
-    "caption": "Hidden Lake with a canoe, looking east (pre-2017 fire)",
-    "credit": "Mayacamas Ranch (official site, pre-fire, archived via Wayback Machine)",
-    "source": "https://web.archive.org/web/20170616221614/http://mayacamasranch.com/"
-   },
-   {
-    "file": "images/mayacamas-ranch/05.jpg",
-    "w": 960,
-    "h": 500,
-    "caption": "Rainbow over the grassland terrace, current post-fire landscape",
-    "credit": "Mayacamas Ranch (official site)",
-    "source": "https://mayacamasranch.com/"
-   },
-   {
-    "file": "images/mayacamas-ranch/06.jpg",
-    "w": 960,
-    "h": 500,
-    "caption": "Pasture looking toward Mount St. Helena at sunset, current post-fire landscape",
-    "credit": "Mayacamas Ranch (official site)",
-    "source": "https://mayacamasranch.com/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched mayacamasranch.com and its /the-invitation/ page (both HTTP 200) and read the full site - it is a four-page WordPress brochure (The Land, The Vision, The Invitation, Partners) aimed at prospective steward partners and impact investors. There is no lodging page, no rates, no calendar, no booking engine, no reservations email and no published phone number; the only interactive element is a 'Request Partner Access' contact form gated behind a private partner portal. The pre-fire retreat-centre site (mayacamasranch.com circa 2014-2017) is gone. Because the property publishes no dates at all, no weekend can be assessed individually; the verdict is the same for all ten and rests on the property's own description of its current state rather than on any dated calendar entry.",
@@ -6198,7 +6174,58 @@ window.VENUES = [
      "sourceLabel": "Mayacamas Ranch - The Invitation (steward-partner page)"
     }
    ]
-  }
+  },
+  "thumb": "images/mayacamas-ranch/thumb.jpg",
+  "images": [
+   {
+    "file": "images/mayacamas-ranch/01.jpg",
+    "w": 800,
+    "h": 600,
+    "caption": "Pool and sunset over the Mayacamas Mountains (pre-2017 fire)",
+    "credit": "Mayacamas Ranch (official site, pre-fire, archived via Wayback Machine)",
+    "source": "https://web.archive.org/web/20141013093910/http://mayacamasranch.com/gallery/gatherings/"
+   },
+   {
+    "file": "images/mayacamas-ranch/02.jpg",
+    "w": 700,
+    "h": 600,
+    "caption": "Main lodge deck set for an outdoor dinner (pre-2017 fire; building lost in the Tubbs Fire)",
+    "credit": "Mayacamas Ranch (official site, pre-fire, archived via Wayback Machine)",
+    "source": "https://web.archive.org/web/20150214033511/http://mayacamasranch.com/gallery/facilities/"
+   },
+   {
+    "file": "images/mayacamas-ranch/03.jpg",
+    "w": 960,
+    "h": 500,
+    "caption": "Lawn and umbrella looking out over the Mayacamas range (legacy photo on the current site)",
+    "credit": "Mayacamas Ranch (official site)",
+    "source": "https://mayacamasranch.com/"
+   },
+   {
+    "file": "images/mayacamas-ranch/04.jpg",
+    "w": 1600,
+    "h": 1071,
+    "caption": "Hidden Lake with a canoe, looking east (pre-2017 fire)",
+    "credit": "Mayacamas Ranch (official site, pre-fire, archived via Wayback Machine)",
+    "source": "https://web.archive.org/web/20170616221614/http://mayacamasranch.com/"
+   },
+   {
+    "file": "images/mayacamas-ranch/05.jpg",
+    "w": 960,
+    "h": 500,
+    "caption": "Rainbow over the grassland terrace, current post-fire landscape",
+    "credit": "Mayacamas Ranch (official site)",
+    "source": "https://mayacamasranch.com/"
+   },
+   {
+    "file": "images/mayacamas-ranch/06.jpg",
+    "w": 960,
+    "h": 500,
+    "caption": "Pasture looking toward Mount St. Helena at sunset, current post-fire landscape",
+    "credit": "Mayacamas Ranch (official site)",
+    "source": "https://mayacamasranch.com/"
+   }
+  ]
  },
  {
   "id": "ratna-ling",
@@ -6216,6 +6243,7 @@ window.VENUES = [
   "website": "https://ratnaling.org/",
   "booking": "https://ratnaling.org/",
   "tierLabel": "Reference",
+  "region": "bay",
   "address": "35755 Hauser Bridge Road, Cazadero, CA 95421",
   "lat": 38.5984,
   "lng": -123.301,
@@ -6292,57 +6320,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Ratna Ling runs its own retreat calendar nearly every weekend and prioritises non-profit, educational and spiritual groups for rentals. Capacity is 14 cottages / 28 overnight guests (practice spaces 10–70). Program payments are non-refundable but transferable. Group availability is by phone/email only; there is no public group calendar, but the program calendar shows the center occupied on all nine target weekends.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/ratna-ling/thumb.jpg",
-  "images": [
-   {
-    "file": "images/ratna-ling/01.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Main lodge and terraced entry steps under a sunset sky",
-    "credit": "Ratna Ling Retreat Center (official site; photo by Troy Ziel Photography)",
-    "source": "https://ratnaling.org/"
-   },
-   {
-    "file": "images/ratna-ling/02.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "Timber-framed meditation hall with thangkas and shrine",
-    "credit": "Ratna Ling Retreat Center (official site)",
-    "source": "https://ratnaling.org/"
-   },
-   {
-    "file": "images/ratna-ling/03.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "Guest cottages on the hillside among redwoods and oaks",
-    "credit": "Ratna Ling Retreat Center (official site)",
-    "source": "https://ratnaling.org/"
-   },
-   {
-    "file": "images/ratna-ling/04.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Covered timber walkway between the lodge buildings at dusk",
-    "credit": "Ratna Ling Retreat Center (official site; photo by Troy Ziel Photography)",
-    "source": "https://ratnaling.org/"
-   },
-   {
-    "file": "images/ratna-ling/05.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "Outdoor dining patio by the lodge",
-    "credit": "Ratna Ling Retreat Center (official site)",
-    "source": "https://ratnaling.org/"
-   },
-   {
-    "file": "images/ratna-ling/06.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Entrance gate with prayer flags on Hauser Bridge Road",
-    "credit": "Ratna Ling Retreat Center (official site; photo by Troy Ziel Photography)",
-    "source": "https://ratnaling.org/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "ratnaling.org returns 403 to curl regardless of headers, so the venue's own pages were read through WebFetch (home page, HTTP 200) and its separate group-booking site ratnalingretreatcenterbooking.org was opened in a real browser tab to capture its text verbatim (curl gets 403 there too). The dated program schedule came from retreat.guru's Ratna Ling centre page (HTTP 200, fetched and parsed locally), which lists every upcoming program with printed date ranges and covers the whole window; it was cross-checked against a web search of ratnaling.org's own retreat pages. Also checked the Sonoma County tourism lodging listing. Ratna Ling publishes a detailed program calendar but no room-level availability calendar and no booking engine - group rentals go through an inquiry form. Nine of the ten weekends carry a scheduled in-house program; August 28 and September 18 do not, and are ruled out on capacity instead.",
@@ -6429,7 +6406,58 @@ window.VENUES = [
      "sourceLabel": "retreat.guru - Ratna Ling program listing"
     }
    ]
-  }
+  },
+  "thumb": "images/ratna-ling/thumb.jpg",
+  "images": [
+   {
+    "file": "images/ratna-ling/01.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Main lodge and terraced entry steps under a sunset sky",
+    "credit": "Ratna Ling Retreat Center (official site; photo by Troy Ziel Photography)",
+    "source": "https://ratnaling.org/"
+   },
+   {
+    "file": "images/ratna-ling/02.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Timber-framed meditation hall with thangkas and shrine",
+    "credit": "Ratna Ling Retreat Center (official site)",
+    "source": "https://ratnaling.org/"
+   },
+   {
+    "file": "images/ratna-ling/03.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Guest cottages on the hillside among redwoods and oaks",
+    "credit": "Ratna Ling Retreat Center (official site)",
+    "source": "https://ratnaling.org/"
+   },
+   {
+    "file": "images/ratna-ling/04.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Covered timber walkway between the lodge buildings at dusk",
+    "credit": "Ratna Ling Retreat Center (official site; photo by Troy Ziel Photography)",
+    "source": "https://ratnaling.org/"
+   },
+   {
+    "file": "images/ratna-ling/05.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Outdoor dining patio by the lodge",
+    "credit": "Ratna Ling Retreat Center (official site)",
+    "source": "https://ratnaling.org/"
+   },
+   {
+    "file": "images/ratna-ling/06.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Entrance gate with prayer flags on Hauser Bridge Road",
+    "credit": "Ratna Ling Retreat Center (official site; photo by Troy Ziel Photography)",
+    "source": "https://ratnaling.org/"
+   }
+  ]
  },
  {
   "id": "green-gulch-farm",
@@ -6447,6 +6475,7 @@ window.VENUES = [
   "website": "https://www.sfzc.org/locations/green-gulch-farm",
   "booking": "https://www.sfzc.org/locations/green-gulch-farm/conference-center-green-gulch-facilities-rates-policies",
   "tierLabel": "Reference",
+  "region": "bay",
   "address": "1601 Shoreline Highway, Muir Beach, CA 94965",
   "lat": 37.8656,
   "lng": -122.5639,
@@ -6521,57 +6550,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "'We are no longer accepting requests for 2026 dates' (sfzc.org, checked 2026-08-21). When open, bookings are by the day (no hourly), day-long or overnight packages, email ggfconference@sfzc.org. Capacity: 17 rooms / 22 beds, conference rooms up to 40. Check-in 3 pm, checkout 9:30 am, conference space until 1 pm on departure day.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/green-gulch-farm/thumb.jpg",
-  "images": [
-   {
-    "file": "images/green-gulch-farm/01.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Lindisfarne Guest House, the timber-frame guesthouse",
-    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Green_Gulch_Farm_Zen_Center,_Lindisfarne_Guesthouse.jpg"
-   },
-   {
-    "file": "images/green-gulch-farm/02.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Wheelwright Center, the conference/meeting building, among redwoods",
-    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Wheelwright_Center_at_Green_Gulch_Farm_Zen_Center.jpg"
-   },
-   {
-    "file": "images/green-gulch-farm/03.jpg",
-    "w": 1150,
-    "h": 768,
-    "caption": "Aerial view down Green Gulch valley to Muir Beach",
-    "credit": "San Francisco Zen Center (official site)",
-    "source": "https://www.sfzc.org/locations/green-gulch-farm"
-   },
-   {
-    "file": "images/green-gulch-farm/04.jpg",
-    "w": 1600,
-    "h": 1236,
-    "caption": "Bell tower with the Japanese temple bell",
-    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Green_Gulch_Farm_Zen_Center,_April_2017_-_03.jpg"
-   },
-   {
-    "file": "images/green-gulch-farm/05.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Guesthouse sitting room with wood stove",
-    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Green_Gulch_Farm_Zen_Center,_May_2019-5935.jpg"
-   },
-   {
-    "file": "images/green-gulch-farm/06.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Guest room in the Lindisfarne Guest House",
-    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Green_Gulch_Farm_Zen_Center,_May_2019-5934.jpg"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched the SFZC Green Gulch location page and the Green Gulch conference centre facilities/rates/policies page (both HTTP 200) and read them in full, then fetched SFZC's site-wide calendar (HTTP 200), which lists dated entries day by day from late August 2026 onward and can be filtered to the Green Gulch Farm location. Unusually for this set, Green Gulch answers the question directly in published prose rather than through a booking engine: the conference page opens with a standing notice that 2026 date requests are closed, and it also prints exact room, bed and meeting-room counts. The calendar then supplies dated corroboration for the last three weekends in the form of the Fall Practice Period. No booking engine exists - conferences are arranged by email to ggfconference@sfzc.org - but none was needed.",
@@ -6658,7 +6636,58 @@ window.VENUES = [
      "sourceLabel": "San Francisco Zen Center - full calendar"
     }
    ]
-  }
+  },
+  "thumb": "images/green-gulch-farm/thumb.jpg",
+  "images": [
+   {
+    "file": "images/green-gulch-farm/01.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Lindisfarne Guest House, the timber-frame guesthouse",
+    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Green_Gulch_Farm_Zen_Center,_Lindisfarne_Guesthouse.jpg"
+   },
+   {
+    "file": "images/green-gulch-farm/02.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Wheelwright Center, the conference/meeting building, among redwoods",
+    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wheelwright_Center_at_Green_Gulch_Farm_Zen_Center.jpg"
+   },
+   {
+    "file": "images/green-gulch-farm/03.jpg",
+    "w": 1150,
+    "h": 768,
+    "caption": "Aerial view down Green Gulch valley to Muir Beach",
+    "credit": "San Francisco Zen Center (official site)",
+    "source": "https://www.sfzc.org/locations/green-gulch-farm"
+   },
+   {
+    "file": "images/green-gulch-farm/04.jpg",
+    "w": 1600,
+    "h": 1236,
+    "caption": "Bell tower with the Japanese temple bell",
+    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Green_Gulch_Farm_Zen_Center,_April_2017_-_03.jpg"
+   },
+   {
+    "file": "images/green-gulch-farm/05.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Guesthouse sitting room with wood stove",
+    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Green_Gulch_Farm_Zen_Center,_May_2019-5935.jpg"
+   },
+   {
+    "file": "images/green-gulch-farm/06.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Guest room in the Lindisfarne Guest House",
+    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Green_Gulch_Farm_Zen_Center,_May_2019-5934.jpg"
+   }
+  ]
  },
  {
   "id": "sea-ranch-lodge",
@@ -6676,6 +6705,7 @@ window.VENUES = [
   "website": "https://www.thesearanchlodge.com/",
   "booking": "https://www.thesearanchlodge.com/",
   "tierLabel": "Reference",
+  "region": "bay",
   "address": "60 Sea Walk Drive, The Sea Ranch, CA 95497",
   "lat": 38.68094,
   "lng": -123.4296,
@@ -6752,57 +6782,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "17 Lodge rooms only (plus managed 'Sea Ranch Living' vacation homes and cabins). The Lodge publishes a 2026 closure list: it is closed to the public for private events on almost every Saturday from late August through mid-November, including a full Fri 3pm–Sun noon buyout Sep 25–27 and a Wed Oct 14–Sat Oct 17 closure covering the target weekend. Booking engine enforces a 2-night minimum (3 nights over Labor Day) and showed no Lodge rooms on any of the nine target weekends. Guest rooms require full deposit; cancellations within 14 days non-refundable; 21+ to check in; dogs only in first-level rooms with notice. Event spaces: Dining Room 80 dinner, Ocean Meadow 150 dinner, Barn Meadow/The Meadow 200 (tented).",
   "checkedOn": "2026-08-21",
-  "thumb": "images/sea-ranch-lodge/thumb.jpg",
-  "images": [
-   {
-    "file": "images/sea-ranch-lodge/01.jpg",
-    "w": 1600,
-    "h": 1000,
-    "caption": "Aerial view of the lodge on the bluffs above the cove",
-    "credit": "The Sea Ranch Lodge (official site)",
-    "source": "https://www.thesearanchlodge.com/lodging"
-   },
-   {
-    "file": "images/sea-ranch-lodge/02.jpg",
-    "w": 1600,
-    "h": 1000,
-    "caption": "Lodge rooms wing at sunset, looking down the coast",
-    "credit": "The Sea Ranch Lodge (official site)",
-    "source": "https://www.thesearanchlodge.com/lodging/lodge-rooms"
-   },
-   {
-    "file": "images/sea-ranch-lodge/03.jpg",
-    "w": 1600,
-    "h": 1063,
-    "caption": "Lodge exterior with the glass-walled dining room and meadow terrace (2024)",
-    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Sea_Ranch_Lodge,_Exterior_(2024)-L1004456.jpg"
-   },
-   {
-    "file": "images/sea-ranch-lodge/04.jpg",
-    "w": 1600,
-    "h": 1000,
-    "caption": "Lodge room with wood-burning stove and ocean-view window seat",
-    "credit": "The Sea Ranch Lodge (official site)",
-    "source": "https://www.thesearanchlodge.com/lodging/lodge-rooms"
-   },
-   {
-    "file": "images/sea-ranch-lodge/05.jpg",
-    "w": 1600,
-    "h": 600,
-    "caption": "North building courtyard at dusk",
-    "credit": "The Sea Ranch Lodge (official site; photo by Adam Potts Photography)",
-    "source": "https://www.thesearanchlodge.com/lodging"
-   },
-   {
-    "file": "images/sea-ranch-lodge/06.jpg",
-    "w": 1600,
-    "h": 900,
-    "caption": "Lodge entrance and Sea Ranch post office from the road",
-    "credit": "The Sea Ranch Lodge (official site)",
-    "source": "https://www.thesearanchlodge.com/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Read the Lodge's own site (home, /lodging, /faq, /private-events, /community/events - all HTTP 200) for room counts, group policy and dated programming, then drove the actual booking engine. The Lodge sells through SynXis (hotel=40594); the page is JavaScript-only, so it was opened in a browser tab and queried once per weekend, Friday to Sunday, 2 adults, 1 room - all ten weekends individually. Results split two ways: four weekends returned an explicit 'not available' message, and six returned only 'Sea Ranch Living' cabins/homes with no 'The Lodge Rooms' category at all. To rule out a stuck filter, two midweek control searches were run: Sep 1-3, 2026 did return 'The Lodge Rooms', confirming the category appears when inventory exists. So the Lodge's own 17 rooms were unbookable for a two-night Fri-Sun stay on every one of the ten weekends. The public programming calendar (yoga, workshops, artist exhibitions) was also read and shows the property operating normally through October 10 - these are small public events, not site occupancy.",
@@ -6889,6 +6868,2998 @@ window.VENUES = [
      "sourceLabel": "The Sea Ranch Lodge - FAQ (room count)"
     }
    ]
-  }
+  },
+  "thumb": "images/sea-ranch-lodge/thumb.jpg",
+  "images": [
+   {
+    "file": "images/sea-ranch-lodge/01.jpg",
+    "w": 1600,
+    "h": 1000,
+    "caption": "Aerial view of the lodge on the bluffs above the cove",
+    "credit": "The Sea Ranch Lodge (official site)",
+    "source": "https://www.thesearanchlodge.com/lodging"
+   },
+   {
+    "file": "images/sea-ranch-lodge/02.jpg",
+    "w": 1600,
+    "h": 1000,
+    "caption": "Lodge rooms wing at sunset, looking down the coast",
+    "credit": "The Sea Ranch Lodge (official site)",
+    "source": "https://www.thesearanchlodge.com/lodging/lodge-rooms"
+   },
+   {
+    "file": "images/sea-ranch-lodge/03.jpg",
+    "w": 1600,
+    "h": 1063,
+    "caption": "Lodge exterior with the glass-walled dining room and meadow terrace (2024)",
+    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sea_Ranch_Lodge,_Exterior_(2024)-L1004456.jpg"
+   },
+   {
+    "file": "images/sea-ranch-lodge/04.jpg",
+    "w": 1600,
+    "h": 1000,
+    "caption": "Lodge room with wood-burning stove and ocean-view window seat",
+    "credit": "The Sea Ranch Lodge (official site)",
+    "source": "https://www.thesearanchlodge.com/lodging/lodge-rooms"
+   },
+   {
+    "file": "images/sea-ranch-lodge/05.jpg",
+    "w": 1600,
+    "h": 600,
+    "caption": "North building courtyard at dusk",
+    "credit": "The Sea Ranch Lodge (official site; photo by Adam Potts Photography)",
+    "source": "https://www.thesearanchlodge.com/lodging"
+   },
+   {
+    "file": "images/sea-ranch-lodge/06.jpg",
+    "w": 1600,
+    "h": 900,
+    "caption": "Lodge entrance and Sea Ranch post office from the road",
+    "credit": "The Sea Ranch Lodge (official site)",
+    "source": "https://www.thesearanchlodge.com/"
+   }
+  ]
+ },
+ {
+  "id": "hacienda-del-sol",
+  "name": "Hacienda del Sol",
+  "tier": "A",
+  "region": "west",
+  "subtitle": "1929 guest ranch, Catalina Foothills",
+  "area": "Catalina Foothills, Tucson, AZ",
+  "airport": "TUS · 33 min / 17 mi",
+  "flights": "Nonstop SFO–TUS on United (year-round)",
+  "drive": "",
+  "sleeps": "97 rooms, suites and casitas (70 Sonoran rooms, 10 Hacienda, 9 historic rooms, 3 historic suites, 2 Sonoran suites, 3 casitas) — 60 people fits in ~30 rooms",
+  "meeting": "Casa Luna ballroom 5,100 sq ft (300 theatre / 220 dining); Casa Feliz 2,125 sq ft (90 theatre); Hacienda Room 896 sq ft; four outdoor courtyards to 175",
+  "buyout": "Not published as a buyout product; a 30-room block is a normal group booking here",
+  "why": "A 1929 adobe guest ranch that reads like a small Spanish village — hand-plastered walls, carved doors, a book-lined library, saguaro gardens against the Santa Catalinas. Historic Hotels of America; the most architecturally serious thing within half an hour of a nonstop-from-SFO airport.",
+  "watch": "33 min from TUS — over the 20-minute bar, so budget for a chartered coach. October is high season: $549/night on the target weekend. Full buyout would be a big ask at 97 rooms.",
+  "phone": "(520) 299-1501",
+  "email": "fdesk@haciendadelsol.com",
+  "website": "https://www.haciendadelsol.com/",
+  "booking": "https://www.haciendadelsol.com/meetings-events",
+  "note": "Research note: room availability for every one of the ten weekends was checked directly in the resort's SynXis booking engine (chain 10237 / hotel 26949). Only Oct 2–4 came back blocked.",
+  "tierLabel": "Tier A",
+  "address": "5501 North Hacienda Del Sol Road, Tucson, AZ 85718",
+  "lat": 32.30785,
+  "lng": -110.91434,
+  "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 36000,
+   "high": 47000,
+   "summary": "~$36k–46k for rooms; add meals",
+   "basis": "30 double rooms x $524-549/night (rates the booking engine returned for Fri Oct 16 and Sat Oct 17, 2026) x 2 nights = $31.4k-32.9k, plus ~14% Pima County lodging and sales tax. Meals, meeting space and A/V are extra; the high figure adds roughly $9k for two dinners and two breakfasts for 60.",
+   "per_person": "roughly $600-770 per person for the weekend before meals",
+   "source_url": "https://be.synxis.com/?chain=10237&hotel=26949&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+   "source_label": "Hacienda del Sol booking engine, Oct 16-18 2026",
+   "confidence": "medium",
+   "short": "$36–47k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-28",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $325 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=10237&hotel=26949&arrive=2026-08-28&depart=2026-08-30&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $375 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=10237&hotel=26949&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $325 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=10237&hotel=26949&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $294 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=10237&hotel=26949&arrive=2026-09-18&depart=2026-09-20&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $411 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=10237&hotel=26949&arrive=2026-09-25&depart=2026-09-27&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "booked",
+    "evidence": "The property's own booking engine returns no bookable rooms for a night in this weekend.",
+    "source_url": "https://be.synxis.com/?chain=10237&hotel=26949&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $514 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=10237&hotel=26949&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $524 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=10237&hotel=26949&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-23",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $523 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=10237&hotel=26949&arrive=2026-10-23&depart=2026-10-25&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   }
+  ],
+  "availabilityNotes": "97 rooms, suites and casitas; a 30-room block for 60 people is a routine group booking rather than a buyout. October is peak season and priced accordingly.",
+  "checkedOn": "2026-08-27",
+  "verified": {
+   "checkedOn": "2026-08-27",
+   "method": "Each of the ten Friday-to-Sunday weekends was queried directly in the property's own SynXis booking engine (chain 10237 / hotel 26949) for 2 adults, arriving Friday and departing Sunday, and the result read from the rendered page. A weekend is marked probably available when the engine returned bookable rooms for both nights, and probably not available when it returned an explicit \"not available on <date>\" message for a night in that weekend. This is inventory for individual rooms: it shows the property is open and selling, not that 30 rooms or a buyout can be held. Confirm the block by phone.",
+   "bookingPolicy": "97 rooms, suites and casitas; a 30-room block for 60 people is a routine group booking rather than a buyout. October is peak season and priced accordingly.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $325 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$325",
+     "sourceUrl": "https://be.synxis.com/?chain=10237&hotel=26949&arrive=2026-08-28&depart=2026-08-30&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-08-28–2026-08-30"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $375 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$375",
+     "sourceUrl": "https://be.synxis.com/?chain=10237&hotel=26949&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-04–2026-09-06"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $325 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$325",
+     "sourceUrl": "https://be.synxis.com/?chain=10237&hotel=26949&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-11–2026-09-13"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $294 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$294",
+     "sourceUrl": "https://be.synxis.com/?chain=10237&hotel=26949&arrive=2026-09-18&depart=2026-09-20&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-18–2026-09-20"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $411 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$411",
+     "sourceUrl": "https://be.synxis.com/?chain=10237&hotel=26949&arrive=2026-09-25&depart=2026-09-27&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-25–2026-09-27"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "probably_not_available",
+     "evidence": "The property's own booking engine returns no bookable rooms for a night in this weekend.",
+     "quote": "NOT AVAILABLE ON OCTOBER 2, 2026",
+     "sourceUrl": "https://be.synxis.com/?chain=10237&hotel=26949&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-02–2026-10-04"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $514 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$514",
+     "sourceUrl": "https://be.synxis.com/?chain=10237&hotel=26949&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-09–2026-10-11"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $524 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$524",
+     "sourceUrl": "https://be.synxis.com/?chain=10237&hotel=26949&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-16–2026-10-18"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $523 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$523",
+     "sourceUrl": "https://be.synxis.com/?chain=10237&hotel=26949&arrive=2026-10-23&depart=2026-10-25&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-23–2026-10-25"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $387 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$387",
+     "sourceUrl": "https://be.synxis.com/?chain=10237&hotel=26949&arrive=2026-10-30&depart=2026-11-01&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-30–2026-11-01"
+    }
+   ]
+  },
+  "thumb": "images/hacienda-del-sol/thumb.jpg",
+  "images": [
+   {
+    "file": "images/hacienda-del-sol/01.jpg",
+    "w": 1600,
+    "h": 1051,
+    "caption": "Fountain courtyard at the main entrance",
+    "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+    "source": "https://www.haciendadelsol.com/gallery"
+   },
+   {
+    "file": "images/hacienda-del-sol/02.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The ranch from the air, Santa Catalinas behind",
+    "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+    "source": "https://www.haciendadelsol.com/gallery"
+   },
+   {
+    "file": "images/hacienda-del-sol/03.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Guest building on the hillside",
+    "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+    "source": "https://www.haciendadelsol.com/gallery"
+   },
+   {
+    "file": "images/hacienda-del-sol/04.jpg",
+    "w": 1600,
+    "h": 1062,
+    "caption": "Saguaro garden and the historic gate",
+    "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+    "source": "https://www.haciendadelsol.com/gallery"
+   },
+   {
+    "file": "images/hacienda-del-sol/05.jpg",
+    "w": 1600,
+    "h": 1721,
+    "caption": "The library",
+    "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+    "source": "https://www.haciendadelsol.com/gallery"
+   },
+   {
+    "file": "images/hacienda-del-sol/06.jpg",
+    "w": 1600,
+    "h": 1060,
+    "caption": "Casa Luna ballroom set for dinner",
+    "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+    "source": "https://www.haciendadelsol.com/gallery"
+   }
+  ]
+ },
+ {
+  "id": "tanque-verde-ranch",
+  "name": "Tanque Verde Ranch",
+  "tier": "A",
+  "region": "west",
+  "subtitle": "all-inclusive dude ranch on 640 acres",
+  "area": "East Tucson, AZ (adjoining Saguaro National Park)",
+  "airport": "TUS · 30 min / 16 mi",
+  "flights": "Nonstop SFO–TUS on United (year-round)",
+  "drive": "",
+  "sleeps": "69 rooms and casitas across six clusters (Roadrunner Ridge, Quail Hollow, Rincon Vista, Javelina Heights, Desert Garden, Mi Casa) — 60 people fits comfortably",
+  "meeting": "The Barn (to 350); Cottonwood Grove outdoor site (to 400); Desert View Terrace",
+  "buyout": "A \"group\" is any booking of eight or more guest rooms; six or more gets a dedicated block",
+  "why": "Pink adobe casitas scattered through saguaro forest with the Rincons behind them, and the rate is all-inclusive — every meal, horseback riding, guided rides, the pool. For a 60-person weekend that removes the entire catering problem in one move.",
+  "watch": "30 min from TUS. It's a working dude ranch with other guests unless you take the whole thing; family-heavy in school holidays. Halloween weekend prices jump sharply.",
+  "phone": "(520) 296-6275",
+  "email": "tvgr@cotefamily.com",
+  "website": "https://www.tanqueverderanch.com/",
+  "booking": "https://www.tanqueverderanch.com/groups",
+  "note": "Research note: all ten weekends returned bookable inventory in the ranch's SynXis engine (chain 13083 / hotel 77753). Rates shown are all-inclusive for two adults, so the comparison with room-only venues flatters the others.",
+  "tierLabel": "Tier A",
+  "address": "14301 East Speedway Boulevard, Tucson, AZ 85748",
+  "lat": 32.23553,
+  "lng": -110.80402,
+  "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 30000,
+   "high": 44000,
+   "summary": "~$30k–44k all-inclusive",
+   "basis": "30 rooms x $450-650 per night for two adults (the range the booking engine returned across the ten weekends; $511 on Fri Oct 16, 2026) x 2 nights, plus ~12% tax. The rate is all-inclusive: every meal, horseback riding and ranch activities are already in it, so this is close to the true total.",
+   "per_person": "roughly $500-730 per person for the weekend including all meals and riding",
+   "source_url": "https://be.synxis.com/?chain=13083&hotel=77753&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+   "source_label": "Tanque Verde Ranch booking engine, Oct 16-18 2026",
+   "confidence": "medium",
+   "short": "$30–44k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-28",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $830 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=13083&hotel=77753&arrive=2026-08-28&depart=2026-08-30&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $450 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=13083&hotel=77753&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $750 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=13083&hotel=77753&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $500 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=13083&hotel=77753&arrive=2026-09-18&depart=2026-09-20&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $650 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=13083&hotel=77753&arrive=2026-09-25&depart=2026-09-27&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $550 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=13083&hotel=77753&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $850 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=13083&hotel=77753&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $511 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=13083&hotel=77753&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-23",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $650 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=13083&hotel=77753&arrive=2026-10-23&depart=2026-10-25&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   }
+  ],
+  "availabilityNotes": "69 rooms. \"A 'group' at the ranch is defined as any booking of eight or more guest rooms or a privately catered event hosted on site\"; six or more rooms gets a dedicated block. Rates are all-inclusive (all meals, riding, activities) for two adults.",
+  "checkedOn": "2026-08-27",
+  "verified": {
+   "checkedOn": "2026-08-27",
+   "method": "Each of the ten Friday-to-Sunday weekends was queried directly in the property's own SynXis booking engine (chain 13083 / hotel 77753) for 2 adults, arriving Friday and departing Sunday, and the result read from the rendered page. A weekend is marked probably available when the engine returned bookable rooms for both nights, and probably not available when it returned an explicit \"not available on <date>\" message for a night in that weekend. This is inventory for individual rooms: it shows the property is open and selling, not that 30 rooms or a buyout can be held. Confirm the block by phone.",
+   "bookingPolicy": "69 rooms. \"A 'group' at the ranch is defined as any booking of eight or more guest rooms or a privately catered event hosted on site\"; six or more rooms gets a dedicated block. Rates are all-inclusive (all meals, riding, activities) for two adults.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $830 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$830",
+     "sourceUrl": "https://be.synxis.com/?chain=13083&hotel=77753&arrive=2026-08-28&depart=2026-08-30&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-08-28–2026-08-30"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $450 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$450",
+     "sourceUrl": "https://be.synxis.com/?chain=13083&hotel=77753&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-04–2026-09-06"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $750 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$750",
+     "sourceUrl": "https://be.synxis.com/?chain=13083&hotel=77753&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-11–2026-09-13"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $500 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$500",
+     "sourceUrl": "https://be.synxis.com/?chain=13083&hotel=77753&arrive=2026-09-18&depart=2026-09-20&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-18–2026-09-20"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $650 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$650",
+     "sourceUrl": "https://be.synxis.com/?chain=13083&hotel=77753&arrive=2026-09-25&depart=2026-09-27&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-25–2026-09-27"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $550 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$550",
+     "sourceUrl": "https://be.synxis.com/?chain=13083&hotel=77753&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-02–2026-10-04"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $850 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$850",
+     "sourceUrl": "https://be.synxis.com/?chain=13083&hotel=77753&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-09–2026-10-11"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $511 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$511",
+     "sourceUrl": "https://be.synxis.com/?chain=13083&hotel=77753&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-16–2026-10-18"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $650 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$650",
+     "sourceUrl": "https://be.synxis.com/?chain=13083&hotel=77753&arrive=2026-10-23&depart=2026-10-25&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-23–2026-10-25"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $1,510 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$1,510",
+     "sourceUrl": "https://be.synxis.com/?chain=13083&hotel=77753&arrive=2026-10-30&depart=2026-11-01&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-30–2026-11-01"
+    }
+   ]
+  },
+  "thumb": "images/tanque-verde-ranch/thumb.jpg",
+  "images": [
+   {
+    "file": "images/tanque-verde-ranch/01.jpg",
+    "w": 1600,
+    "h": 1068,
+    "caption": "Adobe casita exterior",
+    "credit": "Tanque Verde Ranch (official site)",
+    "source": "https://www.tanqueverderanch.com/"
+   },
+   {
+    "file": "images/tanque-verde-ranch/02.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Casitas scattered through the saguaro forest",
+    "credit": "Tanque Verde Ranch (official site)",
+    "source": "https://www.tanqueverderanch.com/"
+   },
+   {
+    "file": "images/tanque-verde-ranch/03.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Ramada and desert garden",
+    "credit": "Tanque Verde Ranch (official site)",
+    "source": "https://www.tanqueverderanch.com/"
+   },
+   {
+    "file": "images/tanque-verde-ranch/04.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Desert View Terrace set for a group dinner",
+    "credit": "Tanque Verde Ranch (official site)",
+    "source": "https://www.tanqueverderanch.com/"
+   },
+   {
+    "file": "images/tanque-verde-ranch/05.jpg",
+    "w": 1600,
+    "h": 620,
+    "caption": "The pool below the ranch buildings",
+    "credit": "Tanque Verde Ranch (official site)",
+    "source": "https://www.tanqueverderanch.com/"
+   },
+   {
+    "file": "images/tanque-verde-ranch/06.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Morning ride out into the Rincons",
+    "credit": "Tanque Verde Ranch (official site)",
+    "source": "https://www.tanqueverderanch.com/"
+   }
+  ]
+ },
+ {
+  "id": "brasada-ranch",
+  "name": "Brasada Ranch",
+  "tier": "A",
+  "region": "west",
+  "subtitle": "1,800 acres of high desert under the Cascades",
+  "area": "Powell Butte, OR (Bend / Central Oregon)",
+  "airport": "RDM · 22 min / 15 mi",
+  "flights": "Nonstop SFO–RDM on Alaska and United (year-round)",
+  "drive": "",
+  "sleeps": "~89 units: 65 Sage Canyon cabins, 16 Cascade bungalows, 8 ranch house suites and guestrooms",
+  "meeting": "~12,100 sq ft of conference and meeting space, plus outdoor sites with Cascade views",
+  "buyout": "Group and full-property bookings handled by the sales team; inventory is large enough that 60 people is a modest block",
+  "why": "Juniper and sagebrush running to a wall of snow volcanoes, and cabins that are actually well-designed inside — warm wood, real fireplaces, big glass. It is the closest thing on this list to a beautiful place you can reach from SFO before lunch: 22 minutes from the gate to the ranch.",
+  "watch": "Cabin rates swing hard by weekend ($295 to $947 in the same autumn). It's a resort with golf and other guests, so 'exclusive' means negotiating, not clicking.",
+  "phone": "(866) 373-4882",
+  "email": "",
+  "website": "https://www.brasada.com/",
+  "booking": "https://www.brasada.com/",
+  "note": "Research note: every one of the ten weekends returned bookable cabins in the SynXis engine (chain 15198 / hotel 53333) — the only venue on this list with a clean sweep.",
+  "tierLabel": "Tier A",
+  "address": "16986 SW Brasada Ranch Road, Powell Butte, OR 97753",
+  "lat": 44.15396,
+  "lng": -121.05428,
+  "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 17000,
+   "high": 35000,
+   "summary": "~$17k–35k for lodging; add meals",
+   "basis": "30 units x $262-524/night (Cabin Guestroom to Sage Canyon Cabin lead rates across the ten weekends; $295 and $524 on Fri Oct 16, 2026) x 2 nights, plus ~11% Oregon lodging tax and resort fee. Meals and meeting space are extra.",
+   "per_person": "roughly $290-580 per person for lodging",
+   "source_url": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+   "source_label": "Brasada Ranch booking engine, Oct 16-18 2026",
+   "confidence": "medium",
+   "short": "$17–35k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-28",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $339 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-08-28&depart=2026-08-30&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $830 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $386 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $947 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-09-18&depart=2026-09-20&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $409 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-09-25&depart=2026-09-27&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $683 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $327 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $295 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-23",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $402 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-10-23&depart=2026-10-25&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   }
+  ],
+  "availabilityNotes": "~89 units (65 Sage Canyon cabins, 16 Cascade bungalows, 8 ranch house rooms) on 1,800 acres. Resort with public golf and other guests; group blocks and event space handled by the sales team. Rates swing widely by weekend.",
+  "checkedOn": "2026-08-27",
+  "verified": {
+   "checkedOn": "2026-08-27",
+   "method": "Each of the ten Friday-to-Sunday weekends was queried directly in the property's own SynXis booking engine (chain 15198 / hotel 53333) for 2 adults, arriving Friday and departing Sunday, and the result read from the rendered page. A weekend is marked probably available when the engine returned bookable rooms for both nights, and probably not available when it returned an explicit \"not available on <date>\" message for a night in that weekend. This is inventory for individual rooms: it shows the property is open and selling, not that 30 rooms or a buyout can be held. Confirm the block by phone.",
+   "bookingPolicy": "~89 units (65 Sage Canyon cabins, 16 Cascade bungalows, 8 ranch house rooms) on 1,800 acres. Resort with public golf and other guests; group blocks and event space handled by the sales team. Rates swing widely by weekend.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $339 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$339",
+     "sourceUrl": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-08-28&depart=2026-08-30&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-08-28–2026-08-30"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $830 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$830",
+     "sourceUrl": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-04–2026-09-06"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $386 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$386",
+     "sourceUrl": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-11–2026-09-13"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $947 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$947",
+     "sourceUrl": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-09-18&depart=2026-09-20&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-18–2026-09-20"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $409 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$409",
+     "sourceUrl": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-09-25&depart=2026-09-27&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-25–2026-09-27"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $683 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$683",
+     "sourceUrl": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-02–2026-10-04"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $327 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$327",
+     "sourceUrl": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-09–2026-10-11"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $295 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$295",
+     "sourceUrl": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-16–2026-10-18"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $402 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$402",
+     "sourceUrl": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-10-23&depart=2026-10-25&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-23–2026-10-25"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $262 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$262",
+     "sourceUrl": "https://be.synxis.com/?chain=15198&hotel=53333&arrive=2026-10-30&depart=2026-11-01&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-30–2026-11-01"
+    }
+   ]
+  },
+  "thumb": "images/brasada-ranch/thumb.jpg",
+  "images": [
+   {
+    "file": "images/brasada-ranch/01.jpg",
+    "w": 1600,
+    "h": 1068,
+    "caption": "Cabin under the junipers",
+    "credit": "Brasada Ranch (official site)",
+    "source": "https://www.brasada.com/"
+   },
+   {
+    "file": "images/brasada-ranch/02.jpg",
+    "w": 1600,
+    "h": 899,
+    "caption": "The ranch core from the air",
+    "credit": "Brasada Ranch (official site)",
+    "source": "https://www.brasada.com/"
+   },
+   {
+    "file": "images/brasada-ranch/03.jpg",
+    "w": 1600,
+    "h": 822,
+    "caption": "Horses on the high-desert pasture at dawn",
+    "credit": "Brasada Ranch (official site)",
+    "source": "https://www.brasada.com/"
+   },
+   {
+    "file": "images/brasada-ranch/04.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The Cascades from the course",
+    "credit": "Brasada Ranch (official site)",
+    "source": "https://www.brasada.com/"
+   },
+   {
+    "file": "images/brasada-ranch/05.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Trail ride along the water",
+    "credit": "Brasada Ranch (official site)",
+    "source": "https://www.brasada.com/"
+   },
+   {
+    "file": "images/brasada-ranch/06.jpg",
+    "w": 1600,
+    "h": 1028,
+    "caption": "Cabin interior with fireplace",
+    "credit": "Brasada Ranch (official site)",
+    "source": "https://www.brasada.com/"
+   }
+  ]
+ },
+ {
+  "id": "mountain-shadows",
+  "name": "Mountain Shadows",
+  "tier": "A",
+  "region": "west",
+  "subtitle": "midcentury resort rebuilt under Camelback",
+  "area": "Paradise Valley / Scottsdale, AZ",
+  "airport": "PHX · 22 min / 10 mi",
+  "flights": "Nonstop SFO–PHX on United; nonstop OAK–PHX on Southwest (year-round)",
+  "drive": "",
+  "sleeps": "183 rooms and suites — 60 people is a 30-room block with room to spare",
+  "meeting": "~40,000 sq ft indoor and outdoor event space, most of it facing Camelback and the Praying Monk",
+  "buyout": "Buyout unlikely at 183 rooms; a 30-room block plus dedicated meeting space is the realistic shape",
+  "why": "The 1959 resort was demolished and rebuilt in 2017 as a genuinely good piece of desert modernism — low horizontal lines, breeze-block, a pool aimed straight at Camelback Mountain. Twenty-two minutes from Sky Harbor and beautiful at sunset in a way photographs undersell.",
+  "watch": "It is a resort, not a retreat centre: you share it with golfers and weekend guests. October rates are peak ($649/night on the target weekend).",
+  "phone": "(855) 485-1417",
+  "email": "",
+  "website": "https://www.mountainshadows.com/",
+  "booking": "https://www.mountainshadows.com/",
+  "note": "Research note: all ten weekends returned bookable rooms in the resort's SynXis engine (chain 21123 / hotel 74983).",
+  "tierLabel": "Tier A",
+  "address": "5445 East Lincoln Drive, Paradise Valley, AZ 85253",
+  "lat": 33.53038,
+  "lng": -111.96378,
+  "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 17000,
+   "high": 47000,
+   "summary": "~$17k–47k for rooms; add meals",
+   "basis": "30 double rooms x $255-690/night (the range the booking engine returned across the ten weekends; $649 on Fri Oct 16, 2026) x 2 nights, plus ~14% Maricopa County lodging tax. October is peak: budget from the top of the range for the target weekend.",
+   "per_person": "roughly $290-790 per person for rooms",
+   "source_url": "https://be.synxis.com/?chain=21123&hotel=74983&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+   "source_label": "Mountain Shadows booking engine, Oct 16-18 2026",
+   "confidence": "medium",
+   "short": "$17–47k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-28",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $255 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=21123&hotel=74983&arrive=2026-08-28&depart=2026-08-30&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $322 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=21123&hotel=74983&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $315 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=21123&hotel=74983&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $474 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=21123&hotel=74983&arrive=2026-09-18&depart=2026-09-20&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $564 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=21123&hotel=74983&arrive=2026-09-25&depart=2026-09-27&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $546 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=21123&hotel=74983&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $669 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=21123&hotel=74983&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $649 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=21123&hotel=74983&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-23",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $690 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=21123&hotel=74983&arrive=2026-10-23&depart=2026-10-25&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   }
+  ],
+  "availabilityNotes": "183 rooms; a buyout is unrealistic but a 30-room block plus dedicated meeting space is routine. All ten weekends showed bookable inventory.",
+  "checkedOn": "2026-08-27",
+  "verified": {
+   "checkedOn": "2026-08-27",
+   "method": "Each of the ten Friday-to-Sunday weekends was queried directly in the property's own SynXis booking engine (chain 21123 / hotel 74983) for 2 adults, arriving Friday and departing Sunday, and the result read from the rendered page. A weekend is marked probably available when the engine returned bookable rooms for both nights, and probably not available when it returned an explicit \"not available on <date>\" message for a night in that weekend. This is inventory for individual rooms: it shows the property is open and selling, not that 30 rooms or a buyout can be held. Confirm the block by phone.",
+   "bookingPolicy": "183 rooms; a buyout is unrealistic but a 30-room block plus dedicated meeting space is routine. All ten weekends showed bookable inventory.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $255 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$255",
+     "sourceUrl": "https://be.synxis.com/?chain=21123&hotel=74983&arrive=2026-08-28&depart=2026-08-30&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-08-28–2026-08-30"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $322 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$322",
+     "sourceUrl": "https://be.synxis.com/?chain=21123&hotel=74983&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-04–2026-09-06"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $315 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$315",
+     "sourceUrl": "https://be.synxis.com/?chain=21123&hotel=74983&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-11–2026-09-13"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $474 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$474",
+     "sourceUrl": "https://be.synxis.com/?chain=21123&hotel=74983&arrive=2026-09-18&depart=2026-09-20&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-18–2026-09-20"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $564 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$564",
+     "sourceUrl": "https://be.synxis.com/?chain=21123&hotel=74983&arrive=2026-09-25&depart=2026-09-27&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-25–2026-09-27"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $546 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$546",
+     "sourceUrl": "https://be.synxis.com/?chain=21123&hotel=74983&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-02–2026-10-04"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $669 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$669",
+     "sourceUrl": "https://be.synxis.com/?chain=21123&hotel=74983&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-09–2026-10-11"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $649 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$649",
+     "sourceUrl": "https://be.synxis.com/?chain=21123&hotel=74983&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-16–2026-10-18"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $690 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$690",
+     "sourceUrl": "https://be.synxis.com/?chain=21123&hotel=74983&arrive=2026-10-23&depart=2026-10-25&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-23–2026-10-25"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $529 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$529",
+     "sourceUrl": "https://be.synxis.com/?chain=21123&hotel=74983&arrive=2026-10-30&depart=2026-11-01&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-30–2026-11-01"
+    }
+   ]
+  },
+  "thumb": "images/mountain-shadows/thumb.jpg",
+  "images": [
+   {
+    "file": "images/mountain-shadows/01.jpg",
+    "w": 1600,
+    "h": 1068,
+    "caption": "The pool aimed at Camelback at sunset",
+    "credit": "Mountain Shadows Resort (official site)",
+    "source": "https://mountainshadows.com/resort/photo-video-gallery/"
+   },
+   {
+    "file": "images/mountain-shadows/02.jpg",
+    "w": 1600,
+    "h": 1068,
+    "caption": "Guest room with mountain balcony",
+    "credit": "Mountain Shadows Resort (official site)",
+    "source": "https://mountainshadows.com/resort/photo-video-gallery/"
+   },
+   {
+    "file": "images/mountain-shadows/03.jpg",
+    "w": 1600,
+    "h": 1068,
+    "caption": "Hearth & Hound dining room",
+    "credit": "Mountain Shadows Resort (official site)",
+    "source": "https://mountainshadows.com/resort/photo-video-gallery/"
+   },
+   {
+    "file": "images/mountain-shadows/04.jpg",
+    "w": 1600,
+    "h": 1068,
+    "caption": "The short course under the Praying Monk",
+    "credit": "Mountain Shadows Resort (official site)",
+    "source": "https://mountainshadows.com/resort/photo-video-gallery/"
+   }
+  ]
+ },
+ {
+  "id": "two-bunch-palms",
+  "name": "Two Bunch Palms",
+  "tier": "A",
+  "region": "west",
+  "subtitle": "hot-springs oasis, adults only, buyouts offered",
+  "area": "Desert Hot Springs, CA",
+  "airport": "PSP · 18 min / 10 mi",
+  "flights": "Nonstop SFO–PSP on United and Alaska; nonstop OAK–PSP on Southwest (year-round)",
+  "drive": "",
+  "sleeps": "65 rooms — 35 king, 16 double and 14 suites — so 60 people fits without doubling anyone up",
+  "meeting": "Hammock Grove, The Lawn & Courtyard and other spaces \"Available for partial or full buyouts only\"",
+  "buyout": "Yes — a full resort buyout is a published product, described as suitable for up to 175 guests, available year round",
+  "why": "Seventy-odd acres of palm oasis fed by natural hot springs, adults-only, with adobe archways opening onto courtyards and the San Jacintos filling the gap. It is the rare venue on this list that sells whole-property buyouts as a normal thing, at exactly the size of this group, eighteen minutes from the terminal.",
+  "watch": "The target weekend is blocked: the booking engine returns nothing for Saturday Oct 17, 2026, and the same for Aug 29. Adults-only and alcohol-light wellness framing may or may not suit the group.",
+  "phone": "(760) 676-5000",
+  "email": "",
+  "website": "https://twobunchpalms.com/",
+  "booking": "https://twobunchpalms.com/events/",
+  "note": "Research note: eight of the ten weekends returned bookable rooms in the SynXis engine (chain 32882 / hotel 47527); Aug 28–30 and Oct 16–18 both came back with a specific Saturday blocked, which usually means an existing buyout or wedding.",
+  "tierLabel": "Tier A",
+  "address": "67425 Two Bunch Palms Trail, Desert Hot Springs, CA 92240",
+  "lat": 33.94827,
+  "lng": -116.48849,
+  "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 22000,
+   "high": 30000,
+   "summary": "~$22k–30k for rooms; add meals",
+   "basis": "30 of the 65 rooms x $326-448/night (the range the booking engine returned across the eight bookable weekends) x 2 nights, plus ~13% Desert Hot Springs transient occupancy tax and resort fee. A full buyout is quoted separately and would price above this.",
+   "per_person": "roughly $370-510 per person for rooms",
+   "source_url": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+   "source_label": "Two Bunch Palms booking engine, Oct 9-11 2026",
+   "confidence": "medium",
+   "short": "$22–30k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-28",
+    "status": "booked",
+    "evidence": "The property's own booking engine returns no bookable rooms for a night in this weekend.",
+    "source_url": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-08-28&depart=2026-08-30&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $326 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $344 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $344 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-09-18&depart=2026-09-20&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $401 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-09-25&depart=2026-09-27&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $401 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $401 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "booked",
+    "evidence": "The property's own booking engine returns no bookable rooms for a night in this weekend.",
+    "source_url": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-23",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $448 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-10-23&depart=2026-10-25&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   }
+  ],
+  "availabilityNotes": "Adults only. 65 rooms (35 king, 16 double, 14 suites). Partial and full resort buyouts are a published product, described as suiting up to 175 guests and available year round; contact the events team for minimums.",
+  "checkedOn": "2026-08-27",
+  "verified": {
+   "checkedOn": "2026-08-27",
+   "method": "Each of the ten Friday-to-Sunday weekends was queried directly in the property's own SynXis booking engine (chain 32882 / hotel 47527) for 2 adults, arriving Friday and departing Sunday, and the result read from the rendered page. A weekend is marked probably available when the engine returned bookable rooms for both nights, and probably not available when it returned an explicit \"not available on <date>\" message for a night in that weekend. This is inventory for individual rooms: it shows the property is open and selling, not that 30 rooms or a buyout can be held. Confirm the block by phone.",
+   "bookingPolicy": "Adults only. 65 rooms (35 king, 16 double, 14 suites). Partial and full resort buyouts are a published product, described as suiting up to 175 guests and available year round; contact the events team for minimums.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "probably_not_available",
+     "evidence": "The property's own booking engine returns no bookable rooms for a night in this weekend.",
+     "quote": "not available on August 29, 2026",
+     "sourceUrl": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-08-28&depart=2026-08-30&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-08-28–2026-08-30"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $326 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$326",
+     "sourceUrl": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-04–2026-09-06"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $344 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$344",
+     "sourceUrl": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-11–2026-09-13"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $344 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$344",
+     "sourceUrl": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-09-18&depart=2026-09-20&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-18–2026-09-20"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $401 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$401",
+     "sourceUrl": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-09-25&depart=2026-09-27&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-25–2026-09-27"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $401 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$401",
+     "sourceUrl": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-02–2026-10-04"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $401 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$401",
+     "sourceUrl": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-09–2026-10-11"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "probably_not_available",
+     "evidence": "The property's own booking engine returns no bookable rooms for a night in this weekend.",
+     "quote": "not available on October 17, 2026",
+     "sourceUrl": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-16–2026-10-18"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $448 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$448",
+     "sourceUrl": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-10-23&depart=2026-10-25&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-23–2026-10-25"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $448 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$448",
+     "sourceUrl": "https://be.synxis.com/?chain=32882&hotel=47527&arrive=2026-10-30&depart=2026-11-01&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-30–2026-11-01"
+    }
+   ]
+  },
+  "thumb": "images/two-bunch-palms/thumb.jpg",
+  "images": [
+   {
+    "file": "images/two-bunch-palms/01.jpg",
+    "w": 1600,
+    "h": 1198,
+    "caption": "Adobe archway onto a palm courtyard, San Jacinto behind",
+    "credit": "Two Bunch Palms (official site)",
+    "source": "https://twobunchpalms.com/"
+   },
+   {
+    "file": "images/two-bunch-palms/02.jpg",
+    "w": 1600,
+    "h": 837,
+    "caption": "Cactus garden along the guest wing",
+    "credit": "Two Bunch Palms (official site)",
+    "source": "https://twobunchpalms.com/"
+   },
+   {
+    "file": "images/two-bunch-palms/03.jpg",
+    "w": 1600,
+    "h": 837,
+    "caption": "Mount San Jacinto from the grove",
+    "credit": "Two Bunch Palms (official site)",
+    "source": "https://twobunchpalms.com/"
+   },
+   {
+    "file": "images/two-bunch-palms/04.jpg",
+    "w": 1600,
+    "h": 1198,
+    "caption": "Guest room",
+    "credit": "Two Bunch Palms (official site)",
+    "source": "https://twobunchpalms.com/"
+   }
+  ]
+ },
+ {
+  "id": "cedarbrook-lodge",
+  "name": "Cedarbrook Lodge",
+  "tier": "A",
+  "region": "west",
+  "subtitle": "18 acres of wetland, five minutes from the gate",
+  "area": "SeaTac, WA (Seattle)",
+  "airport": "SEA · 8 min / 2.5 mi, with a free 24-hour airport shuttle",
+  "flights": "Nonstop SFO–SEA on United, Alaska and Delta; nonstop OAK–SEA on Alaska (year-round)",
+  "drive": "",
+  "sleeps": "167 rooms on 18 acres of restored wetland — 60 people is a 30-room block",
+  "meeting": "Over 18,000 sq ft of function space in 13 rooms, for groups of 8 to 300; IACC-certified conference venue",
+  "buyout": "Not a buyout property, but it is purpose-built for resident conferences and sells an all-inclusive Complete Meeting Package",
+  "why": "The single best answer to 'close to an airport': two and a half miles from SEA, with a free shuttle, and yet you are looking at koi ponds, a chef's garden and second-growth firs. Quietly excellent Northwest architecture — timber, stone, big hearths — and it is the one venue here designed from the ground up for a group that meets all day and sleeps on site.",
+  "watch": "It is a conference lodge next to an airport, not a landscape. Three of the ten weekends are already blocked (Sep 4, Sep 11, Sep 25), which is what happens to a 167-room hotel with a wedding business.",
+  "phone": "(206) 214-4130",
+  "email": "",
+  "website": "https://www.cedarbrooklodge.com/",
+  "booking": "https://www.cedarbrooklodge.com/meetings-events.php",
+  "note": "Research note: all ten weekends were checked in the lodge's SynXis engine (chain 8517 / hotel 24964). The target weekend showed \"37 results available\" with a Deluxe King at $298.",
+  "tierLabel": "Tier A",
+  "address": "Cedarbrook Lodge, 18525 36th Ave S, SeaTac, WA 98188",
+  "lat": 47.43741,
+  "lng": -122.28764,
+  "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 16000,
+   "high": 38000,
+   "summary": "~$16k–38k depending on meeting package",
+   "basis": "30 double rooms x $229-369/night (the range the booking engine returned across the seven bookable weekends; $298 on Fri Oct 16, 2026) x 2 nights, plus ~15.7% Washington lodging tax. The high figure adds roughly $12k for the Complete Meeting Package (meals, breaks, A/V and meeting rooms) for 60 people over two days.",
+   "per_person": "roughly $270-630 per person depending on the meeting package",
+   "source_url": "https://be.synxis.com/?chain=8517&hotel=24964&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+   "source_label": "Cedarbrook Lodge booking engine, Oct 16-18 2026",
+   "confidence": "medium",
+   "short": "$16–38k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-28",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $269 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=8517&hotel=24964&arrive=2026-08-28&depart=2026-08-30&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "booked",
+    "evidence": "The property's own booking engine returns no bookable rooms for a night in this weekend.",
+    "source_url": "https://be.synxis.com/?chain=8517&hotel=24964&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "booked",
+    "evidence": "The property's own booking engine returns no bookable rooms for a night in this weekend.",
+    "source_url": "https://be.synxis.com/?chain=8517&hotel=24964&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $369 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=8517&hotel=24964&arrive=2026-09-18&depart=2026-09-20&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "booked",
+    "evidence": "The property's own booking engine returns no bookable rooms for a night in this weekend.",
+    "source_url": "https://be.synxis.com/?chain=8517&hotel=24964&arrive=2026-09-25&depart=2026-09-27&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $269 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=8517&hotel=24964&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $310 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=8517&hotel=24964&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $298 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=8517&hotel=24964&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-23",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $269 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=8517&hotel=24964&arrive=2026-10-23&depart=2026-10-25&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   }
+  ],
+  "availabilityNotes": "167 rooms, IACC-certified conference venue with an all-inclusive Complete Meeting Package and a free 24-hour SEA shuttle. Not sold as a buyout; three of the ten weekends are already blocked in the public engine.",
+  "checkedOn": "2026-08-27",
+  "verified": {
+   "checkedOn": "2026-08-27",
+   "method": "Each of the ten Friday-to-Sunday weekends was queried directly in the property's own SynXis booking engine (chain 8517 / hotel 24964) for 2 adults, arriving Friday and departing Sunday, and the result read from the rendered page. A weekend is marked probably available when the engine returned bookable rooms for both nights, and probably not available when it returned an explicit \"not available on <date>\" message for a night in that weekend. This is inventory for individual rooms: it shows the property is open and selling, not that 30 rooms or a buyout can be held. Confirm the block by phone.",
+   "bookingPolicy": "167 rooms, IACC-certified conference venue with an all-inclusive Complete Meeting Package and a free 24-hour SEA shuttle. Not sold as a buyout; three of the ten weekends are already blocked in the public engine.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $269 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$269",
+     "sourceUrl": "https://be.synxis.com/?chain=8517&hotel=24964&arrive=2026-08-28&depart=2026-08-30&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-08-28–2026-08-30"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "probably_not_available",
+     "evidence": "The property's own booking engine returns no bookable rooms for a night in this weekend.",
+     "quote": "not available on September 5, 2026",
+     "sourceUrl": "https://be.synxis.com/?chain=8517&hotel=24964&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-04–2026-09-06"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "probably_not_available",
+     "evidence": "The property's own booking engine returns no bookable rooms for a night in this weekend.",
+     "quote": "not available on September 11, 2026",
+     "sourceUrl": "https://be.synxis.com/?chain=8517&hotel=24964&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-11–2026-09-13"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $369 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$369",
+     "sourceUrl": "https://be.synxis.com/?chain=8517&hotel=24964&arrive=2026-09-18&depart=2026-09-20&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-18–2026-09-20"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "probably_not_available",
+     "evidence": "The property's own booking engine returns no bookable rooms for a night in this weekend.",
+     "quote": "not available on September 26, 2026",
+     "sourceUrl": "https://be.synxis.com/?chain=8517&hotel=24964&arrive=2026-09-25&depart=2026-09-27&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-25–2026-09-27"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $269 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$269",
+     "sourceUrl": "https://be.synxis.com/?chain=8517&hotel=24964&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-02–2026-10-04"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $310 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$310",
+     "sourceUrl": "https://be.synxis.com/?chain=8517&hotel=24964&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-09–2026-10-11"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $298 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$298",
+     "sourceUrl": "https://be.synxis.com/?chain=8517&hotel=24964&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-16–2026-10-18"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $269 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$269",
+     "sourceUrl": "https://be.synxis.com/?chain=8517&hotel=24964&arrive=2026-10-23&depart=2026-10-25&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-23–2026-10-25"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $229 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$229",
+     "sourceUrl": "https://be.synxis.com/?chain=8517&hotel=24964&arrive=2026-10-30&depart=2026-11-01&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-30–2026-11-01"
+    }
+   ]
+  },
+  "thumb": "images/cedarbrook-lodge/thumb.jpg",
+  "images": [
+   {
+    "file": "images/cedarbrook-lodge/01.jpg",
+    "w": 1000,
+    "h": 667,
+    "caption": "Lawn and terrace on the 18-acre grounds",
+    "credit": "Cedarbrook Lodge (official site)",
+    "source": "https://www.cedarbrooklodge.com/gallery-lodge.php"
+   },
+   {
+    "file": "images/cedarbrook-lodge/02.jpg",
+    "w": 1000,
+    "h": 667,
+    "caption": "The wetland pond below the lodge",
+    "credit": "Cedarbrook Lodge (official site)",
+    "source": "https://www.cedarbrooklodge.com/gallery-lodge.php"
+   },
+   {
+    "file": "images/cedarbrook-lodge/03.jpg",
+    "w": 1000,
+    "h": 668,
+    "caption": "Lodge living room",
+    "credit": "Cedarbrook Lodge (official site)",
+    "source": "https://www.cedarbrooklodge.com/gallery-lodge.php"
+   },
+   {
+    "file": "images/cedarbrook-lodge/04.jpg",
+    "w": 1000,
+    "h": 668,
+    "caption": "The upper lobby",
+    "credit": "Cedarbrook Lodge (official site)",
+    "source": "https://www.cedarbrooklodge.com/gallery-lodge.php"
+   },
+   {
+    "file": "images/cedarbrook-lodge/05.jpg",
+    "w": 1000,
+    "h": 667,
+    "caption": "Autumn on the garden path",
+    "credit": "Cedarbrook Lodge (official site)",
+    "source": "https://www.cedarbrooklodge.com/gallery-lodge.php"
+   },
+   {
+    "file": "images/cedarbrook-lodge/06.jpg",
+    "w": 1000,
+    "h": 666,
+    "caption": "Terrace over the lily pond",
+    "credit": "Cedarbrook Lodge (official site)",
+    "source": "https://www.cedarbrooklodge.com/gallery-lodge.php"
+   }
+  ]
+ },
+ {
+  "id": "hermosa-inn",
+  "name": "The Hermosa Inn",
+  "tier": "B",
+  "region": "west",
+  "subtitle": "1930s adobe hideaway, 43 casitas",
+  "area": "Paradise Valley, AZ",
+  "airport": "PHX · 19 min / 10 mi",
+  "flights": "Nonstop SFO–PHX on United; nonstop OAK–PHX on Southwest (year-round)",
+  "drive": "",
+  "sleeps": "43 casitas — 60 people means almost the entire property and some shared casitas",
+  "meeting": "Several indoor and garden event spaces around LON's; the whole place is small enough to feel taken over",
+  "buyout": "Realistic buyout candidate at this size, but 43 casitas is a tight fit for 60 people",
+  "why": "Hand-built in the 1930s by the cowboy artist Lon Megargee as his own house, and it still feels like one: rammed-adobe walls, beamed ceilings, corner fireplaces in the rooms, bougainvillea over brick paths. Fifteen to twenty minutes from Sky Harbor and one of the prettiest small properties in the Southwest.",
+  "watch": "Capacity is the constraint, not beauty — you will be close to the whole inn and paying $549+/night per casita. Aug 28 is blocked.",
+  "phone": "(602) 955-8614",
+  "email": "",
+  "website": "https://azhideawaycollection.com/hermosa-inn/",
+  "booking": "https://azhideawaycollection.com/hermosa-inn/",
+  "note": "Research note: nine of ten weekends returned bookable casitas in the SynXis engine (chain 33253 / hotel 48171); only Aug 28–30 was blocked.",
+  "tierLabel": "Tier B",
+  "address": "5532 North Palo Cristi Road, Paradise Valley, AZ 85253",
+  "lat": 33.51841,
+  "lng": -112.00472,
+  "geo_confidence": "high",
+  "cost": {
+   "mode": "published",
+   "low": 27000,
+   "high": 41000,
+   "summary": "~$27k–41k for casitas; add meals",
+   "basis": "30 of the 43 casitas x $399-599/night (the range the booking engine returned across the nine bookable weekends; $549 on Fri Oct 16, 2026) x 2 nights, plus ~14% Maricopa County lodging tax. Dining at LON's is extra.",
+   "per_person": "roughly $450-680 per person for lodging",
+   "source_url": "https://be.synxis.com/?chain=33253&hotel=48171&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+   "source_label": "The Hermosa Inn booking engine, Oct 16-18 2026",
+   "confidence": "medium",
+   "short": "$27–41k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-28",
+    "status": "booked",
+    "evidence": "The property's own booking engine returns no bookable rooms for a night in this weekend.",
+    "source_url": "https://be.synxis.com/?chain=33253&hotel=48171&arrive=2026-08-28&depart=2026-08-30&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $399 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=33253&hotel=48171&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $399 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=33253&hotel=48171&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $474 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=33253&hotel=48171&arrive=2026-09-18&depart=2026-09-20&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $599 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=33253&hotel=48171&arrive=2026-09-25&depart=2026-09-27&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $539 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=33253&hotel=48171&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $529 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=33253&hotel=48171&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $549 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=33253&hotel=48171&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-23",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $549 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=33253&hotel=48171&arrive=2026-10-23&depart=2026-10-25&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   }
+  ],
+  "availabilityNotes": "43 casitas — 60 people is most of the property, which makes a buyout plausible but the fit tight. Rates are $399–599/night depending on weekend.",
+  "checkedOn": "2026-08-27",
+  "verified": {
+   "checkedOn": "2026-08-27",
+   "method": "Each of the ten Friday-to-Sunday weekends was queried directly in the property's own SynXis booking engine (chain 33253 / hotel 48171) for 2 adults, arriving Friday and departing Sunday, and the result read from the rendered page. A weekend is marked probably available when the engine returned bookable rooms for both nights, and probably not available when it returned an explicit \"not available on <date>\" message for a night in that weekend. This is inventory for individual rooms: it shows the property is open and selling, not that 30 rooms or a buyout can be held. Confirm the block by phone.",
+   "bookingPolicy": "43 casitas — 60 people is most of the property, which makes a buyout plausible but the fit tight. Rates are $399–599/night depending on weekend.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "probably_not_available",
+     "evidence": "The property's own booking engine returns no bookable rooms for a night in this weekend.",
+     "quote": "not available on August 28, 2026",
+     "sourceUrl": "https://be.synxis.com/?chain=33253&hotel=48171&arrive=2026-08-28&depart=2026-08-30&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-08-28–2026-08-30"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $399 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$399",
+     "sourceUrl": "https://be.synxis.com/?chain=33253&hotel=48171&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-04–2026-09-06"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $399 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$399",
+     "sourceUrl": "https://be.synxis.com/?chain=33253&hotel=48171&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-11–2026-09-13"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $474 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$474",
+     "sourceUrl": "https://be.synxis.com/?chain=33253&hotel=48171&arrive=2026-09-18&depart=2026-09-20&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-18–2026-09-20"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $599 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$599",
+     "sourceUrl": "https://be.synxis.com/?chain=33253&hotel=48171&arrive=2026-09-25&depart=2026-09-27&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-25–2026-09-27"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $539 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$539",
+     "sourceUrl": "https://be.synxis.com/?chain=33253&hotel=48171&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-02–2026-10-04"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $529 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$529",
+     "sourceUrl": "https://be.synxis.com/?chain=33253&hotel=48171&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-09–2026-10-11"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $549 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$549",
+     "sourceUrl": "https://be.synxis.com/?chain=33253&hotel=48171&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-16–2026-10-18"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $549 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$549",
+     "sourceUrl": "https://be.synxis.com/?chain=33253&hotel=48171&arrive=2026-10-23&depart=2026-10-25&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-23–2026-10-25"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $539 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$539",
+     "sourceUrl": "https://be.synxis.com/?chain=33253&hotel=48171&arrive=2026-10-30&depart=2026-11-01&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-30–2026-11-01"
+    }
+   ]
+  },
+  "thumb": "images/hermosa-inn/thumb.jpg",
+  "images": [
+   {
+    "file": "images/hermosa-inn/01.jpg",
+    "w": 1600,
+    "h": 1084,
+    "caption": "Bougainvillea over the adobe casitas",
+    "credit": "The Hermosa Inn (official site)",
+    "source": "https://azhideawaycollection.com/hermosa-inn/"
+   },
+   {
+    "file": "images/hermosa-inn/02.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Casita with corner fireplace and beamed ceiling",
+    "credit": "The Hermosa Inn (official site)",
+    "source": "https://azhideawaycollection.com/hermosa-inn/"
+   },
+   {
+    "file": "images/hermosa-inn/03.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The pool under the palms",
+    "credit": "The Hermosa Inn (official site)",
+    "source": "https://azhideawaycollection.com/hermosa-inn/"
+   },
+   {
+    "file": "images/hermosa-inn/04.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Brick paths through the gardens",
+    "credit": "The Hermosa Inn (official site)",
+    "source": "https://azhideawaycollection.com/hermosa-inn/"
+   }
+  ]
+ },
+ {
+  "id": "ace-hotel-palm-springs",
+  "name": "Ace Hotel & Swim Club",
+  "tier": "B",
+  "region": "west",
+  "subtitle": "1965 motor lodge, eight minutes from PSP",
+  "area": "Palm Springs, CA",
+  "airport": "PSP · 8 min / 3.6 mi",
+  "flights": "Nonstop SFO–PSP on United and Alaska; nonstop OAK–PSP on Southwest (year-round)",
+  "drive": "",
+  "sleeps": "179 rooms, patio rooms and suites — 60 people is a 30-room block, or a large slice of the hotel",
+  "meeting": "The Commune, 3,000 sq ft with retractable glass walls onto a private amphitheatre and pool; The Clubhouse, two floors to 100 guests",
+  "buyout": "Group and full-property takeovers are a standard Ace product; ask the events team",
+  "why": "A converted 1965 Westward Ho with the desert-modern vocabulary intact: breeze-block, a big blue pool with San Jacinto right behind it, patio fireplaces, a diner in the old Denny's. Eight minutes from the terminal, and the group-offsite culture is already baked in.",
+  "watch": "Availability could not be verified — the Ace booking engine would not render for any date, so every weekend here is genuinely unknown. Mid-October in Palm Springs also overlaps Modernism Week's Fall Preview; check the dates.",
+  "phone": "(760) 325-9900",
+  "email": "",
+  "website": "https://acehotel.com/palm-springs/",
+  "booking": "https://www.acehotelpalmsprings.com/meetings--groups.htm",
+  "note": "Research note: the reservations site (reservations.acehotel.com, SynXis chain 7231 / hotel 23354) returned an empty page behind a privacy notice on every attempt, so no dated availability evidence exists here — unlike the other resorts on this list.",
+  "tierLabel": "Tier B",
+  "address": "701 East Palm Canyon Drive, Palm Springs, CA 92264",
+  "lat": 33.80098,
+  "lng": -116.53976,
+  "geo_confidence": "high",
+  "cost": {
+   "mode": "quote",
+   "summary": "Quote",
+   "basis": "No rate could be read: the Ace reservations engine returned an empty page for every date queried. The events team quotes group and buyout pricing directly.",
+   "source_url": "https://www.acehotelpalmsprings.com/meetings--groups.htm",
+   "source_label": "Ace Hotel Palm Springs meetings & groups",
+   "confidence": "low",
+   "short": "Quote"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-28",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.acehotelpalmsprings.com/meetings--groups.htm"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.acehotelpalmsprings.com/meetings--groups.htm"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.acehotelpalmsprings.com/meetings--groups.htm"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.acehotelpalmsprings.com/meetings--groups.htm"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.acehotelpalmsprings.com/meetings--groups.htm"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.acehotelpalmsprings.com/meetings--groups.htm"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.acehotelpalmsprings.com/meetings--groups.htm"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.acehotelpalmsprings.com/meetings--groups.htm"
+   },
+   {
+    "weekend": "2026-10-23",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.acehotelpalmsprings.com/meetings--groups.htm"
+   }
+  ],
+  "availabilityNotes": "See the venue notes; no dated group availability is published.",
+  "checkedOn": "2026-08-27",
+  "verified": {
+   "checkedOn": "2026-08-27",
+   "method": "The Ace reservations engine (reservations.acehotel.com, SynXis chain 7231 / hotel 23354) was loaded for the target weekend and returned an empty page behind a privacy notice; no dated availability could be read for any weekend.",
+   "bookingPolicy": "See the venue notes; no dated group availability is published.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.acehotelpalmsprings.com/meetings--groups.htm",
+     "sourceLabel": "Ace Hotel Palm Springs meetings & groups"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.acehotelpalmsprings.com/meetings--groups.htm",
+     "sourceLabel": "Ace Hotel Palm Springs meetings & groups"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.acehotelpalmsprings.com/meetings--groups.htm",
+     "sourceLabel": "Ace Hotel Palm Springs meetings & groups"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.acehotelpalmsprings.com/meetings--groups.htm",
+     "sourceLabel": "Ace Hotel Palm Springs meetings & groups"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.acehotelpalmsprings.com/meetings--groups.htm",
+     "sourceLabel": "Ace Hotel Palm Springs meetings & groups"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.acehotelpalmsprings.com/meetings--groups.htm",
+     "sourceLabel": "Ace Hotel Palm Springs meetings & groups"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.acehotelpalmsprings.com/meetings--groups.htm",
+     "sourceLabel": "Ace Hotel Palm Springs meetings & groups"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.acehotelpalmsprings.com/meetings--groups.htm",
+     "sourceLabel": "Ace Hotel Palm Springs meetings & groups"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.acehotelpalmsprings.com/meetings--groups.htm",
+     "sourceLabel": "Ace Hotel Palm Springs meetings & groups"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.acehotelpalmsprings.com/meetings--groups.htm",
+     "sourceLabel": "Ace Hotel Palm Springs meetings & groups"
+    }
+   ]
+  },
+  "thumb": "images/ace-hotel-palm-springs/thumb.jpg",
+  "images": [
+   {
+    "file": "images/ace-hotel-palm-springs/01.jpg",
+    "w": 1600,
+    "h": 1061,
+    "caption": "The Swim Club pool with San Jacinto behind",
+    "credit": "Ace Hotel & Swim Club (official site)",
+    "source": "https://acehotel.com/palm-springs/"
+   },
+   {
+    "file": "images/ace-hotel-palm-springs/02.jpg",
+    "w": 1600,
+    "h": 900,
+    "caption": "King's Highway, the diner in the old Denny's",
+    "credit": "Ace Hotel & Swim Club (official site)",
+    "source": "https://acehotel.com/palm-springs/"
+   },
+   {
+    "file": "images/ace-hotel-palm-springs/03.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Double queen room",
+    "credit": "Ace Hotel & Swim Club (official site)",
+    "source": "https://acehotel.com/palm-springs/"
+   },
+   {
+    "file": "images/ace-hotel-palm-springs/04.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "King room",
+    "credit": "Ace Hotel & Swim Club (official site)",
+    "source": "https://acehotel.com/palm-springs/"
+   },
+   {
+    "file": "images/ace-hotel-palm-springs/05.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Gathering room opening to the terrace",
+    "credit": "Ace Hotel & Swim Club (official site)",
+    "source": "https://acehotel.com/palm-springs/"
+   },
+   {
+    "file": "images/ace-hotel-palm-springs/06.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Patio with outdoor fireplace",
+    "credit": "Ace Hotel & Swim Club (official site)",
+    "source": "https://acehotel.com/palm-springs/"
+   }
+  ]
+ },
+ {
+  "id": "el-capitan-canyon",
+  "name": "El Capitan Canyon",
+  "tier": "B",
+  "region": "west",
+  "subtitle": "cedar cabins and yurts on 350 coastal acres",
+  "area": "Goleta / Gaviota coast, Santa Barbara County, CA",
+  "airport": "SBA · 20 min / 14 mi",
+  "flights": "Nonstop SFO–SBA on United; nonstop OAK–SBA on Southwest (year-round)",
+  "drive": "",
+  "sleeps": "Cedar cabins, safari tents and yurts across 350 acres; group configurations are built to order",
+  "meeting": "Several indoor and soft-sided meeting spaces from 700 to 2,500 sq ft, plus creekside outdoor sites",
+  "buyout": "\"Property Buyouts\" are listed as one of the group options",
+  "why": "Oak and sycamore canyon a quarter-mile from El Capitan State Beach, with well-made cedar cabins, lantern-lit yurts and communal fire pits. It is twenty minutes from Santa Barbara airport and feels like it is nowhere near one.",
+  "watch": "The target weekend is blocked — the booking engine returns \"THE ROOM OR RATE YOU SELECTED IS NOT AVAILABLE ON OCTOBER 16, 2026\", and Sep 4 and Oct 9 are blocked too. Cabins are spread out; it reads as camp, not conference centre.",
+  "phone": "(805) 685-3887",
+  "email": "info@elcapitancanyon.com",
+  "website": "https://elcapitancanyon.com/",
+  "booking": "https://elcapitancanyon.com/groups/",
+  "note": "Research note: all ten weekends were queried in the SynXis engine (chain 23827 / hotel 45715); a control date in November returned rooms normally, so the October blocks are real rather than an engine fault.",
+  "tierLabel": "Tier B",
+  "address": "11560 Calle Real, Goleta, CA 93117",
+  "lat": 34.4737,
+  "lng": -120.0184,
+  "geo_confidence": "medium",
+  "cost": {
+   "mode": "published",
+   "low": 17000,
+   "high": 34000,
+   "summary": "~$17k–34k for cabins; add meals",
+   "basis": "30 cabins/yurts x $247-506/night (the range the booking engine returned across the seven bookable weekends) x 2 nights, plus ~12% Santa Barbara County tax. Catering and meeting space are extra. The target weekend is not bookable.",
+   "per_person": "roughly $280-570 per person for lodging",
+   "source_url": "https://be.synxis.com/?chain=23827&hotel=45715&arrive=2026-10-23&depart=2026-10-25&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+   "source_label": "El Capitan Canyon booking engine, Oct 23-25 2026",
+   "confidence": "medium",
+   "short": "$17–34k"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-28",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $247 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=23827&hotel=45715&arrive=2026-08-28&depart=2026-08-30&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "booked",
+    "evidence": "The property's own booking engine returns no bookable rooms for a night in this weekend.",
+    "source_url": "https://be.synxis.com/?chain=23827&hotel=45715&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $268 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=23827&hotel=45715&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $506 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=23827&hotel=45715&arrive=2026-09-18&depart=2026-09-20&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $506 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=23827&hotel=45715&arrive=2026-09-25&depart=2026-09-27&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $375 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=23827&hotel=45715&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "booked",
+    "evidence": "The property's own booking engine returns no bookable rooms for a night in this weekend.",
+    "source_url": "https://be.synxis.com/?chain=23827&hotel=45715&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "booked",
+    "evidence": "The property's own booking engine returns no bookable rooms for a night in this weekend.",
+    "source_url": "https://be.synxis.com/?chain=23827&hotel=45715&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   },
+   {
+    "weekend": "2026-10-23",
+    "status": "available",
+    "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $288 per night; a 30-room block or buyout is unconfirmed.",
+    "source_url": "https://be.synxis.com/?chain=23827&hotel=45715&arrive=2026-10-23&depart=2026-10-25&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD"
+   }
+  ],
+  "availabilityNotes": "350-acre canyon of cedar cabins, safari tents and yurts; \"Property Buyouts\" are listed as a group option. No pets, registered guests only. Three of the ten weekends are blocked in the public engine.",
+  "checkedOn": "2026-08-27",
+  "verified": {
+   "checkedOn": "2026-08-27",
+   "method": "Each of the ten Friday-to-Sunday weekends was queried directly in the property's own SynXis booking engine (chain 23827 / hotel 45715) for 2 adults, arriving Friday and departing Sunday, and the result read from the rendered page. A weekend is marked probably available when the engine returned bookable rooms for both nights, and probably not available when it returned an explicit \"not available on <date>\" message for a night in that weekend. This is inventory for individual rooms: it shows the property is open and selling, not that 30 rooms or a buyout can be held. Confirm the block by phone.",
+   "bookingPolicy": "350-acre canyon of cedar cabins, safari tents and yurts; \"Property Buyouts\" are listed as a group option. No pets, registered guests only. Three of the ten weekends are blocked in the public engine.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $247 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$247",
+     "sourceUrl": "https://be.synxis.com/?chain=23827&hotel=45715&arrive=2026-08-28&depart=2026-08-30&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-08-28–2026-08-30"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "probably_not_available",
+     "evidence": "The property's own booking engine returns no bookable rooms for a night in this weekend.",
+     "quote": "NOT AVAILABLE ON SEPTEMBER 4, 2026",
+     "sourceUrl": "https://be.synxis.com/?chain=23827&hotel=45715&arrive=2026-09-04&depart=2026-09-06&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-04–2026-09-06"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $268 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$268",
+     "sourceUrl": "https://be.synxis.com/?chain=23827&hotel=45715&arrive=2026-09-11&depart=2026-09-13&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-11–2026-09-13"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $506 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$506",
+     "sourceUrl": "https://be.synxis.com/?chain=23827&hotel=45715&arrive=2026-09-18&depart=2026-09-20&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-18–2026-09-20"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $506 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$506",
+     "sourceUrl": "https://be.synxis.com/?chain=23827&hotel=45715&arrive=2026-09-25&depart=2026-09-27&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-09-25–2026-09-27"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $375 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$375",
+     "sourceUrl": "https://be.synxis.com/?chain=23827&hotel=45715&arrive=2026-10-02&depart=2026-10-04&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-02–2026-10-04"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "probably_not_available",
+     "evidence": "The property's own booking engine returns no bookable rooms for a night in this weekend.",
+     "quote": "NOT AVAILABLE ON OCTOBER 10, 2026",
+     "sourceUrl": "https://be.synxis.com/?chain=23827&hotel=45715&arrive=2026-10-09&depart=2026-10-11&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-09–2026-10-11"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "probably_not_available",
+     "evidence": "The property's own booking engine returns no bookable rooms for a night in this weekend.",
+     "quote": "NOT AVAILABLE ON OCTOBER 16, 2026",
+     "sourceUrl": "https://be.synxis.com/?chain=23827&hotel=45715&arrive=2026-10-16&depart=2026-10-18&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-16–2026-10-18"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $288 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$288",
+     "sourceUrl": "https://be.synxis.com/?chain=23827&hotel=45715&arrive=2026-10-23&depart=2026-10-25&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-23–2026-10-25"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "probably_available",
+     "evidence": "The booking engine returned bookable rooms for both Friday and Saturday night, lead rate $268 per night; a 30-room block or buyout is unconfirmed.",
+     "quote": "$268",
+     "sourceUrl": "https://be.synxis.com/?chain=23827&hotel=45715&arrive=2026-10-30&depart=2026-11-01&adult=2&rooms=1&locale=en-US&level=hotel&currency=USD",
+     "sourceLabel": "Booking engine, 2026-10-30–2026-11-01"
+    }
+   ]
+  },
+  "thumb": "images/el-capitan-canyon/thumb.jpg",
+  "images": [
+   {
+    "file": "images/el-capitan-canyon/01.jpg",
+    "w": 1200,
+    "h": 896,
+    "caption": "Cedar cabins around a fire pit",
+    "credit": "El Capitan Canyon (official site)",
+    "source": "https://elcapitancanyon.com/"
+   },
+   {
+    "file": "images/el-capitan-canyon/02.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Cabin interior with wood stove",
+    "credit": "El Capitan Canyon (official site)",
+    "source": "https://elcapitancanyon.com/"
+   },
+   {
+    "file": "images/el-capitan-canyon/03.jpg",
+    "w": 1200,
+    "h": 896,
+    "caption": "Adventure yurt",
+    "credit": "El Capitan Canyon (official site)",
+    "source": "https://elcapitancanyon.com/"
+   },
+   {
+    "file": "images/el-capitan-canyon/04.jpg",
+    "w": 800,
+    "h": 800,
+    "caption": "Creekside fire pit in the evening",
+    "credit": "El Capitan Canyon (official site)",
+    "source": "https://elcapitancanyon.com/"
+   },
+   {
+    "file": "images/el-capitan-canyon/05.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Long table set on the meadow",
+    "credit": "El Capitan Canyon (official site)",
+    "source": "https://elcapitancanyon.com/"
+   },
+   {
+    "file": "images/el-capitan-canyon/06.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "The meadow set for a gathering",
+    "credit": "El Capitan Canyon (official site)",
+    "source": "https://elcapitancanyon.com/"
+   }
+  ]
+ },
+ {
+  "id": "fivepine-lodge",
+  "name": "FivePine Lodge",
+  "tier": "B",
+  "region": "west",
+  "subtitle": "craftsman cabins in the ponderosas at Sisters",
+  "area": "Sisters, OR (Central Oregon)",
+  "airport": "RDM · 33 min / 21 mi",
+  "flights": "Nonstop SFO–RDM on Alaska and United (year-round)",
+  "drive": "",
+  "sleeps": "Lodge rooms plus stand-alone craftsman cabins across a wooded campus",
+  "meeting": "On-site conference centre shared with the lodge campus",
+  "buyout": "Ask the lodge; the campus is small enough that a 60-person group is most of it",
+  "why": "Timber-framed lodge and individual cabins set among ponderosa pines, with a Japanese-influenced spa and a conference building on the same campus. Quiet, warm, and very good-looking in an unfussy Oregon way.",
+  "watch": "33 minutes from Redmond — the far edge of the brief, though it is one straight road. Availability was not verified: the lodge books through innRoad rather than a queryable engine.",
+  "phone": "(541) 549-5900",
+  "email": "",
+  "website": "https://www.fivepinelodge.com/",
+  "booking": "https://www.fivepinelodge.com/",
+  "note": "Research note: no dated availability evidence — the booking path is an innRoad client site that could not be queried for arbitrary dates.",
+  "tierLabel": "Tier B",
+  "address": "1021 East Desperado Trail, Sisters, OR 97759",
+  "lat": 44.28567,
+  "lng": -121.53629,
+  "geo_confidence": "high",
+  "cost": {
+   "mode": "quote",
+   "summary": "Quote",
+   "basis": "FivePine books through an innRoad client site that could not be queried by date, and publishes no group rate sheet.",
+   "source_url": "https://www.fivepinelodge.com/",
+   "source_label": "FivePine Lodge",
+   "confidence": "low",
+   "short": "Quote"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-28",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.fivepinelodge.com/"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.fivepinelodge.com/"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.fivepinelodge.com/"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.fivepinelodge.com/"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.fivepinelodge.com/"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.fivepinelodge.com/"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.fivepinelodge.com/"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.fivepinelodge.com/"
+   },
+   {
+    "weekend": "2026-10-23",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.fivepinelodge.com/"
+   }
+  ],
+  "availabilityNotes": "See the venue notes; no dated group availability is published.",
+  "checkedOn": "2026-08-27",
+  "verified": {
+   "checkedOn": "2026-08-27",
+   "method": "FivePine books through an innRoad client site rather than a URL-queryable engine, so no dated availability could be read for any weekend.",
+   "bookingPolicy": "See the venue notes; no dated group availability is published.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.fivepinelodge.com/",
+     "sourceLabel": "FivePine Lodge"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.fivepinelodge.com/",
+     "sourceLabel": "FivePine Lodge"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.fivepinelodge.com/",
+     "sourceLabel": "FivePine Lodge"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.fivepinelodge.com/",
+     "sourceLabel": "FivePine Lodge"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.fivepinelodge.com/",
+     "sourceLabel": "FivePine Lodge"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.fivepinelodge.com/",
+     "sourceLabel": "FivePine Lodge"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.fivepinelodge.com/",
+     "sourceLabel": "FivePine Lodge"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.fivepinelodge.com/",
+     "sourceLabel": "FivePine Lodge"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.fivepinelodge.com/",
+     "sourceLabel": "FivePine Lodge"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.fivepinelodge.com/",
+     "sourceLabel": "FivePine Lodge"
+    }
+   ]
+  },
+  "thumb": "images/fivepine-lodge/thumb.jpg",
+  "images": [
+   {
+    "file": "images/fivepine-lodge/01.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The timber lodge among the ponderosas",
+    "credit": "FivePine Lodge (official site)",
+    "source": "https://www.fivepinelodge.com/"
+   },
+   {
+    "file": "images/fivepine-lodge/02.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Stand-alone cabin",
+    "credit": "FivePine Lodge (official site)",
+    "source": "https://www.fivepinelodge.com/"
+   },
+   {
+    "file": "images/fivepine-lodge/03.jpg",
+    "w": 1600,
+    "h": 1634,
+    "caption": "Entrance to the conference centre",
+    "credit": "FivePine Lodge (official site)",
+    "source": "https://www.fivepinelodge.com/"
+   },
+   {
+    "file": "images/fivepine-lodge/04.jpg",
+    "w": 1600,
+    "h": 1502,
+    "caption": "Shibui spa treatment room",
+    "credit": "FivePine Lodge (official site)",
+    "source": "https://www.fivepinelodge.com/"
+   }
+  ]
+ },
+ {
+  "id": "los-poblanos",
+  "name": "Los Poblanos",
+  "tier": "B",
+  "region": "west",
+  "subtitle": "John Gaw Meem ranch and lavender farm",
+  "area": "Los Ranchos de Albuquerque, NM",
+  "airport": "ABQ · 22 min / 12 mi",
+  "flights": "Nonstop SFO–ABQ on United (year-round)",
+  "drive": "",
+  "sleeps": "~46 guest rooms across the Meem, Farm and Field houses on 25 acres — 60 people is a stretch and needs doubling up",
+  "meeting": "La Quinta Cultural Center \"up to 60 guests\" across the Grand Portal, Ballroom, Library, Gilpin Gallery and Sycamore Patio; Barn Commons \"up to 16 people\"",
+  "buyout": "Not published; the property is small enough that a 60-person group is effectively a buyout conversation",
+  "why": "A 1930s territorial-revival ranch by John Gaw Meem, with frescoed rooms, a portal along the lavender fields, and one of the best farm restaurants in the Southwest. Two Michelin keys. Twenty-two minutes from the Sunport.",
+  "watch": "Capacity is the real problem: the meeting hall tops out at exactly 60 and there are only ~46 rooms. Published event fees are $2,500 site plus $4,000 F&B minimum Thu–Sat. Availability unverified — bookings run through an Agilysys system.",
+  "phone": "(505) 344-9297",
+  "email": "",
+  "website": "https://lospoblanos.com/",
+  "booking": "https://lospoblanos.com/special-events/meetings-corporate-events",
+  "note": "Research note: room-level availability could not be queried for the ten weekends. The published meeting-space capacity of 60 is a hard ceiling worth confirming by phone before anything else.",
+  "tierLabel": "Tier B",
+  "address": "4803 Rio Grande Boulevard NW, Los Ranchos de Albuquerque, NM 87107",
+  "lat": 35.14909,
+  "lng": -106.66655,
+  "geo_confidence": "high",
+  "cost": {
+   "mode": "quote",
+   "summary": "Quote",
+   "basis": "Room rates were not readable, but event fees are published: La Quinta Cultural Center is \"$2,500 site fee plus $4,000 food and beverage minimum\" Thursday-Saturday, with a 25% service charge on all food and beverage; Barn Commons is $650 plus a $500 F&B minimum. Add roughly 46 rooms of lodging on top.",
+   "hint": "La Quinta Cultural Center: $2,500 site fee plus $4,000 F&B minimum Thu-Sat, 25% service charge",
+   "hint_url": "https://lospoblanos.com/special-events/meetings-corporate-events",
+   "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events",
+   "source_label": "Los Poblanos meetings & corporate events",
+   "confidence": "low",
+   "short": "Quote"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-28",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events"
+   },
+   {
+    "weekend": "2026-10-23",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://lospoblanos.com/special-events/meetings-corporate-events"
+   }
+  ],
+  "availabilityNotes": "See the venue notes; no dated group availability is published.",
+  "checkedOn": "2026-08-27",
+  "verified": {
+   "checkedOn": "2026-08-27",
+   "method": "Los Poblanos books rooms through an Agilysys system with no queryable date URL; the meetings page publishes space capacities and fees but no dated availability.",
+   "bookingPolicy": "See the venue notes; no dated group availability is published.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://lospoblanos.com/special-events/meetings-corporate-events",
+     "sourceLabel": "Los Poblanos meetings & corporate events"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://lospoblanos.com/special-events/meetings-corporate-events",
+     "sourceLabel": "Los Poblanos meetings & corporate events"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://lospoblanos.com/special-events/meetings-corporate-events",
+     "sourceLabel": "Los Poblanos meetings & corporate events"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://lospoblanos.com/special-events/meetings-corporate-events",
+     "sourceLabel": "Los Poblanos meetings & corporate events"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://lospoblanos.com/special-events/meetings-corporate-events",
+     "sourceLabel": "Los Poblanos meetings & corporate events"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://lospoblanos.com/special-events/meetings-corporate-events",
+     "sourceLabel": "Los Poblanos meetings & corporate events"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://lospoblanos.com/special-events/meetings-corporate-events",
+     "sourceLabel": "Los Poblanos meetings & corporate events"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://lospoblanos.com/special-events/meetings-corporate-events",
+     "sourceLabel": "Los Poblanos meetings & corporate events"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://lospoblanos.com/special-events/meetings-corporate-events",
+     "sourceLabel": "Los Poblanos meetings & corporate events"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://lospoblanos.com/special-events/meetings-corporate-events",
+     "sourceLabel": "Los Poblanos meetings & corporate events"
+    }
+   ]
+  },
+  "thumb": "images/los-poblanos/thumb.jpg",
+  "images": [
+   {
+    "file": "images/los-poblanos/01.jpg",
+    "w": 1600,
+    "h": 528,
+    "caption": "Guest room in the Meem house",
+    "credit": "Los Poblanos (official site)",
+    "source": "https://lospoblanos.com/"
+   },
+   {
+    "file": "images/los-poblanos/02.jpg",
+    "w": 1600,
+    "h": 528,
+    "caption": "The portal along the fields",
+    "credit": "Los Poblanos (official site)",
+    "source": "https://lospoblanos.com/"
+   },
+   {
+    "file": "images/los-poblanos/03.jpg",
+    "w": 1600,
+    "h": 425,
+    "caption": "Accommodations across the 25-acre farm",
+    "credit": "Los Poblanos (official site)",
+    "source": "https://lospoblanos.com/"
+   },
+   {
+    "file": "images/los-poblanos/04.jpg",
+    "w": 1600,
+    "h": 528,
+    "caption": "The event lawn",
+    "credit": "Los Poblanos (official site)",
+    "source": "https://lospoblanos.com/"
+   },
+   {
+    "file": "images/los-poblanos/05.jpg",
+    "w": 1600,
+    "h": 528,
+    "caption": "Frescoed interior at La Quinta",
+    "credit": "Los Poblanos (official site)",
+    "source": "https://lospoblanos.com/"
+   },
+   {
+    "file": "images/los-poblanos/06.jpg",
+    "w": 1600,
+    "h": 528,
+    "caption": "Field-to-fork dining at Campo",
+    "credit": "Los Poblanos (official site)",
+    "source": "https://lospoblanos.com/"
+   }
+  ]
+ },
+ {
+  "id": "mcmenamins-edgefield",
+  "name": "McMenamins Edgefield",
+  "tier": "C",
+  "region": "west",
+  "subtitle": "1911 county poor farm turned 74-acre village",
+  "area": "Troutdale, OR (Portland)",
+  "airport": "PDX · 20 min / 12 mi",
+  "flights": "Nonstop SFO–PDX on United and Alaska; nonstop OAK–PDX on Alaska and Southwest (year-round)",
+  "drive": "",
+  "sleeps": "Over 100 guestrooms and hostel beds in the main building; many rooms share bathrooms down the hall",
+  "meeting": "Blackberry Hall (225), Ballroom (128), Attic (100), Barley Room (40), Mt. Hood Room (24), Study (15), Red Fox and Vintners Rooms (12 each)",
+  "buyout": "No — Edgefield runs as a public property with concerts, bars and a soaking pool open to non-guests",
+  "why": "A 1911 poor farm rebuilt into a 74-acre village of gardens, murals, a brewery, a distillery, a winery, a movie theatre and a spring-fed soaking pool. Genuinely singular, and fifteen to twenty minutes from PDX.",
+  "watch": "The big one: you cannot have it to yourselves, and a lot of the rooms have shared bathrooms. Summer concerts on the lawn. Charming rather than beautiful, and no group availability is published.",
+  "phone": "(503) 492-2777",
+  "email": "",
+  "website": "https://www.mcmenamins.com/edgefield",
+  "booking": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+  "note": "Research note: included for the architecture and the airport proximity, not as a serious buyout candidate. No dated availability evidence was found.",
+  "tierLabel": "Tier C",
+  "address": "2126 SW Halsey Street, Troutdale, OR 97060",
+  "lat": 45.53708,
+  "lng": -122.40686,
+  "geo_confidence": "high",
+  "cost": {
+   "mode": "quote",
+   "summary": "Quote",
+   "basis": "McMenamins publishes room capacities but no rates, and notes only that there is \"No additional room rental fee once the food and beverage minimum is reached.\" Edgefield rooms are among the cheapest on this list, but it does not sell exclusive use.",
+   "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+   "source_label": "McMenamins Edgefield meetings",
+   "confidence": "low",
+   "short": "Quote"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-28",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield"
+   },
+   {
+    "weekend": "2026-10-23",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://www.mcmenamins.com/private-events/meetings/edgefield"
+   }
+  ],
+  "availabilityNotes": "See the venue notes; no dated group availability is published.",
+  "checkedOn": "2026-08-27",
+  "verified": {
+   "checkedOn": "2026-08-27",
+   "method": "McMenamins publishes event-space capacities and an enquiry form but no dated group availability, and Edgefield is a public property that does not sell exclusive use.",
+   "bookingPolicy": "See the venue notes; no dated group availability is published.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+     "sourceLabel": "McMenamins Edgefield meetings"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+     "sourceLabel": "McMenamins Edgefield meetings"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+     "sourceLabel": "McMenamins Edgefield meetings"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+     "sourceLabel": "McMenamins Edgefield meetings"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+     "sourceLabel": "McMenamins Edgefield meetings"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+     "sourceLabel": "McMenamins Edgefield meetings"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+     "sourceLabel": "McMenamins Edgefield meetings"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+     "sourceLabel": "McMenamins Edgefield meetings"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+     "sourceLabel": "McMenamins Edgefield meetings"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://www.mcmenamins.com/private-events/meetings/edgefield",
+     "sourceLabel": "McMenamins Edgefield meetings"
+    }
+   ]
+  },
+  "thumb": "images/mcmenamins-edgefield/thumb.jpg",
+  "images": [
+   {
+    "file": "images/mcmenamins-edgefield/01.jpg",
+    "w": 1600,
+    "h": 437,
+    "caption": "The 1911 manor at sunset",
+    "credit": "McMenamins Edgefield (official site)",
+    "source": "https://www.mcmenamins.com/edgefield"
+   },
+   {
+    "file": "images/mcmenamins-edgefield/02.jpg",
+    "w": 1600,
+    "h": 688,
+    "caption": "The spring-fed soaking pool",
+    "credit": "McMenamins Edgefield (official site)",
+    "source": "https://www.mcmenamins.com/edgefield"
+   },
+   {
+    "file": "images/mcmenamins-edgefield/03.jpg",
+    "w": 1600,
+    "h": 437,
+    "caption": "Guest room in the main building",
+    "credit": "McMenamins Edgefield (official site)",
+    "source": "https://www.mcmenamins.com/edgefield"
+   },
+   {
+    "file": "images/mcmenamins-edgefield/04.jpg",
+    "w": 1440,
+    "h": 960,
+    "caption": "Attic room under the eaves",
+    "credit": "McMenamins Edgefield (official site)",
+    "source": "https://www.mcmenamins.com/edgefield"
+   },
+   {
+    "file": "images/mcmenamins-edgefield/05.jpg",
+    "w": 1600,
+    "h": 468,
+    "caption": "Tables in the orchard",
+    "credit": "McMenamins Edgefield (official site)",
+    "source": "https://www.mcmenamins.com/edgefield"
+   }
+  ]
+ },
+ {
+  "id": "sycamore-mineral-springs",
+  "name": "Sycamore Mineral Springs",
+  "tier": "C",
+  "region": "west",
+  "subtitle": "74 rooms with private mineral tubs, free group shuttle",
+  "area": "Avila Valley, San Luis Obispo, CA",
+  "airport": "SBP · 17 min / 7 mi — \"The Shuttle is available free of charge for groups at scheduled times\"",
+  "flights": "Nonstop SFO–SBP on United (year-round)",
+  "drive": "",
+  "sleeps": "74 guest rooms and suites, each with a private mineral tub, plus a three-bedroom guesthouse — 60 people fits easily",
+  "meeting": "Meeting rooms and outdoor sites across 100 wooded acres",
+  "buyout": "Ask; at 74 rooms a 60-person group is most of the property",
+  "why": "The logistics are the best on this list after Cedarbrook: eight miles from SBP, a free group shuttle, 100 oak-covered acres, and every room has its own hot mineral tub on the balcony. Nonstop from SFO.",
+  "watch": "Honest caveat: this is the one venue here that does not clear the aesthetic bar. The rooms and public spaces read dated — comfortable, not beautiful. It's on the list for the airport-and-shuttle combination, and because the hillside tubs are lovely at night.",
+  "phone": "(805) 595-7302",
+  "email": "",
+  "website": "https://sycamoresprings.com/",
+  "booking": "https://sycamoresprings.com/",
+  "note": "Research note: availability was not verifiable — the resort does not expose a queryable booking engine. The free group shuttle is the reason it stayed on the list.",
+  "tierLabel": "Tier C",
+  "address": "1215 Avila Beach Drive, San Luis Obispo, CA 93405",
+  "lat": 35.18667,
+  "lng": -120.71409,
+  "geo_confidence": "high",
+  "cost": {
+   "mode": "quote",
+   "summary": "Quote",
+   "basis": "No queryable booking engine and no published group rate sheet; the resort quotes group and meeting packages directly.",
+   "source_url": "https://sycamoresprings.com/",
+   "source_label": "Sycamore Mineral Springs Resort",
+   "confidence": "low",
+   "short": "Quote"
+  },
+  "availability": [
+   {
+    "weekend": "2026-08-28",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://sycamoresprings.com/"
+   },
+   {
+    "weekend": "2026-09-04",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://sycamoresprings.com/"
+   },
+   {
+    "weekend": "2026-09-11",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://sycamoresprings.com/"
+   },
+   {
+    "weekend": "2026-09-18",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://sycamoresprings.com/"
+   },
+   {
+    "weekend": "2026-09-25",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://sycamoresprings.com/"
+   },
+   {
+    "weekend": "2026-10-02",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://sycamoresprings.com/"
+   },
+   {
+    "weekend": "2026-10-09",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://sycamoresprings.com/"
+   },
+   {
+    "weekend": "2026-10-16",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://sycamoresprings.com/"
+   },
+   {
+    "weekend": "2026-10-23",
+    "status": "unknown",
+    "evidence": "No dated public availability was found for this weekend.",
+    "source_url": "https://sycamoresprings.com/"
+   }
+  ],
+  "availabilityNotes": "See the venue notes; no dated group availability is published.",
+  "checkedOn": "2026-08-27",
+  "verified": {
+   "checkedOn": "2026-08-27",
+   "method": "The resort does not expose a booking engine that can be queried by date from a URL, so no dated availability could be read for any weekend.",
+   "bookingPolicy": "See the venue notes; no dated group availability is published.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://sycamoresprings.com/",
+     "sourceLabel": "Sycamore Mineral Springs Resort"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://sycamoresprings.com/",
+     "sourceLabel": "Sycamore Mineral Springs Resort"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://sycamoresprings.com/",
+     "sourceLabel": "Sycamore Mineral Springs Resort"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://sycamoresprings.com/",
+     "sourceLabel": "Sycamore Mineral Springs Resort"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://sycamoresprings.com/",
+     "sourceLabel": "Sycamore Mineral Springs Resort"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://sycamoresprings.com/",
+     "sourceLabel": "Sycamore Mineral Springs Resort"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://sycamoresprings.com/",
+     "sourceLabel": "Sycamore Mineral Springs Resort"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://sycamoresprings.com/",
+     "sourceLabel": "Sycamore Mineral Springs Resort"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://sycamoresprings.com/",
+     "sourceLabel": "Sycamore Mineral Springs Resort"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "unknown",
+     "evidence": "No dated public availability was found for this weekend.",
+     "quote": "",
+     "sourceUrl": "https://sycamoresprings.com/",
+     "sourceLabel": "Sycamore Mineral Springs Resort"
+    }
+   ]
+  },
+  "thumb": "images/sycamore-mineral-springs/thumb.jpg",
+  "images": [
+   {
+    "file": "images/sycamore-mineral-springs/01.jpg",
+    "w": 1600,
+    "h": 817,
+    "caption": "Footbridge into the oak canyon",
+    "credit": "Sycamore Mineral Springs Resort (official site)",
+    "source": "https://sycamoresprings.com/"
+   },
+   {
+    "file": "images/sycamore-mineral-springs/02.jpg",
+    "w": 1080,
+    "h": 1150,
+    "caption": "The grotto mineral pool",
+    "credit": "Sycamore Mineral Springs Resort (official site)",
+    "source": "https://sycamoresprings.com/"
+   },
+   {
+    "file": "images/sycamore-mineral-springs/03.jpg",
+    "w": 1080,
+    "h": 1150,
+    "caption": "The swimming pool",
+    "credit": "Sycamore Mineral Springs Resort (official site)",
+    "source": "https://sycamoresprings.com/"
+   },
+   {
+    "file": "images/sycamore-mineral-springs/04.jpg",
+    "w": 1600,
+    "h": 1064,
+    "caption": "Two-story suite",
+    "credit": "Sycamore Mineral Springs Resort (official site)",
+    "source": "https://sycamoresprings.com/"
+   }
+  ]
  }
 ];
