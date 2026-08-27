@@ -91,57 +91,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "No public availability calendar: the retreats page says to 'check the calendar below' for building reservations, but no calendar renders on the page (checked in a real browser). Inquire by email to retreats@stdorothysrest.org with group name/size/desired buildings; office hours Tue–Fri 10–5. Building minimums: Lydia 8, Farmer 8, Main 7, Miriam none; entire facility 65+ (another paragraph says 68+). Meals require 12+ people; dorm bedding costs extra. Labor Day weekend 2026 (Sep 4–7) is taken by the venue's own Artists & Writers Fall Retreat.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/st-dorothys-rest/thumb.jpg",
-  "images": [
-   {
-    "file": "images/st-dorothys-rest/01.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Redwood chapel with bell tower among the redwoods",
-    "credit": "St. Dorothy's Rest (official site)",
-    "source": "https://www.saintdorothysrest.org/"
-   },
-   {
-    "file": "images/st-dorothys-rest/02.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Main House, the 1901 shingled lodge",
-    "credit": "St. Dorothy's Rest (official site)",
-    "source": "https://www.saintdorothysrest.org/retreats"
-   },
-   {
-    "file": "images/st-dorothys-rest/03.jpg",
-    "w": 1600,
-    "h": 2125,
-    "caption": "Guest building and deck in the redwoods at sunset",
-    "credit": "St. Dorothy's Rest (official site)",
-    "source": "https://www.saintdorothysrest.org/retreats"
-   },
-   {
-    "file": "images/st-dorothys-rest/04.jpg",
-    "w": 1600,
-    "h": 1225,
-    "caption": "Covered porch looking out over the Russian River hills",
-    "credit": "St. Dorothy's Rest (official site)",
-    "source": "https://www.saintdorothysrest.org/retreats"
-   },
-   {
-    "file": "images/st-dorothys-rest/05.jpg",
-    "w": 1024,
-    "h": 592,
-    "caption": "Chapel in afternoon light through the redwoods",
-    "credit": "St. Dorothy's Rest (official site)",
-    "source": "https://www.saintdorothysrest.org/about-us"
-   },
-   {
-    "file": "images/st-dorothys-rest/06.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Ridge view from the property at dusk",
-    "credit": "St. Dorothy's Rest (official site)",
-    "source": "https://www.saintdorothysrest.org/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched the retreats page twice (curl and a real browser render) plus the home, events, book-online and FAQ pages, and walked both Wix sitemaps (pages-sitemap.xml, event-pages-sitemap.xml) to reach every event-detail URL. The retreats page instructs groups to 'check the calendar below', but in a live browser render the page contains no iframe and no calendar widget at all - the embed is missing or broken, so the availability calendar the venue points at is not actually published. The events page lists only spring and early-summer 2026 items (Woods to Waves May 2, Hearts & Hands May 29-31, Camp Comeback June 4-7) and a vague 'Next show coming in September' note for a new music series with no date. The fall event-detail pages in the sitemap (fall-hearts-hands-work-weekend, fall-artists-writers-retreat) resolve to stale 2025 content through the Wix SPA router. The Book Online page is an unconfigured Wix template showing placeholder 'Service Name' items at $19.99, not a working booking engine. Web searches for the venue with 2026 fall dates returned only directory listings (ACA, Yelp, Episcopal Asset Map) with no dated bookings. Nothing dated is published for any of the ten weekends.",
@@ -228,7 +177,58 @@ window.VENUES = [
      "sourceLabel": "St. Dorothy's Rest - Retreats page"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/st-dorothys-rest/01.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Redwood chapel with bell tower among the redwoods",
+    "credit": "St. Dorothy's Rest (official site)",
+    "source": "https://www.saintdorothysrest.org/"
+   },
+   {
+    "file": "images/st-dorothys-rest/02.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Main House, the 1901 shingled lodge",
+    "credit": "St. Dorothy's Rest (official site)",
+    "source": "https://www.saintdorothysrest.org/retreats"
+   },
+   {
+    "file": "images/st-dorothys-rest/03.jpg",
+    "w": 1600,
+    "h": 2125,
+    "caption": "Guest building and deck in the redwoods at sunset",
+    "credit": "St. Dorothy's Rest (official site)",
+    "source": "https://www.saintdorothysrest.org/retreats"
+   },
+   {
+    "file": "images/st-dorothys-rest/04.jpg",
+    "w": 1600,
+    "h": 1225,
+    "caption": "Covered porch looking out over the Russian River hills",
+    "credit": "St. Dorothy's Rest (official site)",
+    "source": "https://www.saintdorothysrest.org/retreats"
+   },
+   {
+    "file": "images/st-dorothys-rest/05.jpg",
+    "w": 1024,
+    "h": 592,
+    "caption": "Chapel in afternoon light through the redwoods",
+    "credit": "St. Dorothy's Rest (official site)",
+    "source": "https://www.saintdorothysrest.org/about-us"
+   },
+   {
+    "file": "images/st-dorothys-rest/06.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Ridge view from the property at dusk",
+    "credit": "St. Dorothy's Rest (official site)",
+    "source": "https://www.saintdorothysrest.org/"
+   }
+  ],
+  "thumb": "images/st-dorothys-rest/thumb.jpg"
  },
  {
   "id": "green-mountain-retreat",
@@ -320,57 +320,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "No public availability calendar or booking engine; availability is only confirmed through the quote form or by phone (669-269-8811, Mon–Fri 9–5). WeddingWire listing notes 2026 dates open for booking since Jan 2025. No public events naming the venue were found for Aug–Oct 2026 (the only dated 2026 retreat found in search, an ACC 'Labor Day Retreat' Sep 4–7, is held in Lake Arrowhead, not here).",
   "checkedOn": "2026-08-21",
-  "thumb": "images/green-mountain-retreat/thumb.jpg",
-  "images": [
-   {
-    "file": "images/green-mountain-retreat/01.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Labyrinth on the front lawn with the white stucco main building behind",
-    "credit": "Green Mountain Retreat (official site)",
-    "source": "https://www.greenmountainretreat.com/retreats"
-   },
-   {
-    "file": "images/green-mountain-retreat/02.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Conference/meeting building in the meadow, redwoods behind",
-    "credit": "Green Mountain Retreat (official site)",
-    "source": "https://www.greenmountainretreat.com/"
-   },
-   {
-    "file": "images/green-mountain-retreat/03.jpg",
-    "w": 1600,
-    "h": 747,
-    "caption": "Redwood amphitheater (panorama)",
-    "credit": "Green Mountain Retreat (official site)",
-    "source": "https://www.greenmountainretreat.com/"
-   },
-   {
-    "file": "images/green-mountain-retreat/04.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Lounge with carved stone fireplace in the main building",
-    "credit": "Green Mountain Retreat (official site)",
-    "source": "https://www.greenmountainretreat.com/"
-   },
-   {
-    "file": "images/green-mountain-retreat/05.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Dining hall (capacity 120, doubles as meeting space)",
-    "credit": "Green Mountain Retreat (official site)",
-    "source": "https://www.greenmountainretreat.com/retreats"
-   },
-   {
-    "file": "images/green-mountain-retreat/06.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Casa cottage with covered porch",
-    "credit": "Green Mountain Retreat (official site)",
-    "source": "https://www.greenmountainretreat.com/lodging"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched the home, retreats and lodging pages (the site is Wix and inquiry-only: no calendar, no booking engine, and the only 'availability' string on the lodging page refers to kitchen availability in the cottages). Because the venue publishes nothing dated, I searched for third-party groups advertising stays there in the window. Two turned up for the same weekend and I fetched both source pages directly at HTTP 200: internationalguitarcamp.com, whose fall camp runs Sept 10-13, 2026 at Green Mountain Retreat ('limited to 20 students', dorm-style rooms in the Pueblo building, meals Thursday evening through Sunday morning by the venue's chefs), and collectiveselfenergy.com/retreats, listing 'Boundaries & Our Parts' with Lissa Rankin, Friday Sept 11 - Sunday Sept 13, 2026, at Green Mountain Retreat Center, with the venue name hyperlinked to greenmountainretreat.com. The same IFS page lists an Oct 30 - Nov 1, 2026 retreat but at Mount Madonna in Watsonville, not here, so it does not affect the Halloween weekend. Nothing dated was found for the other nine weekends.",
@@ -457,7 +406,58 @@ window.VENUES = [
      "sourceLabel": "Green Mountain Retreat - Retreats page"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/green-mountain-retreat/01.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Labyrinth on the front lawn with the white stucco main building behind",
+    "credit": "Green Mountain Retreat (official site)",
+    "source": "https://www.greenmountainretreat.com/retreats"
+   },
+   {
+    "file": "images/green-mountain-retreat/02.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Conference/meeting building in the meadow, redwoods behind",
+    "credit": "Green Mountain Retreat (official site)",
+    "source": "https://www.greenmountainretreat.com/"
+   },
+   {
+    "file": "images/green-mountain-retreat/03.jpg",
+    "w": 1600,
+    "h": 747,
+    "caption": "Redwood amphitheater (panorama)",
+    "credit": "Green Mountain Retreat (official site)",
+    "source": "https://www.greenmountainretreat.com/"
+   },
+   {
+    "file": "images/green-mountain-retreat/04.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Lounge with carved stone fireplace in the main building",
+    "credit": "Green Mountain Retreat (official site)",
+    "source": "https://www.greenmountainretreat.com/"
+   },
+   {
+    "file": "images/green-mountain-retreat/05.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Dining hall (capacity 120, doubles as meeting space)",
+    "credit": "Green Mountain Retreat (official site)",
+    "source": "https://www.greenmountainretreat.com/retreats"
+   },
+   {
+    "file": "images/green-mountain-retreat/06.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Casa cottage with covered porch",
+    "credit": "Green Mountain Retreat (official site)",
+    "source": "https://www.greenmountainretreat.com/lodging"
+   }
+  ],
+  "thumb": "images/green-mountain-retreat/thumb.jpg"
  },
  {
   "id": "westerbeke-ranch",
@@ -550,57 +550,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "No public booking calendar; the rates page says space is often booked far in advance and to contact the office (707-996-7546, Info@WestRanch.com). The site's 'Calendar' page is a stale 2020 list of groups. Two-night minimum for weekend reservations; arrival 4pm, departure 3pm, cabin checkout 10am. Overnight capacity 48 (five cabins), so a 60-person group needs ~12 commuters or day-use guests. Exclusive use = pay room and board for 40 guests; otherwise other groups may share the property. Third-party retreats publicly scheduled at the Ranch in the window: Elise Miller/Marla Apt yoga retreat Fri–Sun Oct 2–4, 2026; a Women's Retreat Oct 19–23 falls just outside the window.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/westerbeke-ranch/thumb.jpg",
-  "images": [
-   {
-    "file": "images/westerbeke-ranch/01.jpg",
-    "w": 800,
-    "h": 460,
-    "caption": "Adobe main house patio with Mexican tile roof and equipale chairs",
-    "credit": "Westerbeke Ranch (official site)",
-    "source": "https://www.thewesterbekeranch.com/explore/gallery/"
-   },
-   {
-    "file": "images/westerbeke-ranch/02.jpg",
-    "w": 800,
-    "h": 507,
-    "caption": "Pool and main house from the lawn under the oaks",
-    "credit": "Westerbeke Ranch (official site)",
-    "source": "https://www.thewesterbekeranch.com/explore/gallery/"
-   },
-   {
-    "file": "images/westerbeke-ranch/03.jpg",
-    "w": 800,
-    "h": 531,
-    "caption": "Dining room with stone fireplace and papel picado",
-    "credit": "Westerbeke Ranch (official site)",
-    "source": "https://www.thewesterbekeranch.com/explore/gallery/"
-   },
-   {
-    "file": "images/westerbeke-ranch/04.jpg",
-    "w": 800,
-    "h": 413,
-    "caption": "Casa Nueva meeting room set for a meditation retreat",
-    "credit": "Westerbeke Ranch (official site)",
-    "source": "https://www.thewesterbekeranch.com/explore/gallery/"
-   },
-   {
-    "file": "images/westerbeke-ranch/05.jpg",
-    "w": 800,
-    "h": 533,
-    "caption": "Yellow guest cabin with porch",
-    "credit": "Westerbeke Ranch (official site)",
-    "source": "https://www.thewesterbekeranch.com/yourstay/cabins/"
-   },
-   {
-    "file": "images/westerbeke-ranch/06.jpg",
-    "w": 800,
-    "h": 515,
-    "caption": "The Round House meeting room",
-    "credit": "Westerbeke Ranch (official site)",
-    "source": "https://www.thewesterbekeranch.com/explore/gallery/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched the home, Special Events, Event Details and Rates & Resources pages. The ranch publishes no availability calendar for 2026: its rates page says space books far in advance and to phone the office, and the one calendar it does have (thewesterbekeranch.com/about/calendar/, not linked from the main nav) is abandoned - it lists 'Groups at Westerbeke Ranch' month by month for 2020 and 2021 only, and its WordPress shortcodes render as raw [spb_row] text. So I searched for outside groups advertising stays there and fetched each source directly. Two are dated inside the window: a yoga retreat with Elise Miller and Marla Apt, Oct 2-4, 2026, and Productive Learning's Women's Retreat, Oct 19-23, 2026. A third result, WITHIN Meditation's weekend retreat at Westerbeke, is stale - it is dated April 14-16, 2023. Nothing dated was found for the eight other weekends.",
@@ -687,7 +636,58 @@ window.VENUES = [
      "sourceLabel": "Westerbeke Ranch - Rates & Resources"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/westerbeke-ranch/01.jpg",
+    "w": 800,
+    "h": 460,
+    "caption": "Adobe main house patio with Mexican tile roof and equipale chairs",
+    "credit": "Westerbeke Ranch (official site)",
+    "source": "https://www.thewesterbekeranch.com/explore/gallery/"
+   },
+   {
+    "file": "images/westerbeke-ranch/02.jpg",
+    "w": 800,
+    "h": 507,
+    "caption": "Pool and main house from the lawn under the oaks",
+    "credit": "Westerbeke Ranch (official site)",
+    "source": "https://www.thewesterbekeranch.com/explore/gallery/"
+   },
+   {
+    "file": "images/westerbeke-ranch/03.jpg",
+    "w": 800,
+    "h": 531,
+    "caption": "Dining room with stone fireplace and papel picado",
+    "credit": "Westerbeke Ranch (official site)",
+    "source": "https://www.thewesterbekeranch.com/explore/gallery/"
+   },
+   {
+    "file": "images/westerbeke-ranch/04.jpg",
+    "w": 800,
+    "h": 413,
+    "caption": "Casa Nueva meeting room set for a meditation retreat",
+    "credit": "Westerbeke Ranch (official site)",
+    "source": "https://www.thewesterbekeranch.com/explore/gallery/"
+   },
+   {
+    "file": "images/westerbeke-ranch/05.jpg",
+    "w": 800,
+    "h": 533,
+    "caption": "Yellow guest cabin with porch",
+    "credit": "Westerbeke Ranch (official site)",
+    "source": "https://www.thewesterbekeranch.com/yourstay/cabins/"
+   },
+   {
+    "file": "images/westerbeke-ranch/06.jpg",
+    "w": 800,
+    "h": 515,
+    "caption": "The Round House meeting room",
+    "credit": "Westerbeke Ranch (official site)",
+    "source": "https://www.thewesterbekeranch.com/explore/gallery/"
+   }
+  ],
+  "thumb": "images/westerbeke-ranch/thumb.jpg"
  },
  {
   "id": "waterfall-lodge",
@@ -781,57 +781,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "No public availability calendar; tours and pricing are by inquiry (hello@waterfallsantacruz.com, replies Mon–Fri), and the old 17hats tour scheduler has been removed. Cabins are rented only to guests of events on the property (no individual cabin rentals). Bookings are full-property or partial buyouts with a 16-cabin minimum; Fri–Sun two-day packages are standard and single-day events are not offered on Fridays or Saturdays (per the venue rate sheet). Overnight capacity is 86–89 across 33 cabins plus two lodge bedrooms; 150 day guests. Rainy-season events (Nov–Mar) are limited to 60 guests. Primarily a wedding venue, so fall Saturdays are likely to be taken first.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/waterfall-lodge/thumb.jpg",
-  "images": [
-   {
-    "file": "images/waterfall-lodge/01.jpg",
-    "w": 1600,
-    "h": 1069,
-    "caption": "The reclaimed-barnwood lodge and paver courtyard",
-    "credit": "Waterfall Lodge & Retreat (official site)",
-    "source": "https://www.waterfallsantacruz.com/virtual-tour/lodge"
-   },
-   {
-    "file": "images/waterfall-lodge/02.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "A-frame cabins on stilts in the redwoods",
-    "credit": "Waterfall Lodge & Retreat (official site)",
-    "source": "https://www.waterfallsantacruz.com/"
-   },
-   {
-    "file": "images/waterfall-lodge/03.jpg",
-    "w": 1600,
-    "h": 1069,
-    "caption": "Lodge interior: open timber-frame hall",
-    "credit": "Waterfall Lodge & Retreat (official site)",
-    "source": "https://www.waterfallsantacruz.com/virtual-tour/lodge"
-   },
-   {
-    "file": "images/waterfall-lodge/04.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Redwood grove ceremony/gathering site",
-    "credit": "Waterfall Lodge & Retreat (official site)",
-    "source": "https://www.waterfallsantacruz.com/"
-   },
-   {
-    "file": "images/waterfall-lodge/05.jpg",
-    "w": 1600,
-    "h": 1069,
-    "caption": "Lodge side entrance and stone patio",
-    "credit": "Waterfall Lodge & Retreat (official site)",
-    "source": "https://www.waterfallsantacruz.com/virtual-tour/lodge"
-   },
-   {
-    "file": "images/waterfall-lodge/06.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Outdoor gathering clearing in the redwoods (aerial)",
-    "credit": "Waterfall Lodge & Retreat (official site)",
-    "source": "https://www.waterfallsantacruz.com/virtual-tour/ceremonylocations"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched the home, corporate, cabins and weddings pages and checked each for a booking or availability widget; there is none. The only date inputs on the site are inside the contact/inquiry form, the /cart route is an unused Squarespace commerce stub, and the site publishes no events calendar. The corporate page lays out two booking modes ('The Full Property' and 'The Redwood Meadow', the latter marked 'New for 2028' and day-use only) and then asks you to describe your group rather than pick dates. I then searched third-party wedding directories and press for dated 2026 bookings. A search summary claimed a peak season of 'October 16 - November 23', but when I fetched the Wedding Spot listing itself that claim was not on the page - it only says to reach out for current pricing, packages and availability - so I discarded it rather than pass on an unverified seasonality. No dated booking, event or closure was found for any of the ten weekends.",
@@ -918,7 +867,58 @@ window.VENUES = [
      "sourceLabel": "Waterfall Lodge & Retreat - Corporate page"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/waterfall-lodge/01.jpg",
+    "w": 1600,
+    "h": 1069,
+    "caption": "The reclaimed-barnwood lodge and paver courtyard",
+    "credit": "Waterfall Lodge & Retreat (official site)",
+    "source": "https://www.waterfallsantacruz.com/virtual-tour/lodge"
+   },
+   {
+    "file": "images/waterfall-lodge/02.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "A-frame cabins on stilts in the redwoods",
+    "credit": "Waterfall Lodge & Retreat (official site)",
+    "source": "https://www.waterfallsantacruz.com/"
+   },
+   {
+    "file": "images/waterfall-lodge/03.jpg",
+    "w": 1600,
+    "h": 1069,
+    "caption": "Lodge interior: open timber-frame hall",
+    "credit": "Waterfall Lodge & Retreat (official site)",
+    "source": "https://www.waterfallsantacruz.com/virtual-tour/lodge"
+   },
+   {
+    "file": "images/waterfall-lodge/04.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Redwood grove ceremony/gathering site",
+    "credit": "Waterfall Lodge & Retreat (official site)",
+    "source": "https://www.waterfallsantacruz.com/"
+   },
+   {
+    "file": "images/waterfall-lodge/05.jpg",
+    "w": 1600,
+    "h": 1069,
+    "caption": "Lodge side entrance and stone patio",
+    "credit": "Waterfall Lodge & Retreat (official site)",
+    "source": "https://www.waterfallsantacruz.com/virtual-tour/lodge"
+   },
+   {
+    "file": "images/waterfall-lodge/06.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Outdoor gathering clearing in the redwoods (aerial)",
+    "credit": "Waterfall Lodge & Retreat (official site)",
+    "source": "https://www.waterfallsantacruz.com/virtual-tour/ceremonylocations"
+   }
+  ],
+  "thumb": "images/waterfall-lodge/thumb.jpg"
  },
  {
   "id": "lodge-at-marconi",
@@ -1011,57 +1011,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Public hotel booking engine (iHotelier) shows nightly availability and lowest rates; group room blocks, buyouts and event space go through a Tripleseat 'Plan Event' inquiry. 45 rooms sleeping up to 100; minimum age 21 to reserve; $38/night experience fee; 48-hour cancellation for standard rates. As of Aug 21, the engine sells rooms through Sep 30 and again from Oct 30 onward, but returns no rooms for any night Oct 1–29 (including midweek), with no reason published (possible closure or full-property buyout). The property's events calendar lists no public events in Sep–Oct; Mable's is closed for a private event Sat Aug 22. Individual-room availability is not the same as a 60-person buyout.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/lodge-at-marconi/thumb.jpg",
-  "images": [
-   {
-    "file": "images/lodge-at-marconi/01.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "Guest lodges and fire circle under the pines",
-    "credit": "Lodge at Marconi (official site)",
-    "source": "https://lodgeatmarconi.com/"
-   },
-   {
-    "file": "images/lodge-at-marconi/02.jpg",
-    "w": 1600,
-    "h": 1198,
-    "caption": "Aerial of the lodge buildings on the hillside above Tomales Bay",
-    "credit": "Lodge at Marconi (official site)",
-    "source": "https://lodgeatmarconi.com/"
-   },
-   {
-    "file": "images/lodge-at-marconi/03.jpg",
-    "w": 1600,
-    "h": 1199,
-    "caption": "Aerial of the 62-acre state historic park and Tomales Bay",
-    "credit": "Lodge at Marconi (official site)",
-    "source": "https://lodgeatmarconi.com/the-park/"
-   },
-   {
-    "file": "images/lodge-at-marconi/04.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "Mable's restaurant dining room",
-    "credit": "Lodge at Marconi (official site)",
-    "source": "https://lodgeatmarconi.com/gather/"
-   },
-   {
-    "file": "images/lodge-at-marconi/05.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "Buck Hall event space",
-    "credit": "Lodge at Marconi (official site)",
-    "source": "https://lodgeatmarconi.com/gather/"
-   },
-   {
-    "file": "images/lodge-at-marconi/06.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Outdoor amphitheater benches in the woods",
-    "credit": "Lodge at Marconi (official site)",
-    "source": "https://lodgeatmarconi.com/gather/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "This is the only one of my five venues with a real public booking engine, so it produced hard dated evidence. I drove the Amadeus/iHotelier engine at lodgeatmarconi.ihotelier.com in a browser tab of my own, declined the cookie banner, and read the date picker's own day cells (a flatpickr grid inside a shadow DOM) for August through October 2026, capturing each date's accessible label and disabled state. Every Friday and Saturday in the window is accounted for. The pattern is striking: weekdays and Sundays sit at a flat $327 and stay open all autumn, while Fri/Sat nights are blocked solid from Sept 18 through Oct 24 - seven consecutive weekends - with Sept 5/6 also blocked, and only Aug 28-29, Sept 11-12 and Oct 30-31 sellable. That looks like weekend group business or buyouts already on the books rather than a closure, but the reason is not published anywhere, so it is worth asking the sales office directly. I also checked the venue's own Calendar of Events page in a browser (it renders with no events listed at all) and its ?ical=1 feed (returns an empty body), plus the Gather, Offsites and Hotel Policy pages for group rules.",
@@ -1148,7 +1097,58 @@ window.VENUES = [
      "sourceLabel": "Lodge at Marconi booking engine - date picker"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/lodge-at-marconi/01.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Guest lodges and fire circle under the pines",
+    "credit": "Lodge at Marconi (official site)",
+    "source": "https://lodgeatmarconi.com/"
+   },
+   {
+    "file": "images/lodge-at-marconi/02.jpg",
+    "w": 1600,
+    "h": 1198,
+    "caption": "Aerial of the lodge buildings on the hillside above Tomales Bay",
+    "credit": "Lodge at Marconi (official site)",
+    "source": "https://lodgeatmarconi.com/"
+   },
+   {
+    "file": "images/lodge-at-marconi/03.jpg",
+    "w": 1600,
+    "h": 1199,
+    "caption": "Aerial of the 62-acre state historic park and Tomales Bay",
+    "credit": "Lodge at Marconi (official site)",
+    "source": "https://lodgeatmarconi.com/the-park/"
+   },
+   {
+    "file": "images/lodge-at-marconi/04.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Mable's restaurant dining room",
+    "credit": "Lodge at Marconi (official site)",
+    "source": "https://lodgeatmarconi.com/gather/"
+   },
+   {
+    "file": "images/lodge-at-marconi/05.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Buck Hall event space",
+    "credit": "Lodge at Marconi (official site)",
+    "source": "https://lodgeatmarconi.com/gather/"
+   },
+   {
+    "file": "images/lodge-at-marconi/06.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Outdoor amphitheater benches in the woods",
+    "credit": "Lodge at Marconi (official site)",
+    "source": "https://lodgeatmarconi.com/gather/"
+   }
+  ],
+  "thumb": "images/lodge-at-marconi/thumb.jpg"
  },
  {
   "id": "the-land",
@@ -1241,57 +1241,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Private events are custom-designed 2-4 day immersions quoted via the web inquiry form / info@the-land.us / (707) 485-3117. Guests must be 18+; property is alcohol- and cannabis-free. The corporate page currently says 'We do not host weddings at this time' (the weddings page still describes four weddings a year). The venue runs its own programs (Women's Retreat Sept 24-27, 2026; Winter Retreat 2026-27 dates TBD) and sells personal stays year-round directly or via Airbnb; Eros Monastery programming is paused. No public group-availability calendar.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/the-land/thumb.jpg",
-  "images": [
-   {
-    "file": "images/the-land/01.jpg",
-    "w": 1500,
-    "h": 842,
-    "caption": "Two-story redwood lodge building with green metal roof, set among oaks and redwoods",
-    "credit": "The Land (official site)",
-    "source": "https://the-land.us/corporate-retreats"
-   },
-   {
-    "file": "images/the-land/02.jpg",
-    "w": 1600,
-    "h": 863,
-    "caption": "Aerial view of the Navarro River winding through redwood forest on the property",
-    "credit": "The Land (official site)",
-    "source": "https://the-land.us/"
-   },
-   {
-    "file": "images/the-land/03.jpg",
-    "w": 1200,
-    "h": 1200,
-    "caption": "Dining lodge interior with long tables and stone fireplace",
-    "credit": "The Land (official site)",
-    "source": "https://the-land.us/gallery"
-   },
-   {
-    "file": "images/the-land/04.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Timber-frame practice / meeting hall interior with cushions",
-    "credit": "The Land (official site)",
-    "source": "https://the-land.us/gallery"
-   },
-   {
-    "file": "images/the-land/05.jpg",
-    "w": 1200,
-    "h": 1200,
-    "caption": "Glamping tents under the redwoods",
-    "credit": "The Land (official site)",
-    "source": "https://the-land.us/explore-the-land"
-   },
-   {
-    "file": "images/the-land/06.jpg",
-    "w": 1200,
-    "h": 1198,
-    "caption": "Lodge at dusk with string lights over the outdoor seating area",
-    "credit": "The Land (official site)",
-    "source": "https://the-land.us/gallery"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched the-land.us sitemap.xml and every page on it (home, explore-the-land/Stay, corporate-retreats, visiting, monastery-welcome, womens-retreat, true-north, winter-retreat, unconditional-freedom). The Land publishes no availability calendar, no booking engine and no events listing: the only dated programs anywhere on the site are True North (Aug 6-9, 2026, already past), the Women's Retreat (Sept 24-27, 2026) and a Winter Retreat whose 2026-27 dates are still 'coming soon'. 'Book a Stay' links to the Stay page, which routes to an inquiry form (or Airbnb) rather than a live calendar. Also searched the web for Eros Monastery / The Land programming in Sept-Oct 2026 and checked BookRetreats' organizer page for The Land; neither surfaced any further dated program in the window.",
@@ -1378,7 +1327,58 @@ window.VENUES = [
      "sourceLabel": "The Land — Stay / booking page"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/the-land/01.jpg",
+    "w": 1500,
+    "h": 842,
+    "caption": "Two-story redwood lodge building with green metal roof, set among oaks and redwoods",
+    "credit": "The Land (official site)",
+    "source": "https://the-land.us/corporate-retreats"
+   },
+   {
+    "file": "images/the-land/02.jpg",
+    "w": 1600,
+    "h": 863,
+    "caption": "Aerial view of the Navarro River winding through redwood forest on the property",
+    "credit": "The Land (official site)",
+    "source": "https://the-land.us/"
+   },
+   {
+    "file": "images/the-land/03.jpg",
+    "w": 1200,
+    "h": 1200,
+    "caption": "Dining lodge interior with long tables and stone fireplace",
+    "credit": "The Land (official site)",
+    "source": "https://the-land.us/gallery"
+   },
+   {
+    "file": "images/the-land/04.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Timber-frame practice / meeting hall interior with cushions",
+    "credit": "The Land (official site)",
+    "source": "https://the-land.us/gallery"
+   },
+   {
+    "file": "images/the-land/05.jpg",
+    "w": 1200,
+    "h": 1200,
+    "caption": "Glamping tents under the redwoods",
+    "credit": "The Land (official site)",
+    "source": "https://the-land.us/explore-the-land"
+   },
+   {
+    "file": "images/the-land/06.jpg",
+    "w": 1200,
+    "h": 1198,
+    "caption": "Lodge at dusk with string lights over the outdoor seating area",
+    "credit": "The Land (official site)",
+    "source": "https://the-land.us/gallery"
+   }
+  ],
+  "thumb": "images/the-land/thumb.jpg"
  },
  {
   "id": "camp-navarro",
@@ -1473,57 +1473,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Turn-key, quote-only venue that hosts one group at a time; 240-260 beds (32 cabins, 54 glamping units, tents/RV) and permitted to 1,500, so a 60-person group pays for exclusive use of a much larger site. No phone inquiries (web form or inquiry@campnavarroca.com only); not open to individual reservations; typical event is 3 days/2 nights with 5 buffet meals; 2-night lodging minimum; 7.875% sales tax on catering, 11% lodging tax. Home page banner (May 27, 2026 update) says CN has 'select availability throughout the rest of the year' and 'August 25-September 25 is wide open'. Festivals it produces: Camp Redwoods 5 (Aug 21-23, sold out) and Camp Deep End 10 (Sept 25-27).",
   "checkedOn": "2026-08-21",
-  "thumb": "images/camp-navarro/thumb.jpg",
-  "images": [
-   {
-    "file": "images/camp-navarro/01.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "The historic two-story lodge (Great Hall) seen across the main lawn, redwoods behind",
-    "credit": "Camp Navarro (official site)",
-    "source": "https://www.campnavarro.com/photo-gallery"
-   },
-   {
-    "file": "images/camp-navarro/02.jpg",
-    "w": 1600,
-    "h": 1199,
-    "caption": "Aerial view of the plaza, lodge, tent village and the Navarro River",
-    "credit": "Camp Navarro (official site)",
-    "source": "https://www.campnavarro.com/photo-gallery"
-   },
-   {
-    "file": "images/camp-navarro/03.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Cluster of 1930s-era cabins among the redwoods",
-    "credit": "Camp Navarro (official site); photo Colin McCarthy",
-    "source": "https://www.campnavarro.com/photo-gallery"
-   },
-   {
-    "file": "images/camp-navarro/04.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Group meeting circle on benches in the redwood grove",
-    "credit": "Camp Navarro (official site)",
-    "source": "https://www.campnavarro.com/photo-gallery"
-   },
-   {
-    "file": "images/camp-navarro/05.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Cabin interior (the 'Commish' cabin) with wood paneling and French doors",
-    "credit": "Camp Navarro (official site)",
-    "source": "https://www.campnavarro.com/photo-gallery"
-   },
-   {
-    "file": "images/camp-navarro/06.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Glamping tipis set among the redwoods",
-    "credit": "Camp Navarro (official site)",
-    "source": "https://www.campnavarro.com/photo-gallery"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched campnavarro.com home, /events-1, /cn-festivals, /deep-end-home, /deep-end, /campout, /halloween, /inquiryrequest, /policies and everything in campnavarro.com/sitemap.xml, plus all 34 URLs in campnavarropresents.com/sitemap.xml (their per-client landing pages) looking for dated 2026 bookings. The home page carries a dated 'May 27th Availability Update' that is the single most useful public statement about this window. Three dated third-party events on the property were found and verified by fetching the organisers' own sites: Camp Deep End 10 (Sept 25-27), Reboot / YC Alumni Retreat (Oct 1-4) and The Reunion (Oct 8-11). Camp Redwoods 5 (Aug 21-23, sold out) falls just before the window. The /upcoming-events URL that appears in search results returns 404, and experiences.campnavarro.com (their ticketing host) returns 403 to non-browser clients.",
@@ -1610,7 +1559,58 @@ window.VENUES = [
      "sourceLabel": "Camp Navarro — Halloween page (last updated 2022)"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/camp-navarro/01.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "The historic two-story lodge (Great Hall) seen across the main lawn, redwoods behind",
+    "credit": "Camp Navarro (official site)",
+    "source": "https://www.campnavarro.com/photo-gallery"
+   },
+   {
+    "file": "images/camp-navarro/02.jpg",
+    "w": 1600,
+    "h": 1199,
+    "caption": "Aerial view of the plaza, lodge, tent village and the Navarro River",
+    "credit": "Camp Navarro (official site)",
+    "source": "https://www.campnavarro.com/photo-gallery"
+   },
+   {
+    "file": "images/camp-navarro/03.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Cluster of 1930s-era cabins among the redwoods",
+    "credit": "Camp Navarro (official site); photo Colin McCarthy",
+    "source": "https://www.campnavarro.com/photo-gallery"
+   },
+   {
+    "file": "images/camp-navarro/04.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Group meeting circle on benches in the redwood grove",
+    "credit": "Camp Navarro (official site)",
+    "source": "https://www.campnavarro.com/photo-gallery"
+   },
+   {
+    "file": "images/camp-navarro/05.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Cabin interior (the 'Commish' cabin) with wood paneling and French doors",
+    "credit": "Camp Navarro (official site)",
+    "source": "https://www.campnavarro.com/photo-gallery"
+   },
+   {
+    "file": "images/camp-navarro/06.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Glamping tipis set among the redwoods",
+    "credit": "Camp Navarro (official site)",
+    "source": "https://www.campnavarro.com/photo-gallery"
+   }
+  ],
+  "thumb": "images/camp-navarro/thumb.jpg"
  },
  {
   "id": "enchanted-hills",
@@ -1702,65 +1702,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Off-season rental venue (groups of ~30-150; Forest Commons hall up to 200) owned by LightHouse for the Blind; summer camp for blind/low-vision campers runs mid-June to early August (2026 sessions end Aug 8) with a Fall Family Camp Oct 30-Nov 1, so the nine target weekends all fall in the rental season. Lodging is camp-style (Hillside casitas, Lakeside cabins, lodge dorm rooms, safari tents, yurts) with many shared rooms and bathrooms. Booking is 'subject to availability and confirmation'; inquire via web form or events@lighthouse-sf.org / (707) 261-1101. No public availability calendar.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/enchanted-hills/thumb.jpg",
-  "images": [
-   {
-    "file": "images/enchanted-hills/01.jpg",
-    "w": 1600,
-    "h": 790,
-    "caption": "Forest Commons, the rebuilt modern dining and gathering hall, among redwoods and pines",
-    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
-    "source": "https://enchantedhillsnapa.org/experiences/meetings/"
-   },
-   {
-    "file": "images/enchanted-hills/02.jpg",
-    "w": 1206,
-    "h": 866,
-    "caption": "The camp lake with a paddle boat, surrounded by forest",
-    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
-    "source": "https://enchantedhillsnapa.org/explore/image-gallery/"
-   },
-   {
-    "file": "images/enchanted-hills/03.jpg",
-    "w": 1206,
-    "h": 1037,
-    "caption": "Forest Commons interior set for a dinner, with glass garage-door walls opening to the trees",
-    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
-    "source": "https://enchantedhillsnapa.org/experiences/weddings/"
-   },
-   {
-    "file": "images/enchanted-hills/04.jpg",
-    "w": 1600,
-    "h": 790,
-    "caption": "Large meeting room with conference tables and floor-to-ceiling windows",
-    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
-    "source": "https://enchantedhillsnapa.org/experiences/meetings/"
-   },
-   {
-    "file": "images/enchanted-hills/05.jpg",
-    "w": 1600,
-    "h": 790,
-    "caption": "New cabins (Hillside Village) set on the wooded slope",
-    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
-    "source": "https://enchantedhillsnapa.org/experiences/weddings/"
-   },
-   {
-    "file": "images/enchanted-hills/06.jpg",
-    "w": 1206,
-    "h": 1277,
-    "caption": "Swimming pool with guests",
-    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
-    "source": "https://enchantedhillsnapa.org/experiences/wellness/"
-   },
-   {
-    "file": "images/enchanted-hills/07.jpg",
-    "w": 1205,
-    "h": 701,
-    "caption": "Hillside Village cabins; note the fire-scarred trees behind, regrowing after the 2017 fire",
-    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
-    "source": "https://enchantedhillsnapa.org/enchanted-hills-napa/accommodations/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched enchantedhillsnapa.org (home, /booking/, /booking/events/, /booking/stays/) and, on the operator's site, lighthouse-sf.org's Enchanted Hills Camp page and the full 2026 EHC Sessions and Registration page, which lists every camp session for the year with dates. Enchanted Hills publishes a complete camp-session calendar but no rental availability calendar and no booking engine — both the Stays and Events pages are inquiry forms only. The 2026 session list is the decisive document: it puts every summer session in June-August, one Summer Family Camp Aug 6-8, and exactly one session inside our window, Fall Family Camp Oct 30 - Nov 1. Also searched the web for Enchanted Hills Napa 2026 session dates and October rentals, which surfaced the same session page.",
@@ -1847,7 +1788,66 @@ window.VENUES = [
      "sourceLabel": "LightHouse — 2026 EHC session list (Fall Family Camp)"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/enchanted-hills/01.jpg",
+    "w": 1600,
+    "h": 790,
+    "caption": "Forest Commons, the rebuilt modern dining and gathering hall, among redwoods and pines",
+    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
+    "source": "https://enchantedhillsnapa.org/experiences/meetings/"
+   },
+   {
+    "file": "images/enchanted-hills/02.jpg",
+    "w": 1206,
+    "h": 866,
+    "caption": "The camp lake with a paddle boat, surrounded by forest",
+    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
+    "source": "https://enchantedhillsnapa.org/explore/image-gallery/"
+   },
+   {
+    "file": "images/enchanted-hills/03.jpg",
+    "w": 1206,
+    "h": 1037,
+    "caption": "Forest Commons interior set for a dinner, with glass garage-door walls opening to the trees",
+    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
+    "source": "https://enchantedhillsnapa.org/experiences/weddings/"
+   },
+   {
+    "file": "images/enchanted-hills/04.jpg",
+    "w": 1600,
+    "h": 790,
+    "caption": "Large meeting room with conference tables and floor-to-ceiling windows",
+    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
+    "source": "https://enchantedhillsnapa.org/experiences/meetings/"
+   },
+   {
+    "file": "images/enchanted-hills/05.jpg",
+    "w": 1600,
+    "h": 790,
+    "caption": "New cabins (Hillside Village) set on the wooded slope",
+    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
+    "source": "https://enchantedhillsnapa.org/experiences/weddings/"
+   },
+   {
+    "file": "images/enchanted-hills/06.jpg",
+    "w": 1206,
+    "h": 1277,
+    "caption": "Swimming pool with guests",
+    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
+    "source": "https://enchantedhillsnapa.org/experiences/wellness/"
+   },
+   {
+    "file": "images/enchanted-hills/07.jpg",
+    "w": 1205,
+    "h": 701,
+    "caption": "Hillside Village cabins; note the fire-scarred trees behind, regrowing after the 2017 fire",
+    "credit": "Enchanted Hills Napa / LightHouse for the Blind (official site)",
+    "source": "https://enchantedhillsnapa.org/enchanted-hills-napa/accommodations/"
+   }
+  ],
+  "thumb": "images/enchanted-hills/thumb.jpg"
  },
  {
   "id": "mount-madonna",
@@ -1939,57 +1939,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Group bookings are quoted through hostyourgroup@mountmadonna.org; the Conference Center (33 rooms / 72-74 beds, hall seats 240-250) is the only building that sleeps 60, with overflow in yurts, cabins and glamping tents. MMC runs and hosts multiple programs concurrently and does not publish a group-availability calendar; its public calendar lists hosted programs but not which building they use, so a weekend with a multi-day residential program is treated as booked for a 60-person group. Personal retreats are bookable 48 hours to 60 days ahead. Strictly vegetarian kitchen; Saturday meals are brunch and dinner only.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/mount-madonna/thumb.jpg",
-  "images": [
-   {
-    "file": "images/mount-madonna/01.jpg",
-    "w": 1200,
-    "h": 800,
-    "caption": "Conference Center entrance courtyard and covered pavilion",
-    "credit": "Mount Madonna Center (official site)",
-    "source": "https://mountmadonna.org/host-your-group/"
-   },
-   {
-    "file": "images/mount-madonna/02.jpg",
-    "w": 1600,
-    "h": 896,
-    "caption": "Aerial view of the ridge-top campus with forested hills rolling toward Monterey Bay",
-    "credit": "Mount Madonna Center (official site)",
-    "source": "https://mountmadonna.org/"
-   },
-   {
-    "file": "images/mount-madonna/03.jpg",
-    "w": 1200,
-    "h": 800,
-    "caption": "Large meeting room in the Conference Center set with floor cushions and chairs",
-    "credit": "Mount Madonna Center (official site)",
-    "source": "https://mountmadonna.org/host-your-group/"
-   },
-   {
-    "file": "images/mount-madonna/04.jpg",
-    "w": 1200,
-    "h": 800,
-    "caption": "Conference Center patio with lounge chairs and the view over the forested ridge",
-    "credit": "Mount Madonna Center (official site)",
-    "source": "https://mountmadonna.org/host-your-group/"
-   },
-   {
-    "file": "images/mount-madonna/05.jpg",
-    "w": 1200,
-    "h": 800,
-    "caption": "Seminar House on its hillside among oaks and redwoods",
-    "credit": "Mount Madonna Center (official site)",
-    "source": "https://mountmadonna.org/host-your-group/"
-   },
-   {
-    "file": "images/mount-madonna/06.jpg",
-    "w": 1600,
-    "h": 655,
-    "caption": "Pond and meadow on the campus with Monterey Bay in the distance",
-    "credit": "Mount Madonna Center (official site)",
-    "source": "https://mountmadonna.org/about/our-campus/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Mount Madonna publishes a real, densely populated public calendar at mountmadonna.org/calendar/, tagging outside bookings as 'Hosted Group'. The list is paginated behind a 'Load More' control, so I opened the page in a browser tab I created myself and clicked through to the end, giving all 39 upcoming entries out to late 2027; every October 2026 conflict below comes from that fully-loaded list and was then confirmed on the organiser's own site where the calendar links off-site. The calendar's first page (what curl returns) already contains every September entry plus the Welwood and Henry Shukman retreats, so those quotes are in the raw page; the mid-to-late October entries are only in the loaded list, so I cite the third-party organiser pages or Mount Madonna's own Navaratri page instead. I also read host-your-group for capacity and booking mechanics. Note the calendar lists programs, not room inventory: it shows when the campus is committed, not confirmation that an open weekend can actually take 60 people.",
@@ -2076,7 +2025,58 @@ window.VENUES = [
      "sourceLabel": "Mindful Child & Family — Women in the Wild retreat"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/mount-madonna/01.jpg",
+    "w": 1200,
+    "h": 800,
+    "caption": "Conference Center entrance courtyard and covered pavilion",
+    "credit": "Mount Madonna Center (official site)",
+    "source": "https://mountmadonna.org/host-your-group/"
+   },
+   {
+    "file": "images/mount-madonna/02.jpg",
+    "w": 1600,
+    "h": 896,
+    "caption": "Aerial view of the ridge-top campus with forested hills rolling toward Monterey Bay",
+    "credit": "Mount Madonna Center (official site)",
+    "source": "https://mountmadonna.org/"
+   },
+   {
+    "file": "images/mount-madonna/03.jpg",
+    "w": 1200,
+    "h": 800,
+    "caption": "Large meeting room in the Conference Center set with floor cushions and chairs",
+    "credit": "Mount Madonna Center (official site)",
+    "source": "https://mountmadonna.org/host-your-group/"
+   },
+   {
+    "file": "images/mount-madonna/04.jpg",
+    "w": 1200,
+    "h": 800,
+    "caption": "Conference Center patio with lounge chairs and the view over the forested ridge",
+    "credit": "Mount Madonna Center (official site)",
+    "source": "https://mountmadonna.org/host-your-group/"
+   },
+   {
+    "file": "images/mount-madonna/05.jpg",
+    "w": 1200,
+    "h": 800,
+    "caption": "Seminar House on its hillside among oaks and redwoods",
+    "credit": "Mount Madonna Center (official site)",
+    "source": "https://mountmadonna.org/host-your-group/"
+   },
+   {
+    "file": "images/mount-madonna/06.jpg",
+    "w": 1600,
+    "h": 655,
+    "caption": "Pond and meadow on the campus with Monterey Bay in the distance",
+    "credit": "Mount Madonna Center (official site)",
+    "source": "https://mountmadonna.org/about/our-campus/"
+   }
+  ],
+  "thumb": "images/mount-madonna/thumb.jpg"
  },
  {
   "id": "bishops-ranch",
@@ -2168,57 +2168,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Exclusively hosts nonprofit groups that exist for religious, charitable or community benefit (contact them to see if your organizing entity qualifies); priority booking goes to Exclusive Use groups and recurring groups including Episcopal Diocese of California parishes. Non-exclusive groups are paired with other groups and priced by building. Individual/household weekend retreats are sold only when group space is unused (next one: Sept 4-6, 2026). Lodging for ~80 (Ranch House 15 rooms/28+, Webb Lodge 10 rooms/20+, Harrison House 5/10+, St. Stephen's Cottages 10/20+); Swing Pavilion seats 125. No public availability calendar; inquire via web form, info@bishopsranch.org or 707-433-2440.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/bishops-ranch/thumb.jpg",
-  "images": [
-   {
-    "file": "images/bishops-ranch/01.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "The ivy-covered stone Ranch House, the historic heart of the property",
-    "credit": "The Bishop's Ranch (official site)",
-    "source": "https://www.bishopsranch.org/group-reservations/facilities"
-   },
-   {
-    "file": "images/bishops-ranch/02.jpg",
-    "w": 1600,
-    "h": 899,
-    "caption": "Aerial view of the ranch, pool and oak-studded hills above the Russian River valley",
-    "credit": "The Bishop's Ranch (official site)",
-    "source": "https://www.bishopsranch.org/group-reservations"
-   },
-   {
-    "file": "images/bishops-ranch/03.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "Interior of the large conference hall with wood floor and arched timber ceiling",
-    "credit": "The Bishop's Ranch (official site)",
-    "source": "https://www.bishopsranch.org/group-reservations/facilities"
-   },
-   {
-    "file": "images/bishops-ranch/04.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "The Chapel of St. George on the lawn",
-    "credit": "The Bishop's Ranch (official site)",
-    "source": "https://www.bishopsranch.org/group-reservations/facilities"
-   },
-   {
-    "file": "images/bishops-ranch/05.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "Two-story lodge building with balconies, set among trees",
-    "credit": "The Bishop's Ranch (official site)",
-    "source": "https://www.bishopsranch.org/group-reservations/facilities"
-   },
-   {
-    "file": "images/bishops-ranch/06.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "Cottage living room with fireplace and vaulted ceiling",
-    "credit": "The Bishop's Ranch (official site)",
-    "source": "https://www.bishopsranch.org/group-reservations/facilities"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched bishopsranch.org home, /group-reservations (pricing structure and booking policies), /programs (their own dated public program list) and /experiences/individual-retreats, which is the one page that reveals when the Ranch has spare capacity. Their reservation system is Campwise, but only the registration front end is public — there is no public availability calendar for group bookings. The programs page runs from Aug 31 through Jan 2027 and is the only dated inventory of what the Ranch itself is doing. I also searched for third-party retreats booked at the Ranch in the window and verified one (a Viniyoga retreat, Sept 14-18, Mon-Fri) on the leader's own site; Grace Cathedral's congregation-retreat page returns 403 to non-browser clients so I could not confirm its dates.",
@@ -2305,7 +2254,58 @@ window.VENUES = [
      "sourceLabel": "The Bishop's Ranch — programs (Oct 31 workshop)"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/bishops-ranch/01.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The ivy-covered stone Ranch House, the historic heart of the property",
+    "credit": "The Bishop's Ranch (official site)",
+    "source": "https://www.bishopsranch.org/group-reservations/facilities"
+   },
+   {
+    "file": "images/bishops-ranch/02.jpg",
+    "w": 1600,
+    "h": 899,
+    "caption": "Aerial view of the ranch, pool and oak-studded hills above the Russian River valley",
+    "credit": "The Bishop's Ranch (official site)",
+    "source": "https://www.bishopsranch.org/group-reservations"
+   },
+   {
+    "file": "images/bishops-ranch/03.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Interior of the large conference hall with wood floor and arched timber ceiling",
+    "credit": "The Bishop's Ranch (official site)",
+    "source": "https://www.bishopsranch.org/group-reservations/facilities"
+   },
+   {
+    "file": "images/bishops-ranch/04.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "The Chapel of St. George on the lawn",
+    "credit": "The Bishop's Ranch (official site)",
+    "source": "https://www.bishopsranch.org/group-reservations/facilities"
+   },
+   {
+    "file": "images/bishops-ranch/05.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Two-story lodge building with balconies, set among trees",
+    "credit": "The Bishop's Ranch (official site)",
+    "source": "https://www.bishopsranch.org/group-reservations/facilities"
+   },
+   {
+    "file": "images/bishops-ranch/06.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Cottage living room with fireplace and vaulted ceiling",
+    "credit": "The Bishop's Ranch (official site)",
+    "source": "https://www.bishopsranch.org/group-reservations/facilities"
+   }
+  ],
+  "thumb": "images/bishops-ranch/thumb.jpg"
  },
  {
   "id": "costanoa",
@@ -2399,57 +2399,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Resort (39–40 lodge rooms, 14–24 cabins, 85–93 tent bungalows, plus RV/tent sites) that sells rooms individually year-round; group blocks and buyouts go through sales via the Tripleseat request-proposal form. Online engine may not show all inventory. Check-in 4pm, check-out 11am. Labor Day (Sept 4–7) and Columbus Day (Oct 9–12) are promo-blackout holiday weekends. Statuses below reflect individual-room availability on the public booking calendar, not whether a 60-person block is possible.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/costanoa/thumb.jpg",
-  "images": [
-   {
-    "file": "images/costanoa/01.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "Main lodge exterior and lawn at dusk",
-    "credit": "Costanoa (official site)",
-    "source": "https://www.costanoa.com/stay/lodge/"
-   },
-   {
-    "file": "images/costanoa/02.jpg",
-    "w": 1600,
-    "h": 972,
-    "caption": "Aerial view of the lodge and grounds with the Pacific beyond",
-    "credit": "Costanoa (official site)",
-    "source": "https://www.costanoa.com/event-spaces/"
-   },
-   {
-    "file": "images/costanoa/03.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Mountain-view cabins",
-    "credit": "Costanoa (official site)",
-    "source": "https://www.costanoa.com/stay/cabins/"
-   },
-   {
-    "file": "images/costanoa/04.jpg",
-    "w": 1600,
-    "h": 946,
-    "caption": "Lodge courtyard lit up at night",
-    "credit": "Costanoa (official site)",
-    "source": "https://www.costanoa.com/meetings/"
-   },
-   {
-    "file": "images/costanoa/05.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Tent bungalows (glamping) on the lawn",
-    "credit": "Costanoa (official site)",
-    "source": "https://www.costanoa.com/photos/"
-   },
-   {
-    "file": "images/costanoa/06.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Covered outdoor meeting/dining patio",
-    "credit": "Costanoa (official site)",
-    "source": "https://www.costanoa.com/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Costanoa is a commercial Highway West Vacations resort with a live public booking engine at reservations.costanoa.com/costanoa/, so this venue could be checked far more directly than most. I fetched the marketing pages (costanoa.com home, /meetings/, /event-spaces/, /stay/lodge/) for capacity and group policy, then ran a dated availability search against reservations.costanoa.com/costanoa/availability.asp for each of the ten Fri-Sun windows (2 adults, both nights, HTTP 200 each time). Important parsing caveat I verified before trusting any result: every room card in the response contains BOTH a real price div and a hidden fallback div reading 'Not available for your current dates or guest count', so a naive text scrape reports every room as unavailable. A control query on an ordinary midweek date (11/10-11/12/2026) returned 27 room types with the same hidden fallback text, which proved the fallback is boilerplate. The real signal is which room-type cards the engine returns at all: it lists only types with bookable inventory for the full stay. I also probed adults=60, which is meaningless here - the engine's own error says it cannot accommodate that 'in one room' - so all counts below are from 2-adult searches. Room-type counts are a floor, not a unit count: a listed type means at least one unit is free, not thirty. The engine also shows only transient inventory, so rooms already held in a group block are invisible to it, which cuts both ways.",
@@ -2536,7 +2485,58 @@ window.VENUES = [
      "sourceLabel": "Costanoa booking engine, 10/30-11/01/2026 search"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/costanoa/01.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Main lodge exterior and lawn at dusk",
+    "credit": "Costanoa (official site)",
+    "source": "https://www.costanoa.com/stay/lodge/"
+   },
+   {
+    "file": "images/costanoa/02.jpg",
+    "w": 1600,
+    "h": 972,
+    "caption": "Aerial view of the lodge and grounds with the Pacific beyond",
+    "credit": "Costanoa (official site)",
+    "source": "https://www.costanoa.com/event-spaces/"
+   },
+   {
+    "file": "images/costanoa/03.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Mountain-view cabins",
+    "credit": "Costanoa (official site)",
+    "source": "https://www.costanoa.com/stay/cabins/"
+   },
+   {
+    "file": "images/costanoa/04.jpg",
+    "w": 1600,
+    "h": 946,
+    "caption": "Lodge courtyard lit up at night",
+    "credit": "Costanoa (official site)",
+    "source": "https://www.costanoa.com/meetings/"
+   },
+   {
+    "file": "images/costanoa/05.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Tent bungalows (glamping) on the lawn",
+    "credit": "Costanoa (official site)",
+    "source": "https://www.costanoa.com/photos/"
+   },
+   {
+    "file": "images/costanoa/06.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Covered outdoor meeting/dining patio",
+    "credit": "Costanoa (official site)",
+    "source": "https://www.costanoa.com/"
+   }
+  ],
+  "thumb": "images/costanoa/thumb.jpg"
  },
  {
   "id": "saratoga-springs",
@@ -2630,41 +2630,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Exclusive use of the whole 260-acre site for groups of 20–25+, first-come first-served; group stays of 2–10 nights; weekend weddings run Friday noon to Sunday 2pm. Lodging: main lodge ~28 beds + cabins sleeping 50–80 + camping for 100+ (2 small cabins closed in winter). No public availability calendar; the only 2026 event listed on the site is April 3–5. Hexenfest (the recurring October festival here) still shows 2025 dates with no 2026 announcement.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/saratoga-springs/thumb.jpg",
-  "images": [
-   {
-    "file": "images/saratoga-springs/01.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Historic main lodge under the valley oaks",
-    "credit": "Saratoga Springs Retreat Center (official site)",
-    "source": "https://saratogasprings.com/vintage/"
-   },
-   {
-    "file": "images/saratoga-springs/02.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Main lodge front with double veranda",
-    "credit": "Elacy via Wikipedia, CC BY-SA 3.0",
-    "source": "https://en.wikipedia.org/wiki/File:Saratoge_Springs,_main_lodge.JPG"
-   },
-   {
-    "file": "images/saratoga-springs/03.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Historic guest cabins",
-    "credit": "Elacy via Wikipedia, CC BY-SA 3.0",
-    "source": "https://en.wikipedia.org/wiki/File:Saratoga_Springs_cabins.JPG"
-   },
-   {
-    "file": "images/saratoga-springs/04.jpg",
-    "w": 745,
-    "h": 535,
-    "caption": "Entry drive past the lodge and cabins",
-    "credit": "Lake County Tourism (lakecounty.com)",
-    "source": "https://lakecounty.com/accommodation/saratoga-springs-retreat-and-conference-center/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "saratogasprings.com redirects to a hand-built static site under /vintage/ whose own footer reads 'Site last updated: July 11, 2020'. I walked essentially the whole site: home, sitemap, /retreats/retreats-events.html (their only events page), /rates/rates.html, retreat_facility.html and contact.html, all HTTP 200. There is no booking engine, no availability calendar, no rate card and no group-availability PDF anywhere on the domain - the rates page just says to phone or email for a quote. The events page has been touched more recently than the rest of the site (it lists an April 3-5, 2026 retreat) but names no event after April 2026, so it establishes nothing about September or October. Off-site I checked Yelp, Lake County tourism, winecountry.com, Nextdoor and cityseeker, and searched for 2026 retreats and festivals naming the venue; none carried dated 2026 fall bookings. I specifically chased Hexenfest, the multi-day festival that has occupied a Saratoga Springs October weekend in past years: hexenfest.net is still advertising 'October 9th - 12th, 2025' across its home, tickets, schedule and FAQ pages and has published no 2026 dates. That is a recurrence pattern, not evidence about 2026, so I have not let it move any status. The honest result for this venue is ten unknowns: nothing about fall 2026 occupancy is public.",
@@ -2751,7 +2716,42 @@ window.VENUES = [
      "sourceLabel": "Saratoga Springs Retreats & Events page"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/saratoga-springs/01.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Historic main lodge under the valley oaks",
+    "credit": "Saratoga Springs Retreat Center (official site)",
+    "source": "https://saratogasprings.com/vintage/"
+   },
+   {
+    "file": "images/saratoga-springs/02.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Main lodge front with double veranda",
+    "credit": "Elacy via Wikipedia, CC BY-SA 3.0",
+    "source": "https://en.wikipedia.org/wiki/File:Saratoge_Springs,_main_lodge.JPG"
+   },
+   {
+    "file": "images/saratoga-springs/03.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Historic guest cabins",
+    "credit": "Elacy via Wikipedia, CC BY-SA 3.0",
+    "source": "https://en.wikipedia.org/wiki/File:Saratoga_Springs_cabins.JPG"
+   },
+   {
+    "file": "images/saratoga-springs/04.jpg",
+    "w": 745,
+    "h": 535,
+    "caption": "Entry drive past the lodge and cabins",
+    "credit": "Lake County Tourism (lakecounty.com)",
+    "source": "https://lakecounty.com/accommodation/saratoga-springs-retreat-and-conference-center/"
+   }
+  ],
+  "thumb": "images/saratoga-springs/thumb.jpg"
  },
  {
   "id": "westminster-woods",
@@ -2845,57 +2845,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Hosts guest groups of 20–200. No group rentals in June–July; during the school year guest-group rentals are limited to weekends (Friday–Sunday) because of weekday school programs, so all nine Fri–Sun weekends are in principle eligible. No weddings except Nov–Mar; rarely family reunions. Lodging is mostly dorm cabins (8–10 bunks each) plus three 10–12-person guest houses and a few private-bath rooms; bring sleeping bags, pillows, towels. Inquiry via the group-inquiries form; no public availability calendar.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/westminster-woods/thumb.jpg",
-  "images": [
-   {
-    "file": "images/westminster-woods/01.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "The Woods Inn guest lodge in the redwoods",
-    "credit": "Westminster Woods (official site)",
-    "source": "https://www.westminsterwoods.org/facilities"
-   },
-   {
-    "file": "images/westminster-woods/02.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Homestead lodge exterior",
-    "credit": "Westminster Woods (official site)",
-    "source": "https://www.westminsterwoods.org/facilities"
-   },
-   {
-    "file": "images/westminster-woods/03.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Dorm cabin",
-    "credit": "Westminster Woods (official site)",
-    "source": "https://www.westminsterwoods.org/facilities"
-   },
-   {
-    "file": "images/westminster-woods/04.jpg",
-    "w": 1136,
-    "h": 852,
-    "caption": "Hillside campfire amphitheater",
-    "credit": "Westminster Woods (official site)",
-    "source": "https://www.westminsterwoods.org/facilities"
-   },
-   {
-    "file": "images/westminster-woods/05.jpg",
-    "w": 1600,
-    "h": 946,
-    "caption": "Homestead meeting room with stone fireplace",
-    "credit": "Westminster Woods (official site)",
-    "source": "https://www.westminsterwoods.org/facilities"
-   },
-   {
-    "file": "images/westminster-woods/06.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Meadow and redwoods",
-    "credit": "Westminster Woods (official site)",
-    "source": "https://www.westminsterwoods.org/facilities"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Westminster Woods runs a Squarespace site with a genuinely useful set of programme pages, all fetched at HTTP 200: /guest-groups (rental policy and FAQ), /weekend-retreats (aliased as /retreat-weekends-overview, their public 'Weekend Retreats and Events' listing), /camp-weekend-retreats (the fall camp programme detail), /womens-weekend, /family-camp, /facilities, /programs-2 and /inquire. There is no booking engine and no guest-group availability calendar - enquiries go through /inquire and mark@westminsterwoods.org - but the venue does publish its own fall programme dates, and that turned out to be decisive. Their weekend events listing shows exactly three dated programmes: Women's Weekend 3/12-3/14, Camp Heartwood 10/16-10/18 and Camp Soulspring 11/20-11/22. Neither page prints a year, so I pinned it by weekday: 10/16-18 and 11/20-22 are Fri-Sun only in 2026 (Oct 16 and Nov 20 both fall on a Friday that year; in 2025 and 2027 they do not), and the pages are live in August 2026 describing the coming fall, so these are 2026 dates. That puts one of their own youth programmes squarely on the group's target weekend. The important limitation on everything below: this calendar lists Westminster Woods' OWN programmes only. Guest-group bookings by outside organisations are never published, so a weekend showing clear here can still be taken. I ran web searches for outside groups announcing 2026 retreats at the Woods and found none with dates in this window.",
@@ -2982,7 +2931,58 @@ window.VENUES = [
      "sourceLabel": "Westminster Woods Weekend Retreats and Events listing"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/westminster-woods/01.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "The Woods Inn guest lodge in the redwoods",
+    "credit": "Westminster Woods (official site)",
+    "source": "https://www.westminsterwoods.org/facilities"
+   },
+   {
+    "file": "images/westminster-woods/02.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Homestead lodge exterior",
+    "credit": "Westminster Woods (official site)",
+    "source": "https://www.westminsterwoods.org/facilities"
+   },
+   {
+    "file": "images/westminster-woods/03.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Dorm cabin",
+    "credit": "Westminster Woods (official site)",
+    "source": "https://www.westminsterwoods.org/facilities"
+   },
+   {
+    "file": "images/westminster-woods/04.jpg",
+    "w": 1136,
+    "h": 852,
+    "caption": "Hillside campfire amphitheater",
+    "credit": "Westminster Woods (official site)",
+    "source": "https://www.westminsterwoods.org/facilities"
+   },
+   {
+    "file": "images/westminster-woods/05.jpg",
+    "w": 1600,
+    "h": 946,
+    "caption": "Homestead meeting room with stone fireplace",
+    "credit": "Westminster Woods (official site)",
+    "source": "https://www.westminsterwoods.org/facilities"
+   },
+   {
+    "file": "images/westminster-woods/06.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Meadow and redwoods",
+    "credit": "Westminster Woods (official site)",
+    "source": "https://www.westminsterwoods.org/facilities"
+   }
+  ],
+  "thumb": "images/westminster-woods/thumb.jpg"
  },
  {
   "id": "monte-toyon",
@@ -3074,57 +3074,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Takes groups of 30–146 overnight (Cary Lodge 70 in 19 rooms; Miller 36 + Morris 40 dorm beds), 150 day-use; open to secular and religious groups. No public calendar — UCCR says to inquire early because the camp is popular. WOLF School outdoor-education programs use the site on school weekdays, so weekends are the guest-group window. Exclusive-use rate ($132.95) applies when a group takes the whole site.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/monte-toyon/thumb.jpg",
-  "images": [
-   {
-    "file": "images/monte-toyon/01.jpg",
-    "w": 1600,
-    "h": 1040,
-    "caption": "Cary Lodge among the redwoods",
-    "credit": "UCCR / Monte Toyon (official site)",
-    "source": "https://www.uccr.org/monte-toyon"
-   },
-   {
-    "file": "images/monte-toyon/02.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Dining hall exterior with bell tower",
-    "credit": "UCCR / Monte Toyon (official site)",
-    "source": "https://www.uccr.org/monte-toyon"
-   },
-   {
-    "file": "images/monte-toyon/03.jpg",
-    "w": 1600,
-    "h": 1191,
-    "caption": "Hall interior with wood floor and stone fireplace",
-    "credit": "UCCR / Monte Toyon (official site)",
-    "source": "https://www.uccr.org/monte-toyon"
-   },
-   {
-    "file": "images/monte-toyon/04.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Outdoor amphitheater and fire circle",
-    "credit": "UCCR / Monte Toyon (official site)",
-    "source": "https://www.uccr.org/monte-toyon"
-   },
-   {
-    "file": "images/monte-toyon/05.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Dining hall interior",
-    "credit": "UCCR / Monte Toyon (official site)",
-    "source": "https://www.uccr.org/monte-toyon"
-   },
-   {
-    "file": "images/monte-toyon/06.jpg",
-    "w": 1600,
-    "h": 1492,
-    "caption": "Footbridge over the creek",
-    "credit": "UCCR / Monte Toyon (official site)",
-    "source": "https://www.uccr.org/monte-toyon"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Monte Toyon is run by UCCR (United Camps, Conferences & Retreats), so I worked their Squarespace site first: www.uccr.org/monte-toyon, the /monte-toyon-forms-information/pricing page (which carries 2026 and 2027 pricing PDFs), /inquire, and the UCCR home page, all HTTP 200. UCCR publishes no availability calendar and no booking engine for Monte Toyon - reservations run through reservations@uccr.org and a phone line, and the site's own Availability section just tells you to enquire early. Since the venue itself says nothing dated, the productive angle was the demand side: the guest groups who book it publish their own retreat dates. I searched for churches, fellowships and organisations naming Monte Toyon with 2026 dates, which surfaced one direct hit on my list - First Church Berkeley UCC's Fall All-Church Retreat on exactly the Sept 11-13, 2026 weekend, confirmed by fetching their page (HTTP 200). I also found an Epworth Berkeley retreat there May 1-3, 2026, outside the window. Repeat searches aimed at October 2026 bookings turned up nothing, and I checked Yelp, ACA Camps, UUFRC and the Cal-Nevada UMC conference page without finding further dated 2026 fall bookings. Absence of a second hit is not evidence the other weekends are free - most groups never publish, and UCCR does not - so the remaining nine stay unknown.",
@@ -3211,7 +3160,58 @@ window.VENUES = [
      "sourceLabel": "UCCR Monte Toyon page, Availability section"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/monte-toyon/01.jpg",
+    "w": 1600,
+    "h": 1040,
+    "caption": "Cary Lodge among the redwoods",
+    "credit": "UCCR / Monte Toyon (official site)",
+    "source": "https://www.uccr.org/monte-toyon"
+   },
+   {
+    "file": "images/monte-toyon/02.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Dining hall exterior with bell tower",
+    "credit": "UCCR / Monte Toyon (official site)",
+    "source": "https://www.uccr.org/monte-toyon"
+   },
+   {
+    "file": "images/monte-toyon/03.jpg",
+    "w": 1600,
+    "h": 1191,
+    "caption": "Hall interior with wood floor and stone fireplace",
+    "credit": "UCCR / Monte Toyon (official site)",
+    "source": "https://www.uccr.org/monte-toyon"
+   },
+   {
+    "file": "images/monte-toyon/04.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Outdoor amphitheater and fire circle",
+    "credit": "UCCR / Monte Toyon (official site)",
+    "source": "https://www.uccr.org/monte-toyon"
+   },
+   {
+    "file": "images/monte-toyon/05.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Dining hall interior",
+    "credit": "UCCR / Monte Toyon (official site)",
+    "source": "https://www.uccr.org/monte-toyon"
+   },
+   {
+    "file": "images/monte-toyon/06.jpg",
+    "w": 1600,
+    "h": 1492,
+    "caption": "Footbridge over the creek",
+    "credit": "UCCR / Monte Toyon (official site)",
+    "source": "https://www.uccr.org/monte-toyon"
+   }
+  ],
+  "thumb": "images/monte-toyon/thumb.jpg"
  },
  {
   "id": "vallombrosa",
@@ -3305,57 +3305,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Archdiocese of San Francisco retreat center; hosts groups 'of a religious, educational or charitable nature' (its own letter also mentions secular organizations), up to 100 overnight in 60 private-bath rooms (20 singles, 40 twins). Weekend events run Friday 6pm dinner to Sunday lunch; rooms ready after 4pm Friday; deposits non-refundable but transferable. No public booking calendar — the site's 2026 events calendar is empty ('Watch this page'), and the Archdiocese venue listing shows only a Nov 13–15 retreat.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/vallombrosa/thumb.jpg",
-  "images": [
-   {
-    "file": "images/vallombrosa/01.jpg",
-    "w": 1600,
-    "h": 1062,
-    "caption": "The 1920s mansion, Vallombrosa's main house",
-    "credit": "Vallombrosa Center (official site)",
-    "source": "https://www.vallombrosa.org/mlb_5791_hdr/"
-   },
-   {
-    "file": "images/vallombrosa/02.jpg",
-    "w": 1600,
-    "h": 1063,
-    "caption": "Great oak on the lawn",
-    "credit": "Vallombrosa Center (official site)",
-    "source": "https://www.vallombrosa.org/tour/"
-   },
-   {
-    "file": "images/vallombrosa/03.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Guest-room wing and garden",
-    "credit": "Vallombrosa Center (official site)",
-    "source": "https://www.vallombrosa.org/val1-311/"
-   },
-   {
-    "file": "images/vallombrosa/04.jpg",
-    "w": 1600,
-    "h": 1201,
-    "caption": "East Parlor meeting room",
-    "credit": "Vallombrosa Center (official site)",
-    "source": "https://www.vallombrosa.org/meet-rooms/"
-   },
-   {
-    "file": "images/vallombrosa/05.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Tree-lined entry drive",
-    "credit": "Vallombrosa Center (official site)",
-    "source": "https://www.vallombrosa.org/val1-317/"
-   },
-   {
-    "file": "images/vallombrosa/06.jpg",
-    "w": 1600,
-    "h": 589,
-    "caption": "Front gate on Oak Grove Avenue (wide banner crop)",
-    "credit": "Vallombrosa Center (official site)",
-    "source": "https://www.vallombrosa.org/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Vallombrosa runs a dated WordPress site that does have a Calendar of Events page, so I went straight there and then worked outward: vallombrosa.org home, /calendar/, /retreats-conferences-programs/, /accommodations/, /bookevent/, /rts/ and /inquire/, all HTTP 200. The calendar page is the disappointment - it is fully built out with registration instructions, Eventbrite branding and payment terms, but it currently lists no events whatsoever, closing with 'Watch this page for more events planned in 2026.' An empty calendar of that kind carries no information: it does not show past events either, so silence on a given weekend means the page is simply unmaintained, not that the date is free. There is no booking engine and no published rate card - the rates page just says to phone Jaynie Fedele. I then went to the owner, the Archdiocese of San Francisco, whose sfarch.org events system has a venue page for Vallombrosa Retreat Center. That calendar IS live and does cover this period, but the only event it lists is November 13-15, 2026, outside the window. I also chased third-party groups publishing retreats held at Vallombrosa and found the Balance Center's 'Come Home to Your Original Alignment' retreat, held there January 16-18, 2026 - again outside the window. Both Archdiocesan and third-party calendars show only their own bookings, and ordinary group rentals never appear anywhere public, so all ten weekends are unknown.",
@@ -3442,7 +3391,58 @@ window.VENUES = [
      "sourceLabel": "Vallombrosa Calendar of Events (currently empty)"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/vallombrosa/01.jpg",
+    "w": 1600,
+    "h": 1062,
+    "caption": "The 1920s mansion, Vallombrosa's main house",
+    "credit": "Vallombrosa Center (official site)",
+    "source": "https://www.vallombrosa.org/mlb_5791_hdr/"
+   },
+   {
+    "file": "images/vallombrosa/02.jpg",
+    "w": 1600,
+    "h": 1063,
+    "caption": "Great oak on the lawn",
+    "credit": "Vallombrosa Center (official site)",
+    "source": "https://www.vallombrosa.org/tour/"
+   },
+   {
+    "file": "images/vallombrosa/03.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Guest-room wing and garden",
+    "credit": "Vallombrosa Center (official site)",
+    "source": "https://www.vallombrosa.org/val1-311/"
+   },
+   {
+    "file": "images/vallombrosa/04.jpg",
+    "w": 1600,
+    "h": 1201,
+    "caption": "East Parlor meeting room",
+    "credit": "Vallombrosa Center (official site)",
+    "source": "https://www.vallombrosa.org/meet-rooms/"
+   },
+   {
+    "file": "images/vallombrosa/05.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Tree-lined entry drive",
+    "credit": "Vallombrosa Center (official site)",
+    "source": "https://www.vallombrosa.org/val1-317/"
+   },
+   {
+    "file": "images/vallombrosa/06.jpg",
+    "w": 1600,
+    "h": 589,
+    "caption": "Front gate on Oak Grove Avenue (wide banner crop)",
+    "credit": "Vallombrosa Center (official site)",
+    "source": "https://www.vallombrosa.org/"
+   }
+  ],
+  "thumb": "images/vallombrosa/thumb.jpg"
  },
  {
   "id": "ymca-point-bonita",
@@ -3536,57 +3536,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Overnight packages are offered Friday–Sunday during the school year, plus weekdays from mid-June through Labor Day, for groups of 20+ (day-use Mon–Fri). All nine target weekends are Fri–Sun so all fall inside the policy window, but NatureBridge publishes no availability calendar; dates are confirmed by emailing goldengatereservations@naturebridge.org (415-332-5771). Two campuses (Beach/Fort Cronkhite and Bluff/Point Bonita) sleep up to 200 in shared, gender-separated bunk dorms (main dorms ~60-70 beds each); the Raven building (max 45) is the only self-contained co-ed option. Dorms and dining hall may be shared with other groups. Beer/wine only, in meeting rooms.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/ymca-point-bonita/thumb.jpg",
-  "images": [
-   {
-    "file": "images/ymca-point-bonita/01.jpg",
-    "w": 1400,
-    "h": 800,
-    "caption": "Aerial view of the Point Bonita campus on the Marin Headlands bluff, Golden Gate Bridge and San Francisco skyline beyond",
-    "credit": "YMCA of San Francisco (archived official site, via Wayback Machine)",
-    "source": "http://web.archive.org/web/20210920090616/https://www.ymcasf.org/locations/point-bonita-ymca/visiting-point-bonita"
-   },
-   {
-    "file": "images/ymca-point-bonita/02.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Campus basketball court and green dormitory building among coastal scrub",
-    "credit": "YMCA of San Francisco (archived official site, via Wayback Machine)",
-    "source": "http://web.archive.org/web/20230120113022/https://www.ymcasf.org/locations/point-bonita-ymca"
-   },
-   {
-    "file": "images/ymca-point-bonita/03.jpg",
-    "w": 1600,
-    "h": 701,
-    "caption": "Panorama of the Point Bonita 'Bluff' campus buildings with a rainbow over Rodeo Beach",
-    "credit": "NatureBridge (current operator, official site)",
-    "source": "https://naturebridge.org/locations/golden-gate"
-   },
-   {
-    "file": "images/ymca-point-bonita/04.jpg",
-    "w": 1000,
-    "h": 714,
-    "caption": "Point Bonita dining hall with checkerboard floor and buffet line",
-    "credit": "NatureBridge (current operator, official site)",
-    "source": "https://naturebridge.org/locations/golden-gate"
-   },
-   {
-    "file": "images/ymca-point-bonita/05.jpg",
-    "w": 1200,
-    "h": 800,
-    "caption": "Rodeo Beach surf below the campus",
-    "credit": "YMCA of San Francisco (archived official site, via Wayback Machine)",
-    "source": "http://web.archive.org/web/20230120113022/https://www.ymcasf.org/locations/point-bonita-ymca"
-   },
-   {
-    "file": "images/ymca-point-bonita/06.jpg",
-    "w": 960,
-    "h": 720,
-    "caption": "Hikers on the headlands bluff trail above the Pacific",
-    "credit": "YMCA of San Francisco (archived official site, via Wayback Machine)",
-    "source": "http://web.archive.org/web/20230120113022/https://www.ymcasf.org/locations/point-bonita-ymca"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched the NatureBridge Golden Gate Conference & Retreat Center page (naturebridge.org/retreat-space/golden-gate) in full and read its package, lodging, pricing and FAQ text; fetched naturebridge.org/events and the one listed signature event page to see whether any organization-run event occupies the Marin Headlands campuses this fall (the only listed events are May 7 at Fort Mason and Nov 6 in Seattle); checked the Golden Gate summer/Coastal Camp pages; and ran web searches for third-party retreats, conferences or weddings announced at NatureBridge Golden Gate / Fort Cronkhite / Point Bonita for September and October 2026. NatureBridge publishes NO availability calendar and no booking engine — reservations run entirely through a 'Request Information' form and a reservations team, so no weekend can be dated-confirmed from the public web. What the site does publish is an explicit, unconditional statement of which days are bookable for overnight groups, which covers all ten weekends.",
@@ -3673,7 +3622,58 @@ window.VENUES = [
      "sourceLabel": "NatureBridge Golden Gate Conference & Retreat Center"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/ymca-point-bonita/01.jpg",
+    "w": 1400,
+    "h": 800,
+    "caption": "Aerial view of the Point Bonita campus on the Marin Headlands bluff, Golden Gate Bridge and San Francisco skyline beyond",
+    "credit": "YMCA of San Francisco (archived official site, via Wayback Machine)",
+    "source": "http://web.archive.org/web/20210920090616/https://www.ymcasf.org/locations/point-bonita-ymca/visiting-point-bonita"
+   },
+   {
+    "file": "images/ymca-point-bonita/02.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Campus basketball court and green dormitory building among coastal scrub",
+    "credit": "YMCA of San Francisco (archived official site, via Wayback Machine)",
+    "source": "http://web.archive.org/web/20230120113022/https://www.ymcasf.org/locations/point-bonita-ymca"
+   },
+   {
+    "file": "images/ymca-point-bonita/03.jpg",
+    "w": 1600,
+    "h": 701,
+    "caption": "Panorama of the Point Bonita 'Bluff' campus buildings with a rainbow over Rodeo Beach",
+    "credit": "NatureBridge (current operator, official site)",
+    "source": "https://naturebridge.org/locations/golden-gate"
+   },
+   {
+    "file": "images/ymca-point-bonita/04.jpg",
+    "w": 1000,
+    "h": 714,
+    "caption": "Point Bonita dining hall with checkerboard floor and buffet line",
+    "credit": "NatureBridge (current operator, official site)",
+    "source": "https://naturebridge.org/locations/golden-gate"
+   },
+   {
+    "file": "images/ymca-point-bonita/05.jpg",
+    "w": 1200,
+    "h": 800,
+    "caption": "Rodeo Beach surf below the campus",
+    "credit": "YMCA of San Francisco (archived official site, via Wayback Machine)",
+    "source": "http://web.archive.org/web/20230120113022/https://www.ymcasf.org/locations/point-bonita-ymca"
+   },
+   {
+    "file": "images/ymca-point-bonita/06.jpg",
+    "w": 960,
+    "h": 720,
+    "caption": "Hikers on the headlands bluff trail above the Pacific",
+    "credit": "YMCA of San Francisco (archived official site, via Wayback Machine)",
+    "source": "http://web.archive.org/web/20230120113022/https://www.ymcasf.org/locations/point-bonita-ymca"
+   }
+  ],
+  "thumb": "images/ymca-point-bonita/thumb.jpg"
  },
  {
   "id": "walker-creek-ranch",
@@ -3766,49 +3766,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Run by the Marin County Office of Education. No public availability calendar: FAQ says to email conference admin Jean Parker (jparker@marinschools.org, 415-491-6603) with group size and preferred dates; a contract and deposit secure the reservation. The site serves ~5,000 outdoor-school students a year in week-long (4-5 day) residential programs during the school year, with conference/retreat groups (weddings, reunions, retreats) on other dates; weekends are the normal retreat window but nothing public confirms any specific weekend. Lodging: 4 lodges (82 beds, 2-5 per room, linens included), 13 bunk cabins + 2 bunkhouses (287 beds, bring bedding), camping for 10-200.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/walker-creek-ranch/thumb.jpg",
-  "images": [
-   {
-    "file": "images/walker-creek-ranch/01.jpg",
-    "w": 1529,
-    "h": 1108,
-    "caption": "Spring poppies on the hill trail above the main campus in the Walker Creek valley",
-    "credit": "Walker Creek Ranch (official site)",
-    "source": "https://www.walkercreekranch.org/floor-plans-maps"
-   },
-   {
-    "file": "images/walker-creek-ranch/02.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "The 1,741-acre ranch property with Turtle Pond and the campus buildings in the valley",
-    "credit": "Walker Creek Ranch (official site)",
-    "source": "https://www.walkercreekranch.org/floor-plans-maps"
-   },
-   {
-    "file": "images/walker-creek-ranch/03.jpg",
-    "w": 1600,
-    "h": 1153,
-    "caption": "Willow Lodge meeting room / lounge",
-    "credit": "Walker Creek Ranch (official site)",
-    "source": "https://www.walkercreekranch.org/floor-plans-maps"
-   },
-   {
-    "file": "images/walker-creek-ranch/04.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Lodge guest room with two beds",
-    "credit": "Walker Creek Ranch (official site)",
-    "source": "https://www.walkercreekranch.org/lodging"
-   },
-   {
-    "file": "images/walker-creek-ranch/05.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Rock outcrop on Walker Peak overlooking the West Marin hills",
-    "credit": "Walker Creek Ranch (official site)",
-    "source": "https://www.walkercreekranch.org/plan-your-event-1"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Pulled the Walker Creek Ranch sitemap (three Wix sitemaps) and read every relevant page: home, Plan Your Event, Schedule Your Event, Lodging, Community Events, Forms & FAQ and Learn About Our Program, plus the three PDFs linked from Plan Your Event (Summer 2026 rate sheet, 2025-26 conference pricing, and the bed-by-bed lodging/wedding sheet). None of these contains an availability calendar, a booking engine, or any list of booked dates — the only booked-date information the ranch itself publishes is a 'Upcoming Events' block that currently shows one item, a May community day. I then searched the wider web for events naming Walker Creek Ranch in September and October 2026, which surfaced Walker Creek Music Camp; I fetched that organization's home, registration, schedule and about pages to confirm its Fall 2026 dates and that the camp is residential at the ranch. Everything else is genuinely unknown from the public web.",
@@ -3895,7 +3852,50 @@ window.VENUES = [
      "sourceLabel": "Walker Creek Ranch community events listing"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/walker-creek-ranch/01.jpg",
+    "w": 1529,
+    "h": 1108,
+    "caption": "Spring poppies on the hill trail above the main campus in the Walker Creek valley",
+    "credit": "Walker Creek Ranch (official site)",
+    "source": "https://www.walkercreekranch.org/floor-plans-maps"
+   },
+   {
+    "file": "images/walker-creek-ranch/02.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "The 1,741-acre ranch property with Turtle Pond and the campus buildings in the valley",
+    "credit": "Walker Creek Ranch (official site)",
+    "source": "https://www.walkercreekranch.org/floor-plans-maps"
+   },
+   {
+    "file": "images/walker-creek-ranch/03.jpg",
+    "w": 1600,
+    "h": 1153,
+    "caption": "Willow Lodge meeting room / lounge",
+    "credit": "Walker Creek Ranch (official site)",
+    "source": "https://www.walkercreekranch.org/floor-plans-maps"
+   },
+   {
+    "file": "images/walker-creek-ranch/04.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Lodge guest room with two beds",
+    "credit": "Walker Creek Ranch (official site)",
+    "source": "https://www.walkercreekranch.org/lodging"
+   },
+   {
+    "file": "images/walker-creek-ranch/05.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Rock outcrop on Walker Peak overlooking the West Marin hills",
+    "credit": "Walker Creek Ranch (official site)",
+    "source": "https://www.walkercreekranch.org/plan-your-event-1"
+   }
+  ],
+  "thumb": "images/walker-creek-ranch/thumb.jpg"
  },
  {
   "id": "harbin-hot-springs",
@@ -3988,57 +3988,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Group bookings are explicitly not allowed ('Effective July 2023 ... each guest will need to purchase their own membership and book their own reservation'); no buyouts, no group rates. Membership-only (guests 18+), clothing-optional pools, alcohol- and drug-free, electronics banned in pool areas. 2-night minimum for rooms on weekends/holidays; 48-hour cancellation policy; max 4 room cancellations per year. Lodging currently: Creekside Caravans (15 trailers), Grove Cottages, Dome rooms (~16), plus tent/vehicle camping on 24-hour passes; a new hotel near the pools is under construction (weekday construction noise). Harbin's events calendar lists daily classes/workshops that are included with admission and do not close the site. Availability below comes from the public reservation system (secure.rzda.net) reached from Book Your Visit, after selecting a membership type (no purchase made).",
   "checkedOn": "2026-08-21",
-  "thumb": "images/harbin-hot-springs/thumb.jpg",
-  "images": [
-   {
-    "file": "images/harbin-hot-springs/01.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "The rebuilt pool building with its stained-glass gable and the warm pool",
-    "credit": "Harbin Hot Springs (official site)",
-    "source": "https://harbin.org/"
-   },
-   {
-    "file": "images/harbin-hot-springs/02.jpg",
-    "w": 1600,
-    "h": 900,
-    "caption": "Dome guest accommodations beside the pool area",
-    "credit": "Harbin Hot Springs (official site)",
-    "source": "https://harbin.org/reservations/accommodations-rates/"
-   },
-   {
-    "file": "images/harbin-hot-springs/03.jpg",
-    "w": 1080,
-    "h": 810,
-    "caption": "The new hotel building on the hillside above the stone labyrinth and gazebo",
-    "credit": "Harbin Hot Springs (official site)",
-    "source": "https://harbin.org/heart-consciousness/photos/"
-   },
-   {
-    "file": "images/harbin-hot-springs/04.jpg",
-    "w": 1440,
-    "h": 810,
-    "caption": "Front of the new restaurant building (opened August 2026)",
-    "credit": "Harbin Hot Springs (official site)",
-    "source": "https://harbin.org/heart-consciousness/photos/"
-   },
-   {
-    "file": "images/harbin-hot-springs/05.jpg",
-    "w": 1080,
-    "h": 810,
-    "caption": "Garden pavilion among flowering shrubs",
-    "credit": "Harbin Hot Springs (official site)",
-    "source": "https://harbin.org/heart-consciousness/photos/"
-   },
-   {
-    "file": "images/harbin-hot-springs/06.jpg",
-    "w": 1600,
-    "h": 900,
-    "caption": "Hotel guest room with queen bed and sitting area",
-    "credit": "Harbin Hot Springs (official site)",
-    "source": "https://harbin.org/reservations/accommodations-rates/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched harbin.org, the Book Your Visit reservation page, Accommodations & Rates, Helpful Information & Policies, the Events & Workshops page and the news blog, plus the site's own sitemap to make sure no group/rental page was missed. The decisive finding needs no calendar: Harbin's reservation policy states outright that group bookings are no longer allowed and that every guest over 18 must buy a membership and reserve individually. There is therefore no date on which a 60-person Fri-Sun group booking is possible, and I did not need to query the individual booking engine date by date. The Events & Workshops page loads its listings through a JavaScript calendar widget with no server-rendered dates, and in any case lists third-party workshops that do not occupy the site. Harbin is open 24 hours a day, 365 days a year, so there is no seasonal closure — the block is entirely a policy block.",
@@ -4125,7 +4074,58 @@ window.VENUES = [
      "sourceLabel": "Harbin 'Book Your Visit' — Church Membership Policy"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/harbin-hot-springs/01.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "The rebuilt pool building with its stained-glass gable and the warm pool",
+    "credit": "Harbin Hot Springs (official site)",
+    "source": "https://harbin.org/"
+   },
+   {
+    "file": "images/harbin-hot-springs/02.jpg",
+    "w": 1600,
+    "h": 900,
+    "caption": "Dome guest accommodations beside the pool area",
+    "credit": "Harbin Hot Springs (official site)",
+    "source": "https://harbin.org/reservations/accommodations-rates/"
+   },
+   {
+    "file": "images/harbin-hot-springs/03.jpg",
+    "w": 1080,
+    "h": 810,
+    "caption": "The new hotel building on the hillside above the stone labyrinth and gazebo",
+    "credit": "Harbin Hot Springs (official site)",
+    "source": "https://harbin.org/heart-consciousness/photos/"
+   },
+   {
+    "file": "images/harbin-hot-springs/04.jpg",
+    "w": 1440,
+    "h": 810,
+    "caption": "Front of the new restaurant building (opened August 2026)",
+    "credit": "Harbin Hot Springs (official site)",
+    "source": "https://harbin.org/heart-consciousness/photos/"
+   },
+   {
+    "file": "images/harbin-hot-springs/05.jpg",
+    "w": 1080,
+    "h": 810,
+    "caption": "Garden pavilion among flowering shrubs",
+    "credit": "Harbin Hot Springs (official site)",
+    "source": "https://harbin.org/heart-consciousness/photos/"
+   },
+   {
+    "file": "images/harbin-hot-springs/06.jpg",
+    "w": 1600,
+    "h": 900,
+    "caption": "Hotel guest room with queen bed and sitting area",
+    "credit": "Harbin Hot Springs (official site)",
+    "source": "https://harbin.org/reservations/accommodations-rates/"
+   }
+  ],
+  "thumb": "images/harbin-hot-springs/thumb.jpg"
  },
  {
   "id": "wilbur-hot-springs",
@@ -4219,57 +4219,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Off-grid, clothing-optional health sanctuary with roughly 45-50 beds (10 cabins incl. 2 ADA, 1 cabin suite, 8 Solar Lodge rooms, 2 historic hotel rooms, a co-ed bunk room, 6 seasonal tent platforms Apr–Oct). Groups: the former group space (Red House) is gone; groups of more than 5 must contact the front desk before booking; exclusive-use events exist but are limited and quoted case by case. Ages 13+. Select weekends require 2-night (Fri+Sat) stays; 5-day cancellation policy for overnights; 11% land-management fee included in rates. Two Sarana Yoga Retreat / Guest Chef Weekends (Sept 18-20, Oct 2-4) take the whole property. Availability below read from the public FareHarbor calendar per accommodation type (no reservation made).",
   "checkedOn": "2026-08-21",
-  "thumb": "images/wilbur-hot-springs/thumb.jpg",
-  "images": [
-   {
-    "file": "images/wilbur-hot-springs/01.jpg",
-    "w": 1000,
-    "h": 750,
-    "caption": "The open-air Fluminarium bathhouse and soaking pool above Sulphur Creek",
-    "credit": "Wilbur Hot Springs (official site)",
-    "source": "https://www.wilburhotsprings.com/reservations/rooms-rates/"
-   },
-   {
-    "file": "images/wilbur-hot-springs/02.jpg",
-    "w": 1536,
-    "h": 942,
-    "caption": "The resort in its canyon: historic hotel (left), cabins and outbuildings below the nature-preserve hills",
-    "credit": "Wilbur Hot Springs (official site)",
-    "source": "https://www.wilburhotsprings.com/photos/vistas/"
-   },
-   {
-    "file": "images/wilbur-hot-springs/03.jpg",
-    "w": 1600,
-    "h": 923,
-    "caption": "Guest cabins at sunset",
-    "credit": "Wilbur Hot Springs (official site)",
-    "source": "https://www.wilburhotsprings.com/"
-   },
-   {
-    "file": "images/wilbur-hot-springs/04.jpg",
-    "w": 1000,
-    "h": 600,
-    "caption": "Inside the Fluminarium: the three mineral-water flumes under a timber roof",
-    "credit": "Wilbur Hot Springs (official site)",
-    "source": "https://www.wilburhotsprings.com/photos/geothermal-springs/"
-   },
-   {
-    "file": "images/wilbur-hot-springs/05.jpg",
-    "w": 1200,
-    "h": 791,
-    "caption": "Solar Suite interior with canyon view",
-    "credit": "Wilbur Hot Springs (official site)",
-    "source": "https://www.wilburhotsprings.com/reservations/rooms-rates/"
-   },
-   {
-    "file": "images/wilbur-hot-springs/06.jpg",
-    "w": 1000,
-    "h": 750,
-    "caption": "Sulphur Creek and the bathhouse from the hillside",
-    "credit": "Wilbur Hot Springs (official site)",
-    "source": "https://www.wilburhotsprings.com/photos/vistas/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Wilbur's 'Book Now' buttons all point at FareHarbor (fareharbor.com/embeds/book/wilburhotsprings/), whose embed is a JavaScript app but whose underlying read API is public. I listed the company's items at https://fareharbor.com/api/v1/companies/wilburhotsprings/items/ and identified the seven lodging products - Cabin Queen (712141), Cabin Queen ADA (732939), Cabin Suite (732980), Solar Lodge (732990), Hotel Queen (733001), Bunk Room (733014) and Campsites (733207) - then queried /availabilities/date/<YYYY-MM-DD>/ for each product on both the Friday and the Saturday of all ten weekends (140 dated lookups), recording is_sold_out and is_bookable for each. I cross-checked the results against Wilbur's own Programs and Events page, the Reservations & Rates page, the reservation policies page, the Deals and Discounts page and the Current Conditions page. Wilbur publishes no group-availability calendar, no buyout or whole-site rental product, and no group rates; its published events list stops at September 27, 2026, so nothing on the website explains what is happening in October. The booking API is therefore the only dated evidence, and because approximate_available_capacity is reported as 0 even for products that are plainly bookable, it tells you which products are open on a night but not how many rooms remain.",
@@ -4356,7 +4305,58 @@ window.VENUES = [
      "sourceLabel": "FareHarbor availability record, Cabin Queen, Fri 30 Oct 2026"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/wilbur-hot-springs/01.jpg",
+    "w": 1000,
+    "h": 750,
+    "caption": "The open-air Fluminarium bathhouse and soaking pool above Sulphur Creek",
+    "credit": "Wilbur Hot Springs (official site)",
+    "source": "https://www.wilburhotsprings.com/reservations/rooms-rates/"
+   },
+   {
+    "file": "images/wilbur-hot-springs/02.jpg",
+    "w": 1536,
+    "h": 942,
+    "caption": "The resort in its canyon: historic hotel (left), cabins and outbuildings below the nature-preserve hills",
+    "credit": "Wilbur Hot Springs (official site)",
+    "source": "https://www.wilburhotsprings.com/photos/vistas/"
+   },
+   {
+    "file": "images/wilbur-hot-springs/03.jpg",
+    "w": 1600,
+    "h": 923,
+    "caption": "Guest cabins at sunset",
+    "credit": "Wilbur Hot Springs (official site)",
+    "source": "https://www.wilburhotsprings.com/"
+   },
+   {
+    "file": "images/wilbur-hot-springs/04.jpg",
+    "w": 1000,
+    "h": 600,
+    "caption": "Inside the Fluminarium: the three mineral-water flumes under a timber roof",
+    "credit": "Wilbur Hot Springs (official site)",
+    "source": "https://www.wilburhotsprings.com/photos/geothermal-springs/"
+   },
+   {
+    "file": "images/wilbur-hot-springs/05.jpg",
+    "w": 1200,
+    "h": 791,
+    "caption": "Solar Suite interior with canyon view",
+    "credit": "Wilbur Hot Springs (official site)",
+    "source": "https://www.wilburhotsprings.com/reservations/rooms-rates/"
+   },
+   {
+    "file": "images/wilbur-hot-springs/06.jpg",
+    "w": 1000,
+    "h": 750,
+    "caption": "Sulphur Creek and the bathhouse from the hillside",
+    "credit": "Wilbur Hot Springs (official site)",
+    "source": "https://www.wilburhotsprings.com/photos/vistas/"
+   }
+  ],
+  "thumb": "images/wilbur-hot-springs/thumb.jpg"
  },
  {
   "id": "asilomar",
@@ -4448,57 +4448,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "312-room state-park conference hotel run by Aramark; never sold as a buyout, but group room blocks plus meeting rooms (Merrill Hall 569 theatre, Chapel 256, Fred Farr Forum 176, Kiln 126, Nautilus 100, etc.) are contracted via the meetings RFP, with Complete Meeting Packages quoted per person per night. Transient rooms: deposit of one night + tax at booking, rate-specific cancellation, rates double occupancy with fees for extra adults, cottages (4) by phone only. The booking engine's date picker exposes a nightly count of unsold rooms; weekend statuses below use that count for Fri and Sat nights (Aug 21/22: 62/4; Aug 28/29: 104/64; Sep 4/5: 62/4; Sep 11/12: 134/121; Sep 18/19: 63/91; Sep 25/26: 36/64; Oct 2/3: 33/68; Oct 9/10: 70/-8; Oct 16/17: 77/104). No on-site festival was found for these weekends; Oktoberfest Weekend and Sunset Music Series are guest events that do not close the grounds.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/asilomar/thumb.jpg",
-  "images": [
-   {
-    "file": "images/asilomar/01.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Merrill Hall, Julia Morgan's stone-and-shingle auditorium (1928)",
-    "credit": "Asilomar Conference Grounds / Aramark (official site)",
-    "source": "https://www.visitasilomar.com/"
-   },
-   {
-    "file": "images/asilomar/02.jpg",
-    "w": 1600,
-    "h": 1065,
-    "caption": "Historic Arts-and-Crafts shingle building in the pines",
-    "credit": "Asilomar Conference Grounds / Aramark (official site)",
-    "source": "https://www.visitasilomar.com/gallery"
-   },
-   {
-    "file": "images/asilomar/03.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Timber-beamed social hall lounge with stone fireplace",
-    "credit": "Asilomar Conference Grounds / Aramark (official site)",
-    "source": "https://www.visitasilomar.com/plan/asilomar-architecture"
-   },
-   {
-    "file": "images/asilomar/04.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Merrill Hall interior from the balcony, trusses and theatre seating",
-    "credit": "Asilomar Conference Grounds / Aramark (official site)",
-    "source": "https://www.visitasilomar.com/"
-   },
-   {
-    "file": "images/asilomar/05.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Crocker Dining Hall with its wood-beamed ceiling",
-    "credit": "Asilomar Conference Grounds / Aramark (official site)",
-    "source": "https://www.visitasilomar.com/"
-   },
-   {
-    "file": "images/asilomar/06.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Asilomar State Beach shoreline at the edge of the grounds",
-    "credit": "Asilomar Conference Grounds / Aramark (official site)",
-    "source": "https://www.visitasilomar.com/gallery"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "I drove Asilomar's own live booking engine (Aramark's reservations.ahlsmsworld.com, property code APOWELL, the engine behind the 'Book Now' widget on visitasilomar.com) once per weekend, POSTing ArrivalDate=Friday / DepartureDate=Sunday, 2 adults, 1 unit, then following the /Asilomar/PleaseWait redirect to /Asilomar/Plan-Your-Trip/Accommodation-Search/Results and parsing what came back. Each search returns a 'Your Search:' panel echoing the exact Fri-Sun date range, followed by one card per bookable room type with a 'Best Flexible Rate' price and an 'Add to Cart' button; a weekend with nothing left instead returns an 'Our Apologies!' page. I recorded, for every one of the ten weekends, how many distinct room types and how many rate options the engine offered for the full two-night stay. I also read the meetings/venues, complete-meeting-packages, lodging and upcoming-events pages on visitasilomar.com for group policy, and checked the site's events feed (which only lists third-party Monterey-area events such as the Monterey County Fair, not on-site conferences). Asilomar publishes no group-availability calendar and no list of the conferences occupying the grounds, so the booking engine is the only dated public evidence; note that its results are session-scoped POST output, so the Results URL only shows content inside the search session I created. The engine also rejects multi-room (UnitCount>1) searches, so it cannot confirm that ~30 rooms are free on any given weekend - only that the property is or is not taking two-night transient bookings.",
@@ -4585,7 +4534,58 @@ window.VENUES = [
      "sourceLabel": "Asilomar booking engine, Fri-Sun search results"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/asilomar/01.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Merrill Hall, Julia Morgan's stone-and-shingle auditorium (1928)",
+    "credit": "Asilomar Conference Grounds / Aramark (official site)",
+    "source": "https://www.visitasilomar.com/"
+   },
+   {
+    "file": "images/asilomar/02.jpg",
+    "w": 1600,
+    "h": 1065,
+    "caption": "Historic Arts-and-Crafts shingle building in the pines",
+    "credit": "Asilomar Conference Grounds / Aramark (official site)",
+    "source": "https://www.visitasilomar.com/gallery"
+   },
+   {
+    "file": "images/asilomar/03.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Timber-beamed social hall lounge with stone fireplace",
+    "credit": "Asilomar Conference Grounds / Aramark (official site)",
+    "source": "https://www.visitasilomar.com/plan/asilomar-architecture"
+   },
+   {
+    "file": "images/asilomar/04.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Merrill Hall interior from the balcony, trusses and theatre seating",
+    "credit": "Asilomar Conference Grounds / Aramark (official site)",
+    "source": "https://www.visitasilomar.com/"
+   },
+   {
+    "file": "images/asilomar/05.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Crocker Dining Hall with its wood-beamed ceiling",
+    "credit": "Asilomar Conference Grounds / Aramark (official site)",
+    "source": "https://www.visitasilomar.com/"
+   },
+   {
+    "file": "images/asilomar/06.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Asilomar State Beach shoreline at the edge of the grounds",
+    "credit": "Asilomar Conference Grounds / Aramark (official site)",
+    "source": "https://www.visitasilomar.com/gallery"
+   }
+  ],
+  "thumb": "images/asilomar/thumb.jpg"
  },
  {
   "id": "1440-multiversity",
@@ -4680,57 +4680,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "147 private guest rooms; groups never get a buyout but book room blocks under an all-inclusive package. 1440 only hosts 'mission-aligned' groups that include a learning element, and its Group FAQ says it 'has established a waiting list for private mission-aligned group events' (inquire at inquiries@1440.org / 888-727-1440). Private group bookings are not published anywhere; the public Community Education Calendar lists only 1440's own open-enrollment events. The SynXis booking engine is program-gated ('Select a Learning Experience') and returns 'Our hotel is not available' for every open-dated search, so it cannot be used to test room availability. 50% deposit at booking, balance 14–45 days before arrival; 11% accommodation tax.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/1440-multiversity/thumb.jpg",
-  "images": [
-   {
-    "file": "images/1440-multiversity/01.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "The Lodge at dusk, with pond and footbridge",
-    "credit": "1440 Multiversity (official site)",
-    "source": "https://www.1440.org/the-campus-gallery"
-   },
-   {
-    "file": "images/1440-multiversity/02.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Campus entrance sign with Sanctuary building at dusk",
-    "credit": "1440 Multiversity (official site)",
-    "source": "https://www.1440.org/the-campus-gallery"
-   },
-   {
-    "file": "images/1440-multiversity/03.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Redwood Amphitheater, outdoor venue in the redwoods",
-    "credit": "1440 Multiversity (official site)",
-    "source": "https://www.1440.org/outdoor-venues-gallery"
-   },
-   {
-    "file": "images/1440-multiversity/04.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Redwood Auditorium set up for a conference",
-    "credit": "1440 Multiversity (official site)",
-    "source": "https://www.1440.org/meeting-venues-gallery"
-   },
-   {
-    "file": "images/1440-multiversity/05.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "The Sanctuary, timber-framed gathering hall interior",
-    "credit": "1440 Multiversity (official site)",
-    "source": "https://www.1440.org/meeting-venues-gallery"
-   },
-   {
-    "file": "images/1440-multiversity/06.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Kitchen Table dining hall",
-    "credit": "1440 Multiversity (official site)",
-    "source": "https://www.1440.org/dining-gallery"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Read /groups (Essential Requisites) and the full /faqs page, which is where 1440 actually documents how group bookings work, then the public /events calendar, which is the only dated listing on the site. I also checked /stay and /accommodations for a booking engine: there is none. Reservations run through reservations@1440.org and two phone numbers, and the FAQ confirms that contracted groups get a private, code-gated booking link that only goes live 30 days before arrival, so no public inventory exists to query. The events calendar lists just four campus items between now and the end of October plus one in June 2027, so it is maintained but sparse. Net: 1440 publishes essentially nothing about weekend availability, and most entries below are honestly 'unknown'.",
@@ -4817,7 +4766,58 @@ window.VENUES = [
      "sourceLabel": "1440 Multiversity events calendar"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/1440-multiversity/01.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "The Lodge at dusk, with pond and footbridge",
+    "credit": "1440 Multiversity (official site)",
+    "source": "https://www.1440.org/the-campus-gallery"
+   },
+   {
+    "file": "images/1440-multiversity/02.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Campus entrance sign with Sanctuary building at dusk",
+    "credit": "1440 Multiversity (official site)",
+    "source": "https://www.1440.org/the-campus-gallery"
+   },
+   {
+    "file": "images/1440-multiversity/03.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Redwood Amphitheater, outdoor venue in the redwoods",
+    "credit": "1440 Multiversity (official site)",
+    "source": "https://www.1440.org/outdoor-venues-gallery"
+   },
+   {
+    "file": "images/1440-multiversity/04.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Redwood Auditorium set up for a conference",
+    "credit": "1440 Multiversity (official site)",
+    "source": "https://www.1440.org/meeting-venues-gallery"
+   },
+   {
+    "file": "images/1440-multiversity/05.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "The Sanctuary, timber-framed gathering hall interior",
+    "credit": "1440 Multiversity (official site)",
+    "source": "https://www.1440.org/meeting-venues-gallery"
+   },
+   {
+    "file": "images/1440-multiversity/06.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Kitchen Table dining hall",
+    "credit": "1440 Multiversity (official site)",
+    "source": "https://www.1440.org/dining-gallery"
+   }
+  ],
+  "thumb": "images/1440-multiversity/thumb.jpg"
  },
  {
   "id": "mendocino-woodlands",
@@ -4911,57 +4911,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Group camping only, exclusive use of one whole camp (Camp One cap 200, 46 four-bed cabins; Camp Two cap 120; Camp Three cap 80 tent cabins). Fall minimum occupancy: Camp One 60, Camp Two 40, Camp Three 30 (parks.ca.gov). Arrival 2 pm, departure 11 am; group self-caters and cleans. Seasonal: in 2025 Camp Three closed for the season Oct 14, Camp Two Nov 2, Camp One Nov 17; camps reopen late March–May. Availability is shown on the public Camp Calendar (three Google calendars, red/blue/green bars = reserved); book via the online Reservation Inquiry Form, 25% nonrefundable deposit + security deposit with signed contract.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/mendocino-woodlands/thumb.jpg",
-  "images": [
-   {
-    "file": "images/mendocino-woodlands/01.jpg",
-    "w": 1600,
-    "h": 1068,
-    "caption": "CCC-built redwood cabin at Camp One",
-    "credit": "Mendocino Woodlands Camp Association (official site)",
-    "source": "https://www.mendocinowoodlands.org/"
-   },
-   {
-    "file": "images/mendocino-woodlands/02.jpg",
-    "w": 1600,
-    "h": 1068,
-    "caption": "Camp One dance hall / recreation hall interior with stone fireplace",
-    "credit": "Mendocino Woodlands Camp Association (official site)",
-    "source": "https://www.mendocinowoodlands.org/"
-   },
-   {
-    "file": "images/mendocino-woodlands/03.jpg",
-    "w": 1200,
-    "h": 801,
-    "caption": "Cabin and open-air shelter among the redwoods",
-    "credit": "Mendocino Woodlands Camp Association (official site)",
-    "source": "https://www.mendocinowoodlands.org/"
-   },
-   {
-    "file": "images/mendocino-woodlands/04.jpg",
-    "w": 1200,
-    "h": 801,
-    "caption": "Cabin interior with stone fireplace and cots",
-    "credit": "Mendocino Woodlands Camp Association (official site)",
-    "source": "https://www.mendocinowoodlands.org/"
-   },
-   {
-    "file": "images/mendocino-woodlands/05.jpg",
-    "w": 1528,
-    "h": 1145,
-    "caption": "Outdoor dining set up in a redwood grove",
-    "credit": "Mendocino Woodlands Camp Association (official site)",
-    "source": "https://www.mendocinowoodlands.org/bookings-events"
-   },
-   {
-    "file": "images/mendocino-woodlands/06.jpg",
-    "w": 1600,
-    "h": 1199,
-    "caption": "Outdoor amphitheater / ceremony site",
-    "credit": "Mendocino Woodlands Camp Association (official site)",
-    "source": "https://www.mendocinowoodlands.org/bookings-events"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Started from mendocinowoodlands.org/bookings-events, which tells you to 'View our Camp Calendar to check for availability'. The camp-calendar page embeds a Google Calendar iframe carrying three public calendar IDs, colour-coded in the page's own legend as Camp 1 (red), Camp 2 (blue) and Camp 3 (green). I decoded the three base64 calendar IDs out of the iframe src and fetched each calendar's public .ics feed directly (all HTTP 200), then listed every VEVENT between Aug and Dec 2026. That gives confirmed, dated, per-camp reservations rather than a rendered widget. I also read /camp-rental-details for terms and /bookings-events for per-camp capacities. This is by far the best-published availability of the five venues I checked: MWCA publishes actual booked dates per camp.",
@@ -5048,7 +4997,58 @@ window.VENUES = [
      "sourceLabel": "Mendocino Woodlands Camp Calendar"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/mendocino-woodlands/01.jpg",
+    "w": 1600,
+    "h": 1068,
+    "caption": "CCC-built redwood cabin at Camp One",
+    "credit": "Mendocino Woodlands Camp Association (official site)",
+    "source": "https://www.mendocinowoodlands.org/"
+   },
+   {
+    "file": "images/mendocino-woodlands/02.jpg",
+    "w": 1600,
+    "h": 1068,
+    "caption": "Camp One dance hall / recreation hall interior with stone fireplace",
+    "credit": "Mendocino Woodlands Camp Association (official site)",
+    "source": "https://www.mendocinowoodlands.org/"
+   },
+   {
+    "file": "images/mendocino-woodlands/03.jpg",
+    "w": 1200,
+    "h": 801,
+    "caption": "Cabin and open-air shelter among the redwoods",
+    "credit": "Mendocino Woodlands Camp Association (official site)",
+    "source": "https://www.mendocinowoodlands.org/"
+   },
+   {
+    "file": "images/mendocino-woodlands/04.jpg",
+    "w": 1200,
+    "h": 801,
+    "caption": "Cabin interior with stone fireplace and cots",
+    "credit": "Mendocino Woodlands Camp Association (official site)",
+    "source": "https://www.mendocinowoodlands.org/"
+   },
+   {
+    "file": "images/mendocino-woodlands/05.jpg",
+    "w": 1528,
+    "h": 1145,
+    "caption": "Outdoor dining set up in a redwood grove",
+    "credit": "Mendocino Woodlands Camp Association (official site)",
+    "source": "https://www.mendocinowoodlands.org/bookings-events"
+   },
+   {
+    "file": "images/mendocino-woodlands/06.jpg",
+    "w": 1600,
+    "h": 1199,
+    "caption": "Outdoor amphitheater / ceremony site",
+    "credit": "Mendocino Woodlands Camp Association (official site)",
+    "source": "https://www.mendocinowoodlands.org/bookings-events"
+   }
+  ],
+  "thumb": "images/mendocino-woodlands/thumb.jpg"
  },
  {
   "id": "land-of-medicine-buddha",
@@ -5141,57 +5141,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Exclusive group rentals: 19 rooms with private baths (up to 56 overnight incl. seasonal Yurt Village, open May 1–Oct 31), minimum 18 / maximum 56 guests, 2-night minimum, $3,900/night minimum invoice; Pine Room seats 60 (35 for yoga). 'We host groups nearly every week.' Rental inquiry form on the group-rentals page (facilityrentals@medicinebuddha.org). LMB runs its own residential retreats and weekend teachings, listed on the public LMB Events Calendar (Google Calendar) and All Programs page; Sep 2026 is heavily programmed (Khen Rinpoche three-week series Sep 5–27). The individual-room ResNexus booking engine is behind bot protection and could not be read.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/land-of-medicine-buddha/thumb.jpg",
-  "images": [
-   {
-    "file": "images/land-of-medicine-buddha/01.jpg",
-    "w": 1600,
-    "h": 1044,
-    "caption": "Wish-Fulfilling Temple exterior",
-    "credit": "Land of Medicine Buddha (official site)",
-    "source": "https://landofmedicinebuddha.org/sacred-sites/"
-   },
-   {
-    "file": "images/land-of-medicine-buddha/02.jpg",
-    "w": 1600,
-    "h": 947,
-    "caption": "Wish-Fulfilling Temple interior",
-    "credit": "Land of Medicine Buddha (official site)",
-    "source": "https://landofmedicinebuddha.org/visit/wish-fulfilling-temple/"
-   },
-   {
-    "file": "images/land-of-medicine-buddha/03.jpg",
-    "w": 1600,
-    "h": 1080,
-    "caption": "Entrance courtyard with prayer wheel pavilion, prayer flags and guest building",
-    "credit": "Land of Medicine Buddha (official site)",
-    "source": "https://landofmedicinebuddha.org/"
-   },
-   {
-    "file": "images/land-of-medicine-buddha/04.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Wooden deck overlooking the meadow, used for outdoor sessions",
-    "credit": "Land of Medicine Buddha (official site)",
-    "source": "https://landofmedicinebuddha.org/stay/group-rentals/"
-   },
-   {
-    "file": "images/land-of-medicine-buddha/05.jpg",
-    "w": 1200,
-    "h": 900,
-    "caption": "Treetops guest-room building",
-    "credit": "Land of Medicine Buddha (official site)",
-    "source": "https://landofmedicinebuddha.org/stay/personal-getaway/"
-   },
-   {
-    "file": "images/land-of-medicine-buddha/06.jpg",
-    "w": 1284,
-    "h": 982,
-    "caption": "Gompa (meditation hall) interior",
-    "credit": "Land of Medicine Buddha (official site)",
-    "source": "https://landofmedicinebuddha.org/sacred-sites/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Read /stay/group-rentals/ for the rental terms and capacity, then worked through /programs/all-programs/, which lists every LMB program with dates through November 2026 and, usefully, also lists outside groups that have rented the site. I cross-checked that against the Google Calendar embedded on /programs/calendar-of-events/ by decoding its calendar ID and pulling the public .ics feed (HTTP 200, 428 events). The two sources agree on LMB's own programs but the .ics does NOT contain the two outside conference rentals, so the programs page is the more complete source. LMB does not publish a room-availability calendar or a booking engine on the main domain (the stay. subdomain booking host was not reachable), so 'nothing listed' is inference from a calendar that does cover the period, not from a real inventory feed.",
@@ -5278,7 +5227,58 @@ window.VENUES = [
      "sourceLabel": "Land of Medicine Buddha - All Programs"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/land-of-medicine-buddha/01.jpg",
+    "w": 1600,
+    "h": 1044,
+    "caption": "Wish-Fulfilling Temple exterior",
+    "credit": "Land of Medicine Buddha (official site)",
+    "source": "https://landofmedicinebuddha.org/sacred-sites/"
+   },
+   {
+    "file": "images/land-of-medicine-buddha/02.jpg",
+    "w": 1600,
+    "h": 947,
+    "caption": "Wish-Fulfilling Temple interior",
+    "credit": "Land of Medicine Buddha (official site)",
+    "source": "https://landofmedicinebuddha.org/visit/wish-fulfilling-temple/"
+   },
+   {
+    "file": "images/land-of-medicine-buddha/03.jpg",
+    "w": 1600,
+    "h": 1080,
+    "caption": "Entrance courtyard with prayer wheel pavilion, prayer flags and guest building",
+    "credit": "Land of Medicine Buddha (official site)",
+    "source": "https://landofmedicinebuddha.org/"
+   },
+   {
+    "file": "images/land-of-medicine-buddha/04.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Wooden deck overlooking the meadow, used for outdoor sessions",
+    "credit": "Land of Medicine Buddha (official site)",
+    "source": "https://landofmedicinebuddha.org/stay/group-rentals/"
+   },
+   {
+    "file": "images/land-of-medicine-buddha/05.jpg",
+    "w": 1200,
+    "h": 900,
+    "caption": "Treetops guest-room building",
+    "credit": "Land of Medicine Buddha (official site)",
+    "source": "https://landofmedicinebuddha.org/stay/personal-getaway/"
+   },
+   {
+    "file": "images/land-of-medicine-buddha/06.jpg",
+    "w": 1284,
+    "h": 982,
+    "caption": "Gompa (meditation hall) interior",
+    "credit": "Land of Medicine Buddha (official site)",
+    "source": "https://landofmedicinebuddha.org/sacred-sites/"
+   }
+  ],
+  "thumb": "images/land-of-medicine-buddha/thumb.jpg"
  },
  {
   "id": "presidio-lodging",
@@ -5371,57 +5371,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Two hotels, 68 rooms total (Lodge 42 rooms, Inn 22 + Funston House); full two-property buyout for up to 200 attendees is an advertised product (press Sept 2025) but quoted on request via the meetings/room-block email. Public engines (innres / lodgeres.presidiolodging.com) show a 2-night minimum on most fall weekends and 3 nights around Thanksgiving. Group blocks held back from public sale would not show online, so 'sold out' below means no public rooms, not necessarily no group contract. 16% park fee on all rooms, $13 overnight parking, 72-hour individual cancellation.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/presidio-lodging/thumb.jpg",
-  "images": [
-   {
-    "file": "images/presidio-lodging/01.jpg",
-    "w": 1600,
-    "h": 900,
-    "caption": "Inn at the Presidio (historic Pershing Hall) aerial view with Golden Gate Bridge behind",
-    "credit": "Presidio Lodging (official site)",
-    "source": "https://presidiolodging.com/inn-at-the-presidio/"
-   },
-   {
-    "file": "images/presidio-lodging/02.jpg",
-    "w": 1600,
-    "h": 900,
-    "caption": "Lodge at the Presidio, Montgomery Street barracks, aerial view toward the Golden Gate",
-    "credit": "Presidio Lodging (official site)",
-    "source": "https://presidiolodging.com/lodge-at-the-presidio/"
-   },
-   {
-    "file": "images/presidio-lodging/03.jpg",
-    "w": 1600,
-    "h": 900,
-    "caption": "Lodge at the Presidio front facade with Golden Gate Bridge view",
-    "credit": "Presidio Lodging (official site)",
-    "source": "https://presidiolodging.com/lodge-at-the-presidio/"
-   },
-   {
-    "file": "images/presidio-lodging/04.jpg",
-    "w": 1600,
-    "h": 900,
-    "caption": "Inn at the Presidio living room / lobby with fireplace",
-    "credit": "Presidio Lodging (official site)",
-    "source": "https://presidiolodging.com/inn-at-the-presidio/"
-   },
-   {
-    "file": "images/presidio-lodging/05.jpg",
-    "w": 1600,
-    "h": 900,
-    "caption": "Lodge at the Presidio lobby and breakfast room",
-    "credit": "Presidio Lodging (official site)",
-    "source": "https://presidiolodging.com/lodge-at-the-presidio/"
-   },
-   {
-    "file": "images/presidio-lodging/06.jpg",
-    "w": 1600,
-    "h": 900,
-    "caption": "Meeting room set up boardroom-style",
-    "credit": "Presidio Lodging (official site)",
-    "source": "https://presidiolodging.com/inn-at-the-presidio/meetings-events/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "presidiolodging.com hides its booking engine behind two Blazor WebAssembly subdomains, innres.presidiolodging.com and lodgeres.presidiolodging.com, which I found in the page source of /accommodations/. Those pages server-side prerender the date picker, and they accept ?checkin=YYYY-MM-DD&checkout=YYYY-MM-DD, so I ran a real Fri-Sun date search for each of the ten weekends against each property (20 fetches, all HTTP 200) and read the per-day state classes the picker emits (SoldOut, TwoDayMin, or open). Important gotcha I hit and corrected for: the picker only populates availability from the queried check-in date forward, so reading October off a late-October anchor silently shows everything as open. Anchoring each query on its own Friday fixes that, and the results then reproduce exactly across anchors. I also read /hotel-policies/, /inn-at-the-presidio/meetings-events/ and /faq/. No form was submitted and no reservation was started; these are URL date searches only.",
@@ -5508,7 +5457,58 @@ window.VENUES = [
      "sourceLabel": "Lodge at the Presidio booking engine, Fri-Sun date search"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/presidio-lodging/01.jpg",
+    "w": 1600,
+    "h": 900,
+    "caption": "Inn at the Presidio (historic Pershing Hall) aerial view with Golden Gate Bridge behind",
+    "credit": "Presidio Lodging (official site)",
+    "source": "https://presidiolodging.com/inn-at-the-presidio/"
+   },
+   {
+    "file": "images/presidio-lodging/02.jpg",
+    "w": 1600,
+    "h": 900,
+    "caption": "Lodge at the Presidio, Montgomery Street barracks, aerial view toward the Golden Gate",
+    "credit": "Presidio Lodging (official site)",
+    "source": "https://presidiolodging.com/lodge-at-the-presidio/"
+   },
+   {
+    "file": "images/presidio-lodging/03.jpg",
+    "w": 1600,
+    "h": 900,
+    "caption": "Lodge at the Presidio front facade with Golden Gate Bridge view",
+    "credit": "Presidio Lodging (official site)",
+    "source": "https://presidiolodging.com/lodge-at-the-presidio/"
+   },
+   {
+    "file": "images/presidio-lodging/04.jpg",
+    "w": 1600,
+    "h": 900,
+    "caption": "Inn at the Presidio living room / lobby with fireplace",
+    "credit": "Presidio Lodging (official site)",
+    "source": "https://presidiolodging.com/inn-at-the-presidio/"
+   },
+   {
+    "file": "images/presidio-lodging/05.jpg",
+    "w": 1600,
+    "h": 900,
+    "caption": "Lodge at the Presidio lobby and breakfast room",
+    "credit": "Presidio Lodging (official site)",
+    "source": "https://presidiolodging.com/lodge-at-the-presidio/"
+   },
+   {
+    "file": "images/presidio-lodging/06.jpg",
+    "w": 1600,
+    "h": 900,
+    "caption": "Meeting room set up boardroom-style",
+    "credit": "Presidio Lodging (official site)",
+    "source": "https://presidiolodging.com/inn-at-the-presidio/meetings-events/"
+   }
+  ],
+  "thumb": "images/presidio-lodging/thumb.jpg"
  },
  {
   "id": "hidden-villa",
@@ -5601,57 +5601,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Hostel (39 beds), Dana Center and Duveneck House rent September through May only; Dana/Duveneck Tue–Sun; Hostel requires a 2-night minimum on weekends and 3 nights on holiday weekends; the hostel no longer rents individual beds. Rentals prioritize youth-serving and nonprofit groups but are open to all; book via the facility-rental inquiry form (rentals@hiddenvilla.org). No public availability calendar for the Hostel/Dana Center; only the picnic sites show bookable dates (Morgan Family Pavilion and Garden Picnic Site, $300/day, Aug 29–Sep 26 listed, then Nov 7). The farm stays open to day visitors, so this is never an exclusive-site buyout.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/hidden-villa/thumb.jpg",
-  "images": [
-   {
-    "file": "images/hidden-villa/01.jpg",
-    "w": 720,
-    "h": 480,
-    "caption": "Duveneck House, the 1920s family home used for meetings and retreats",
-    "credit": "Hidden Villa (official site)",
-    "source": "https://www.hiddenvilla.org/meeting-retreats/"
-   },
-   {
-    "file": "images/hidden-villa/02.jpg",
-    "w": 1536,
-    "h": 1024,
-    "caption": "Farm pasture and barns in the Adobe Creek valley",
-    "credit": "Hidden Villa (official site)",
-    "source": "https://www.hiddenvilla.org/visit/plan-your-trip/"
-   },
-   {
-    "file": "images/hidden-villa/03.jpg",
-    "w": 1600,
-    "h": 1908,
-    "caption": "Hidden Villa and the Adobe Creek valley from the hills above Moody Road",
-    "credit": "Dicklyon, Wikimedia Commons, CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Hidden_Villa_Adobe_Creek_headwaters.jpg"
-   },
-   {
-    "file": "images/hidden-villa/04.jpg",
-    "w": 1600,
-    "h": 1017,
-    "caption": "Environmental education center building (straw-bale construction)",
-    "credit": "Schmiebel, Wikimedia Commons, CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Hidden_Villa_Education_Center_2010.jpg"
-   },
-   {
-    "file": "images/hidden-villa/05.jpg",
-    "w": 1120,
-    "h": 1120,
-    "caption": "Dana Center meeting hall interior with skylights and stone fireplace",
-    "credit": "Hidden Villa (official site)",
-    "source": "https://www.hiddenvilla.org/meeting-retreats/"
-   },
-   {
-    "file": "images/hidden-villa/06.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "Organic farm rows below the hills at sunset",
-    "credit": "Hidden Villa (official site)",
-    "source": "https://www.hiddenvilla.org/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Read /meeting-retreats/ and /rentals/facility-rentals/ for the rental catalogue and /rentals/picnic-sites/ for the picnic terms. Hidden Villa's catalogue and public calendar are both driven by Arlo (hiddenvilla.arlo.co), and I found that Arlo's public API is open: eventsearch returned all 98 forward-dated sessions with names, dates and an IsFull flag, which is real dated inventory for the picnic sites and public programs. It is not, however, inventory for the retreat facilities - the Dana Center, Duveneck House, Hostel and Josephine's Retreat are published as Learn More / Inquire with no sessions and no dates at all, so their bookedness is genuinely not on the public web. That is why every weekend below is 'unknown' rather than green or red: I could see the farm's public diary in detail and still could not see the rental calendar.",
@@ -5738,7 +5687,58 @@ window.VENUES = [
      "sourceLabel": "Hidden Villa facility rentals catalogue"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/hidden-villa/01.jpg",
+    "w": 720,
+    "h": 480,
+    "caption": "Duveneck House, the 1920s family home used for meetings and retreats",
+    "credit": "Hidden Villa (official site)",
+    "source": "https://www.hiddenvilla.org/meeting-retreats/"
+   },
+   {
+    "file": "images/hidden-villa/02.jpg",
+    "w": 1536,
+    "h": 1024,
+    "caption": "Farm pasture and barns in the Adobe Creek valley",
+    "credit": "Hidden Villa (official site)",
+    "source": "https://www.hiddenvilla.org/visit/plan-your-trip/"
+   },
+   {
+    "file": "images/hidden-villa/03.jpg",
+    "w": 1600,
+    "h": 1908,
+    "caption": "Hidden Villa and the Adobe Creek valley from the hills above Moody Road",
+    "credit": "Dicklyon, Wikimedia Commons, CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hidden_Villa_Adobe_Creek_headwaters.jpg"
+   },
+   {
+    "file": "images/hidden-villa/04.jpg",
+    "w": 1600,
+    "h": 1017,
+    "caption": "Environmental education center building (straw-bale construction)",
+    "credit": "Schmiebel, Wikimedia Commons, CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hidden_Villa_Education_Center_2010.jpg"
+   },
+   {
+    "file": "images/hidden-villa/05.jpg",
+    "w": 1120,
+    "h": 1120,
+    "caption": "Dana Center meeting hall interior with skylights and stone fireplace",
+    "credit": "Hidden Villa (official site)",
+    "source": "https://www.hiddenvilla.org/meeting-retreats/"
+   },
+   {
+    "file": "images/hidden-villa/06.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Organic farm rows below the hills at sunset",
+    "credit": "Hidden Villa (official site)",
+    "source": "https://www.hiddenvilla.org/"
+   }
+  ],
+  "thumb": "images/hidden-villa/thumb.jpg"
  },
  {
   "id": "triple-s-ranch",
@@ -5833,57 +5833,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Exclusive-use weekend rentals only (3 days / 2 nights, Fri–Sun); the venue says it hosts a limited number of events per year built around full weekends. Lodging for up to 60 double / 34 single occupancy, glamping allowed for overflow. No on-site catering (BYO caterer and alcohol, licensed bartender required). In-season (roughly Apr–Oct) vs off-season (Nov–Mar) pricing. No public availability calendar; inquire via the site form or (415) 760-3432.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/triple-s-ranch/thumb.jpg",
-  "images": [
-   {
-    "file": "images/triple-s-ranch/01.jpg",
-    "w": 1280,
-    "h": 853,
-    "caption": "Restored event barn exterior at dusk, lit from inside",
-    "credit": "Triple S Ranch (official site)",
-    "source": "https://www.triplesranchnapa.com/lodging"
-   },
-   {
-    "file": "images/triple-s-ranch/02.jpg",
-    "w": 853,
-    "h": 853,
-    "caption": "The Grand Victorian house at twilight",
-    "credit": "Triple S Ranch (official site)",
-    "source": "https://www.triplesranchnapa.com/real-retreats-gallery"
-   },
-   {
-    "file": "images/triple-s-ranch/03.jpg",
-    "w": 1283,
-    "h": 855,
-    "caption": "Pool, pool house and outdoor fireplace at dusk",
-    "credit": "Triple S Ranch (official site)",
-    "source": "https://www.triplesranchnapa.com/"
-   },
-   {
-    "file": "images/triple-s-ranch/04.jpg",
-    "w": 1500,
-    "h": 1000,
-    "caption": "Company retreat session inside the main barn",
-    "credit": "Triple S Ranch (official site)",
-    "source": "https://www.triplesranchnapa.com/"
-   },
-   {
-    "file": "images/triple-s-ranch/05.jpg",
-    "w": 1024,
-    "h": 683,
-    "caption": "Wood-panelled lounge / living room interior",
-    "credit": "Triple S Ranch (official site)",
-    "source": "https://www.triplesranchnapa.com/lodging"
-   },
-   {
-    "file": "images/triple-s-ranch/06.jpg",
-    "w": 1280,
-    "h": 853,
-    "caption": "Guest cabin with covered porch at dusk",
-    "credit": "Triple S Ranch (official site)",
-    "source": "https://www.triplesranchnapa.com/real-retreats-gallery"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched the venue's own site directly (HTTP 200 on the home page, /overview-retreat, /lodging, /pricing, /contact and /blog) and looked for any calendar, booking engine, date picker or dated event listing. There is none: every path on the site ends at a contact/inquiry form, the /pricing page only offers a brochure download, and the blog is undated marketing copy. Also downloaded the linked private-event brochure PDF (TripleSRanchPrivateEventBrochure.pdf, 20 pages, HTTP 200) but its text is a subsetted custom-encoded font that does not extract to quotable text. Searched the wider web for dated activity at the ranch in the window ('Triple S Ranch' Calistoga retreat October 2026; 'Triple S Ranch' Napa event September 2026; 'Triple S Ranch' wedding 'October 2026' OR 'September 2026' Calistoga booked) and checked the third-party listings that surfaced (Cvent, Wedding Spot). Cvent's own FAQ fields for pricing, deposits and date availability all read as no information available, and Wedding Spot shows no 2026 calendar. Conclusion: nothing dated is published for any of the ten weekends, so all ten are unknown. This is the one venue of my five that is actually sized for the group.",
@@ -5970,7 +5919,58 @@ window.VENUES = [
      "sourceLabel": "Triple S Ranch - Retreats overview (inquiry only, no calendar)"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/triple-s-ranch/01.jpg",
+    "w": 1280,
+    "h": 853,
+    "caption": "Restored event barn exterior at dusk, lit from inside",
+    "credit": "Triple S Ranch (official site)",
+    "source": "https://www.triplesranchnapa.com/lodging"
+   },
+   {
+    "file": "images/triple-s-ranch/02.jpg",
+    "w": 853,
+    "h": 853,
+    "caption": "The Grand Victorian house at twilight",
+    "credit": "Triple S Ranch (official site)",
+    "source": "https://www.triplesranchnapa.com/real-retreats-gallery"
+   },
+   {
+    "file": "images/triple-s-ranch/03.jpg",
+    "w": 1283,
+    "h": 855,
+    "caption": "Pool, pool house and outdoor fireplace at dusk",
+    "credit": "Triple S Ranch (official site)",
+    "source": "https://www.triplesranchnapa.com/"
+   },
+   {
+    "file": "images/triple-s-ranch/04.jpg",
+    "w": 1500,
+    "h": 1000,
+    "caption": "Company retreat session inside the main barn",
+    "credit": "Triple S Ranch (official site)",
+    "source": "https://www.triplesranchnapa.com/"
+   },
+   {
+    "file": "images/triple-s-ranch/05.jpg",
+    "w": 1024,
+    "h": 683,
+    "caption": "Wood-panelled lounge / living room interior",
+    "credit": "Triple S Ranch (official site)",
+    "source": "https://www.triplesranchnapa.com/lodging"
+   },
+   {
+    "file": "images/triple-s-ranch/06.jpg",
+    "w": 1280,
+    "h": 853,
+    "caption": "Guest cabin with covered porch at dusk",
+    "credit": "Triple S Ranch (official site)",
+    "source": "https://www.triplesranchnapa.com/real-retreats-gallery"
+   }
+  ],
+  "thumb": "images/triple-s-ranch/thumb.jpg"
  },
  {
   "id": "mayacamas-ranch",
@@ -6061,57 +6061,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Not taking group bookings. Post-fire the property has no guest buildings; it is being placed into a long-term stewardship framework (Rock Creek Institute) with governance 'developed over the next four years'. Only partner-in-residence gatherings (Inner View / Nic Askew) occur. Treat as unavailable for any 2026 weekend.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/mayacamas-ranch/thumb.jpg",
-  "images": [
-   {
-    "file": "images/mayacamas-ranch/01.jpg",
-    "w": 800,
-    "h": 600,
-    "caption": "Pool and sunset over the Mayacamas Mountains (pre-2017 fire)",
-    "credit": "Mayacamas Ranch (official site, pre-fire, archived via Wayback Machine)",
-    "source": "https://web.archive.org/web/20141013093910/http://mayacamasranch.com/gallery/gatherings/"
-   },
-   {
-    "file": "images/mayacamas-ranch/02.jpg",
-    "w": 700,
-    "h": 600,
-    "caption": "Main lodge deck set for an outdoor dinner (pre-2017 fire; building lost in the Tubbs Fire)",
-    "credit": "Mayacamas Ranch (official site, pre-fire, archived via Wayback Machine)",
-    "source": "https://web.archive.org/web/20150214033511/http://mayacamasranch.com/gallery/facilities/"
-   },
-   {
-    "file": "images/mayacamas-ranch/03.jpg",
-    "w": 960,
-    "h": 500,
-    "caption": "Lawn and umbrella looking out over the Mayacamas range (legacy photo on the current site)",
-    "credit": "Mayacamas Ranch (official site)",
-    "source": "https://mayacamasranch.com/"
-   },
-   {
-    "file": "images/mayacamas-ranch/04.jpg",
-    "w": 1600,
-    "h": 1071,
-    "caption": "Hidden Lake with a canoe, looking east (pre-2017 fire)",
-    "credit": "Mayacamas Ranch (official site, pre-fire, archived via Wayback Machine)",
-    "source": "https://web.archive.org/web/20170616221614/http://mayacamasranch.com/"
-   },
-   {
-    "file": "images/mayacamas-ranch/05.jpg",
-    "w": 960,
-    "h": 500,
-    "caption": "Rainbow over the grassland terrace, current post-fire landscape",
-    "credit": "Mayacamas Ranch (official site)",
-    "source": "https://mayacamasranch.com/"
-   },
-   {
-    "file": "images/mayacamas-ranch/06.jpg",
-    "w": 960,
-    "h": 500,
-    "caption": "Pasture looking toward Mount St. Helena at sunset, current post-fire landscape",
-    "credit": "Mayacamas Ranch (official site)",
-    "source": "https://mayacamasranch.com/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched mayacamasranch.com and its /the-invitation/ page (both HTTP 200) and read the full site - it is a four-page WordPress brochure (The Land, The Vision, The Invitation, Partners) aimed at prospective steward partners and impact investors. There is no lodging page, no rates, no calendar, no booking engine, no reservations email and no published phone number; the only interactive element is a 'Request Partner Access' contact form gated behind a private partner portal. The pre-fire retreat-centre site (mayacamasranch.com circa 2014-2017) is gone. Because the property publishes no dates at all, no weekend can be assessed individually; the verdict is the same for all ten and rests on the property's own description of its current state rather than on any dated calendar entry.",
@@ -6198,7 +6147,58 @@ window.VENUES = [
      "sourceLabel": "Mayacamas Ranch - The Invitation (steward-partner page)"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/mayacamas-ranch/01.jpg",
+    "w": 800,
+    "h": 600,
+    "caption": "Pool and sunset over the Mayacamas Mountains (pre-2017 fire)",
+    "credit": "Mayacamas Ranch (official site, pre-fire, archived via Wayback Machine)",
+    "source": "https://web.archive.org/web/20141013093910/http://mayacamasranch.com/gallery/gatherings/"
+   },
+   {
+    "file": "images/mayacamas-ranch/02.jpg",
+    "w": 700,
+    "h": 600,
+    "caption": "Main lodge deck set for an outdoor dinner (pre-2017 fire; building lost in the Tubbs Fire)",
+    "credit": "Mayacamas Ranch (official site, pre-fire, archived via Wayback Machine)",
+    "source": "https://web.archive.org/web/20150214033511/http://mayacamasranch.com/gallery/facilities/"
+   },
+   {
+    "file": "images/mayacamas-ranch/03.jpg",
+    "w": 960,
+    "h": 500,
+    "caption": "Lawn and umbrella looking out over the Mayacamas range (legacy photo on the current site)",
+    "credit": "Mayacamas Ranch (official site)",
+    "source": "https://mayacamasranch.com/"
+   },
+   {
+    "file": "images/mayacamas-ranch/04.jpg",
+    "w": 1600,
+    "h": 1071,
+    "caption": "Hidden Lake with a canoe, looking east (pre-2017 fire)",
+    "credit": "Mayacamas Ranch (official site, pre-fire, archived via Wayback Machine)",
+    "source": "https://web.archive.org/web/20170616221614/http://mayacamasranch.com/"
+   },
+   {
+    "file": "images/mayacamas-ranch/05.jpg",
+    "w": 960,
+    "h": 500,
+    "caption": "Rainbow over the grassland terrace, current post-fire landscape",
+    "credit": "Mayacamas Ranch (official site)",
+    "source": "https://mayacamasranch.com/"
+   },
+   {
+    "file": "images/mayacamas-ranch/06.jpg",
+    "w": 960,
+    "h": 500,
+    "caption": "Pasture looking toward Mount St. Helena at sunset, current post-fire landscape",
+    "credit": "Mayacamas Ranch (official site)",
+    "source": "https://mayacamasranch.com/"
+   }
+  ],
+  "thumb": "images/mayacamas-ranch/thumb.jpg"
  },
  {
   "id": "ratna-ling",
@@ -6292,57 +6292,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "Ratna Ling runs its own retreat calendar nearly every weekend and prioritises non-profit, educational and spiritual groups for rentals. Capacity is 14 cottages / 28 overnight guests (practice spaces 10–70). Program payments are non-refundable but transferable. Group availability is by phone/email only; there is no public group calendar, but the program calendar shows the center occupied on all nine target weekends.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/ratna-ling/thumb.jpg",
-  "images": [
-   {
-    "file": "images/ratna-ling/01.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Main lodge and terraced entry steps under a sunset sky",
-    "credit": "Ratna Ling Retreat Center (official site; photo by Troy Ziel Photography)",
-    "source": "https://ratnaling.org/"
-   },
-   {
-    "file": "images/ratna-ling/02.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "Timber-framed meditation hall with thangkas and shrine",
-    "credit": "Ratna Ling Retreat Center (official site)",
-    "source": "https://ratnaling.org/"
-   },
-   {
-    "file": "images/ratna-ling/03.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "Guest cottages on the hillside among redwoods and oaks",
-    "credit": "Ratna Ling Retreat Center (official site)",
-    "source": "https://ratnaling.org/"
-   },
-   {
-    "file": "images/ratna-ling/04.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Covered timber walkway between the lodge buildings at dusk",
-    "credit": "Ratna Ling Retreat Center (official site; photo by Troy Ziel Photography)",
-    "source": "https://ratnaling.org/"
-   },
-   {
-    "file": "images/ratna-ling/05.jpg",
-    "w": 1600,
-    "h": 1066,
-    "caption": "Outdoor dining patio by the lodge",
-    "credit": "Ratna Ling Retreat Center (official site)",
-    "source": "https://ratnaling.org/"
-   },
-   {
-    "file": "images/ratna-ling/06.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Entrance gate with prayer flags on Hauser Bridge Road",
-    "credit": "Ratna Ling Retreat Center (official site; photo by Troy Ziel Photography)",
-    "source": "https://ratnaling.org/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "ratnaling.org returns 403 to curl regardless of headers, so the venue's own pages were read through WebFetch (home page, HTTP 200) and its separate group-booking site ratnalingretreatcenterbooking.org was opened in a real browser tab to capture its text verbatim (curl gets 403 there too). The dated program schedule came from retreat.guru's Ratna Ling centre page (HTTP 200, fetched and parsed locally), which lists every upcoming program with printed date ranges and covers the whole window; it was cross-checked against a web search of ratnaling.org's own retreat pages. Also checked the Sonoma County tourism lodging listing. Ratna Ling publishes a detailed program calendar but no room-level availability calendar and no booking engine - group rentals go through an inquiry form. Nine of the ten weekends carry a scheduled in-house program; August 28 and September 18 do not, and are ruled out on capacity instead.",
@@ -6429,7 +6378,58 @@ window.VENUES = [
      "sourceLabel": "retreat.guru - Ratna Ling program listing"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/ratna-ling/01.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Main lodge and terraced entry steps under a sunset sky",
+    "credit": "Ratna Ling Retreat Center (official site; photo by Troy Ziel Photography)",
+    "source": "https://ratnaling.org/"
+   },
+   {
+    "file": "images/ratna-ling/02.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Timber-framed meditation hall with thangkas and shrine",
+    "credit": "Ratna Ling Retreat Center (official site)",
+    "source": "https://ratnaling.org/"
+   },
+   {
+    "file": "images/ratna-ling/03.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Guest cottages on the hillside among redwoods and oaks",
+    "credit": "Ratna Ling Retreat Center (official site)",
+    "source": "https://ratnaling.org/"
+   },
+   {
+    "file": "images/ratna-ling/04.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Covered timber walkway between the lodge buildings at dusk",
+    "credit": "Ratna Ling Retreat Center (official site; photo by Troy Ziel Photography)",
+    "source": "https://ratnaling.org/"
+   },
+   {
+    "file": "images/ratna-ling/05.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Outdoor dining patio by the lodge",
+    "credit": "Ratna Ling Retreat Center (official site)",
+    "source": "https://ratnaling.org/"
+   },
+   {
+    "file": "images/ratna-ling/06.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Entrance gate with prayer flags on Hauser Bridge Road",
+    "credit": "Ratna Ling Retreat Center (official site; photo by Troy Ziel Photography)",
+    "source": "https://ratnaling.org/"
+   }
+  ],
+  "thumb": "images/ratna-ling/thumb.jpg"
  },
  {
   "id": "green-gulch-farm",
@@ -6521,57 +6521,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "'We are no longer accepting requests for 2026 dates' (sfzc.org, checked 2026-08-21). When open, bookings are by the day (no hourly), day-long or overnight packages, email ggfconference@sfzc.org. Capacity: 17 rooms / 22 beds, conference rooms up to 40. Check-in 3 pm, checkout 9:30 am, conference space until 1 pm on departure day.",
   "checkedOn": "2026-08-21",
-  "thumb": "images/green-gulch-farm/thumb.jpg",
-  "images": [
-   {
-    "file": "images/green-gulch-farm/01.jpg",
-    "w": 1600,
-    "h": 1200,
-    "caption": "Lindisfarne Guest House, the timber-frame guesthouse",
-    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Green_Gulch_Farm_Zen_Center,_Lindisfarne_Guesthouse.jpg"
-   },
-   {
-    "file": "images/green-gulch-farm/02.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Wheelwright Center, the conference/meeting building, among redwoods",
-    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Wheelwright_Center_at_Green_Gulch_Farm_Zen_Center.jpg"
-   },
-   {
-    "file": "images/green-gulch-farm/03.jpg",
-    "w": 1150,
-    "h": 768,
-    "caption": "Aerial view down Green Gulch valley to Muir Beach",
-    "credit": "San Francisco Zen Center (official site)",
-    "source": "https://www.sfzc.org/locations/green-gulch-farm"
-   },
-   {
-    "file": "images/green-gulch-farm/04.jpg",
-    "w": 1600,
-    "h": 1236,
-    "caption": "Bell tower with the Japanese temple bell",
-    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Green_Gulch_Farm_Zen_Center,_April_2017_-_03.jpg"
-   },
-   {
-    "file": "images/green-gulch-farm/05.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Guesthouse sitting room with wood stove",
-    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Green_Gulch_Farm_Zen_Center,_May_2019-5935.jpg"
-   },
-   {
-    "file": "images/green-gulch-farm/06.jpg",
-    "w": 1600,
-    "h": 1067,
-    "caption": "Guest room in the Lindisfarne Guest House",
-    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Green_Gulch_Farm_Zen_Center,_May_2019-5934.jpg"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Fetched the SFZC Green Gulch location page and the Green Gulch conference centre facilities/rates/policies page (both HTTP 200) and read them in full, then fetched SFZC's site-wide calendar (HTTP 200), which lists dated entries day by day from late August 2026 onward and can be filtered to the Green Gulch Farm location. Unusually for this set, Green Gulch answers the question directly in published prose rather than through a booking engine: the conference page opens with a standing notice that 2026 date requests are closed, and it also prints exact room, bed and meeting-room counts. The calendar then supplies dated corroboration for the last three weekends in the form of the Fall Practice Period. No booking engine exists - conferences are arranged by email to ggfconference@sfzc.org - but none was needed.",
@@ -6658,7 +6607,58 @@ window.VENUES = [
      "sourceLabel": "San Francisco Zen Center - full calendar"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/green-gulch-farm/01.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Lindisfarne Guest House, the timber-frame guesthouse",
+    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Green_Gulch_Farm_Zen_Center,_Lindisfarne_Guesthouse.jpg"
+   },
+   {
+    "file": "images/green-gulch-farm/02.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Wheelwright Center, the conference/meeting building, among redwoods",
+    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wheelwright_Center_at_Green_Gulch_Farm_Zen_Center.jpg"
+   },
+   {
+    "file": "images/green-gulch-farm/03.jpg",
+    "w": 1150,
+    "h": 768,
+    "caption": "Aerial view down Green Gulch valley to Muir Beach",
+    "credit": "San Francisco Zen Center (official site)",
+    "source": "https://www.sfzc.org/locations/green-gulch-farm"
+   },
+   {
+    "file": "images/green-gulch-farm/04.jpg",
+    "w": 1600,
+    "h": 1236,
+    "caption": "Bell tower with the Japanese temple bell",
+    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Green_Gulch_Farm_Zen_Center,_April_2017_-_03.jpg"
+   },
+   {
+    "file": "images/green-gulch-farm/05.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Guesthouse sitting room with wood stove",
+    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Green_Gulch_Farm_Zen_Center,_May_2019-5935.jpg"
+   },
+   {
+    "file": "images/green-gulch-farm/06.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Guest room in the Lindisfarne Guest House",
+    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Green_Gulch_Farm_Zen_Center,_May_2019-5934.jpg"
+   }
+  ],
+  "thumb": "images/green-gulch-farm/thumb.jpg"
  },
  {
   "id": "sea-ranch-lodge",
@@ -6752,57 +6752,6 @@ window.VENUES = [
   ],
   "availabilityNotes": "17 Lodge rooms only (plus managed 'Sea Ranch Living' vacation homes and cabins). The Lodge publishes a 2026 closure list: it is closed to the public for private events on almost every Saturday from late August through mid-November, including a full Fri 3pm–Sun noon buyout Sep 25–27 and a Wed Oct 14–Sat Oct 17 closure covering the target weekend. Booking engine enforces a 2-night minimum (3 nights over Labor Day) and showed no Lodge rooms on any of the nine target weekends. Guest rooms require full deposit; cancellations within 14 days non-refundable; 21+ to check in; dogs only in first-level rooms with notice. Event spaces: Dining Room 80 dinner, Ocean Meadow 150 dinner, Barn Meadow/The Meadow 200 (tented).",
   "checkedOn": "2026-08-21",
-  "thumb": "images/sea-ranch-lodge/thumb.jpg",
-  "images": [
-   {
-    "file": "images/sea-ranch-lodge/01.jpg",
-    "w": 1600,
-    "h": 1000,
-    "caption": "Aerial view of the lodge on the bluffs above the cove",
-    "credit": "The Sea Ranch Lodge (official site)",
-    "source": "https://www.thesearanchlodge.com/lodging"
-   },
-   {
-    "file": "images/sea-ranch-lodge/02.jpg",
-    "w": 1600,
-    "h": 1000,
-    "caption": "Lodge rooms wing at sunset, looking down the coast",
-    "credit": "The Sea Ranch Lodge (official site)",
-    "source": "https://www.thesearanchlodge.com/lodging/lodge-rooms"
-   },
-   {
-    "file": "images/sea-ranch-lodge/03.jpg",
-    "w": 1600,
-    "h": 1063,
-    "caption": "Lodge exterior with the glass-walled dining room and meadow terrace (2024)",
-    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Sea_Ranch_Lodge,_Exterior_(2024)-L1004456.jpg"
-   },
-   {
-    "file": "images/sea-ranch-lodge/04.jpg",
-    "w": 1600,
-    "h": 1000,
-    "caption": "Lodge room with wood-burning stove and ocean-view window seat",
-    "credit": "The Sea Ranch Lodge (official site)",
-    "source": "https://www.thesearanchlodge.com/lodging/lodge-rooms"
-   },
-   {
-    "file": "images/sea-ranch-lodge/05.jpg",
-    "w": 1600,
-    "h": 600,
-    "caption": "North building courtyard at dusk",
-    "credit": "The Sea Ranch Lodge (official site; photo by Adam Potts Photography)",
-    "source": "https://www.thesearanchlodge.com/lodging"
-   },
-   {
-    "file": "images/sea-ranch-lodge/06.jpg",
-    "w": 1600,
-    "h": 900,
-    "caption": "Lodge entrance and Sea Ranch post office from the road",
-    "credit": "The Sea Ranch Lodge (official site)",
-    "source": "https://www.thesearanchlodge.com/"
-   }
-  ],
   "verified": {
    "checkedOn": "2026-08-25",
    "method": "Read the Lodge's own site (home, /lodging, /faq, /private-events, /community/events - all HTTP 200) for room counts, group policy and dated programming, then drove the actual booking engine. The Lodge sells through SynXis (hotel=40594); the page is JavaScript-only, so it was opened in a browser tab and queried once per weekend, Friday to Sunday, 2 adults, 1 room - all ten weekends individually. Results split two ways: four weekends returned an explicit 'not available' message, and six returned only 'Sea Ranch Living' cabins/homes with no 'The Lodge Rooms' category at all. To rule out a stuck filter, two midweek control searches were run: Sep 1-3, 2026 did return 'The Lodge Rooms', confirming the category appears when inventory exists. So the Lodge's own 17 rooms were unbookable for a two-night Fri-Sun stay on every one of the ten weekends. The public programming calendar (yoga, workshops, artist exhibitions) was also read and shows the property operating normally through October 10 - these are small public events, not site occupancy.",
@@ -6889,6 +6838,562 @@ window.VENUES = [
      "sourceLabel": "The Sea Ranch Lodge - FAQ (room count)"
     }
    ]
-  }
+  },
+  "images": [
+   {
+    "file": "images/sea-ranch-lodge/01.jpg",
+    "w": 1600,
+    "h": 1000,
+    "caption": "Aerial view of the lodge on the bluffs above the cove",
+    "credit": "The Sea Ranch Lodge (official site)",
+    "source": "https://www.thesearanchlodge.com/lodging"
+   },
+   {
+    "file": "images/sea-ranch-lodge/02.jpg",
+    "w": 1600,
+    "h": 1000,
+    "caption": "Lodge rooms wing at sunset, looking down the coast",
+    "credit": "The Sea Ranch Lodge (official site)",
+    "source": "https://www.thesearanchlodge.com/lodging/lodge-rooms"
+   },
+   {
+    "file": "images/sea-ranch-lodge/03.jpg",
+    "w": 1600,
+    "h": 1063,
+    "caption": "Lodge exterior with the glass-walled dining room and meadow terrace (2024)",
+    "credit": "Frank Schulenburg via Wikimedia Commons, CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sea_Ranch_Lodge,_Exterior_(2024)-L1004456.jpg"
+   },
+   {
+    "file": "images/sea-ranch-lodge/04.jpg",
+    "w": 1600,
+    "h": 1000,
+    "caption": "Lodge room with wood-burning stove and ocean-view window seat",
+    "credit": "The Sea Ranch Lodge (official site)",
+    "source": "https://www.thesearanchlodge.com/lodging/lodge-rooms"
+   },
+   {
+    "file": "images/sea-ranch-lodge/05.jpg",
+    "w": 1600,
+    "h": 600,
+    "caption": "North building courtyard at dusk",
+    "credit": "The Sea Ranch Lodge (official site; photo by Adam Potts Photography)",
+    "source": "https://www.thesearanchlodge.com/lodging"
+   },
+   {
+    "file": "images/sea-ranch-lodge/06.jpg",
+    "w": 1600,
+    "h": 900,
+    "caption": "Lodge entrance and Sea Ranch post office from the road",
+    "credit": "The Sea Ranch Lodge (official site)",
+    "source": "https://www.thesearanchlodge.com/"
+   }
+  ],
+  "thumb": "images/sea-ranch-lodge/thumb.jpg"
+ },
+ {
+  "id": "menucha",
+  "name": "Menucha Retreat & Conference Center",
+  "tier": "FLY",
+  "subtitle": "the 1927 Meier estate, Columbia Gorge",
+  "area": "Corbett, Oregon (Columbia River Gorge)",
+  "drive": "PDX + 30 min",
+  "travel": "Fly SFO→PDX (~2 h), then ~30 min east on I-84",
+  "sleeps": "126+ beds: Wright Hall 45, Ballard Hall 37, The Barn 32, Beam House 12, plus Creevey Complex and Boyd Hall; site capacity quoted as 1–140",
+  "meeting": "Wright Hall Great Hall 90 on the main floor + 30 in the balcony; Ballard 40; The Barn 32; Greenhouse 32; several 8–20 person lounges",
+  "buyout": "Likely — 140 capacity for a group of 60, and it runs ~200 groups a year; ask",
+  "why": "Julius Meier's 1927 summer estate on a bluff over the Columbia Gorge: shingled estate house, rockery gardens, a pool on the bluff, and a barn and greenhouse that both double as meeting rooms. Non-profit conference-centre pricing rather than resort pricing, and 30 minutes from a major airport.",
+  "watch": "Mixed lodging from private rooms to dorms; rates are not published anywhere, so everything starts with an inquiry form. Church-owned (First Presbyterian Portland) though it rents to secular groups.",
+  "phone": "(503) 695-2243",
+  "email": "office@menucha.org",
+  "website": "https://www.menucha.org/",
+  "booking": "https://www.menucha.org/faqs",
+  "note": "Research note: physical address is 38711 E Historic Columbia River Hwy; mail goes to PO Box 8, Corbett OR 97019. Office hours Mon–Fri 8–4 PST.",
+  "tierLabel": "Fly-in",
+  "address": "38711 E Historic Columbia River Hwy, Corbett, OR 97019",
+  "lat": 45.5371482,
+  "lng": -122.265811,
+  "geo_confidence": "high",
+  "cost": {
+   "mode": "quote",
+   "summary": "Quote only",
+   "basis": "Menucha publishes no rates anywhere on its site; the FAQ and facilities pages route every group to a Cognito group-inquiry form, and the office line is (503) 695-2243 / office@menucha.org. For scale: it serves roughly 200 groups a year averaging about 22 people each, and it is a non-profit conference centre rather than a resort, so expect conference-centre pricing well under the resort options in this tier.",
+   "source_url": "https://www.menucha.org/faqs",
+   "source_label": "Menucha FAQ (no rates published; group inquiry form only)",
+   "confidence": "low",
+   "short": "Quote"
+  },
+  "availability": [],
+  "availabilityNotes": "126+ beds across Wright Hall (45), Ballard Hall (37), The Barn (32), Beam House (12), plus the Creevey Complex and Boyd Hall. Site capacity is quoted as 1-140 (one listing says 1-150), so 60 fits with room to spare and a whole-site hold is plausible. Largest meeting room is Wright Hall's Great Hall at 90 on the main floor plus 30 in the balcony.",
+  "checkedOn": "2026-08-26",
+  "thumb": "images/menucha/thumb.jpg",
+  "images": [
+   {
+    "file": "images/menucha/01.jpg",
+    "w": 1600,
+    "h": 1066,
+    "caption": "Wright Hall, the 1927 Meier estate house",
+    "credit": "Menucha Retreat & Conference Center (official site)",
+    "source": "https://www.menucha.org/facilities"
+   },
+   {
+    "file": "images/menucha/02.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Creevey Commons, the contemporary lodging and meeting complex",
+    "credit": "Menucha Retreat & Conference Center (official site)",
+    "source": "https://www.menucha.org/facilities"
+   },
+   {
+    "file": "images/menucha/03.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "The Barn — 32 beds and a 32-seat meeting room",
+    "credit": "Menucha Retreat & Conference Center (official site)",
+    "source": "https://www.menucha.org/facilities"
+   },
+   {
+    "file": "images/menucha/04.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Ballard Hall — 37 beds plus a 40-person lounge",
+    "credit": "Menucha Retreat & Conference Center (official site)",
+    "source": "https://www.menucha.org/facilities"
+   },
+   {
+    "file": "images/menucha/05.jpg",
+    "w": 960,
+    "h": 1280,
+    "caption": "The rockery steps through the estate gardens",
+    "credit": "Menucha Retreat & Conference Center (official site)",
+    "source": "https://www.menucha.org/about"
+   },
+   {
+    "file": "images/menucha/06.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "The pool on the bluff above the Columbia River",
+    "credit": "Menucha Retreat & Conference Center (official site)",
+    "source": "https://www.menucha.org/facilities"
+   }
+  ]
+ },
+ {
+  "id": "sleeping-lady",
+  "name": "Sleeping Lady Mountain Resort",
+  "tier": "FLY",
+  "subtitle": "Harriet Bullitt's art-filled camp",
+  "area": "Leavenworth, Washington (Icicle Canyon)",
+  "drive": "EAT + 45 min",
+  "travel": "Fly SFO→SEA (~2 h) + ~2 h 20 drive, or SEA→EAT (Wenatchee) + ~45 min",
+  "sleeps": "58 guest rooms across clustered timber lodges — a 60-person group is essentially the whole resort",
+  "meeting": "Nine meeting rooms, 10,000+ sq ft of function space, seating 30–190",
+  "buyout": "Effectively yes at 58 rooms; inclusive group rates are the normal way it sells",
+  "why": "A 1930s camp rebuilt by Harriet Bullitt into a campus of low timber buildings scattered through pines under the Icicle Canyon walls, with a serious Northwest art collection sited across the grounds. Inclusive per-person pricing means one number covers rooms, three meals and meeting space.",
+  "watch": "The airport that is genuinely close (Pangborn/EAT) only flies to Seattle; the practical route is SFO→SEA and a 2 h 20 drive over Stevens Pass. Leavenworth is a Bavarian-theme tourist town in high season.",
+  "phone": "(509) 548-6344",
+  "email": "",
+  "website": "https://www.sleepinglady.com/",
+  "booking": "https://www.sleepinglady.com/meetings/",
+  "note": "Research note: the site's photography is credited to Erik Sven Photography. The $195-per-person inclusive figure comes from a Cvent listing, not the resort's own page.",
+  "tierLabel": "Fly-in",
+  "address": "7375 Icicle Road, Leavenworth, WA 98826",
+  "lat": 47.5516461,
+  "lng": -120.6825623,
+  "geo_confidence": "high",
+  "cost": {
+   "mode": "estimate",
+   "low": 23000,
+   "high": 32000,
+   "summary": "est. $23-32k",
+   "basis": "Two independent bases. (1) A Cvent venue listing for the resort states inclusive group rates 'often start at just $195 per person'; at 60 people x 2 nights that is $23,400 all-in. (2) A-la-carte: third-party listings put standard rooms at $178-254 a night, so 30 rooms x 2 nights is about $10,700-15,200, and the resort's own restaurant covering six meals for 60 at roughly $70-90 per person per day adds $8,400-10,800, plus tax and service. Both routes land in the $23-32k band. No rate was confirmed against the resort's own booking engine for Oct 16-18, 2026.",
+   "per_person": "roughly $390-530 per person for Fri-Sun, meals included",
+   "source_url": "https://www.cvent.com/venues/leavenworth/resort/sleeping-lady-mountain-resort/venue-882e52f5-382f-4d75-ba7b-55fe9443eb14",
+   "source_label": "Cvent venue listing (group rates from $195 pp) + third-party nightly rates",
+   "confidence": "low",
+   "short": "est. $23–32k"
+  },
+  "availability": [],
+  "availabilityNotes": "58 guest rooms — a 60-person group is effectively the whole resort, which is the cleanest buyout case in this tier. Nine meeting rooms, 10,000+ sq ft of function space, seating 30-190. Harriet Bullitt's rebuild of a 1930s camp, with a large Northwest art collection through the grounds.",
+  "checkedOn": "2026-08-26",
+  "thumb": "images/sleeping-lady/thumb.jpg",
+  "images": [
+   {
+    "file": "images/sleeping-lady/01.jpg",
+    "w": 1024,
+    "h": 682,
+    "caption": "The resort in Icicle Canyon, seen from above",
+    "credit": "Sleeping Lady Mountain Resort (official site), photo Erik Sven Photography",
+    "source": "https://www.sleepinglady.com/weddings-groups/spaces/"
+   },
+   {
+    "file": "images/sleeping-lady/02.jpg",
+    "w": 1024,
+    "h": 682,
+    "caption": "Grounds and gathering spaces",
+    "credit": "Sleeping Lady Mountain Resort (official site), photo Erik Sven Photography",
+    "source": "https://www.sleepinglady.com/weddings-groups/spaces/"
+   },
+   {
+    "file": "images/sleeping-lady/03.jpg",
+    "w": 1024,
+    "h": 683,
+    "caption": "Meeting and event space",
+    "credit": "Sleeping Lady Mountain Resort (official site), photo Erik Sven Photography",
+    "source": "https://www.sleepinglady.com/weddings-groups/spaces/"
+   },
+   {
+    "file": "images/sleeping-lady/04.jpg",
+    "w": 1024,
+    "h": 683,
+    "caption": "Interior of one of the resort's timber buildings",
+    "credit": "Sleeping Lady Mountain Resort (official site), photo Erik Sven Photography",
+    "source": "https://www.sleepinglady.com/weddings-groups/spaces/"
+   },
+   {
+    "file": "images/sleeping-lady/05.jpg",
+    "w": 1024,
+    "h": 683,
+    "caption": "Outdoor gathering area among the pines",
+    "credit": "Sleeping Lady Mountain Resort (official site), photo Erik Sven Photography",
+    "source": "https://www.sleepinglady.com/weddings-groups/spaces/"
+   },
+   {
+    "file": "images/sleeping-lady/06.jpg",
+    "w": 1600,
+    "h": 1067,
+    "caption": "Guest lodging cluster",
+    "credit": "Sleeping Lady Mountain Resort (official site)",
+    "source": "https://www.sleepinglady.com/weddings-groups/spaces/"
+   }
+  ]
+ },
+ {
+  "id": "chautauqua-boulder",
+  "name": "The Colorado Chautauqua",
+  "tier": "FLY",
+  "subtitle": "1898 cottages under the Flatirons",
+  "area": "Boulder, Colorado",
+  "drive": "DEN + 50 min",
+  "travel": "Fly SFO/OAK/SJC→DEN (~2 h 20), then ~50 min to Boulder",
+  "sleeps": "59 cottages (studio to 3-bedroom) plus Missions House Lodge and Columbine Lodge; one lodge sleeps 16 in eight en-suite rooms",
+  "meeting": "Community House, the lodges (one seats 35), the Dining Hall, and the 1898 Auditorium",
+  "buyout": "No — the grounds are a public city park; this is a large room block plus meeting space",
+  "why": "A National Historic Landmark and the only continuously operating Chautauqua west of the Mississippi: 26 acres of green-and-white Victorian cottages with screened porches, a dining hall and an 1898 auditorium, sitting directly under the Flatirons with trailheads at the door.",
+  "watch": "Not exclusive-use, and the site's own copy pitches curated retreats for 10–50, so 60 needs a conversation. Cottages have kitchens but the lodging is spread across many small buildings. Boulder in October can be cold.",
+  "phone": "",
+  "email": "",
+  "website": "https://www.chautauqua.com/",
+  "booking": "https://www.chautauqua.com/group-retreats/",
+  "note": "Research note: catering runs through the Chautauqua Dining Hall and Three Leaf Concepts. Founded 1898; one of only two National Historic Landmarks in Colorado offering lodging and events.",
+  "tierLabel": "Fly-in",
+  "address": "900 Baseline Road, Boulder, CO 80302",
+  "lat": 39.9999701,
+  "lng": -105.283278,
+  "geo_confidence": "high",
+  "cost": {
+   "mode": "estimate",
+   "low": 30000,
+   "high": 45000,
+   "summary": "est. $30-45k",
+   "basis": "Lodging: third-party aggregators put the cottages at roughly $227 typical and $211-432 for good rates, with a standard-room range of $226-614. Sixty people across about 20 studio/1-2 bedroom cottages at $250-400 for two nights is $10,000-16,000; taking more of the 59 cottages plus a lodge pushes it higher. Meals: catering is by the Chautauqua Dining Hall and Three Leaf Concepts, and full-day farm-to-table catering for 60 at $130-200 per person per day over two days is $15,600-24,000. Meeting space in the Community House or a lodge adds a few thousand. Nothing here is a quoted 2026 figure.",
+   "per_person": "roughly $500-750 per person for Fri-Sun including catering",
+   "source_url": "https://www.chautauqua.com/group-retreats/",
+   "source_label": "Chautauqua group-retreats page + third-party nightly rates",
+   "confidence": "low",
+   "short": "est. $30–45k"
+  },
+  "availability": [],
+  "availabilityNotes": "59 cottages plus Missions House Lodge and Columbine Lodge on 26 acres; one lodge sleeps 16 in eight en-suite rooms and seats 35. The grounds are a public city park and a National Historic Landmark, so this is a large room block plus meeting space, NOT an exclusive buyout — the site's own copy pitches curated retreat programmes for 10-50, so 60 needs a conversation.",
+  "checkedOn": "2026-08-26",
+  "thumb": "images/chautauqua-boulder/thumb.jpg",
+  "images": [
+   {
+    "file": "images/chautauqua-boulder/01.jpg",
+    "w": 1261,
+    "h": 817,
+    "caption": "Missions House Lodge below the Flatirons",
+    "credit": "The Colorado Chautauqua (official site)",
+    "source": "https://www.chautauqua.com/group-retreats/"
+   },
+   {
+    "file": "images/chautauqua-boulder/02.jpg",
+    "w": 1000,
+    "h": 665,
+    "caption": "The Community House, one of the meeting buildings",
+    "credit": "The Colorado Chautauqua (official site)",
+    "source": "https://www.chautauqua.com/group-retreats/"
+   },
+   {
+    "file": "images/chautauqua-boulder/03.jpg",
+    "w": 1600,
+    "h": 1068,
+    "caption": "Cottages on the Chautauqua green",
+    "credit": "The Colorado Chautauqua (official site)",
+    "source": "https://www.chautauqua.com/group-retreats/"
+   },
+   {
+    "file": "images/chautauqua-boulder/04.jpg",
+    "w": 1024,
+    "h": 683,
+    "caption": "The entrance to the Chautauqua grounds",
+    "credit": "The Colorado Chautauqua (official site)",
+    "source": "https://www.chautauqua.com/group-retreats/"
+   }
+  ]
+ },
+ {
+  "id": "rosario-resort",
+  "name": "Rosario Resort",
+  "tier": "FLY",
+  "subtitle": "Robert Moran's 1909 mansion, Orcas Island",
+  "area": "Eastsound, Orcas Island, Washington",
+  "drive": "ESD + 10 min",
+  "travel": "Fly SFO→SEA, then Kenmore Air to the resort's own seaplane dock or Orcas Island Airport (~10 min), or the Anacortes ferry",
+  "sleeps": "Village rooms around the mansion — listings range from 69 to 107 rooms; no guest rooms in the mansion itself",
+  "meeting": "Event space in and around the Moran Mansion on 30 waterfront acres",
+  "buyout": "Ask — the room count is well above 60, so a full buyout is a real question rather than a given",
+  "why": "Shipbuilder Robert Moran's 1909 mansion on Cascade Bay: copper roof, mahogany, stained glass and a working Aeolian pipe organ in the music room, with Moran State Park at the back door. The seaplane base is on the resort's own waterfront, which is about as close as an airport gets.",
+  "watch": "Two-leg travel from the Bay Area (SEA plus a small plane or a ferry). The mansion is the beautiful part; the guest lodging is ordinary resort-village building stock, and the resort's own gallery could not be scraped, so the photos here are all Wikimedia Commons shots of the mansion.",
+  "phone": "(360) 376-2222",
+  "email": "",
+  "website": "https://www.rosarioresort.com/",
+  "booking": "https://www.rosarioresort.com/",
+  "note": "Research note: coordinates come from the OpenStreetMap node 'Rosario Resort and Spa'; Nominatim could not resolve the street address. The resort changed hands recently and room counts differ between listings.",
+  "tierLabel": "Fly-in",
+  "address": "1624 Rosario Road, Eastsound, WA 98245 (Orcas Island)",
+  "lat": 48.6446386,
+  "lng": -122.8733907,
+  "geo_confidence": "high",
+  "cost": {
+   "mode": "estimate",
+   "low": 30000,
+   "high": 42000,
+   "summary": "est. $30-42k",
+   "basis": "Lodging: aggregators report an average of about $344 a night across a $132-962 range; mid-October is shoulder season on Orcas, so 30 rooms x 2 nights at $250-350 is $15,000-21,000. Meals: resort dining for six meals for 60 at $110-150 per person per day is $13,200-18,000 with service. Add meeting space in the mansion. No rate was confirmed for Oct 16-18, 2026 and no group or buyout quote was obtained.",
+   "per_person": "roughly $500-700 per person for Fri-Sun including meals",
+   "source_url": "https://www.rosarioresort.com/",
+   "source_label": "Resort site + third-party nightly-rate aggregates",
+   "confidence": "low",
+   "short": "est. $30–42k"
+  },
+  "availability": [],
+  "availabilityNotes": "30 waterfront acres on Cascade Bay; sources disagree on the room count (69 in one listing, up to 107 in others) but either comfortably covers 60. The 1909 Moran Mansion holds the restaurant, spa, museum and pipe organ and has no guest rooms. Getting there is the interesting part: Orcas Island Airport is about 10 minutes away and the Rosario Seaplane Base is on the resort's own waterfront, so Kenmore Air can land a group at the door — but from the Bay Area that means SFO-SEA plus a small plane or the Anacortes ferry.",
+  "checkedOn": "2026-08-26",
+  "thumb": "images/rosario-resort/thumb.jpg",
+  "images": [
+   {
+    "file": "images/rosario-resort/01.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "The 1909 Moran Mansion",
+    "credit": "Joe Mabel, CC BY-SA 3.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Rosario_Resort_Moran_Mansion_01.jpg"
+   },
+   {
+    "file": "images/rosario-resort/02.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Moran Mansion from the grounds",
+    "credit": "Joe Mabel, CC BY-SA 3.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Rosario_Resort_Moran_Mansion_02.jpg"
+   },
+   {
+    "file": "images/rosario-resort/03.jpg",
+    "w": 1600,
+    "h": 964,
+    "caption": "The music room, with its Aeolian pipe organ",
+    "credit": "Joe Mabel, CC BY-SA 3.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Rosario_Resort_Moran_Mansion_music_room_02.jpg"
+   },
+   {
+    "file": "images/rosario-resort/04.jpg",
+    "w": 1600,
+    "h": 1145,
+    "caption": "Mahogany and stained glass in the music room",
+    "credit": "Joe Mabel, CC BY-SA 3.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Rosario_Resort_Moran_Mansion_music_room_05.jpg"
+   },
+   {
+    "file": "images/rosario-resort/05.jpg",
+    "w": 1600,
+    "h": 1468,
+    "caption": "Cascade Bay from the mansion's old dining room",
+    "credit": "Joe Mabel, CC BY-SA 3.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Rosario_Resort_Moran_Mansion_view_from_old_dining_room.jpg"
+   }
+  ]
+ },
+ {
+  "id": "hacienda-del-sol",
+  "name": "Hacienda del Sol Guest Ranch Resort",
+  "tier": "FLY",
+  "subtitle": "1929 adobe in the Catalina Foothills",
+  "area": "Tucson, Arizona",
+  "drive": "TUS + 25 min",
+  "travel": "Fly SFO/OAK→TUS (~2 h), then ~25 min to the Catalina Foothills",
+  "sleeps": "97 rooms, casitas and suites, plus the 3,400 sq ft Casa Alcalde residence",
+  "meeting": "14,000+ sq ft indoor and outdoor: six meeting rooms, two convertible suites, four outdoor sites, and the 2,910 sq ft Casa Luna",
+  "buyout": "Yes — the resort markets full buyouts",
+  "why": "Opened 1929 as a girls' boarding school and then a guest ranch: purple-and-blue painted adobe arches, tiled stairs, stone walls and cactus gardens in the Catalina Foothills, with a library and a Historic Hotels of America listing. Twenty-five minutes from a direct Bay Area flight, and it will sell you the whole place.",
+  "watch": "Luxury-resort pricing, and it is a working resort rather than a retreat centre. Mid-October is the start of Tucson's high season, so rates are near their peak.",
+  "phone": "(520) 299-1501",
+  "email": "",
+  "website": "https://www.haciendadelsol.com/",
+  "booking": "https://www.haciendadelsol.com/meetings-events",
+  "note": "Research note: room mix is 70 Sonoran, 10 Hacienda, 9 Historic rooms, 3 Historic suites, 2 Sonoran suites, 2 one-bedroom casitas and the Casita Grande.",
+  "tierLabel": "Fly-in",
+  "address": "5501 N Hacienda del Sol Road, Tucson, AZ 85718",
+  "lat": 32.307438,
+  "lng": -110.9141115,
+  "geo_confidence": "high",
+  "cost": {
+   "mode": "estimate",
+   "low": 38000,
+   "high": 55000,
+   "summary": "est. $38-55k",
+   "basis": "Mid-October is the start of Tucson's high season. Thirty of the 97 rooms at roughly $350-500 a night for two nights is $21,000-30,000, and resort dining for six meals for 60 at $140-190 per person per day is $16,800-22,800 with service and tax. A full buyout of all 97 rooms would be substantially more. No dated quote was obtained; these are seasonal rack-rate assumptions, not a proposal.",
+   "per_person": "roughly $630-920 per person for Fri-Sun including meals",
+   "source_url": "https://www.haciendadelsol.com/meetings-events",
+   "source_label": "Resort meetings page (room and function-space counts); rates assumed",
+   "confidence": "low",
+   "short": "est. $38–55k"
+  },
+  "availability": [],
+  "availabilityNotes": "97 rooms, casitas and suites; over 14,000 sq ft of function space across six meeting rooms, the 2,910 sq ft Casa Luna and the 3,400 sq ft Casa Alcalde private residence (which itself holds a 35-person reception). The resort actively markets full buyouts, so 60 people can have the place to themselves. The tradeoff is price and the fact that it is a working luxury resort rather than a retreat centre.",
+  "checkedOn": "2026-08-26",
+  "thumb": "images/hacienda-del-sol/thumb.jpg",
+  "images": [
+   {
+    "file": "images/hacienda-del-sol/01.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "The 1929 adobe arrival court",
+    "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+    "source": "https://www.haciendadelsol.com/gallery"
+   },
+   {
+    "file": "images/hacienda-del-sol/02.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "The Grill entrance and outer courtyard",
+    "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+    "source": "https://www.haciendadelsol.com/gallery"
+   },
+   {
+    "file": "images/hacienda-del-sol/03.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "The property from the air, in the Catalina Foothills",
+    "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+    "source": "https://www.haciendadelsol.com/gallery"
+   },
+   {
+    "file": "images/hacienda-del-sol/04.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "The library",
+    "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+    "source": "https://www.haciendadelsol.com/gallery"
+   },
+   {
+    "file": "images/hacienda-del-sol/05.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "A guest building",
+    "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+    "source": "https://www.haciendadelsol.com/gallery"
+   },
+   {
+    "file": "images/hacienda-del-sol/06.jpg",
+    "w": 1600,
+    "h": 1200,
+    "caption": "Cactus gardens on the grounds",
+    "credit": "Hacienda del Sol Guest Ranch Resort (official site)",
+    "source": "https://www.haciendadelsol.com/gallery"
+   }
+  ]
+ },
+ {
+  "id": "sundance-resort",
+  "name": "Sundance Mountain Resort",
+  "tier": "FLY",
+  "subtitle": "Redford's canyon village, Mount Timpanogos",
+  "area": "Sundance, Utah (Provo Canyon)",
+  "drive": "PVU + 35 min",
+  "travel": "Fly SFO/OAK/SJC→SLC (~1 h 50), then ~1 h up Provo Canyon; Provo (PVU) is ~35 min",
+  "sleeps": "Rooms, cottages and suites, and multi-bedroom mountain homes across the village",
+  "meeting": "About 12,000 sq ft of indoor and outdoor meeting space, most of it glass-walled onto the canyon",
+  "buyout": "Ask — mid-October is between leaf season and ski season, which is the best shot at holding the village",
+  "why": "The place that invented the rustic-modern idiom everything else imitates: 5,000 acres in Provo Canyon under Mount Timpanogos, timber-and-river-stone buildings, cottages with stone fireplaces, and meeting rooms that open straight onto the mountain.",
+  "watch": "The most expensive option here, and lodging is spread between the Inn, cottages and mountain homes rather than one campus. Redford sold his stake in 2020. A whole-village hold at 60 people is unconfirmed.",
+  "phone": "(800) 892-1600",
+  "email": "",
+  "website": "https://www.sundanceresort.com/",
+  "booking": "https://www.sundanceresort.com/stay/",
+  "note": "Research note: coordinates are Wikipedia's; Nominatim only resolved a ski run inside the resort.",
+  "tierLabel": "Fly-in",
+  "address": "8841 N Alpine Loop Scenic Byway, Sundance, UT 84604",
+  "lat": 40.392,
+  "lng": -111.579,
+  "geo_confidence": "medium",
+  "cost": {
+   "mode": "estimate",
+   "low": 38000,
+   "high": 52000,
+   "summary": "est. $38-52k",
+   "basis": "Third-party listings for October 2026 dates show $278 (Oct 21-22), $345 (Oct 27-28), $384 and $482 (carriage houses, Oct 20-23) a night. Thirty units at $300-450 for two nights is $18,000-27,000; the mountain homes sleep more per unit and change that arithmetic. Resort dining for six meals for 60 at $160-210 per person per day is $19,200-25,200. Meeting space is quoted separately against the 12,000 sq ft of indoor and outdoor space. No dated group quote was obtained.",
+   "per_person": "roughly $630-870 per person for Fri-Sun including meals",
+   "source_url": "https://www.sundanceresort.com/stay/",
+   "source_label": "Sundance lodging pages + third-party October 2026 nightly rates",
+   "confidence": "low",
+   "short": "est. $38–52k"
+  },
+  "availability": [],
+  "availabilityNotes": "5,000 acres in Provo Canyon under Mount Timpanogos, with rooms, cottages/suites and multi-bedroom mountain homes and about 12,000 sq ft of indoor and outdoor meeting space. This is the closest thing on the list to a purpose-built beautiful campus at scale, and also close to the most expensive. Whether 60 can hold the whole village in mid-October (leaf season, pre-ski) needs a group-sales conversation.",
+  "checkedOn": "2026-08-26",
+  "thumb": "images/sundance-resort/thumb.jpg",
+  "images": [
+   {
+    "file": "images/sundance-resort/01.jpg",
+    "w": 1000,
+    "h": 745,
+    "caption": "The Inn, in timber and river stone",
+    "credit": "Sundance Mountain Resort (official site)",
+    "source": "https://www.sundanceresort.com/stay/"
+   },
+   {
+    "file": "images/sundance-resort/02.jpg",
+    "w": 1600,
+    "h": 935,
+    "caption": "Resort lodging under Mount Timpanogos",
+    "credit": "Sundance Mountain Resort (official site)",
+    "source": "https://www.sundanceresort.com/stay/"
+   },
+   {
+    "file": "images/sundance-resort/03.jpg",
+    "w": 1600,
+    "h": 1013,
+    "caption": "A cottage interior looking into the canyon",
+    "credit": "Sundance Mountain Resort (official site)",
+    "source": "https://www.sundanceresort.com/stay/cottages/"
+   },
+   {
+    "file": "images/sundance-resort/04.jpg",
+    "w": 1600,
+    "h": 1013,
+    "caption": "A Sundance suite",
+    "credit": "Sundance Mountain Resort (official site)",
+    "source": "https://www.sundanceresort.com/stay/cottages/"
+   },
+   {
+    "file": "images/sundance-resort/05.jpg",
+    "w": 1000,
+    "h": 745,
+    "caption": "One of the mountain homes",
+    "credit": "Sundance Mountain Resort (official site)",
+    "source": "https://www.sundanceresort.com/stay/mountain-homes/"
+   }
+  ]
  }
 ];

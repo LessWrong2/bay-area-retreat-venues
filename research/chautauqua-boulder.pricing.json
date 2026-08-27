@@ -1,0 +1,16 @@
+{
+ "cost": {
+  "mode": "estimate",
+  "low": 30000,
+  "high": 45000,
+  "summary": "est. $30-45k",
+  "basis": "Lodging: third-party aggregators put the cottages at roughly $227 typical and $211-432 for good rates, with a standard-room range of $226-614. Sixty people across about 20 studio/1-2 bedroom cottages at $250-400 for two nights is $10,000-16,000; taking more of the 59 cottages plus a lodge pushes it higher. Meals: catering is by the Chautauqua Dining Hall and Three Leaf Concepts, and full-day farm-to-table catering for 60 at $130-200 per person per day over two days is $15,600-24,000. Meeting space in the Community House or a lodge adds a few thousand. Nothing here is a quoted 2026 figure.",
+  "per_person": "roughly $500-750 per person for Fri-Sun including catering",
+  "source_url": "https://www.chautauqua.com/group-retreats/",
+  "source_label": "Chautauqua group-retreats page + third-party nightly rates",
+  "confidence": "low"
+ },
+ "availability_notes": "59 cottages plus Missions House Lodge and Columbine Lodge on 26 acres; one lodge sleeps 16 in eight en-suite rooms and seats 35. The grounds are a public city park and a National Historic Landmark, so this is a large room block plus meeting space, NOT an exclusive buyout — the site's own copy pitches curated retreat programmes for 10-50, so 60 needs a conversation.",
+ "checked_on": "2026-08-26",
+ "id": "chautauqua-boulder"
+}

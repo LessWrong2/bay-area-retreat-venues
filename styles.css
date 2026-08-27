@@ -13,6 +13,7 @@
   --tier-A: #2f5d3a;
   --tier-B: #b9842c;
   --tier-C: #5a6b8a;
+  --tier-FLY: #7a6aa8;
   --tier-REF: #a39c91;
   --shadow: 0 1px 2px rgba(30, 25, 15, .08), 0 8px 24px -8px rgba(30, 25, 15, .25);
   --list-w: 384px;
@@ -79,6 +80,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; margin: 0; letter-spac
 .dot.tier-A { background: var(--tier-A); }
 .dot.tier-B { background: var(--tier-B); }
 .dot.tier-C { background: var(--tier-C); }
+.dot.tier-FLY { background: var(--tier-FLY); }
 .dot.tier-REF { background: var(--tier-REF); }
 
 .list { flex: 1; overflow-y: auto; min-height: 0; padding-bottom: 8px; }
@@ -151,6 +153,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; margin: 0; letter-spac
 .pin.tier-A { --pin-ring: var(--tier-A); }
 .pin.tier-B { --pin-ring: var(--tier-B); }
 .pin.tier-C { --pin-ring: var(--tier-C); }
+.pin.tier-FLY { --pin-ring: var(--tier-FLY); }
 .pin.tier-REF { --pin-ring: var(--tier-REF); }
 .pin.tier-REF .pin-img { filter: saturate(.55); opacity: .9; }
 .pin:hover .pin-img, .pin.is-hover .pin-img { transform: scale(1.18); }

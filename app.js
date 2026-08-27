@@ -2,13 +2,14 @@
   'use strict';
 
   var VENUES = (window.VENUES || []).slice();
-  var TIER_ORDER = { A: 0, B: 1, C: 2, REF: 3 };
-  var TIER_NAMES = { A: 'Tier A — strongest matches', B: 'Tier B — solid, with tradeoffs', C: 'Tier C — worth a call', REF: 'Reference' };
+  var TIER_ORDER = { A: 0, B: 1, C: 2, FLY: 3, REF: 4 };
+  var TIER_NAMES = { A: 'Tier A — strongest matches', B: 'Tier B — solid, with tradeoffs', C: 'Tier C — worth a call', FLY: 'Fly-in — worth the flight', REF: 'Reference' };
   var SF = [37.7749, -122.4194];
   var TIER_DESC = {
     A: 'Strongest matches to the Lighthaven / SSS Ranch / The Shadows profile: real character, whole-site exclusive use, on-site lodging that lands near 60, within about 2.5 hours of SF.',
     B: 'Solid and bookable, but each trades something: aesthetics, distance, guest-type restrictions, or dorm-style lodging.',
     C: 'Worth a call for a specific reason (architecture, hot springs, all-inclusive ease, in-city convenience), with a clear tradeoff.',
+    FLY: 'Outside driving range, but spacious and beautiful enough to be worth flying to, and close to an airport: everyone flies from the Bay Area and drives well under an hour at the far end.',
     REF: 'Your own example venue, a venue that no longer rents, and three that are simply too small.'
   };
   var WEEKENDS = [
@@ -278,7 +279,7 @@
       (imgs.length > 1 ? '<span class="hero-count">' + imgs.length + ' photos</span>' : '') +
       '</div>';
     html += '<div class="detail-body">';
-    html += '<div class="tier-line"><span class="dot tier-' + esc(v.tier) + '"></span>' + esc(v.tierLabel) + (v.drive ? '<span style="opacity:.5">·</span><span style="text-transform:none;letter-spacing:0;font-weight:500">' + esc(v.drive) + ' from SF</span>' : '') + '</div>';
+    html += '<div class="tier-line"><span class="dot tier-' + esc(v.tier) + '"></span>' + esc(v.tierLabel) + (v.travel || v.drive ? '<span style="opacity:.5">·</span><span style="text-transform:none;letter-spacing:0;font-weight:500">' + esc(v.travel || v.drive + ' from SF') + '</span>' : '') + '</div>';
     html += '<h2>' + esc(v.name) + '</h2>';
     if (v.subtitle) html += '<p class="detail-sub">' + esc(v.subtitle) + '</p>';
     html += '<p class="detail-area">' + esc(v.area) + (v.address ? ' · ' + esc(v.address) : '') + '</p>';
