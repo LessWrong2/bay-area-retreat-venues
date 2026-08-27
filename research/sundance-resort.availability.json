@@ -1,0 +1,92 @@
+{
+ "id": "sundance-resort",
+ "checked_on": "2026-08-26",
+ "method": "Fetched the ESPN BYU Cougars 2026 schedule (HTTP 200) for home dates at LaVell Edwards Stadium, about 20 minutes down the canyon — BYU home weekends are the main external driver of Utah Valley lodging demand. Checked Sundance's own lodging pages, which publish no availability calendar; the booking engine was not driven, so no room-level availability was read. Note that mid-October is peak leaf season on the Alpine Loop, which is its own demand driver independent of anything scheduled.",
+ "booking_policy": "A 5,000-acre resort village of rooms, cottages/suites and multi-bedroom mountain homes with about 12,000 sq ft of meeting space. No published buyout policy and no published group rates; third-party listings for October 2026 run roughly $278-$482 a night. Mid-October falls between leaf season and ski season, which is the best structural shot at holding the village — but see the Notre Dame conflict on the target weekend.",
+ "weekends": [
+  {
+   "weekend": "2026-08-28",
+   "status": "unknown",
+   "evidence": "Sundance publishes no group or buyout availability. BYU is not at home and no dated conflict was found.",
+   "evidence_quote": null,
+   "source_url": "https://www.sundanceresort.com/stay/",
+   "source_label": "Sundance lodging page (no public availability calendar)"
+  },
+  {
+   "weekend": "2026-09-04",
+   "status": "unknown",
+   "evidence": "Sundance publishes no group or buyout availability. BYU hosts Utah Tech on Sep 5, which tightens Utah Valley lodging, though a low-draw opponent is unlikely to reach a destination resort up the canyon.",
+   "evidence_quote": "Sat, Sep 5",
+   "source_url": "https://www.espn.com/college-football/team/schedule/_/id/252/byu-cougars",
+   "source_label": "ESPN — BYU Cougars 2026 schedule"
+  },
+  {
+   "weekend": "2026-09-11",
+   "status": "unknown",
+   "evidence": "Sundance publishes no group or buyout availability. BYU hosts Arizona on Sep 12 — a bigger draw, so Utah Valley rooms will be tighter, but nothing directly ties this to Sundance.",
+   "evidence_quote": "Sat, Sep 12",
+   "source_url": "https://www.espn.com/college-football/team/schedule/_/id/252/byu-cougars",
+   "source_label": "ESPN — BYU Cougars 2026 schedule"
+  },
+  {
+   "weekend": "2026-09-18",
+   "status": "unknown",
+   "evidence": "Sundance publishes no group or buyout availability. BYU is away at Colorado State and no dated conflict was found.",
+   "evidence_quote": null,
+   "source_url": "https://www.sundanceresort.com/stay/",
+   "source_label": "Sundance lodging page (no public availability calendar)"
+  },
+  {
+   "weekend": "2026-09-25",
+   "status": "unknown",
+   "evidence": "Sundance publishes no group or buyout availability. No BYU home game and no dated conflict was found.",
+   "evidence_quote": null,
+   "source_url": "https://www.sundanceresort.com/stay/",
+   "source_label": "Sundance lodging page (no public availability calendar)"
+  },
+  {
+   "weekend": "2026-10-02",
+   "status": "unknown",
+   "evidence": "Sundance publishes no group or buyout availability. BYU is away at TCU and no dated conflict was found.",
+   "evidence_quote": null,
+   "source_url": "https://www.sundanceresort.com/stay/",
+   "source_label": "Sundance lodging page (no public availability calendar)"
+  },
+  {
+   "weekend": "2026-10-09",
+   "status": "unknown",
+   "evidence": "Sundance publishes no group or buyout availability. BYU hosts Iowa State on the Friday night of this weekend, which puts the demand spike on the Friday rather than the Saturday.",
+   "evidence_quote": "Fri, Oct 9",
+   "source_url": "https://www.espn.com/college-football/team/schedule/_/id/252/byu-cougars",
+   "source_label": "ESPN — BYU Cougars 2026 schedule"
+  },
+  {
+   "weekend": "2026-10-16",
+   "status": "probably_not_available",
+   "evidence": "BYU hosts fourth-ranked Notre Dame on Oct 17, twenty minutes down the canyon — ESPN's own listing shows resale tickets starting at $556, which is roughly five times any other home game on the schedule and a fair proxy for how completely that game fills Utah Valley lodging. It also coincides with peak Alpine Loop leaf season.",
+   "evidence_quote": "Sat, Oct 17",
+   "source_url": "https://www.espn.com/college-football/team/schedule/_/id/252/byu-cougars",
+   "source_label": "ESPN — BYU Cougars 2026 schedule"
+  },
+  {
+   "weekend": "2026-10-23",
+   "status": "unknown",
+   "evidence": "Sundance publishes no group or buyout availability. BYU is away at UCF and no dated conflict was found.",
+   "evidence_quote": null,
+   "source_url": "https://www.sundanceresort.com/stay/",
+   "source_label": "Sundance lodging page (no public availability calendar)"
+  },
+  {
+   "weekend": "2026-10-30",
+   "status": "unknown",
+   "evidence": "Sundance publishes no group or buyout availability. BYU hosts Arizona State on Oct 31, which tightens Utah Valley lodging over Halloween weekend.",
+   "evidence_quote": "Sat, Oct 31",
+   "source_url": "https://www.espn.com/college-football/team/schedule/_/id/252/byu-cougars",
+   "source_label": "ESPN — BYU Cougars 2026 schedule"
+  }
+ ],
+ "sources": [
+  "https://www.sundanceresort.com/stay/",
+  "https://www.espn.com/college-football/team/schedule/_/id/252/byu-cougars"
+ ]
+}

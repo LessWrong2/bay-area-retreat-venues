@@ -1,0 +1,92 @@
+{
+ "id": "chautauqua-boulder",
+ "checked_on": "2026-08-26",
+ "method": "Fetched Chautauqua's own 'Upcoming Events' calendar (chautauqua.com/events, HTTP 200) for programming on the grounds, and the ESPN Colorado Buffaloes 2026 schedule (HTTP 200) for CU home dates — Chautauqua sits about half a mile from Folsom Field and its cottages are the closest lodging to campus, so CU home weekends reliably absorb Boulder rooms. No room-level availability was read: Chautauqua publishes no group-availability calendar and its cottage booking engine was not driven.",
+ "booking_policy": "26 acres of cottages and lodges that are also a National Historic Landmark and a public city park, so there is no exclusive buyout — this is a large room block plus meeting space. Chautauqua's own copy pitches curated retreat programmes for 10-50 people, so a 60-person hold needs a conversation with their group team. Its Auditorium and Community House run public ticketed events year-round.",
+ "weekends": [
+  {
+   "weekend": "2026-08-28",
+   "status": "probably_available",
+   "evidence": "Chautauqua's own events calendar lists nothing on the grounds this weekend and CU is not at home, so neither of the two things that reliably fill this site applies. CU opens away at Georgia Tech on Sep 3. Only 'probably': lodging availability itself is not published.",
+   "evidence_quote": "Upcoming Events",
+   "source_url": "https://www.chautauqua.com/events/",
+   "source_label": "Colorado Chautauqua 'Upcoming Events' calendar"
+  },
+  {
+   "weekend": "2026-09-04",
+   "status": "probably_available",
+   "evidence": "Nothing is listed on the Chautauqua grounds and CU is away, but this is Labor Day weekend, when Boulder and its trailheads are at their busiest — so treat availability as plausible but competitive.",
+   "evidence_quote": "Upcoming Events",
+   "source_url": "https://www.chautauqua.com/events/",
+   "source_label": "Colorado Chautauqua 'Upcoming Events' calendar"
+  },
+  {
+   "weekend": "2026-09-11",
+   "status": "probably_not_available",
+   "evidence": "Three things land on this weekend at once: CU hosts Weber State on Sep 12, and Chautauqua's own Auditorium has the Cowboy Junkies on Sep 12 and the Boulder Histories Film Festival on Sep 13. The grounds and the town are both committed.",
+   "evidence_quote": "Cowboy Junkies – Celebrating 40 Years and Beyond",
+   "source_url": "https://www.chautauqua.com/events/",
+   "source_label": "Colorado Chautauqua 'Upcoming Events' calendar"
+  },
+  {
+   "weekend": "2026-09-18",
+   "status": "probably_not_available",
+   "evidence": "Chautauqua's own venues are running Boulder Ballet on Sep 19 and Festival Del Sol on Sep 20, so the Auditorium and the green — the spaces a 60-person group would want — are occupied for most of the weekend.",
+   "evidence_quote": "Boulder Ballet: [In]Human",
+   "source_url": "https://www.chautauqua.com/events/",
+   "source_label": "Colorado Chautauqua 'Upcoming Events' calendar"
+  },
+  {
+   "weekend": "2026-09-25",
+   "status": "probably_available",
+   "evidence": "Chautauqua's own events calendar lists nothing on the grounds this weekend and CU is not at home, so neither of the two things that reliably fill this site applies. CU is away at Baylor on Sep 26 and the grounds are clear. Only 'probably': lodging availability itself is not published.",
+   "evidence_quote": "Upcoming Events",
+   "source_url": "https://www.chautauqua.com/events/",
+   "source_label": "Colorado Chautauqua 'Upcoming Events' calendar"
+  },
+  {
+   "weekend": "2026-10-02",
+   "status": "probably_not_available",
+   "evidence": "CU hosts Texas Tech at Folsom Field on Oct 3, half a mile away. Boulder lodging on a Big 12 home Saturday is scarce and priced accordingly; Chautauqua's cottages are the closest beds to the stadium.",
+   "evidence_quote": "Sat, Oct 3",
+   "source_url": "https://www.espn.com/college-football/team/schedule/_/id/38/colorado-buffaloes",
+   "source_label": "ESPN — Colorado Buffaloes 2026 schedule"
+  },
+  {
+   "weekend": "2026-10-09",
+   "status": "probably_available",
+   "evidence": "The single clearest weekend of the ten here: CU has a bye — no game between Oct 3 and Oct 17 — and Chautauqua's own calendar is empty between Sep 30 and Oct 16. Only 'probably' because lodging availability itself is not published.",
+   "evidence_quote": "Upcoming Events",
+   "source_url": "https://www.chautauqua.com/events/",
+   "source_label": "Colorado Chautauqua 'Upcoming Events' calendar"
+  },
+  {
+   "weekend": "2026-10-16",
+   "status": "probably_not_available",
+   "evidence": "The target weekend is the worst one for this venue. CU hosts Utah at Folsom Field on Oct 17, and Chautauqua's own Auditorium has a ticketed 8pm concert on Oct 16 — a public crowd on the grounds on the Friday night, and a sold-out town on the Saturday.",
+   "evidence_quote": "Heavy Diamond Ring with Stelth Ulvang",
+   "source_url": "https://www.chautauqua.com/events/",
+   "source_label": "Colorado Chautauqua 'Upcoming Events' calendar"
+  },
+  {
+   "weekend": "2026-10-23",
+   "status": "probably_available",
+   "evidence": "CU is away at Oklahoma State on Oct 24 and the only thing on the grounds is a square dance on the Saturday evening, which is small enough to work around.",
+   "evidence_quote": "Chautauqua Square Dance",
+   "source_url": "https://www.chautauqua.com/events/",
+   "source_label": "Colorado Chautauqua 'Upcoming Events' calendar"
+  },
+  {
+   "weekend": "2026-10-30",
+   "status": "probably_not_available",
+   "evidence": "CU hosts Kansas State on Oct 31, which is also Halloween — the two together make Boulder lodging tight.",
+   "evidence_quote": "Sat, Oct 31",
+   "source_url": "https://www.espn.com/college-football/team/schedule/_/id/38/colorado-buffaloes",
+   "source_label": "ESPN — Colorado Buffaloes 2026 schedule"
+  }
+ ],
+ "sources": [
+  "https://www.chautauqua.com/events/",
+  "https://www.espn.com/college-football/team/schedule/_/id/38/colorado-buffaloes"
+ ]
+}

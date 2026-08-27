@@ -1,0 +1,92 @@
+{
+ "id": "menucha",
+ "checked_on": "2026-08-26",
+ "method": "Fetched https://www.menucha.org/programs (HTTP 200) and read the full 'What's happening in 2026' list, which runs January to December and is the only place Menucha publishes dated site use. Also fetched the contact page for booking process. Menucha publishes no rates and no guest-group availability calendar; everything else routes through a Cognito group-inquiry form, so nothing beyond its own programmes can be verified from the public web.",
+ "booking_policy": "Non-profit conference centre, roughly 200 guest groups a year averaging ~22 people. Site capacity quoted as 1-140. No published rates, no online booking, no public availability calendar — a group hold starts with the inquiry form or (503) 695-2243. Its own residential programmes take the whole site and are the binding constraint in October 2026.",
+ "weekends": [
+  {
+   "weekend": "2026-08-28",
+   "status": "probably_available",
+   "evidence": "Menucha's own programs page lists its whole 2026 calendar month by month and shows no Menucha programme over this weekend, so the site is not blocked by its own use. Only 'probably': the page lists Menucha's programmes, not guest groups already holding the site.",
+   "evidence_quote": "What's happening in 2026",
+   "source_url": "https://www.menucha.org/programs",
+   "source_label": "Menucha 'What's happening in 2026' programs calendar"
+  },
+  {
+   "weekend": "2026-09-04",
+   "status": "probably_available",
+   "evidence": "Menucha's own programs page lists its whole 2026 calendar month by month and shows no Menucha programme over this weekend, so the site is not blocked by its own use. Only 'probably': the page lists Menucha's programmes, not guest groups already holding the site.",
+   "evidence_quote": "What's happening in 2026",
+   "source_url": "https://www.menucha.org/programs",
+   "source_label": "Menucha 'What's happening in 2026' programs calendar"
+  },
+  {
+   "weekend": "2026-09-11",
+   "status": "probably_available",
+   "evidence": "Menucha's own programs page lists its whole 2026 calendar month by month and shows no Menucha programme over this weekend, so the site is not blocked by its own use. Only 'probably': the page lists Menucha's programmes, not guest groups already holding the site.",
+   "evidence_quote": "What's happening in 2026",
+   "source_url": "https://www.menucha.org/programs",
+   "source_label": "Menucha 'What's happening in 2026' programs calendar"
+  },
+  {
+   "weekend": "2026-09-18",
+   "status": "probably_available",
+   "evidence": "Menucha's own programs page lists its whole 2026 calendar month by month and shows no Menucha programme over this weekend, so the site is not blocked by its own use. Only 'probably': the page lists Menucha's programmes, not guest groups already holding the site.",
+   "evidence_quote": "What's happening in 2026",
+   "source_url": "https://www.menucha.org/programs",
+   "source_label": "Menucha 'What's happening in 2026' programs calendar"
+  },
+  {
+   "weekend": "2026-09-25",
+   "status": "probably_available",
+   "evidence": "Menucha's own programs page lists its whole 2026 calendar month by month and shows no Menucha programme over this weekend, so the site is not blocked by its own use. Only 'probably': the page lists Menucha's programmes, not guest groups already holding the site.",
+   "evidence_quote": "What's happening in 2026",
+   "source_url": "https://www.menucha.org/programs",
+   "source_label": "Menucha 'What's happening in 2026' programs calendar"
+  },
+  {
+   "weekend": "2026-10-02",
+   "status": "probably_available",
+   "evidence": "Menucha's own programs page lists its whole 2026 calendar month by month and shows no Menucha programme over this weekend, so the site is not blocked by its own use. Only 'probably': the page lists Menucha's programmes, not guest groups already holding the site.",
+   "evidence_quote": "What's happening in 2026",
+   "source_url": "https://www.menucha.org/programs",
+   "source_label": "Menucha 'What's happening in 2026' programs calendar"
+  },
+  {
+   "weekend": "2026-10-09",
+   "status": "definitely_not_available",
+   "evidence": "Menucha's own 2026 calendar puts Blues in the Gorge on October 7-11, 2026, which covers the whole of this Fri-Sun, so whole-site use by an outside group is ruled out.",
+   "evidence_quote": "October 7-11, 2026",
+   "source_url": "https://www.menucha.org/programs",
+   "source_label": "Menucha 'What's happening in 2026' programs calendar"
+  },
+  {
+   "weekend": "2026-10-16",
+   "status": "definitely_not_available",
+   "evidence": "Menucha's own 2026 calendar puts Bluegrass in the Gorge on October 15-18, 2026, which covers the whole of this Fri-Sun, so whole-site use by an outside group is ruled out.",
+   "evidence_quote": "October 15-18, 2026",
+   "source_url": "https://www.menucha.org/programs",
+   "source_label": "Menucha 'What's happening in 2026' programs calendar"
+  },
+  {
+   "weekend": "2026-10-23",
+   "status": "definitely_not_available",
+   "evidence": "Menucha's own 2026 calendar puts Harmonica Northwest on October 22-25, 2026, which covers the whole of this Fri-Sun, so whole-site use by an outside group is ruled out.",
+   "evidence_quote": "October 22-25, 2026",
+   "source_url": "https://www.menucha.org/programs",
+   "source_label": "Menucha 'What's happening in 2026' programs calendar"
+  },
+  {
+   "weekend": "2026-10-30",
+   "status": "definitely_not_available",
+   "evidence": "Menucha's own 2026 calendar puts Scrap & Sew Craft Retreat #3 on October 30-November 1, 2026, which covers the whole of this Fri-Sun, so whole-site use by an outside group is ruled out.",
+   "evidence_quote": "October 30-November 1, 2026",
+   "source_url": "https://www.menucha.org/programs",
+   "source_label": "Menucha 'What's happening in 2026' programs calendar"
+  }
+ ],
+ "sources": [
+  "https://www.menucha.org/programs",
+  "https://www.menucha.org/contact-information"
+ ]
+}

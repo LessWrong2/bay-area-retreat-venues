@@ -1,0 +1,92 @@
+{
+ "id": "rosario-resort",
+ "checked_on": "2026-08-26",
+ "method": "Fetched the Orcas Island Film Festival site (oifilmfest.org, HTTP 200) for its 2026 dates, which is the one dated conflict that could be confirmed from a primary source. Searched for other island events; the San Juans visitor calendar and Orcas chamber calendar surfaced an OrcasFest in late October, but that came only from search summaries and could not be confirmed on a fetched page, so it is deliberately not used as evidence. The resort itself publishes no availability calendar and its Wix booking flow was not driven, so no room-level data was read for any weekend.",
+ "booking_policy": "A 30-acre waterfront resort with somewhere between 69 and 107 rooms depending on the listing; the 1909 Moran Mansion holds the restaurant, spa and event space but no guest rooms. No published buyout policy. The real constraint is that Orcas is a small island reached by ferry or small plane, so island-wide events absorb the lodging stock quickly.",
+ "weekends": [
+  {
+   "weekend": "2026-08-28",
+   "status": "unknown",
+   "evidence": "Rosario publishes no group or buyout availability, and no island-wide event was found for this weekend on a page that could be fetched. The public web does not say either way.",
+   "evidence_quote": null,
+   "source_url": "https://www.rosarioresort.com/",
+   "source_label": "Rosario Resort site (no public group-availability calendar)"
+  },
+  {
+   "weekend": "2026-09-04",
+   "status": "unknown",
+   "evidence": "Rosario publishes no group or buyout availability, and no island-wide event was found for this weekend on a page that could be fetched. The public web does not say either way.",
+   "evidence_quote": null,
+   "source_url": "https://www.rosarioresort.com/",
+   "source_label": "Rosario Resort site (no public group-availability calendar)"
+  },
+  {
+   "weekend": "2026-09-11",
+   "status": "unknown",
+   "evidence": "Rosario publishes no group or buyout availability, and no island-wide event was found for this weekend on a page that could be fetched. The public web does not say either way.",
+   "evidence_quote": null,
+   "source_url": "https://www.rosarioresort.com/",
+   "source_label": "Rosario Resort site (no public group-availability calendar)"
+  },
+  {
+   "weekend": "2026-09-18",
+   "status": "unknown",
+   "evidence": "Rosario publishes no group or buyout availability, and no island-wide event was found for this weekend on a page that could be fetched. The public web does not say either way.",
+   "evidence_quote": null,
+   "source_url": "https://www.rosarioresort.com/",
+   "source_label": "Rosario Resort site (no public group-availability calendar)"
+  },
+  {
+   "weekend": "2026-09-25",
+   "status": "unknown",
+   "evidence": "Rosario publishes no group or buyout availability, and no island-wide event was found for this weekend on a page that could be fetched. The public web does not say either way.",
+   "evidence_quote": null,
+   "source_url": "https://www.rosarioresort.com/",
+   "source_label": "Rosario Resort site (no public group-availability calendar)"
+  },
+  {
+   "weekend": "2026-10-02",
+   "status": "unknown",
+   "evidence": "Rosario publishes no group or buyout availability, and no island-wide event was found for this weekend on a page that could be fetched. The public web does not say either way.",
+   "evidence_quote": null,
+   "source_url": "https://www.rosarioresort.com/",
+   "source_label": "Rosario Resort site (no public group-availability calendar)"
+  },
+  {
+   "weekend": "2026-10-09",
+   "status": "unknown",
+   "evidence": "Rosario publishes no group or buyout availability, and no island-wide event was found for this weekend on a page that could be fetched. The public web does not say either way.",
+   "evidence_quote": null,
+   "source_url": "https://www.rosarioresort.com/",
+   "source_label": "Rosario Resort site (no public group-availability calendar)"
+  },
+  {
+   "weekend": "2026-10-16",
+   "status": "probably_not_available",
+   "evidence": "The Orcas Island Film Festival runs Oct 14-18, 2026, straddling the whole target weekend. On an island this size a festival of that scale takes most of the lodging, and Rosario is five miles from the Eastsound screening venues.",
+   "evidence_quote": "October 14th-18th",
+   "source_url": "https://oifilmfest.org/",
+   "source_label": "Orcas Island Film Festival 2026 dates"
+  },
+  {
+   "weekend": "2026-10-23",
+   "status": "unknown",
+   "evidence": "Rosario publishes no group or buyout availability, and no island-wide event was found for this weekend on a page that could be fetched. The public web does not say either way.",
+   "evidence_quote": null,
+   "source_url": "https://www.rosarioresort.com/",
+   "source_label": "Rosario Resort site (no public group-availability calendar)"
+  },
+  {
+   "weekend": "2026-10-30",
+   "status": "unknown",
+   "evidence": "Rosario publishes no group or buyout availability, and no island-wide event was found for this weekend on a page that could be fetched. The public web does not say either way.",
+   "evidence_quote": null,
+   "source_url": "https://www.rosarioresort.com/",
+   "source_label": "Rosario Resort site (no public group-availability calendar)"
+  }
+ ],
+ "sources": [
+  "https://www.rosarioresort.com/",
+  "https://oifilmfest.org/"
+ ]
+}

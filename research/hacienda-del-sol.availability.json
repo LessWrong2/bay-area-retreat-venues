@@ -1,0 +1,92 @@
+{
+ "id": "hacienda-del-sol",
+ "checked_on": "2026-08-26",
+ "method": "Fetched tucsonmeetyourself.org (HTTP 200) for the 2026 festival dates — note the official site says Oct 16-18, while several third-party listings say Oct 16-19, and the official dates are used here. Checked the resort's own meetings and events page for any published availability; it publishes none, only an RFP contact route. The booking engine was not driven, so no room-level availability was read for any weekend.",
+ "booking_policy": "97 rooms, casitas and suites with 14,000+ sq ft of function space; the resort actively markets full buyouts, so a 60-person exclusive hold is a normal ask rather than an exception. Everything goes through group sales — no rates or availability are published. Mid-October begins Tucson's high season.",
+ "weekends": [
+  {
+   "weekend": "2026-08-28",
+   "status": "unknown",
+   "evidence": "The resort publishes no group or buyout availability calendar and no dated conflict was found for this weekend. Worth noting generally: mid-October is the start of Tucson's high season, so rates and occupancy both climb across this whole window.",
+   "evidence_quote": null,
+   "source_url": "https://www.haciendadelsol.com/meetings-events",
+   "source_label": "Hacienda del Sol meetings & events page"
+  },
+  {
+   "weekend": "2026-09-04",
+   "status": "unknown",
+   "evidence": "The resort publishes no group or buyout availability calendar and no dated conflict was found for this weekend. Worth noting generally: mid-October is the start of Tucson's high season, so rates and occupancy both climb across this whole window.",
+   "evidence_quote": null,
+   "source_url": "https://www.haciendadelsol.com/meetings-events",
+   "source_label": "Hacienda del Sol meetings & events page"
+  },
+  {
+   "weekend": "2026-09-11",
+   "status": "unknown",
+   "evidence": "The resort publishes no group or buyout availability calendar and no dated conflict was found for this weekend. Worth noting generally: mid-October is the start of Tucson's high season, so rates and occupancy both climb across this whole window.",
+   "evidence_quote": null,
+   "source_url": "https://www.haciendadelsol.com/meetings-events",
+   "source_label": "Hacienda del Sol meetings & events page"
+  },
+  {
+   "weekend": "2026-09-18",
+   "status": "unknown",
+   "evidence": "The resort publishes no group or buyout availability calendar and no dated conflict was found for this weekend. Worth noting generally: mid-October is the start of Tucson's high season, so rates and occupancy both climb across this whole window.",
+   "evidence_quote": null,
+   "source_url": "https://www.haciendadelsol.com/meetings-events",
+   "source_label": "Hacienda del Sol meetings & events page"
+  },
+  {
+   "weekend": "2026-09-25",
+   "status": "unknown",
+   "evidence": "The resort publishes no group or buyout availability calendar and no dated conflict was found for this weekend. Worth noting generally: mid-October is the start of Tucson's high season, so rates and occupancy both climb across this whole window.",
+   "evidence_quote": null,
+   "source_url": "https://www.haciendadelsol.com/meetings-events",
+   "source_label": "Hacienda del Sol meetings & events page"
+  },
+  {
+   "weekend": "2026-10-02",
+   "status": "unknown",
+   "evidence": "The resort publishes no group or buyout availability calendar and no dated conflict was found for this weekend. Worth noting generally: mid-October is the start of Tucson's high season, so rates and occupancy both climb across this whole window.",
+   "evidence_quote": null,
+   "source_url": "https://www.haciendadelsol.com/meetings-events",
+   "source_label": "Hacienda del Sol meetings & events page"
+  },
+  {
+   "weekend": "2026-10-09",
+   "status": "unknown",
+   "evidence": "The resort publishes no group or buyout availability calendar and no dated conflict was found for this weekend. Worth noting generally: mid-October is the start of Tucson's high season, so rates and occupancy both climb across this whole window.",
+   "evidence_quote": null,
+   "source_url": "https://www.haciendadelsol.com/meetings-events",
+   "source_label": "Hacienda del Sol meetings & events page"
+  },
+  {
+   "weekend": "2026-10-16",
+   "status": "probably_not_available",
+   "evidence": "Tucson Meet Yourself, the city's largest folklife festival, runs downtown across exactly the target weekend and is also on the University of Arizona's Family Weekend programme. Citywide lodging demand that weekend is at its annual peak, which makes a 97-room buyout both unlikely and expensive.",
+   "evidence_quote": "OCT 16-18, 2026",
+   "source_url": "https://tucsonmeetyourself.org/",
+   "source_label": "Tucson Meet Yourself 2026 festival dates"
+  },
+  {
+   "weekend": "2026-10-23",
+   "status": "unknown",
+   "evidence": "The resort publishes no group or buyout availability calendar and no dated conflict was found for this weekend. Worth noting generally: mid-October is the start of Tucson's high season, so rates and occupancy both climb across this whole window.",
+   "evidence_quote": null,
+   "source_url": "https://www.haciendadelsol.com/meetings-events",
+   "source_label": "Hacienda del Sol meetings & events page"
+  },
+  {
+   "weekend": "2026-10-30",
+   "status": "unknown",
+   "evidence": "The resort publishes no group or buyout availability calendar and no dated conflict was found for this weekend. Worth noting generally: mid-October is the start of Tucson's high season, so rates and occupancy both climb across this whole window.",
+   "evidence_quote": null,
+   "source_url": "https://www.haciendadelsol.com/meetings-events",
+   "source_label": "Hacienda del Sol meetings & events page"
+  }
+ ],
+ "sources": [
+  "https://www.haciendadelsol.com/meetings-events",
+  "https://tucsonmeetyourself.org/"
+ ]
+}

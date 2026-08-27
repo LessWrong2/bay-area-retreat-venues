@@ -1,0 +1,94 @@
+{
+ "id": "sleeping-lady",
+ "checked_on": "2026-08-26",
+ "method": "Fetched the resort's own event calendar (sleepinglady.com/events) and the Icicle Center arts calendar (icicle.org/events), both HTTP 200; neither publishes anything over these weekends. Fetched leavenworth.org/oktoberfest (HTTP 200) for the town's 2026 festival dates. Attempted the resort's own booking engine at reservations.sleepinglady.com for Oct 16-18 2026, but the engine would not advance past its guests-and-rooms step under automation, so no room-level availability was read for any weekend.",
+ "booking_policy": "58 guest rooms, sold to groups mainly as an inclusive per-person package covering rooms, meals and meeting space. Sixty people is effectively the whole resort, so any group hold is a de-facto buyout and has to go through group sales. The binding constraint here is the town: Leavenworth's Oktoberfest occupies three of the ten weekends.",
+ "weekends": [
+  {
+   "weekend": "2026-08-28",
+   "status": "unknown",
+   "evidence": "The resort's own event calendar publishes nothing but nightly guest activities, and the Icicle Center arts calendar shows no upcoming events, so there is no public evidence either way for this weekend.",
+   "evidence_quote": "Nightly S’mores",
+   "source_url": "https://www.sleepinglady.com/events/",
+   "source_label": "Sleeping Lady resort event calendar"
+  },
+  {
+   "weekend": "2026-09-04",
+   "status": "unknown",
+   "evidence": "The resort's own event calendar publishes nothing but nightly guest activities, and the Icicle Center arts calendar shows no upcoming events, so there is no public evidence either way for this weekend.",
+   "evidence_quote": "Nightly S’mores",
+   "source_url": "https://www.sleepinglady.com/events/",
+   "source_label": "Sleeping Lady resort event calendar"
+  },
+  {
+   "weekend": "2026-09-11",
+   "status": "unknown",
+   "evidence": "The resort's own event calendar publishes nothing but nightly guest activities, and the Icicle Center arts calendar shows no upcoming events, so there is no public evidence either way for this weekend.",
+   "evidence_quote": "Nightly S’mores",
+   "source_url": "https://www.sleepinglady.com/events/",
+   "source_label": "Sleeping Lady resort event calendar"
+  },
+  {
+   "weekend": "2026-09-18",
+   "status": "unknown",
+   "evidence": "The resort's own event calendar publishes nothing but nightly guest activities, and the Icicle Center arts calendar shows no upcoming events, so there is no public evidence either way for this weekend.",
+   "evidence_quote": "Nightly S’mores",
+   "source_url": "https://www.sleepinglady.com/events/",
+   "source_label": "Sleeping Lady resort event calendar"
+  },
+  {
+   "weekend": "2026-09-25",
+   "status": "unknown",
+   "evidence": "The resort's own event calendar publishes nothing but nightly guest activities, and the Icicle Center arts calendar shows no upcoming events, so there is no public evidence either way for this weekend.",
+   "evidence_quote": "Nightly S’mores",
+   "source_url": "https://www.sleepinglady.com/events/",
+   "source_label": "Sleeping Lady resort event calendar"
+  },
+  {
+   "weekend": "2026-10-02",
+   "status": "probably_not_available",
+   "evidence": "This is Oktoberfest weekend one of three in Leavenworth, two miles from the resort. A 58-room property in a town hosting the Pacific Northwest's largest Oktoberfest is very unlikely to release a whole-site hold, and rates will be at peak. No direct sold-out evidence was obtained from the resort's own booking engine.",
+   "evidence_quote": "Celebrate Oktoberfest in Leavenworth on October 2–3, 9–10, and 16–17, 2026",
+   "source_url": "https://leavenworth.org/oktoberfest/",
+   "source_label": "Leavenworth Oktoberfest official dates page"
+  },
+  {
+   "weekend": "2026-10-09",
+   "status": "probably_not_available",
+   "evidence": "This is Oktoberfest weekend two of three in Leavenworth, two miles from the resort. A 58-room property in a town hosting the Pacific Northwest's largest Oktoberfest is very unlikely to release a whole-site hold, and rates will be at peak. No direct sold-out evidence was obtained from the resort's own booking engine.",
+   "evidence_quote": "Celebrate Oktoberfest in Leavenworth on October 2–3, 9–10, and 16–17, 2026",
+   "source_url": "https://leavenworth.org/oktoberfest/",
+   "source_label": "Leavenworth Oktoberfest official dates page"
+  },
+  {
+   "weekend": "2026-10-16",
+   "status": "probably_not_available",
+   "evidence": "This is Oktoberfest weekend three of three in Leavenworth, two miles from the resort. A 58-room property in a town hosting the Pacific Northwest's largest Oktoberfest is very unlikely to release a whole-site hold, and rates will be at peak. No direct sold-out evidence was obtained from the resort's own booking engine.",
+   "evidence_quote": "Celebrate Oktoberfest in Leavenworth on October 2–3, 9–10, and 16–17, 2026",
+   "source_url": "https://leavenworth.org/oktoberfest/",
+   "source_label": "Leavenworth Oktoberfest official dates page"
+  },
+  {
+   "weekend": "2026-10-23",
+   "status": "unknown",
+   "evidence": "The resort's own event calendar publishes nothing but nightly guest activities, and the Icicle Center arts calendar shows no upcoming events, so there is no public evidence either way for this weekend.",
+   "evidence_quote": "Nightly S’mores",
+   "source_url": "https://www.sleepinglady.com/events/",
+   "source_label": "Sleeping Lady resort event calendar"
+  },
+  {
+   "weekend": "2026-10-30",
+   "status": "unknown",
+   "evidence": "The resort's own event calendar publishes nothing but nightly guest activities, and the Icicle Center arts calendar shows no upcoming events, so there is no public evidence either way for this weekend.",
+   "evidence_quote": "Nightly S’mores",
+   "source_url": "https://www.sleepinglady.com/events/",
+   "source_label": "Sleeping Lady resort event calendar"
+  }
+ ],
+ "sources": [
+  "https://www.sleepinglady.com/events/",
+  "https://icicle.org/events/",
+  "https://leavenworth.org/oktoberfest/",
+  "https://reservations.sleepinglady.com/113679"
+ ]
+}

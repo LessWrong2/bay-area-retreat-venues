@@ -6926,6 +6926,93 @@ window.VENUES = [
   "availability": [],
   "availabilityNotes": "126+ beds across Wright Hall (45), Ballard Hall (37), The Barn (32), Beam House (12), plus the Creevey Complex and Boyd Hall. Site capacity is quoted as 1-140 (one listing says 1-150), so 60 fits with room to spare and a whole-site hold is plausible. Largest meeting room is Wright Hall's Great Hall at 90 on the main floor plus 30 in the balcony.",
   "checkedOn": "2026-08-26",
+  "verified": {
+   "checkedOn": "2026-08-26",
+   "method": "Fetched https://www.menucha.org/programs (HTTP 200) and read the full 'What's happening in 2026' list, which runs January to December and is the only place Menucha publishes dated site use. Also fetched the contact page for booking process. Menucha publishes no rates and no guest-group availability calendar; everything else routes through a Cognito group-inquiry form, so nothing beyond its own programmes can be verified from the public web.",
+   "bookingPolicy": "Non-profit conference centre, roughly 200 guest groups a year averaging ~22 people. Site capacity quoted as 1-140. No published rates, no online booking, no public availability calendar — a group hold starts with the inquiry form or (503) 695-2243. Its own residential programmes take the whole site and are the binding constraint in October 2026.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "probably_available",
+     "evidence": "Menucha's own programs page lists its whole 2026 calendar month by month and shows no Menucha programme over this weekend, so the site is not blocked by its own use. Only 'probably': the page lists Menucha's programmes, not guest groups already holding the site.",
+     "quote": "What's happening in 2026",
+     "sourceUrl": "https://www.menucha.org/programs",
+     "sourceLabel": "Menucha 'What's happening in 2026' programs calendar"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "probably_available",
+     "evidence": "Menucha's own programs page lists its whole 2026 calendar month by month and shows no Menucha programme over this weekend, so the site is not blocked by its own use. Only 'probably': the page lists Menucha's programmes, not guest groups already holding the site.",
+     "quote": "What's happening in 2026",
+     "sourceUrl": "https://www.menucha.org/programs",
+     "sourceLabel": "Menucha 'What's happening in 2026' programs calendar"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "probably_available",
+     "evidence": "Menucha's own programs page lists its whole 2026 calendar month by month and shows no Menucha programme over this weekend, so the site is not blocked by its own use. Only 'probably': the page lists Menucha's programmes, not guest groups already holding the site.",
+     "quote": "What's happening in 2026",
+     "sourceUrl": "https://www.menucha.org/programs",
+     "sourceLabel": "Menucha 'What's happening in 2026' programs calendar"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "probably_available",
+     "evidence": "Menucha's own programs page lists its whole 2026 calendar month by month and shows no Menucha programme over this weekend, so the site is not blocked by its own use. Only 'probably': the page lists Menucha's programmes, not guest groups already holding the site.",
+     "quote": "What's happening in 2026",
+     "sourceUrl": "https://www.menucha.org/programs",
+     "sourceLabel": "Menucha 'What's happening in 2026' programs calendar"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "probably_available",
+     "evidence": "Menucha's own programs page lists its whole 2026 calendar month by month and shows no Menucha programme over this weekend, so the site is not blocked by its own use. Only 'probably': the page lists Menucha's programmes, not guest groups already holding the site.",
+     "quote": "What's happening in 2026",
+     "sourceUrl": "https://www.menucha.org/programs",
+     "sourceLabel": "Menucha 'What's happening in 2026' programs calendar"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "probably_available",
+     "evidence": "Menucha's own programs page lists its whole 2026 calendar month by month and shows no Menucha programme over this weekend, so the site is not blocked by its own use. Only 'probably': the page lists Menucha's programmes, not guest groups already holding the site.",
+     "quote": "What's happening in 2026",
+     "sourceUrl": "https://www.menucha.org/programs",
+     "sourceLabel": "Menucha 'What's happening in 2026' programs calendar"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "definitely_not_available",
+     "evidence": "Menucha's own 2026 calendar puts Blues in the Gorge on October 7-11, 2026, which covers the whole of this Fri-Sun, so whole-site use by an outside group is ruled out.",
+     "quote": "October 7-11, 2026",
+     "sourceUrl": "https://www.menucha.org/programs",
+     "sourceLabel": "Menucha 'What's happening in 2026' programs calendar"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "definitely_not_available",
+     "evidence": "Menucha's own 2026 calendar puts Bluegrass in the Gorge on October 15-18, 2026, which covers the whole of this Fri-Sun, so whole-site use by an outside group is ruled out.",
+     "quote": "October 15-18, 2026",
+     "sourceUrl": "https://www.menucha.org/programs",
+     "sourceLabel": "Menucha 'What's happening in 2026' programs calendar"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "definitely_not_available",
+     "evidence": "Menucha's own 2026 calendar puts Harmonica Northwest on October 22-25, 2026, which covers the whole of this Fri-Sun, so whole-site use by an outside group is ruled out.",
+     "quote": "October 22-25, 2026",
+     "sourceUrl": "https://www.menucha.org/programs",
+     "sourceLabel": "Menucha 'What's happening in 2026' programs calendar"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "definitely_not_available",
+     "evidence": "Menucha's own 2026 calendar puts Scrap & Sew Craft Retreat #3 on October 30-November 1, 2026, which covers the whole of this Fri-Sun, so whole-site use by an outside group is ruled out.",
+     "quote": "October 30-November 1, 2026",
+     "sourceUrl": "https://www.menucha.org/programs",
+     "sourceLabel": "Menucha 'What's happening in 2026' programs calendar"
+    }
+   ]
+  },
   "thumb": "images/menucha/thumb.jpg",
   "images": [
    {
@@ -7016,6 +7103,93 @@ window.VENUES = [
   "availability": [],
   "availabilityNotes": "58 guest rooms — a 60-person group is effectively the whole resort, which is the cleanest buyout case in this tier. Nine meeting rooms, 10,000+ sq ft of function space, seating 30-190. Harriet Bullitt's rebuild of a 1930s camp, with a large Northwest art collection through the grounds.",
   "checkedOn": "2026-08-26",
+  "verified": {
+   "checkedOn": "2026-08-26",
+   "method": "Fetched the resort's own event calendar (sleepinglady.com/events) and the Icicle Center arts calendar (icicle.org/events), both HTTP 200; neither publishes anything over these weekends. Fetched leavenworth.org/oktoberfest (HTTP 200) for the town's 2026 festival dates. Attempted the resort's own booking engine at reservations.sleepinglady.com for Oct 16-18 2026, but the engine would not advance past its guests-and-rooms step under automation, so no room-level availability was read for any weekend.",
+   "bookingPolicy": "58 guest rooms, sold to groups mainly as an inclusive per-person package covering rooms, meals and meeting space. Sixty people is effectively the whole resort, so any group hold is a de-facto buyout and has to go through group sales. The binding constraint here is the town: Leavenworth's Oktoberfest occupies three of the ten weekends.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "unknown",
+     "evidence": "The resort's own event calendar publishes nothing but nightly guest activities, and the Icicle Center arts calendar shows no upcoming events, so there is no public evidence either way for this weekend.",
+     "quote": "Nightly S’mores",
+     "sourceUrl": "https://www.sleepinglady.com/events/",
+     "sourceLabel": "Sleeping Lady resort event calendar"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "unknown",
+     "evidence": "The resort's own event calendar publishes nothing but nightly guest activities, and the Icicle Center arts calendar shows no upcoming events, so there is no public evidence either way for this weekend.",
+     "quote": "Nightly S’mores",
+     "sourceUrl": "https://www.sleepinglady.com/events/",
+     "sourceLabel": "Sleeping Lady resort event calendar"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "unknown",
+     "evidence": "The resort's own event calendar publishes nothing but nightly guest activities, and the Icicle Center arts calendar shows no upcoming events, so there is no public evidence either way for this weekend.",
+     "quote": "Nightly S’mores",
+     "sourceUrl": "https://www.sleepinglady.com/events/",
+     "sourceLabel": "Sleeping Lady resort event calendar"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "The resort's own event calendar publishes nothing but nightly guest activities, and the Icicle Center arts calendar shows no upcoming events, so there is no public evidence either way for this weekend.",
+     "quote": "Nightly S’mores",
+     "sourceUrl": "https://www.sleepinglady.com/events/",
+     "sourceLabel": "Sleeping Lady resort event calendar"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "unknown",
+     "evidence": "The resort's own event calendar publishes nothing but nightly guest activities, and the Icicle Center arts calendar shows no upcoming events, so there is no public evidence either way for this weekend.",
+     "quote": "Nightly S’mores",
+     "sourceUrl": "https://www.sleepinglady.com/events/",
+     "sourceLabel": "Sleeping Lady resort event calendar"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "probably_not_available",
+     "evidence": "This is Oktoberfest weekend one of three in Leavenworth, two miles from the resort. A 58-room property in a town hosting the Pacific Northwest's largest Oktoberfest is very unlikely to release a whole-site hold, and rates will be at peak. No direct sold-out evidence was obtained from the resort's own booking engine.",
+     "quote": "Celebrate Oktoberfest in Leavenworth on October 2–3, 9–10, and 16–17, 2026",
+     "sourceUrl": "https://leavenworth.org/oktoberfest/",
+     "sourceLabel": "Leavenworth Oktoberfest official dates page"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "probably_not_available",
+     "evidence": "This is Oktoberfest weekend two of three in Leavenworth, two miles from the resort. A 58-room property in a town hosting the Pacific Northwest's largest Oktoberfest is very unlikely to release a whole-site hold, and rates will be at peak. No direct sold-out evidence was obtained from the resort's own booking engine.",
+     "quote": "Celebrate Oktoberfest in Leavenworth on October 2–3, 9–10, and 16–17, 2026",
+     "sourceUrl": "https://leavenworth.org/oktoberfest/",
+     "sourceLabel": "Leavenworth Oktoberfest official dates page"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "probably_not_available",
+     "evidence": "This is Oktoberfest weekend three of three in Leavenworth, two miles from the resort. A 58-room property in a town hosting the Pacific Northwest's largest Oktoberfest is very unlikely to release a whole-site hold, and rates will be at peak. No direct sold-out evidence was obtained from the resort's own booking engine.",
+     "quote": "Celebrate Oktoberfest in Leavenworth on October 2–3, 9–10, and 16–17, 2026",
+     "sourceUrl": "https://leavenworth.org/oktoberfest/",
+     "sourceLabel": "Leavenworth Oktoberfest official dates page"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "unknown",
+     "evidence": "The resort's own event calendar publishes nothing but nightly guest activities, and the Icicle Center arts calendar shows no upcoming events, so there is no public evidence either way for this weekend.",
+     "quote": "Nightly S’mores",
+     "sourceUrl": "https://www.sleepinglady.com/events/",
+     "sourceLabel": "Sleeping Lady resort event calendar"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "unknown",
+     "evidence": "The resort's own event calendar publishes nothing but nightly guest activities, and the Icicle Center arts calendar shows no upcoming events, so there is no public evidence either way for this weekend.",
+     "quote": "Nightly S’mores",
+     "sourceUrl": "https://www.sleepinglady.com/events/",
+     "sourceLabel": "Sleeping Lady resort event calendar"
+    }
+   ]
+  },
   "thumb": "images/sleeping-lady/thumb.jpg",
   "images": [
    {
@@ -7106,6 +7280,93 @@ window.VENUES = [
   "availability": [],
   "availabilityNotes": "59 cottages plus Missions House Lodge and Columbine Lodge on 26 acres; one lodge sleeps 16 in eight en-suite rooms and seats 35. The grounds are a public city park and a National Historic Landmark, so this is a large room block plus meeting space, NOT an exclusive buyout — the site's own copy pitches curated retreat programmes for 10-50, so 60 needs a conversation.",
   "checkedOn": "2026-08-26",
+  "verified": {
+   "checkedOn": "2026-08-26",
+   "method": "Fetched Chautauqua's own 'Upcoming Events' calendar (chautauqua.com/events, HTTP 200) for programming on the grounds, and the ESPN Colorado Buffaloes 2026 schedule (HTTP 200) for CU home dates — Chautauqua sits about half a mile from Folsom Field and its cottages are the closest lodging to campus, so CU home weekends reliably absorb Boulder rooms. No room-level availability was read: Chautauqua publishes no group-availability calendar and its cottage booking engine was not driven.",
+   "bookingPolicy": "26 acres of cottages and lodges that are also a National Historic Landmark and a public city park, so there is no exclusive buyout — this is a large room block plus meeting space. Chautauqua's own copy pitches curated retreat programmes for 10-50 people, so a 60-person hold needs a conversation with their group team. Its Auditorium and Community House run public ticketed events year-round.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "probably_available",
+     "evidence": "Chautauqua's own events calendar lists nothing on the grounds this weekend and CU is not at home, so neither of the two things that reliably fill this site applies. CU opens away at Georgia Tech on Sep 3. Only 'probably': lodging availability itself is not published.",
+     "quote": "Upcoming Events",
+     "sourceUrl": "https://www.chautauqua.com/events/",
+     "sourceLabel": "Colorado Chautauqua 'Upcoming Events' calendar"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "probably_available",
+     "evidence": "Nothing is listed on the Chautauqua grounds and CU is away, but this is Labor Day weekend, when Boulder and its trailheads are at their busiest — so treat availability as plausible but competitive.",
+     "quote": "Upcoming Events",
+     "sourceUrl": "https://www.chautauqua.com/events/",
+     "sourceLabel": "Colorado Chautauqua 'Upcoming Events' calendar"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "probably_not_available",
+     "evidence": "Three things land on this weekend at once: CU hosts Weber State on Sep 12, and Chautauqua's own Auditorium has the Cowboy Junkies on Sep 12 and the Boulder Histories Film Festival on Sep 13. The grounds and the town are both committed.",
+     "quote": "Cowboy Junkies – Celebrating 40 Years and Beyond",
+     "sourceUrl": "https://www.chautauqua.com/events/",
+     "sourceLabel": "Colorado Chautauqua 'Upcoming Events' calendar"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "probably_not_available",
+     "evidence": "Chautauqua's own venues are running Boulder Ballet on Sep 19 and Festival Del Sol on Sep 20, so the Auditorium and the green — the spaces a 60-person group would want — are occupied for most of the weekend.",
+     "quote": "Boulder Ballet: [In]Human",
+     "sourceUrl": "https://www.chautauqua.com/events/",
+     "sourceLabel": "Colorado Chautauqua 'Upcoming Events' calendar"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "probably_available",
+     "evidence": "Chautauqua's own events calendar lists nothing on the grounds this weekend and CU is not at home, so neither of the two things that reliably fill this site applies. CU is away at Baylor on Sep 26 and the grounds are clear. Only 'probably': lodging availability itself is not published.",
+     "quote": "Upcoming Events",
+     "sourceUrl": "https://www.chautauqua.com/events/",
+     "sourceLabel": "Colorado Chautauqua 'Upcoming Events' calendar"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "probably_not_available",
+     "evidence": "CU hosts Texas Tech at Folsom Field on Oct 3, half a mile away. Boulder lodging on a Big 12 home Saturday is scarce and priced accordingly; Chautauqua's cottages are the closest beds to the stadium.",
+     "quote": "Sat, Oct 3",
+     "sourceUrl": "https://www.espn.com/college-football/team/schedule/_/id/38/colorado-buffaloes",
+     "sourceLabel": "ESPN — Colorado Buffaloes 2026 schedule"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "probably_available",
+     "evidence": "The single clearest weekend of the ten here: CU has a bye — no game between Oct 3 and Oct 17 — and Chautauqua's own calendar is empty between Sep 30 and Oct 16. Only 'probably' because lodging availability itself is not published.",
+     "quote": "Upcoming Events",
+     "sourceUrl": "https://www.chautauqua.com/events/",
+     "sourceLabel": "Colorado Chautauqua 'Upcoming Events' calendar"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "probably_not_available",
+     "evidence": "The target weekend is the worst one for this venue. CU hosts Utah at Folsom Field on Oct 17, and Chautauqua's own Auditorium has a ticketed 8pm concert on Oct 16 — a public crowd on the grounds on the Friday night, and a sold-out town on the Saturday.",
+     "quote": "Heavy Diamond Ring with Stelth Ulvang",
+     "sourceUrl": "https://www.chautauqua.com/events/",
+     "sourceLabel": "Colorado Chautauqua 'Upcoming Events' calendar"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "probably_available",
+     "evidence": "CU is away at Oklahoma State on Oct 24 and the only thing on the grounds is a square dance on the Saturday evening, which is small enough to work around.",
+     "quote": "Chautauqua Square Dance",
+     "sourceUrl": "https://www.chautauqua.com/events/",
+     "sourceLabel": "Colorado Chautauqua 'Upcoming Events' calendar"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "probably_not_available",
+     "evidence": "CU hosts Kansas State on Oct 31, which is also Halloween — the two together make Boulder lodging tight.",
+     "quote": "Sat, Oct 31",
+     "sourceUrl": "https://www.espn.com/college-football/team/schedule/_/id/38/colorado-buffaloes",
+     "sourceLabel": "ESPN — Colorado Buffaloes 2026 schedule"
+    }
+   ]
+  },
   "thumb": "images/chautauqua-boulder/thumb.jpg",
   "images": [
    {
@@ -7180,6 +7441,93 @@ window.VENUES = [
   "availability": [],
   "availabilityNotes": "30 waterfront acres on Cascade Bay; sources disagree on the room count (69 in one listing, up to 107 in others) but either comfortably covers 60. The 1909 Moran Mansion holds the restaurant, spa, museum and pipe organ and has no guest rooms. Getting there is the interesting part: Orcas Island Airport is about 10 minutes away and the Rosario Seaplane Base is on the resort's own waterfront, so Kenmore Air can land a group at the door — but from the Bay Area that means SFO-SEA plus a small plane or the Anacortes ferry.",
   "checkedOn": "2026-08-26",
+  "verified": {
+   "checkedOn": "2026-08-26",
+   "method": "Fetched the Orcas Island Film Festival site (oifilmfest.org, HTTP 200) for its 2026 dates, which is the one dated conflict that could be confirmed from a primary source. Searched for other island events; the San Juans visitor calendar and Orcas chamber calendar surfaced an OrcasFest in late October, but that came only from search summaries and could not be confirmed on a fetched page, so it is deliberately not used as evidence. The resort itself publishes no availability calendar and its Wix booking flow was not driven, so no room-level data was read for any weekend.",
+   "bookingPolicy": "A 30-acre waterfront resort with somewhere between 69 and 107 rooms depending on the listing; the 1909 Moran Mansion holds the restaurant, spa and event space but no guest rooms. No published buyout policy. The real constraint is that Orcas is a small island reached by ferry or small plane, so island-wide events absorb the lodging stock quickly.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "unknown",
+     "evidence": "Rosario publishes no group or buyout availability, and no island-wide event was found for this weekend on a page that could be fetched. The public web does not say either way.",
+     "quote": "",
+     "sourceUrl": "https://www.rosarioresort.com/",
+     "sourceLabel": "Rosario Resort site (no public group-availability calendar)"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "unknown",
+     "evidence": "Rosario publishes no group or buyout availability, and no island-wide event was found for this weekend on a page that could be fetched. The public web does not say either way.",
+     "quote": "",
+     "sourceUrl": "https://www.rosarioresort.com/",
+     "sourceLabel": "Rosario Resort site (no public group-availability calendar)"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "unknown",
+     "evidence": "Rosario publishes no group or buyout availability, and no island-wide event was found for this weekend on a page that could be fetched. The public web does not say either way.",
+     "quote": "",
+     "sourceUrl": "https://www.rosarioresort.com/",
+     "sourceLabel": "Rosario Resort site (no public group-availability calendar)"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "Rosario publishes no group or buyout availability, and no island-wide event was found for this weekend on a page that could be fetched. The public web does not say either way.",
+     "quote": "",
+     "sourceUrl": "https://www.rosarioresort.com/",
+     "sourceLabel": "Rosario Resort site (no public group-availability calendar)"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "unknown",
+     "evidence": "Rosario publishes no group or buyout availability, and no island-wide event was found for this weekend on a page that could be fetched. The public web does not say either way.",
+     "quote": "",
+     "sourceUrl": "https://www.rosarioresort.com/",
+     "sourceLabel": "Rosario Resort site (no public group-availability calendar)"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "unknown",
+     "evidence": "Rosario publishes no group or buyout availability, and no island-wide event was found for this weekend on a page that could be fetched. The public web does not say either way.",
+     "quote": "",
+     "sourceUrl": "https://www.rosarioresort.com/",
+     "sourceLabel": "Rosario Resort site (no public group-availability calendar)"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "unknown",
+     "evidence": "Rosario publishes no group or buyout availability, and no island-wide event was found for this weekend on a page that could be fetched. The public web does not say either way.",
+     "quote": "",
+     "sourceUrl": "https://www.rosarioresort.com/",
+     "sourceLabel": "Rosario Resort site (no public group-availability calendar)"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "probably_not_available",
+     "evidence": "The Orcas Island Film Festival runs Oct 14-18, 2026, straddling the whole target weekend. On an island this size a festival of that scale takes most of the lodging, and Rosario is five miles from the Eastsound screening venues.",
+     "quote": "October 14th-18th",
+     "sourceUrl": "https://oifilmfest.org/",
+     "sourceLabel": "Orcas Island Film Festival 2026 dates"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "unknown",
+     "evidence": "Rosario publishes no group or buyout availability, and no island-wide event was found for this weekend on a page that could be fetched. The public web does not say either way.",
+     "quote": "",
+     "sourceUrl": "https://www.rosarioresort.com/",
+     "sourceLabel": "Rosario Resort site (no public group-availability calendar)"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "unknown",
+     "evidence": "Rosario publishes no group or buyout availability, and no island-wide event was found for this weekend on a page that could be fetched. The public web does not say either way.",
+     "quote": "",
+     "sourceUrl": "https://www.rosarioresort.com/",
+     "sourceLabel": "Rosario Resort site (no public group-availability calendar)"
+    }
+   ]
+  },
   "thumb": "images/rosario-resort/thumb.jpg",
   "images": [
    {
@@ -7262,6 +7610,93 @@ window.VENUES = [
   "availability": [],
   "availabilityNotes": "97 rooms, casitas and suites; over 14,000 sq ft of function space across six meeting rooms, the 2,910 sq ft Casa Luna and the 3,400 sq ft Casa Alcalde private residence (which itself holds a 35-person reception). The resort actively markets full buyouts, so 60 people can have the place to themselves. The tradeoff is price and the fact that it is a working luxury resort rather than a retreat centre.",
   "checkedOn": "2026-08-26",
+  "verified": {
+   "checkedOn": "2026-08-26",
+   "method": "Fetched tucsonmeetyourself.org (HTTP 200) for the 2026 festival dates — note the official site says Oct 16-18, while several third-party listings say Oct 16-19, and the official dates are used here. Checked the resort's own meetings and events page for any published availability; it publishes none, only an RFP contact route. The booking engine was not driven, so no room-level availability was read for any weekend.",
+   "bookingPolicy": "97 rooms, casitas and suites with 14,000+ sq ft of function space; the resort actively markets full buyouts, so a 60-person exclusive hold is a normal ask rather than an exception. Everything goes through group sales — no rates or availability are published. Mid-October begins Tucson's high season.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "unknown",
+     "evidence": "The resort publishes no group or buyout availability calendar and no dated conflict was found for this weekend. Worth noting generally: mid-October is the start of Tucson's high season, so rates and occupancy both climb across this whole window.",
+     "quote": "",
+     "sourceUrl": "https://www.haciendadelsol.com/meetings-events",
+     "sourceLabel": "Hacienda del Sol meetings & events page"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "unknown",
+     "evidence": "The resort publishes no group or buyout availability calendar and no dated conflict was found for this weekend. Worth noting generally: mid-October is the start of Tucson's high season, so rates and occupancy both climb across this whole window.",
+     "quote": "",
+     "sourceUrl": "https://www.haciendadelsol.com/meetings-events",
+     "sourceLabel": "Hacienda del Sol meetings & events page"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "unknown",
+     "evidence": "The resort publishes no group or buyout availability calendar and no dated conflict was found for this weekend. Worth noting generally: mid-October is the start of Tucson's high season, so rates and occupancy both climb across this whole window.",
+     "quote": "",
+     "sourceUrl": "https://www.haciendadelsol.com/meetings-events",
+     "sourceLabel": "Hacienda del Sol meetings & events page"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "The resort publishes no group or buyout availability calendar and no dated conflict was found for this weekend. Worth noting generally: mid-October is the start of Tucson's high season, so rates and occupancy both climb across this whole window.",
+     "quote": "",
+     "sourceUrl": "https://www.haciendadelsol.com/meetings-events",
+     "sourceLabel": "Hacienda del Sol meetings & events page"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "unknown",
+     "evidence": "The resort publishes no group or buyout availability calendar and no dated conflict was found for this weekend. Worth noting generally: mid-October is the start of Tucson's high season, so rates and occupancy both climb across this whole window.",
+     "quote": "",
+     "sourceUrl": "https://www.haciendadelsol.com/meetings-events",
+     "sourceLabel": "Hacienda del Sol meetings & events page"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "unknown",
+     "evidence": "The resort publishes no group or buyout availability calendar and no dated conflict was found for this weekend. Worth noting generally: mid-October is the start of Tucson's high season, so rates and occupancy both climb across this whole window.",
+     "quote": "",
+     "sourceUrl": "https://www.haciendadelsol.com/meetings-events",
+     "sourceLabel": "Hacienda del Sol meetings & events page"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "unknown",
+     "evidence": "The resort publishes no group or buyout availability calendar and no dated conflict was found for this weekend. Worth noting generally: mid-October is the start of Tucson's high season, so rates and occupancy both climb across this whole window.",
+     "quote": "",
+     "sourceUrl": "https://www.haciendadelsol.com/meetings-events",
+     "sourceLabel": "Hacienda del Sol meetings & events page"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "probably_not_available",
+     "evidence": "Tucson Meet Yourself, the city's largest folklife festival, runs downtown across exactly the target weekend and is also on the University of Arizona's Family Weekend programme. Citywide lodging demand that weekend is at its annual peak, which makes a 97-room buyout both unlikely and expensive.",
+     "quote": "OCT 16-18, 2026",
+     "sourceUrl": "https://tucsonmeetyourself.org/",
+     "sourceLabel": "Tucson Meet Yourself 2026 festival dates"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "unknown",
+     "evidence": "The resort publishes no group or buyout availability calendar and no dated conflict was found for this weekend. Worth noting generally: mid-October is the start of Tucson's high season, so rates and occupancy both climb across this whole window.",
+     "quote": "",
+     "sourceUrl": "https://www.haciendadelsol.com/meetings-events",
+     "sourceLabel": "Hacienda del Sol meetings & events page"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "unknown",
+     "evidence": "The resort publishes no group or buyout availability calendar and no dated conflict was found for this weekend. Worth noting generally: mid-October is the start of Tucson's high season, so rates and occupancy both climb across this whole window.",
+     "quote": "",
+     "sourceUrl": "https://www.haciendadelsol.com/meetings-events",
+     "sourceLabel": "Hacienda del Sol meetings & events page"
+    }
+   ]
+  },
   "thumb": "images/hacienda-del-sol/thumb.jpg",
   "images": [
    {
@@ -7352,6 +7787,93 @@ window.VENUES = [
   "availability": [],
   "availabilityNotes": "5,000 acres in Provo Canyon under Mount Timpanogos, with rooms, cottages/suites and multi-bedroom mountain homes and about 12,000 sq ft of indoor and outdoor meeting space. This is the closest thing on the list to a purpose-built beautiful campus at scale, and also close to the most expensive. Whether 60 can hold the whole village in mid-October (leaf season, pre-ski) needs a group-sales conversation.",
   "checkedOn": "2026-08-26",
+  "verified": {
+   "checkedOn": "2026-08-26",
+   "method": "Fetched the ESPN BYU Cougars 2026 schedule (HTTP 200) for home dates at LaVell Edwards Stadium, about 20 minutes down the canyon — BYU home weekends are the main external driver of Utah Valley lodging demand. Checked Sundance's own lodging pages, which publish no availability calendar; the booking engine was not driven, so no room-level availability was read. Note that mid-October is peak leaf season on the Alpine Loop, which is its own demand driver independent of anything scheduled.",
+   "bookingPolicy": "A 5,000-acre resort village of rooms, cottages/suites and multi-bedroom mountain homes with about 12,000 sq ft of meeting space. No published buyout policy and no published group rates; third-party listings for October 2026 run roughly $278-$482 a night. Mid-October falls between leaf season and ski season, which is the best structural shot at holding the village — but see the Notre Dame conflict on the target weekend.",
+   "weekends": [
+    {
+     "weekend": "2026-08-28",
+     "status": "unknown",
+     "evidence": "Sundance publishes no group or buyout availability. BYU is not at home and no dated conflict was found.",
+     "quote": "",
+     "sourceUrl": "https://www.sundanceresort.com/stay/",
+     "sourceLabel": "Sundance lodging page (no public availability calendar)"
+    },
+    {
+     "weekend": "2026-09-04",
+     "status": "unknown",
+     "evidence": "Sundance publishes no group or buyout availability. BYU hosts Utah Tech on Sep 5, which tightens Utah Valley lodging, though a low-draw opponent is unlikely to reach a destination resort up the canyon.",
+     "quote": "Sat, Sep 5",
+     "sourceUrl": "https://www.espn.com/college-football/team/schedule/_/id/252/byu-cougars",
+     "sourceLabel": "ESPN — BYU Cougars 2026 schedule"
+    },
+    {
+     "weekend": "2026-09-11",
+     "status": "unknown",
+     "evidence": "Sundance publishes no group or buyout availability. BYU hosts Arizona on Sep 12 — a bigger draw, so Utah Valley rooms will be tighter, but nothing directly ties this to Sundance.",
+     "quote": "Sat, Sep 12",
+     "sourceUrl": "https://www.espn.com/college-football/team/schedule/_/id/252/byu-cougars",
+     "sourceLabel": "ESPN — BYU Cougars 2026 schedule"
+    },
+    {
+     "weekend": "2026-09-18",
+     "status": "unknown",
+     "evidence": "Sundance publishes no group or buyout availability. BYU is away at Colorado State and no dated conflict was found.",
+     "quote": "",
+     "sourceUrl": "https://www.sundanceresort.com/stay/",
+     "sourceLabel": "Sundance lodging page (no public availability calendar)"
+    },
+    {
+     "weekend": "2026-09-25",
+     "status": "unknown",
+     "evidence": "Sundance publishes no group or buyout availability. No BYU home game and no dated conflict was found.",
+     "quote": "",
+     "sourceUrl": "https://www.sundanceresort.com/stay/",
+     "sourceLabel": "Sundance lodging page (no public availability calendar)"
+    },
+    {
+     "weekend": "2026-10-02",
+     "status": "unknown",
+     "evidence": "Sundance publishes no group or buyout availability. BYU is away at TCU and no dated conflict was found.",
+     "quote": "",
+     "sourceUrl": "https://www.sundanceresort.com/stay/",
+     "sourceLabel": "Sundance lodging page (no public availability calendar)"
+    },
+    {
+     "weekend": "2026-10-09",
+     "status": "unknown",
+     "evidence": "Sundance publishes no group or buyout availability. BYU hosts Iowa State on the Friday night of this weekend, which puts the demand spike on the Friday rather than the Saturday.",
+     "quote": "Fri, Oct 9",
+     "sourceUrl": "https://www.espn.com/college-football/team/schedule/_/id/252/byu-cougars",
+     "sourceLabel": "ESPN — BYU Cougars 2026 schedule"
+    },
+    {
+     "weekend": "2026-10-16",
+     "status": "probably_not_available",
+     "evidence": "BYU hosts fourth-ranked Notre Dame on Oct 17, twenty minutes down the canyon — ESPN's own listing shows resale tickets starting at $556, which is roughly five times any other home game on the schedule and a fair proxy for how completely that game fills Utah Valley lodging. It also coincides with peak Alpine Loop leaf season.",
+     "quote": "Sat, Oct 17",
+     "sourceUrl": "https://www.espn.com/college-football/team/schedule/_/id/252/byu-cougars",
+     "sourceLabel": "ESPN — BYU Cougars 2026 schedule"
+    },
+    {
+     "weekend": "2026-10-23",
+     "status": "unknown",
+     "evidence": "Sundance publishes no group or buyout availability. BYU is away at UCF and no dated conflict was found.",
+     "quote": "",
+     "sourceUrl": "https://www.sundanceresort.com/stay/",
+     "sourceLabel": "Sundance lodging page (no public availability calendar)"
+    },
+    {
+     "weekend": "2026-10-30",
+     "status": "unknown",
+     "evidence": "Sundance publishes no group or buyout availability. BYU hosts Arizona State on Oct 31, which tightens Utah Valley lodging over Halloween weekend.",
+     "quote": "Sat, Oct 31",
+     "sourceUrl": "https://www.espn.com/college-football/team/schedule/_/id/252/byu-cougars",
+     "sourceLabel": "ESPN — BYU Cougars 2026 schedule"
+    }
+   ]
+  },
   "thumb": "images/sundance-resort/thumb.jpg",
   "images": [
    {
