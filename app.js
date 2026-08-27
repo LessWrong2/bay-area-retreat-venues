@@ -5,6 +5,18 @@
   var TIER_ORDER = { A: 0, B: 1, C: 2, FLY: 3, REF: 4 };
   var TIER_NAMES = { A: 'Tier A — strongest matches', B: 'Tier B — solid, with tradeoffs', C: 'Tier C — worth a call', FLY: 'Fly-in — worth the flight', REF: 'Reference' };
   var SF = [37.7749, -122.4194];
+
+  // CARTO started requiring a key on its raster basemaps; without one every tile
+  // comes back stamped "API KEY REQUIRED". Request one at carto.com/basemaps/apikey
+  // — free, no account, 5M tiles/month, emailed back — and paste it here.
+  // This repo is public, so whatever goes here is readable by anyone; the key is
+  // issued against the domain you name on the request form, which is the only
+  // thing limiting its use.
+  var CARTO_KEY = '';
+  function cartoTiles(style) {
+    return 'https://{s}.basemaps.cartocdn.com/rastertiles/' + style + '/{z}/{x}/{y}{r}.png' +
+      (CARTO_KEY ? '?key=' + encodeURIComponent(CARTO_KEY) : '');
+  }
   var TIER_DESC = {
     A: 'Strongest matches to the Lighthaven / SSS Ranch / The Shadows profile: real character, whole-site exclusive use, on-site lodging that lands near 60, within about 2.5 hours of SF.',
     B: 'Solid and bookable, but each trades something: aesthetics, distance, guest-type restrictions, or dorm-style lodging.',
@@ -66,14 +78,14 @@
   /* ---------- map ---------- */
   var map = L.map('map', { center: [38.1, -122.6], zoom: 8, zoomControl: false, attributionControl: true, scrollWheelZoom: true, zoomSnap: 0.25, fadeAnimation: false });
   L.control.zoom({ position: 'bottomright' }).addTo(map);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png', {
+  L.tileLayer(cartoTiles('voyager_nolabels'), {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
     subdomains: 'abcd', maxZoom: 19
   }).addTo(map);
   map.createPane('labels');
   map.getPane('labels').style.zIndex = 450;
   map.getPane('labels').style.pointerEvents = 'none';
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}{r}.png', {
+  L.tileLayer(cartoTiles('voyager_only_labels'), {
     subdomains: 'abcd', maxZoom: 19, pane: 'labels', opacity: 0.85
   }).addTo(map);
 
